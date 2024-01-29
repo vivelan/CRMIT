@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <folder>Pricing_Dashboards</folder>
+    <masterLabel>Pricing Dashboards</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>jens.lauer@stahl-holding-saar.de</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>SAGMarketingProfile</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>SAGSales</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </shares>
+    <shares>
+        <accessLevel>View</accessLevel>
+        <sharedTo>SAGSalesOthers</sharedTo>
+        <sharedToType>Group</sharedToType>
+    </shares>
+</WaveApplication>

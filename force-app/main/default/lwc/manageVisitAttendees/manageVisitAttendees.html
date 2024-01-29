@@ -1,0 +1,119 @@
+<template>
+    <div class="slds-grid slds-wrap container-grid">
+      <!--<template if:true={displayManageExternalAttendees}>
+        <template if:false={smallDevice}>
+          <div class="slds-tile-style slds-size_1-of-2">
+                <article class="slds-tile slds-media tile-grid" onclick={openExternalModal}>
+                  <div class="slds-media__figure">
+                      <lightning-icon icon-name="standard:user" alternative-text="User" title="User"></lightning-icon>
+                  </div>
+                  <div class="slds-media__body">
+                    <h3 class="slds-truncate slds-tile__title title-text" title={Attendees}>{ExternalAttendees}</h3>
+                    <div class="slds-tile__detail">
+                      <dl class="slds-list_horizontal slds-wrap">
+                        <dt class="slds-truncate slds-item_detail slds-has-flexi-truncate details-text" title={ManageAttendees}>{ManageAttendees}</dt>
+                      </dl>
+                    </div>
+                  </div>
+                </article>
+          </div>
+        </template>
+        <template if:true={smallDevice}>
+          <div class="slds-tile-style slds-size_2-of-2">
+            <article class="slds-tile slds-media tile-grid" onclick={openExternalModal}>
+              <div class="slds-media__figure">
+                  <lightning-icon icon-name="standard:user" alternative-text="User" title="User"></lightning-icon>
+              </div>
+              <div class="slds-media__body">
+                <h3 class="slds-truncate slds-tile__title title-text" title={Attendees}>{ExternalAttendees}</h3>
+                <div class="slds-tile__detail">
+                  <dl class="slds-list_horizontal slds-wrap">
+                    <dt class="slds-truncate slds-item_detail slds-has-flexi-truncate details-text" title={ManageAttendees}>{ManageAttendees}</dt>
+                  </dl>
+                </div>
+              </div>
+            </article>
+          </div>
+        </template>
+        </template>-->
+        <template if:true={displayManageInternalAttendees}>
+          <template if:false={smallDevice}>
+            <div class="slds-tile-style slds-size_1-of-2">
+                  <article class="slds-tile slds-media tile-grid" onclick={openIternalModal}>
+                    <div class="slds-media__figure">
+                        <lightning-icon icon-name="standard:user" alternative-text="User" title="User"></lightning-icon>
+                    </div>
+                    <div class="slds-media__body">
+                      <h3 class="slds-truncate slds-tile__title title-text" title={Attendees}>{InternalAttendees}</h3>
+                      <div class="slds-tile__detail">
+                        <dl class="slds-list_horizontal slds-wrap">
+                          <dt class="slds-truncate slds-item_detail slds-has-flexi-truncate details-text" title={ManageAttendees}>{ManageAttendees}</dt>
+                        </dl>
+                      </div>
+                    </div>
+                  </article>
+            </div>
+          </template>
+          <template if:true={smallDevice}>
+            <div class="slds-tile-style slds-size_2-of-2">
+              <article class="slds-tile slds-media tile-grid" onclick={openIternalModal}>
+                <div class="slds-media__figure">
+                    <lightning-icon icon-name="standard:user" alternative-text="User" title="User"></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                  <h3 class="slds-truncate slds-tile__title title-text" title={Attendees}>{InternalAttendees}</h3>
+                  <div class="slds-tile__detail">
+                    <dl class="slds-list_horizontal slds-wrap">
+                      <dt class="slds-truncate slds-item_detail slds-has-flexi-truncate details-text" title={ManageAttendees}>{ManageAttendees}</dt>
+                    </dl>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </template>
+          </template>
+      <!--<template if:true={displayManageChecklists}>
+        <template if:false={smallDevice}>
+            <div class="slds-tile-style slds-size_1-of-2">
+              <article class="slds-tile slds-media tile-grid" onclick={openModalManageChecklists}>
+                    <div class="slds-media__figure">
+                        <lightning-icon icon-name="standard:task" alternative-text="Checklists" title="Checklists"></lightning-icon>
+                    </div>
+                    <div class="slds-media__body">
+                      <h3 class="slds-truncate slds-tile__title title-text" title={Checklists}>{Checklists}</h3>
+                      <div class="slds-tile__detail">
+                        <dl class="slds-list_horizontal slds-wrap">
+                          <dt class="slds-truncate slds-item_detail slds-has-flexi-truncate details-text" title={ChecklistsHelpText}>{ChecklistsHelpText}</dt>
+                        </dl>
+                      </div>
+                    </div>
+                  </article>
+              </div>
+          </template>
+          <template if:true={smallDevice}>
+            <div class="slds-tile-style slds-size_2-of-2">
+              <article class="slds-tile slds-media tile-grid" onclick={openModalManageChecklists}>
+                    <div class="slds-media__figure">
+                        <lightning-icon icon-name="standard:task" alternative-text="Checklists" title="Checklists"></lightning-icon>
+                    </div>
+                    <div class="slds-media__body">
+                      <h3 class="slds-truncate slds-tile__title title-text" title={Checklists}>{Checklists}</h3>
+                      <div class="slds-tile__detail">
+                        <dl class="slds-list_horizontal slds-wrap">
+                          <dt class="slds-truncate slds-item_detail slds-has-flexi-truncate details-text" title={ChecklistsHelpText}>{ChecklistsHelpText}</dt>
+                        </dl>
+                      </div>
+                    </div>
+                  </article>
+              </div>
+          </template>
+      </template>-->
+      <div class="CenteredButton">
+        <template if:true={displayBackButton}>
+          <lightning-button data-id={recordId} class="standardBtn" label="Back" onclick={closeQuickAction}></lightning-button>
+        </template>
+      </div>
+    </div>
+        <c-edit-internal-attendees visit-report-name={visitReportName} visit-report-account={visitReportAccount} internal-attendee-from-parent={internalAttendee} external-attendee-from-parent={externalAttendee} ondialogclosed={handleClose} record-id={recordId}></c-edit-internal-attendees>
+        <!--<c-manage-checklist visit-report-name={visitReportName} ondialogclosed={handleClose} record-id={recordId}></c-manage-checklist>-->
+</template>

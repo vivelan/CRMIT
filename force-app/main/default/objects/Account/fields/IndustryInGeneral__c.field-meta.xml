@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IndustryInGeneral__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry in general</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Automotive industry</fullName>
+                <default>false</default>
+                <label>Automotive industry</label>
+            </value>
+            <value>
+                <fullName>Mechanical engineering</fullName>
+                <default>false</default>
+                <label>Mechanical engineering</label>
+            </value>
+            <value>
+                <fullName>Agricultural machinery</fullName>
+                <default>false</default>
+                <label>Agricultural machinery</label>
+            </value>
+            <value>
+                <fullName>Construction industry</fullName>
+                <default>false</default>
+                <label>Construction industry</label>
+            </value>
+            <value>
+                <fullName>Energy/ Wind power</fullName>
+                <default>false</default>
+                <label>Energy/ Wind power</label>
+            </value>
+            <value>
+                <fullName>Rail</fullName>
+                <default>false</default>
+                <label>Rail</label>
+            </value>
+            <value>
+                <fullName>Trade</fullName>
+                <default>false</default>
+                <label>Trade</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

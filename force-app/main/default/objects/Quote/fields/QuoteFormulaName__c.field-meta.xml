@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QuoteFormulaName__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;Q-&quot; &amp;(RIGHT(TEXT(YEAR( DATEVALUE( CreatedDate )) ), 2)  &amp; &apos;-&apos; &amp; QuoteAutoNumber__c)</formula>
+    <label>Quote Formula Name</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

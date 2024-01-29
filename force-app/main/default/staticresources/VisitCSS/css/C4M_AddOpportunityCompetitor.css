@@ -1,0 +1,51 @@
+.search-result-label{
+    text-align: right;
+}
+
+.tableContainer {
+    margin-top: 1.35%;
+}
+
+.slds-row-number{
+    font-size: 12px;
+}
+
+.c4m-is-primary-competitor-checkbox {
+    text-align: center;
+}
+
+.td-style{
+    width: 15rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.th-table-competitor-name-add {
+    border-right: 1px solid;
+    border-left: 1px solid;
+    width: 100px;
+    border-color: gray;
+}
+
+.th-table-competitor-primary{
+    border-right: 1px solid;
+    width: 170px;
+    border-color: gray;
+}
+
+.th-table-competitor-strengths {
+    border-right: 1px solid;
+    width: 150px;
+    border-color: gray;
+}
+
+.th-table-competitor-weaknesses {
+    border-right: 1px solid;
+    width: 150px;
+    border-color: gray;
+}
+
+.table-scroll-auto{
+    overflow-x: scroll;
+    position: relative;
+}

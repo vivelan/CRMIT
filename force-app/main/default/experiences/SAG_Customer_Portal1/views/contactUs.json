@@ -1,0 +1,119 @@
+{
+  "appPageId" : "4bffd369-a514-4a0e-869a-6f6299257c52",
+  "componentName" : "siteforce:sldsTwoCol66Layout",
+  "dataProviders" : [ ],
+  "id" : "b04230bb-132e-46b4-ad65-bd91fdc42c57",
+  "label" : "Contact Us",
+  "regions" : [ {
+    "id" : "bcaa021c-6a96-406e-bbef-e12daa7f3f62",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "allowAttachments" : true,
+        "attachmentLabel" : "Upload File",
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : "",
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "callToAction" : false,
+        "callToActionButtonText" : "",
+        "callToActionText" : "",
+        "callToActionUrl" : "",
+        "confirmationSubtext" : "We’ll get back to you soon.",
+        "confirmationText" : "Your case was created.",
+        "guestQuickActionName" : "Select or configure a global action",
+        "headerSubtitle" : "Tell us how we can help.",
+        "headerTitle" : "Contact Customer Support",
+        "isMicrobatch" : false,
+        "quickActionName" : "NewCommunityCase",
+        "requestSummaryText" : "Case summary"
+      },
+      "componentName" : "forceCommunity:contactSupportForm",
+      "id" : "25186dfa-4237-4999-8cc3-c3e19bb20049",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "de" : "ba51d076-c961-4503-9607-a3f8a3b1776c"
+      },
+      "renditions" : [ {
+        "id" : "ba51d076-c961-4503-9607-a3f8a3b1776c",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "attachmentLabel" : "Dateien hochladen",
+            "headerSubtitle" : "Wie können wir Ihnen behilflich sein?",
+            "headerTitle" : "Kontaktaufnahme für Hilfestellungen "
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "7a1d3559-0923-414e-9e1f-c4d9e3b407b4",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "askConfirmationQuestion" : true,
+        "confirmationMessageLabel" : "Got it!",
+        "deflectionSubtitle" : "Find what you need here.",
+        "deflectionTitle" : "Need Answers Fast?",
+        "firstQuestion" : "Did this content solve your issue?",
+        "maxResults" : 6,
+        "measureDeflection" : true,
+        "redirectUrl" : "",
+        "secondQuestion" : "Stop creating your case?",
+        "showArticles" : true,
+        "showDiscussions" : false,
+        "topicId" : ""
+      },
+      "componentName" : "forceCommunity:caseDeflection",
+      "id" : "2c53fd8e-7b23-4acb-81c0-0782b95055b3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "de" : "d1cfa040-29ee-4409-9c0b-59418c53bf29"
+      },
+      "renditions" : [ {
+        "id" : "d1cfa040-29ee-4409-9c0b-59418c53bf29",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "deflectionSubtitle" : "Hier finden Sie was Sie brauchen.",
+            "deflectionTitle" : "Brauchen Sie schnell Antworten?"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "ed3b1ed7-a064-41f4-b15e-17e2e23e6544",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "c8fac690-6fb9-4ca9-8d81-96223c011d1d",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Contact Us"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "6d98ca44-5aa4-4983-8d13-c629edebf347",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "f8d620e3-6646-400e-b791-0b5b36f0c0f5",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "contactsupport"
+}

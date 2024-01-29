@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Account manager (Product manager) - ZK</masterLabel>
+        <translation>Vertriebsbereichsleiter - ZK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contact External Office - ZA</masterLabel>
+        <translation>Ansprechpartner Außenbüro - ZA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contact person AV (work preparation) - ZN</masterLabel>
+        <translation>Sachbearbeiter AV - ZN</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>QW account manager - ZQ</masterLabel>
+        <translation>Technischer Kundenbetreuer - ZQ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Quality Representative - ZS</masterLabel>
+        <translation>Sachbearbeiter QW - ZS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sales Representative - ZM</masterLabel>
+        <translation>Sachbearbeiter Vertrieb - ZM</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

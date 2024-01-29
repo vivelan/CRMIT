@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label>Kontaktinformationen</label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage>Sie können keinen Lead für ein geblocktes Land erstellen.</errorMessage>
+        <name>ValidateLeadCountry</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Ein Lead kann nur im Status &quot;Neu&quot; erstellt werden.</errorMessage>
+        <name>LeadStatusOnCreation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte geben Sie eine Telefonnummer im Format &quot;+49123456789&quot; ein.</errorMessage>
+        <name>PhoneNumberBeginWithPlusLead</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte geben Sie den &quot;Grund für den Verzicht auf Konvertierung&quot; an.</errorMessage>
+        <name>ValidationOnActiveUncheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte nutzen Sie den Lead Pfad oben im Datensatz um den Lead Status auf &quot;Konvertiert&quot; zu setzen und den Datensatz in einen Account, Kontakt und Opportunity zu überführen.</errorMessage>
+        <name>ValidationOnInlineLeadConversion</name>
+    </validationRules>
+</CustomObjectTranslation>

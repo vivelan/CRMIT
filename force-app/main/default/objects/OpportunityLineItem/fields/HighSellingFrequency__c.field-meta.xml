@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HighSellingFrequency__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(  NOT(ISBLANK(FinishedGoodsSales__c )) ,  TEXT(FinishedGoodsSales__r.SteelGradeLookup__r.HighSellingFrequency__c) , 
+IF(  NOT(ISBLANK( LVPosition__c )) ,  TEXT(LVPosition__r.InternalSteelGrade__r.HighSellingFrequency__c) ,&apos;&apos; ))</formula>
+    <label>High Selling Frequency</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

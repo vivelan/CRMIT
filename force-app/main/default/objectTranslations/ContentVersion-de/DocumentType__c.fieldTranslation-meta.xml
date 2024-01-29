@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Dokumentart</label> 
+    <name>DocumentType__c</name>
+    <picklistValues>
+        <masterLabel>Certificate</masterLabel>
+        <translation>Prüfzeugnis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dispatch Note</masterLabel>
+        <translation>Versandbenachrichtigung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice</masterLabel>
+        <translation>Rechnung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Order Confirmation</masterLabel>
+        <translation>Auftragsbestätigung</translation>
+    </picklistValues>
+</CustomFieldTranslation>

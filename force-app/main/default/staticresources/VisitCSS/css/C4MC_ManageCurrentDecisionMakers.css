@@ -1,0 +1,72 @@
+.head-style{
+    background-color: #FBFBFB;
+}
+
+.checkbox-div{
+   margin-left: 8px;
+   display:flex;
+}
+
+.checkbox-input{
+    margin-right: -10px;
+}
+
+.checkbox-icon{
+    padding: 0;
+}
+
+.comment-input{
+    display: flex;
+    align-items: center;
+}
+
+.th-style{
+    width: 50px; 
+    height: 30px;
+    border-left: 1px solid;
+    border-color: gray;
+}
+
+.c4mc-th-table{
+    border-right: 1px solid; 
+    width: 150px;
+    border-color: gray;
+}
+.left-align{
+    margin-left: 10px;
+}
+
+.left-align-Comment{
+    margin-left: 9px;
+}
+
+.th-style-icon{
+    width: 50px; 
+    border-right: 1px solid;
+    border-color: gray;
+}
+
+.style-text{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+.c4mc-carouselSpinnerDecisionMakers{
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+
+.c4mc-dec-makers-table-scroll{
+    max-height: 260px;
+ }
+ 
+.c4mc-dec-makers-table-scroll-auto{
+     overflow-x: scroll;
+     position: relative;
+ }
+ 
+ .c4mc-typeSelector .slds-dropdown {
+    max-height: 110px;
+}

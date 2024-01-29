@@ -1,0 +1,38 @@
+{
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "66c996d9-8370-4706-98f3-c0370319a0ba",
+  "label" : "Order Status",
+  "regions" : [ {
+    "id" : "bbdea606-0a15-402a-985c-ba843a0c312f",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "258f484c-9125-45e9-b6cc-fce2ee8e0ec8",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "76a8f43d-a5b8-497e-8261-b5e76c707a49",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Order Status"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "53fb87ce-12ab-4665-a667-64615cc19c05",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "bbc65c2e-3b46-4225-aefd-939a59c7ab1b",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-order-status"
+}

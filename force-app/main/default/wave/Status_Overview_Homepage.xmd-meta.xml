@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Quantity receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Quantity delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>lens_5.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Tonnage receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Tonnage delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Project_Overview_By__1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Quantity receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Quantity delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Orders_Overview_By_N_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Tonnage receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Tonnage delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Order_Overview_By_To_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <measures>
+        <field>lens_5.Receivable_Sort</field>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Anzahl ausstehend</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Anzahl geliefert</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Kategorie</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>lens_5.% Anzahl</field>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Tonnage ausstehend</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2. Tonnage geliefert</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Kategorie</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Project_Overview_By__1.% Anzahl</field>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Anzahl ausstehend</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Anzahl geliefert</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Kategorie</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Orders_Overview_By_N_1.Anzahl</field>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Tonnage ausstehend</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2. Tonnage geliefert</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Kategorie</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Order_Overview_By_To_1.Anzahl</field>
+        <isDerived>false</isDerived>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Quantity receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Quantity delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>lens_5.% Quantity</field>
+        <isDerived>false</isDerived>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Tonnage receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Tonnage delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Project_Overview_By__1.% Quantity</field>
+        <isDerived>false</isDerived>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Quantity receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Quantity delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Orders_Overview_By_N_1.Quantity</field>
+        <isDerived>false</isDerived>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>1.Tonnage receivable</bin>
+                <formatValue>rgb(236, 103, 7)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>2.Tonnage delivered</bin>
+                <formatValue>rgb(75, 171, 76)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>Category</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>categories</type>
+        </conditionalFormatting>
+        <field>Order_Overview_By_To_1.Quantity</field>
+        <isDerived>false</isDerived>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Status_Overview_Homepage</waveVisualization>
+</WaveXmd>

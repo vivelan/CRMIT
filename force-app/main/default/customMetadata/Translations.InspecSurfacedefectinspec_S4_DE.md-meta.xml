@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>InspecSurfacedefectinspec_S4_DE</label>
+    <protected>false</protected>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">DE</value>
+    </values>
+    <values>
+        <field>PositionFieldValue__c</field>
+        <value xsi:type="xsd:string">InspecSurfacedefectinspec_S4</value>
+    </values>
+    <values>
+        <field>Position__c</field>
+        <value xsi:type="xsd:string">InspecSurfacedefectinspec</value>
+    </values>
+    <values>
+        <field>TranslatedValue__c</field>
+        <value xsi:type="xsd:string">S4 - Stab rund_nur Str. 31 Stauchen--Stgr. 50%--Klasse 0 zulässig_&lt;= 10to - alle Knüppel; &gt; 10to - jeder 3. Knüppel</value>
+    </values>
+    <values>
+        <field>TranslationNumber__c</field>
+        <value xsi:type="xsd:double">24.0</value>
+    </values>
+</CustomMetadata>

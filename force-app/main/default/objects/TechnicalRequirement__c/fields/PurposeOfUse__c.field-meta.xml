@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PurposeOfUse__c</fullName>
+    <externalId>false</externalId>
+    <label>Purpose of Use</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1-UNKNOWN</fullName>
+                <default>false</default>
+                <label>1-UNKNOWN</label>
+            </value>
+            <value>
+                <fullName>2-TRADE</fullName>
+                <default>false</default>
+                <label>2-TRADE</label>
+            </value>
+            <value>
+                <fullName>3-GRINDING MATERIAL</fullName>
+                <default>false</default>
+                <label>3-GRINDING MATERIAL</label>
+            </value>
+            <value>
+                <fullName>4-HEADSTOCK MATERIAL</fullName>
+                <default>false</default>
+                <label>4-HEADSTOCK MATERIAL</label>
+            </value>
+            <value>
+                <fullName>5-CHUCKING STEEL</fullName>
+                <default>false</default>
+                <label>5-CHUCKING STEEL</label>
+            </value>
+            <value>
+                <fullName>6-FLUTED CYLINDER</fullName>
+                <default>false</default>
+                <label>6-FLUTED CYLINDER</label>
+            </value>
+            <value>
+                <fullName>7-SHOOTING STEEL</fullName>
+                <default>false</default>
+                <label>7-SHOOTING STEEL</label>
+            </value>
+            <value>
+                <fullName>8-RIFLE RIFLE</fullName>
+                <default>false</default>
+                <label>8-RIFLE RIFLE</label>
+            </value>
+            <value>
+                <fullName>9-TURNING</fullName>
+                <default>false</default>
+                <label>9-TURNING</label>
+            </value>
+            <value>
+                <fullName>10-DRAWING MATERIAL</fullName>
+                <default>false</default>
+                <label>10-DRAWING MATERIAL</label>
+            </value>
+            <value>
+                <fullName>11-DRAWING MATERIAL PRESSURE TIGHT</fullName>
+                <default>false</default>
+                <label>11-DRAWING MATERIAL PRESSURE TIGHT</label>
+            </value>
+            <value>
+                <fullName>12-DRAWING MATERIAL FOR DRILLING</fullName>
+                <default>false</default>
+                <label>12-DRAWING MATERIAL FOR DRILLING</label>
+            </value>
+            <value>
+                <fullName>13-DRAWING MATERIAL ROUND ON 6-KT.</fullName>
+                <default>false</default>
+                <label>13-DRAWING MATERIAL ROUND ON 6-KT.</label>
+            </value>
+            <value>
+                <fullName>14-DRAWING MATERIAL ROUND ON 6-KT. PRESSURED.</fullName>
+                <default>false</default>
+                <label>14-DRAWING MATERIAL ROUND ON 6-KT. PRESSURED.</label>
+            </value>
+            <value>
+                <fullName>15-DRAWING MATERIAL FOR PISTON RODS</fullName>
+                <default>false</default>
+                <label>15-DRAWING MATERIAL FOR PISTON RODS</label>
+            </value>
+            <value>
+                <fullName>16-DRAWING MATERIAL FOR WELDING STUDS</fullName>
+                <default>false</default>
+                <label>16-DRAWING MATERIAL FOR WELDING STUDS</label>
+            </value>
+            <value>
+                <fullName>17-DRAWING MATERIAL FOR UPSETTING</fullName>
+                <default>false</default>
+                <label>17-DRAWING MATERIAL FOR UPSETTING</label>
+            </value>
+            <value>
+                <fullName>18-DRAWING STOCK FOR COLD ROLLING</fullName>
+                <default>false</default>
+                <label>18-DRAWING STOCK FOR COLD ROLLING</label>
+            </value>
+            <value>
+                <fullName>19-PLATING QUALITY</fullName>
+                <default>false</default>
+                <label>19-PLATING QUALITY</label>
+            </value>
+            <value>
+                <fullName>1A-SOFT DRAWING MATERIAL</fullName>
+                <default>false</default>
+                <label>1A-SOFT DRAWING MATERIAL</label>
+            </value>
+            <value>
+                <fullName>1B-HARD DRAWING WIRE</fullName>
+                <default>false</default>
+                <label>1B-HARD DRAWING WIRE</label>
+            </value>
+            <value>
+                <fullName>1C-PIANO WIRE PIANO WIRE</fullName>
+                <default>false</default>
+                <label>1C-PIANO WIRE PIANO WIRE</label>
+            </value>
+            <value>
+                <fullName>1D-GRIDS</fullName>
+                <default>false</default>
+                <label>1D-GRIDS</label>
+            </value>
+            <value>
+                <fullName>1E-STEEL FLEX BOWDEN WIRE</fullName>
+                <default>false</default>
+                <label>1E-STEEL FLEX BOWDEN WIRE</label>
+            </value>
+            <value>
+                <fullName>1F-STAPLES STAPLES</fullName>
+                <default>false</default>
+                <label>1F-STAPLES STAPLES</label>
+            </value>
+            <value>
+                <fullName>1G-TEXTILE NEEDLES</fullName>
+                <default>false</default>
+                <label>1G-TEXTILE NEEDLES</label>
+            </value>
+            <value>
+                <fullName>1H-HOSEWIRE TUBING WIRE</fullName>
+                <default>false</default>
+                <label>1H-HOSEWIRE TUBING WIRE</label>
+            </value>
+            <value>
+                <fullName>1K-HEAD SUPPORT WIRE</fullName>
+                <default>false</default>
+                <label>1K-HEAD SUPPORT WIRE</label>
+            </value>
+            <value>
+                <fullName>1L-CABLE WIRE</fullName>
+                <default>false</default>
+                <label>1L-CABLE WIRE</label>
+            </value>
+            <value>
+                <fullName>1M-OFFSHORE/CABLES</fullName>
+                <default>false</default>
+                <label>1M-OFFSHORE/CABLES</label>
+            </value>
+            <value>
+                <fullName>1O-ORDERING WIRE</fullName>
+                <default>false</default>
+                <label>1O-ORDERING WIRE</label>
+            </value>
+            <value>
+                <fullName>1R-drawing material for higher strength.</fullName>
+                <default>false</default>
+                <label>1R-drawing material for higher strength.</label>
+            </value>
+            <value>
+                <fullName>1S-SAW-WIRE</fullName>
+                <default>false</default>
+                <label>1S-SAW-WIRE</label>
+            </value>
+            <value>
+                <fullName>1V-DRAWING MATERIAL AXLES/SHAFTS</fullName>
+                <default>false</default>
+                <label>1V-DRAWING MATERIAL AXLES/SHAFTS</label>
+            </value>
+            <value>
+                <fullName>1W-MAGNETIC SOFT IRON RFE/AME</fullName>
+                <default>false</default>
+                <label>1W-MAGNETIC SOFT IRON RFE/AME</label>
+            </value>
+            <value>
+                <fullName>1Z-SKD SCRAP</fullName>
+                <default>false</default>
+                <label>1Z-SKD SCRAP</label>
+            </value>
+            <value>
+                <fullName>20-PEELING PRE-MATERIAL</fullName>
+                <default>false</default>
+                <label>20-PEELING PRE-MATERIAL</label>
+            </value>
+            <value>
+                <fullName>21-PEELING MATERIAL PRESSURE TIGHT</fullName>
+                <default>false</default>
+                <label>21-PEELING MATERIAL PRESSURE TIGHT</label>
+            </value>
+            <value>
+                <fullName>22-SKIVING MATERIAL FOR PISTON RODS</fullName>
+                <default>false</default>
+                <label>22-SKIVING MATERIAL FOR PISTON RODS</label>
+            </value>
+            <value>
+                <fullName>23-PEELING MATERIAL FOR COLD HEADING</fullName>
+                <default>false</default>
+                <label>23-PEELING MATERIAL FOR COLD HEADING</label>
+            </value>
+            <value>
+                <fullName>24-DRILLING</fullName>
+                <default>false</default>
+                <label>24-DRILLING</label>
+            </value>
+            <value>
+                <fullName>25-CUTTING</fullName>
+                <default>false</default>
+                <label>25-CUTTING</label>
+            </value>
+            <value>
+                <fullName>26-FOR ZINCING</fullName>
+                <default>false</default>
+                <label>26-FOR ZINCING</label>
+            </value>
+            <value>
+                <fullName>27-MATERIAL FOR FORGING</fullName>
+                <default>false</default>
+                <label>27-MATERIAL FOR FORGING</label>
+            </value>
+            <value>
+                <fullName>28-PEELING MATERIAL FOR COLD EXTRUSION</fullName>
+                <default>false</default>
+                <label>28-PEELING MATERIAL FOR COLD EXTRUSION</label>
+            </value>
+            <value>
+                <fullName>29-FOR COLD UPSETTING HIGHEST REQUIREMENTS</fullName>
+                <default>false</default>
+                <label>29-FOR COLD UPSETTING HIGHEST REQUIREMENTS</label>
+            </value>
+            <value>
+                <fullName>2A-LWR2 TEMPERED 1000 MPA</fullName>
+                <default>false</default>
+                <label>2A-LWR2 TEMPERED 1000 MPA</label>
+            </value>
+            <value>
+                <fullName>2B-LWR3 /4 TEMPERED 1100 MPA</fullName>
+                <default>false</default>
+                <label>2B-LWR3 /4 TEMPERED 1100 MPA</label>
+            </value>
+            <value>
+                <fullName>30-FOR COLD HEADING SCREWS / BOLTS</fullName>
+                <default>false</default>
+                <label>30-FOR COLD HEADING SCREWS / BOLTS</label>
+            </value>
+            <value>
+                <fullName>31-COLD HEADING BALL STUDS</fullName>
+                <default>false</default>
+                <label>31-COLD HEADING BALL STUDS</label>
+            </value>
+            <value>
+                <fullName>32-FOR COLD HEADING THREADED BOLTS</fullName>
+                <default>false</default>
+                <label>32-FOR COLD HEADING THREADED BOLTS</label>
+            </value>
+            <value>
+                <fullName>33-FOR COLD HEADING NUTS / HOLLOW PARTS</fullName>
+                <default>false</default>
+                <label>33-FOR COLD HEADING NUTS / HOLLOW PARTS</label>
+            </value>
+            <value>
+                <fullName>34-RAIL SLEEPER SCREWS</fullName>
+                <default>false</default>
+                <label>34-RAIL SLEEPER SCREWS</label>
+            </value>
+            <value>
+                <fullName>35-ROLLER BEARINGS NEEDLES / ROLLERS</fullName>
+                <default>false</default>
+                <label>35-ROLLER BEARINGS NEEDLES / ROLLERS</label>
+            </value>
+            <value>
+                <fullName>36-BEARINGS BALLS</fullName>
+                <default>false</default>
+                <label>36-BEARINGS BALLS</label>
+            </value>
+            <value>
+                <fullName>37-BEARINGS RINGS</fullName>
+                <default>false</default>
+                <label>37-BEARINGS RINGS</label>
+            </value>
+            <value>
+                <fullName>38-BEARINGS OTHER</fullName>
+                <default>false</default>
+                <label>38-BEARINGS OTHER</label>
+            </value>
+            <value>
+                <fullName>39-COLD HEADING AUTOMOTIVE APPLICATIONS</fullName>
+                <default>false</default>
+                <label>39-COLD HEADING AUTOMOTIVE APPLICATIONS</label>
+            </value>
+            <value>
+                <fullName>3A-BEARING STEEL PREMIUM FOR RINGS</fullName>
+                <default>false</default>
+                <label>3A-BEARING STEEL PREMIUM FOR RINGS</label>
+            </value>
+            <value>
+                <fullName>3B-BEARING STEEL PREMIUM FOR BALLS</fullName>
+                <default>false</default>
+                <label>3B-BEARING STEEL PREMIUM FOR BALLS</label>
+            </value>
+            <value>
+                <fullName>3P-COLD HEADING WITH PREMIUM REQUIREMENTS</fullName>
+                <default>false</default>
+                <label>3P-COLD HEADING WITH PREMIUM REQUIREMENTS</label>
+            </value>
+            <value>
+                <fullName>3R-COLD HEADING REQUIREMENT. CLEANLINESS GRADE</fullName>
+                <default>false</default>
+                <label>3R-COLD HEADING REQUIREMENT. CLEANLINESS GRADE</label>
+            </value>
+            <value>
+                <fullName>3S-ABS</fullName>
+                <default>false</default>
+                <label>3S-ABS</label>
+            </value>
+            <value>
+                <fullName>3U-COLD HEADING REQUIREMENT. TO CONVERSION</fullName>
+                <default>false</default>
+                <label>3U-COLD HEADING REQUIREMENT. TO CONVERSION</label>
+            </value>
+            <value>
+                <fullName>40-COLD EXTRUDER</fullName>
+                <default>false</default>
+                <label>40-COLD EXTRUDER</label>
+            </value>
+            <value>
+                <fullName>41-FINISHING MATERIAL</fullName>
+                <default>false</default>
+                <label>41-FINISHING MATERIAL</label>
+            </value>
+            <value>
+                <fullName>42-HUELSEN STEEL</fullName>
+                <default>false</default>
+                <label>42-HUELSEN STEEL</label>
+            </value>
+            <value>
+                <fullName>43-GAS CYLINDER PRODUCTION</fullName>
+                <default>false</default>
+                <label>43-GAS CYLINDER PRODUCTION</label>
+            </value>
+            <value>
+                <fullName>44-HOT FORMING WITH TERMIN. COLD FORMING</fullName>
+                <default>false</default>
+                <label>44-HOT FORMING WITH TERMIN. COLD FORMING</label>
+            </value>
+            <value>
+                <fullName>45-STEEL WOOL</fullName>
+                <default>false</default>
+                <label>45-STEEL WOOL</label>
+            </value>
+            <value>
+                <fullName>46-GRINDING COARPER</fullName>
+                <default>false</default>
+                <label>46-GRINDING COARPER</label>
+            </value>
+            <value>
+                <fullName>47-PIPE WRAP PIPE WRAP WIRE</fullName>
+                <default>false</default>
+                <label>47-PIPE WRAP PIPE WRAP WIRE</label>
+            </value>
+            <value>
+                <fullName>48-AL OR ZN CLAD STEEL AL O. ZN COATED</fullName>
+                <default>false</default>
+                <label>48-AL OR ZN CLAD STEEL AL O. ZN COATED</label>
+            </value>
+            <value>
+                <fullName>49-HIGH DUCTILITY HIGH DEGREE OF FORMING</fullName>
+                <default>false</default>
+                <label>49-HIGH DUCTILITY HIGH DEGREE OF FORMING</label>
+            </value>
+            <value>
+                <fullName>4S-AIRBAG SYSTEMS</fullName>
+                <default>false</default>
+                <label>4S-AIRBAG SYSTEMS</label>
+            </value>
+            <value>
+                <fullName>50-CHAIN STUDS</fullName>
+                <default>false</default>
+                <label>50-CHAIN STUDS</label>
+            </value>
+            <value>
+                <fullName>51-CHAIN BOLTS</fullName>
+                <default>false</default>
+                <label>51-CHAIN BOLTS</label>
+            </value>
+            <value>
+                <fullName>52-ANCHOR AND OFFSHORE CHAINS</fullName>
+                <default>false</default>
+                <label>52-ANCHOR AND OFFSHORE CHAINS</label>
+            </value>
+            <value>
+                <fullName>53-FLANGES WELDED FL./VKT.</fullName>
+                <default>false</default>
+                <label>53-FLANGES WELDED FL./VKT.</label>
+            </value>
+            <value>
+                <fullName>54-CUSHION SPRING WIRE</fullName>
+                <default>false</default>
+                <label>54-CUSHION SPRING WIRE</label>
+            </value>
+            <value>
+                <fullName>55-FORMWORK ANCHORS</fullName>
+                <default>false</default>
+                <label>55-FORMWORK ANCHORS</label>
+            </value>
+            <value>
+                <fullName>56-STEELCORD</fullName>
+                <default>false</default>
+                <label>56-STEELCORD</label>
+            </value>
+            <value>
+                <fullName>57-BEADWIRE</fullName>
+                <default>false</default>
+                <label>57-BEADWIRE</label>
+            </value>
+            <value>
+                <fullName>58-SEILDRAHT</fullName>
+                <default>false</default>
+                <label>58-SEILDRAHT</label>
+            </value>
+            <value>
+                <fullName>59-RAILWAY SLEEPERS RAILROAD SLEEPERS</fullName>
+                <default>false</default>
+                <label>59-RAILWAY SLEEPERS RAILROAD SLEEPERS</label>
+            </value>
+            <value>
+                <fullName>5A-CHAIN STEEL TO HEAT WITH ANSCHL. WBH</fullName>
+                <default>false</default>
+                <label>5A-CHAIN STEEL TO HEAT WITH ANSCHL. WBH</label>
+            </value>
+            <value>
+                <fullName>5B-CHAIN STEEL FOR ROLLING</fullName>
+                <default>false</default>
+                <label>5B-CHAIN STEEL FOR ROLLING</label>
+            </value>
+            <value>
+                <fullName>60-HOT FORGING WITH SUBSEQUENT HEAT FORGING</fullName>
+                <default>false</default>
+                <label>60-HOT FORGING WITH SUBSEQUENT HEAT FORGING</label>
+            </value>
+            <value>
+                <fullName>61-SEMI-HOT FORGING</fullName>
+                <default>false</default>
+                <label>61-SEMI-HOT FORGING</label>
+            </value>
+            <value>
+                <fullName>62-HOT FORGING WITH CONTR. COOLING BY</fullName>
+                <default>false</default>
+                <label>62-HOT FORGING WITH CONTR. COOLING BY</label>
+            </value>
+            <value>
+                <fullName>63-HOT EXTRUSION</fullName>
+                <default>false</default>
+                <label>63-HOT EXTRUSION</label>
+            </value>
+            <value>
+                <fullName>64-FORGING/RING ROLLING</fullName>
+                <default>false</default>
+                <label>64-FORGING/RING ROLLING</label>
+            </value>
+            <value>
+                <fullName>65-FORGING</fullName>
+                <default>false</default>
+                <label>65-FORGING</label>
+            </value>
+            <value>
+                <fullName>66-FOR ROLLING OUT</fullName>
+                <default>false</default>
+                <label>66-FOR ROLLING OUT</label>
+            </value>
+            <value>
+                <fullName>67-FOR CROSS-ROLLING</fullName>
+                <default>false</default>
+                <label>67-FOR CROSS-ROLLING</label>
+            </value>
+            <value>
+                <fullName>68-FOR HOT HEADING</fullName>
+                <default>false</default>
+                <label>68-FOR HOT HEADING</label>
+            </value>
+            <value>
+                <fullName>69-WELDING WIRE</fullName>
+                <default>false</default>
+                <label>69-WELDING WIRE</label>
+            </value>
+            <value>
+                <fullName>6A-HOT FORGING/PRESSURE TIGHT PARTS</fullName>
+                <default>false</default>
+                <label>6A-HOT FORGING/PRESSURE TIGHT PARTS</label>
+            </value>
+            <value>
+                <fullName>6B-HOT FORGING CP1H</fullName>
+                <default>false</default>
+                <label>6B-HOT FORGING CP1H</label>
+            </value>
+            <value>
+                <fullName>70-TURBINE BLADES</fullName>
+                <default>false</default>
+                <label>70-TURBINE BLADES</label>
+            </value>
+            <value>
+                <fullName>71-AEROSPACE FOR MACHINING</fullName>
+                <default>false</default>
+                <label>71-AEROSPACE FOR MACHINING</label>
+            </value>
+            <value>
+                <fullName>72-AIR &amp; SPACE FOR HOT FORGING</fullName>
+                <default>false</default>
+                <label>72-AIR &amp; SPACE FOR HOT FORGING</label>
+            </value>
+            <value>
+                <fullName>73-STATIONARY TURBINE PARTS</fullName>
+                <default>false</default>
+                <label>73-STATIONARY TURBINE PARTS</label>
+            </value>
+            <value>
+                <fullName>74-REACTOR PARTS</fullName>
+                <default>false</default>
+                <label>74-REACTOR PARTS</label>
+            </value>
+            <value>
+                <fullName>75-CUTLERY INDUSTRY</fullName>
+                <default>false</default>
+                <label>75-CUTLERY INDUSTRY</label>
+            </value>
+            <value>
+                <fullName>76-SURGICAL INSTRU- MENTS</fullName>
+                <default>false</default>
+                <label>76-SURGICAL INSTRU- MENTS</label>
+            </value>
+            <value>
+                <fullName>77-VENTILES</fullName>
+                <default>false</default>
+                <label>77-VENTILES</label>
+            </value>
+            <value>
+                <fullName>78-WEAPONS MANUFACTURING</fullName>
+                <default>false</default>
+                <label>78-WEAPONS MANUFACTURING</label>
+            </value>
+            <value>
+                <fullName>79-PRE-MATERIAL FOR SPRING PRODUCTION</fullName>
+                <default>false</default>
+                <label>79-PRE-MATERIAL FOR SPRING PRODUCTION</label>
+            </value>
+            <value>
+                <fullName>80-PEELING PRE-MATERIAL FOR VEHICLE SPRINGS</fullName>
+                <default>false</default>
+                <label>80-PEELING PRE-MATERIAL FOR VEHICLE SPRINGS</label>
+            </value>
+            <value>
+                <fullName>81-DRAWING STOCK FOR HOT FORMED SPRINGS</fullName>
+                <default>false</default>
+                <label>81-DRAWING STOCK FOR HOT FORMED SPRINGS</label>
+            </value>
+            <value>
+                <fullName>82-DRAWING STOCK FOR COLD FORMED SPRINGS</fullName>
+                <default>false</default>
+                <label>82-DRAWING STOCK FOR COLD FORMED SPRINGS</label>
+            </value>
+            <value>
+                <fullName>83-STABILIZERS</fullName>
+                <default>false</default>
+                <label>83-STABILIZERS</label>
+            </value>
+            <value>
+                <fullName>84-MARAFORM FOR COLD FORMED SPRINGS</fullName>
+                <default>false</default>
+                <label>84-MARAFORM FOR COLD FORMED SPRINGS</label>
+            </value>
+            <value>
+                <fullName>85-CLUTCH SPRINGS KD</fullName>
+                <default>false</default>
+                <label>85-CLUTCH SPRINGS KD</label>
+            </value>
+            <value>
+                <fullName>86-RAIL CLAMPS</fullName>
+                <default>false</default>
+                <label>86-RAIL CLAMPS</label>
+            </value>
+            <value>
+                <fullName>87-VALVE SPRINGS VD</fullName>
+                <default>false</default>
+                <label>87-VALVE SPRINGS VD</label>
+            </value>
+            <value>
+                <fullName>88-BLADE SPRINGS</fullName>
+                <default>false</default>
+                <label>88-BLADE SPRINGS</label>
+            </value>
+            <value>
+                <fullName>89-COLD FORMED SPRING</fullName>
+                <default>false</default>
+                <label>89-COLD FORMED SPRING</label>
+            </value>
+            <value>
+                <fullName>8B-BRAKE ACCUMULATOR SPRING</fullName>
+                <default>false</default>
+                <label>8B-BRAKE ACCUMULATOR SPRING</label>
+            </value>
+            <value>
+                <fullName>8K-TRUNK SPRINGS PRE-MATERIAL</fullName>
+                <default>false</default>
+                <label>8K-TRUNK SPRINGS PRE-MATERIAL</label>
+            </value>
+            <value>
+                <fullName>8L-SPRINGS LOW STRESS</fullName>
+                <default>false</default>
+                <label>8L-SPRINGS LOW STRESS</label>
+            </value>
+            <value>
+                <fullName>8N-SPRING NON-AUTOMOTIVE HOT FORMED SPRINGS</fullName>
+                <default>false</default>
+                <label>8N-SPRING NON-AUTOMOTIVE HOT FORMED SPRINGS</label>
+            </value>
+            <value>
+                <fullName>8S-COLD FORMED SPRINGS FOR SPECIAL APPLICATION</fullName>
+                <default>false</default>
+                <label>8S-COLD FORMED SPRINGS FOR SPECIAL APPLICATION</label>
+            </value>
+            <value>
+                <fullName>90-TOOLS</fullName>
+                <default>false</default>
+                <label>90-TOOLS</label>
+            </value>
+            <value>
+                <fullName>91-TOOLS FULL MACHINING</fullName>
+                <default>false</default>
+                <label>91-TOOLS FULL MACHINING</label>
+            </value>
+            <value>
+                <fullName>92-TOOLS FOR PARTIAL MACHINING</fullName>
+                <default>false</default>
+                <label>92-TOOLS FOR PARTIAL MACHINING</label>
+            </value>
+            <value>
+                <fullName>93-TOOLS FOR FORGING</fullName>
+                <default>false</default>
+                <label>93-TOOLS FOR FORGING</label>
+            </value>
+            <value>
+                <fullName>94-TOOLS FOR COLD FORMING</fullName>
+                <default>false</default>
+                <label>94-TOOLS FOR COLD FORMING</label>
+            </value>
+            <value>
+                <fullName>95-CARD CLOTHING COMB PROFILE</fullName>
+                <default>false</default>
+                <label>95-CARD CLOTHING COMB PROFILE</label>
+            </value>
+            <value>
+                <fullName>96-GRINDING RODS</fullName>
+                <default>false</default>
+                <label>96-GRINDING RODS</label>
+            </value>
+            <value>
+                <fullName>97-STEEL MESHES</fullName>
+                <default>false</default>
+                <label>97-STEEL MESHES</label>
+            </value>
+            <value>
+                <fullName>98-TIE RODS</fullName>
+                <default>false</default>
+                <label>98-TIE RODS</label>
+            </value>
+            <value>
+                <fullName>99-RETRACTABLE KNOB</fullName>
+                <default>false</default>
+                <label>99-RETRACTABLE KNOB</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountTypeChangeFromCustomer</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ ISCHANGED(Type),
+ ISPICKVAL( PRIORVALUE(Type) , &quot;Customer&quot;),
+OR(
+   ISPICKVAL(Type, &quot;Influencer&quot;),
+   ISPICKVAL(Type, &quot;Potential Customer&quot;)
+),
+ OR(
+    $Profile.Name = &quot;DH Sales Profile&quot;,
+    $Profile.Name = &quot;DH Marketing Profile&quot;,
+    $Profile.Name = &quot;DH Customer Administration&quot;
+    ),
+ NOT($Setup.ByPassLogic__c.ByPassValidation__c)
+)</errorConditionFormula>
+    <errorMessage>It is not possible to change the account type for a customer.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <available>true</available>
+    <description>Email For Product Manager For Final Check</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email For Product Manager For Final Check</name>
+    <style>none</style>
+    <subject>: Technical requirements Complete</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

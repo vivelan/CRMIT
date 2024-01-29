@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <available>true</available>
+    <description>Email For Quality Rep For Quality Check</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Email For Quality Rep For Quality Check</name>
+    <style>none</style>
+    <subject>New Request to fulfill</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

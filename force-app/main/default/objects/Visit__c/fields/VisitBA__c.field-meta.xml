@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisitBA__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL( BusinessArea__c, &quot;ZK&quot; ), &quot;Cold Heading; &quot;,null ) &amp;
+IF ( ISPICKVAL ( BusinessArea__c , &quot;ZF&quot; ), &quot;Spring Steel; &quot;,null ) &amp;
+IF ( ISPICKVAL ( BusinessArea__c, &quot;ZS&quot; ), &quot;Free Cutting Steel (SZO); &quot;,null ) &amp;
+IF ( ISPICKVAL ( BusinessArea__c, &quot;ZW&quot; ), &quot;Bearing Steel; &quot;,null ) &amp;
+IF ( ISPICKVAL ( BusinessArea__c, &quot;ZM&quot; ), &quot;Forging Steel; &quot;,null ) &amp;
+IF ( ISPICKVAL ( BusinessArea__c, &quot;ZZ&quot; ), &quot;Drawing Grades; &quot;,null )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>VisitBA</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

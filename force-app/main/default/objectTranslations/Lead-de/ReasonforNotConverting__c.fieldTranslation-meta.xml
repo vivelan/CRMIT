@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Grund für den Verzicht auf Konvertierung</label>
+    <name>ReasonforNotConverting__c</name>
+    <picklistValues>
+        <masterLabel>Blocked Country</masterLabel>
+        <translation>Geblocktes Land</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price Level</masterLabel>
+        <translation>Preislevel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Strategic Reasons</masterLabel>
+        <translation>Strategische Gründe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technically not possible</masterLabel>
+        <translation>Technisch nicht umsetzbar</translation>
+    </picklistValues>
+</CustomFieldTranslation>

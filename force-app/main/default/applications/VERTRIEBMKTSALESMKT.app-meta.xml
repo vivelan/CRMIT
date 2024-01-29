@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Product_Record_Page2</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>OpportunityLineItem</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Product_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>OpportunityLineItem</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Raw_Material_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>RawMaterial__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Raw_Material_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>RawMaterial__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Price_Level_Surcharge_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>PriceLevelSurcharge__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Price_Level_Surcharge_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>PriceLevelSurcharge__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Product_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Technical_Requirement_Record_Page_Light</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override updated by Lightning App Builder during activation.</comment>
+        <content>Technical_Requirement_Record_Page_Light</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Logo_CORE_Wolke</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>CORE</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Account_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Account_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Account_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Account_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Reclamation</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Reclamation</recordType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Reclamation</recordType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Reclamation</recordType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Reclamation</recordType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Contact_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Contact_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Contact_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Case_User_Registration</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Userregistration</recordType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Checklist__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestion__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Question_Response_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistQuestionResponse__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Checklist_Section_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>ChecklistSection__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>DH_Task_Layout</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Task</pageOrSobjectType>
+        <recordType>Task.DHTaskRecord</recordType>
+        <type>Flexipage</type>
+        <profile>DH Customer Administration</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Sales Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>DH Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Visit_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>Visit__c</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>Praekula__c</tabs>
+    <tabs>DeliveryInstructions__c</tabs>
+    <tabs>LVPostion__c</tabs>
+    <tabs>PriceLevelSurcharge__c</tabs>
+    <tabs>RawMaterial__c</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>CheckList__c</tabs>
+    <tabs>standard-Case</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>VERTRIEB_MKT_SALES_MKT_UtilityBar</utilityBar>
+</CustomApplication>

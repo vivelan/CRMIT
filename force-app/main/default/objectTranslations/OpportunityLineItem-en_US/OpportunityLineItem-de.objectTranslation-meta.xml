@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Opportunity Product Layout</layout>
+        <sections>
+            <label>Kosteninformationen Pricing Tool</label>
+            <section>Cost Information Pricing Tool</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Preisinformationen</label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label>Vertriebsinformationen</label>
+            <section>Sales Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

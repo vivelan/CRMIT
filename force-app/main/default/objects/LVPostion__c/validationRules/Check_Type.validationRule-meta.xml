@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Type</fullName>
+    <active>true</active>
+    <description>Validation rule to check if the type of the LVP is Specification when the delivery instruction is being populated. Similary for Präkula, the type should be mass inquiry or Standard inquiry.</description>
+    <errorConditionFormula>OR(
+AND((isPickVal(Type__c,&apos;Standard Inquiry&apos;)|| isPickVal(Type__c,&apos;Mass Inquiry&apos;)), ISBLANK(Praekula__c) 
+),
+AND( isPickVal(Type__c,&apos;Specification&apos;), ISBLANK(DeliveryInstruction__c) 
+)
+)</errorConditionFormula>
+    <errorMessage>Delivery instructions one can assign LVPositions of type Specification, Prekulas only such of type Mass Inquiry or Standard Inquiry.</errorMessage>
+</ValidationRule>

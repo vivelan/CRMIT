@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Branche allgemein</label>
+    <name>IndustryInGeneral__c</name>
+    <picklistValues>
+        <masterLabel>Agricultural machinery</masterLabel>
+        <translation>Landmaschinenbau</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Automotive industry</masterLabel>
+        <translation>Automobilindustrie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction industry</masterLabel>
+        <translation>Bauindustrie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Energy/ Wind power</masterLabel>
+        <translation>Energie/ Windkraft</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mechanical engineering</masterLabel>
+        <translation>Maschinenbau</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rail</masterLabel>
+        <translation>Schiene</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trade</masterLabel>
+        <translation>Handel</translation>
+    </picklistValues>
+</CustomFieldTranslation>

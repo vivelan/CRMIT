@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckSumofQuantityShareFieldsToBe100</fullName>
+    <active>true</active>
+    <errorConditionFormula>(nullvalue( Quantitysharefixed__c ,0)+nullvalue( Quantityshareflexible__c,0)+nullvalue( Quantitysharerepeating__c ,0)&lt;&gt;1)
+&amp;&amp;
+(NOT(ISBLANK( Quantitysharefixed__c)) || NOT(ISBLANK(Quantityshareflexible__c)) || NOT(ISBLANK(Quantitysharerepeating__c)))</errorConditionFormula>
+    <errorMessage>The values of &apos;Quantity share fixed&apos;, &apos;Quantity share repeating&apos; and &apos; Quantity share flexible&apos; have to add up to 100%.</errorMessage>
+</ValidationRule>

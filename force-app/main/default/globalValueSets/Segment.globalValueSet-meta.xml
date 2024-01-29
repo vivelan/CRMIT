@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>101 Construction Equipment</fullName>
+        <default>false</default>
+        <label>101 Construction Equipment</label>
+    </customValue>
+    <customValue>
+        <fullName>103 Machinery</fullName>
+        <default>false</default>
+        <label>103 Machinery</label>
+    </customValue>
+    <customValue>
+        <fullName>205 Pressure Equipement</fullName>
+        <default>false</default>
+        <label>205 Pressure Equipement</label>
+    </customValue>
+    <customValue>
+        <fullName>307 Wind</fullName>
+        <default>false</default>
+        <label>307 Wind</label>
+    </customValue>
+    <customValue>
+        <fullName>310 Linepipe</fullName>
+        <default>false</default>
+        <label>310 Linepipe</label>
+    </customValue>
+    <customValue>
+        <fullName>415 Job Rolling</fullName>
+        <default>false</default>
+        <label>415 Job Rolling</label>
+    </customValue>
+    <customValue>
+        <fullName>417 Protection Steel</fullName>
+        <default>false</default>
+        <label>417 Protection Steel</label>
+    </customValue>
+    <customValue>
+        <fullName>513 Steel and Service Center</fullName>
+        <default>false</default>
+        <label>513 Steel and Service Center</label>
+    </customValue>
+    <customValue>
+        <fullName>612 Steel Construction</fullName>
+        <default>false</default>
+        <label>612 Steel Construction</label>
+    </customValue>
+    <masterLabel>Segment</masterLabel> 
+    <sorted>false</sorted>
+</GlobalValueSet>

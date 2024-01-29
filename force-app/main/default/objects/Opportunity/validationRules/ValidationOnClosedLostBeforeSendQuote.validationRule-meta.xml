@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnClosedLostBeforeSendQuote</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(OR(IF(ISPICKVAL(StageName,&apos;Closed lost after sending quote&apos;),IF(AND(
+NOT(ISPICKVAL( LossReason__c , &apos;Customer service&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Delivery reliability/ Delivery time&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Minimum order quantity&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Product price&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Others&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Transportation and Handling costs&apos;))
+) ,TRUE,FALSE),FALSE ),
+
+IF(ISPICKVAL(StageName,&apos;Closed lost before sending quote&apos;),IF(AND(
+NOT(ISPICKVAL( LossReason__c , &apos;Cover&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Customer does not provide information&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Quality from customers point of view&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Techn. deviations&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Techn. feasibility/ Delivery program alloy&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Techn. feasibility/ Delivery program dimension&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Others&apos;)),
+NOT(ISPICKVAL( LossReason__c , &apos;Techn. feasibility/ Delivery program product format&apos;))
+),TRUE,FALSE),FALSE )),NOT($Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>Please select a valid loss reason</errorMessage>
+</ValidationRule>

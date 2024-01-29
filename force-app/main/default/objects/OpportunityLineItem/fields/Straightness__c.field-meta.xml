@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Straightness__c</fullName>
+    <externalId>false</externalId>
+    <label>Straightness</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1mm</fullName>
+                <default>false</default>
+                <label>1mm</label>
+            </value>
+            <value>
+                <fullName>2mm</fullName>
+                <default>false</default>
+                <label>2mm</label>
+            </value>
+            <value>
+                <fullName>4mm</fullName>
+                <default>false</default>
+                <label>4mm</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

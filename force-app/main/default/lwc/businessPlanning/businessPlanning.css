@@ -1,0 +1,77 @@
+.fontweight {
+  /* margin-top: 5px;
+   font-family: SalesforceSans;
+   font-size: 20px;
+   font-stretch: normal;
+   font-style: normal;
+   line-height: 1.69;
+   letter-spacing: normal;
+   color: var(--z-component-scoped-accordion-and-expandable-section-chevrons);*/
+   font-weight: normal;
+ }
+ .fontweightLabel {
+    font-weight: bold;
+  }
+
+.rightText{
+ text-align: right;
+ width: 50px;
+}
+
+.rightTextYear{
+ width: 55px;
+}
+
+.tdText{
+ padding-left: 19px;
+ padding-right: 19px;
+}
+
+.wrapped-content{
+ /*overflow-wrap: break-word;*/
+ word-wrap: break-word
+}
+
+.rightInputText{
+ /*text-align: right;*/
+ width: 78px;
+}
+
+.leftText{
+ text-align: left;
+ width: 100px;
+}
+.th{
+ width: 50%; 
+}
+.td{
+ width: 50%; 
+}
+
+
+ .footercls{
+   border: 1px solid rgb(209, 207, 207);
+   box-shadow: 0px 2px 2px 1px rgb(241, 241, 241);
+   background-color:#f3f2f2;
+   margin-bottom: 0px;
+}
+.row-border{
+ border-top: thin solid black;
+ border-bottom: thin solid black;
+ border-left: thin solid black;
+ border-right: thin solid black;
+}
+.container {
+ display: flex;
+ white-space: nowrap;
+ width: 100px;
+}
+.container1 {
+ display: flex;
+ white-space: nowrap;
+ width: 90%;
+}
+/*.table, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+} */

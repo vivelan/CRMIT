@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnMillTour</fullName>
+    <active>true</active>
+    <description>Mill Tour can be checked only when the Visit type is internal.</description>
+    <errorConditionFormula>AND(MillTour__c = TRUE , NOT( ISPICKVAL(VisitType__c ,&apos;Internal&apos;) ),
+NOT($Setup.ByPassLogic__c.ByPassValidation__c))</errorConditionFormula>
+    <errorDisplayField>MillTour__c</errorDisplayField>
+    <errorMessage>The field &apos;Mill Tour&apos; can only be selected for internal visits if a mill tour of the plant in Dillingen is planned.</errorMessage>
+</ValidationRule>

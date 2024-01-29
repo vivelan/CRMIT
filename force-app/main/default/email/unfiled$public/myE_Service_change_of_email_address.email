@@ -1,0 +1,9 @@
+Hi {!User.FirstName}, 
+
+<p>{!$Label.newEmailAddressChangeBody1}  {!User.Username}  {!$Label.newEmailAddressChangeBody2} </p>
+<p>{!$Label.newEmailAddressChangeBody3}  {!ChgEmailVer.OldEmail}.<br> {!$Label.newEmailAddressChangeBody4}  {!ChgEmailVer.NewEmail}. </p>
+
+<p>{!$Label.newEmailAddressChangeBody5} <br>
+{!ChgEmailVer.Url} </p>
+
+<p>{!$Label.newEmailAddressChangeBody6}</p>

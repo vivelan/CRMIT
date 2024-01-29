@@ -1,0 +1,3531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Publisher__c</fullName>  
+    <externalId>false</externalId>
+    <label>Publisher</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A.T.M.</fullName>
+                <default>false</default>
+                <label>A.T.M.</label>
+            </value>
+            <value>
+                <fullName>AAM</fullName>
+                <default>false</default>
+                <label>AAM</label>
+            </value>
+            <value>
+                <fullName>ABC Umformtechnik</fullName>
+                <default>false</default>
+                <label>ABC Umformtechnik</label>
+            </value>
+            <value>
+                <fullName>ABTech</fullName>
+                <default>false</default>
+                <label>ABTech</label>
+            </value>
+            <value>
+                <fullName>AFF</fullName>
+                <default>false</default>
+                <label>AFF</label>
+            </value>
+            <value>
+                <fullName>AFF ST. FLO</fullName>
+                <default>false</default>
+                <label>AFF ST. FLO</label>
+            </value>
+            <value>
+                <fullName>AFF Visserie</fullName>
+                <default>false</default>
+                <label>AFF Visserie</label>
+            </value>
+            <value>
+                <fullName>AFNOR</fullName>
+                <default>false</default>
+                <label>AFNOR</label>
+            </value>
+            <value>
+                <fullName>AMS</fullName>
+                <default>false</default>
+                <label>AMS</label>
+            </value>
+            <value>
+                <fullName>ARC Automotiv Inc.</fullName>
+                <default>false</default>
+                <label>ARC Automotiv Inc.</label>
+            </value>
+            <value>
+                <fullName>ARS Industries</fullName>
+                <default>false</default>
+                <label>ARS Industries</label>
+            </value>
+            <value>
+                <fullName>AS</fullName>
+                <default>false</default>
+                <label>AS</label>
+            </value>
+            <value>
+                <fullName>ASDO</fullName>
+                <default>false</default>
+                <label>ASDO</label>
+            </value>
+            <value>
+                <fullName>ASSI</fullName>
+                <default>false</default>
+                <label>ASSI</label>
+            </value>
+            <value>
+                <fullName>ASTM</fullName>
+                <default>false</default>
+                <label>ASTM</label>
+            </value>
+            <value>
+                <fullName>ASW</fullName>
+                <default>false</default>
+                <label>ASW</label>
+            </value>
+            <value>
+                <fullName>ATE</fullName>
+                <default>false</default>
+                <label>ATE</label>
+            </value>
+            <value>
+                <fullName>ATG</fullName>
+                <default>false</default>
+                <label>ATG</label>
+            </value>
+            <value>
+                <fullName>ATR</fullName>
+                <default>false</default>
+                <label>ATR</label>
+            </value>
+            <value>
+                <fullName>AUSA</fullName>
+                <default>false</default>
+                <label>AUSA</label>
+            </value>
+            <value>
+                <fullName>AUTOCAM</fullName>
+                <default>false</default>
+                <label>AUTOCAM</label>
+            </value>
+            <value>
+                <fullName>AWS</fullName>
+                <default>false</default>
+                <label>AWS</label>
+            </value>
+            <value>
+                <fullName>Aartee Bright Bar</fullName>
+                <default>false</default>
+                <label>Aartee Bright Bar</label>
+            </value>
+            <value>
+                <fullName>Abinsa</fullName>
+                <default>false</default>
+                <label>Abinsa</label>
+            </value>
+            <value>
+                <fullName>Acenta</fullName>
+                <default>false</default>
+                <label>Acenta</label>
+            </value>
+            <value>
+                <fullName>Aceros Grinon</fullName>
+                <default>false</default>
+                <label>Aceros Grinon</label>
+            </value>
+            <value>
+                <fullName>Aciéries de Bonpertuis</fullName>
+                <default>false</default>
+                <label>Aciéries de Bonpertuis</label>
+            </value>
+            <value>
+                <fullName>Ador Welding</fullName>
+                <default>false</default>
+                <label>Ador Welding</label>
+            </value>
+            <value>
+                <fullName>Agrati</fullName>
+                <default>false</default>
+                <label>Agrati</label>
+            </value>
+            <value>
+                <fullName>Ahle Federn</fullName>
+                <default>false</default>
+                <label>Ahle Federn</label>
+            </value>
+            <value>
+                <fullName>Akcelik</fullName>
+                <default>false</default>
+                <label>Akcelik</label>
+            </value>
+            <value>
+                <fullName>Alder</fullName>
+                <default>false</default>
+                <label>Alder</label>
+            </value>
+            <value>
+                <fullName>Allison Transmission</fullName>
+                <default>false</default>
+                <label>Allison Transmission</label>
+            </value>
+            <value>
+                <fullName>Alstom</fullName>
+                <default>false</default>
+                <label>Alstom</label>
+            </value>
+            <value>
+                <fullName>American Metal Group</fullName>
+                <default>false</default>
+                <label>American Metal Group</label>
+            </value>
+            <value>
+                <fullName>American Spring Wire</fullName>
+                <default>false</default>
+                <label>American Spring Wire</label>
+            </value>
+            <value>
+                <fullName>Amis</fullName>
+                <default>false</default>
+                <label>Amis</label>
+            </value>
+            <value>
+                <fullName>Andernach &amp; Bleck</fullName>
+                <default>false</default>
+                <label>Andernach &amp; Bleck</label>
+            </value>
+            <value>
+                <fullName>Anordica</fullName>
+                <default>false</default>
+                <label>Anordica</label>
+            </value>
+            <value>
+                <fullName>Anuba Voeh</fullName>
+                <default>false</default>
+                <label>Anuba Voeh</label>
+            </value>
+            <value>
+                <fullName>Aramendi</fullName>
+                <default>false</default>
+                <label>Aramendi</label>
+            </value>
+            <value>
+                <fullName>Arcelor Mittal</fullName>
+                <default>false</default>
+                <label>Arcelor Mittal</label>
+            </value>
+            <value>
+                <fullName>Arema</fullName>
+                <default>false</default>
+                <label>Arema</label>
+            </value>
+            <value>
+                <fullName>Arkkays National</fullName>
+                <default>false</default>
+                <label>Arkkays National</label>
+            </value>
+            <value>
+                <fullName>Arlem</fullName>
+                <default>false</default>
+                <label>Arlem</label>
+            </value>
+            <value>
+                <fullName>Arvika Smide</fullName>
+                <default>false</default>
+                <label>Arvika Smide</label>
+            </value>
+            <value>
+                <fullName>Arvin Meritor</fullName>
+                <default>false</default>
+                <label>Arvin Meritor</label>
+            </value>
+            <value>
+                <fullName>Ateliers des Janves</fullName>
+                <default>false</default>
+                <label>Ateliers des Janves</label>
+            </value>
+            <value>
+                <fullName>Atlanta</fullName>
+                <default>false</default>
+                <label>Atlanta</label>
+            </value>
+            <value>
+                <fullName>Atlas Copco</fullName>
+                <default>false</default>
+                <label>Atlas Copco</label>
+            </value>
+            <value>
+                <fullName>Atli Zincir</fullName>
+                <default>false</default>
+                <label>Atli Zincir</label>
+            </value>
+            <value>
+                <fullName>BIS Bureau of Indian Standards</fullName>
+                <default>false</default>
+                <label>BIS Bureau of Indian Standards</label>
+            </value>
+            <value>
+                <fullName>BMW</fullName>
+                <default>false</default>
+                <label>BMW</label>
+            </value>
+            <value>
+                <fullName>BOART LONGYEAR</fullName>
+                <default>false</default>
+                <label>BOART LONGYEAR</label>
+            </value>
+            <value>
+                <fullName>BRAVO &amp; BIPPUS</fullName>
+                <default>false</default>
+                <label>BRAVO &amp; BIPPUS</label>
+            </value>
+            <value>
+                <fullName>BS</fullName>
+                <default>false</default>
+                <label>BS</label>
+            </value>
+            <value>
+                <fullName>BS EN</fullName>
+                <default>false</default>
+                <label>BS EN</label>
+            </value>
+            <value>
+                <fullName>BSW Badische Stahlwerke GmbH</fullName>
+                <default>false</default>
+                <label>BSW Badische Stahlwerke GmbH</label>
+            </value>
+            <value>
+                <fullName>BVS</fullName>
+                <default>false</default>
+                <label>BVS</label>
+            </value>
+            <value>
+                <fullName>Badische Stahlwerke</fullName>
+                <default>false</default>
+                <label>Badische Stahlwerke</label>
+            </value>
+            <value>
+                <fullName>Bandstahl Schulte</fullName>
+                <default>false</default>
+                <label>Bandstahl Schulte</label>
+            </value>
+            <value>
+                <fullName>Barrett Steel</fullName>
+                <default>false</default>
+                <label>Barrett Steel</label>
+            </value>
+            <value>
+                <fullName>Barré</fullName>
+                <default>false</default>
+                <label>Barré</label>
+            </value>
+            <value>
+                <fullName>Barton</fullName>
+                <default>false</default>
+                <label>Barton</label>
+            </value>
+            <value>
+                <fullName>Battenfeld</fullName>
+                <default>false</default>
+                <label>Battenfeld</label>
+            </value>
+            <value>
+                <fullName>Baustahlgewebe</fullName>
+                <default>false</default>
+                <label>Baustahlgewebe</label>
+            </value>
+            <value>
+                <fullName>Bayrische Bohrerwerke</fullName>
+                <default>false</default>
+                <label>Bayrische Bohrerwerke</label>
+            </value>
+            <value>
+                <fullName>Beinbauer</fullName>
+                <default>false</default>
+                <label>Beinbauer</label>
+            </value>
+            <value>
+                <fullName>Bekaert</fullName>
+                <default>false</default>
+                <label>Bekaert</label>
+            </value>
+            <value>
+                <fullName>Bellota</fullName>
+                <default>false</default>
+                <label>Bellota</label>
+            </value>
+            <value>
+                <fullName>Benteler</fullName>
+                <default>false</default>
+                <label>Benteler</label>
+            </value>
+            <value>
+                <fullName>Berdan</fullName>
+                <default>false</default>
+                <label>Berdan</label>
+            </value>
+            <value>
+                <fullName>Bergner</fullName>
+                <default>false</default>
+                <label>Bergner</label>
+            </value>
+            <value>
+                <fullName>Beru</fullName>
+                <default>false</default>
+                <label>Beru</label>
+            </value>
+            <value>
+                <fullName>Bessey</fullName>
+                <default>false</default>
+                <label>Bessey</label>
+            </value>
+            <value>
+                <fullName>Bharat Forge Kilsta</fullName>
+                <default>false</default>
+                <label>Bharat Forge Kilsta</label>
+            </value>
+            <value>
+                <fullName>Bianchini</fullName>
+                <default>false</default>
+                <label>Bianchini</label>
+            </value>
+            <value>
+                <fullName>Bill Forge</fullName>
+                <default>false</default>
+                <label>Bill Forge</label>
+            </value>
+            <value>
+                <fullName>Bilstein &amp; Siekermann</fullName>
+                <default>false</default>
+                <label>Bilstein &amp; Siekermann</label>
+            </value>
+            <value>
+                <fullName>Bitche Fixations</fullName>
+                <default>false</default>
+                <label>Bitche Fixations</label>
+            </value>
+            <value>
+                <fullName>Black &amp; Decker</fullName>
+                <default>false</default>
+                <label>Black &amp; Decker</label>
+            </value>
+            <value>
+                <fullName>Bolzoni</fullName>
+                <default>false</default>
+                <label>Bolzoni</label>
+            </value>
+            <value>
+                <fullName>Bontempi Vibo</fullName>
+                <default>false</default>
+                <label>Bontempi Vibo</label>
+            </value>
+            <value>
+                <fullName>BorgWarner</fullName>
+                <default>false</default>
+                <label>BorgWarner</label>
+            </value>
+            <value>
+                <fullName>Bosch</fullName>
+                <default>false</default>
+                <label>Bosch</label>
+            </value>
+            <value>
+                <fullName>Bosch Mahle</fullName>
+                <default>false</default>
+                <label>Bosch Mahle</label>
+            </value>
+            <value>
+                <fullName>Bosch Rexroth</fullName>
+                <default>false</default>
+                <label>Bosch Rexroth</label>
+            </value>
+            <value>
+                <fullName>Bridgestone</fullName>
+                <default>false</default>
+                <label>Bridgestone</label>
+            </value>
+            <value>
+                <fullName>Bridon Bekaert</fullName>
+                <default>false</default>
+                <label>Bridon Bekaert</label>
+            </value>
+            <value>
+                <fullName>Brightsteels</fullName>
+                <default>false</default>
+                <label>Brightsteels</label>
+            </value>
+            <value>
+                <fullName>British Steel</fullName>
+                <default>false</default>
+                <label>British Steel</label>
+            </value>
+            <value>
+                <fullName>Brose</fullName>
+                <default>false</default>
+                <label>Brose</label>
+            </value>
+            <value>
+                <fullName>Brugola</fullName>
+                <default>false</default>
+                <label>Brugola</label>
+            </value>
+            <value>
+                <fullName>Brüninghaus</fullName>
+                <default>false</default>
+                <label>Brüninghaus</label>
+            </value>
+            <value>
+                <fullName>Buchanan Metal Forming</fullName>
+                <default>false</default>
+                <label>Buchanan Metal Forming</label>
+            </value>
+            <value>
+                <fullName>Buderus</fullName>
+                <default>false</default>
+                <label>Buderus</label>
+            </value>
+            <value>
+                <fullName>Bulten</fullName>
+                <default>false</default>
+                <label>Bulten</label>
+            </value>
+            <value>
+                <fullName>Bulten Schweden</fullName>
+                <default>false</default>
+                <label>Bulten Schweden</label>
+            </value>
+            <value>
+                <fullName>Böhler Thyssen Welding</fullName>
+                <default>false</default>
+                <label>Böhler Thyssen Welding</label>
+            </value>
+            <value>
+                <fullName>Bürstlein Gusstechnik</fullName>
+                <default>false</default>
+                <label>Bürstlein Gusstechnik</label>
+            </value>
+            <value>
+                <fullName>CAT</fullName>
+                <default>false</default>
+                <label>CAT</label>
+            </value>
+            <value>
+                <fullName>CB Trafilati</fullName>
+                <default>false</default>
+                <label>CB Trafilati</label>
+            </value>
+            <value>
+                <fullName>CBI</fullName>
+                <default>false</default>
+                <label>CBI</label>
+            </value>
+            <value>
+                <fullName>CDP Bharat Forge</fullName>
+                <default>false</default>
+                <label>CDP Bharat Forge</label>
+            </value>
+            <value>
+                <fullName>CEVT</fullName>
+                <default>false</default>
+                <label>CEVT</label>
+            </value>
+            <value>
+                <fullName>CFS Colombo</fullName>
+                <default>false</default>
+                <label>CFS Colombo</label>
+            </value>
+            <value>
+                <fullName>CIE Automotive</fullName>
+                <default>false</default>
+                <label>CIE Automotive</label>
+            </value>
+            <value>
+                <fullName>CIE Galfor</fullName>
+                <default>false</default>
+                <label>CIE Galfor</label>
+            </value>
+            <value>
+                <fullName>CIE LT Forge</fullName>
+                <default>false</default>
+                <label>CIE LT Forge</label>
+            </value>
+            <value>
+                <fullName>CIE Legazpia</fullName>
+                <default>false</default>
+                <label>CIE Legazpia</label>
+            </value>
+            <value>
+                <fullName>CIE Udalbide</fullName>
+                <default>false</default>
+                <label>CIE Udalbide</label>
+            </value>
+            <value>
+                <fullName>CIE Zdanice</fullName>
+                <default>false</default>
+                <label>CIE Zdanice</label>
+            </value>
+            <value>
+                <fullName>CIRTEQ</fullName>
+                <default>false</default>
+                <label>CIRTEQ</label>
+            </value>
+            <value>
+                <fullName>CRCC</fullName>
+                <default>false</default>
+                <label>CRCC</label>
+            </value>
+            <value>
+                <fullName>Caesa Cald</fullName>
+                <default>false</default>
+                <label>Caesa Cald</label>
+            </value>
+            <value>
+                <fullName>Calibrados Pradera</fullName>
+                <default>false</default>
+                <label>Calibrados Pradera</label>
+            </value>
+            <value>
+                <fullName>Calvi</fullName>
+                <default>false</default>
+                <label>Calvi</label>
+            </value>
+            <value>
+                <fullName>Camelin</fullName>
+                <default>false</default>
+                <label>Camelin</label>
+            </value>
+            <value>
+                <fullName>Canadian Standards Association</fullName>
+                <default>false</default>
+                <label>Canadian Standards Association</label>
+            </value>
+            <value>
+                <fullName>Caparo</fullName>
+                <default>false</default>
+                <label>Caparo</label>
+            </value>
+            <value>
+                <fullName>Capital Steel</fullName>
+                <default>false</default>
+                <label>Capital Steel</label>
+            </value>
+            <value>
+                <fullName>Capresa</fullName>
+                <default>false</default>
+                <label>Capresa</label>
+            </value>
+            <value>
+                <fullName>Casati</fullName>
+                <default>false</default>
+                <label>Casati</label>
+            </value>
+            <value>
+                <fullName>Cascade</fullName>
+                <default>false</default>
+                <label>Cascade</label>
+            </value>
+            <value>
+                <fullName>Charter Wire</fullName>
+                <default>false</default>
+                <label>Charter Wire</label>
+            </value>
+            <value>
+                <fullName>China Spring</fullName>
+                <default>false</default>
+                <label>China Spring</label>
+            </value>
+            <value>
+                <fullName>Cima</fullName>
+                <default>false</default>
+                <label>Cima</label>
+            </value>
+            <value>
+                <fullName>Claas</fullName>
+                <default>false</default>
+                <label>Claas</label>
+            </value>
+            <value>
+                <fullName>Cleff</fullName>
+                <default>false</default>
+                <label>Cleff</label>
+            </value>
+            <value>
+                <fullName>Cogne</fullName>
+                <default>false</default>
+                <label>Cogne</label>
+            </value>
+            <value>
+                <fullName>Comforsa</fullName>
+                <default>false</default>
+                <label>Comforsa</label>
+            </value>
+            <value>
+                <fullName>Compa</fullName>
+                <default>false</default>
+                <label>Compa</label>
+            </value>
+            <value>
+                <fullName>Componenta Wirsbo</fullName>
+                <default>false</default>
+                <label>Componenta Wirsbo</label>
+            </value>
+            <value>
+                <fullName>Confidential</fullName>
+                <default>false</default>
+                <label>Confidential</label>
+            </value>
+            <value>
+                <fullName>Conflandey</fullName>
+                <default>false</default>
+                <label>Conflandey</label>
+            </value>
+            <value>
+                <fullName>Conti</fullName>
+                <default>false</default>
+                <label>Conti</label>
+            </value>
+            <value>
+                <fullName>Continental</fullName>
+                <default>false</default>
+                <label>Continental</label>
+            </value>
+            <value>
+                <fullName>Cooper &amp; Turner</fullName>
+                <default>false</default>
+                <label>Cooper &amp; Turner</label>
+            </value>
+            <value>
+                <fullName>Coppersteel</fullName>
+                <default>false</default>
+                <label>Coppersteel</label>
+            </value>
+            <value>
+                <fullName>Corey</fullName>
+                <default>false</default>
+                <label>Corey</label>
+            </value>
+            <value>
+                <fullName>Correct</fullName>
+                <default>false</default>
+                <label>Correct</label>
+            </value>
+            <value>
+                <fullName>Cotarko</fullName>
+                <default>false</default>
+                <label>Cotarko</label>
+            </value>
+            <value>
+                <fullName>Crafmsa</fullName>
+                <default>false</default>
+                <label>Crafmsa</label>
+            </value>
+            <value>
+                <fullName>Cummins</fullName>
+                <default>false</default>
+                <label>Cummins</label>
+            </value>
+            <value>
+                <fullName>D &amp; H Secheron Electrodes</fullName>
+                <default>false</default>
+                <label>D &amp; H Secheron Electrodes</label>
+            </value>
+            <value>
+                <fullName>DA-TOR</fullName>
+                <default>false</default>
+                <label>DA-TOR</label>
+            </value>
+            <value>
+                <fullName>DAF</fullName>
+                <default>false</default>
+                <label>DAF</label>
+            </value>
+            <value>
+                <fullName>DANA</fullName>
+                <default>false</default>
+                <label>DANA</label>
+            </value>
+            <value>
+                <fullName>DAU componentes</fullName>
+                <default>false</default>
+                <label>DAU componentes</label>
+            </value>
+            <value>
+                <fullName>DBE</fullName>
+                <default>false</default>
+                <label>DBE</label>
+            </value>
+            <value>
+                <fullName>DBL</fullName>
+                <default>false</default>
+                <label>DBL</label>
+            </value>
+            <value>
+                <fullName>DEUTZ</fullName>
+                <default>false</default>
+                <label>DEUTZ</label>
+            </value>
+            <value>
+                <fullName>DEW</fullName>
+                <default>false</default>
+                <label>DEW</label>
+            </value>
+            <value>
+                <fullName>DIN</fullName>
+                <default>false</default>
+                <label>DIN</label>
+            </value>
+            <value>
+                <fullName>DIN EN</fullName>
+                <default>false</default>
+                <label>DIN EN</label>
+            </value>
+            <value>
+                <fullName>DIN EN ISO</fullName>
+                <default>false</default>
+                <label>DIN EN ISO</label>
+            </value>
+            <value>
+                <fullName>DREPS</fullName>
+                <default>false</default>
+                <label>DREPS</label>
+            </value>
+            <value>
+                <fullName>DWI</fullName>
+                <default>false</default>
+                <label>DWI</label>
+            </value>
+            <value>
+                <fullName>DWK</fullName>
+                <default>false</default>
+                <label>DWK</label>
+            </value>
+            <value>
+                <fullName>DWL</fullName>
+                <default>false</default>
+                <label>DWL</label>
+            </value>
+            <value>
+                <fullName>Daewon Europe</fullName>
+                <default>false</default>
+                <label>Daewon Europe</label>
+            </value>
+            <value>
+                <fullName>Danfoss</fullName>
+                <default>false</default>
+                <label>Danfoss</label>
+            </value>
+            <value>
+                <fullName>Deacero</fullName>
+                <default>false</default>
+                <label>Deacero</label>
+            </value>
+            <value>
+                <fullName>Defontaine SA</fullName>
+                <default>false</default>
+                <label>Defontaine SA</label>
+            </value>
+            <value>
+                <fullName>Delmex</fullName>
+                <default>false</default>
+                <label>Delmex</label>
+            </value>
+            <value>
+                <fullName>Delphi</fullName>
+                <default>false</default>
+                <label>Delphi</label>
+            </value>
+            <value>
+                <fullName>Denso</fullName>
+                <default>false</default>
+                <label>Denso</label>
+            </value>
+            <value>
+                <fullName>Deutsche Bahn</fullName>
+                <default>false</default>
+                <label>Deutsche Bahn</label>
+            </value>
+            <value>
+                <fullName>Diager</fullName>
+                <default>false</default>
+                <label>Diager</label>
+            </value>
+            <value>
+                <fullName>Diehl</fullName>
+                <default>false</default>
+                <label>Diehl</label>
+            </value>
+            <value>
+                <fullName>Diehl-Mauser</fullName>
+                <default>false</default>
+                <label>Diehl-Mauser</label>
+            </value>
+            <value>
+                <fullName>Dirostahl</fullName>
+                <default>false</default>
+                <label>Dirostahl</label>
+            </value>
+            <value>
+                <fullName>Dokka Fasteners</fullName>
+                <default>false</default>
+                <label>Dokka Fasteners</label>
+            </value>
+            <value>
+                <fullName>Dold</fullName>
+                <default>false</default>
+                <label>Dold</label>
+            </value>
+            <value>
+                <fullName>Dongbu</fullName>
+                <default>false</default>
+                <label>Dongbu</label>
+            </value>
+            <value>
+                <fullName>Dongfeng</fullName>
+                <default>false</default>
+                <label>Dongfeng</label>
+            </value>
+            <value>
+                <fullName>Dorma</fullName>
+                <default>false</default>
+                <label>Dorma</label>
+            </value>
+            <value>
+                <fullName>Dorstener Drahtwerke</fullName>
+                <default>false</default>
+                <label>Dorstener Drahtwerke</label>
+            </value>
+            <value>
+                <fullName>Drahtzug Stein</fullName>
+                <default>false</default>
+                <label>Drahtzug Stein</label>
+            </value>
+            <value>
+                <fullName>Drebo</fullName>
+                <default>false</default>
+                <label>Drebo</label>
+            </value>
+            <value>
+                <fullName>Drumet</fullName>
+                <default>false</default>
+                <label>Drumet</label>
+            </value>
+            <value>
+                <fullName>EJOT</fullName>
+                <default>false</default>
+                <label>EJOT</label>
+            </value>
+            <value>
+                <fullName>EN</fullName>
+                <default>false</default>
+                <label>EN</label>
+            </value>
+            <value>
+                <fullName>EN ISO</fullName>
+                <default>false</default>
+                <label>EN ISO</label>
+            </value>
+            <value>
+                <fullName>ENERCON</fullName>
+                <default>false</default>
+                <label>ENERCON</label>
+            </value>
+            <value>
+                <fullName>ERKERT</fullName>
+                <default>false</default>
+                <label>ERKERT</label>
+            </value>
+            <value>
+                <fullName>ESAB</fullName>
+                <default>false</default>
+                <label>ESAB</label>
+            </value>
+            <value>
+                <fullName>ESF Elbe-Stahlwerke</fullName>
+                <default>false</default>
+                <label>ESF Elbe-Stahlwerke</label>
+            </value>
+            <value>
+                <fullName>ESWECO</fullName>
+                <default>false</default>
+                <label>ESWECO</label>
+            </value>
+            <value>
+                <fullName>ETO Magnetic</fullName>
+                <default>false</default>
+                <label>ETO Magnetic</label>
+            </value>
+            <value>
+                <fullName>EU</fullName>
+                <default>false</default>
+                <label>EU</label>
+            </value>
+            <value>
+                <fullName>EZM</fullName>
+                <default>false</default>
+                <label>EZM</label>
+            </value>
+            <value>
+                <fullName>Eaton</fullName>
+                <default>false</default>
+                <label>Eaton</label>
+            </value>
+            <value>
+                <fullName>Ecenarro</fullName>
+                <default>false</default>
+                <label>Ecenarro</label>
+            </value>
+            <value>
+                <fullName>Einsal</fullName>
+                <default>false</default>
+                <label>Einsal</label>
+            </value>
+            <value>
+                <fullName>Elbor Srl</fullName>
+                <default>false</default>
+                <label>Elbor Srl</label>
+            </value>
+            <value>
+                <fullName>Electromet</fullName>
+                <default>false</default>
+                <label>Electromet</label>
+            </value>
+            <value>
+                <fullName>Elektroda Zagreb</fullName>
+                <default>false</default>
+                <label>Elektroda Zagreb</label>
+            </value>
+            <value>
+                <fullName>Elektrode Jesenice d.o.o.</fullName>
+                <default>false</default>
+                <label>Elektrode Jesenice d.o.o.</label>
+            </value>
+            <value>
+                <fullName>Ermelec</fullName>
+                <default>false</default>
+                <label>Ermelec</label>
+            </value>
+            <value>
+                <fullName>Estamcal</fullName>
+                <default>false</default>
+                <label>Estamcal</label>
+            </value>
+            <value>
+                <fullName>Ets Descours et Cabaud</fullName>
+                <default>false</default>
+                <label>Ets Descours et Cabaud</label>
+            </value>
+            <value>
+                <fullName>FAR</fullName>
+                <default>false</default>
+                <label>FAR</label>
+            </value>
+            <value>
+                <fullName>FCA</fullName>
+                <default>false</default>
+                <label>FCA</label>
+            </value>
+            <value>
+                <fullName>FHH</fullName>
+                <default>false</default>
+                <label>FHH</label>
+            </value>
+            <value>
+                <fullName>FIAT</fullName>
+                <default>false</default>
+                <label>FIAT</label>
+            </value>
+            <value>
+                <fullName>FLT</fullName>
+                <default>false</default>
+                <label>FLT</label>
+            </value>
+            <value>
+                <fullName>FN</fullName>
+                <default>false</default>
+                <label>FN</label>
+            </value>
+            <value>
+                <fullName>FNsteel b.v.</fullName>
+                <default>false</default>
+                <label>FNsteel b.v.</label>
+            </value>
+            <value>
+                <fullName>Fastenrath</fullName>
+                <default>false</default>
+                <label>Fastenrath</label>
+            </value>
+            <value>
+                <fullName>Federal Mogul</fullName>
+                <default>false</default>
+                <label>Federal Mogul</label>
+            </value>
+            <value>
+                <fullName>Fendt</fullName>
+                <default>false</default>
+                <label>Fendt</label>
+            </value>
+            <value>
+                <fullName>Fenix</fullName>
+                <default>false</default>
+                <label>Fenix</label>
+            </value>
+            <value>
+                <fullName>Ferriere G. Cima SRL</fullName>
+                <default>false</default>
+                <label>Ferriere G. Cima SRL</label>
+            </value>
+            <value>
+                <fullName>Finkernagel</fullName>
+                <default>false</default>
+                <label>Finkernagel</label>
+            </value>
+            <value>
+                <fullName>Fischer Vyskov spol.s.r.o</fullName>
+                <default>false</default>
+                <label>Fischer Vyskov spol.s.r.o</label>
+            </value>
+            <value>
+                <fullName>Fischerwerke</fullName>
+                <default>false</default>
+                <label>Fischerwerke</label>
+            </value>
+            <value>
+                <fullName>Flender</fullName>
+                <default>false</default>
+                <label>Flender</label>
+            </value>
+            <value>
+                <fullName>Fliess</fullName>
+                <default>false</default>
+                <label>Fliess</label>
+            </value>
+            <value>
+                <fullName>Fontana Gruppo</fullName>
+                <default>false</default>
+                <label>Fontana Gruppo</label>
+            </value>
+            <value>
+                <fullName>Ford</fullName>
+                <default>false</default>
+                <label>Ford</label>
+            </value>
+            <value>
+                <fullName>Forges de Courcelles</fullName>
+                <default>false</default>
+                <label>Forges de Courcelles</label>
+            </value>
+            <value>
+                <fullName>Forja de Monterrey</fullName>
+                <default>false</default>
+                <label>Forja de Monterrey</label>
+            </value>
+            <value>
+                <fullName>Forjas de Berriz</fullName>
+                <default>false</default>
+                <label>Forjas de Berriz</label>
+            </value>
+            <value>
+                <fullName>Forjas de Celaya</fullName>
+                <default>false</default>
+                <label>Forjas de Celaya</label>
+            </value>
+            <value>
+                <fullName>Formteil Finsterwalde</fullName>
+                <default>false</default>
+                <label>Formteil Finsterwalde</label>
+            </value>
+            <value>
+                <fullName>Friedberg Gelsenkirchen</fullName>
+                <default>false</default>
+                <label>Friedberg Gelsenkirchen</label>
+            </value>
+            <value>
+                <fullName>Fröndenberg Drahtwerk</fullName>
+                <default>false</default>
+                <label>Fröndenberg Drahtwerk</label>
+            </value>
+            <value>
+                <fullName>Fuchs</fullName>
+                <default>false</default>
+                <label>Fuchs</label>
+            </value>
+            <value>
+                <fullName>GAC Engineering</fullName>
+                <default>false</default>
+                <label>GAC Engineering</label>
+            </value>
+            <value>
+                <fullName>GEE</fullName>
+                <default>false</default>
+                <label>GEE</label>
+            </value>
+            <value>
+                <fullName>GKN</fullName>
+                <default>false</default>
+                <label>GKN</label>
+            </value>
+            <value>
+                <fullName>GM</fullName>
+                <default>false</default>
+                <label>GM</label>
+            </value>
+            <value>
+                <fullName>GSA</fullName>
+                <default>false</default>
+                <label>GSA</label>
+            </value>
+            <value>
+                <fullName>GSC</fullName>
+                <default>false</default>
+                <label>GSC</label>
+            </value>
+            <value>
+                <fullName>GUANGDONG SIHUI SHILI</fullName>
+                <default>false</default>
+                <label>GUANGDONG SIHUI SHILI</label>
+            </value>
+            <value>
+                <fullName>Garton Limited</fullName>
+                <default>false</default>
+                <label>Garton Limited</label>
+            </value>
+            <value>
+                <fullName>Gebr. Kunze in vorl. Insolvenz</fullName>
+                <default>false</default>
+                <label>Gebr. Kunze in vorl. Insolvenz</label>
+            </value>
+            <value>
+                <fullName>Geely</fullName>
+                <default>false</default>
+                <label>Geely</label>
+            </value>
+            <value>
+                <fullName>Georg</fullName>
+                <default>false</default>
+                <label>Georg</label>
+            </value>
+            <value>
+                <fullName>Gerdau</fullName>
+                <default>false</default>
+                <label>Gerdau</label>
+            </value>
+            <value>
+                <fullName>Getrag</fullName>
+                <default>false</default>
+                <label>Getrag</label>
+            </value>
+            <value>
+                <fullName>Gevelot</fullName>
+                <default>false</default>
+                <label>Gevelot</label>
+            </value>
+            <value>
+                <fullName>Gilardi</fullName>
+                <default>false</default>
+                <label>Gilardi</label>
+            </value>
+            <value>
+                <fullName>Gima</fullName>
+                <default>false</default>
+                <label>Gima</label>
+            </value>
+            <value>
+                <fullName>Global</fullName>
+                <default>false</default>
+                <label>Global</label>
+            </value>
+            <value>
+                <fullName>Gnutti</fullName>
+                <default>false</default>
+                <label>Gnutti</label>
+            </value>
+            <value>
+                <fullName>Graf</fullName>
+                <default>false</default>
+                <label>Graf</label>
+            </value>
+            <value>
+                <fullName>Graziano</fullName>
+                <default>false</default>
+                <label>Graziano</label>
+            </value>
+            <value>
+                <fullName>Greatwall</fullName>
+                <default>false</default>
+                <label>Greatwall</label>
+            </value>
+            <value>
+                <fullName>Grieshaber</fullName>
+                <default>false</default>
+                <label>Grieshaber</label>
+            </value>
+            <value>
+                <fullName>Grupo Intelli Brasil</fullName>
+                <default>false</default>
+                <label>Grupo Intelli Brasil</label>
+            </value>
+            <value>
+                <fullName>Gruppo Lucefin</fullName>
+                <default>false</default>
+                <label>Gruppo Lucefin</label>
+            </value>
+            <value>
+                <fullName>Guiseppe &amp; Fratelli Bonaiti</fullName>
+                <default>false</default>
+                <label>Guiseppe &amp; Fratelli Bonaiti</label>
+            </value>
+            <value>
+                <fullName>Gülde</fullName>
+                <default>false</default>
+                <label>Gülde</label>
+            </value>
+            <value>
+                <fullName>HAY</fullName>
+                <default>false</default>
+                <label>HAY</label>
+            </value>
+            <value>
+                <fullName>HIVO</fullName>
+                <default>false</default>
+                <label>HIVO</label>
+            </value>
+            <value>
+                <fullName>HKS</fullName>
+                <default>false</default>
+                <label>HKS</label>
+            </value>
+            <value>
+                <fullName>HOLZHAUER</fullName>
+                <default>false</default>
+                <label>HOLZHAUER</label>
+            </value>
+            <value>
+                <fullName>HSF</fullName>
+                <default>false</default>
+                <label>HSF</label>
+            </value>
+            <value>
+                <fullName>HZP</fullName>
+                <default>false</default>
+                <label>HZP</label>
+            </value>
+            <value>
+                <fullName>Halfen</fullName>
+                <default>false</default>
+                <label>Halfen</label>
+            </value>
+            <value>
+                <fullName>Hammerwerk Fridingen</fullName>
+                <default>false</default>
+                <label>Hammerwerk Fridingen</label>
+            </value>
+            <value>
+                <fullName>Hanson Springs Ltd</fullName>
+                <default>false</default>
+                <label>Hanson Springs Ltd</label>
+            </value>
+            <value>
+                <fullName>Hascelik</fullName>
+                <default>false</default>
+                <label>Hascelik</label>
+            </value>
+            <value>
+                <fullName>Hatz</fullName>
+                <default>false</default>
+                <label>Hatz</label>
+            </value>
+            <value>
+                <fullName>Hawera</fullName>
+                <default>false</default>
+                <label>Hawera</label>
+            </value>
+            <value>
+                <fullName>Helens</fullName>
+                <default>false</default>
+                <label>Helens</label>
+            </value>
+            <value>
+                <fullName>Hendrickson Austria</fullName>
+                <default>false</default>
+                <label>Hendrickson Austria</label>
+            </value>
+            <value>
+                <fullName>Hercules</fullName>
+                <default>false</default>
+                <label>Hercules</label>
+            </value>
+            <value>
+                <fullName>Hesse</fullName>
+                <default>false</default>
+                <label>Hesse</label>
+            </value>
+            <value>
+                <fullName>Heyco</fullName>
+                <default>false</default>
+                <label>Heyco</label>
+            </value>
+            <value>
+                <fullName>Hilti</fullName>
+                <default>false</default>
+                <label>Hilti</label>
+            </value>
+            <value>
+                <fullName>Hilti Mexiko</fullName>
+                <default>false</default>
+                <label>Hilti Mexiko</label>
+            </value>
+            <value>
+                <fullName>HjulsbroSteel</fullName>
+                <default>false</default>
+                <label>HjulsbroSteel</label>
+            </value>
+            <value>
+                <fullName>Howmet Aerospace</fullName>
+                <default>false</default>
+                <label>Howmet Aerospace</label>
+            </value>
+            <value>
+                <fullName>Hydac</fullName>
+                <default>false</default>
+                <label>Hydac</label>
+            </value>
+            <value>
+                <fullName>Hyundai</fullName>
+                <default>false</default>
+                <label>Hyundai</label>
+            </value>
+            <value>
+                <fullName>Hyundai Superteck</fullName>
+                <default>false</default>
+                <label>Hyundai Superteck</label>
+            </value>
+            <value>
+                <fullName>Hörle Wire s.r.o.</fullName>
+                <default>false</default>
+                <label>Hörle Wire s.r.o.</label>
+            </value>
+            <value>
+                <fullName>I.F.P.</fullName>
+                <default>false</default>
+                <label>I.F.P.</label>
+            </value>
+            <value>
+                <fullName>I.T.A. S.p.a.</fullName>
+                <default>false</default>
+                <label>I.T.A. S.p.a.</label>
+            </value>
+            <value>
+                <fullName>ICC</fullName>
+                <default>false</default>
+                <label>ICC</label>
+            </value>
+            <value>
+                <fullName>ICC-Indian Card Clothing</fullName>
+                <default>false</default>
+                <label>ICC-Indian Card Clothing</label>
+            </value>
+            <value>
+                <fullName>IFA</fullName>
+                <default>false</default>
+                <label>IFA</label>
+            </value>
+            <value>
+                <fullName>ILJIN</fullName>
+                <default>false</default>
+                <label>ILJIN</label>
+            </value>
+            <value>
+                <fullName>IMS GEAR</fullName>
+                <default>false</default>
+                <label>IMS GEAR</label>
+            </value>
+            <value>
+                <fullName>IPIRANGA</fullName>
+                <default>false</default>
+                <label>IPIRANGA</label>
+            </value>
+            <value>
+                <fullName>IS</fullName>
+                <default>false</default>
+                <label>IS</label>
+            </value>
+            <value>
+                <fullName>ISAF Group</fullName>
+                <default>false</default>
+                <label>ISAF Group</label>
+            </value>
+            <value>
+                <fullName>ISKRA</fullName>
+                <default>false</default>
+                <label>ISKRA</label>
+            </value>
+            <value>
+                <fullName>ISO</fullName>
+                <default>false</default>
+                <label>ISO</label>
+            </value>
+            <value>
+                <fullName>ITW</fullName>
+                <default>false</default>
+                <label>ITW</label>
+            </value>
+            <value>
+                <fullName>ITW Welding</fullName>
+                <default>false</default>
+                <label>ITW Welding</label>
+            </value>
+            <value>
+                <fullName>IVECO</fullName>
+                <default>false</default>
+                <label>IVECO</label>
+            </value>
+            <value>
+                <fullName>Indusla</fullName>
+                <default>false</default>
+                <label>Indusla</label>
+            </value>
+            <value>
+                <fullName>Industria Nazionale Elettrodi</fullName>
+                <default>false</default>
+                <label>Industria Nazionale Elettrodi</label>
+            </value>
+            <value>
+                <fullName>Industrias Fegar</fullName>
+                <default>false</default>
+                <label>Industrias Fegar</label>
+            </value>
+            <value>
+                <fullName>Insteel</fullName>
+                <default>false</default>
+                <label>Insteel</label>
+            </value>
+            <value>
+                <fullName>Intersig</fullName>
+                <default>false</default>
+                <label>Intersig</label>
+            </value>
+            <value>
+                <fullName>Italfil S.p.a.</fullName>
+                <default>false</default>
+                <label>Italfil S.p.a.</label>
+            </value>
+            <value>
+                <fullName>J.D.T.</fullName>
+                <default>false</default>
+                <label>J.D.T.</label>
+            </value>
+            <value>
+                <fullName>JIS G</fullName>
+                <default>false</default>
+                <label>JIS G</label>
+            </value>
+            <value>
+                <fullName>JTEKT</fullName>
+                <default>false</default>
+                <label>JTEKT</label>
+            </value>
+            <value>
+                <fullName>Jadeela</fullName>
+                <default>false</default>
+                <label>Jadeela</label>
+            </value>
+            <value>
+                <fullName>Jaguar</fullName>
+                <default>false</default>
+                <label>Jaguar</label>
+            </value>
+            <value>
+                <fullName>John Deere</fullName>
+                <default>false</default>
+                <label>John Deere</label>
+            </value>
+            <value>
+                <fullName>Johnstown</fullName>
+                <default>false</default>
+                <label>Johnstown</label>
+            </value>
+            <value>
+                <fullName>Joseph Martin</fullName>
+                <default>false</default>
+                <label>Joseph Martin</label>
+            </value>
+            <value>
+                <fullName>KION</fullName>
+                <default>false</default>
+                <label>KION</label>
+            </value>
+            <value>
+                <fullName>KISWEL</fullName>
+                <default>false</default>
+                <label>KISWEL</label>
+            </value>
+            <value>
+                <fullName>KMS</fullName>
+                <default>false</default>
+                <label>KMS</label>
+            </value>
+            <value>
+                <fullName>KOHN</fullName>
+                <default>false</default>
+                <label>KOHN</label>
+            </value>
+            <value>
+                <fullName>KOYO</fullName>
+                <default>false</default>
+                <label>KOYO</label>
+            </value>
+            <value>
+                <fullName>KRS Seigert</fullName>
+                <default>false</default>
+                <label>KRS Seigert</label>
+            </value>
+            <value>
+                <fullName>KRW</fullName>
+                <default>false</default>
+                <label>KRW</label>
+            </value>
+            <value>
+                <fullName>KS Kolbenschmidt GmbH</fullName>
+                <default>false</default>
+                <label>KS Kolbenschmidt GmbH</label>
+            </value>
+            <value>
+                <fullName>KSHB</fullName>
+                <default>false</default>
+                <label>KSHB</label>
+            </value>
+            <value>
+                <fullName>KTS Wire LTD</fullName>
+                <default>false</default>
+                <label>KTS Wire LTD</label>
+            </value>
+            <value>
+                <fullName>Kaleliler</fullName>
+                <default>false</default>
+                <label>Kaleliler</label>
+            </value>
+            <value>
+                <fullName>Kalibre</fullName>
+                <default>false</default>
+                <label>Kalibre</label>
+            </value>
+            <value>
+                <fullName>Kamax</fullName>
+                <default>false</default>
+                <label>Kamax</label>
+            </value>
+            <value>
+                <fullName>Kamax S.L.U.</fullName>
+                <default>false</default>
+                <label>Kamax S.L.U.</label>
+            </value>
+            <value>
+                <fullName>Kamman</fullName>
+                <default>false</default>
+                <label>Kamman</label>
+            </value>
+            <value>
+                <fullName>Kanca</fullName>
+                <default>false</default>
+                <label>Kanca</label>
+            </value>
+            <value>
+                <fullName>Kern s.r.o.</fullName>
+                <default>false</default>
+                <label>Kern s.r.o.</label>
+            </value>
+            <value>
+                <fullName>Kettenwerk Becker-Prünte</fullName>
+                <default>false</default>
+                <label>Kettenwerk Becker-Prünte</label>
+            </value>
+            <value>
+                <fullName>Kiswire</fullName>
+                <default>false</default>
+                <label>Kiswire</label>
+            </value>
+            <value>
+                <fullName>Kleinsorge</fullName>
+                <default>false</default>
+                <label>Kleinsorge</label>
+            </value>
+            <value>
+                <fullName>Klincke</fullName>
+                <default>false</default>
+                <label>Klincke</label>
+            </value>
+            <value>
+                <fullName>Knipex</fullName>
+                <default>false</default>
+                <label>Knipex</label>
+            </value>
+            <value>
+                <fullName>Knorr</fullName>
+                <default>false</default>
+                <label>Knorr</label>
+            </value>
+            <value>
+                <fullName>Kobelco Welding</fullName>
+                <default>false</default>
+                <label>Kobelco Welding</label>
+            </value>
+            <value>
+                <fullName>Kolbenschmidt</fullName>
+                <default>false</default>
+                <label>Kolbenschmidt</label>
+            </value>
+            <value>
+                <fullName>Kontino</fullName>
+                <default>false</default>
+                <label>Kontino</label>
+            </value>
+            <value>
+                <fullName>Krampe Harex</fullName>
+                <default>false</default>
+                <label>Krampe Harex</label>
+            </value>
+            <value>
+                <fullName>Kreher</fullName>
+                <default>false</default>
+                <label>Kreher</label>
+            </value>
+            <value>
+                <fullName>Krevet</fullName>
+                <default>false</default>
+                <label>Krevet</label>
+            </value>
+            <value>
+                <fullName>Kunze</fullName>
+                <default>false</default>
+                <label>Kunze</label>
+            </value>
+            <value>
+                <fullName>Kunze in Insolvenz</fullName>
+                <default>false</default>
+                <label>Kunze in Insolvenz</label>
+            </value>
+            <value>
+                <fullName>Kuznia Jawor</fullName>
+                <default>false</default>
+                <label>Kuznia Jawor</label>
+            </value>
+            <value>
+                <fullName>Köster</fullName>
+                <default>false</default>
+                <label>Köster</label>
+            </value>
+            <value>
+                <fullName>Künne Hemer</fullName>
+                <default>false</default>
+                <label>Künne Hemer</label>
+            </value>
+            <value>
+                <fullName>L.D. McCauley</fullName>
+                <default>false</default>
+                <label>L.D. McCauley</label>
+            </value>
+            <value>
+                <fullName>LM Wind Power</fullName>
+                <default>false</default>
+                <label>LM Wind Power</label>
+            </value>
+            <value>
+                <fullName>Lakshmi</fullName>
+                <default>false</default>
+                <label>Lakshmi</label>
+            </value>
+            <value>
+                <fullName>Laurel</fullName>
+                <default>false</default>
+                <label>Laurel</label>
+            </value>
+            <value>
+                <fullName>Legget &amp; Platt</fullName>
+                <default>false</default>
+                <label>Legget &amp; Platt</label>
+            </value>
+            <value>
+                <fullName>Lenze</fullName>
+                <default>false</default>
+                <label>Lenze</label>
+            </value>
+            <value>
+                <fullName>Lesjöfors Fjädrar AB</fullName>
+                <default>false</default>
+                <label>Lesjöfors Fjädrar AB</label>
+            </value>
+            <value>
+                <fullName>Liberty Rail Hayange</fullName>
+                <default>false</default>
+                <label>Liberty Rail Hayange</label>
+            </value>
+            <value>
+                <fullName>Liberty Steel</fullName>
+                <default>false</default>
+                <label>Liberty Steel</label>
+            </value>
+            <value>
+                <fullName>Liebherr</fullName>
+                <default>false</default>
+                <label>Liebherr</label>
+            </value>
+            <value>
+                <fullName>Lifting Solutions</fullName>
+                <default>false</default>
+                <label>Lifting Solutions</label>
+            </value>
+            <value>
+                <fullName>Linamar</fullName>
+                <default>false</default>
+                <label>Linamar</label>
+            </value>
+            <value>
+                <fullName>Lincoln Electric</fullName>
+                <default>false</default>
+                <label>Lincoln Electric</label>
+            </value>
+            <value>
+                <fullName>Linde Hydraulics</fullName>
+                <default>false</default>
+                <label>Linde Hydraulics</label>
+            </value>
+            <value>
+                <fullName>Lindemann &amp; Störmer</fullName>
+                <default>false</default>
+                <label>Lindemann &amp; Störmer</label>
+            </value>
+            <value>
+                <fullName>Lindner</fullName>
+                <default>false</default>
+                <label>Lindner</label>
+            </value>
+            <value>
+                <fullName>Lippi Detmold</fullName>
+                <default>false</default>
+                <label>Lippi Detmold</label>
+            </value>
+            <value>
+                <fullName>Lisi</fullName>
+                <default>false</default>
+                <label>Lisi</label>
+            </value>
+            <value>
+                <fullName>Litspringas</fullName>
+                <default>false</default>
+                <label>Litspringas</label>
+            </value>
+            <value>
+                <fullName>Lucas</fullName>
+                <default>false</default>
+                <label>Lucas</label>
+            </value>
+            <value>
+                <fullName>Luhn &amp; Pulvermacher</fullName>
+                <default>false</default>
+                <label>Luhn &amp; Pulvermacher</label>
+            </value>
+            <value>
+                <fullName>Lumpi Berndorf</fullName>
+                <default>false</default>
+                <label>Lumpi Berndorf</label>
+            </value>
+            <value>
+                <fullName>Lunke</fullName>
+                <default>false</default>
+                <label>Lunke</label>
+            </value>
+            <value>
+                <fullName>Lötters Draht</fullName>
+                <default>false</default>
+                <label>Lötters Draht</label>
+            </value>
+            <value>
+                <fullName>Lüling</fullName>
+                <default>false</default>
+                <label>Lüling</label>
+            </value>
+            <value>
+                <fullName>MAB</fullName>
+                <default>false</default>
+                <label>MAB</label>
+            </value>
+            <value>
+                <fullName>MAN</fullName>
+                <default>false</default>
+                <label>MAN</label>
+            </value>
+            <value>
+                <fullName>MC. Cauley</fullName>
+                <default>false</default>
+                <label>MC. Cauley</label>
+            </value>
+            <value>
+                <fullName>MECA-FORGING SAS</fullName>
+                <default>false</default>
+                <label>MECA-FORGING SAS</label>
+            </value>
+            <value>
+                <fullName>MECAVIT</fullName>
+                <default>false</default>
+                <label>MECAVIT</label>
+            </value>
+            <value>
+                <fullName>MF Catenificio   OLGINATE</fullName>
+                <default>false</default>
+                <label>MF Catenificio   OLGINATE</label>
+            </value>
+            <value>
+                <fullName>MI.ME.AF.</fullName>
+                <default>false</default>
+                <label>MI.ME.AF.</label>
+            </value>
+            <value>
+                <fullName>MKT</fullName>
+                <default>false</default>
+                <label>MKT</label>
+            </value>
+            <value>
+                <fullName>MS</fullName>
+                <default>false</default>
+                <label>MS</label>
+            </value>
+            <value>
+                <fullName>MSSC</fullName>
+                <default>false</default>
+                <label>MSSC</label>
+            </value>
+            <value>
+                <fullName>MSV Studenka</fullName>
+                <default>false</default>
+                <label>MSV Studenka</label>
+            </value>
+            <value>
+                <fullName>MW Spring</fullName>
+                <default>false</default>
+                <label>MW Spring</label>
+            </value>
+            <value>
+                <fullName>Maadaniyah</fullName>
+                <default>false</default>
+                <label>Maadaniyah</label>
+            </value>
+            <value>
+                <fullName>Magna</fullName>
+                <default>false</default>
+                <label>Magna</label>
+            </value>
+            <value>
+                <fullName>Magotteaux</fullName>
+                <default>false</default>
+                <label>Magotteaux</label>
+            </value>
+            <value>
+                <fullName>Mahle</fullName>
+                <default>false</default>
+                <label>Mahle</label>
+            </value>
+            <value>
+                <fullName>Mahle Brockhaus</fullName>
+                <default>false</default>
+                <label>Mahle Brockhaus</label>
+            </value>
+            <value>
+                <fullName>Mahle Rosswein</fullName>
+                <default>false</default>
+                <label>Mahle Rosswein</label>
+            </value>
+            <value>
+                <fullName>Maklada</fullName>
+                <default>false</default>
+                <label>Maklada</label>
+            </value>
+            <value>
+                <fullName>Mannstaedt</fullName>
+                <default>false</default>
+                <label>Mannstaedt</label>
+            </value>
+            <value>
+                <fullName>Mardany</fullName>
+                <default>false</default>
+                <label>Mardany</label>
+            </value>
+            <value>
+                <fullName>Marer SRL</fullName>
+                <default>false</default>
+                <label>Marer SRL</label>
+            </value>
+            <value>
+                <fullName>Marubeni-Itochu Singapore</fullName>
+                <default>false</default>
+                <label>Marubeni-Itochu Singapore</label>
+            </value>
+            <value>
+                <fullName>Masselin</fullName>
+                <default>false</default>
+                <label>Masselin</label>
+            </value>
+            <value>
+                <fullName>Mauri &amp; Figli</fullName>
+                <default>false</default>
+                <label>Mauri &amp; Figli</label>
+            </value>
+            <value>
+                <fullName>Metaldyne</fullName>
+                <default>false</default>
+                <label>Metaldyne</label>
+            </value>
+            <value>
+                <fullName>Metallumform</fullName>
+                <default>false</default>
+                <label>Metallumform</label>
+            </value>
+            <value>
+                <fullName>Metallurgica Locatelli SPA</fullName>
+                <default>false</default>
+                <label>Metallurgica Locatelli SPA</label>
+            </value>
+            <value>
+                <fullName>Metalmanzoni</fullName>
+                <default>false</default>
+                <label>Metalmanzoni</label>
+            </value>
+            <value>
+                <fullName>Metalvit</fullName>
+                <default>false</default>
+                <label>Metalvit</label>
+            </value>
+            <value>
+                <fullName>Metalúrgica Fey</fullName>
+                <default>false</default>
+                <label>Metalúrgica Fey</label>
+            </value>
+            <value>
+                <fullName>Metform</fullName>
+                <default>false</default>
+                <label>Metform</label>
+            </value>
+            <value>
+                <fullName>Methal</fullName>
+                <default>false</default>
+                <label>Methal</label>
+            </value>
+            <value>
+                <fullName>Michelin</fullName>
+                <default>false</default>
+                <label>Michelin</label>
+            </value>
+            <value>
+                <fullName>Mint Steel Forge</fullName>
+                <default>false</default>
+                <label>Mint Steel Forge</label>
+            </value>
+            <value>
+                <fullName>Mitas</fullName>
+                <default>false</default>
+                <label>Mitas</label>
+            </value>
+            <value>
+                <fullName>Miyazaki</fullName>
+                <default>false</default>
+                <label>Miyazaki</label>
+            </value>
+            <value>
+                <fullName>Moly-Cop</fullName>
+                <default>false</default>
+                <label>Moly-Cop</label>
+            </value>
+            <value>
+                <fullName>Moravia</fullName>
+                <default>false</default>
+                <label>Moravia</label>
+            </value>
+            <value>
+                <fullName>Mount Joy Wire</fullName>
+                <default>false</default>
+                <label>Mount Joy Wire</label>
+            </value>
+            <value>
+                <fullName>Mubea</fullName>
+                <default>false</default>
+                <label>Mubea</label>
+            </value>
+            <value>
+                <fullName>Multimet</fullName>
+                <default>false</default>
+                <label>Multimet</label>
+            </value>
+            <value>
+                <fullName>Mungo</fullName>
+                <default>false</default>
+                <label>Mungo</label>
+            </value>
+            <value>
+                <fullName>Musashi</fullName>
+                <default>false</default>
+                <label>Musashi</label>
+            </value>
+            <value>
+                <fullName>Möhling</fullName>
+                <default>false</default>
+                <label>Möhling</label>
+            </value>
+            <value>
+                <fullName>NASCO INC.</fullName>
+                <default>false</default>
+                <label>NASCO INC.</label>
+            </value>
+            <value>
+                <fullName>NEAPCO</fullName>
+                <default>false</default>
+                <label>NEAPCO</label>
+            </value>
+            <value>
+                <fullName>NFA</fullName>
+                <default>false</default>
+                <label>NFA</label>
+            </value>
+            <value>
+                <fullName>NFA EN</fullName>
+                <default>false</default>
+                <label>NFA EN</label>
+            </value>
+            <value>
+                <fullName>NGK Spark Plug</fullName>
+                <default>false</default>
+                <label>NGK Spark Plug</label>
+            </value>
+            <value>
+                <fullName>NHK</fullName>
+                <default>false</default>
+                <label>NHK</label>
+            </value>
+            <value>
+                <fullName>NSS Technologies</fullName>
+                <default>false</default>
+                <label>NSS Technologies</label>
+            </value>
+            <value>
+                <fullName>NTN</fullName>
+                <default>false</default>
+                <label>NTN</label>
+            </value>
+            <value>
+                <fullName>Nangong</fullName>
+                <default>false</default>
+                <label>Nangong</label>
+            </value>
+            <value>
+                <fullName>Nedri Hamm</fullName>
+                <default>false</default>
+                <label>Nedri Hamm</label>
+            </value>
+            <value>
+                <fullName>Nedri Venlo</fullName>
+                <default>false</default>
+                <label>Nedri Venlo</label>
+            </value>
+            <value>
+                <fullName>Nedschroef</fullName>
+                <default>false</default>
+                <label>Nedschroef</label>
+            </value>
+            <value>
+                <fullName>Nelsen</fullName>
+                <default>false</default>
+                <label>Nelsen</label>
+            </value>
+            <value>
+                <fullName>Net Civata</fullName>
+                <default>false</default>
+                <label>Net Civata</label>
+            </value>
+            <value>
+                <fullName>Net Shaped Solutions</fullName>
+                <default>false</default>
+                <label>Net Shaped Solutions</label>
+            </value>
+            <value>
+                <fullName>Neturen</fullName>
+                <default>false</default>
+                <label>Neturen</label>
+            </value>
+            <value>
+                <fullName>Neumayer Richard</fullName>
+                <default>false</default>
+                <label>Neumayer Richard</label>
+            </value>
+            <value>
+                <fullName>Neumayer Tekfor</fullName>
+                <default>false</default>
+                <label>Neumayer Tekfor</label>
+            </value>
+            <value>
+                <fullName>Neumayer Tekfor Rotenburg</fullName>
+                <default>false</default>
+                <label>Neumayer Tekfor Rotenburg</label>
+            </value>
+            <value>
+                <fullName>Nexteer</fullName>
+                <default>false</default>
+                <label>Nexteer</label>
+            </value>
+            <value>
+                <fullName>Niagara Lasalle</fullName>
+                <default>false</default>
+                <label>Niagara Lasalle</label>
+            </value>
+            <value>
+                <fullName>Nippon Steel &amp; Sumikin Bussan</fullName>
+                <default>false</default>
+                <label>Nippon Steel &amp; Sumikin Bussan</label>
+            </value>
+            <value>
+                <fullName>Norm Civata</fullName>
+                <default>false</default>
+                <label>Norm Civata</label>
+            </value>
+            <value>
+                <fullName>Novofil</fullName>
+                <default>false</default>
+                <label>Novofil</label>
+            </value>
+            <value>
+                <fullName>Nucor</fullName>
+                <default>false</default>
+                <label>Nucor</label>
+            </value>
+            <value>
+                <fullName>O&amp;K</fullName>
+                <default>false</default>
+                <label>O&amp;K</label>
+            </value>
+            <value>
+                <fullName>OJSC</fullName>
+                <default>false</default>
+                <label>OJSC</label>
+            </value>
+            <value>
+                <fullName>ORS</fullName>
+                <default>false</default>
+                <label>ORS</label>
+            </value>
+            <value>
+                <fullName>Obel Civata</fullName>
+                <default>false</default>
+                <label>Obel Civata</label>
+            </value>
+            <value>
+                <fullName>Oerlikon Barmag</fullName>
+                <default>false</default>
+                <label>Oerlikon Barmag</label>
+            </value>
+            <value>
+                <fullName>Onate</fullName>
+                <default>false</default>
+                <label>Onate</label>
+            </value>
+            <value>
+                <fullName>Opel</fullName>
+                <default>false</default>
+                <label>Opel</label>
+            </value>
+            <value>
+                <fullName>Oter Spa</fullName>
+                <default>false</default>
+                <label>Oter Spa</label>
+            </value>
+            <value>
+                <fullName>Outils PAM</fullName>
+                <default>false</default>
+                <label>Outils PAM</label>
+            </value>
+            <value>
+                <fullName>PSA</fullName>
+                <default>false</default>
+                <label>PSA</label>
+            </value>
+            <value>
+                <fullName>PSW</fullName>
+                <default>false</default>
+                <label>PSW</label>
+            </value>
+            <value>
+                <fullName>PWK</fullName>
+                <default>false</default>
+                <label>PWK</label>
+            </value>
+            <value>
+                <fullName>PWK IBEX</fullName>
+                <default>false</default>
+                <label>PWK IBEX</label>
+            </value>
+            <value>
+                <fullName>PZW</fullName>
+                <default>false</default>
+                <label>PZW</label>
+            </value>
+            <value>
+                <fullName>Parker</fullName>
+                <default>false</default>
+                <label>Parker</label>
+            </value>
+            <value>
+                <fullName>Pecol</fullName>
+                <default>false</default>
+                <label>Pecol</label>
+            </value>
+            <value>
+                <fullName>Peikko</fullName>
+                <default>false</default>
+                <label>Peikko</label>
+            </value>
+            <value>
+                <fullName>Peiner</fullName>
+                <default>false</default>
+                <label>Peiner</label>
+            </value>
+            <value>
+                <fullName>Peiner Umformtechnik &amp; Service</fullName>
+                <default>false</default>
+                <label>Peiner Umformtechnik &amp; Service</label>
+            </value>
+            <value>
+                <fullName>Pengg</fullName>
+                <default>false</default>
+                <label>Pengg</label>
+            </value>
+            <value>
+                <fullName>Perkins</fullName>
+                <default>false</default>
+                <label>Perkins</label>
+            </value>
+            <value>
+                <fullName>Pernat</fullName>
+                <default>false</default>
+                <label>Pernat</label>
+            </value>
+            <value>
+                <fullName>Peugeot Japy</fullName>
+                <default>false</default>
+                <label>Peugeot Japy</label>
+            </value>
+            <value>
+                <fullName>Pewag Schn</fullName>
+                <default>false</default>
+                <label>Pewag Schn</label>
+            </value>
+            <value>
+                <fullName>Pfeifer</fullName>
+                <default>false</default>
+                <label>Pfeifer</label>
+            </value>
+            <value>
+                <fullName>Plasmatec</fullName>
+                <default>false</default>
+                <label>Plasmatec</label>
+            </value>
+            <value>
+                <fullName>Plastwil</fullName>
+                <default>false</default>
+                <label>Plastwil</label>
+            </value>
+            <value>
+                <fullName>Platestahl</fullName>
+                <default>false</default>
+                <label>Platestahl</label>
+            </value>
+            <value>
+                <fullName>Poclain Hydraulics</fullName>
+                <default>false</default>
+                <label>Poclain Hydraulics</label>
+            </value>
+            <value>
+                <fullName>Ponziani</fullName>
+                <default>false</default>
+                <label>Ponziani</label>
+            </value>
+            <value>
+                <fullName>Precision Kidd</fullName>
+                <default>false</default>
+                <label>Precision Kidd</label>
+            </value>
+            <value>
+                <fullName>Precision Weldarc</fullName>
+                <default>false</default>
+                <label>Precision Weldarc</label>
+            </value>
+            <value>
+                <fullName>Premier Steel</fullName>
+                <default>false</default>
+                <label>Premier Steel</label>
+            </value>
+            <value>
+                <fullName>Pretoria</fullName>
+                <default>false</default>
+                <label>Pretoria</label>
+            </value>
+            <value>
+                <fullName>Primotecs</fullName>
+                <default>false</default>
+                <label>Primotecs</label>
+            </value>
+            <value>
+                <fullName>Prysmian</fullName>
+                <default>false</default>
+                <label>Prysmian</label>
+            </value>
+            <value>
+                <fullName>Précibarre</fullName>
+                <default>false</default>
+                <label>Précibarre</label>
+            </value>
+            <value>
+                <fullName>Préciturn</fullName>
+                <default>false</default>
+                <label>Préciturn</label>
+            </value>
+            <value>
+                <fullName>Punch Powertrain</fullName>
+                <default>false</default>
+                <label>Punch Powertrain</label>
+            </value>
+            <value>
+                <fullName>REGE VW</fullName>
+                <default>false</default>
+                <label>REGE VW</label>
+            </value>
+            <value>
+                <fullName>RVI</fullName>
+                <default>false</default>
+                <label>RVI</label>
+            </value>
+            <value>
+                <fullName>Railtech</fullName>
+                <default>false</default>
+                <label>Railtech</label>
+            </value>
+            <value>
+                <fullName>Rajratan</fullName>
+                <default>false</default>
+                <label>Rajratan</label>
+            </value>
+            <value>
+                <fullName>Redaelli</fullName>
+                <default>false</default>
+                <label>Redaelli</label>
+            </value>
+            <value>
+                <fullName>Reisser Schraubentechnik GmbH</fullName>
+                <default>false</default>
+                <label>Reisser Schraubentechnik GmbH</label>
+            </value>
+            <value>
+                <fullName>Renault</fullName>
+                <default>false</default>
+                <label>Renault</label>
+            </value>
+            <value>
+                <fullName>Republic Steel</fullName>
+                <default>false</default>
+                <label>Republic Steel</label>
+            </value>
+            <value>
+                <fullName>Revifa</fullName>
+                <default>false</default>
+                <label>Revifa</label>
+            </value>
+            <value>
+                <fullName>Rexnord Ketten</fullName>
+                <default>false</default>
+                <label>Rexnord Ketten</label>
+            </value>
+            <value>
+                <fullName>Rexroth</fullName>
+                <default>false</default>
+                <label>Rexroth</label>
+            </value>
+            <value>
+                <fullName>Rieter</fullName>
+                <default>false</default>
+                <label>Rieter</label>
+            </value>
+            <value>
+                <fullName>Rivex</fullName>
+                <default>false</default>
+                <label>Rivex</label>
+            </value>
+            <value>
+                <fullName>Rodacciai</fullName>
+                <default>false</default>
+                <label>Rodacciai</label>
+            </value>
+            <value>
+                <fullName>Rogiro Aceros</fullName>
+                <default>false</default>
+                <label>Rogiro Aceros</label>
+            </value>
+            <value>
+                <fullName>Rotta</fullName>
+                <default>false</default>
+                <label>Rotta</label>
+            </value>
+            <value>
+                <fullName>Rubol</fullName>
+                <default>false</default>
+                <label>Rubol</label>
+            </value>
+            <value>
+                <fullName>Ruhrtaler Gesenkschm</fullName>
+                <default>false</default>
+                <label>Ruhrtaler Gesenkschm</label>
+            </value>
+            <value>
+                <fullName>Ruia</fullName>
+                <default>false</default>
+                <label>Ruia</label>
+            </value>
+            <value>
+                <fullName>Runowo</fullName>
+                <default>false</default>
+                <label>Runowo</label>
+            </value>
+            <value>
+                <fullName>Räuchle</fullName>
+                <default>false</default>
+                <label>Räuchle</label>
+            </value>
+            <value>
+                <fullName>Röslau Stahldraht</fullName>
+                <default>false</default>
+                <label>Röslau Stahldraht</label>
+            </value>
+            <value>
+                <fullName>Röslau Wire</fullName>
+                <default>false</default>
+                <label>Röslau Wire</label>
+            </value>
+            <value>
+                <fullName>Rüggeberg</fullName>
+                <default>false</default>
+                <label>Rüggeberg</label>
+            </value>
+            <value>
+                <fullName>SA-RA</fullName>
+                <default>false</default>
+                <label>SA-RA</label>
+            </value>
+            <value>
+                <fullName>SAE</fullName>
+                <default>false</default>
+                <label>SAE</label>
+            </value>
+            <value>
+                <fullName>SAF Holland</fullName>
+                <default>false</default>
+                <label>SAF Holland</label>
+            </value>
+            <value>
+                <fullName>SAM HWA STEEL S.A.</fullName>
+                <default>false</default>
+                <label>SAM HWA STEEL S.A.</label>
+            </value>
+            <value>
+                <fullName>SBG</fullName>
+                <default>false</default>
+                <label>SBG</label>
+            </value>
+            <value>
+                <fullName>SCANIA</fullName>
+                <default>false</default>
+                <label>SCANIA</label>
+            </value>
+            <value>
+                <fullName>SDL</fullName>
+                <default>false</default>
+                <label>SDL</label>
+            </value>
+            <value>
+                <fullName>SEG Automotive</fullName>
+                <default>false</default>
+                <label>SEG Automotive</label>
+            </value>
+            <value>
+                <fullName>SEP</fullName>
+                <default>false</default>
+                <label>SEP</label>
+            </value>
+            <value>
+                <fullName>SEW</fullName>
+                <default>false</default>
+                <label>SEW</label>
+            </value>
+            <value>
+                <fullName>SEW Eurodrive</fullName>
+                <default>false</default>
+                <label>SEW Eurodrive</label>
+            </value>
+            <value>
+                <fullName>SFC-KOENIG</fullName>
+                <default>false</default>
+                <label>SFC-KOENIG</label>
+            </value>
+            <value>
+                <fullName>SFS</fullName>
+                <default>false</default>
+                <label>SFS</label>
+            </value>
+            <value>
+                <fullName>SHU</fullName>
+                <default>false</default>
+                <label>SHU</label>
+            </value>
+            <value>
+                <fullName>SIAT S.P.A.</fullName>
+                <default>false</default>
+                <label>SIAT S.P.A.</label>
+            </value>
+            <value>
+                <fullName>SKF</fullName>
+                <default>false</default>
+                <label>SKF</label>
+            </value>
+            <value>
+                <fullName>SLM S.P.A.</fullName>
+                <default>false</default>
+                <label>SLM S.P.A.</label>
+            </value>
+            <value>
+                <fullName>SNN</fullName>
+                <default>false</default>
+                <label>SNN</label>
+            </value>
+            <value>
+                <fullName>SNTN</fullName>
+                <default>false</default>
+                <label>SNTN</label>
+            </value>
+            <value>
+                <fullName>STM</fullName>
+                <default>false</default>
+                <label>STM</label>
+            </value>
+            <value>
+                <fullName>STP</fullName>
+                <default>false</default>
+                <label>STP</label>
+            </value>
+            <value>
+                <fullName>SUZ</fullName>
+                <default>false</default>
+                <label>SUZ</label>
+            </value>
+            <value>
+                <fullName>SWF</fullName>
+                <default>false</default>
+                <label>SWF</label>
+            </value>
+            <value>
+                <fullName>SWG</fullName>
+                <default>false</default>
+                <label>SWG</label>
+            </value>
+            <value>
+                <fullName>Saarstahl</fullName>
+                <default>false</default>
+                <label>Saarstahl</label>
+            </value>
+            <value>
+                <fullName>Saarstahl Rail</fullName>
+                <default>false</default>
+                <label>Saarstahl Rail</label>
+            </value>
+            <value>
+                <fullName>SamboMetals</fullName>
+                <default>false</default>
+                <label>SamboMetals</label>
+            </value>
+            <value>
+                <fullName>San Grato</fullName>
+                <default>false</default>
+                <label>San Grato</label>
+            </value>
+            <value>
+                <fullName>San Paolo</fullName>
+                <default>false</default>
+                <label>San Paolo</label>
+            </value>
+            <value>
+                <fullName>Sandvik</fullName>
+                <default>false</default>
+                <label>Sandvik</label>
+            </value>
+            <value>
+                <fullName>Sanluis Rassini</fullName>
+                <default>false</default>
+                <label>Sanluis Rassini</label>
+            </value>
+            <value>
+                <fullName>Santa Ana de Bolueta</fullName>
+                <default>false</default>
+                <label>Santa Ana de Bolueta</label>
+            </value>
+            <value>
+                <fullName>Sauer Danfoss</fullName>
+                <default>false</default>
+                <label>Sauer Danfoss</label>
+            </value>
+            <value>
+                <fullName>Sauer-Danfoss</fullName>
+                <default>false</default>
+                <label>Sauer-Danfoss</label>
+            </value>
+            <value>
+                <fullName>Scaw South Africa (Pty) Limite</fullName>
+                <default>false</default>
+                <label>Scaw South Africa (Pty) Limite</label>
+            </value>
+            <value>
+                <fullName>Schaeffler</fullName>
+                <default>false</default>
+                <label>Schaeffler</label>
+            </value>
+            <value>
+                <fullName>Schleicher</fullName>
+                <default>false</default>
+                <label>Schleicher</label>
+            </value>
+            <value>
+                <fullName>Schmid Schrauben Hainfeld</fullName>
+                <default>false</default>
+                <label>Schmid Schrauben Hainfeld</label>
+            </value>
+            <value>
+                <fullName>Schmiedag</fullName>
+                <default>false</default>
+                <label>Schmiedag</label>
+            </value>
+            <value>
+                <fullName>Schmiedetechnik Dessau</fullName>
+                <default>false</default>
+                <label>Schmiedetechnik Dessau</label>
+            </value>
+            <value>
+                <fullName>Scholz</fullName>
+                <default>false</default>
+                <label>Scholz</label>
+            </value>
+            <value>
+                <fullName>Schondelmaier</fullName>
+                <default>false</default>
+                <label>Schondelmaier</label>
+            </value>
+            <value>
+                <fullName>Schumacher</fullName>
+                <default>false</default>
+                <label>Schumacher</label>
+            </value>
+            <value>
+                <fullName>Schweiger</fullName>
+                <default>false</default>
+                <label>Schweiger</label>
+            </value>
+            <value>
+                <fullName>Schwihag</fullName>
+                <default>false</default>
+                <label>Schwihag</label>
+            </value>
+            <value>
+                <fullName>Scintilla AG</fullName>
+                <default>false</default>
+                <label>Scintilla AG</label>
+            </value>
+            <value>
+                <fullName>Sebir</fullName>
+                <default>false</default>
+                <label>Sebir</label>
+            </value>
+            <value>
+                <fullName>Secosar Etirage</fullName>
+                <default>false</default>
+                <label>Secosar Etirage</label>
+            </value>
+            <value>
+                <fullName>Seissenschmidt</fullName>
+                <default>false</default>
+                <label>Seissenschmidt</label>
+            </value>
+            <value>
+                <fullName>Setforge</fullName>
+                <default>false</default>
+                <label>Setforge</label>
+            </value>
+            <value>
+                <fullName>Shinsho</fullName>
+                <default>false</default>
+                <label>Shinsho</label>
+            </value>
+            <value>
+                <fullName>Sidenor</fullName>
+                <default>false</default>
+                <label>Sidenor</label>
+            </value>
+            <value>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+                <label>Siemens</label>
+            </value>
+            <value>
+                <fullName>Siepmann</fullName>
+                <default>false</default>
+                <label>Siepmann</label>
+            </value>
+            <value>
+                <fullName>Sinotruck</fullName>
+                <default>false</default>
+                <label>Sinotruck</label>
+            </value>
+            <value>
+                <fullName>Smith Bullough</fullName>
+                <default>false</default>
+                <label>Smith Bullough</label>
+            </value>
+            <value>
+                <fullName>Sodetal</fullName>
+                <default>false</default>
+                <label>Sodetal</label>
+            </value>
+            <value>
+                <fullName>Sogefi Group</fullName>
+                <default>false</default>
+                <label>Sogefi Group</label>
+            </value>
+            <value>
+                <fullName>Som Civata Somun</fullName>
+                <default>false</default>
+                <label>Som Civata Somun</label>
+            </value>
+            <value>
+                <fullName>Sona BLW</fullName>
+                <default>false</default>
+                <label>Sona BLW</label>
+            </value>
+            <value>
+                <fullName>Sonne Stahlhandelsgesellschaft</fullName>
+                <default>false</default>
+                <label>Sonne Stahlhandelsgesellschaft</label>
+            </value>
+            <value>
+                <fullName>Special Steel</fullName>
+                <default>false</default>
+                <label>Special Steel</label>
+            </value>
+            <value>
+                <fullName>Speciality Steel UK</fullName>
+                <default>false</default>
+                <label>Speciality Steel UK</label>
+            </value>
+            <value>
+                <fullName>Spit</fullName>
+                <default>false</default>
+                <label>Spit</label>
+            </value>
+            <value>
+                <fullName>Stabilus</fullName>
+                <default>false</default>
+                <label>Stabilus</label>
+            </value>
+            <value>
+                <fullName>Stahl Krebs</fullName>
+                <default>false</default>
+                <label>Stahl Krebs</label>
+            </value>
+            <value>
+                <fullName>Stahlrump</fullName>
+                <default>false</default>
+                <label>Stahlrump</label>
+            </value>
+            <value>
+                <fullName>Stahlschlüssel</fullName>
+                <default>false</default>
+                <label>Stahlschlüssel</label>
+            </value>
+            <value>
+                <fullName>Stahlwerk Unna</fullName>
+                <default>false</default>
+                <label>Stahlwerk Unna</label>
+            </value>
+            <value>
+                <fullName>Stalma</fullName>
+                <default>false</default>
+                <label>Stalma</label>
+            </value>
+            <value>
+                <fullName>Steek Wire Rope</fullName>
+                <default>false</default>
+                <label>Steek Wire Rope</label>
+            </value>
+            <value>
+                <fullName>Steeltec AG</fullName>
+                <default>false</default>
+                <label>Steeltec AG</label>
+            </value>
+            <value>
+                <fullName>Steeltec Boxholm</fullName>
+                <default>false</default>
+                <label>Steeltec Boxholm</label>
+            </value>
+            <value>
+                <fullName>Steeltec Celik</fullName>
+                <default>false</default>
+                <label>Steeltec Celik</label>
+            </value>
+            <value>
+                <fullName>Steeltec GmbH</fullName>
+                <default>false</default>
+                <label>Steeltec GmbH</label>
+            </value>
+            <value>
+                <fullName>Stihl</fullName>
+                <default>false</default>
+                <label>Stihl</label>
+            </value>
+            <value>
+                <fullName>Stumpp Schuele &amp; Springs</fullName>
+                <default>false</default>
+                <label>Stumpp Schuele &amp; Springs</label>
+            </value>
+            <value>
+                <fullName>Sumiden</fullName>
+                <default>false</default>
+                <label>Sumiden</label>
+            </value>
+            <value>
+                <fullName>Suncall Technologies Mexico</fullName>
+                <default>false</default>
+                <label>Suncall Technologies Mexico</label>
+            </value>
+            <value>
+                <fullName>Sundram</fullName>
+                <default>false</default>
+                <label>Sundram</label>
+            </value>
+            <value>
+                <fullName>Sundram Fasteners</fullName>
+                <default>false</default>
+                <label>Sundram Fasteners</label>
+            </value>
+            <value>
+                <fullName>Sunway</fullName>
+                <default>false</default>
+                <label>Sunway</label>
+            </value>
+            <value>
+                <fullName>Super Tech</fullName>
+                <default>false</default>
+                <label>Super Tech</label>
+            </value>
+            <value>
+                <fullName>Supreme Spring</fullName>
+                <default>false</default>
+                <label>Supreme Spring</label>
+            </value>
+            <value>
+                <fullName>Suzuki Garphyttan</fullName>
+                <default>false</default>
+                <label>Suzuki Garphyttan</label>
+            </value>
+            <value>
+                <fullName>Swiss Steel Celik</fullName>
+                <default>false</default>
+                <label>Swiss Steel Celik</label>
+            </value>
+            <value>
+                <fullName>TERWA</fullName>
+                <default>false</default>
+                <label>TERWA</label>
+            </value>
+            <value>
+                <fullName>THK</fullName>
+                <default>false</default>
+                <label>THK</label>
+            </value>
+            <value>
+                <fullName>THUN</fullName>
+                <default>false</default>
+                <label>THUN</label>
+            </value>
+            <value>
+                <fullName>TIS Tomas Aniol</fullName>
+                <default>false</default>
+                <label>TIS Tomas Aniol</label>
+            </value>
+            <value>
+                <fullName>TRW</fullName>
+                <default>false</default>
+                <label>TRW</label>
+            </value>
+            <value>
+                <fullName>Taranto</fullName>
+                <default>false</default>
+                <label>Taranto</label>
+            </value>
+            <value>
+                <fullName>Tarini</fullName>
+                <default>false</default>
+                <label>Tarini</label>
+            </value>
+            <value>
+                <fullName>Taskazan</fullName>
+                <default>false</default>
+                <label>Taskazan</label>
+            </value>
+            <value>
+                <fullName>Tata steel</fullName>
+                <default>false</default>
+                <label>Tata steel</label>
+            </value>
+            <value>
+                <fullName>Taubensee</fullName>
+                <default>false</default>
+                <label>Taubensee</label>
+            </value>
+            <value>
+                <fullName>Technological Synthesis LLC</fullName>
+                <default>false</default>
+                <label>Technological Synthesis LLC</label>
+            </value>
+            <value>
+                <fullName>Tekelioglu</fullName>
+                <default>false</default>
+                <label>Tekelioglu</label>
+            </value>
+            <value>
+                <fullName>Tekfor</fullName>
+                <default>false</default>
+                <label>Tekfor</label>
+            </value>
+            <value>
+                <fullName>Tekfor Avigliana</fullName>
+                <default>false</default>
+                <label>Tekfor Avigliana</label>
+            </value>
+            <value>
+                <fullName>Tenconi</fullName>
+                <default>false</default>
+                <label>Tenconi</label>
+            </value>
+            <value>
+                <fullName>Theis</fullName>
+                <default>false</default>
+                <label>Theis</label>
+            </value>
+            <value>
+                <fullName>Thiele</fullName>
+                <default>false</default>
+                <label>Thiele</label>
+            </value>
+            <value>
+                <fullName>Thomson Neff</fullName>
+                <default>false</default>
+                <label>Thomson Neff</label>
+            </value>
+            <value>
+                <fullName>Thule</fullName>
+                <default>false</default>
+                <label>Thule</label>
+            </value>
+            <value>
+                <fullName>Thyssen Krupp</fullName>
+                <default>false</default>
+                <label>Thyssen Krupp</label>
+            </value>
+            <value>
+                <fullName>ThyssenKrupp Gerlach</fullName>
+                <default>false</default>
+                <label>ThyssenKrupp Gerlach</label>
+            </value>
+            <value>
+                <fullName>ThyssenKrupp Materials</fullName>
+                <default>false</default>
+                <label>ThyssenKrupp Materials</label>
+            </value>
+            <value>
+                <fullName>ThyssenKrupp Presta</fullName>
+                <default>false</default>
+                <label>ThyssenKrupp Presta</label>
+            </value>
+            <value>
+                <fullName>ThyssenKrupp Presta Camshafts</fullName>
+                <default>false</default>
+                <label>ThyssenKrupp Presta Camshafts</label>
+            </value>
+            <value>
+                <fullName>Tokusen</fullName>
+                <default>false</default>
+                <label>Tokusen</label>
+            </value>
+            <value>
+                <fullName>Toyota</fullName>
+                <default>false</default>
+                <label>Toyota</label>
+            </value>
+            <value>
+                <fullName>Track Tec GmbH</fullName>
+                <default>false</default>
+                <label>Track Tec GmbH</label>
+            </value>
+            <value>
+                <fullName>Traf. Crotta</fullName>
+                <default>false</default>
+                <label>Traf. Crotta</label>
+            </value>
+            <value>
+                <fullName>Trafil Czech</fullName>
+                <default>false</default>
+                <label>Trafil Czech</label>
+            </value>
+            <value>
+                <fullName>Trafileria Lariana</fullName>
+                <default>false</default>
+                <label>Trafileria Lariana</label>
+            </value>
+            <value>
+                <fullName>Trafileria Lecchese srl</fullName>
+                <default>false</default>
+                <label>Trafileria Lecchese srl</label>
+            </value>
+            <value>
+                <fullName>Trafilerie Italia Spa</fullName>
+                <default>false</default>
+                <label>Trafilerie Italia Spa</label>
+            </value>
+            <value>
+                <fullName>Trafilerie di Valgreghentino</fullName>
+                <default>false</default>
+                <label>Trafilerie di Valgreghentino</label>
+            </value>
+            <value>
+                <fullName>Trafilix</fullName>
+                <default>false</default>
+                <label>Trafilix</label>
+            </value>
+            <value>
+                <fullName>Trafilspec</fullName>
+                <default>false</default>
+                <label>Trafilspec</label>
+            </value>
+            <value>
+                <fullName>Trafiltecno</fullName>
+                <default>false</default>
+                <label>Trafiltecno</label>
+            </value>
+            <value>
+                <fullName>Tre Valli Acciai</fullName>
+                <default>false</default>
+                <label>Tre Valli Acciai</label>
+            </value>
+            <value>
+                <fullName>Trefinasa</fullName>
+                <default>false</default>
+                <label>Trefinasa</label>
+            </value>
+            <value>
+                <fullName>Tremec</fullName>
+                <default>false</default>
+                <label>Tremec</label>
+            </value>
+            <value>
+                <fullName>Trico</fullName>
+                <default>false</default>
+                <label>Trico</label>
+            </value>
+            <value>
+                <fullName>Tsingshan</fullName>
+                <default>false</default>
+                <label>Tsingshan</label>
+            </value>
+            <value>
+                <fullName>Tuyper SA</fullName>
+                <default>false</default>
+                <label>Tuyper SA</label>
+            </value>
+            <value>
+                <fullName>TÜV</fullName>
+                <default>false</default>
+                <label>TÜV</label>
+            </value>
+            <value>
+                <fullName>UAES</fullName>
+                <default>false</default>
+                <label>UAES</label>
+            </value>
+            <value>
+                <fullName>UBB</fullName>
+                <default>false</default>
+                <label>UBB</label>
+            </value>
+            <value>
+                <fullName>UKM Umformtechnik</fullName>
+                <default>false</default>
+                <label>UKM Umformtechnik</label>
+            </value>
+            <value>
+                <fullName>USHA MARTIN</fullName>
+                <default>false</default>
+                <label>USHA MARTIN</label>
+            </value>
+            <value>
+                <fullName>USM</fullName>
+                <default>false</default>
+                <label>USM</label>
+            </value>
+            <value>
+                <fullName>Union Drawn</fullName>
+                <default>false</default>
+                <label>Union Drawn</label>
+            </value>
+            <value>
+                <fullName>United Co.</fullName>
+                <default>false</default>
+                <label>United Co.</label>
+            </value>
+            <value>
+                <fullName>United Wire Co.</fullName>
+                <default>false</default>
+                <label>United Wire Co.</label>
+            </value>
+            <value>
+                <fullName>Usha Martin Ltd.</fullName>
+                <default>false</default>
+                <label>Usha Martin Ltd.</label>
+            </value>
+            <value>
+                <fullName>VA Böhler Welding Austria GmbH</fullName>
+                <default>false</default>
+                <label>VA Böhler Welding Austria GmbH</label>
+            </value>
+            <value>
+                <fullName>VA Finsterwalde</fullName>
+                <default>false</default>
+                <label>VA Finsterwalde</label>
+            </value>
+            <value>
+                <fullName>VA Trafilerie Industriali</fullName>
+                <default>false</default>
+                <label>VA Trafilerie Industriali</label>
+            </value>
+            <value>
+                <fullName>VETTER</fullName>
+                <default>false</default>
+                <label>VETTER</label>
+            </value>
+            <value>
+                <fullName>VHW</fullName>
+                <default>false</default>
+                <label>VHW</label>
+            </value>
+            <value>
+                <fullName>VOITH</fullName>
+                <default>false</default>
+                <label>VOITH</label>
+            </value>
+            <value>
+                <fullName>VW</fullName>
+                <default>false</default>
+                <label>VW</label>
+            </value>
+            <value>
+                <fullName>Valeo Auto-Electric</fullName>
+                <default>false</default>
+                <label>Valeo Auto-Electric</label>
+            </value>
+            <value>
+                <fullName>Van Beest</fullName>
+                <default>false</default>
+                <label>Van Beest</label>
+            </value>
+            <value>
+                <fullName>Van Merksteijn</fullName>
+                <default>false</default>
+                <label>Van Merksteijn</label>
+            </value>
+            <value>
+                <fullName>VdTÜV</fullName>
+                <default>false</default>
+                <label>VdTÜV</label>
+            </value>
+            <value>
+                <fullName>Verlag Stahleisen</fullName>
+                <default>false</default>
+                <label>Verlag Stahleisen</label>
+            </value>
+            <value>
+                <fullName>Vimi Fasteners</fullName>
+                <default>false</default>
+                <label>Vimi Fasteners</label>
+            </value>
+            <value>
+                <fullName>Vitesco</fullName>
+                <default>false</default>
+                <label>Vitesco</label>
+            </value>
+            <value>
+                <fullName>Vitkovice</fullName>
+                <default>false</default>
+                <label>Vitkovice</label>
+            </value>
+            <value>
+                <fullName>Voastalpine Rotec</fullName>
+                <default>false</default>
+                <label>Voastalpine Rotec</label>
+            </value>
+            <value>
+                <fullName>Voestalpine Bohler Welding USA</fullName>
+                <default>false</default>
+                <label>Voestalpine Bohler Welding USA</label>
+            </value>
+            <value>
+                <fullName>Voestalpine Böhler Welding</fullName>
+                <default>false</default>
+                <label>Voestalpine Böhler Welding</label>
+            </value>
+            <value>
+                <fullName>Voestalpine Special Wire GmbH</fullName>
+                <default>false</default>
+                <label>Voestalpine Special Wire GmbH</label>
+            </value>
+            <value>
+                <fullName>Voestalpine Wire Austria</fullName>
+                <default>false</default>
+                <label>Voestalpine Wire Austria</label>
+            </value>
+            <value>
+                <fullName>Voestalpine Wire Italy</fullName>
+                <default>false</default>
+                <label>Voestalpine Wire Italy</label>
+            </value>
+            <value>
+                <fullName>Volme</fullName>
+                <default>false</default>
+                <label>Volme</label>
+            </value>
+            <value>
+                <fullName>Volvo</fullName>
+                <default>false</default>
+                <label>Volvo</label>
+            </value>
+            <value>
+                <fullName>Vom Hofe KSD</fullName>
+                <default>false</default>
+                <label>Vom Hofe KSD</label>
+            </value>
+            <value>
+                <fullName>Vornbäumen</fullName>
+                <default>false</default>
+                <label>Vornbäumen</label>
+            </value>
+            <value>
+                <fullName>Voss</fullName>
+                <default>false</default>
+                <label>Voss</label>
+            </value>
+            <value>
+                <fullName>Vossloh</fullName>
+                <default>false</default>
+                <label>Vossloh</label>
+            </value>
+            <value>
+                <fullName>WABCO</fullName>
+                <default>false</default>
+                <label>WABCO</label>
+            </value>
+            <value>
+                <fullName>WBO Italcables</fullName>
+                <default>false</default>
+                <label>WBO Italcables</label>
+            </value>
+            <value>
+                <fullName>WDI</fullName>
+                <default>false</default>
+                <label>WDI</label>
+            </value>
+            <value>
+                <fullName>WDI Blank Hamm</fullName>
+                <default>false</default>
+                <label>WDI Blank Hamm</label>
+            </value>
+            <value>
+                <fullName>WDI Blank Schwerte</fullName>
+                <default>false</default>
+                <label>WDI Blank Schwerte</label>
+            </value>
+            <value>
+                <fullName>WDI Hamm</fullName>
+                <default>false</default>
+                <label>WDI Hamm</label>
+            </value>
+            <value>
+                <fullName>WDI Iserlohn</fullName>
+                <default>false</default>
+                <label>WDI Iserlohn</label>
+            </value>
+            <value>
+                <fullName>WDI Rothenburg</fullName>
+                <default>false</default>
+                <label>WDI Rothenburg</label>
+            </value>
+            <value>
+                <fullName>WEG</fullName>
+                <default>false</default>
+                <label>WEG</label>
+            </value>
+            <value>
+                <fullName>WIRECO</fullName>
+                <default>false</default>
+                <label>WIRECO</label>
+            </value>
+            <value>
+                <fullName>WOLCO</fullName>
+                <default>false</default>
+                <label>WOLCO</label>
+            </value>
+            <value>
+                <fullName>WRV</fullName>
+                <default>false</default>
+                <label>WRV</label>
+            </value>
+            <value>
+                <fullName>WS</fullName>
+                <default>false</default>
+                <label>WS</label>
+            </value>
+            <value>
+                <fullName>Wagener</fullName>
+                <default>false</default>
+                <label>Wagener</label>
+            </value>
+            <value>
+                <fullName>Walor</fullName>
+                <default>false</default>
+                <label>Walor</label>
+            </value>
+            <value>
+                <fullName>Walterscheid</fullName>
+                <default>false</default>
+                <label>Walterscheid</label>
+            </value>
+            <value>
+                <fullName>Weiler</fullName>
+                <default>false</default>
+                <label>Weiler</label>
+            </value>
+            <value>
+                <fullName>Wezel</fullName>
+                <default>false</default>
+                <label>Wezel</label>
+            </value>
+            <value>
+                <fullName>Whitsell</fullName>
+                <default>false</default>
+                <label>Whitsell</label>
+            </value>
+            <value>
+                <fullName>Wiretec</fullName>
+                <default>false</default>
+                <label>Wiretec</label>
+            </value>
+            <value>
+                <fullName>Wista</fullName>
+                <default>false</default>
+                <label>Wista</label>
+            </value>
+            <value>
+                <fullName>Wolf</fullName>
+                <default>false</default>
+                <label>Wolf</label>
+            </value>
+            <value>
+                <fullName>Wrexham</fullName>
+                <default>false</default>
+                <label>Wrexham</label>
+            </value>
+            <value>
+                <fullName>Wälzholz</fullName>
+                <default>false</default>
+                <label>Wälzholz</label>
+            </value>
+            <value>
+                <fullName>ZB Mohr &amp; Friedrich</fullName>
+                <default>false</default>
+                <label>ZB Mohr &amp; Friedrich</label>
+            </value>
+            <value>
+                <fullName>ZDB Dratovna</fullName>
+                <default>false</default>
+                <label>ZDB Dratovna</label>
+            </value>
+            <value>
+                <fullName>ZEN</fullName>
+                <default>false</default>
+                <label>ZEN</label>
+            </value>
+            <value>
+                <fullName>ZF</fullName>
+                <default>false</default>
+                <label>ZF</label>
+            </value>
+            <value>
+                <fullName>ZF Lemförder</fullName>
+                <default>false</default>
+                <label>ZF Lemförder</label>
+            </value>
+            <value>
+                <fullName>ZF Sachs</fullName>
+                <default>false</default>
+                <label>ZF Sachs</label>
+            </value>
+            <value>
+                <fullName>ZFB</fullName>
+                <default>false</default>
+                <label>ZFB</label>
+            </value>
+            <value>
+                <fullName>ZFN</fullName>
+                <default>false</default>
+                <label>ZFN</label>
+            </value>
+            <value>
+                <fullName>Zerbst</fullName>
+                <default>false</default>
+                <label>Zerbst</label>
+            </value>
+            <value>
+                <fullName>Zhejiang Shuanghuan Driveline</fullName>
+                <default>false</default>
+                <label>Zhejiang Shuanghuan Driveline</label>
+            </value>
+            <value>
+                <fullName>Ziehwerk Plettenberg</fullName>
+                <default>false</default>
+                <label>Ziehwerk Plettenberg</label>
+            </value>
+            <value>
+                <fullName>Zollern</fullName>
+                <default>false</default>
+                <label>Zollern</label>
+            </value>
+            <value>
+                <fullName>Zorzetto</fullName>
+                <default>false</default>
+                <label>Zorzetto</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseDateShouldNotBeGreaterThan12</fullName>
+    <active>false</active>
+    <description>Opportunity Close date should not be greater than 12 months from current month.</description>
+    <errorConditionFormula>OR(AND(
+    ISCHANGED(CloseDate),
+    CloseDate &lt; TODAY()),
+	IF(
+		OR(
+			MOD(YEAR(CloseDate), 400) = 0,
+			AND(MOD(YEAR(CloseDate), 4) = 0, MOD(YEAR(CloseDate), 100) != 0)
+		),
+		CloseDate &gt; TODAY() + 366,
+		CloseDate &gt; TODAY() + 365
+	)
+)</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Please set the Opportunity Close Date to a date within the next 12 months.</errorMessage>
+</ValidationRule>

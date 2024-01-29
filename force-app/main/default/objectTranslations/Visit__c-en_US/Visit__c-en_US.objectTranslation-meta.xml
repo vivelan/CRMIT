@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Visit Management</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Visit Management</value>
+    </caseValues>
+    <layouts>
+        <layout>Visit Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Further Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label></label>
+        <name>AnnounceMillTour</name>
+    </quickActions>
+    <quickActions>
+        <label></label>
+        <name>CancelVisit</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>CheckBusinessAreaonAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ValidationOnMillTour</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ValidationRuleOnEdit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>ValidationRuleOnStatusChange</name>
+    </validationRules>
+</CustomObjectTranslation>

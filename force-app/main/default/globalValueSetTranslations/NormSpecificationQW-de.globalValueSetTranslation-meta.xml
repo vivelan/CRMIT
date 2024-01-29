@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AFNOR - NF A35-551 - 01.07.1986</masterLabel>
+        <translation>AFNOR - NF A35-551 - 01.07.1986</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AS - 1442 - 20.09.2007</masterLabel>
+        <translation>AS - 1442 - 20.09.2007</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AS - 1444 - 26.10.2007</masterLabel>
+        <translation>AS - 1444 - 26.10.2007</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A 322 - 01.05.2007</masterLabel>
+        <translation>ASTM - A 322 - 01.05.2007</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A 576-90b - 01.01.2012</masterLabel>
+        <translation>ASTM - A 576-90b - 01.01.2012</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A105 - 01.12.2011</masterLabel>
+        <translation>ASTM - A105 - 01.12.2011</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A108 - 01.09.2007</masterLabel>
+        <translation>ASTM - A108 - 01.09.2007</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A193/A193M - 01.06.2015</masterLabel>
+        <translation>ASTM - A193/A193M - 01.06.2015</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A29/A29M - 01.01.2020</masterLabel>
+        <translation>ASTM - A29/A29M - 01.01.2020</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A29/A29M - 01.05.2012</masterLabel>
+        <translation>ASTM - A29/A29M - 01.05.2012</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A29/A29M - 01.07.2020</masterLabel>
+        <translation>ASTM - A29/A29M - 01.07.2020</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A29/A29M - 01.12.2016</masterLabel>
+        <translation>ASTM - A29/A29M - 01.12.2016</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A295 - 01.10.2009</masterLabel>
+        <translation>ASTM - A295 - 01.10.2009</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A320/A320M - 01.05.2014</masterLabel>
+        <translation>ASTM - A320/A320M - 01.05.2014</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ASTM - A322 - 01.01.2013</masterLabel>
+        <translation>ASTM - A322 - 01.01.2013</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AWS - A 5.28</masterLabel>
+        <translation>AWS - A 5.28</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AWS - A5.17</masterLabel>
+        <translation>AWS - A5.17</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AWS - A5.18 - 05.02.2001</masterLabel>
+        <translation>AWS - A5.18 - 05.02.2001</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AWS - A5.23 - 23.08.2011</masterLabel>
+        <translation>AWS - A5.23 - 23.08.2011</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BS - 970 - 01.12.1991</masterLabel>
+        <translation>BS - 970 - 01.12.1991</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BS - 970 - 31.05.1983</masterLabel>
+        <translation>BS - 970 - 31.05.1983</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BS - PD 970 - 18.05.2005</masterLabel>
+        <translation>BS - PD 970 - 18.05.2005</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 17102 - 01.10.1983</masterLabel>
+        <translation>DIN - 17102 - 01.10.1983</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 17115 - 01.02.1987</masterLabel>
+        <translation>DIN - 17115 - 01.02.1987</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 17115 - 01.07.2012</masterLabel>
+        <translation>DIN - 17115 - 01.07.2012</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 17212 - 01.08.1972</masterLabel>
+        <translation>DIN - 17212 - 01.08.1972</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 17240 - 01.07.1976</masterLabel>
+        <translation>DIN - 17240 - 01.07.1976</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 17280 - 01.07.1985</masterLabel>
+        <translation>DIN - 17280 - 01.07.1985</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 17350 - 01.10.1980</masterLabel>
+        <translation>DIN - 17350 - 01.10.1980</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 2077 - 01.02.1979</masterLabel>
+        <translation>DIN - 2077 - 01.02.1979</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN - 50 602 - 01.09.1985</masterLabel>
+        <translation>DIN - 50 602 - 01.09.1985</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10025-1 - 01.02.2005</masterLabel>
+        <translation>DIN EN - 10025-1 - 01.02.2005</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10025-2 - 01.04.2005</masterLabel>
+        <translation>DIN EN - 10025-2 - 01.04.2005</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10025-2 - 01.10.2019</masterLabel>
+        <translation>DIN EN - 10025-2 - 01.10.2019</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10025-3 - 01.02.2005</masterLabel>
+        <translation>DIN EN - 10025-3 - 01.02.2005</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10025-3 - 01.10.2019</masterLabel>
+        <translation>DIN EN - 10025-3 - 01.10.2019</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10060 - 01.02.2004</masterLabel>
+        <translation>DIN EN - 10060 - 01.02.2004</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10083-1 - 01.10.2006</masterLabel>
+        <translation>DIN EN - 10083-1 - 01.10.2006</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10083-2 - 01.10.2006</masterLabel>
+        <translation>DIN EN - 10083-2 - 01.10.2006</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10083-3 - 01.01.2007</masterLabel>
+        <translation>DIN EN - 10083-3 - 01.01.2007</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10084 - 01.06.2008</masterLabel>
+        <translation>DIN EN - 10084 - 01.06.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10085 - 01.07.2001</masterLabel>
+        <translation>DIN EN - 10085 - 01.07.2001</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10087 - 01.01.1999</masterLabel>
+        <translation>DIN EN - 10087 - 01.01.1999</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10089 - 01.04.2003</masterLabel>
+        <translation>DIN EN - 10089 - 01.04.2003</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10113-2 - 01.04.1993</masterLabel>
+        <translation>DIN EN - 10113-2 - 01.04.1993</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10132-4 - 01.04.2003</masterLabel>
+        <translation>DIN EN - 10132-4 - 01.04.2003</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10221 - 01.01.1996</masterLabel>
+        <translation>DIN EN - 10221 - 01.01.1996</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10222-1 - 01.07.2002</masterLabel>
+        <translation>DIN EN - 10222-1 - 01.07.2002</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10263-1 - 01.02.2002</masterLabel>
+        <translation>DIN EN - 10263-1 - 01.02.2002</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10263-2 - 01.02.2002</masterLabel>
+        <translation>DIN EN - 10263-2 - 01.02.2002</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10263-3 - 01.02.2002</masterLabel>
+        <translation>DIN EN - 10263-3 - 01.02.2002</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10263-4 - 01.02.2002</masterLabel>
+        <translation>DIN EN - 10263-4 - 01.02.2002</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10263-4 - 01.02.2018</masterLabel>
+        <translation>DIN EN - 10263-4 - 01.02.2018</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10267 - 01.02.1998</masterLabel>
+        <translation>DIN EN - 10267 - 01.02.1998</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10269 - 01.02.2014</masterLabel>
+        <translation>DIN EN - 10269 - 01.02.2014</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10273 - 01.02.2008</masterLabel>
+        <translation>DIN EN - 10273 - 01.02.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10273 - 01.10.2016</masterLabel>
+        <translation>DIN EN - 10273 - 01.10.2016</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10277-5 - 01.06.2008</masterLabel>
+        <translation>DIN EN - 10277-5 - 01.06.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10278 - 01.12.1999</masterLabel>
+        <translation>DIN EN - 10278 - 01.12.1999</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 10308 - 01.11.2001</masterLabel>
+        <translation>DIN EN - 10308 - 01.11.2001</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN - 756 - 01.06.2004</masterLabel>
+        <translation>DIN EN - 756 - 01.06.2004</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 14171 - 01.01.2011</masterLabel>
+        <translation>DIN EN ISO - 14171 - 01.01.2011</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 14341 - 01.04.2011</masterLabel>
+        <translation>DIN EN ISO - 14341 - 01.04.2011</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 14341 - 01.08.2008</masterLabel>
+        <translation>DIN EN ISO - 14341 - 01.08.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 16120-1 - 01.10.2011</masterLabel>
+        <translation>DIN EN ISO - 16120-1 - 01.10.2011</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 16120-2 - 01.06.2017</masterLabel>
+        <translation>DIN EN ISO - 16120-2 - 01.06.2017</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 16120-3 - 01.10.2011</masterLabel>
+        <translation>DIN EN ISO - 16120-3 - 01.10.2011</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 16120-4 - 01.09.2017</masterLabel>
+        <translation>DIN EN ISO - 16120-4 - 01.09.2017</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 3887 - 01.10.2003</masterLabel>
+        <translation>DIN EN ISO - 3887 - 01.10.2003</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 4957 - 01.02.2001</masterLabel>
+        <translation>DIN EN ISO - 4957 - 01.02.2001</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 4957 - 01.11.2018</masterLabel>
+        <translation>DIN EN ISO - 4957 - 01.11.2018</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 683-1 - 01.09.2018</masterLabel>
+        <translation>DIN EN ISO - 683-1 - 01.09.2018</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 683-17 - 01.02.2015</masterLabel>
+        <translation>DIN EN ISO - 683-17 - 01.02.2015</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 683-2 - 01.09.2018</masterLabel>
+        <translation>DIN EN ISO - 683-2 - 01.09.2018</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 683-3 - 01.04.2019</masterLabel>
+        <translation>DIN EN ISO - 683-3 - 01.04.2019</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 683-3 - 01.06.2022</masterLabel>
+        <translation>DIN EN ISO - 683-3 - 01.06.2022</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 683-3 - 01.09.2018</masterLabel>
+        <translation>DIN EN ISO - 683-3 - 01.09.2018</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 683-4 - 01.09.2018</masterLabel>
+        <translation>DIN EN ISO - 683-4 - 01.09.2018</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 898-1 - 01.05.2013</masterLabel>
+        <translation>DIN EN ISO - 898-1 - 01.05.2013</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 898-1 - 01.08.2009</masterLabel>
+        <translation>DIN EN ISO - 898-1 - 01.08.2009</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DIN EN ISO - 9443 - 01.11.2018</masterLabel>
+        <translation>DIN EN ISO - 9443 - 01.11.2018</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EU - DGRL 2014/68/EU - 27.06.2014</masterLabel>
+        <translation>EU - DGRL 2014/68/EU - 27.06.2014</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EU - DGRL 97/23/EG - 29.05.1997</masterLabel>
+        <translation>EU - DGRL 97/23/EG - 29.05.1997</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JIS G - 3502 - 20.03.2004</masterLabel>
+        <translation>JIS G - 3502 - 20.03.2004</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JIS G - 3503 - 01.01.2006</masterLabel>
+        <translation>JIS G - 3503 - 01.01.2006</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JIS G - 3506 - 20.03.2004</masterLabel>
+        <translation>JIS G - 3506 - 20.03.2004</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JIS G - 4052 - 20.11.2008</masterLabel>
+        <translation>JIS G - 4052 - 20.11.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>JIS G - 4804 - 20.02.2008</masterLabel>
+        <translation>JIS G - 4804 - 20.02.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MS - 1945:2006</masterLabel>
+        <translation>MS - 1945:2006</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NFA - 35-556 - 01.10.1984</masterLabel>
+        <translation>NFA - 35-556 - 01.10.1984</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NFA - 35-561 - 01.06.1992</masterLabel>
+        <translation>NFA - 35-561 - 01.06.1992</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NFA EN - 10087 - 01.01.1999</masterLabel>
+        <translation>NFA EN - 10087 - 01.01.1999</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SAE - 1006 - 01.06.2014</masterLabel>
+        <translation>SAE - 1006 - 01.06.2014</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SAE - J403 - 01.11.2001</masterLabel>
+        <translation>SAE - J403 - 01.11.2001</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SAE - J404 - 01.01.2009</masterLabel>
+        <translation>SAE - J404 - 01.01.2009</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SEP - 1572 - 01.08.1971</masterLabel>
+        <translation>SEP - 1572 - 01.08.1971</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SEP - 1920 - 01.12.1984</masterLabel>
+        <translation>SEP - 1920 - 01.12.1984</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt A2 - 01.09.2001</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt A2 - 01.09.2001</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt W0 - 01.10.2003</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt W0 - 01.10.2003</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt W1 - 01.05.2002</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt W1 - 01.05.2002</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt W10 - 01.10.2003</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt W10 - 01.10.2003</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt W10 - 01.11.2007</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt W10 - 01.11.2007</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt W12 - 01.07.2003</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt W12 - 01.07.2003</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt W13 - 01.11.2008</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt W13 - 01.11.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TÜV - AD 2000 - Merkblatt W7 - 01.05.2008</masterLabel>
+        <translation>TÜV - AD 2000 - Merkblatt W7 - 01.05.2008</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Verlag Stahleisen - SEL - 01.12.2003</masterLabel>
+        <translation>Verlag Stahleisen - SEL - 01.12.2003</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

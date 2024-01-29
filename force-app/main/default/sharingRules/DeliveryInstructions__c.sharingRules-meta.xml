@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>SAGDeliveryInstructionsSharing_Rule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SAG Delivery Instructions Sharing Rule</label>
+        <sharedTo>
+            <role>SAG</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SAG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

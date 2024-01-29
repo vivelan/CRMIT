@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ChecklistSection__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>This field determines the checklist section of which the question will be part of.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field determines the checklist section of which the question will be part of.</inlineHelpText>
+    <label>Checklist Section</label>
+    <referenceTo>ChecklistSection__c</referenceTo>
+    <relationshipLabel>Checklist Questions</relationshipLabel>
+    <relationshipName>Checklist_Question_Templates</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,2317 @@
+{
+  "version" : "60.0",
+  "nodes" : {
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "SAPAccountNumber__c" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Account",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Account"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET2" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Customer_Key", "Customer_Name", "Heat_Treatment", "Surface_Treatment_Flag", "Product", "KOMPOLO", "Heat_Treatment_Flag", "Surface_Inspection_Key", "Business_Area_Key", "Dimension_B1", "Sales_Unit", "Steel_Grade_Key", "Customer_Steel_Grade", "Product_Name", "Product_Sub_Group", "Customer_Material_Number", "Surface_Inspection", "Wire_Rod", "Quality_Grade", "Country", "Business_Area", "Steel_Grade", "External_ID", "Product_Category", "Rolling_Mill", "Dimension_A1", "Heat_Treatment_Key", "Product_Key", "Wire_Rod_Key", "Surface_Inspection_Flag", "Customer_Steel_Grade_Key", "Surface_Treatment_Key", "Wire_Rod_Flag", "Surface_Treatment", "Created_Date", "Material_Number_SAG", "Net_Proceeds_Per_Ton", "Net_Invoice", "Sales_Deductions", "PE_Per_Ton", "Contribution_Margin_Per_Ton", "Net_Invoice_Per_Ton", "USK_Marginal_Cost", "Contribution_Margin", "Quantity_t", "Net_Proceeds", "Freights_For_Sales_Per_Ton", "Freights_for_Sales", "USK_Full_Cost", "USK_Marginal_Cost_Per_Ton", "PE", "Dimension_B", "Dimension_A", "USK_Full_Cost_Per_Ton", "AccountGroupName__c" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER_dashboard"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET3" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "External_ID", "Group", "Customer", "Customer_Number", "Payment_Term", "Business_Area_Channel", "Responsible_Person", "Credit_Account", "City", "Date", "Country", "PM", "Deductible", "Average_Payment_Delay_current_period_in_days", "May_Outstanding_Payment", "Outstanding_since_5_Days", "Aug_Outstanding_Payment", "Overdues_since_30_Days1", "Outstanding_since_30_Days", "Nov_Outstanding_Payment", "Apr_Outstanding_Payment", "Dec_Outstanding_Payment", "Overdraft", "Mar_Outstanding_Payment", "Outstanding_Payment_Today", "Max_Payment_Term", "Overdues_since_30_Days", "Overdues_since_10_Days", "Feb_Outstanding_Payment", "Jan_Outstanding_Payment", "Sep_Outstanding_Payment", "Orders_Volume_last_4_Weeks", "Total_Overdues", "Internal_Limit", "Jun_Outstanding_Payment", "External_Limit", "Oct_Outstanding_Payment", "Average_Payment_Delay_last_12_Months_in_days", "Dunning_Level", "Overdues_since_5_Days", "Outstanding_since_10_Days", "Jul_Outstanding_Payment", "AccountGroupName__c" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Risk Snapshot",
+          "name" : "Risk_Snapshot"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET4" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "External_ID", "Product_Category", "Rolling_Mill", "Customer_Key", "Customer_Name", "Dimension_A1", "Heat_Treatment", "Heat_Treatment_Key", "Surface_Treatment_Flag", "Product", "Product_Key", "Wire_Rod_Key", "KOMPOLO", "Heat_Treatment_Flag", "Surface_Inspection_Key", "Business_Area_Key", "Dimension_B1", "Surface_Inspection_Flag", "Sales_Unit", "Customer_Steel_Grade_Key", "Steel_Grade_Key", "Customer_Steel_Grade", "Product_Name", "Product_Sub_Group", "Customer_Material_Number", "Surface_Inspection", "Surface_Treatment_Key", "Wire_Rod_Flag", "Wire_Rod", "Surface_Treatment", "Quality_Grade", "Country", "Business_Area", "Steel_Grade", "Created_Date", "Material_Number_SAG", "Net_Proceeds_Per_Ton", "Net_Invoice", "Quantity_t", "Net_Proceeds", "Freights_For_Sales_Per_Ton", "Net_Invoice_Per_Ton", "Freights_for_Sales", "Dimension_B", "Dimension_A", "AccountGroupName__c" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER_restricted_dashboard"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET5" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Rolling_Mill", "Customer_Request_Date", "Stock.Quality_Blockage", "Customer_Material", "Stock.Join_Key", "Stock.Warehouse_Name", "Confirmed_Date", "Week_of_Rolling", "Mode_of_Transport", "Stock.Type", "Account_Name", "Join_Key", "Account_Number", "PO_Confirmation", "Stock.PO_Confirmation_Item", "Stock.Delivery_Condition", "Stock.PO_Confirmation", "Stock.Customer_Number", "PO_Confirmation_Item", "Customer_Steel_Grade", "Product_Name", "Material_Number", "Stock.Production_Blockage", "Stock.Heat", "PO", "Stock.Package_count", "Stock.HU_count", "Order_Quantity", "Stock.Tonnage", "Shipped_Quantity", "AccountGroupName__c" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Orders & Stock Sales",
+          "name" : "Order_Stock_Sales"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN0" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET6", "LOAD_DATASET0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Customer_Key" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    },
+    "JOIN1" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET2", "LOAD_DATASET0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Customer_Key" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    },
+    "JOIN2" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET4", "LOAD_DATASET0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Customer_Key" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    },
+    "JOIN3" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET3", "LOAD_DATASET0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Customer_Number" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    },
+    "JOIN4" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET5", "LOAD_DATASET0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Account_Number" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "JOIN0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "COPA",
+          "name" : "COPA_dashboard",
+          "folderName" : "Sales_Reporting1",
+          "rowLevelSharingSource" : "Account"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "OUTPUT1" : {
+      "action" : "save",
+      "sources" : [ "JOIN1" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER_dashboard",
+          "folderName" : "Sales_Reporting_Sales_Marketing",
+          "rowLevelSharingSource" : "Account"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "OUTPUT2" : {
+      "action" : "save",
+      "sources" : [ "JOIN2" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER_restricted_dashboard",
+          "folderName" : "Sales_Reporting1",
+          "rowLevelSharingSource" : "Account"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "OUTPUT3" : {
+      "action" : "save",
+      "sources" : [ "JOIN3" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Risk Snapshot",
+          "name" : "Risk_Snapshot",
+          "folderName" : "Sales_Reporting1",
+          "rowLevelSharingSource" : "Account"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "OUTPUT4" : {
+      "action" : "save",
+      "sources" : [ "JOIN4" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Orders & Stock Sales",
+          "name" : "Order_Stock_Sales",
+          "folderName" : "Sales_Reporting1",
+          "rowLevelSharingSource" : "Account"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "LOAD_DATASET6" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "External_ID", "Product_Category", "Rolling_Mill", "Sales_Channel", "Customer_Key", "Customer_Name", "Dimension_A1", "Product", "Product_Key", "Dimension_B1", "Customer_Steel_Grade_Key", "Steel_Grade_Key", "Customer_Steel_Grade", "Product_Sub_Group", "Material_Number", "Customer_Material_Number", "Quality_Grade", "Country", "Business_Area", "Steel_Grade", "Created_Date", "Net_Proceeds_Per_Ton", "Net_Invoice", "Quantity_t", "Net_Proceeds", "Net_Invoice_Per_Ton", "Dimension_B", "Dimension_A", "AccountGroupName__c" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "COPA",
+          "name" : "COPA_dashboard"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET7" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "AccountId", "ContactId", "Roles", "IsActive" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "AccountContactRelation",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "AccountContactRelation"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FILTER0" : {
+      "action" : "sqlFilter",
+      "sources" : [ "LOAD_DATASET7" ],
+      "parameters" : {
+        "sqlFilterExpression" : "array_contains(Roles, 'Customer Portal User')"
+      }
+    },
+    "FILTER1" : {
+      "action" : "filter",
+      "sources" : [ "FILTER0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "IsActive",
+          "operator" : "EQUAL",
+          "operands" : [ "true" ]
+        } ]
+      }
+    },
+    "LOAD_DATASET8" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "CustomerNumber__c", "Id", "SAPAccountNumber__c" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Account",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Account"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET9" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "Name" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Contact",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Contact"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET10" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "ContactId", "Id" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "User",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "User"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN5" : {
+      "action" : "join",
+      "sources" : [ "FILTER1", "LOAD_DATASET8" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "AccountId" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "Id" ]
+      }
+    },
+    "JOIN6" : {
+      "action" : "join",
+      "sources" : [ "JOIN5", "LOAD_DATASET9" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "ContactId" ],
+        "rightQualifier" : "Contact",
+        "rightKeys" : [ "Id" ]
+      }
+    },
+    "JOIN7" : {
+      "action" : "join",
+      "sources" : [ "JOIN6", "LOAD_DATASET10" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Contact.Id" ],
+        "rightQualifier" : "User",
+        "rightKeys" : [ "ContactId" ]
+      }
+    },
+    "LOAD_DATASET11" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Rolling_Mill", "Customer_Request_Date", "Stock.Quality_Blockage", "Customer_Material", "Stock.Join_Key", "Stock.Warehouse_Name", "Confirmed_Date", "Week_of_Rolling", "Mode_of_Transport", "Stock.Type", "Account_Name", "Join_Key", "Account_Number", "PO_Confirmation", "Stock.PO_Confirmation_Item", "Stock.Delivery_Condition", "Stock.PO_Confirmation", "Stock.Customer_Number", "PO_Confirmation_Item", "Customer_Steel_Grade", "Product_Name", "Material_Number", "Stock.Production_Blockage", "Stock.Heat", "PO", "Stock.Package_count", "Stock.HU_count", "Order_Quantity", "Stock.Tonnage", "Shipped_Quantity" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Orders & Stock Omnichannel",
+          "name" : "Order_Stock_Omnichannel"
+        },
+        "sampleDetails" : {
+          "type" : "Custom",
+          "filters" : {
+            "filterExpressions" : [ {
+              "type" : "TEXT",
+              "field" : "Account_Name",
+              "operator" : "EQUAL",
+              "operands" : [ "DWK KÖLN       " ]
+            } ]
+          },
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN8" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET11", "DROP_FIELDS0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "Account_Number" ],
+        "rightKeys" : [ "Account.SAPAccountNumber__c" ]
+      }
+    },
+    "DROP_FIELDS0" : {
+      "action" : "schema",
+      "sources" : [ "JOIN7" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Id", "AccountId", "ContactId", "Roles", "IsActive", "Account.Id", "Contact.Id", "Contact.Name", "User.ContactId", "Account.CustomerNumber__c" ]
+        }
+      }
+    },
+    "OUTPUT5" : {
+      "action" : "save",
+      "sources" : [ "JOIN10" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Orders & Stock Omnichannel",
+          "name" : "Order_Stock_Omnichannel",
+          "rowLevelSecurityFilter" : "'User.Id' == \"$User.Id\"",
+          "folderName" : "Omnichannel"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "LOAD_DATASET12" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "ForecastTimePoint__c", "SAPAccountNumber__c", "Customer_Key", "Business_Area", "Material_Number", "Name", "Forecast_NE", "Forecast_Quantity", "Forecast_PE", "COPA_Last_Updated_Date" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Net Proceeds Analysis",
+          "name" : "Net_Proceeds_Analysis"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "OUTPUT6" : {
+      "action" : "save",
+      "sources" : [ "JOIN9" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Net Proceeds Analysis",
+          "name" : "Net_Proceeds_Analysis",
+          "folderName" : "Pricing_Dashboards_Sales_Marketing"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "JOIN9" : {
+      "action" : "join",
+      "sources" : [ "LOAD_DATASET12", "LOAD_DATASET0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "SAPAccountNumber__c" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    },
+    "FORMULA0" : {
+      "action" : "formula",
+      "sources" : [ "JOIN8" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Profile_Name",
+          "label" : "Profile Name",
+          "formulaExpression" : "'System Administrator'",
+          "precision" : 255,
+          "defaultValue" : "System Administrator"
+        } ]
+      }
+    },
+    "LOAD_DATASET13" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "Name", "PermissionsViewAllData" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Profile",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Profile"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN10" : {
+      "action" : "join",
+      "sources" : [ "FORMULA0", "LOAD_DATASET13" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Profile_Name" ],
+        "rightQualifier" : "Profile",
+        "rightKeys" : [ "Name" ]
+      }
+    },
+    "FILTER2" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET7" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "IsActive",
+          "operator" : "EQUAL",
+          "operands" : [ "true" ]
+        } ]
+      }
+    },
+    "FILTER3" : {
+      "action" : "sqlFilter",
+      "sources" : [ "FILTER2" ],
+      "parameters" : {
+        "sqlFilterExpression" : "array_contains(Roles, 'Customer Portal User')"
+      }
+    },
+    "FILTER4" : {
+      "action" : "sqlFilter",
+      "sources" : [ "FILTER2" ],
+      "parameters" : {
+        "sqlFilterExpression" : "array_contains(Roles, 'Restricted Customer Portal User')"
+      }
+    },
+    "APPEND0" : {
+      "action" : "appendV2",
+      "sources" : [ "FILTER3", "FILTER4" ],
+      "parameters" : {
+        "fieldMappings" : [ {
+          "top" : "Id",
+          "bottom" : "Id"
+        }, {
+          "top" : "AccountId",
+          "bottom" : "AccountId"
+        }, {
+          "top" : "ContactId",
+          "bottom" : "ContactId"
+        }, {
+          "top" : "Roles",
+          "bottom" : "Roles"
+        }, {
+          "top" : "IsActive",
+          "bottom" : "IsActive"
+        } ]
+      }
+    },
+    "JOIN11" : {
+      "action" : "join",
+      "sources" : [ "APPEND0", "LOAD_DATASET8" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "AccountId" ],
+        "rightQualifier" : "Account",
+        "rightKeys" : [ "Id" ]
+      }
+    },
+    "JOIN12" : {
+      "action" : "join",
+      "sources" : [ "JOIN11", "LOAD_DATASET9" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "ContactId" ],
+        "rightQualifier" : "Contact",
+        "rightKeys" : [ "Id" ]
+      }
+    },
+    "JOIN13" : {
+      "action" : "join",
+      "sources" : [ "JOIN12", "LOAD_DATASET10" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Contact.Id" ],
+        "rightQualifier" : "User",
+        "rightKeys" : [ "ContactId" ]
+      }
+    },
+    "DROP_FIELDS1" : {
+      "action" : "schema",
+      "sources" : [ "JOIN13" ],
+      "parameters" : {
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Id", "AccountId", "ContactId", "Roles", "IsActive", "Account.Id", "Contact.Id", "Contact.Name", "User.ContactId", "Account.SAPAccountNumber__c" ]
+        }
+      }
+    },
+    "LOAD_DATASET14" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "forecast_week_order_min", "mill_order_number_list", "confirmed_dispatch_week_order_max", "branch", "inspection_order_list", "shipping_method", "mill_order_number", "rolling_week_project_min", "forecast_week", "inspection_project_list", "receiver_reference_number", "rolling_week_project_max", "mill", "quality", "rolling_week", "quality_order_list", "receiver_number", "forecast_week_order_max", "confirmed_dispatch_week_order_min", "planned_dispatch_week_project_max", "consumer_number", "forecast_week_project_max", "confirmed_dispatch_week", "purchaser_name", "inspection_list", "forecast_week_project_min", "planned_dispatch_week_project_min", "purchaser_reference_number", "regulator_number", "is_delivery_complete", "is_position_complete", "mill_order_list", "planned_dispatch_week", "customer_attribute", "project_id", "segment", "is_order_complete", "mill_project_list", "confirmed_dispatch_week_project_min", "receiver_number_order_list", "planned_dispatch_week_order_max", "planned_dispatch_week_order_min", "position", "confirmed_dispatch_week_project_max", "order_number", "is_project_complete", "receiver_reference_order_list", "rolling_week_order_min", "order_numbers_combined", "purchaser_number", "consumer_name", "is_rolling_complete", "loading_time", "xpos", "project_longname", "blocking_reason", "sales_agency", "blocking_reason_flag", "mill_position", "rolling_week_order_max", "rolled_tonnage", "rolled", "balance", "shotblast_tonnage", "ready_for_dispatch", "dispatched", "loaded_tonnage", "in_spedition", "harbour", "pending_heat_treatment_tonnage", "finishing_line", "free", "harbour_tonnage", "ordered", "casted", "in_production_tonnage", "in_spedition_tonnage", "ready_for_dispatch_tonnage", "width", "in_production", "thickness", "pending_heat_treatment", "dispatched_tonnage", "loaded", "ordered_tonnage", "balance_tonnage", "casted_tonnage", "weight_single_plate", "test", "weight", "shotblast", "test_tonnage", "weight_position", "quenching_tonnage", "finishing_line_tonnage", "length", "free_tonnage", "quenching" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Position Status Staging",
+          "name" : "Position_Status_Staging"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN15" : {
+      "action" : "join",
+      "sources" : [ "FORMULA7", "DROP_FIELDS1" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "purchaser_number" ],
+        "rightQualifier" : "Purchaser",
+        "rightKeys" : [ "Account.CustomerNumber__c" ]
+      }
+    },
+    "JOIN16" : {
+      "action" : "join",
+      "sources" : [ "JOIN15", "DROP_FIELDS1" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "consumer_number" ],
+        "rightQualifier" : "Consumer",
+        "rightKeys" : [ "Account.CustomerNumber__c" ]
+      }
+    },
+    "DROP_FIELDS2" : {
+      "action" : "schema",
+      "sources" : [ "JOIN18" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Customer_Admin_Profile", "System_Administrator_Profile", "Customer_Admin.Name", "System_Admin.Name", "Purchaser.Account.CustomerNumber__c", "Consumer.Account.CustomerNumber__c" ]
+        }
+      }
+    },
+    "OUTPUT7" : {
+      "action" : "save",
+      "sources" : [ "DROP_FIELDS2" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Position Status",
+          "name" : "Position_Status",
+          "rowLevelSecurityFilter" : "'Purchaser.User.Id' == \"$User.Id\" || 'Consumer.User.Id' == \"$User.Id\" || 'Customer_Admin.Id' == \"$User.ProfileId\" || 'System_Admin.Id' == \"$User.ProfileId\"",
+          "folderName" : "DH_Omnichannel"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "FORMULA1" : {
+      "action" : "formula",
+      "sources" : [ "JOIN16" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Customer_Admin_Profile",
+          "label" : "Customer Admin Profile",
+          "formulaExpression" : "'DH Customer Administration'",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA2" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA1" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "System_Administrator_Profile",
+          "label" : "System Administrator Profile",
+          "formulaExpression" : "'System Administrator'",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "JOIN17" : {
+      "action" : "join",
+      "sources" : [ "FORMULA2", "LOAD_DATASET13" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Customer_Admin_Profile" ],
+        "rightQualifier" : "Customer_Admin",
+        "rightKeys" : [ "Name" ]
+      }
+    },
+    "JOIN18" : {
+      "action" : "join",
+      "sources" : [ "JOIN17", "LOAD_DATASET13" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "System_Administrator_Profile" ],
+        "rightQualifier" : "System_Admin",
+        "rightKeys" : [ "Name" ]
+      }
+    },
+    "FORMULA0_copy0" : {
+      "action" : "formula",
+      "sources" : [ "FILTER5" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "UpdatedVersionDataURL",
+          "label" : "Updated Version Data URL",
+          "formulaExpression" : "substr(VersionDataUrl, -15)",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FILTER2_copy0" : {
+      "action" : "filter",
+      "sources" : [ "FORMULA0_copy0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "DocumentType__c",
+          "operator" : "EQUAL",
+          "operands" : [ "Order Confirmation" ]
+        } ]
+      }
+    },
+    "FILTER1_copy0_copy0" : {
+      "action" : "filter",
+      "sources" : [ "FORMULA0_copy0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "DocumentType__c",
+          "operator" : "EQUAL",
+          "operands" : [ "Invoice" ]
+        } ]
+      }
+    },
+    "FILTER2_copy0_copy0" : {
+      "action" : "filter",
+      "sources" : [ "FORMULA0_copy0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "DocumentType__c",
+          "operator" : "EQUAL",
+          "operands" : [ "Certificate", "Dispatch Note", "Packing List" ]
+        } ]
+      }
+    },
+    "LOAD_DATASET15" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Id", "ContentDocumentId", "Title", "FileType", "VersionDataUrl", "DocumentType__c", "Project__c", "ProjectId__c", "PublicationDate__c", "PurchaserReference__c", "ReceiverReference__c", "DocumentNumber__c", "InspectionCompany__c", "RecencyDate__c", "InvoiceReceiver__c", "Revision__c", "OrderNumber__c", "MillOrderNumber__c", "PurchaserNumber__c", "RegulatorNumber__c", "ConsumerNumber__c", "InvoiceReceiverNumber__c", "Position__c", "Document_Download_Icon_URL__c" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "ContentVersion",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "ContentVersion"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FILTER4_copy0" : {
+      "action" : "sqlFilter",
+      "sources" : [ "JOIN13" ],
+      "parameters" : {
+        "sqlFilterExpression" : "array_contains(Roles, 'Customer Portal User')"
+      }
+    },
+    "DROP_FIELDS1_copy0_copy0" : {
+      "action" : "schema",
+      "sources" : [ "FILTER4_copy0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Id", "AccountId", "ContactId", "Roles", "IsActive", "Account.Id", "Contact.Id", "Contact.Name", "User.ContactId", "Account.SAPAccountNumber__c" ]
+        }
+      }
+    },
+    "JOIN19" : {
+      "action" : "join",
+      "sources" : [ "FILTER2_copy0_copy0", "DROP_FIELDS1" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "PurchaserNumber__c" ],
+        "rightQualifier" : "FirstId",
+        "rightKeys" : [ "Account.CustomerNumber__c" ]
+      }
+    },
+    "JOIN20" : {
+      "action" : "join",
+      "sources" : [ "JOIN19", "DROP_FIELDS1" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "ConsumerNumber__c" ],
+        "rightQualifier" : "SecondId",
+        "rightKeys" : [ "Account.CustomerNumber__c" ]
+      }
+    },
+    "DROP_FIELDS3" : {
+      "action" : "schema",
+      "sources" : [ "JOIN20" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "SecondId.Account.CustomerNumber__c", "SecondId.Account.SAPAccountNumber__c" ]
+        }
+      }
+    },
+    "JOIN21" : {
+      "action" : "join",
+      "sources" : [ "FILTER2_copy0", "DROP_FIELDS1_copy0_copy0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "PurchaserNumber__c" ],
+        "rightQualifier" : "OrderConfirmation",
+        "rightKeys" : [ "Account.CustomerNumber__c" ]
+      }
+    },
+    "JOIN22" : {
+      "action" : "join",
+      "sources" : [ "FILTER1_copy0_copy0", "DROP_FIELDS1_copy0_copy0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "RegulatorNumber__c" ],
+        "rightQualifier" : "Invoice",
+        "rightKeys" : [ "Account.CustomerNumber__c" ]
+      }
+    },
+    "DROP_FIELDS4" : {
+      "action" : "schema",
+      "sources" : [ "JOIN21" ],
+      "parameters" : {
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "OrderConfirmation.Account.CustomerNumber__c" ]
+        }
+      }
+    },
+    "DROP_FIELDS5" : {
+      "action" : "schema",
+      "sources" : [ "JOIN22" ],
+      "parameters" : {
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Invoice.Account.CustomerNumber__c" ]
+        }
+      }
+    },
+    "APPEND1" : {
+      "action" : "appendV2",
+      "sources" : [ "DROP_FIELDS3", "DROP_FIELDS4" ],
+      "parameters" : {
+        "fieldMappings" : [ {
+          "top" : "InvoiceReceiver__c",
+          "bottom" : "InvoiceReceiver__c"
+        }, {
+          "top" : "ProjectId__c",
+          "bottom" : "ProjectId__c"
+        }, {
+          "top" : "Position__c",
+          "bottom" : "Position__c"
+        }, {
+          "top" : "ReceiverReference__c",
+          "bottom" : "ReceiverReference__c"
+        }, {
+          "top" : "Revision__c",
+          "bottom" : "Revision__c"
+        }, {
+          "top" : "PurchaserNumber__c",
+          "bottom" : "PurchaserNumber__c"
+        }, {
+          "top" : "MillOrderNumber__c",
+          "bottom" : "MillOrderNumber__c"
+        }, {
+          "top" : "PublicationDate__c",
+          "bottom" : "PublicationDate__c"
+        }, {
+          "top" : "Title",
+          "bottom" : "Title"
+        }, {
+          "top" : "InspectionCompany__c",
+          "bottom" : "InspectionCompany__c"
+        }, {
+          "top" : "InvoiceReceiverNumber__c",
+          "bottom" : "InvoiceReceiverNumber__c"
+        }, {
+          "top" : "OrderNumber__c",
+          "bottom" : "OrderNumber__c"
+        }, {
+          "top" : "Project__c",
+          "bottom" : "Project__c"
+        }, {
+          "top" : "RegulatorNumber__c",
+          "bottom" : "RegulatorNumber__c"
+        }, {
+          "top" : "Attachment_type__c",
+          "bottom" : "Attachment_type__c"
+        }, {
+          "top" : "ContentDocumentId",
+          "bottom" : "ContentDocumentId"
+        }, {
+          "top" : "DocumentNumber__c",
+          "bottom" : "DocumentNumber__c"
+        }, {
+          "top" : "FileType",
+          "bottom" : "FileType"
+        }, {
+          "top" : "VersionDataUrl",
+          "bottom" : "VersionDataUrl"
+        }, {
+          "top" : "DocumentType__c",
+          "bottom" : "DocumentType__c"
+        }, {
+          "top" : "Id",
+          "bottom" : "Id"
+        }, {
+          "top" : "RecencyDate__c",
+          "bottom" : "RecencyDate__c"
+        }, {
+          "top" : "ConsumerNumber__c",
+          "bottom" : "ConsumerNumber__c"
+        }, {
+          "top" : "PurchaserReference__c",
+          "bottom" : "PurchaserReference__c"
+        }, {
+          "top" : "UpdatedVersionDataURL",
+          "bottom" : "UpdatedVersionDataURL"
+        }, {
+          "top" : "FirstId.User.Id",
+          "bottom" : "OrderConfirmation.User.Id"
+        } ]
+      }
+    },
+    "APPEND2" : {
+      "action" : "appendV2",
+      "sources" : [ "APPEND1", "DROP_FIELDS5" ],
+      "parameters" : {
+        "fieldMappings" : [ {
+          "top" : "InvoiceReceiver__c",
+          "bottom" : "InvoiceReceiver__c"
+        }, {
+          "top" : "ProjectId__c",
+          "bottom" : "ProjectId__c"
+        }, {
+          "top" : "Position__c",
+          "bottom" : "Position__c"
+        }, {
+          "top" : "ReceiverReference__c",
+          "bottom" : "ReceiverReference__c"
+        }, {
+          "top" : "Revision__c",
+          "bottom" : "Revision__c"
+        }, {
+          "top" : "PurchaserNumber__c",
+          "bottom" : "PurchaserNumber__c"
+        }, {
+          "top" : "MillOrderNumber__c",
+          "bottom" : "MillOrderNumber__c"
+        }, {
+          "top" : "PublicationDate__c",
+          "bottom" : "PublicationDate__c"
+        }, {
+          "top" : "Title",
+          "bottom" : "Title"
+        }, {
+          "top" : "InspectionCompany__c",
+          "bottom" : "InspectionCompany__c"
+        }, {
+          "top" : "InvoiceReceiverNumber__c",
+          "bottom" : "InvoiceReceiverNumber__c"
+        }, {
+          "top" : "OrderNumber__c",
+          "bottom" : "OrderNumber__c"
+        }, {
+          "top" : "Project__c",
+          "bottom" : "Project__c"
+        }, {
+          "top" : "RegulatorNumber__c",
+          "bottom" : "RegulatorNumber__c"
+        }, {
+          "top" : "Attachment_type__c",
+          "bottom" : "Attachment_type__c"
+        }, {
+          "top" : "ContentDocumentId",
+          "bottom" : "ContentDocumentId"
+        }, {
+          "top" : "DocumentNumber__c",
+          "bottom" : "DocumentNumber__c"
+        }, {
+          "top" : "FileType",
+          "bottom" : "FileType"
+        }, {
+          "top" : "VersionDataUrl",
+          "bottom" : "VersionDataUrl"
+        }, {
+          "top" : "DocumentType__c",
+          "bottom" : "DocumentType__c"
+        }, {
+          "top" : "Id",
+          "bottom" : "Id"
+        }, {
+          "top" : "RecencyDate__c",
+          "bottom" : "RecencyDate__c"
+        }, {
+          "top" : "ConsumerNumber__c",
+          "bottom" : "ConsumerNumber__c"
+        }, {
+          "top" : "PurchaserReference__c",
+          "bottom" : "PurchaserReference__c"
+        }, {
+          "top" : "UpdatedVersionDataURL",
+          "bottom" : "UpdatedVersionDataURL"
+        }, {
+          "top" : "FirstId.User.Id",
+          "bottom" : "Invoice.User.Id"
+        } ]
+      }
+    },
+    "DROP_FIELDS2_copy0" : {
+      "action" : "schema",
+      "sources" : [ "JOIN23" ],
+      "parameters" : {
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Admin.Name", "Admin.PermissionsViewAllData", "View_All_Data" ]
+        }
+      }
+    },
+    "OUTPUT8" : {
+      "action" : "save",
+      "sources" : [ "FORMULA8" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Customer Portal Documents",
+          "name" : "Customer_Portal_Documents",
+          "rowLevelSecurityFilter" : "'FirstId.User.Id' == \"$User.Id\" || 'SecondId.User.Id' == \"$User.Id\" || 'Admin.Id' == \"$User.ProfileId\"",
+          "folderName" : "DH_Omnichannel"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "FILTER5" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET15" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "DocumentType__c",
+          "operator" : "EQUAL",
+          "operands" : [ "Certificate", "Dispatch Note", "Invoice", "Order Confirmation", "Packing List" ]
+        } ]
+      }
+    },
+    "FILTER6" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET13" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "PermissionsViewAllData",
+          "operator" : "EQUAL",
+          "operands" : [ "true" ]
+        } ]
+      }
+    },
+    "FORMULA3" : {
+      "action" : "formula",
+      "sources" : [ "JOIN24" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "View_All_Data",
+          "label" : "View All Data",
+          "formulaExpression" : "'true'",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "JOIN23" : {
+      "action" : "join",
+      "sources" : [ "FORMULA3", "FILTER6" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "MULTI_VALUE_LOOKUP",
+        "leftKeys" : [ "View_All_Data" ],
+        "rightQualifier" : "Admin",
+        "rightKeys" : [ "PermissionsViewAllData" ]
+      }
+    },
+    "FORMULA6" : {
+      "action" : "formula",
+      "sources" : [ "LOAD_DATASET14" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "project_search_bar",
+          "label" : "Project Search Bar",
+          "formulaExpression" : "concat(project_longname, ' ', mill_project_list)",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA7" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA6" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "position_status_search_bar",
+          "label" : "Position and Status Search Bar",
+          "formulaExpression" : "concat(project_longname, ' ', order_number, ' ', mill_order_number, ' ', quality_order_list, ' ', mill)",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "JOIN24" : {
+      "action" : "join",
+      "sources" : [ "APPEND2", "LOAD_DATASET16" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "DocumentType__c" ],
+        "rightKeys" : [ "Document_Type_en_US" ]
+      }
+    },
+    "LOAD_DATASET16" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Document_Type_en_US", "Document_Type_de" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Vertical Translation",
+          "name" : "Vertical_Translation"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FORMULA8" : {
+      "action" : "formula",
+      "sources" : [ "DROP_FIELDS2_copy0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Concatenated_Account_IDs",
+          "label" : "Concatenated Account IDs",
+          "formulaExpression" : "coalesce(concat\r\n(\r\n    coalesce(PurchaserNumber__c, ' '),\r\n    ',',\r\n    coalesce(ConsumerNumber__c, ' '),\r\n    ',',\r\n    coalesce(RegulatorNumber__c, ' ')\r\n), '')",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "label" : "Account",
+        "type" : "LOAD_DATASET",
+        "top" : 111.9,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET2" : {
+        "label" : "FER",
+        "type" : "LOAD_DATASET",
+        "top" : 392,
+        "left" : 530.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET3" : {
+        "label" : "Risk Snapshot",
+        "type" : "LOAD_DATASET",
+        "top" : 672,
+        "left" : 530.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET4" : {
+        "label" : "FER",
+        "type" : "LOAD_DATASET",
+        "top" : 532,
+        "left" : 530.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET5" : {
+        "label" : "Orders & Stock Sales",
+        "type" : "LOAD_DATASET",
+        "top" : 812,
+        "left" : 530.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN0" : {
+        "label" : "Join Account ID",
+        "description" : "With this node each row is matched with the Account ID from Salesforce, according to the SAP ID sent from the external system.",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 670.3
+      },
+      "JOIN1" : {
+        "label" : "Join Account ID",
+        "description" : "With this node each row is matched with the Account ID from Salesforce, according to the SAP ID sent from the external system.",
+        "type" : "JOIN",
+        "top" : 252,
+        "left" : 670.3
+      },
+      "JOIN2" : {
+        "label" : "Join Account ID",
+        "description" : "With this node each row is matched with the Account ID from Salesforce, according to the SAP ID sent from the external system.",
+        "type" : "JOIN",
+        "top" : 532,
+        "left" : 670.3
+      },
+      "JOIN3" : {
+        "label" : "Join Account ID",
+        "description" : "With this node each row is matched with the Account ID from Salesforce, according to the SAP ID sent from the external system.",
+        "type" : "JOIN",
+        "top" : 672,
+        "left" : 670.3
+      },
+      "JOIN4" : {
+        "label" : "Join Account ID",
+        "description" : "With this node each row is matched with the Account ID from Salesforce, according to the SAP ID sent from the external system.",
+        "type" : "JOIN",
+        "top" : 952,
+        "left" : 670.3
+      },
+      "OUTPUT0" : {
+        "label" : "Update COPA dataset with sharing inheritance",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 112,
+        "left" : 810.3
+      },
+      "OUTPUT1" : {
+        "label" : "Update FER dataset with sharing inheritance",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 252,
+        "left" : 810.3
+      },
+      "OUTPUT2" : {
+        "label" : "Update FER restricted dataset with sharing inheritance",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 392,
+        "left" : 810.3
+      },
+      "OUTPUT3" : {
+        "label" : "Update Risk dataset with sharing inheritance",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 672,
+        "left" : 810.3
+      },
+      "OUTPUT4" : {
+        "label" : "Update Stock & Orders dataset with sharing inheritance",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 812,
+        "left" : 810.3
+      },
+      "LOAD_DATASET6" : {
+        "label" : "COPA",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 530.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET7" : {
+        "label" : "AccountContactRelation",
+        "type" : "LOAD_DATASET",
+        "top" : 1372,
+        "left" : 250.3,
+        "parameters" : {
+          "sampleSize" : 10000
+        }
+      },
+      "FILTER0" : {
+        "label" : "Filter all Customer Portal User roles",
+        "description" : "Only the \"Customer Portal User\" role is relevant for the customer portal",
+        "type" : "FILTER",
+        "top" : 1372,
+        "left" : 390.3
+      },
+      "FILTER1" : {
+        "label" : "Filter all active relationships",
+        "description" : "Remove all inactive relationships",
+        "type" : "FILTER",
+        "top" : 1372,
+        "left" : 530.3
+      },
+      "LOAD_DATASET8" : {
+        "label" : "Account",
+        "type" : "LOAD_DATASET",
+        "top" : 1512,
+        "left" : 670.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET9" : {
+        "label" : "Contact",
+        "type" : "LOAD_DATASET",
+        "top" : 1512,
+        "left" : 810.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET10" : {
+        "label" : "User",
+        "type" : "LOAD_DATASET",
+        "top" : 1512,
+        "left" : 950.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN5" : {
+        "label" : "Join Account ID",
+        "description" : "For each relationship record we need to associate a User ID, which will drive visibility. Therefore we go Account ID -> Contact ID -> User ID",
+        "type" : "JOIN",
+        "top" : 1372,
+        "left" : 670.3
+      },
+      "JOIN6" : {
+        "label" : "Join Contact ID",
+        "description" : "For each relationship record we need to associate a User ID, which will drive visibility. Therefore we go Account ID -> Contact ID -> User ID",
+        "type" : "JOIN",
+        "top" : 1372,
+        "left" : 810.3
+      },
+      "JOIN7" : {
+        "label" : "Join User ID",
+        "description" : "For each relationship record we need to associate a User ID, which will drive visibility. Therefore we go Account ID -> Contact ID -> User ID",
+        "type" : "JOIN",
+        "top" : 1372,
+        "left" : 950.3
+      },
+      "LOAD_DATASET11" : {
+        "label" : "Orders & Stock Omnichannel",
+        "type" : "LOAD_DATASET",
+        "top" : 1232,
+        "left" : 1230.3,
+        "parameters" : {
+          "sampleSize" : 10000
+        }
+      },
+      "JOIN8" : {
+        "label" : "Join user IDs to Orders & Stock dataset",
+        "description" : "Associate the User IDs to each row using the SAP Account Number information as joining key.",
+        "type" : "JOIN",
+        "top" : 1372,
+        "left" : 1230.3
+      },
+      "TRANSFORM0" : {
+        "label" : "Drop unused columns",
+        "description" : "Only the SAP Account Number and the User ID are needed to drive the visibility",
+        "type" : "TRANSFORM",
+        "top" : 1372,
+        "left" : 1090.3,
+        "graph" : {
+          "DROP_FIELDS0" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT5" : {
+        "label" : "Update Order & Stock Omnichannel dataset with sharing rules",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 1372,
+        "left" : 1650.3
+      },
+      "LOAD_DATASET12" : {
+        "label" : "Net Proceeds Analysis",
+        "type" : "LOAD_DATASET",
+        "top" : 1092,
+        "left" : 530.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "OUTPUT6" : {
+        "label" : "Update Net Proceeds Analysis dataset with sharing inheritance",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 1092,
+        "left" : 812.1
+      },
+      "JOIN9" : {
+        "label" : "Join Account ID",
+        "description" : "With this node each row is matched with the Account ID from Salesforce, according to the SAP ID sent from the external system.",
+        "type" : "JOIN",
+        "top" : 1092,
+        "left" : 670.3
+      },
+      "TRANSFORM1" : {
+        "label" : "Create System Admin key",
+        "description" : "Used to allow users that have the System Administrator profile to see all data",
+        "type" : "TRANSFORM",
+        "top" : 1372,
+        "left" : 1370.3,
+        "graph" : {
+          "FORMULA0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "LOAD_DATASET13" : {
+        "label" : "Profile",
+        "type" : "LOAD_DATASET",
+        "top" : 1512,
+        "left" : 1370.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN10" : {
+        "label" : "Allow sys admins to see everything",
+        "description" : "Adding the ID of the System Administrator Profile to all rows to allow users with that profile to see all data.",
+        "type" : "JOIN",
+        "top" : 1372,
+        "left" : 1510.3
+      },
+      "FILTER2" : {
+        "label" : "Filter all active Account Contact Relationships",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 1512,
+        "left" : 250.3
+      },
+      "FILTER3" : {
+        "label" : "Filter Customer Portal User Roles",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 1512,
+        "left" : 390.3
+      },
+      "FILTER4" : {
+        "label" : "Filter Restricted Customer Portal User Roles",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 1652,
+        "left" : 250.3
+      },
+      "APPEND0" : {
+        "label" : "Append data from previous filters",
+        "description" : "",
+        "type" : "APPEND",
+        "top" : 1652,
+        "left" : 390.3
+      },
+      "JOIN11" : {
+        "label" : "Join Account ID",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 1652,
+        "left" : 670.3
+      },
+      "JOIN12" : {
+        "label" : "Join Contact ID",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 1652,
+        "left" : 812
+      },
+      "JOIN13" : {
+        "label" : "Join User ID",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 1652,
+        "left" : 950.3
+      },
+      "TRANSFORM2" : {
+        "label" : "Drop unused columns",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 1652,
+        "left" : 1090.3,
+        "graph" : {
+          "DROP_FIELDS1" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "LOAD_DATASET14" : {
+        "label" : "Position Status Staging",
+        "type" : "LOAD_DATASET",
+        "top" : 1792.4,
+        "left" : 1231.9,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN15" : {
+        "label" : "Join Customer Number to Position Status Staging Dataset (Purchaser)",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 1792,
+        "left" : 1512.1
+      },
+      "JOIN16" : {
+        "label" : "Join Customer Number to Position Status Staging Dataset (Consumer)",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 1792.2,
+        "left" : 1652.1
+      },
+      "TRANSFORM3" : {
+        "label" : "Drop unused columns",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 1512.4,
+        "left" : 2072.6,
+        "graph" : {
+          "DROP_FIELDS2" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT7" : {
+        "label" : "Update Position Status Staging dataset with sharing rules",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 1512.4,
+        "left" : 2212.6
+      },
+      "TRANSFORM4" : {
+        "label" : "Create admin columns for Security Predicate",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 1792.1,
+        "left" : 1793.2,
+        "graph" : {
+          "FORMULA1" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create DH Customer Administration column"
+          },
+          "FORMULA2" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create DH Customer Administration column"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA1",
+          "target" : "FORMULA2"
+        } ]
+      },
+      "JOIN17" : {
+        "label" : "Join DH Customer Admin Profile",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 1792.2,
+        "left" : 1933.2
+      },
+      "JOIN18" : {
+        "label" : "Join System Admin Profile",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 1512.4,
+        "left" : 1932.6
+      },
+      "TRANSFORM0_copy0" : {
+        "label" : "Get Version Data URL id",
+        "type" : "TRANSFORM",
+        "top" : 2072,
+        "left" : 670.3,
+        "graph" : {
+          "FORMULA0_copy0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "FILTER2_copy0" : {
+        "label" : "Order Confirmation",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 2352,
+        "left" : 670.3
+      },
+      "FILTER1_copy0_copy0" : {
+        "label" : "Invoice",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 2492,
+        "left" : 670.3
+      },
+      "FILTER2_copy0_copy0" : {
+        "label" : "Certificate / Dispatch / List",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 2072,
+        "left" : 810.3
+      },
+      "LOAD_DATASET15" : {
+        "label" : "ContentVersion",
+        "type" : "LOAD_DATASET",
+        "top" : 2072,
+        "left" : 250.3,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "FILTER4_copy0" : {
+        "label" : "Filter Unrestricted Customer Portal User Roles",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 1792.3,
+        "left" : 812.6
+      },
+      "TRANSFORM2_copy0_copy0" : {
+        "label" : "Drop unused columns",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 1792,
+        "left" : 952,
+        "graph" : {
+          "DROP_FIELDS1_copy0_copy0" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "JOIN19" : {
+        "label" : "Purchaser Number Join",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 2072,
+        "left" : 950.3
+      },
+      "JOIN20" : {
+        "label" : "Consumer Number Join",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 2072,
+        "left" : 1090.3
+      },
+      "TRANSFORM5" : {
+        "label" : "Drop Customer Number Column",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 2072,
+        "left" : 1230.3,
+        "graph" : {
+          "DROP_FIELDS3" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "JOIN21" : {
+        "label" : "Purchaser Number Join",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 2352,
+        "left" : 810.3
+      },
+      "JOIN22" : {
+        "label" : "Regulator Number Join",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 2492,
+        "left" : 810.3
+      },
+      "TRANSFORM5_copy0" : {
+        "label" : "Drop Customer Number Column",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 2352,
+        "left" : 1232.5,
+        "graph" : {
+          "DROP_FIELDS4" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "TRANSFORM5_copy0_copy0" : {
+        "label" : "Drop Customer Number Column",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 2492,
+        "left" : 1232.5,
+        "graph" : {
+          "DROP_FIELDS5" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "APPEND1" : {
+        "label" : "Append Order Confirmations",
+        "description" : "",
+        "type" : "APPEND",
+        "top" : 2072,
+        "left" : 1370.3
+      },
+      "APPEND2" : {
+        "label" : "Append Invoices",
+        "description" : "",
+        "type" : "APPEND",
+        "top" : 2072,
+        "left" : 1510.3
+      },
+      "TRANSFORM3_copy0" : {
+        "label" : "Drop unused visibility columns",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 2072.6,
+        "left" : 2072,
+        "graph" : {
+          "DROP_FIELDS2_copy0" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT8" : {
+        "label" : "Create Customer Portal Documents dataset",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 2072.6,
+        "left" : 2352
+      },
+      "FILTER5" : {
+        "label" : "Filter DH Customer Portal Documents",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 2072,
+        "left" : 530.3
+      },
+      "FILTER6" : {
+        "label" : "Filter View All Data Profiles",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 1652.2,
+        "left" : 1652
+      },
+      "TRANSFORM6" : {
+        "label" : "Create Visibility Join Key",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 2072,
+        "left" : 1792,
+        "graph" : {
+          "FORMULA3" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "JOIN23" : {
+        "label" : "Join Profiles for Visibility",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 2072,
+        "left" : 1932
+      },
+      "TRANSFORM8" : {
+        "label" : "Create Search Bar strings",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 1792.4,
+        "left" : 1372,
+        "graph" : {
+          "FORMULA6" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Project search bar string creation"
+          },
+          "FORMULA7" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Position and Status search bar string creation"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA6",
+          "target" : "FORMULA7"
+        } ]
+      },
+      "JOIN24" : {
+        "label" : "Vertical Translation Join",
+        "description" : "Vertical translation join for Document Type",
+        "type" : "JOIN",
+        "top" : 2072,
+        "left" : 1652
+      },
+      "LOAD_DATASET16" : {
+        "label" : "Vertical Translation",
+        "type" : "LOAD_DATASET",
+        "top" : 1932,
+        "left" : 1512,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM9" : {
+        "label" : "Concatenate Account IDs",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 2072.6,
+        "left" : 2212,
+        "graph" : {
+          "FORMULA8" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      }
+    },
+    "connectors" : [ {
+      "source" : "APPEND2",
+      "target" : "JOIN24"
+    }, {
+      "source" : "TRANSFORM8",
+      "target" : "JOIN15"
+    }, {
+      "source" : "LOAD_DATASET5",
+      "target" : "JOIN4"
+    }, {
+      "source" : "LOAD_DATASET11",
+      "target" : "JOIN8"
+    }, {
+      "source" : "LOAD_DATASET6",
+      "target" : "JOIN0"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "JOIN0"
+    }, {
+      "source" : "LOAD_DATASET2",
+      "target" : "JOIN1"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "JOIN1"
+    }, {
+      "source" : "LOAD_DATASET4",
+      "target" : "JOIN2"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "JOIN2"
+    }, {
+      "source" : "LOAD_DATASET3",
+      "target" : "JOIN3"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "JOIN3"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "JOIN4"
+    }, {
+      "source" : "JOIN0",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "JOIN1",
+      "target" : "OUTPUT1"
+    }, {
+      "source" : "JOIN2",
+      "target" : "OUTPUT2"
+    }, {
+      "source" : "JOIN3",
+      "target" : "OUTPUT3"
+    }, {
+      "source" : "JOIN4",
+      "target" : "OUTPUT4"
+    }, {
+      "source" : "LOAD_DATASET7",
+      "target" : "FILTER0"
+    }, {
+      "source" : "FILTER0",
+      "target" : "FILTER1"
+    }, {
+      "source" : "FILTER1",
+      "target" : "JOIN5"
+    }, {
+      "source" : "LOAD_DATASET8",
+      "target" : "JOIN5"
+    }, {
+      "source" : "JOIN5",
+      "target" : "JOIN6"
+    }, {
+      "source" : "LOAD_DATASET9",
+      "target" : "JOIN6"
+    }, {
+      "source" : "JOIN6",
+      "target" : "JOIN7"
+    }, {
+      "source" : "LOAD_DATASET10",
+      "target" : "JOIN7"
+    }, {
+      "source" : "JOIN7",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "JOIN8"
+    }, {
+      "source" : "JOIN10",
+      "target" : "OUTPUT5"
+    }, {
+      "source" : "LOAD_DATASET12",
+      "target" : "JOIN9"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "JOIN9"
+    }, {
+      "source" : "JOIN9",
+      "target" : "OUTPUT6"
+    }, {
+      "source" : "JOIN8",
+      "target" : "TRANSFORM1"
+    }, {
+      "source" : "TRANSFORM1",
+      "target" : "JOIN10"
+    }, {
+      "source" : "LOAD_DATASET13",
+      "target" : "JOIN10"
+    }, {
+      "source" : "LOAD_DATASET7",
+      "target" : "FILTER2"
+    }, {
+      "source" : "FILTER2",
+      "target" : "FILTER3"
+    }, {
+      "source" : "FILTER2",
+      "target" : "FILTER4"
+    }, {
+      "source" : "FILTER3",
+      "target" : "APPEND0"
+    }, {
+      "source" : "FILTER4",
+      "target" : "APPEND0"
+    }, {
+      "source" : "APPEND0",
+      "target" : "JOIN11"
+    }, {
+      "source" : "LOAD_DATASET8",
+      "target" : "JOIN11"
+    }, {
+      "source" : "JOIN11",
+      "target" : "JOIN12"
+    }, {
+      "source" : "LOAD_DATASET9",
+      "target" : "JOIN12"
+    }, {
+      "source" : "JOIN12",
+      "target" : "JOIN13"
+    }, {
+      "source" : "LOAD_DATASET10",
+      "target" : "JOIN13"
+    }, {
+      "source" : "JOIN13",
+      "target" : "TRANSFORM2"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "JOIN15"
+    }, {
+      "source" : "JOIN15",
+      "target" : "JOIN16"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "JOIN16"
+    }, {
+      "source" : "TRANSFORM4",
+      "target" : "JOIN17"
+    }, {
+      "source" : "LOAD_DATASET13",
+      "target" : "JOIN17"
+    }, {
+      "source" : "JOIN17",
+      "target" : "JOIN18"
+    }, {
+      "source" : "LOAD_DATASET13",
+      "target" : "JOIN18"
+    }, {
+      "source" : "JOIN18",
+      "target" : "TRANSFORM3"
+    }, {
+      "source" : "TRANSFORM3",
+      "target" : "OUTPUT7"
+    }, {
+      "source" : "TRANSFORM0_copy0",
+      "target" : "FILTER2_copy0"
+    }, {
+      "source" : "TRANSFORM0_copy0",
+      "target" : "FILTER1_copy0_copy0"
+    }, {
+      "source" : "TRANSFORM0_copy0",
+      "target" : "FILTER2_copy0_copy0"
+    }, {
+      "source" : "JOIN13",
+      "target" : "FILTER4_copy0"
+    }, {
+      "source" : "FILTER4_copy0",
+      "target" : "TRANSFORM2_copy0_copy0"
+    }, {
+      "source" : "FILTER2_copy0_copy0",
+      "target" : "JOIN19"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "JOIN19"
+    }, {
+      "source" : "JOIN19",
+      "target" : "JOIN20"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "JOIN20"
+    }, {
+      "source" : "FILTER2_copy0",
+      "target" : "JOIN21"
+    }, {
+      "source" : "TRANSFORM2_copy0_copy0",
+      "target" : "JOIN21"
+    }, {
+      "source" : "FILTER1_copy0_copy0",
+      "target" : "JOIN22"
+    }, {
+      "source" : "TRANSFORM2_copy0_copy0",
+      "target" : "JOIN22"
+    }, {
+      "source" : "JOIN21",
+      "target" : "TRANSFORM5_copy0"
+    }, {
+      "source" : "JOIN22",
+      "target" : "TRANSFORM5_copy0_copy0"
+    }, {
+      "source" : "JOIN20",
+      "target" : "TRANSFORM5"
+    }, {
+      "source" : "TRANSFORM5",
+      "target" : "APPEND1"
+    }, {
+      "source" : "TRANSFORM5_copy0",
+      "target" : "APPEND1"
+    }, {
+      "source" : "APPEND1",
+      "target" : "APPEND2"
+    }, {
+      "source" : "TRANSFORM5_copy0_copy0",
+      "target" : "APPEND2"
+    }, {
+      "source" : "FILTER5",
+      "target" : "TRANSFORM0_copy0"
+    }, {
+      "source" : "LOAD_DATASET13",
+      "target" : "FILTER6"
+    }, {
+      "source" : "JOIN24",
+      "target" : "TRANSFORM6"
+    }, {
+      "source" : "TRANSFORM6",
+      "target" : "JOIN23"
+    }, {
+      "source" : "FILTER6",
+      "target" : "JOIN23"
+    }, {
+      "source" : "LOAD_DATASET15",
+      "target" : "FILTER5"
+    }, {
+      "source" : "JOIN16",
+      "target" : "TRANSFORM4"
+    }, {
+      "source" : "LOAD_DATASET14",
+      "target" : "TRANSFORM8"
+    }, {
+      "source" : "LOAD_DATASET16",
+      "target" : "JOIN24"
+    }, {
+      "source" : "TRANSFORM9",
+      "target" : "OUTPUT8"
+    }, {
+      "source" : "TRANSFORM3_copy0",
+      "target" : "TRANSFORM9"
+    }, {
+      "source" : "JOIN23",
+      "target" : "TRANSFORM3_copy0"
+    } ],
+    "hiddenColumns" : [ ]
+  },
+  "runMode" : "full"
+}

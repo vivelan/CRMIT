@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Prüfen - Oberflächenfehlerpr. (St.38+39)</label>
+    <name>Surfacedefectinspec__c</name>
+    <picklistValues>
+        <masterLabel>D2</masterLabel>
+        <translation>D2 - Draht - Str. 11/31/32_WALZHART-keine Erprobung_ GEGLÜHT-200% Fluxproben_ Güteklasse laut Rissnorm/tiefe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D3</masterLabel>
+        <translation>D3 - Draht - Str. 11/31/32_WALZHART-200% Erprobung--Stgr. 50%--Kl. 0 zul. + 200% Fluxen an jedem 5. Ring je Ader_ Gütekl laut Rissn.</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D4</masterLabel>
+        <translation>D4 - Draht - Str. 11/31/32_WALZHART- 100 % Fluxproben abwechselnd von Anfang und Ende Güteklasse laut Rissnorm/tiefe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D5</masterLabel>
+        <translation>D5 - Draht - Str. 11/31/32_WALZHART- 100 % Stauchproben abwechselnd von Anfang und Ende Klasse 0 zulässig Stauchgrad 66%</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DA</masterLabel>
+        <translation>DA - Draht - Str. 11/31/32_Sichtkontrolle am Ring auf Oberflächenfehler im Fluss der Strasse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DB</masterLabel>
+        <translation>DB - Draht - Str. 11/31/32_WALZHART-100% Sichtkontrolle an Proben_ Stauchen jeder 10te Ring adernbezogen_ Klasse 1 zulässig_ Stgr. 5</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DC</masterLabel>
+        <translation>DC - Draht - Str. 11/31/32_WALZHART-100% Sichtkontrolle an Proben_ Stauchen jeder 10te Ring adernbezogen_ Klasse 0 zulässig_ Stgr. 6</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DD</masterLabel>
+        <translation>DD - Draht - Str. 11/31/32_WALZHART-100% Fluxproben_ Güteklasse laut Rissnorm/tiefe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DE</masterLabel>
+        <translation>DE - Draht - Str. 11/31/32_WALZHART-200% Fluxproben_ Güteklasse laut Rissnorm/tiefe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DF</masterLabel>
+        <translation>DF - Draht - Str. 11/31/32_WALZHART-200% Fluxproben_ GEGLÜHT-200% Fluxproben_ Güteklasse laut Rissnorm/tiefe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DG</masterLabel>
+        <translation>DG - Draht - Str. 11/31/32_WALZHART-100% Stauchproben_ Klasse 1 zulässig_ Stgr. 66% bei C&lt;0,45; Stgr. 50% bei C=0,45-0,75%; Stgr. 33</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DH</masterLabel>
+        <translation>DH - Draht - Str. 11/31/32_WALZHART-100% Stauchproben_ Klasse 0 zulässig_ Stgr. 66% bei C&lt;0,45; Stgr. 50% bei C=0,45-0,75%; Stgr. 33</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DJ</masterLabel>
+        <translation>DJ - Draht - Str. 11/31/32_WALZHART-200% Stauchproben_ Klasse 1 zulässig_ Stgr. 66% bei C&lt;0,45; Stgr. 50% bei C=0,45-0,75%; Stgr. 33</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DK</masterLabel>
+        <translation>DK - Draht - Str. 11/31/32_WALZHART-200% Stauchproben_ Klasse 0 zulässig_ Stgr. 66% bei C&lt;0,45; Stgr. 50% bei C=0,45-0,75%; Stgr. 33</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DL</masterLabel>
+        <translation>DL - Draht - Str. 11/31/32_WALZHART-100% Fluxen laut Rissnorm/tiefe_ GEGLÜHT-200% Stauchen--Stgr. 60%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DM</masterLabel>
+        <translation>DM - Draht - Str. 11/31/32_WALZHART-100% Fluxen laut Rissnorm/tiefe_ GEGLÜHT-200% Stauchen--Stgr. 66%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DN</masterLabel>
+        <translation>DN - Draht - Str. 11/31/32_WALZHART-100% Stauchen--Stgr. 50%--Klasse 0 zulässig_ GEGLÜHT-200% Stauchen--Stgr. 66%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DO</masterLabel>
+        <translation>DO - Draht - Str. 11/31/32_WALZHART-100% Stauchen--Stgr. 60%--Klasse 0 zulässig_ GEGLÜHT-200% Stauchen--Stgr. 66%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DP</masterLabel>
+        <translation>DP - Draht - Str. 11/31/32_WALZHART-100% Stauchen--Stgr. 60%--Klasse 0 zulässig_ GEGLÜHT-200% Stauchen--Stgr. 75%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DQ</masterLabel>
+        <translation>DQ - Draht - Str. 11/31/32_WALZHART-200% Fluxen laut Rissnorm/tiefe_ GEGLÜHT-keine weitere Erprobung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DR</masterLabel>
+        <translation>DR - Draht - Str. 11/31/32_WALZHART-200% Stauchen--Stgr. 66%--Klasse 0 zulässig_ GEGLÜHT-keine weitere Erprobung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DS</masterLabel>
+        <translation>DS - Draht - Str. 11/31/32_WALZHART-100% Stauchen--Stgr. 66%--Klasse 0 zulässig_ GEGLÜHT-200% Stauchen--Stgr. 75%--Klass</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DT</masterLabel>
+        <translation>DT - Draht - Str. 11/31/32_WALZHART-100% Stauchen--Stgr. 50%--Klasse 0 zulässig + 100% Fluxen laut Rissnorm/tiefe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DU</masterLabel>
+        <translation>DU - Draht - Str. 11/31/32_WALZHART-200% Stauchproben + 30% Fluxen--Klasse 0 zulässig_ Stgr. 66% bei C&lt;0,45; Stgr. 50% bei C=0,45-0,</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DV</masterLabel>
+        <translation>DV - Draht - Str. 11/31/32_WALZHART-200% Stauchproben--Stgr. 50%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DW</masterLabel>
+        <translation>DW - Draht - Str. 11/31/32_WALZHART-200% Stauchproben--Stgr. 60%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DX</masterLabel>
+        <translation>DX - Draht - Str. 11/31/32_WALZHART-200% Stauchproben--Stgr. 66%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DY</masterLabel>
+        <translation>DY - Draht - Str. 11/31/32_WALZHART-200% Stauchproben--Stgr. 75%--Klasse 0 zulässig</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DZ</masterLabel>
+        <translation>DZ - Draht - Str. 11/31/32_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F0</masterLabel>
+        <translation>F0 - Draht walzgeschält Nauweiler_Revision im Fluss der Schälanlage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F2</masterLabel>
+        <translation>F2 - Draht walzgeschält Nauweiler_Je Ring 2 Fluxproben</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F5</masterLabel>
+        <translation>F5 - Draht walzgeschält Nauweiler_Je Ring 5 Fluxproben (Stab)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F6</masterLabel>
+        <translation>F6 - Draht walzgeschält Nauweiler_Je Ring 10 Fluxproben (Stab)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F9</masterLabel>
+        <translation>F9 - Draht walzgeschält Nauweiler_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K0</masterLabel>
+        <translation>K0 - Kundenhalbzeug_Sichtrevision im Fluss der Strasse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K1</masterLabel>
+        <translation>K1 - Kundenhalbzeug_Sichtrevision im Fluss der Strasse und Probenrevision bei KHZ &lt; 100mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K2</masterLabel>
+        <translation>K2 - Kundenhalbzeug_Mecana - Putzen; Prüfmaßstab 1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K3</masterLabel>
+        <translation>K3 - Kundenhalbzeug_Mecana - Putzen; Prüfmaßstab 2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K4</masterLabel>
+        <translation>K4 - Kundenhalbzeug_Mecana - Putzen; Prüfmaßstab 3</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K5</masterLabel>
+        <translation>K5 - Kundenhalbzeug_Mecana - Putzen; Prüfmaßstab 4</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K6</masterLabel>
+        <translation>K6 - Kundenhalbzeug_Mecana - Putzen; Prüfmaßstab 5</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K7</masterLabel>
+        <translation>K7 - Kundenhalbzeug_Mecana - Putzen; Prüfmaßstab 6</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K9</masterLabel>
+        <translation>K9 - Kundenhalbzeug_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L0</masterLabel>
+        <translation>L0 - Stabstahl walzgeschält_Revision im Fluss der Schälmaschine auf Lager</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L2</masterLabel>
+        <translation>L2 - Stabstahl walzgeschält_Circofluxprüfung; Risstiefe 0,3 mm; Fehlerlänge 500-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L3</masterLabel>
+        <translation>L3 - Stabstahl walzgeschält_Circofluxprüfung; Risstiefe 0,2 mm; Fehlerlänge 200-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L4</masterLabel>
+        <translation>L4 - Stabstahl walzgeschält_Circofluxprüfung; Risstiefe 0,2 mm; Fehlerlänge 50-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L5</masterLabel>
+        <translation>L5 - Stabstahl walzgeschält_CircofluxprüfungRisstiefe 0,15 mmFehlerlänge 200-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L6</masterLabel>
+        <translation>L6 - Stabstahl walzgeschält_Circofluxprüfung; Risstiefe 0,15 mm; Fehlerlänge 50-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L7</masterLabel>
+        <translation>L7 - Stabstahl walzgeschält_Circofluxprüfung; Risstiefe 0,1 mm; Fehlerlänge 200-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L8</masterLabel>
+        <translation>L8 - Stabstahl walzgeschält_Circofluxprüfung; Risstiefe 0,1 mm; Fehlerlänge 50-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L9</masterLabel>
+        <translation>L9 - Stabstahl walzgeschält_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M2</masterLabel>
+        <translation>M2 - Stab rund_MECANA Putzen: Prüfmaßstab 1</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M3</masterLabel>
+        <translation>M3 - Stab rund_MECANA Putzen: Prüfmaßstab 2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M4</masterLabel>
+        <translation>M4 - Stab rundl_MECANA Putzen: Prüfmaßstab 3</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M5</masterLabel>
+        <translation>M5 - Stab rund_MECANA Putzen: Prüfmaßstab 4</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M6</masterLabel>
+        <translation>M6 - Stab rund_MECANA Putzen: Prüfmaßstab 5</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M7</masterLabel>
+        <translation>M7 - Stab rund_MECANA Putzen: Prüfmaßstab 6</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M9</masterLabel>
+        <translation>M9 - Stab rund_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P0</masterLabel>
+        <translation>P0 - Stab/Profile nicht rund_Sichtrevision im Fluss der Strasse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P1</masterLabel>
+        <translation>P1 - Stab/Profile nicht rund_Pr.-Rev. FLUXEN Gütekl. A; Str. 14/15 Erprobung 100%; Str. 31 Erprobung jeder 7. Knüppel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P2</masterLabel>
+        <translation>P2 - Stab/Profile nicht rund_Pr.-Rev. FLUXEN Gütekl. B; Str. 14/15 Erprobung 100%; Str. 31 Erprobung jeder 7. Knüppel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P3</masterLabel>
+        <translation>P3 - Stab/Profile nicht rund_Pr.-Rev. FLUXEN Gütekl. C; Str. 14/15/31 Erprobung 100%</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P5</masterLabel>
+        <translation>P5 - Stab/Profile nicht rund_nur Str.31_Pr.-Rev. FLUXEN Gütekl. C; Erprobung jeder 7. Knüppel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P9</masterLabel>
+        <translation>P9 - Stab/Profile nicht rund_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R0</masterLabel>
+        <translation>R0 - Rohstranggusslieferung_Sichtrevision im Stahlwerk 433</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R1</masterLabel>
+        <translation>R1 - Rohstranggusslieferung_ungestrahlt, Sichtrevision in Betrieb 433, sortieren / putzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R2</masterLabel>
+        <translation>R2 - Rohstranggusslieferung_ungestrahlt, Sichtrevision in Betrieb 441, sortieren / putzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R9</masterLabel>
+        <translation>R9 - Rohstranggusslieferung_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S0</masterLabel>
+        <translation>S0 - Stab rund_Sichtrevision im Fluss der Strasse</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S1</masterLabel>
+        <translation>S1 - Stab rund_Pr.-Rev. Gütekl. A; Str. 14/15 Erprobung 100%; Str. 31 Erprobung jeder 7. Knüppel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S2</masterLabel>
+        <translation>S2 - Stab rund_Pr.-Rev. Gütekl. B; Str. 14/15 Erprobung100%; Str. 31 Erprobung jeder 7. Knüppel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S3</masterLabel>
+        <translation>S3 - Stab rund_Pr.-Rev. Gütekl. C; Str. 14/15/31 Erprobung 100%</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S4</masterLabel>
+        <translation>S4 - Stab rund_nur Str. 31 Stauchen--Stgr. 50%--Klasse 0 zulässig_&lt;= 10to - alle Knüppel; &gt; 10to - jeder 3. Knüppel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S5</masterLabel>
+        <translation>S5 - Stab rund_nur Str.31_Pr.-Rev. FLUXEN Gütekl. C; Erprobung jeder 7. Knüppel</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S6</masterLabel>
+        <translation>S6 - Stab rund_Str.14/15/31_Circofluxprüfung; Risstiefe 0,3 mm; Fehlerlänge 500-50 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S7</masterLabel>
+        <translation>S7 - Stab rund_Str.14/15/31_Circofluxprüfung; Risstiefe 0,3 mm; Fehlerlänge 200-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S8</masterLabel>
+        <translation>S8 - Stab rund_Str.14/15/31_Circofluxprüfung; Risstiefe 0,2 mm; Fehlerlänge 200-25 mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S9</masterLabel>
+        <translation>S9 - Stab rund_Str.14/15/31_Sondermaßstab nach Angaben Qualitätswesen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

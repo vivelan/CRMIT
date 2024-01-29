@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnCustomerPortalUserRole</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(AND(ISNEW(),
+NOT($Permission.Manage_Customer_Portal_Role),
+INCLUDES(Roles, &apos;Customer Portal User&apos;)
+),
+AND(NOT(ISNEW()),
+NOT($Permission.Manage_Customer_Portal_Role),
+ OR(
+   AND(INCLUDES(PRIORVALUE(Roles), &apos;Customer Portal User&apos;),
+   NOT(INCLUDES(Roles, &apos;Customer Portal User&apos;))),
+   AND( NOT(INCLUDES(PRIORVALUE(Roles), &apos;Customer Portal User&apos;)),
+   INCLUDES(Roles, &apos;Customer Portal User&apos;))
+   ))),
+   NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>You don&apos;t have the required permission to edit this relationship. Please reach out to your customer portal administrator to add this contact to the portal.</errorMessage>
+</ValidationRule>

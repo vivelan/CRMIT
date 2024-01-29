@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Department__c</fullName>
+    <externalId>false</externalId>
+    <label>Department </label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Controlling, Accounting, Finance</fullName>
+                <default>false</default>
+                <label>Controlling, Accounting, Finance</label>
+            </value>
+            <value>
+                <fullName>Procurement, Material Economy</fullName>
+                <default>false</default>
+                <label>Procurement, Material Economy</label>
+            </value>
+            <value>
+                <fullName>Research &amp; Development</fullName>
+                <default>false</default>
+                <label>Research &amp; Development</label>
+            </value>
+            <value>
+                <fullName>Production</fullName>
+                <default>false</default>
+                <label>Production</label>
+            </value>
+            <value>
+                <fullName>Maintenance</fullName>
+                <default>false</default>
+                <label>Maintenance</label>
+            </value>
+            <value>
+                <fullName>IT</fullName>
+                <default>false</default>
+                <label>IT</label>
+            </value>
+            <value>
+                <fullName>Construction, Calculation</fullName>
+                <default>false</default>
+                <label>Construction, Calculation</label>
+            </value>
+            <value>
+                <fullName>Marketing, Product Management</fullName>
+                <default>false</default>
+                <label>Marketing, Product Management</label>
+            </value>
+            <value>
+                <fullName>Metallurgy</fullName>
+                <default>false</default>
+                <label>Metallurgy</label>
+            </value>
+            <value>
+                <fullName>Project Management</fullName>
+                <default>false</default>
+                <label>Project Management</label>
+            </value>
+            <value>
+                <fullName>Quality Management</fullName>
+                <default>false</default>
+                <label>Quality Management</label>
+            </value>
+            <value>
+                <fullName>Welding</fullName>
+                <default>false</default>
+                <label>Welding</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Transport, Dispatch</fullName>
+                <default>false</default>
+                <label>Transport, Dispatch</label>
+            </value>
+            <value>
+                <fullName>Sales</fullName>
+                <default>false</default>
+                <label>Sales</label>
+            </value>
+            <value>
+                <fullName>Board, Management</fullName>
+                <default>false</default>
+                <label>Board, Management</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

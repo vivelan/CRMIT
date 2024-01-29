@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PackagingSales__c</fullName>
+    <externalId>false</externalId>
+    <label>Packaging</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>02- Packed seaworthy</fullName>
+                <default>false</default>
+                <label>02- Packed seaworthy</label>
+            </value>
+            <value>
+                <fullName>04 - In plastic tubular film (SAG)</fullName>
+                <default>false</default>
+                <label>04 - In plastic tubular film (SAG)</label>
+            </value>
+            <value>
+                <fullName>06 - Wrapped in oiled paper</fullName>
+                <default>false</default>
+                <label>06 - Wrapped in oiled paper</label>
+            </value>
+            <value>
+                <fullName>08 - Wrapped in jute</fullName>
+                <default>false</default>
+                <label>08 - Wrapped in jute</label>
+            </value>
+            <value>
+                <fullName>10 - Wrapped in oiled paper and jute</fullName>
+                <default>false</default>
+                <label>10 - Wrapped in oiled paper and jute</label>
+            </value>
+            <value>
+                <fullName>12 - Cont. Lined with foil</fullName>
+                <default>false</default>
+                <label>12 - Cont. Lined with foil</label>
+            </value>
+            <value>
+                <fullName>14 - BU Type 2 VPM standard</fullName>
+                <default>false</default>
+                <label>14 - BU Type 2 VPM standard</label>
+            </value>
+            <value>
+                <fullName>15 - BU-Type 3 VCI+tubular film</fullName>
+                <default>false</default>
+                <label>15 - BU-Type 3 VCI+tubular film</label>
+            </value>
+            <value>
+                <fullName>16 - Jute underlay</fullName>
+                <default>false</default>
+                <label>16 - Jute underlay</label>
+            </value>
+            <value>
+                <fullName>17 - VCI Packing (Only)</fullName>
+                <default>false</default>
+                <label>17 - VCI Packing (Only)</label>
+            </value>
+            <value>
+                <fullName>18 - Boxed</fullName>
+                <default>false</default>
+                <label>18 - Boxed</label>
+            </value>
+            <value>
+                <fullName>20 - Container Shipping</fullName>
+                <default>false</default>
+                <label>20 - Container Shipping</label>
+            </value>
+            <value>
+                <fullName>23 - Type 4 fabric tube padded</fullName>
+                <default>false</default>
+                <label>23 - Type 4 fabric tube padded</label>
+            </value>
+            <value>
+                <fullName>25 - BU type 5 VCI+fabric padded</fullName>
+                <default>false</default>
+                <label>25 - BU type 5 VCI+fabric padded</label>
+            </value>
+            <value>
+                <fullName>30 - Packing externally at the port</fullName>
+                <default>false</default>
+                <label>30 - Packing externally at the port</label>
+            </value>
+            <value>
+                <fullName>32 - Type 6 fabric hose puller</fullName>
+                <default>false</default>
+                <label>32 - Type 6 fabric hose puller</label>
+            </value>
+            <value>
+                <fullName>34 - BU-TYPE 7 VCI+fabric puller</fullName>
+                <default>false</default>
+                <label>34 - BU-TYPE 7 VCI+fabric puller</label>
+            </value>
+            <value>
+                <fullName>36 - Type 8 air freight/ general cargo</fullName>
+                <default>false</default>
+                <label>36 - Type 8 air freight/ general cargo</label>
+            </value>
+            <value>
+                <fullName>38 - Type 9 key fol.+thread. migrant</fullName>
+                <default>false</default>
+                <label>38 - Type 9 key fol.+thread. migrant</label>
+            </value>
+            <value>
+                <fullName>40 - BU Type 10 VPM 2X Armor VCI</fullName>
+                <default>false</default>
+                <label>40 - BU Type 10 VPM 2X Armor VCI</label>
+            </value>
+            <value>
+                <fullName>42 - BU Type 11 VPM Armour+Net VCI</fullName>
+                <default>false</default>
+                <label>42 - BU Type 11 VPM Armour+Net VCI</label>
+            </value>
+            <value>
+                <fullName>44 - Combination pack. 14 and 30</fullName>
+                <default>false</default>
+                <label>44 - Combination pack. 14 and 30</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

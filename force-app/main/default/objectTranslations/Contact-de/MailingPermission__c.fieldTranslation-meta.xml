@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Mailingerlaubnis</label>
+    <name>MailingPermission__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>Nein</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Outstanding</masterLabel>
+        <translation>Ausstehend</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (Double-Opt-In)</masterLabel>
+        <translation>Ja (Double-Opt-In)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes (on paper),</masterLabel>
+        <translation>Ja (Papier)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

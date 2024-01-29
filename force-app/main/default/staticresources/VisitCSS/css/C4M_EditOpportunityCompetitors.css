@@ -1,0 +1,74 @@
+.standardBtn button{
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-right: 0.2rem;
+    padding: 3px 25px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.standardBtn button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.standardBtn button:active{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.standardBtn button:focus{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.cancelBtn button {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 24px;
+    color:#080707;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.cancelBtn button:hover {
+    background-color: #f1f1f1;
+    color:#080707;
+}
+
+.centeredBtn {
+    width: 98%; 
+    position: absolute; 
+    text-align: center;
+}
+
+.standardBtnProductsMobile button {
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 2px 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.cancelBtnProductsMobile button {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 16px;
+    color:#080707;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.carouselSpinner-competitors{
+    position: absolute;
+    left:0;
+    right:0;
+  }

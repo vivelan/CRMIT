@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DH_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Records created by user of role DH can be seen by everyone with role DH</description>
+        <label>DH Access</label>
+        <sharedTo>
+            <role>DH</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DH</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SAG_Access</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Records created by user of role SAG can be seen by everyone with role SAG</description>
+        <label>SAG Access</label>
+        <sharedTo>
+            <role>SAG</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SAG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

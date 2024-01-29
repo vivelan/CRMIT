@@ -1,0 +1,531 @@
+<template>
+  <div class="c-container slds-p-around_none desktop slds-scrollable">
+  <lightning-card>
+    <!--Loader-->
+    <div if:true={isLoading}>
+      <lightning-spinner
+          alternative-text="Loading..." variant="brand" class="slds-is-fixed">
+      </lightning-spinner>
+  </div>
+  <!--Loader-->
+  <lightning-layout multiple-rows="true" style="width:100%" horizontal-align="spread"
+    class="slds-var-p-bottom_small slds slds-button_stretch"> 
+          <div>
+            <lightning-layout-item flexibility="auto">
+            <div class="container1 slds-float_left">
+              <div class="slds-m-around_medium">
+                <lightning-button variant="brand" label={label.ExportForSalesPlanning} title="Export" onclick={handleExportClick} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="brand" label={label.SaveFinalVersion} title="Save final version" onclick={handleSaveFinalVersionClick} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>  
+                <lightning-button variant="brand" label={label.EditButtonForSalesForecasting} title="Edit" onclick={handleEdit} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="brand" label={label.SaveButtonForSalesForecasting} title="Save" onclick={handleSaveClick} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="brand" label={label.CancelForSalesPlanning} title="Cancel" onclick={handleClickCancle} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="brand" label={label.SubmitButtonForSalesForecasting} title="SUBMIT" onclick={handleSubmitClick} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="brand" label={label.RollupfromAccountlevelButtonForSF} title="ROLLUP FROM ACCOUNT" onclick={handleROLLUPAccountClick} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>
+                <lightning-button variant="brand" label={label.RollupAnnualPlanningButtonForSF} title="Roll up Annual planning" onclick={handleRollupAnnualPlanningClick} disabled={disabledBtn} class="slds-m-left_x-small"></lightning-button>
+              </div>
+          </div>
+            </lightning-layout-item>
+          <lightning-layout-item padding="around-small" flexibility="auto">
+          <div class="container1 slds-float_left">
+            <div>
+              <span class="fontweightLabel">{label.LastSavedOnLabel}:</span> {LastSavedOnDate} &nbsp;
+              <span class="fontweightLabel">{label.LastSubmittedOnLabel}:</span> {LastSubmittedOnDate} &nbsp;
+              <span class="fontweightLabel">{label.LastRolledupfromAccountlevelLabel}:</span> {LastRolledUpOnDate} &nbsp;
+              <span class="fontweightLabel">{label.LastRolledupAnnualPlanningLabel}:</span> {LastRolledupAnnualPlanningLabel} &nbsp;
+          </div>
+          </div>
+          </lightning-layout-item>
+          </div>
+  </lightning-layout>
+  <div class="container">
+    <div></div>
+  <lightning-layout multiple-rows="true" vertical-align="end">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered " id="tblData">
+          <thead>
+            <tr>
+                <template for:each={columnNames} for:item="columnName">
+                  <th class="slds-cell-wrap" key={columnName}><div>{columnName}</div></th>
+                </template>
+              </tr>
+          </thead>
+            <tbody>
+              <tr><td colspan="19" style="text-align: left; font-weight: bold;">{label.SoldAmount}</td></tr>
+              <template for:each={drawingSoldTable} for:item = "ml" for:index="index">
+                <tr key={ml.index}>
+                  <template if:true={isEditing}>
+                    <td><div>{ml.BusinessArea}</div></td>
+                    <td><div class="slds-cell-wrap">{ml.ActualSoldAmount}</div></td>
+                    <td><div class="slds-cell-wrap">{ml.currentFSoldAmount}</div></td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current1FSoldAmount"  value={ml.current1FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number" data-index={index} name="current2FSoldAmount"  value={ml.current2FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current3FSoldAmount"  value={ml.current3FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td >
+                    <td class='tdText'><lightning-input class='rightInputText' step="any" type="number" data-index={index} name="current4FSoldAmount"  value={ml.current4FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current5FSoldAmount"  value={ml.current5FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current6FSoldAmount"  value={ml.current6FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current7FSoldAmount"  value={ml.current7FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current8FSoldAmount"  value={ml.current8FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current9FSoldAmount"  value={ml.current9FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current10FSoldAmount"  value={ml.current10FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current11FSoldAmount"  value={ml.current11FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current12FSoldAmount"  value={ml.current12FSoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'><div style="text-align: left;">{ml.rollingForecastCurrentYear}</div></td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearlySoldAmount"  value={ml.yearlySoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly1SoldAmount"  value={ml.yearly1SoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                    <td class='tdText'>
+                      <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly2SoldAmount"  value={ml.yearly2SoldAmount} variant="label-hidden" onchange={handleDwSoldChange}></lightning-input>
+                    </td>
+                  </template>
+                    <template if:false={isEditing}>
+                      <td><div>{ml.BusinessArea}</div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.ActualSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.currentFSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current1FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current2FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current3FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current4FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current5FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current6FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current7FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current8FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current9FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current10FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current11FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current12FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear"><lightning-formatted-number value={ml.rollingForecastCurrentYear}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearlySoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly1SoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly2SoldAmount}></lightning-formatted-number></div></td>
+                    </template>
+                  </tr>
+              </template>
+                <tr>
+                  <template if:false={isEditing}>
+                    <td> <div class=" fontweight leftText">{label.TotalDrawingGradesSoldAmounts}</div></td>
+                    <template for:each={drawingSoldCalculation} for:item="columnName">
+                      <th key={columnName}><div style="text-align: right;"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                    </template>
+                  </template>
+                  <template if:true={isEditing}>
+                    <td> <div class=" fontweight leftText">{label.TotalDrawingGradesSoldAmounts}</div></td>
+                    <template for:each={drawingSoldCalculation} for:item="columnName">
+                      <th key={columnName}><div class="leftText"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                    </template>
+                  </template>
+                </tr>
+                <template for:each={soldamountBusinessArea} for:item = "ml" for:index="index">
+                  <tr key={ml.index}>
+                    <template if:true={isEditing}>
+                      <td><div>{ml.BusinessArea}</div></td>
+                      <td><div class="slds-cell-wrap">{ml.ActualSoldAmount}</div></td>
+                      <td><div class="slds-cell-wrap">{ml.currentFSoldAmount}</div></td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current1FSoldAmount"  value={ml.current1FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number" data-index={index} name="current2FSoldAmount"  value={ml.current2FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current3FSoldAmount"  value={ml.current3FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td >
+                      <td class='tdText'><lightning-input class='rightInputText' step="any" type="number" data-index={index} name="current4FSoldAmount"  value={ml.current4FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current5FSoldAmount"  value={ml.current5FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current6FSoldAmount"  value={ml.current6FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current7FSoldAmount"  value={ml.current7FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current8FSoldAmount"  value={ml.current8FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current9FSoldAmount"  value={ml.current9FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current10FSoldAmount"  value={ml.current10FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current11FSoldAmount"  value={ml.current11FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current12FSoldAmount"  value={ml.current12FSoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'><div style="text-align: left;">{ml.rollingForecastCurrentYear}</div></td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearlySoldAmount"  value={ml.yearlySoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly1SoldAmount"  value={ml.yearly1SoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly2SoldAmount"  value={ml.yearly2SoldAmount} variant="label-hidden" onchange={handleNameChange}></lightning-input>
+                      </td>
+                    </template>
+                      <template if:false={isEditing}>
+                        <td><div>{ml.BusinessArea}</div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.ActualSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.currentFSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current1FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current2FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current3FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current4FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current5FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current6FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current7FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current8FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current9FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current10FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current11FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current12FSoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear"><lightning-formatted-number value={ml.rollingForecastCurrentYear}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearlySoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly1SoldAmount}></lightning-formatted-number></div></td>
+                        <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly2SoldAmount}></lightning-formatted-number></div></td>
+                     </template>
+                    </tr>
+                </template>
+                <tr>
+                  <template if:false={isEditing}>
+                    <td> <div class=" fontweightLabel leftText">{label.TotalSoldAmounts}</div></td>
+                    <template for:each={soldCalculation} for:item="columnName">
+                        <th key={columnName}><div style="text-align: right;"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                      </template>
+                  </template>
+                  <template if:true={isEditing}>
+                    <td> <div class=" fontweightLabel leftText">{label.TotalSoldAmounts}</div></td>
+                    <template for:each={soldCalculation} for:item="columnName">
+                        <th key={columnName}><div class="leftText"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                      </template>
+                  </template>
+                </tr>
+                <tr><td colspan="19" style="height: 20px;"></td></tr>
+                <tr><td colspan="19" style="text-align: left; font-weight: bold;">{label.NetProceeds}</td></tr>
+                <template for:each={drawingNetTable} for:item="ml" for:index="index">
+                  <tr key={ml.index}>
+                    <template if:true={isEditing}>
+                      <td><div>{ml.BusinessArea}</div></td>
+                      <td class='tdText'><div class=" slds-cell-wrap">{ml.ActualSoldAmount}</div></td>
+                      <td class='tdText'><div class=" slds-cell-wrap">{ml.currentFSoldAmount}</div></td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current1FSoldAmount"  value={ml.current1FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number" data-index={index} name="current2FSoldAmount"  value={ml.current2FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current3FSoldAmount"  value={ml.current3FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td >
+                      <td class='tdText'>
+                        <lightning-input class='rightInputText' step="any" type="number" data-index={index} name="current4FSoldAmount"  value={ml.current4FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current5FSoldAmount"  value={ml.current5FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current6FSoldAmount"  value={ml.current6FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current7FSoldAmount"  value={ml.current7FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current8FSoldAmount"  value={ml.current8FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current9FSoldAmount"  value={ml.current9FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current10FSoldAmount"  value={ml.current10FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current11FSoldAmount"  value={ml.current11FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current12FSoldAmount"  value={ml.current12FSoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'><div style="text-align: left;">{ml.rollingForecastCurrentYear}</div></td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearlySoldAmount"  value={ml.yearlySoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly1SoldAmount"  value={ml.yearly1SoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly2SoldAmount"  value={ml.yearly2SoldAmount} variant="label-hidden" onchange={handleDwNetChange}></lightning-input>
+                      </td>
+                    </template>
+                    <template if:false={isEditing}>
+                      <td><div>{ml.BusinessArea}</div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.ActualSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.currentFSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current1FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current2FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current3FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current4FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current5FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current6FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current7FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current8FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current9FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current10FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current11FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current12FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear"><lightning-formatted-number value={ml.rollingForecastCurrentYear}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearlySoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly1SoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly2SoldAmount}></lightning-formatted-number></div></td>
+                   </template>
+                  </tr>
+              </template>
+                <tr>
+                  <template if:false={isEditing}>
+                    <td> <div class=" fontweight leftText">{label.TotalDrawingGradesNetProceeds}</div></td>
+                    <template for:each={drawingnetProceedCalculation} for:item="columnName">
+                      <th key={columnName}><div style="text-align: right;" class=" slds-cell-wrap"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                    </template>
+                  </template>
+                  <template if:true={isEditing}>
+                    <td> <div class=" fontweight leftText">{label.TotalDrawingGradesNetProceeds}</div></td>
+                    <template for:each={drawingnetProceedCalculation} for:item="columnName">
+                      <th key={columnName}><div class="leftText slds-cell-wrap"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                    </template>
+                  </template>
+                </tr>
+                <template for:each={NetProceedBusinessArea} for:item="ml" for:index="index">
+                  <tr key={ml.index}>
+                    <template if:true={isEditing}>
+                      <td><div>{ml.BusinessArea}</div></td>
+                      <td class='tdText'><div class="slds-cell-wrap">{ml.ActualSoldAmount}</div></td>
+                      <td class='tdText'><div class="slds-cell-wrap">{ml.currentFSoldAmount}</div></td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current1FSoldAmount"  value={ml.current1FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number" data-index={index} name="current2FSoldAmount"  value={ml.current2FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current3FSoldAmount"  value={ml.current3FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td >
+                      <td class='tdText'><lightning-input class='rightInputText' step="any" type="number" data-index={index} name="current4FSoldAmount"  value={ml.current4FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current5FSoldAmount"  value={ml.current5FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current6FSoldAmount"  value={ml.current6FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current7FSoldAmount"  value={ml.current7FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current8FSoldAmount"  value={ml.current8FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current9FSoldAmount"  value={ml.current9FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current10FSoldAmount"  value={ml.current10FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current11FSoldAmount"  value={ml.current11FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="current12FSoldAmount"  value={ml.current12FSoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'><div style="text-align: left;">{ml.rollingForecastCurrentYear}</div></td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearlySoldAmount"  value={ml.yearlySoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly1SoldAmount"  value={ml.yearly1SoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                      <td class='tdText'>
+                        <lightning-input  class='rightInputText' step="any" type="number"  data-index={index} name="yearly2SoldAmount"  value={ml.yearly2SoldAmount} variant="label-hidden" onchange={handleNameNetPChange}></lightning-input>
+                      </td>
+                    </template>
+                    <template if:false={isEditing}>
+                      <td><div>{ml.BusinessArea}</div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.ActualSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.currentFSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current1FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current2FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current3FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current4FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current5FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current6FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current7FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current8FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current9FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current10FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current11FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightText" ><lightning-formatted-number value={ml.current12FSoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear"><lightning-formatted-number value={ml.rollingForecastCurrentYear}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearlySoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly1SoldAmount}></lightning-formatted-number></div></td>
+                      <td><div style="text-align: right;" class=" slds-cell-wrap rightTextYear" ><lightning-formatted-number value={ml.yearly2SoldAmount}></lightning-formatted-number></div></td>
+                   </template>
+                  </tr>
+              </template>
+                <tr>
+                  <template if:false={isEditing}>
+                    <td> <div class=" fontweightLabel leftText">{label.AverageNetProceeds}</div></td>
+                    <template for:each={netProceedCalculation} for:item="columnName">
+                      <th key={columnName}><div style="text-align: right;" class="slds-cell-wrap"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                    </template>
+                  </template>
+                  <template if:true={isEditing}>
+                    <td> <div class=" fontweightLabel leftText">{label.AverageNetProceeds}</div></td>
+                    <template for:each={netProceedCalculation} for:item="columnName">
+                      <th key={columnName}><div class="leftText slds-cell-wrap"><lightning-formatted-number value={columnName}></lightning-formatted-number></div></th>
+                    </template>
+                  </template>
+                   
+                </tr>
+            </tbody>
+          </table>
+          <!-- Modal/Popup Box Submitted starts here -->
+          <template if:true={isModalOpen}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="min-width: fit-content;">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeModal}>
+                            <lightning-icon icon-name="utility:close"
+                                alternative-text="close"
+                                variant="inverse"
+                                size="small" ></lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                    </header>
+                    <div class="wrapped-content slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                      <p><b>{label.MessageForSubmit} </b></p>
+                      <p><b>{label.SubmitPopupMsgForSF} </b></p>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={closeModal} title="Cancel">Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick={submitDetails} title="OK">OK</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+          </template>
+
+          <!-- Modal/Popup Box Rolled Up From Account Level starts here -->
+          <template if:true={isModalRollUpOpen}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="min-width: fit-content;">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={rOLLUPAccountcloseModal}>
+                            <lightning-icon icon-name="utility:close"
+                                alternative-text="close"
+                                variant="inverse"
+                                size="small" ></lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-2">
+                        <p><b>{label.RollUpPopupMsgForSF}
+                        </b></p>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={rOLLUPAccountcloseModal} title="Cancel">Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick={rOLLUPAccountsubmitDetails} title="OK">OK</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+          </template>
+
+ <!-- Modal/Popup Box Rolled Up Annual Planning starts here -->
+          <template if:true={isModalAnnualPlanOpen}>
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="min-width: fit-content;">
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={RollupAnnualPlanningcloseModal}>
+                            <lightning-icon icon-name="utility:close"
+                                alternative-text="close"
+                                variant="inverse"
+                                size="small" ></lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-3">
+                        <p><b>{label.RollAccountPlanPopupMsgForSF}
+                        </b></p>
+                    </div>
+                    <footer class="slds-modal__footer">
+                        <button class="slds-button slds-button_neutral" onclick={RollupAnnualPlanningcloseModal} title="Cancel">Cancel</button>
+                        <button class="slds-button slds-button_brand" onclick={submitRollupAnnualPlanningClick} title="OK">OK</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+          </template>
+
+          <!-- Modal/Popup Box Save Final Version starts here -->
+          <template if:true={showSaveFinalVersionModal}>
+            <!-- Modal/Popup Box LWC starts here -->
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-9" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container" style="min-width: fit-content;">
+                    <!-- Modal/Popup Box LWC header here -->
+                    <header class="slds-modal__header">
+                        <button class="slds-button slds-button_icon slds-modal__close slds-button_icon-inverse" title="Close" onclick={closeSaveFinalVersionModal}>
+                            <lightning-icon icon-name="utility:close"
+                                            alternative-text="close"
+                                            variant="inverse"
+                                            size="small" ></lightning-icon>
+                            <span class="slds-assistive-text">Close</span>
+                        </button>
+                        <h2 id="modal-heading-01" class="slds-text-heading_medium slds-hyphenate">Upload File</h2>
+                    </header>
+                    <!-- Modal/Popup Box LWC body starts here -->
+                   <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-9">
+                                <label for="file-name">Enter file name:</label>
+              <lightning-input type="text" value="" class="filenameEnter"></lightning-input>
+                            <template if:true={fileData}>
+                                <p>{fileData.filename}</p>
+                            </template>
+                    </div>
+                    <!-- Modal/Popup Box LWC footer starts here -->
+                    <footer class="slds-modal__footer">
+                      <button class="slds-button slds-button_brand" onclick={openfileUpload} title="Submit">Click to generate file</button>
+                        <button class="slds-button slds-button_brand" onclick={handleFileUpload} title="Submit">Upload</button>
+                        <button class="slds-button slds-button_neutral" onclick={closeSaveFinalVersionModal} title="Close">Close</button>
+                    </footer>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+        </lightning-layout>
+  </div>
+</lightning-card>
+  </div>
+</template>

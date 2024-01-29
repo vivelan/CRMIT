@@ -1,0 +1,172 @@
+<template>
+    <template lwc:if={usePricingTool}>
+    <lightning-layout>
+        <div class="c-container slds-p-around_medium">
+            <!--Loader-->
+            <div if:true={isLoading}>
+                <lightning-spinner
+                    alternative-text="Loading..." variant="brand" class="slds-is-fixed">
+                </lightning-spinner>
+            </div>
+            <!--Loader-->
+            <div class="slds-p-top_medium">
+                <lightning-layout class="slds-float_right">
+                    <lightning-layout-item class="slds-p-around_xx-small">
+                        <button class="slds-align_absolute-center button slds-button slds-button_neutral" style="height:35px;width:220px;font-size:15px;color:#FF9929;" title="ReRunProductFinder" disabled={ButtonReRundisable} onclick={handleReRunProductFinder}>{label.ReRunProductFinder}</button> 
+                    </lightning-layout-item>
+                    <lightning-layout-item class="slds-p-around_xx-small">
+                        <button class="slds-align_absolute-center button slds-button slds-button_neutral" style="height:35px;width:140px;font-size:15px;color:#FF9929;" title="CalculatePrice" disabled={Buttontrue} onclick={handleCalculatePrice}>{label.CalculatePrice}</button>
+                    </lightning-layout-item>
+                    <lightning-layout-item class="slds-p-around_xx-small">
+                        <button class="slds-align_absolute-center button1 slds-button slds-button_brand" style="height:35px;width:280px;font-size:15px" title="SaveFinalPrice" disabled={disabled} onclick={handleClickOnSave}>{label.SaveFinalPrice}</button>
+                    </lightning-layout-item>
+                </lightning-layout>
+            </div><br/>
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left slds-border_bottom slds-table_resizable-cols slds-table_fixed-layout slds-cell-wrap">
+                <thead>
+                    <tr>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="CoP">{label.CostOfProduction}</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="PriceLevel1">{label.PriceLevel}</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="PriceLevel2">{label.PriceLevel2CustomerProduct}</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="PriceLevel3">{label.PriceLevel3Region}</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="PriceLevel4">{label.PriceLevel4Leveling}</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="PriceLevel5">{label.PriceLevel5CompetitiveEnvironment}</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="OrientationPrice">{label.OrientationPrice}</div>
+                        </th>
+                        <th class="" scope="col">
+                            <div class="slds-truncate slds-cell-wrap header-text" title="FinalPrice">{label.FinalPrice}</div>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody style="height:50px">
+                    <template for:each={data} for:item="OLI">
+                        <tr key={OLI.Id}>
+                            <td><div class="slds-cell-wrap">€{OLI.costOfProduction}</div></td>
+                            <td><div class="slds-cell-wrap"><span if:true={OLI.priceLevel1}>{label.Euro}{OLI.priceLevel1}</span>
+                                <span if:false={OLI.priceLevel1}>{label.Euro}0</span></div>
+                            </td>
+                            <td><div class="slds-cell-wrap"><span if:true={OLI.priceLevel2}>{label.Euro}{OLI.priceLevel2}</span>
+                                <span if:false={OLI.priceLevel2}>{label.Euro}0</span></div>
+                            </td>
+                            <td><div class="slds-cell-wrap"><span if:true={OLI.priceLevel3}>{label.Euro}{OLI.priceLevel3}</span>
+                                <span if:false={OLI.priceLevel3}>{label.Euro}0</span></div>
+                            </td>
+                            <td><div class="slds-cell-wrap"><span if:true={OLI.priceLevel4}>{label.Euro}{OLI.priceLevel4}</span>
+                                <span if:false={OLI.priceLevel4}>{label.Euro}0</span></div>
+                            </td>
+                            <td><div class="slds-cell-wrap"><span if:true={OLI.priceLevel5}>{label.Euro}{OLI.priceLevel5}</span>
+                                <span if:false={OLI.priceLevel5}>{label.Euro}0</span></div>
+                            </td>
+                            <td><div class="slds-cell-wrap"><span if:true={OLI.orientationPrice}>{label.Euro}{OLI.orientationPrice}</span>
+                                <span if:false={OLI.orientationPrice}>{label.Euro}0</span></div>
+                            </td>
+                            <td class="body-text"><lightning-input class="slds-align_absolute-center" type="number" read-only={Buttontrue} value={FinalPrice} step="any" onchange={handleInputChange} message-when-bad-input="Please enter a valid Input" min="1" message-when-range-underflow="Please enter a valid Input"></lightning-input></td>
+                        </tr>
+                    </template>
+                </tbody>
+            </table>
+            <lightning-layout flexibility="auto" horizontal-align="spread">
+                <lightning-layout-item padding="around-small">
+                 {label.LastRefreshedDate} : {LastRefreshedDateVar}
+                </lightning-layout-item>
+                <lightning-layout-item padding="around-small">
+                 {label.LastSavedFinalPriceDate} : {LastSavedFinalPriceDateVar}
+                </lightning-layout-item>
+            </lightning-layout><br/><br/>
+            <br/><br/>
+            <template if:true={ismemberofGroup}>
+                <div class="slds-grid slds-gutters">
+                    <div class="slds-col slds-size_1-of-8">
+                        <span></span>
+                    </div>
+                    <div class="slds-col slds-size_5-of-8">
+                        <span>
+                            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left slds-table_resizable-cols slds-table_fixed-layout">
+                                <thead>
+                                    <tr>
+                                        <th class="" scope="col">
+                                            <div class="slds-truncate slds-cell-wrap header-text" title="MarginLevel1">{label.MarginLevel} 1</div>
+                                        </th>
+                                        <th class="" scope="col">
+                                            <div class="slds-truncate slds-cell-wrap header-text" title="MarginLevel2">{label.MarginLevel} 2</div>
+                                        </th>
+                                        <th class="" scope="col">
+                                            <div class="slds-truncate slds-cell-wrap header-text" title="MarginLevel3">{label.MarginLevel} 3</div>
+                                        </th>
+                                        <th class="" scope="col">
+                                        <div class="slds-truncate slds-cell-wrap header-text" title="MarginLevel4">{label.MarginLevel} 4</div>
+                                            </th>
+                                        <th class="" scope="col">
+                                                <div class="slds-truncate slds-cell-wrap header-text" title="MarginLevel5">{label.MarginLevel} 5</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody style="height:50px">
+                                    <template for:each={margindata} for:item="ml">
+                                        <tr key={ml}>
+                                            <td><div class="slds-cell-wrap"><span if:true={ml.MarginLevel1}>{label.Euro}{ml.MarginLevel1}</span>
+                                                <span if:false={ml.MarginLevel1}>{label.Euro}0</span></div>
+                                            </td>
+                                            <td><div class="slds-cell-wrap"><span if:true={ml.MarginLevel2}>{label.Euro}{ml.MarginLevel2}</span>
+                                                <span if:false={ml.MarginLevel2}>{label.Euro}0</span></div>
+                                            </td>
+                                            <td><div class="slds-cell-wrap"><span if:true={ml.MarginLevel3}>{label.Euro}{ml.MarginLevel3}</span>
+                                                <span if:false={ml.MarginLevel3}>{label.Euro}0</span></div>
+                                            </td>
+                                            <td><div class="slds-cell-wrap"><span if:true={ml.MarginLevel4}>{label.Euro}{ml.MarginLevel4}</span>
+                                                <span if:false={ml.MarginLevel4}>{label.Euro}0</span></div>
+                                            </td>
+                                            <td><div class="slds-cell-wrap"><span if:true={ml.MarginLevel5}>{label.Euro}{ml.MarginLevel5}</span>
+                                                <span if:false={ml.MarginLevel5}>{label.Euro}0</span></div>
+                                            </td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </span>
+                    </div>
+                    <div class="slds-col slds-size_1-of-8">
+                        <span></span>
+                    </div>
+                    <div class="slds-col slds-size_1-of-8 slds-float_right">
+                        <span>
+                            <table class="slds-table slds-table_cell-buffer slds-table_bordered slds-table_col-bordered slds-border_right slds-border_left slds-table_resizable-cols slds-table_fixed-layout">
+                                <thead>
+                                    <tr>
+                                        <th class="" scope="col">
+                                            <div class="slds-truncate slds-cell-wrap header-text" title="FinalMarginPrice">{label.FinalMarginPrice}</div>
+                                        </th> 
+                                    </tr>
+                                </thead>
+                                <tbody style="height:50px">
+                                    <template for:each={margindata} for:item="ml">
+                                        <tr key={ml}>
+                                            <td><div class="slds-cell-wrap" if:true={ml.FinalMarginPrice}>€{ml.FinalMarginPrice}</div></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </span>
+                    </div>
+                </div>
+            </template><br/><br/><br/><br/>
+        </div>
+    </lightning-layout>
+</template>
+<template lwc:else>
+    {label.ERROR_PRICING_TOOL_DEACTIVATED}
+</template>
+</template>

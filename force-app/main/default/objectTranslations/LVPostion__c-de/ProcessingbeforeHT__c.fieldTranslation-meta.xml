@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Bearbeitung vor Wärmebehandlung (St.28)</label>
+    <name>ProcessingbeforeHT__c</name>
+    <picklistValues>
+        <masterLabel>A</masterLabel>
+        <translation>A - Stab - Anlagenprüfung vor Wärmebehandlung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B</masterLabel>
+        <translation>B - Stab - Richten vor Anlagenprüfung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R</masterLabel>
+        <translation>R - Stab - Richten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S</masterLabel>
+        <translation>S - Stab- Richten vor Enden sägen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U</masterLabel>
+        <translation>U - Draht - Vorbeizen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

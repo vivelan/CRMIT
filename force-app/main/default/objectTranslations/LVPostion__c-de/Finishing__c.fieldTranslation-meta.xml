@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Endbearbeitung - Stab/Draht (St.45)</label>
+    <name>Finishing__c</name>
+    <picklistValues>
+        <masterLabel>A</masterLabel>
+        <translation>A - Stab - Korrosionsschutz (ölen)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>B</masterLabel>
+        <translation>B - Stab - Korrosionsschutz (ölen) + Umreifung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E</masterLabel>
+        <translation>E - Stab - Korrosionsschutz (ölen) + Stirnflächen ölen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I</masterLabel>
+        <translation>I - Stab - IVSAEG - Sägen an IVGA</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L</masterLabel>
+        <translation>L - Stab - Korrosionsschutz (schwach ölen)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation>M - Stab - Entmagnetisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>O</masterLabel>
+        <translation>O - Stab - Strahlen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R</masterLabel>
+        <translation>R - Draht - auf Anlauf stellen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T</masterLabel>
+        <translation>T - Stab - Teilen auf Kundenlänge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U</masterLabel>
+        <translation>U - Stab - Umreifung</translation>
+    </picklistValues>
+</CustomFieldTranslation>

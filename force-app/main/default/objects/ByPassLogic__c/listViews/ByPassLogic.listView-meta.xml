@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ByPassLogic</fullName>
+    <columns>SETUP_OWNER_NAME</columns>
+    <columns>SETUP_TYPE</columns>
+    <columns>NAME</columns>
+    <columns>ByPassApprovalProcess__c</columns>
+    <columns>ByPassFlow__c</columns>
+    <columns>ByPassTrigger__c</columns>
+    <columns>ByPassValidation__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>By Pass Logic</label>
+    <language>en_US</language>
+</ListView>

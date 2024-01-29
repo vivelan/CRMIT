@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Cost_of_Production_R_Levels</dataset>
+    <dimensions>
+        <field>material_no</field>
+        <isDerived>false</isDerived>
+        <label>Materialnummer</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Time Point 1</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Time Point 1</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Time Point 2</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Time Point 2</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Zeitpunkt 1</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Zeitpunkt 1</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Zeitpunkt 2</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Zeitpunkt 2</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Difference</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Difference</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Differenz</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Differenz</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Percentage Difference</field>
+        <formatCustomFormat>[&quot;#,###.00%&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Percentage Difference</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Prozentuale Differenz</field>
+        <formatCustomFormat>[&quot;#,###.00%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Prozentuale Differenz</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Contribution to Cost Change</field>
+        <formatCustomFormat>[&quot;#,###.00%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Contribution to Cost Change</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Beitrag zur Kostenänderung</field>
+        <formatCustomFormat>[&quot;#,###.00%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Beitrag zur Kostenänderung</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+</WaveXmd>

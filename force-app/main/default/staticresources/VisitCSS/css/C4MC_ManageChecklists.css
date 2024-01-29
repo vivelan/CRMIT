@@ -1,0 +1,91 @@
+.ac-addBtn button {
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-right: 0.2rem;
+    padding: 3px 25px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.ac-addBtn button:hover{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.ac-addBtn button:focus{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.ac-cancelBtn button {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 24px;
+    color:#080707;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.ac-cancelBtn button:hover {
+    background-color: #f1f1f1;
+    color:#080707;
+}
+
+.ac-tableHeader {
+	font-weight: bold !important;
+	background-color: #FBFBFB !important;
+}
+
+.ac-checkbox {
+	width: 3.25rem;
+}
+
+.checkbox-input-style{
+    margin-right: -15px;
+}
+
+.style-text{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+.table-scroll{
+    max-height: 410px;
+ }
+
+.carouselSpinner{
+    position: absolute;
+    left:0;
+    right:0;
+    opacity: 1;
+ }
+
+ .noRows-message{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+ }
+
+.table-scroll-auto{
+    overflow-x: scroll;
+    position: relative;
+}
+
+.ellipsis-text-small {
+    width: 200px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}
+
+.ellipsis-text-medium {
+    width: 280px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden
+}

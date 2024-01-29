@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Abteilung</label>
+    <name>Department__c</name>
+    <picklistValues>
+        <masterLabel>Board, Management</masterLabel>
+        <translation>Vorstand, Geschäftsführung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Construction, Calculation</masterLabel>
+        <translation>Konstruktion, Berechnung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Controlling, Accounting, Finance</masterLabel>
+        <translation>Controlling, Accounting, Finance</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation>IT</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maintenance</masterLabel>
+        <translation>Instandhaltung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marketing, Product Management</masterLabel>
+        <translation>Marketing, Produktmanagement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Metallurgy</masterLabel>
+        <translation>Metallurgie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Sonstiges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procurement, Material Economy</masterLabel>
+        <translation>Einkauf, Materialwirtschaft</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Production</masterLabel>
+        <translation>Produktion</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Project Management</masterLabel>
+        <translation>Projektmanagement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality Management</masterLabel>
+        <translation>Qualitätsmanagement</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Research &amp; Development</masterLabel>
+        <translation>Forschung &amp; Entwicklung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales</masterLabel>
+        <translation>Vertrieb</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transport, Dispatch</masterLabel>
+        <translation>Transport, Versand</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welding</masterLabel>
+        <translation>Schweißtechnik</translation>
+    </picklistValues>
+</CustomFieldTranslation>

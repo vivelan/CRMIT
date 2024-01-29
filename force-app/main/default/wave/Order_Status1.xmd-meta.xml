@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <measures>
+        <field>Order_Status_Table_1.Tonnage</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Order_Status_Table_1.Shipped Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Order_Status_Table_1.Order Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Order_Status1</waveVisualization>
+</WaveXmd>

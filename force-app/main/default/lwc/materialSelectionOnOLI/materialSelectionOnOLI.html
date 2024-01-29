@@ -1,0 +1,61 @@
+<template>
+    <template if:true={SearchScreen}>
+        <div>
+            <div class="wrap1" style="font-size: 13px;">
+                <b>{label.FinishedMaterialCriteria}</b>
+            </div>
+            <div class="wrap2">
+                <lightning-button-icon icon-name="utility:info" alternative-text="Help" title= {label.FinishedGoodsScreen1HelpText} size="small"></lightning-button-icon>
+            </div>
+        </div>
+    </template> 
+    <template if:false={SearchScreen}>
+        <div>
+            <div class="wrap1" style="font-size: 13px;">
+                <b>{label.FoundFinishedGoods}</b>
+            </div>
+            <div class="wrap2">
+                <lightning-button-icon icon-name="utility:info" alternative-text="Help" title= {label.FinsihedGoodsScreen2HelpText} size="small"></lightning-button-icon>
+            </div>
+        </div>
+            <div class="table-container">
+            <table class="slds-table slds-table_cell-buffer slds-table_bordered" id="tblData">
+                <thead>
+                  <tr class="slds-line-height_reset">
+                      <th class="slds-cell-wrap" scope="col">{Select}</th>
+                      <th class="slds-cell-wrap" scope="col">{FGSName}</th>
+                      <th class="slds-cell-wrap" scope="col">{FGSProduct}</th>
+                      <th class="slds-cell-wrap" scope="col">{FGSSteelGrade}</th>
+                      <th class="slds-cell-wrap" scope="col">{FGSDimensionA}</th>
+                      <th class="slds-cell-wrap" scope="col">{FGSDimensionB}</th>
+                   </tr>
+                </thead>
+                  <tbody>
+                    <template if:true={FGList}>
+                    <template for:each={FGList} for:item = "fg" for:index="index">       
+                           <tr key={fg.Id}>
+                             <td><input type="radio" name="SelectID" value={fg.Id} onchange={handleFinsihedGoodsSelection}></td>
+                             <td  style="text-align: left;">{fg.Name}</td>
+                             <td style="text-align: left;">{fg.Product__r.Name}</td>
+                             <td style="text-align: left;">{fg.SteelGradeLookup__r.Name}</td>
+                             <td style="text-align: left;">{fg.DimensionA__c}</td>
+                             <td style="text-align: left;">{fg.DimensionB__c}</td>
+                            </tr>
+                    </template>
+                </template>
+                    </tbody>
+            </table>
+        </div>
+        <lightning-layout horizontal-align="end">
+            <lightning-layout-item padding="around-small">
+                <lightning-button  label={label.CancelAbbrechenSearch} variant="brand" onclick={handleCancel}> </lightning-button>
+             </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+                <lightning-button  label={label.BackZurack} variant="brand" onclick={handleBack}> </lightning-button>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+               <lightning-button  label={label.SelectFinishedGoods} variant="brand" onclick={handleFGSelectionID} disabled={disabledBtn}> </lightning-button>
+            </lightning-layout-item>
+    </lightning-layout>  
+  </template>
+</template>

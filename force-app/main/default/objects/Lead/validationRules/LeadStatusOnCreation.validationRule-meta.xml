@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadStatusOnCreation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(  ISNEW() ,
+ NOT(ISPICKVAL( Status ,&apos;New&apos;)),
+ $Profile.Name &lt;&gt;&apos;Systemadministrator&apos;,
+ NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>A lead can only be created in status &quot;New&quot;.</errorMessage>
+</ValidationRule>

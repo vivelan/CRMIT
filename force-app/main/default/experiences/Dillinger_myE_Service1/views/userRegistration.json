@@ -1,0 +1,49 @@
+{
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "a9df04ae-b383-4ef5-b73b-1232307d3005",
+  "label" : "User Registration",
+  "regions" : [ {
+    "id" : "c4827087-495d-40ba-bac1-c85ff9d37542",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "flowArguments" : "[]",
+         "flowName" : "CommunityPortalRegistration"
+      },
+      "componentName" : "forceCommunity:flowCommunity",
+      "id" : "b1bf072b-c5db-4339-b744-e516580081fa",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6e868961-6e10-4991-ad34-507ffc0b998f",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "21eedc62-b7d0-4afd-80c1-694ac742ca93",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "User Registration"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "5604d0fe-d7e6-4e19-83fb-e375d5cf599d",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "b06039f2-f604-4f18-82af-08ef9de7bfd0",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-user-registration"
+}

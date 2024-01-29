@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Price Indication without quote Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Preisinformationen</label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label>Zuständigkeit und Bearbeitung</label>
+            <section>Responsibilities and Processing</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity with quote creations</layout>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Preisinformationen</label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label>Zuständigkeit und Bearbeitung</label>
+            <section>Responsibilities and Processing</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>System information section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label>Preisindikation ohne Angebot</label>
+        <name>PriceIndicationwithoutquote</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Anfrageerstellung mit Angebot</label>
+        <name>Opportunitywithquotecreations</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Da der Kunde deaktiviert ist, können keine neuen Opportunities erstellt werden.</errorMessage>
+        <name>Account_Deactivated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte setzen Sie den Schlusstermin der Opportunity auf einen Zeitpunkt innerhalb der nächsten 12 Monate.</errorMessage>
+        <name>CloseDateShouldNotBeGreaterThan12</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Datum für die &quot;Stichtag Kalkulation&quot; muss innerhalb von 12 Monaten seit der letzten Rohstoffaktualisierung liegen.</errorMessage>
+        <name>AppointedDayShouldNotBeGreaterThan12RMUD</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie können keine Opportunity für ein geblocktes Land erstellen.</errorMessage>
+        <name>ValidateOppCountry</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die Phase kann ausgehend von der Bearbeitung Qualitätswesen nur auf Neu oder Finale Überprüfung geändert werden.</errorMessage>
+        <name>ValidationOnOppStageBasedOnQualityProfil</name>
+       </validationRules>
+    <validationRules>
+        <errorMessage>Während der Bearbeitung durch das Qualitätswesen sind keine Änderungen möglich.</errorMessage>
+        <name>ValidationOnQualityCheckStage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte wählen Sie einen gültigen Verlustgrund aus.</errorMessage>
+        <name>ValidationOnClosedLostBeforeSendQuote</name>
+    </validationRules>
+   <validationRules>
+        <errorMessage>Bitte geben Sie einen Wert für die Produktgruppe GF ein, da das gewählte Geschäftsfeld Ziehgüten ist und einer weiteren Unterteilung bedarf.</errorMessage>
+        <name>ValidationForProductGroupBusinessArea</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Diese Anfrage befindet sich bereits im Status &quot;Geschlossen&quot;. Nur der Inhaber kann die Anfrage zurück auf &quot;Verhandlung&quot; setzen.</errorMessage>
+        <name>ValidationForClosedStage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Diese Anfrage befindet sich bereits im Status &quot;Geschlossen&quot;. Nur der Inhaber kann die Anfrage zurück auf &quot;Offen&quot; setzen.</errorMessage>
+        <name>ValidationForClosedStageOnLightOpty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Opportunities können nur gespeichert werden, wenn ein zugehöriger Account unter &quot;Account Name&quot; eingetragen wurde.</errorMessage>
+        <name>ValidateAccountName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Opportunities können nur in der Phase &quot;Neu&quot; oder &quot;Offen&quot; erstellt werden, um alle relevanten Informationen entlang des Workflows aus den Fachbereichen einholen zu können.</errorMessage>
+        <name>ValidationOnOppCreation</name>
+    </validationRules>
+	<validationRules>
+        <errorMessage>Da diese Opportunity im letzten Monat eines Quartals erstellt wurde und der Schlusstermin auf ein Datum innerhalb desselben Monats gesetzt wurde, wählen Sie bitte &quot;Monatlich&quot; als Zeitbezug Kalkulation.</errorMessage>
+        <name>ValidateCalculationTimePoint</name>
+    </validationRules>
+   <validationRules>
+        <errorMessage>Bitte füllen Sie alle nachfolgenden Felder aus: Opportunity Typ, Geschäftsfeld, Anfragedatum, Vertriebsweg, Währung und Typ.</errorMessage>
+        <name>ValidateMandatoryFieldsOnOpportunity</name>
+    </validationRules>
+   <validationRules>
+        <errorMessage>Bitte füllen Sie alle nachfolgenden Felder aus, um ein Angebot zu erstellen: Art des Geschäfts, Anfrage-Art, Geschäftsfeld, Sprache, Anfragedatum Kunde, Schlusstermin, alle Eingabefelder der Bereiche Zuständigkeit und Bearbeitung sowie Preisinformationen.</errorMessage>
+        <name>ValidationOnStageChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Der Account hat den Compliance Check nicht bestanden, daher ist die Funktion nicht verfügbar.</errorMessage>
+        <name>AccountComplianceCheck</name>
+    </validationRules>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Preise kalkulieren</label>
+        <name>CovertTechnicalRequirements</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Position hinzufügen</label>
+        <name>AddPosition</name>
+    </quickActions>
+</CustomObjectTranslation>

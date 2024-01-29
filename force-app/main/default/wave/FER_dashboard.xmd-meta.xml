@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>FER_dashboard</dataset>
+    <dimensions>
+        <field>Business_Area</field>
+        <isDerived>false</isDerived>
+        <label>Sparte</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Business_Area_Key</field>
+        <isDerived>false</isDerived>
+        <label>Sparte Schlüssel</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Name</field>
+        <isDerived>false</isDerived>
+        <label>Verbraucher</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Key</field>
+        <isDerived>false</isDerived>
+        <label>Verbraucher Schlüssel</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Country</field>
+        <isDerived>false</isDerived>
+        <label>Land</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product_Sub_Group</field>
+        <isDerived>false</isDerived>
+        <label>Produktgruppe GF</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product_Category</field>
+        <isDerived>false</isDerived>
+        <label>Produktkategorie GF</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product_Name</field>
+        <isDerived>false</isDerived>
+        <label>Produktgruppe</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product</field>
+        <isDerived>false</isDerived>
+        <label>Produkt</label>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product_Key</field>
+        <isDerived>false</isDerived>
+        <label>Produkt Schlüssel</label>
+        <sortIndex>9</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Heat_Treatment</field>
+        <isDerived>false</isDerived>
+        <label>FS(29-30): Wärmeb.</label>
+        <sortIndex>10</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Heat_Treatment_Key</field>
+        <isDerived>false</isDerived>
+        <label>FS(29-30): Wärmeb. Schlüssel</label>
+        <sortIndex>11</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Heat_Treatment_Flag</field>
+        <isDerived>false</isDerived>
+        <label>FS(29-30): Wärmeb. Ja/Nein</label>
+        <sortIndex>12</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Surface_Treatment</field>
+        <isDerived>false</isDerived>
+        <label>FS(31): RichtenStab</label>
+        <sortIndex>13</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Surface_Treatment_Key</field>
+        <isDerived>false</isDerived>
+        <label>FS(31): RichtenStab Schlüssel</label>
+        <sortIndex>14</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Surface_Treatment_Flag</field>
+        <isDerived>false</isDerived>
+        <label>FS(31): RichtenStab Ja/Nein</label>
+        <sortIndex>15</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Wire_Rod</field>
+        <isDerived>false</isDerived>
+        <label>FS(33): Schälen D/S</label>
+        <sortIndex>16</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Wire_Rod_Key</field>
+        <isDerived>false</isDerived>
+        <label>FS(33): Schälen D/S Schlüssel</label>
+        <sortIndex>17</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Wire_Rod_Flag</field>
+        <isDerived>false</isDerived>
+        <label>FS(33): Schälen D/S Ja/Nein</label>
+        <sortIndex>18</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Surface_Inspection</field>
+        <isDerived>false</isDerived>
+        <label>FS(38-39): Oberfl.</label>
+        <sortIndex>19</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Surface_Inspection_Key</field>
+        <isDerived>false</isDerived>
+        <label>FS(38-39): Oberfl. Schlüssel</label>
+        <sortIndex>20</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Surface_Inspection_Flag</field>
+        <isDerived>false</isDerived>
+        <label>FS(38-39): Oberfl. Ja/Nein</label>
+        <sortIndex>21</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Steel_Grade</field>
+        <isDerived>false</isDerived>
+        <label>Marke Werk</label>
+        <sortIndex>22</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Steel_Grade_Key</field>
+        <isDerived>false</isDerived>
+        <label>Marke Werk Schlüssel</label>
+        <sortIndex>23</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Steel_Grade</field>
+        <isDerived>false</isDerived>
+        <label>Kundenbestellmarke</label>
+        <sortIndex>24</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Steel_Grade_Key</field>
+        <isDerived>false</isDerived>
+        <label>Kundenbestellmarke Schlüssel</label>
+        <sortIndex>25</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Material_Number</field>
+        <isDerived>false</isDerived>
+        <label>Kundenmaterialnummer</label>
+        <sortIndex>26</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Rolling_Mill</field>
+        <isDerived>false</isDerived>
+        <label>Straße</label>
+        <sortIndex>27</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Dimension_A1</field>
+        <isDerived>false</isDerived>
+        <label>Abm. A (mm)</label>
+        <sortIndex>28</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Dimension_B1</field>
+        <isDerived>false</isDerived>
+        <label>Abm. B (mm)</label>
+        <sortIndex>29</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Material_Number_SAG</field>
+        <isDerived>false</isDerived>
+        <label>Materialnummer SAG</label>
+        <sortIndex>30</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>KOMPOLO</field>
+        <isDerived>false</isDerived>
+        <label>KOMPOLO</label>
+        <sortIndex>31</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Quality_Grade</field>
+        <isDerived>false</isDerived>
+        <label>Güteklasse</label>
+        <sortIndex>32</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Sales_Unit</field>
+        <isDerived>false</isDerived>
+        <label>Vertriebseinheit</label>
+        <sortIndex>33</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Quantity_t</field>
+        <isDerived>false</isDerived>
+        <label>Absatzmenge</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Sold Amount (t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Sold Amount (t)</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Net_Proceeds</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Nettoerlös</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Versand (t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Versand (t)</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>PE</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Produktergebnis</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Proceeds (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Proceeds (€)</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>USK_Marginal_Cost</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>USK Teilkosten</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettoerlös (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettoerlös (€)</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Contribution_Margin</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Deckungsbeitrag</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Proceeds (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Proceeds (€/t)</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Sales_Deductions</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Erlösschmälerungen</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettoerlös (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettoerlös (€/t)</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Freights_for_Sales</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Frachten f. Verkäufe</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Invoice (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Invoice (€)</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Net_Invoice</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Nettofakturenwert</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettofakturenwert (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettofakturenwert (€)</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>USK_Full_Cost</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>USK Vollkosten</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Invoice (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Invoice (€/t)</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Dimension_A</field>
+        <isDerived>false</isDerived>
+        <label>Abm. A (mm)</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettofakturenwert (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettofakturenwert (€/t)</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Dimension_B</field>
+        <isDerived>false</isDerived>
+        <label>Abm. B (mm)</label>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>Freights for Sales (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Freights for Sales (€)</label>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>Frachten f. Verkäufe (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Frachten f. Verkäufe (€)</label>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>Freights for Sales (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Freights for Sales (€/t)</label>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>Frachten f. Verkäufe (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Frachten f. Verkäufe (€/t)</label>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Full Cost (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Full Cost (€)</label>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Full Cost (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Full Cost (€/t)</label>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Vollkosten (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Vollkosten (€)</label>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Vollkosten (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Vollkosten (€/t)</label>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Marginal Cost (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Marginal Cost (€)</label>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Marginal Cost (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Marginal Cost (€/t)</label>
+        <sortIndex>19</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Teilkosten (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Teilkosten (€)</label>
+        <sortIndex>20</sortIndex>
+    </measures>
+    <measures>
+        <field>USK Teilkosten (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>USK Teilkosten (€/t)</label>
+        <sortIndex>21</sortIndex>
+    </measures>
+    <measures>
+        <field>Contribution Margin (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Contribution Margin (€)</label>
+        <sortIndex>22</sortIndex>
+    </measures>
+    <measures>
+        <field>Contribution Margin (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Contribution Margin (€/t)</label>
+        <sortIndex>23</sortIndex>
+    </measures>
+    <measures>
+        <field>Deckungsbeitrag (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Deckungsbeitrag (€)</label>
+        <sortIndex>24</sortIndex>
+    </measures>
+    <measures>
+        <field>Deckungsbeitrag (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Deckungsbeitrag (€/t)</label>
+        <sortIndex>25</sortIndex>
+    </measures>
+    <measures>
+        <field>Product Result (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Product Result (€)</label>
+        <sortIndex>26</sortIndex>
+    </measures>
+    <measures>
+        <field>Product Result (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Product Result (€/t)</label>
+        <sortIndex>27</sortIndex>
+    </measures>
+    <measures>
+        <field>Produktergebnis (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Produktergebnis (€)</label>
+        <sortIndex>28</sortIndex>
+    </measures>
+    <measures>
+        <field>Produktergebnis (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Produktergebnis (€/t)</label>
+        <sortIndex>29</sortIndex>
+    </measures>
+</WaveXmd>

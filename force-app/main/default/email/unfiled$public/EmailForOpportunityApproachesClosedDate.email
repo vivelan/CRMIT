@@ -1,0 +1,10 @@
+<messaging:emailTemplate subject="{!$Label.EmailSubjectForCloseDate}" recipientType="User" relatedToType="Opportunity" 
+language="{!relatedTo.Language__c}">
+<messaging:htmlEmailBody >
+<html>
+<body>
+{!$Label.YourOpportunityForEmailTemplate} <a href="{!LEFT($Api.Enterprise_Server_URL_450, FIND('/services',$Api.Enterprise_Server_URL_450))}/lightning/r/Opportunity/{!relatedTo.Id}/view">{!relatedTo.OpportunityNumber__c}</a> {!$Label.EmailTemplateBodyForCloseDate}
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

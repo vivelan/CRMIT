@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Net_Proceeds_Analysis</dataset>
+    <measures>
+        <field>PE (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>PE (€/t)</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>NE (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>NE (€/t)</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Sold Amount</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Sold Amount</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Versand (t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Versand (t)</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+</WaveXmd>

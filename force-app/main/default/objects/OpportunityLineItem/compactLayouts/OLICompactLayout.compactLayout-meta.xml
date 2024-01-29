@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OLICompactLayout</fullName>
+    <fields>Position__c</fields>
+    <fields>Product2Id</fields>
+    <fields>CustomerSteelGrade__c</fields>
+    <fields>DimensionAFrom__c</fields>
+    <fields>DimensionATo__c</fields>
+    <fields>DimensionB__c</fields>
+    <fields>Status__c</fields>
+    <label>OLI Compact Layout</label>
+</CompactLayout>

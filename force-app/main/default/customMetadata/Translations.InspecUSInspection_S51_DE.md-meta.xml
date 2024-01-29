@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>InspecUSInspection_S51_DE</label>
+    <protected>false</protected>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">DE</value>
+    </values>
+    <values>
+        <field>PositionFieldValue__c</field>
+        <value xsi:type="xsd:string">InspecUSInspection_S51</value>
+    </values>
+    <values>
+        <field>Position__c</field>
+        <value xsi:type="xsd:string">InspecUSInspection</value>
+    </values>
+    <values>
+        <field>TranslatedValue__c</field>
+        <value xsi:type="xsd:string">S51 - Stabstahlprüfung: Anlagenprüfung, Kernfehler mit 5,0 AVG</value>
+    </values>
+    <values>
+        <field>TranslationNumber__c</field>
+        <value xsi:type="xsd:double">25.0</value>
+    </values>
+</CustomMetadata>

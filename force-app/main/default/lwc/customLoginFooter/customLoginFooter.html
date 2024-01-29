@@ -1,0 +1,40 @@
+<!-- customLoginFooter.html -->
+<template>
+    <div class="slds-grid slds-gutters">
+        <div class="slds-col footer footer-content footer-column" style="padding-left: 17px">
+            <p> <img src={DHLogoUrl} alt="Dillinger Logo" /></p>
+            <br>
+            <p>
+                {label.CustomLoginFooter1}
+            </p>
+            <br>
+            <p>{label.CustomLoginFooter2}</p>
+        </div>
+        <div class="slds-col footer footer-content footer-column">
+            <p style="font-weight: bold; font-size: 15px;">{label.ContactDHLabel}</p>
+            <br>
+            <p>
+                {label.Address1}<br />
+                {label.Address2}<br />
+                {label.Address3}<br />
+                <br>
+                {label.Address4}<br />
+                {label.Address5}<br />
+                {label.Address6} <b>{label.Address7}</b><br />
+                <br>
+                <a href={customLink1} target="_blank" style="color:#fff; font-weight:bold">{label.CustomLoginFooter3}</a> |
+                &nbsp;<a href={customLink2} target="_blank" style="color:#fff; font-weight:bold">{label.CustomLoginFooter4}</a> |
+                &nbsp;<a href={customLink3} target="_blank" style="color:#fff; font-weight:bold">{label.CustomLoginFooter5}</a>
+            </p>
+        </div>
+        <div class="slds-col footer footer-content footer-column">
+            <p style="font-weight: bold; font-size: 15px;">news@dillinger</p>
+            <br>
+            <p>
+                {label.CustomLoginFooter6}
+                <br /><br />
+                <a href="http://marketing.dillinger.de/LP=203" target="_blank" style="color:#fff; font-weight:bold">{label.CustomLoginFooter7}</a>
+            </p>
+        </div>
+      </div>
+</template>

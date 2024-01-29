@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Verpackung</label>
+    <name>PackagingSales__c</name>
+    <picklistValues>
+        <masterLabel>02- Packed seaworthy</masterLabel>
+        <translation>02- Seemäßig verpackt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04 - In plastic tubular film (SAG)</masterLabel>
+        <translation>04 - In Plastikschlauchfolie (SAG)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>06 - Wrapped in oiled paper</masterLabel>
+        <translation>06 - In Ölpapier verpackt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08 - Wrapped in jute</masterLabel>
+        <translation>08 - In Jute verpackt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 - Wrapped in oiled paper and jute</masterLabel>
+        <translation>10 - In Ölpapier und Jute verpackt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 - Cont. Lined with foil</masterLabel>
+        <translation>12 - Cont. Mit Folie ausgeschlagen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14 - BU Type 2 VPM standard</masterLabel>
+        <translation>14 - BU-Typ 2 VPM-Standard</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15 - BU-Type 3 VCI+tubular film</masterLabel>
+        <translation>15 - BU-Typ 3 VCI+Schlauchfolie</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16 - Jute underlay</masterLabel>
+        <translation>16 - Jute Unterlegung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>17 - VCI Packing (Only)</masterLabel>
+        <translation>17 - VCI-Verpackung (Alleinige)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>18 - Boxed</masterLabel>
+        <translation>18 - In Kisten verpackt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20 - Container Shipping</masterLabel>
+        <translation>20 - Containerversand</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>23 - Type 4 fabric tube padded</masterLabel>
+        <translation>23 - Typ 4 Gewebschlauch wattiert</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25 - BU type 5 VCI+fabric padded</masterLabel>
+        <translation>25 - BU-Typ 5 VCI+Gewebe wattiert</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30 - Packing externally at the port</masterLabel>
+        <translation>30 - Verpackung extern im Hafen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>32 - Type 6 fabric hose puller</masterLabel>
+        <translation>32 - Typ 6 Gewebeschlauch Zuzieher</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>34 - BU-TYPE 7 VCI+fabric puller</masterLabel>
+        <translation>34 - BU-TYP 7 VCI+Gewebe Zuzieher</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>36 - Type 8 air freight/ general cargo</masterLabel>
+        <translation>36 - Typ 8 Luftfracht/ Stückgut</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>38 - Type 9 key fol.+thread. migrant</masterLabel>
+        <translation>38 - Typ 9 Schl.-Fol.+Gew. Zuzieher</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40 - BU Type 10 VPM 2X Armor VCI</masterLabel>
+        <translation>40 - BU-Typ 10 VPM 2X Armour VCI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>42 - BU Type 11 VPM Armour+Net VCI</masterLabel>
+        <translation>42 - BU-Typ 11 VPM Armour+Netz VCI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>44 - Combination pack. 14 and 30</masterLabel>
+        <translation>44 - Kombination Verpack. 14 und 30</translation>
+    </picklistValues>
+</CustomFieldTranslation>

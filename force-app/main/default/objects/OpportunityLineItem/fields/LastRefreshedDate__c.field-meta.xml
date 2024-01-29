@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LastRefreshedDate__c</fullName>
+    <description>Populated every time CoP is fetched from Heroku</description>
+    <externalId>false</externalId>
+    <label>Last Refreshed Date</label>
+    <required>false</required>
+    <type>DateTime</type>
+</CustomField>

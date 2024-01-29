@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ManageInternalAttendees__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>This field should be set as TRUE if the the Manage Internal Attendees functionality should be available to users.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Manage Internal Attendees</label>
+    <type>Checkbox</type>
+</CustomField>

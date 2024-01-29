@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>fr4</label>
+    <protected>false</protected>
+    <values>
+        <field>ContentText__c</field>
+        <value xsi:type="xsd:string">La norme EN 10221 a été remplacée par la norme EN ISO 9443:2018. Confirmation de la classe de qualité de surface E avec ø &lt; 10,0 mm: max. 0,10 mm; 10,0 mm &lt; ø &lt; ø &lt; 20,0 mm: max. 1% de diamètre; ø &gt; 20,0 mm: max. 0,20 mm; Dans le cas du fil machine non testé, les exigences spécifiées dans la norme ISO 9443 pour la quantité maximale admissible de pièces (z) des produits défectueux ne peuvent être appliquées.</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">FR</value>
+    </values>
+    <values>
+        <field>PicklistValue__c</field>
+        <value xsi:type="xsd:string">Surface according to EN ISO 9443</value>
+    </values>
+</CustomMetadata>

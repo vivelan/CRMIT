@@ -1,0 +1,76 @@
+.GreyOut-po
+{
+    opacity: 0.4;
+    background:#ECEBEA;
+}
+
+.mainTable {
+    position: absolute; 
+    margin-top: 2.5%;
+}
+
+.hide-column {
+    display: none !important;
+}
+
+.center-align {
+    text-align: -webkit-center;
+}
+
+.generate-buttons {
+    margin-top: -80px; 
+    position: absolute; 
+    width:100%; 
+    text-align:center;
+}
+
+.filter-button {
+    float: left;
+}
+
+.edit-button {
+    float: right;
+}
+
+.amount-div {
+    margin-top: -105px;
+}
+
+.hide-po {
+    display: none !important;
+}
+
+.modalTitle-po {
+    padding-top: 7px; 
+    padding-bottom: 4px; 
+    padding-right: 9px; 
+    padding-left: 10px;
+}
+
+.modalPosition {
+    width: 0rem; 
+    margin-top: -15%;
+}
+
+.modalButtons {
+    padding-top: 4px; 
+    padding-bottom: 4px;
+}
+
+.totalAmt {
+    margin-left:-34px;
+}
+
+.centerInput {
+    text-align: -webkit-center;
+}
+
+.editButtons {
+    text-align: center; 
+    margin-top: 15px;
+}
+
+.noScheduleText { 
+    text-align: center; 
+    margin-top: 10px;
+}

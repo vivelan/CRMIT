@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FooterColumn1DE</label>
+    <protected>false</protected>
+    <values>
+        <field>Content__c</field>
+        <value xsi:type="xsd:string">Saarstahl Aktiengesellschaft;Bismarckstraße 57-59;SALADE55XXX;66333 Völklingen;DEUTDE5M555;Postadresse:;66330 Völklingen;Telefone: + 49(0)6898-10-0;Telefax: + 49(0)6898-10-4001;</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,45 @@
+.c4mc-view-completed-milestones-table-container {
+  margin-top: 16px;
+  height: 245px;
+  overflow-y: auto;
+}
+
+.c4mc-view-completed-milestones-head-style {
+  height: 32px;
+  background-color: #fbfbfb;
+}
+
+.c4mc-view-completed-milestones-th-table-border-right {
+  border-right: 1px solid gray;
+}
+
+.c4mc-view-completed-milestones-th-table-border-left {
+  border-left: 1px solid gray;
+}
+
+.c4mc-view-completed-milestones-milestone-name {
+  height: 32px;
+  color: #000;
+  background: transparent;
+  border-width: 0;
+}
+
+.c4mc-view-completed-milestone-health-text {
+  display: inline-block;
+  width: 74px;
+}
+
+.c4mc-view-completed-milestones-spinner-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+
+.c4mc-view-completed-milestones-style-no-milestones {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-size: medium;
+}

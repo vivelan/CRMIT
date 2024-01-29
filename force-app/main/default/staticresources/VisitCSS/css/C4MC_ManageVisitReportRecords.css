@@ -1,0 +1,43 @@
+.title-text{
+    font-weight: bold;
+}
+
+.details-text{
+    font-size: 11px;
+}
+
+.tile-grid{
+    border-radius: 4px;
+    background-color:  #FBFBFB;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    border: solid 1px #dddbda;
+    height: 4rem;
+    padding-left: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.container-grid{
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+}
+
+.slds-tile-style{
+    padding-right: 0.3rem;
+    padding-left: 0.3rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.details-text{
+    padding-right: 0.5rem;
+}
+
+.CenteredButton {
+    width: 98%; 
+    position: absolute; 
+    text-align: center;
+    bottom: 5px;
+}

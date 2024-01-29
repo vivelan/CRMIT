@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Bitte geben Sie nähere Informationen zur Werksbesichtigung an (z.B. Datum, Uhrzeit, Werksführer, ...).</help>
+    <label>Informationen zur Werksbesichtigung</label>
+    <name>InformationforMillTour__c</name>
+</CustomFieldTranslation>

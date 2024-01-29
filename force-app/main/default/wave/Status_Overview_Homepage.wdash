@@ -1,0 +1,2314 @@
+{
+    "dataSourceLinksInfo": {
+        "enableAutomaticLinking": true,
+        "excludeRelationships": [],
+        "links": []
+    },
+    "filters": [],
+    "gridLayouts": [
+        {
+            "name": "Default",
+            "numColumns": 12,
+            "pages": [
+                {
+                    "label": "Untitled",
+                    "name": "6c735148-4300-4a90-bfed-237e41beb02b",
+                    "navigationHidden": false,
+                    "widgets": [
+                        {
+                            "colspan": 8,
+                            "column": 0,
+                            "name": "text_1",
+                            "row": 0,
+                            "rowspan": 8,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 10,
+                            "name": "text_2",
+                            "row": 2,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 7,
+                            "name": "number_1",
+                            "row": 11,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#0A183D",
+                                "borderColor": "#0A183D",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 2,
+                            "name": "number_2",
+                            "row": 11,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#0A183D",
+                                "borderColor": "#747474",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 12,
+                            "column": 0,
+                            "name": "container_1",
+                            "row": 16,
+                            "rowspan": 61,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_3",
+                            "row": 17,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 0,
+                            "name": "text_4",
+                            "row": 20,
+                            "rowspan": 2,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 6,
+                            "name": "text_5",
+                            "row": 20,
+                            "rowspan": 2,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 0,
+                            "name": "text_6",
+                            "row": 49,
+                            "rowspan": 2,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#747474",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 6,
+                            "name": "text_8",
+                            "row": 49,
+                            "rowspan": 2,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#747474",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_9",
+                            "row": 46,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#747474",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 12,
+                            "column": 0,
+                            "name": "container_2",
+                            "row": 0,
+                            "rowspan": 9,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 12,
+                            "column": 0,
+                            "name": "container_3",
+                            "row": 10,
+                            "rowspan": 6,
+                            "widgetStyle": {
+                                "backgroundColor": "#0A183D",
+                                "borderColor": "#747474",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 6,
+                            "name": "listselector_2",
+                            "row": 45,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#747474",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 0,
+                            "name": "chart_4",
+                            "row": 23,
+                            "rowspan": 21,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 6,
+                            "name": "chart_7",
+                            "row": 23,
+                            "rowspan": 21,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 0,
+                            "name": "chart_1",
+                            "row": 51,
+                            "rowspan": 24,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 6,
+                            "name": "chart_2",
+                            "row": 51,
+                            "rowspan": 25,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rowHeight": "fine",
+            "selectors": [],
+            "style": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "backgroundColor": "#F2F6FA",
+                "cellSpacingX": 8,
+                "cellSpacingY": 0,
+                "fit": "original",
+                "gutterColor": "#C5D3E0"
+            },
+            "version": 1
+        }
+    ],
+    "layouts": [],
+    "steps": {
+        "Order_Overview_By_To_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Order Overview By Tonnage",
+            "numbers": [],
+            "query": "q = load \"Position_Status\";\nq = filter q by 'is_project_complete' == \"false\";\nq = group q by order_number;\nquantity_delivered = foreach q generate order_number as order_number, \"2.{{cell(lens_1.result, 0, \"Legend_Tonnage_Delivered\").asString()}}\" as category, sum(dispatched_tonnage) as 'Quantity', (sum(ordered_tonnage) - sum (dispatched_tonnage)) as Receivable_Sort;\nquantity_deliverable = foreach q generate order_number as order_number, \"1.{{cell(lens_1.result, 0, \"Legend_Tonnage_Receivable\").asString()}}\" as category, sum(ordered_tonnage) - sum(dispatched_tonnage) as 'Quantity', (sum(ordered_tonnage) - sum (dispatched_tonnage)) as Receivable_Sort;\n\ns = union quantity_delivered, quantity_deliverable;\ns = group s by (order_number, category);\ns = group s by (order_number, category);\ns = foreach s generate order_number as '{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}', category as '{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}', sum(Quantity) as '{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}', sum (Receivable_Sort) as Receivable_Sort;\ns = order s by Receivable_Sort desc;\ns = limit s 10;\n",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "totalSumMode": "none",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                                ],
+                                "showNullValues": true,
+                                "customizeLegend": true,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": [
+                                    "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}",
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                                ]
+                            }
+                        }
+                    },
+                    "visualizationType": "stackhbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "columnMap": {
+                        "split": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                        ],
+                        "trellis": [],
+                        "dimensionAxis": [
+                            "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}"
+                        ],
+                        "plots": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                        ]
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "none",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": false,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_User_Loale_For_T_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get User Loale For Translation",
+            "numbers": [],
+            "query": "q = load \"Flat_Translation\";\nq = foreach q generate \"{{cell(Get_User_Locale_and__1.result, 0, \"LanguageLocaleKey\").asString()}}\" as User_Locale_Check;\nq = foreach q generate User_Locale_Check as User_Locale_Check,\n(case\n    when User_Locale_Check in [\"en_US\", \"de\"] then User_Locale_Check\n    else \"en_US\"\nend) as LanguageLocaleKey;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Rolled_Since_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Rolled_Since",
+            "numbers": [],
+            "query": "q = load \"Position_Status\";\nq = group q by all;\n-- Filters all documents that have been uploaded more recently than the last time the user had login. The formulas are to transform the date from Salesforce to an epoch format\nq = filter q by loading_time_sec_epoch > {{cell(Get_User_Locale_and__1.result, 0, \"PenultimateLogin__c\").asString()}};\nq = foreach q generate sum(rolled) as 'Rolled since last login';\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_User_Locale_and__1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get User Locale and Penultimate Login",
+            "numbers": [],
+            "query": "q = load \"Users\";\nq = filter q by Id == \"!{User.Id}\";\nq = foreach q generate Id as Id, FirstName as FirstName, LastName as LastName, Username as Username, LanguageLocaleKey as LanguageLocaleKey, PenultimateLogin__c_sec_epoch as PenultimateLogin__c, toDate(PenultimateLogin__c_sec_epoch) as 'Last Login Date Time', date_to_string(toDate(PenultimateLogin__c_sec_epoch), \"dd/MM/yyyy\") as 'Last Login';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Orders_Overview_By_N_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Orders Overview By Number",
+            "numbers": [],
+            "query": "q = load \"Position_Status\";\nq = filter q by 'is_project_complete' == \"false\";\nq = group q by order_number;\nquantity_delivered = foreach q generate order_number as order_number, \"2.{{cell(lens_1.result, 0, \"Legend_Quantity_Delivered\").asString()}}\" as category, sum(dispatched) as 'Quantity', (sum(ordered) - sum (dispatched)) as Receivable_Sort;\nquantity_deliverable = foreach q generate order_number as order_number, \"1.{{cell(lens_1.result, 0, \"Legend_Quantity_Receivable\").asString()}}\" as category, (sum(ordered) - sum(dispatched))  as 'Quantity', (sum(ordered) - sum (dispatched)) as Receivable_Sort;\n\ns = union quantity_delivered, quantity_deliverable;\ns = group s by (order_number, category);\ns = foreach s generate order_number as '{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}', category as '{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}', sum(Quantity) as '{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}', sum (Receivable_Sort) as Receivable_Sort;\ns = order s by Receivable_Sort desc;\ns = limit s 10;\n",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "totalSumMode": "none",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                                ],
+                                "showNullValues": true,
+                                "customizeLegend": true,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": [
+                                    "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}",
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                                ]
+                            }
+                        }
+                    },
+                    "visualizationType": "stackhbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "columnMap": {
+                        "split": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                        ],
+                        "trellis": [],
+                        "dimensionAxis": [
+                            "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}"
+                        ],
+                        "plots": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                        ]
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "none",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": false,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Project_Filter_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Project Filter",
+            "numbers": [],
+            "query": "q = load \"Position_Status\";\nq = filter q by 'is_project_complete' == \"false\";\nq = group q by project_longname;\nq = foreach q generate project_longname as project_longname;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "lens_5": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Project Overview By Number",
+            "numbers": [],
+            "query": "q = load \"Position_Status\";\nq = filter q by 'is_project_complete' == \"false\";\nq = group q by project_id;\nquantity_receivable = foreach q generate project_id as project_id, \"1.{{cell(lens_1.result, 0, \"Legend_Quantity_Receivable\").asString()}}\" as category, ((sum(ordered) - sum(dispatched)) / sum(ordered)) * 100 as 'Quantity', (sum(ordered) - sum(dispatched)) as Receivable_Sort, (sum(ordered) - sum(dispatched)) as 'Abs_Qty';\nquantity_delivered = foreach q generate project_id as project_id, \"2.{{cell(lens_1.result, 0, \"Legend_Quantity_Delivered\").asString()}}\" as category, (sum(dispatched) / sum(ordered)) * 100 as 'Quantity', (sum(ordered) - sum(dispatched)) as Receivable_Sort, sum(dispatched) as 'Abs_Qty';\n\ns = union quantity_receivable, quantity_delivered;\ns = group s by (project_id, category);\ns = foreach s generate project_id as '{{cell(lens_1.result, 0, \"Field_Project\").asString()}}', category as '{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}', sum(Quantity) as '{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}', sum (Receivable_Sort) as Receivable_Sort, sum(Abs_Qty) as '{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}';\ns = order s by (Receivable_Sort desc, '{{cell(lens_1.result, 0, \"Field_Project\").asString()}}', '{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}', '{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}' desc);\n\ns = limit s 10;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "totalSumMode": "none",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}",
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                                ],
+                                "showNullValues": true,
+                                "customizeLegend": true,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": [
+                                    "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}",
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                                ]
+                            }
+                        }
+                    },
+                    "visualizationType": "stackhbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "columnMap": {
+                        "split": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                        ],
+                        "trellis": [],
+                        "dimensionAxis": [
+                            "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}"
+                        ],
+                        "plots": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}"
+                        ]
+                    },
+                    "showActionMenu": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "none",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": false,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Project_Overview_By__1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Project Overview By Tonnage",
+            "numbers": [],
+            "query": "q = load \"Position_Status\";\nq = filter q by 'is_project_complete' == \"false\";\nq = group q by project_id;\nquantity_receivable = foreach q generate project_id as project_id, \"1.{{cell(lens_1.result, 0, \"Legend_Tonnage_Receivable\").asString()}}\" as category, (sum(ordered_tonnage) - sum(dispatched_tonnage)) / sum(ordered_tonnage) * 100 as 'Quantity', (sum(ordered_tonnage) - sum(dispatched_tonnage)) as Receivable_Sort, (sum(ordered_tonnage) - sum(dispatched_tonnage)) as 'Abs_Qty_Tonnage';\n\nquantity_delivered = foreach q generate project_id as project_id, \"2.{{cell(lens_1.result, 0, \"Legend_Tonnage_Delivered\").asString()}}\" as category, sum(dispatched_tonnage) / sum(ordered_tonnage) * 100 as 'Quantity', (sum(ordered_tonnage) - sum(dispatched_tonnage)) as Receivable_Sort, sum(dispatched_tonnage) as 'Abs_Qty_Tonnage';\n\ns = union quantity_receivable, quantity_delivered;\n\ns = group s by (project_id, category);\ns = foreach s generate project_id as '{{cell(lens_1.result, 0, \"Field_Project\").asString()}}', category as '{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}', sum(Quantity) as '{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}', sum (Receivable_Sort) as Receivable_Sort, sum(Abs_Qty_Tonnage) as 'Tonnage';\ns = order s by (Receivable_Sort desc, '{{cell(lens_1.result, 0, \"Field_Project\").asString()}}', '{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}');\ns = limit s 10;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "none",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": false,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "totalSumMode": "none",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}",
+                                    "Tonnage"
+                                ],
+                                "showNullValues": true,
+                                "customizeLegend": true,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": [
+                                    "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}",
+                                    "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                                ]
+                            }
+                        }
+                    },
+                    "visualizationType": "stackhbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "columnMap": {
+                        "split": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                        ],
+                        "trellis": [],
+                        "dimensionAxis": [
+                            "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}"
+                        ],
+                        "plots": [
+                            "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}"
+                        ]
+                    },
+                    "showActionMenu": false,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "none",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": false,
+                        "showAxis": false,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "normalize": false,
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": false,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "lens_3": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Delivered_Since",
+            "numbers": [],
+            "query": "q = load \"Position_Status\";\nq = group q by all;\n-- Filters all documents that have been uploaded more recently than the last time the user had login. The formulas are to transform the date from Salesforce to an epoch format\nq = filter q by loading_time_sec_epoch > {{cell(Get_User_Locale_and__1.result, 0, \"PenultimateLogin__c\").asString()}};\nq = foreach q generate sum(dispatched) as 'Delivered since last login';\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "lens_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get Translation",
+            "numbers": [],
+            "query": "q = load \"Flat_Translation\";\nq = filter q by {{cell(Get_User_Loale_For_T_1.result, 0, \"LanguageLocaleKey\").asEquality(\"Language\")}};\nq = foreach q generate q.'Title_Welcome_Message_Homepage' as 'Title_Welcome_Message_Homepage', q.'Title_Last_Login' as 'Title_Last_Login', q.'Title_Rolled_Since' as 'Title_Rolled_Since', q.'Title_Delivered_Since' as 'Title_Delivered_Since', q.'Title_Project_Overview' as 'Title_Project_Overview', q.'Title_Bar_Chart1_Homepage' as 'Title_Bar_Chart1_Homepage', q.'Title_Bar_Chart2_Homepage' as 'Title_Bar_Chart2_Homepage', q.'Legend_Quantity_Receivable' as 'Legend_Quantity_Receivable', q.'Legend_Quantity_Delivered' as 'Legend_Quantity_Delivered', q.'Legend_Tonnage_Receivable' as 'Legend_Tonnage_Receivable', q.'Legend_Tonnage_Delivered' as 'Legend_Tonnage_Delivered', q.'Title_Order_Overview' as 'Title_Order_Overview', q.'Tooltip_Category' as 'Tooltip_Category',q.'Tooltip_Quantity' as 'Tooltip_Quantity', q.'Tooltip_Abs_Qty' as 'Tooltip_Abs_Qty', q.'Field_Project' as 'Field_Project', q.'Field_Order_Number' as 'Field_Order_Number';\nq = limit q 100;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        }
+    },
+    "widgetStyle": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#747474",
+        "borderEdges": [],
+        "borderRadius": 0,
+        "borderWidth": 1
+    },
+    "widgets": {
+        "listselector_2": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#747474",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "showActionMenu": true,
+                "step": "Project_Filter_1",
+                "title": "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "text_1": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "18px",
+                                "color": "#091a3e",
+                                "bold": true
+                            },
+                            "insert": "Dashboard"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n\n"
+                        },
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Title_Welcome_Messag]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Welcome_Messag": {
+                            "field": "Title_Welcome_Message_Homepage",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "number_2": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": true,
+                "measureField": "Rolled since last login",
+                "noResultsLabel": "0",
+                "numberColor": "#FFFFFF",
+                "numberSize": 24,
+                "showActionMenu": false,
+                "step": "Rolled_Since_1",
+                "textAlignment": "left",
+                "title": "{{cell(lens_1.result, 0, \"Title_Rolled_Since\").asString()}}",
+                "titleColor": "#FFFFFF",
+                "titleSize": 18,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "container_1": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "number_1": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": true,
+                "measureField": "Delivered since last login",
+                "noResultsLabel": "0",
+                "numberColor": "#FFFFFF",
+                "numberSize": 24,
+                "showActionMenu": false,
+                "step": "lens_3",
+                "textAlignment": "left",
+                "title": "{{cell(lens_1.result, 0, \"Title_Delivered_Since\").asString()}}",
+                "titleColor": "#FFFFFF",
+                "titleSize": 18,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "container_2": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_3": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "text_3": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Title_Project_Overvi]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Project_Overvi": {
+                            "field": "Title_Project_Overview",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_2": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Title_Last_Login]: [Last_Login]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Last_Login": {
+                            "field": "Last Login",
+                            "sourceType": "result",
+                            "step": "Get_User_Locale_and__1"
+                        },
+                        "Title_Last_Login": {
+                            "field": "Title_Last_Login",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_5": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "14px",
+                                "bold": true
+                            },
+                            "insert": "[Title_Bar_Chart2_Hom]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Bar_Chart2_Hom": {
+                            "field": "Title_Bar_Chart2_Homepage",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_4": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "14px",
+                                "bold": true
+                            },
+                            "insert": "[Title_Bar_Chart1_Hom]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Bar_Chart1_Hom": {
+                            "field": "Title_Bar_Chart1_Homepage",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "chart_7": {
+            "parameters": {
+                "autoFitMode": "none",
+                "bins": {
+                    "breakpoints": {
+                        "high": 100,
+                        "low": 0
+                    },
+                    "bands": {
+                        "high": {
+                            "color": "#008000",
+                            "label": ""
+                        },
+                        "low": {
+                            "color": "#B22222",
+                            "label": ""
+                        },
+                        "medium": {
+                            "color": "#ffa500",
+                            "label": ""
+                        }
+                    }
+                },
+                "legend": {
+                    "descOrder": false,
+                    "showHeader": false,
+                    "show": true,
+                    "customSize": "auto",
+                    "position": "right-top",
+                    "inside": false
+                },
+                "axisMode": "sync",
+                "totalSumMode": "none",
+                "tooltip": {
+                    "content": {
+                        "legend": {
+                            "showBinLabel": true,
+                            "measures": [
+                                "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}",
+                                "Tonnage"
+                            ],
+                            "showNullValues": true,
+                            "customizeLegend": true,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "dimensions": [
+                                "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}",
+                                "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                            ]
+                        }
+                    }
+                },
+                "visualizationType": "stackhbar",
+                "exploreLink": true,
+                "title": {
+                    "fontSize": 14,
+                    "subtitleFontSize": 11,
+                    "label": "",
+                    "align": "center",
+                    "subtitleLabel": ""
+                },
+                "binValues": false,
+                "trellis": {
+                    "flipLabels": false,
+                    "showGridLines": true,
+                    "size": [
+                        100,
+                        100
+                    ],
+                    "enable": false,
+                    "type": "x",
+                    "chartsPerLine": 4
+                },
+                "columnMap": {
+                    "split": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                    ],
+                    "trellis": [],
+                    "dimensionAxis": [
+                        "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}"
+                    ],
+                    "plots": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}"
+                    ]
+                },
+                "showActionMenu": true,
+                "measureAxis2": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "valueType": "none",
+                "measureAxis1": {
+                    "sqrtScale": false,
+                    "showTitle": false,
+                    "showAxis": false,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "normalize": false,
+                "theme": "wave",
+                "step": "Project_Overview_By__1",
+                "compactDecimalDigits": -1,
+                "dimensionAxis": {
+                    "showTitle": false,
+                    "customSize": "auto",
+                    "showAxis": true,
+                    "title": "",
+                    "icons": {
+                        "useIcons": false,
+                        "iconProps": {
+                            "fit": "cover",
+                            "column": "",
+                            "type": "round"
+                        }
+                    }
+                },
+                "applyConditionalFormatting": true
+            },
+            "type": "chart"
+        },
+        "chart_2": {
+            "parameters": {
+                "autoFitMode": "none",
+                "legend": {
+                    "descOrder": false,
+                    "showHeader": false,
+                    "show": true,
+                    "customSize": "auto",
+                    "position": "right-top",
+                    "inside": false
+                },
+                "axisMode": "sync",
+                "totalSumMode": "none",
+                "tooltip": {
+                    "content": {
+                        "legend": {
+                            "showBinLabel": true,
+                            "measures": [
+                                "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                            ],
+                            "showNullValues": true,
+                            "customizeLegend": true,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "dimensions": [
+                                "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}",
+                                "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                            ]
+                        }
+                    }
+                },
+                "visualizationType": "stackhbar",
+                "exploreLink": true,
+                "title": {
+                    "fontSize": 14,
+                    "subtitleFontSize": 11,
+                    "label": "",
+                    "align": "center",
+                    "subtitleLabel": ""
+                },
+                "trellis": {
+                    "flipLabels": false,
+                    "showGridLines": true,
+                    "size": [
+                        100,
+                        100
+                    ],
+                    "enable": false,
+                    "type": "x",
+                    "chartsPerLine": 4
+                },
+                "columnMap": {
+                    "split": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                    ],
+                    "trellis": [],
+                    "dimensionAxis": [
+                        "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}"
+                    ],
+                    "plots": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                    ]
+                },
+                "showActionMenu": true,
+                "measureAxis2": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "valueType": "none",
+                "measureAxis1": {
+                    "sqrtScale": false,
+                    "showTitle": false,
+                    "showAxis": false,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "normalize": false,
+                "theme": "wave",
+                "step": "Order_Overview_By_To_1",
+                "compactDecimalDigits": -1,
+                "dimensionAxis": {
+                    "showTitle": false,
+                    "customSize": "auto",
+                    "showAxis": true,
+                    "title": "",
+                    "icons": {
+                        "useIcons": false,
+                        "iconProps": {
+                            "fit": "cover",
+                            "column": "",
+                            "type": "round"
+                        }
+                    }
+                },
+                "applyConditionalFormatting": true
+            },
+            "type": "chart"
+        },
+        "text_6": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "14px",
+                                "bold": true
+                            },
+                            "insert": "[Title_Bar_Chart1_Hom]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Bar_Chart1_Hom": {
+                            "field": "Title_Bar_Chart1_Homepage",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "chart_1": {
+            "parameters": {
+                "autoFitMode": "none",
+                "legend": {
+                    "descOrder": false,
+                    "showHeader": false,
+                    "show": true,
+                    "customSize": "auto",
+                    "position": "right-top",
+                    "inside": false
+                },
+                "axisMode": "sync",
+                "totalSumMode": "none",
+                "tooltip": {
+                    "content": {
+                        "legend": {
+                            "showBinLabel": true,
+                            "measures": [
+                                "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                            ],
+                            "showNullValues": true,
+                            "customizeLegend": true,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "dimensions": [
+                                "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}",
+                                "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                            ]
+                        }
+                    }
+                },
+                "visualizationType": "stackhbar",
+                "exploreLink": true,
+                "title": {
+                    "fontSize": 14,
+                    "subtitleFontSize": 11,
+                    "label": "",
+                    "align": "center",
+                    "subtitleLabel": ""
+                },
+                "trellis": {
+                    "flipLabels": false,
+                    "showGridLines": true,
+                    "size": [
+                        100,
+                        100
+                    ],
+                    "enable": false,
+                    "type": "x",
+                    "chartsPerLine": 4
+                },
+                "columnMap": {
+                    "split": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                    ],
+                    "trellis": [],
+                    "dimensionAxis": [
+                        "{{cell(lens_1.result, 0, \"Field_Order_Number\").asString()}}"
+                    ],
+                    "plots": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                    ]
+                },
+                "showActionMenu": true,
+                "measureAxis2": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "valueType": "none",
+                "measureAxis1": {
+                    "sqrtScale": false,
+                    "showTitle": false,
+                    "showAxis": false,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "normalize": false,
+                "theme": "wave",
+                "step": "Orders_Overview_By_N_1",
+                "compactDecimalDigits": -1,
+                "dimensionAxis": {
+                    "showTitle": false,
+                    "customSize": "auto",
+                    "showAxis": true,
+                    "title": "",
+                    "icons": {
+                        "useIcons": false,
+                        "iconProps": {
+                            "fit": "cover",
+                            "column": "",
+                            "type": "round"
+                        }
+                    }
+                },
+                "applyConditionalFormatting": true
+            },
+            "type": "chart"
+        },
+        "text_9": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Title_Order_Overview_1]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Order_Overview_1": {
+                            "field": "Title_Order_Overview",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "chart_4": {
+            "parameters": {
+                "autoFitMode": "none",
+                "bins": {
+                    "breakpoints": {
+                        "high": 100,
+                        "low": 0
+                    },
+                    "bands": {
+                        "high": {
+                            "color": "#008000",
+                            "label": ""
+                        },
+                        "low": {
+                            "color": "#B22222",
+                            "label": ""
+                        },
+                        "medium": {
+                            "color": "#ffa500",
+                            "label": ""
+                        }
+                    }
+                },
+                "legend": {
+                    "descOrder": false,
+                    "showHeader": false,
+                    "show": true,
+                    "customSize": "auto",
+                    "position": "right-top",
+                    "inside": false
+                },
+                "axisMode": "sync",
+                "totalSumMode": "none",
+                "tooltip": {
+                    "content": {
+                        "legend": {
+                            "showBinLabel": true,
+                            "measures": [
+                                "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}",
+                                "{{cell(lens_1.result, 0, \"Tooltip_Abs_Qty\").asString()}}"
+                            ],
+                            "showNullValues": true,
+                            "customizeLegend": true,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "dimensions": [
+                                "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}",
+                                "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                            ]
+                        }
+                    }
+                },
+                "visualizationType": "stackhbar",
+                "exploreLink": true,
+                "title": {
+                    "fontSize": 14,
+                    "subtitleFontSize": 11,
+                    "label": "",
+                    "align": "center",
+                    "subtitleLabel": ""
+                },
+                "binValues": false,
+                "trellis": {
+                    "flipLabels": false,
+                    "showGridLines": true,
+                    "size": [
+                        100,
+                        100
+                    ],
+                    "enable": false,
+                    "type": "x",
+                    "chartsPerLine": 4
+                },
+                "columnMap": {
+                    "split": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Category\").asString()}}"
+                    ],
+                    "trellis": [],
+                    "dimensionAxis": [
+                        "{{cell(lens_1.result, 0, \"Field_Project\").asString()}}"
+                    ],
+                    "plots": [
+                        "{{cell(lens_1.result, 0, \"Tooltip_Quantity\").asString()}}"
+                    ]
+                },
+                "showActionMenu": true,
+                "measureAxis2": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "valueType": "none",
+                "measureAxis1": {
+                    "sqrtScale": false,
+                    "showTitle": false,
+                    "showAxis": false,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "normalize": false,
+                "theme": "wave",
+                "step": "lens_5",
+                "compactDecimalDigits": -1,
+                "dimensionAxis": {
+                    "showTitle": false,
+                    "customSize": "auto",
+                    "showAxis": true,
+                    "title": "",
+                    "icons": {
+                        "useIcons": false,
+                        "iconProps": {
+                            "fit": "cover",
+                            "column": "",
+                            "type": "round"
+                        }
+                    }
+                },
+                "applyConditionalFormatting": true
+            },
+            "type": "chart"
+        },
+        "text_8": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "14px",
+                                "bold": true
+                            },
+                            "insert": "[Title_Bar_Chart2_Hom]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Bar_Chart2_Hom": {
+                            "field": "Title_Bar_Chart2_Homepage",
+                            "sourceType": "result",
+                            "step": "lens_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        }
+    }
+}

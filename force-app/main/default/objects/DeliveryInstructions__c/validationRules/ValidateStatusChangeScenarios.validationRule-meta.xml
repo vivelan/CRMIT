@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateStatusChangeScenarios</fullName>
+    <active>true</active>
+    <description>Checks and restricts status changes which are not allowed for Delivery Instruction record.</description>
+    <errorConditionFormula>OR(
+	
+	AND(
+		ISCHANGED(Status__c),	
+		NOT(ISNEW()),	
+		NOT($Profile.Name = &quot;System Administrator&quot;),
+		NOT($Profile.Name = &quot;Systemadministrator&quot;),
+		NOT($Profile.Name = &quot;SHS Admin&quot;),
+		$Profile.Name = &quot;SAG Sales&quot;	,
+		OR(
+			AND(
+			ISPICKVAL(PRIORVALUE(Status__c),&quot;New&quot;),
+			NOT(ISPICKVAL(Status__c ,&quot;Quality Check&quot;))
+			),
+			AND(
+			ISPICKVAL(PRIORVALUE(Status__c),&quot;Quality Check&quot;),
+			NOT(ISPICKVAL(Status__c ,&quot;Quality Check&quot;))
+			),
+			AND(
+			ISPICKVAL(PRIORVALUE(Status__c),&quot;Final Check&quot;),
+			OR(
+				ISPICKVAL(Status__c,&quot;New&quot;),
+				ISPICKVAL(Status__c,&quot;Negotiation&quot;),
+				ISPICKVAL(Status__c,&quot;Locked&quot;)
+			)
+			),
+			AND(
+			ISPICKVAL(PRIORVALUE(Status__c),&quot;Approved&quot;),
+			NOT(ISPICKVAL(Status__c,&quot;Locked&quot;))	
+			),
+			AND(
+			ISPICKVAL(PRIORVALUE(Status__c),&quot;Locked&quot;),
+			NOT(ISPICKVAL(Status__c,&quot;Approved&quot;))	
+			)                       
+		
+		)
+	),
+	
+	AND(
+		ISCHANGED(Status__c),
+		NOT(ISNEW()),
+		NOT($Profile.Name = &quot;System Administrator&quot;),
+		NOT($Profile.Name = &quot;Systemadministrator&quot;),
+		NOT($Profile.Name = &quot;SHS Admin&quot;),		
+		$Profile.Name = &quot;SAG Quality Profile&quot;,
+		OR(    
+            AND(
+			    ISPICKVAL(PRIORVALUE(Status__c),&quot;New&quot;),
+			    NOT(ISPICKVAL(Status__c ,&quot;New&quot;))
+			),
+			AND(
+				ISPICKVAL(PRIORVALUE(Status__c),&quot;Quality Check&quot;),
+				OR(
+					ISPICKVAL(Status__c,&quot;Negotiation&quot;),
+					ISPICKVAL(Status__c,&quot;Approved&quot;),
+					ISPICKVAL(Status__c,&quot;Locked&quot;)
+				)
+			),
+			AND(
+				ISPICKVAL(PRIORVALUE(Status__c),&quot;Final Check&quot;),
+				NOT(ISPICKVAL(Status__c,&quot;Final Check&quot;))
+			),
+			AND(
+				ISPICKVAL(PRIORVALUE(Status__c),&quot;Approved&quot;),
+				NOT(ISPICKVAL(Status__c,&quot;Locked&quot;))
+			),
+			AND(
+				ISPICKVAL(PRIORVALUE(Status__c),&quot;Locked&quot;),
+				NOT(ISPICKVAL(Status__c,&quot;Approved&quot;))			
+			)								
+	     )
+	)
+)</errorConditionFormula>
+    <errorMessage>State change not allowed</errorMessage>
+</ValidationRule> 

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subject__c</fullName>
+    <externalId>false</externalId>
+    <label>Subject</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Trade Fair / Event</fullName>
+                <default>false</default>
+                <label>Trade Fair / Event</label>
+            </value>
+            <value>
+                <fullName>Conference / Presentation</fullName>
+                <default>false</default>
+                <label>Conference / Presentation</label>
+            </value>
+            <value>
+                <fullName>Mill Tour</fullName>
+                <default>false</default>
+                <label>Mill Tour</label>
+            </value>
+            <value>
+                <fullName>Commercial Meeting</fullName>
+                <default>false</default>
+                <label>Commercial Meeting</label>
+            </value>
+            <value>
+                <fullName>Technical Meeting</fullName>
+                <default>false</default>
+                <label>Technical Meeting</label>
+            </value>
+            <value>
+                <fullName>Inventory</fullName>
+                <default>false</default>
+                <label>Inventory</label>
+            </value>
+            <value>
+                <fullName>Claim</fullName>
+                <default>false</default>
+                <label>Claim</label>
+            </value>
+            <value>
+                <fullName>Logistics</fullName>
+                <default>false</default>
+                <label>Logistics</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

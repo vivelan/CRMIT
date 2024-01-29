@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>ProductFinderStatus__c</name>
+    <picklistValues>
+        <masterLabel>FMN specified on Technical requirement</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Inductive heat treatment. Reach out to Controlling.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Matching FMN found</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>New combination of steel grade and rolling mill/further processing created. Only use as price indicator</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No matching steel grade found. Reach out to Controlling.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

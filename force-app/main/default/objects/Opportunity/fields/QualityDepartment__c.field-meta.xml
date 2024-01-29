@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QualityDepartment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(OR(ISPICKVAL(BusinessArea__c, &apos;ZK&apos;),ISPICKVAL(BusinessArea__c, &apos;ZF&apos;),ISPICKVAL(BusinessArea__c, &apos;ZS&apos;)) , &apos;620 - Neunkirchen&apos;, 
+IF(ISPICKVAL(BusinessArea__c, &apos;ZZ&apos;),&apos;473 - Burbach&apos;,
+IF(OR(ISPICKVAL(BusinessArea__c, &apos;ZW&apos;),ISPICKVAL(BusinessArea__c, &apos;ZM&apos;)) , &apos;460 - Nauweiler&apos;, 
+NULL)))</formula>
+    <label>Quality Department</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

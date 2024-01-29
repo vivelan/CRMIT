@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Send_Notification_To_Owner_english</name>
+        <label>Send Notification To Owner</label>
+        <locationX>446</locationX>
+        <locationY>1811</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>Get_Record_Id_for_Custom_Notification.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>RecipientIds</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>User Information Changed</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>EnglishNotification</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <actionCalls>
+        <name>Send_Notification_To_Owner_German</name>
+        <label>Send Notification To Owner</label>
+        <locationX>710</locationX>
+        <locationY>1811</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>Get_Record_Id_for_Custom_Notification.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>RecipientIds</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <elementReference>NotificationTitle</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>GermanNotification</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <versionSegment>1</versionSegment>
+    </actionCalls>
+    <apiVersion>59.0</apiVersion>
+    <assignments>
+        <name>Assign_English_Error_Message</name>
+        <label>Assign English Error Message</label>
+        <locationX>1502</locationX>
+        <locationY>1379</locationY>
+        <assignmentItems>
+            <assignToReference>Errormessage</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Please insert a (mobile) phone number in the format &quot;+49123456789&quot;.</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Error_for_invalid_phone</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_English_Title</name>
+        <label>Assign English Title</label>
+        <locationX>446</locationX>
+        <locationY>1703</locationY>
+        <assignmentItems>
+            <assignToReference>NotificationTitle</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>User Information changed</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Send_Notification_To_Owner_english</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_German_error_message</name>
+        <label>Assign German error message</label>
+        <locationX>1238</locationX>
+        <locationY>1379</locationY>
+        <assignmentItems>
+            <assignToReference>Errormessage</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Bitte geben Sie eine (Mobil-)Telefonnummer im Format &quot;+49123456789&quot; ein.</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Error_for_invalid_phone</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_German_Title</name>
+        <label>Assign German Title</label>
+        <locationX>710</locationX>
+        <locationY>1703</locationY>
+        <assignmentItems>
+            <assignToReference>NotificationTitle</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>Nutzerinformationen geändert</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Send_Notification_To_Owner_German</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Language_to_Geman</name>
+        <label>Assign Language to Geman</label>
+        <locationX>314</locationX>
+        <locationY>971</locationY>
+        <assignmentItems>
+            <assignToReference>Language</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>German</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_related_Contact</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Assign_Recipient_Ids</name>
+        <label>Assign Recipient Ids</label>
+        <locationX>710</locationX>
+        <locationY>1487</locationY>
+        <assignmentItems>
+            <assignToReference>RecipientIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Get_Related_Contact_record.OwnerId</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_contact_owner_language</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Language_to_English</name>
+        <label>Set Language to English</label>
+        <locationX>50</locationX>
+        <locationY>971</locationY>
+        <assignmentItems>
+            <assignToReference>Language</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>English</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_related_Contact</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_language_to_English_default</name>
+        <label>Set language to English</label>
+        <locationX>842</locationX>
+        <locationY>971</locationY>
+        <assignmentItems>
+            <assignToReference>Language</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>English</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_related_Contact</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Language_to_French</name>
+        <label>Set Language to French</label>
+        <locationX>578</locationX>
+        <locationY>971</locationY>
+        <assignmentItems>
+            <assignToReference>Language</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <stringValue>French</stringValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_related_Contact</targetReference>
+        </connector>
+    </assignments>
+    <customErrors>
+        <name>Error_for_invalid_phone</name>
+        <label>Error for invalid phone</label>
+        <locationX>1370</locationX>
+        <locationY>1571</locationY>
+        <customErrorMessages>
+            <errorMessage>{!Errormessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <name>Assign_Language</name>
+        <label>Assign Language</label>
+        <locationX>446</locationX>
+        <locationY>863</locationY>
+        <defaultConnector>
+            <targetReference>Set_language_to_English_default</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>English_Language</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LanguageLocaleKey</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>en_US</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Language_to_English</targetReference>
+            </connector>
+            <label>English Language</label>
+        </rules>
+        <rules>
+            <name>German_Language</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LanguageLocaleKey</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>de</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_Language_to_Geman</targetReference>
+            </connector>
+            <label>German Language</label>
+        </rules>
+        <rules>
+            <name>French_Language</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LanguageLocaleKey</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>fr</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Set_Language_to_French</targetReference>
+            </connector>
+            <label>French Language</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_contact_owner_language</name>
+        <label>Check contact owner language</label>
+        <locationX>710</locationX>
+        <locationY>1595</locationY>
+        <defaultConnector>
+            <isGoTo>true</isGoTo>
+            <targetReference>Send_Notification_To_Owner_english</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>English_Language_Owner</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Related_Contact_record.Owner.LanguageLocaleKey</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>en_US</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_English_Title</targetReference>
+            </connector>
+            <label>English Language  Owner</label>
+        </rules>
+        <rules>
+            <name>German_Language_Owner</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Related_Contact_record.Owner.LanguageLocaleKey</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>de</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_German_Title</targetReference>
+            </connector>
+            <label>German Language  Owner</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_if_customer_is_updating_record</name>
+        <label>Check if customer is updating record</label>
+        <locationX>941</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>User_is_the_customer</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Id</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$User.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Related_Contact_record</targetReference>
+            </connector>
+            <label>User is the customer</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_if_related_Contact_is_not_present</name>
+        <label>Check if related Contact is not present</label>
+        <locationX>116</locationX>
+        <locationY>755</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Language</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Related_Contact_not_present</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Related_Contact_record</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Related Contact not present</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Check_Language_of_portal_user</name>
+        <label>Check Language of portal user</label>
+        <locationX>1370</locationX>
+        <locationY>1271</locationY>
+        <defaultConnector>
+            <targetReference>Assign_English_Error_Message</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Language other than German</defaultConnectorLabel>
+        <rules>
+            <name>Language_is_German</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.LanguageLocaleKey</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>de</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Assign_German_error_message</targetReference>
+            </connector>
+            <label>Language is German</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_if_notification_Not_found</name>
+        <label>Skip if notification Not found</label>
+        <locationX>446</locationX>
+        <locationY>1379</locationY>
+        <defaultConnector>
+            <targetReference>Assign_Recipient_Ids</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Custom_Notification_Not_Present</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_Record_Id_for_Custom_Notification</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Custom Notification Not Present</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Skip_the_flow_execution</name>
+        <label>Skip the flow execution</label>
+        <locationX>231</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Check_if_customer_is_updating_record</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>skip_flow_according_to_configuration</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>Get_by_pass_flow_configuration.ByPassedUsers__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$User.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_by_pass_flow_configuration.ByPassedProfiles__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Profile.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Get_by_pass_flow_configuration.ByPassFlow__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Setup.ByPassLogic__c.ByPassFlow__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>skip flow according to configuration</label>
+        </rules>
+    </decisions>
+    <description>Changed error message for mobile/phone validation</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>EnglishNotification</name>
+        <dataType>String</dataType>
+        <expression>&apos;Change of data of a myE-Service portal user:&apos; + &apos;\n&apos; +
+&apos;Date&apos;+&apos;: &apos;+ TEXT(TODAY())+ &apos;\n&apos; +
+&apos;Customer&apos;+&apos;: &apos;+{!Get_Related_Contact_record.Account.Name}+ &apos;\n&apos; +
+&apos;Customer No.&apos;+&apos;: &apos;+{!Get_Related_Contact_record.Account.AccountNumber}+ &apos;\n&apos; +
+&apos;LastName&apos;+&apos;: &apos;+ {!$Record.LastName}+ &apos;\n&apos; +
+&apos;FirstName&apos;+&apos;: &apos;+ {!$Record.FirstName}+ &apos;\n&apos; +
+&apos;EMail&apos;+&apos;: &apos;+ {!$Record.Email}+ &apos;\n&apos; +
+&apos;Phone&apos;+&apos;: &apos;+ {!$Record.Phone}+ &apos;\n&apos; +
+&apos;Mobile&apos; +&apos;: &apos;+{!$Record.MobilePhone}+ &apos;\n&apos; +
+&apos;Language&apos;+&apos;: &apos;+ {!Language}+ &apos;\n&apos; +
+&apos;The data will be automatically updated in myE-Service.&apos;</expression>
+    </formulas>
+    <formulas>
+        <name>GermanNotification</name>
+        <dataType>String</dataType>
+        <expression>&apos;Änderung von Daten eines myE-Service Portalnutzers:&apos;+ &apos;\n&apos; +
+&apos;Datum&apos;+&apos;: &apos;+ TEXT(TODAY())+ &apos;\n&apos; +
+&apos;Kunde&apos;+&apos;: &apos;+{!Get_Related_Contact_record.Account.Name}+ &apos;\n&apos; +
+&apos;Kundennummer&apos;+&apos;: &apos;+{!Get_Related_Contact_record.Account.AccountNumber}+ &apos;\n&apos; +
+&apos;Nachname&apos;+&apos;: &apos;+ {!$Record.LastName}+ &apos;\n&apos; +
+&apos;Vorname&apos;+&apos;: &apos;+ {!$Record.FirstName}+ &apos;\n&apos; +
+&apos;E-mail&apos;+&apos;: &apos;+ {!$Record.Email}+ &apos;\n&apos; +
+&apos;Telefon&apos;+&apos;: &apos;+ {!$Record.Phone}+ &apos;\n&apos; +
+&apos;Mobil&apos;+&apos;: &apos;+{!$Record.MobilePhone}+ &apos;\n&apos; +
+&apos;Sprache&apos;+&apos;: &apos;+ {!Language}+ &apos;\n&apos; +
+&apos;CRM wird die Daten automatisch in myE-Service aktualisieren.&apos;</expression>
+    </formulas>
+    <interviewLabel>SyncContactOnUserByCustomerChange {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SyncContactOnUserByCustomerChange</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Get_by_pass_flow_configuration</name>
+        <label>Get by pass flow configuration</label>
+        <locationX>231</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Skip_the_flow_execution</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>SyncContactOnUserByCustomerChange</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>ByPassFlowConfiguration__mdt</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Record_Id_for_Custom_Notification</name>
+        <label>Get Record Id for Custom Notification</label>
+        <locationX>446</locationX>
+        <locationY>1271</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Skip_if_notification_Not_found</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>NotificationContactUserSync</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_Related_Contact_record</name>
+        <label>Get Related Contact record</label>
+        <locationX>116</locationX>
+        <locationY>647</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Check_if_related_Contact_is_not_present</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.ContactId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Contact</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_related_Contact</name>
+        <label>Update related Contact</label>
+        <locationX>446</locationX>
+        <locationY>1163</locationY>
+        <connector>
+            <targetReference>Get_Record_Id_for_Custom_Notification</targetReference>
+        </connector>
+        <faultConnector>
+            <targetReference>Check_Language_of_portal_user</targetReference>
+        </faultConnector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Related_Contact_record.Id</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Email</field>
+            <value>
+                <elementReference>$Record.Email</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>FirstName</field>
+            <value>
+                <elementReference>$Record.FirstName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Language__c</field>
+            <value>
+                <elementReference>Language</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>LastName</field>
+            <value>
+                <elementReference>$Record.LastName</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>MobilePhone</field>
+            <value>
+                <elementReference>$Record.MobilePhone</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Phone</field>
+            <value>
+                <elementReference>$Record.Phone</elementReference>
+            </value>
+        </inputAssignments>
+        <object>Contact</object>
+    </recordUpdates>
+    <start>
+        <locationX>105</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_by_pass_flow_configuration</targetReference>
+        </connector>
+        <filterLogic>or</filterLogic>
+        <filters>
+            <field>FirstName</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>LastName</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>MobilePhone</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Phone</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Email</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>LanguageLocaleKey</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>User</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <triggerOrder>500</triggerOrder>
+    <variables>
+        <name>Errormessage</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>Language</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>NotificationTitle</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>RecipientIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

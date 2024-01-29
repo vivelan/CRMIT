@@ -1,0 +1,38 @@
+{
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "18082e02-f26f-470d-a8ff-1db68d9db133",
+  "label" : "Project Status",
+  "regions" : [ {
+    "id" : "cc7c3bcf-4fc7-4a19-bf74-d7001d7248ee",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "b30870d6-0d4e-4715-94f5-76092450d098",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "8f72ae46-efc9-4854-8ca5-036e29d2aabb",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Project Status"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4f3113a6-6898-43d0-b297-4d42aecfa5e1",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "88cf7e77-047d-4c32-9058-14a8df74452a",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-project-status"
+}

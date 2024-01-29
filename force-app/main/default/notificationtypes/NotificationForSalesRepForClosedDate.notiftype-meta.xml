@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomNotificationType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customNotifTypeName>Notification For  Sales Rep For Closed Date</customNotifTypeName>
+    <desktop>true</desktop>
+    <masterLabel>Notification For  Sales Rep For Closed Date</masterLabel>
+    <mobile>true</mobile>
+    <slack>false</slack>
+</CustomNotificationType>

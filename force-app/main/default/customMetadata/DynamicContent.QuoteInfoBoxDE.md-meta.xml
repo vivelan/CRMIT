@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>QuoteInfoBoxDE</label>
+    <protected>false</protected>
+    <values>
+        <field>Content__c</field>
+        <value xsi:type="xsd:string">DynamicContentInfoBoxSplit1
+DynamicContentInfoBoxSplit2
+DynamicContentInfoBoxSplit3
+DynamicContentInfoBoxSplit4
+DynamicContentInfoBoxSplit5
+DynamicContentInfoBoxSplit6
+DynamicContentInfoBoxSplit7
+DynamicContentInfoBoxSplit8
+DynamicContentInfoBoxSplit9
+DynamicContentInfoBoxSplit10
+DynamicContentInfoBoxSplit11
+DynamicContentInfoBoxSplit12
+DynamicContentInfoBoxSplit13
+DynamicContentInfoBoxSplit14
+DynamicContentInfoBoxSplit15
+DynamicContentInfoBoxSplit16
+DynamicContentInfoBoxSplit17
+DynamicContentInfoBoxSplit18
+DynamicContentInfoBoxSplit19
+DynamicContentInfoBoxSplit20
+DynamicContentInfoBoxSplit21
+DynamicContentInfoBoxSplit22
+DynamicContentInfoBoxSplit23
+DynamicContentInfoBoxSplit24
+DynamicContentInfoBoxSplit25
+DynamicContentInfoBoxSplit26
+DynamicContentInfoBoxSplit27
+DynamicContentInfoBoxSplit28
+DynamicContentInfoBoxSplit29
+DynamicContentInfoBoxSplit30
+DynamicContentInfoBoxSplit31
+DynamicContentInfoBoxSplit32
+DynamicContentInfoBoxSplit33
+DynamicContentInfoBoxSplit34
+DynamicContentInfoBoxSplit35
+DynamicContentInfoBoxSplit36
+DynamicContentInfoBoxSplit37
+DynamicContentInfoBoxSplit38
+DynamicContentInfoBoxSplit39
+DynamicContentInfoBoxSplit40</value>
+    </values>
+</CustomMetadata>

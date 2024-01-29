@@ -1,0 +1,148 @@
+<template>
+  <div class="slds-is-relative">
+    <template if:true={isSelectViewVisible}>
+      <div class="search-bar">
+        <div onkeyup={handleSearchInputUpkey}>
+          <lightning-input
+            type="search"
+            label={contactsSearchKey}
+          >
+          </lightning-input>
+        </div>
+        <div class="search-result-label">
+          {searchResultLabel}
+        </div>
+      </div>
+      <div class="data-table-container tableContainer" id="tableContainer" if:true={displayTable}>
+        <lightning-datatable
+          columns={contactSelectDataTableColumns}
+          key-field="Id"
+          show-row-number-column
+          selected-rows={selectedContactIds}
+          onrowselection={handleContactSelectionChange}
+          data={filteredContacts}
+        >
+        </lightning-datatable>
+      </div>
+      <div class="style-text-attendees"  if:false={displayTable}>
+        <h2>{noResultsMessage}</h2>
+    </div>
+    </template>
+    
+    <template if:true={isEditViewVisible}>
+      <template if:false={isSmallFormFactor}>
+        <div class="table-scroll-auto">
+          <table class="slds-table slds-table--bordered slds-table_fixed-layout">
+            <thead>
+              <tr>
+                <th scope="col" class="border-right border-left" title={newAttendee}>{newAttendee}</th>
+                <!--<th scope="col" class="border-right" title={primaryContactLabel}>{primaryContactLabel}</th>-->
+                <th scope="col" class="border-right" title={commentLabel}>{commentLabel}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <template for:each={selectedAttendees} for:item="attendee">
+                <tr key={attendee.id}>
+                  <td data-label="Attendee" role="row">
+                    <div class="slds-truncate">
+                    <lightning-icon
+                      icon-name="utility:adduser"
+                      alternative-text="New Attendees"
+                      title="New Attendees"
+                    ></lightning-icon>
+                    <span title={attendee.name}> {attendee.name}</span>
+                  </div>
+                  </td>
+                  <!--<td data-label="Primary Contact">
+                    <lightning-input
+                      type="checkbox"
+                      data-key={attendee.id}
+                      data-field="primaryContact"
+                      checked={attendee.isPrimaryContact}
+                      onchange={handleAttendeesDataChange}
+                      variant="hidden-label"
+                      class="checkbox-style-input"
+                      disabled={attendee.isUser}
+                    ></lightning-input>
+                  </td> -->
+                  <td data-label="Detailed Comment">
+                    <lightning-textarea
+                      data-key={attendee.id}
+                      data-field="detailedComment"
+                      onchange={handleAttendeesDataChange}
+                      value={attendee.detailedComment}
+                      title={attendee.detailedComment}
+                    ></lightning-textarea>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </div>
+      </template>
+
+      <template if:true={isSmallFormFactor}>
+        <div class="table-scroll-auto">
+          <table class="slds-table slds-table--bordered">
+            <thead>
+              <tr>
+                <th scope="col" class="border-right border-left">{newAttendee}</th>
+                <!--<th scope="col" class="border-right">{primaryContactLabel}</th>-->
+                <th scope="col" class="border-right">{commentLabel}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <template for:each={selectedAttendees} for:item="attendee">
+                <tr key={attendee.id}>
+                  <td data-label="Attendee" role="row">
+                    <lightning-icon
+                      icon-name="utility:adduser"
+                      alternative-text="New Attendees"
+                      title="New Attendees"
+                    ></lightning-icon>
+                    &nbsp; {attendee.name}
+                  </td>
+                 <!--<td data-label="Primary Contact">
+                    <lightning-input
+                      type="checkbox"
+                      data-key={attendee.id}
+                      data-field="primaryContact"
+                      checked={attendee.isPrimaryContact}
+                      onchange={handleAttendeesDataChange}
+                      variant="hidden-label"
+                      class="checkbox-style-input"
+                      disabled={attendee.isUser}
+                    ></lightning-input>
+                  </td>--> 
+                  <td data-label="Detailed Comment">
+                    <lightning-textarea
+                      data-key={attendee.id}
+                      data-field="detailedComment"
+                      onchange={handleAttendeesDataChange}
+                      value={attendee.detailedComment}
+                    ></lightning-textarea>
+                  </td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
+        </div>
+      </template>
+    </template>
+    <template if:true={isLoading}>
+      <lightning-spinner variant="brand"></lightning-spinner>
+    </template>
+  </div>
+
+  <div slot="footer">
+    <template if:true={isSelectViewVisible}>
+      <div class="slds-pill_container tableContainer" if:true={displayTable}>
+        <lightning-pill-container
+          onitemremove={handleSelectedAttendeeRemove}
+          items={selectedContactInfo}
+        >
+        </lightning-pill-container>
+      </div>
+    </template>
+  </div>
+</template>

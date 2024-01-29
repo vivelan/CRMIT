@@ -1,0 +1,73 @@
+.table-style {
+    padding-bottom: 15%;
+}
+
+.new-line-button button {
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 24px;
+    color:#080707;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.new-line-button button:hover {
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 24px;
+    color:#080707;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.new-line-button button:focus {
+    background-color: white;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 24px;
+    color:#080707;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.button-section {
+    padding-top: 10px;
+}
+
+.th-number-count{
+    width: 55px;
+}
+
+.th-asset-name{
+    width: 200px;
+}
+
+.th-serial-number {
+    width: 135px;
+}
+
+.th-product-name {
+    width: 215px;
+}
+
+.th-purchased-competitor{
+    width: 135px;
+}
+
+.th-competitor{
+    width: 210px;
+}
+
+.th-status {
+    width: 170px;
+}
+
+.table-scroll-auto{
+    overflow-x: scroll;
+    position: relative;
+}

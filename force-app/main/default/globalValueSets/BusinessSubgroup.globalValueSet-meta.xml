@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Welding Wire (SZW)</fullName>
+        <default>false</default>
+        <label>Welding Wire</label>
+    </customValue>
+    <customValue>
+        <fullName>Tyre Cord</fullName>
+        <default>false</default>
+        <label>Tyre Cord</label>
+    </customValue>
+    <customValue>
+        <fullName>Low Carbon</fullName>
+        <default>false</default>
+        <label>Low Carbon</label>
+    </customValue>
+    <customValue>
+        <fullName>High Carbon</fullName>
+        <default>false</default>
+        <label>High Carbon</label>
+    </customValue>
+    <masterLabel>Product Group Business Area</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

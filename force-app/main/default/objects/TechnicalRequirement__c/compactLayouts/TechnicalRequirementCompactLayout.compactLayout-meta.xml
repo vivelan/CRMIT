@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TechnicalRequirementCompactLayout</fullName>
+    <fields>Name</fields>
+    <fields>Account__c</fields>
+    <fields>InternalSteelGrade__c</fields>
+    <fields>DimensionA__c</fields>
+    <fields>DimensionB__c</fields>
+    <fields>Product__c</fields>
+    <label>Technical Requirement Compact Layout</label>
+</CompactLayout>

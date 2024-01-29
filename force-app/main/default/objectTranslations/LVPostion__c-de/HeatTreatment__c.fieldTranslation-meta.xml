@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Wärmebehandlung (St.29+30)</label>
+    <name>HeatTreatment__c</name>
+    <picklistValues>
+        <masterLabel>AL</masterLabel>
+        <translation>AL - Stab - Anlassen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EF</masterLabel>
+        <translation>EF - Draht - Effusionsglühung nur HG; H2-Reduzierung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ET</masterLabel>
+        <translation>ET - Stab - Entspannen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GL</masterLabel>
+        <translation>GL - Stab - Weichglühen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GP</masterLabel>
+        <translation>GP - Stab - GKZ-Glühen über Perlitstufe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>GZ</masterLabel>
+        <translation>GZ - Stab - GKZ  Glühen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>HL</masterLabel>
+        <translation>HL - Draht - Anlassen, zwingend Haubenofen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IA</masterLabel>
+        <translation>IA - Stab - Induktiv Vergüten und Anlassen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ID</masterLabel>
+        <translation>ID - Draht - GKZ  Glühen, Schutzgas - zwingend Rollenherdofen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IE</masterLabel>
+        <translation>IE - Stab - Induktiv Vergüten, Anlassen und Entspannen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IH</masterLabel>
+        <translation>IH - Draht - GKZ  Glühen, zwingend Haubenofen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IL</masterLabel>
+        <translation>IL - Draht - Anlassen,  Schutzgas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IN</masterLabel>
+        <translation>IN - Stab - Induktiv Normalisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IR</masterLabel>
+        <translation>IR - Draht - Weichglühen, Schutzgas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IT</masterLabel>
+        <translation>IT - Stab - Induktiv Vergüten und Entspannen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IV</masterLabel>
+        <translation>IV - Stab - Induktiv Vergüten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>IZ</masterLabel>
+        <translation>IZ - Draht - GKZ  Glühen,  Schutzgas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LP</masterLabel>
+        <translation>LP - Draht - Ferrit/Perlit - Glühung nur HG; lamellar pearlitic</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NA</masterLabel>
+        <translation>NA - Stab - Normalisieren + Anlassen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NI</masterLabel>
+        <translation>NI - Stab - induktiv Normalisieren u. induktiv Vergüten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NL</masterLabel>
+        <translation>NL - Stab - Normalisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NR</masterLabel>
+        <translation>NR - Draht - Walznormalisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NT</masterLabel>
+        <translation>NT - Stab - Normalisieren + Entspannen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NW</masterLabel>
+        <translation>NW - Stab - Walznormalisieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>NZ</masterLabel>
+        <translation>NZ - Stab - Normalisieren + GKZ  Glühen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OA</masterLabel>
+        <translation>OA - Stab - OB-Gl.  Ferrit/Bainit - Ofen 52 (für VW)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OC</masterLabel>
+        <translation>OC - Stab - OB-Gl.  Ferrit/Perlit  - Ofen 52</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OG</masterLabel>
+        <translation>OG - Stab - OB-Gl.  Ferrit/Perlit  + GKZ  Glühen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OL</masterLabel>
+        <translation>OL - Stab - OB-Gl.  Ferrit/Perlit  - Ofen 52 + Anlassen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PR</masterLabel>
+        <translation>PR - Draht - Weichglühen über Perlitstufe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>PZ</masterLabel>
+        <translation>PZ - Stab - BG aus Walzhitze + GKZ-Glühen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TL</masterLabel>
+        <translation>TL - Draht - Thermomech. Walzen + Anlassen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TR</masterLabel>
+        <translation>TR - Draht - Thermomechanisch  Walzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TS</masterLabel>
+        <translation>TS - Stab - Thermomechanisch  Walzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TX</masterLabel>
+        <translation>TX - Draht - Doppelt thermomechanisch walzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TZ</masterLabel>
+        <translation>TZ - Draht - Thermomechanisch gewalzt + GKZ-Glühen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VA</masterLabel>
+        <translation>VA - Draht - Anlassen Ring</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VH</masterLabel>
+        <translation>VH - Draht - Härten Ring</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VP</masterLabel>
+        <translation>VP - Draht - Vergüten (Maraform) - Abschrecken in Polymer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VR</masterLabel>
+        <translation>VR - Draht - Vergüten (Maraform)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WA</masterLabel>
+        <translation>WA - Stab - Walznormalisieren, induktiv Vergüten und Anlassen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WB</masterLabel>
+        <translation>WB - Draht - BG  aus  Walzhitze</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WE</masterLabel>
+        <translation>WE - Stab - Walznormalisieren + Entspannen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WG</masterLabel>
+        <translation>WG - Stab - BG  aus  Walzhitze</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WH</masterLabel>
+        <translation>WH - Stab - Unbehandelt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WI</masterLabel>
+        <translation>WI - Stab - Walznormalisieren und induktiv Vergüten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WR</masterLabel>
+        <translation>WR - Draht - Unbehandelt</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>WZ</masterLabel>
+        <translation>WZ - Stab - Walznormalisiert + GKZ  Geglüht</translation>
+    </picklistValues>
+</CustomFieldTranslation>

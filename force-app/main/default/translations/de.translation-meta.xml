@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label>Weitere Informationen</label>
+        <name>Further_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte legen Sie den Stichtag für die Kalkulation vor der Neuberechnung auf einen Zeitpunkt in der Zukunft.</label>
+        <name>AppointedDayError</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte ergänzen Sie das Feld Stichtag Kalkulation.</label>
+        <name>AppointedDayMissingError</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte stellen Sie auf monatliche Berechnung um oder wählen Sie das nächste Quartal als Stichtag</label>
+        <name>PricePointNotAllowed</name>
+    </customLabels>
+    <customLabels>
+        <label>AK Trend 460</label>
+        <name>AKTrend460SectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label>Sie haben nicht die erforderliche Berechtigung, um diese Beziehung zu bearbeiten. Bitte wenden Sie sich an den Administrator Ihres Kundenportals, um diesen Kontakt zum Kundenportal hinzuzufügen.</label>
+        <name>AccountContactRelationError</name>
+    </customLabels>
+    <customLabels>
+        <label>Ordner Eingang Burbach</label>
+        <name>FolderReceiptsBurbachSectionHeading</name>
+    </customLabels>
+    <customLabels>
+        <label>Allgemeine Zusagen QW</label>
+        <name>GeneralCommitmentsQASectionHeading</name>
+    </customLabels>
+    <customLabels>
+        <label>Interner SEL</label>
+        <name>InternalSELnoSectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label>Details zur Kommunikation</label>
+        <name>CommunicationDetails</name>
+    </customLabels>
+    <customLabels>
+        <label>Kontaktinformationen</label>
+        <name>ContactInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>Systeminformationen</label>
+        <name>SystemInformation</name>
+    </customLabels>
+     <customLabels>
+        <label>Bearbeitung und Genehmigungen</label>
+        <name>ProcessingandApprovals</name>
+    </customLabels>
+    <customLabels>
+        <label>Schmelzanalysen</label>
+        <name>MeltAnalysisSectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label>Normen</label>
+        <name>NormsSectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QWUsefullLinksComponentHeader --></label>
+        <name>QWUsefullLinksComponentHeader</name>
+    </customLabels>
+    <customLabels>
+        <label>Lastenheftablage QW</label>
+        <name>RequirementSpecificationQASectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label>Stahlschlüssel</label>
+        <name>SteelKeySectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label>Festigkeiten</label>
+        <name>StrengthsSectionHeading</name>
+    </customLabels>
+    <customLabels>
+        <label>Leider sind wir auf ein Problem gestoßen. Bitte wenden Sie sich an Ihren Administrator für Hilfe.</label>
+        <name>ErrorMessageOLI</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte füllen Sie die erforderlichen Felder aus, um mit dem Speichern fortzufahren.</label>
+        <name>ErrorForProductionKeyScreenOnSave</name>
+    </customLabels>
+    <customLabels>
+        <label>Preis berechnen</label>
+        <name>CalculatePrice</name>
+    </customLabels>
+    <customLabels>
+        <label>Produktionskosten</label>
+        <name>CostOfProduction</name>
+    </customLabels>
+    <customLabels>
+        <label>Resultierende Marge</label>
+        <name>FinalMarginPrice</name>
+    </customLabels>
+    <customLabels>
+        <label>Systemadministrator</label>
+        <name>SystemAdministratorProfile</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebotspreis (Nettoerlös)</label>
+        <name>FinalPrice</name>
+    </customLabels>
+    <customLabels>
+        <label>Keine Auswahl</label>
+        <name>None</name>
+    </customLabels>
+    <customLabels>
+        <label>Marge Preispunkt</label>
+        <name>MarginLevel</name>
+    </customLabels>
+    <customLabels>
+        <label>Orientierungspreis</label>
+        <name>OrientationPrice</name>
+    </customLabels>
+    <customLabels>
+        <label>Preispunkt 1 - Risikofaktoren</label>
+        <name>PriceLevel</name>
+    </customLabels>
+    <customLabels>
+        <label>Preispunkt 2 - Kunde &amp; Produkt</label>
+        <name>PriceLevel2CustomerProduct</name>
+    </customLabels>
+    <customLabels>
+        <label>Preispunkt 3 - Land</label>
+        <name>PriceLevel3Region</name>
+    </customLabels>
+    <customLabels>
+        <label>Preispunkt 4 - Leveling</label>
+        <name>PriceLevel4Leveling</name>
+    </customLabels>
+    <customLabels>
+        <label>Preispunkt 5 - Wettbewerbsumfeld</label>
+        <name>PriceLevel5CompetitiveEnvironment</name>
+    </customLabels>
+    <customLabels>
+        <label>Produktname</label>
+        <name>ProductName</name>
+    </customLabels>
+   <customLabels>
+        <label><!-- Production Key Screen Fail --></label>
+        <name>ProductionKeyScreenFail</name>
+    </customLabels>
+    <customLabels>
+        <label>Der Fertigungsschlüssel wurde erfolgreich gespeichert.</label>
+        <name>ProductionKeyScreenSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebotspreis (Nettoerlös) speichern</label>
+        <name>SaveFinalPrice</name>
+    </customLabels>
+	<customLabels>
+        <label>Fertigungsschlüssel</label>
+        <name>ProductionKey</name>
+    </customLabels>
+    <customLabels>
+        <label>Speichern</label>
+        <name>SaveButton</name>
+    </customLabels>
+    <customLabels>
+        <label>Kundenstammdaten können aktuell, mit Ausnahme der kundenspezifischen Marge und Besuchsempfehlung, nur in SAP geändert werden.</label>
+        <name>AccounReadOnlyErrorMsg</name>
+    </customLabels>
+     <customLabels>
+        <label>Bitte füllen Sie entweder das Feld für die Suche nach einem Fertigmaterial oder das Feld für die Suche nach Produkten aus.</label>
+        <name>CTOLI_ValidationProductFMN</name>
+    </customLabels>
+    <customLabels>
+        <label>Zuletzt aktualisiert am</label>
+        <name>LastRefreshedDate</name>
+    </customLabels>
+    <customLabels>
+        <label>Angebotspreis (Nettoerlös) zuletzt gespeichert am</label>
+        <name>LastSavedFinalPriceDate</name>
+    </customLabels>
+     <customLabels>
+        <label>Produktfinder erneut starten</label>
+        <name>ReRunProductFinder</name>
+    </customLabels>
+    <customLabels>
+        <label>Die Anfragestaus steht nicht auf &quot;Finale Bearbeitung&quot;. Bitte ändern Sie den Anfragestatus, um fortzufahren.</label>
+        <name>CheckFinalCheckStage</name>
+    </customLabels>
+    <customLabels>
+        <label>Die technische Anfrage(n) dieser Opportunity sind inaktiv und können daher nicht konvertiert werden.</label>
+        <name>CheckTechReqInactive</name>
+    </customLabels>
+    <customLabels>
+        <label>Schlusstermin der Anfrage wurde erreicht</label>
+        <name>EmailSubjectForCloseDate</name>
+    </customLabels>
+    <customLabels>
+        <label>hat ihren Schlusstermin erreicht. Bitte setzen Sie sich mit dem Kunden in Verbindung, um den Status der Anfrage herauszufinden, und setzen Sie diese dann auf &apos;geschlossen gewonnen&apos; oder &apos;geschlossen verloren.</label>
+        <name>EmailTemplateBodyForCloseDate</name>
+    </customLabels>
+    <customLabels>
+        <label>Kunden-Absatzplanung</label>
+        <name>AccountSalesPlanningTab</name>
+    </customLabels>
+    <customLabels>
+        <label>Ihre Anfrage</label>
+        <name>YourOpportunityForEmailTemplate</name>
+    </customLabels>
+    <customLabels>
+        <label>Die Anfragestaus steht nicht auf &quot;Offen&quot;. Bitte ändern Sie den Anfragestatus, um fortzufahren.</label>
+        <name>CheckOpenStage</name>
+    </customLabels>
+    <customLabels>
+        <label>Die Rohstoffdatensätze wurden erfolgreich gesendet und von Heroku verarbeitet.</label>
+        <name>SuccessMessageForRawMaterial</name>
+    </customLabels>
+    <customLabels>
+        <label>Bei dem Verarbeiten der Rohstoffdatensätze in Heroku ist ein Fehler aufgetreten und die Fehlermeldungen wurden den entsprechenden Salesforce-Datensätzen hinzugefügt. Die ursprünglichen Daten in Heroku wurden nicht geändert.
+         Um die Daten erneut zu senden, gehen Sie bitte zurück zur Rohmateriallistenansicht und überprüfen Sie die Fehlermeldungen.</label>
+        <name>ErrorMessageForRawMaterial</name>
+    </customLabels>
+    <customLabels>
+        <label>Das ausgewählte Produkt ist inzwischen inaktiv. Bitte setzen Sie die Opportunity zurück in die Phase &apos;Neu&apos; und wenden Sie sich an den Vertrieb, damit ein aktives Produkt ausgewählt werden kann.</label>
+        <name>ErrormessageforsavingProductionKey</name>
+    </customLabels>
+    <customLabels>
+        <label>Comment on Overdrafts / Kommentar zu Überziehungen</label>
+        <name>TaskSubjectForAccountManager</name>
+    </customLabels>
+    <customLabels>
+        <label>Comment on Overdue Invoices / Kommentar zu Überfälligen Rechnungen</label>
+        <name>TaskSubjectforSalesRep</name>
+    </customLabels>
+    <customLabels>
+        <label>Achtung, Kreditlimit bei diesem Account ist überschritten.</label>
+        <name>OppyForRiskAccountsWarningMsg</name>
+      </customLabels>
+     <customLabels>
+        <label>Risiko</label>
+        <name>Risk</name>
+    </customLabels>
+    <customLabels>
+        <label>Risikoinformationen</label>
+        <name>RiskInformation</name>
+    </customLabels>
+    <customLabels>
+        <label>Das ausgewählte Fertigmaterial ist inaktiv. Bitte wählen Sie ein aktives Fertigmaterial aus, um die Technische Anforderung konvertieren zu können.</label>
+        <name>InactiveFMNValidation</name>
+    </customLabels>
+    <customLabels>
+        <label>Das ausgewählte Produkt ist inaktiv. Bitte wählen Sie ein aktives Produkt aus, um die Technische Anforderung konvertieren zu können.</label>
+        <name>InactiveProductValidation</name>
+    </customLabels>
+    <customLabels>
+        <label>Mindestens eine Technische Anforderung hat ein inaktives Fertigmaterial hinterlegt und kann daher nicht konvertiert werden. Bitte wählen Sie ein aktives Fertigmaterial aus.</label>
+        <name>InactiveOppFMNVaildation</name>
+    </customLabels>
+    <customLabels>
+        <label>Mindestens eine Technische Anforderung hat ein inaktives Produkt hinterlegt und kann daher nicht konvertiert werden. Bitte wählen Sie ein aktives Produkt aus.</label>
+        <name>InactiveOppProductVaildation</name>
+    </customLabels>
+    <customLabels>
+        <label>Während der Bearbeitung durch das Qualitätswesen sind keine Änderungen möglich.</label>
+        <name>ValidationErrorOnTRForQualitycheck</name>
+    </customLabels>
+    <customLabels>
+        <label>Sie haben einen Antrag gestellt, Ihr Passwort für das Kundenportal von  zurückzusetzen</label>
+        <name>ResetPasswordforPortalPart1</name>
+    </customLabels>
+    <customLabels>
+        <label>zurückzusetzen. Um Ihr Passwort zurückzusetzen, klicken Sie bitte auf den unten stehenden Link und folgen Sie den Anweisungen.</label>
+        <name>ResetPasswordforPortalPart1A</name>
+    </customLabels>
+    <customLabels>
+        <label>Passwort zurücksetzen Link:</label>
+        <name>ResetPasswordforPortalPart2</name>
+    </customLabels>
+    <customLabels>
+        <label>Falls Sie kein Passwort-Reset angefordert haben, ignorieren Sie bitte diese E-Mail. Sollten Sie jedoch weiterhin derartige E-Mails erhalten, wenden Sie sich bitte an unser Kundensupport-Team unter</label>
+        <name>ResetPasswordforPortalPart3</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir helfen Ihnen gerne!</label>
+        <name>ResetPasswordforPortalPart4</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte beachten Sie, dass aus Sicherheitsgründen der Passwort-Reset-Link in 24 Stunden abläuft. Wenn Sie Ihr Passwort innerhalb dieses Zeitraums nicht zurücksetzen, müssen Sie einen weiteren Passwort-Reset beantragen.</label>
+        <name>ResetPasswordforPortalPart5</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir empfehlen, ein starkes Passwort zu wählen, das einzig für Ihr Kundenportal-Konto genutzt wird.</label>
+        <name>ResetPasswordforPortalPart6</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir möchten Sie bitten, das Passwort nicht an Dritte weiterzugeben.</label>
+        <name>ResetPasswordforPortalPart7</name>
+    </customLabels>
+    <customLabels>
+        <label>Vielen Dank für die Zusammenarbeit.</label>
+        <name>ResetPasswordforPortalPart8</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir freuen uns, Sie auf unserem neuen Kundenportal begrüßen zu dürfen! Diese Plattform wurde entwickelt, um Ihnen eine effiziente und individuelle Möglichkeit zu bieten, Ihre Bestelldaten jederzeit einfach und transparent einsehen und verwalten zu können.</label>
+        <name>WelcomeEmailBodyPart1</name>
+    </customLabels>
+    <customLabels>
+        <label>Als registriertes Mitglied unseres Kundenportals haben Sie rund um die Uhr Zugriff auf Ihre Bestelldaten, einschließlich Informationen zu Bestellverlauf, Lieferstatus und Zahlungsdetails.</label>
+        <name>WelcomeEmailBodyPart2</name>
+    </customLabels>
+    <customLabels>
+        <label>Um auf Ihr Konto zuzugreifen, verwenden Sie bitte den folgenden Link:</label>
+        <name>WelcomeEmailBodyPart3</name>
+    </customLabels>
+    <customLabels>
+        <label>Sobald Sie sich angemeldet haben, können Sie durch das Portal navigieren und alle Ihre Bestelldaten auf einen Blick einsehen. Wenn Sie Fragen oder Feedback zu unserem Kundenportal haben, zögern Sie bitte nicht, uns unter  zu kontaktieren.</label>
+        <name>WelcomeEmailBodyPart4</name>
+    </customLabels>
+    <customLabels>
+        <label>Vielen Dank, dass Sie uns als Ihren Partner gewählt haben. Wir freuen uns darauf, Ihnen durch unser Portal ein außergewöhnliches Kundenerlebnis zu bieten.</label>
+        <name>WelcomeEmailBodyPart5</name>
+    </customLabels>
+   <customLabels>
+        <label>Sehr geehrte(r)</label>
+        <name>DearforWelcomeEmail</name>
+    </customLabels>
+  <customLabels>
+        <label>Geschäftsfeld/ Produktgruppe-Absatzplanung</label>
+        <name>BusinessAreaproductgroupSalesPlanningLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Bearbeiten</label>
+        <name>EditButtonForSalesForecasting</name>
+    </customLabels>
+    <customLabels>
+        <label>Zuletzt von Kundenebene hochaggregiert (Jahre) am</label>
+        <name>LastRolledupAnnualPlanningLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Zuletzt von Kundenebene hochaggregiert (Monate) am</label>
+        <name>LastRolledupfromAccountlevelLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Zuletzt gespeichert am</label>
+        <name>LastSavedOnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Zuletzt auf Kundenebene heruntergebrochen am</label>
+        <name>LastSubmittedOnLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Sind Sie sicher, dass Sie die Planwerte der Kundebene auf Geschäftsfeldebene hochaggregieren möchten?</label>
+        <name>RollAccountPlanPopupMsgForSF</name>
+    </customLabels>
+    <customLabels>
+        <label>Sind Sie sicher, dass Sie die Planwerte der Kundebene auf Geschäftsfeldebene hochaggregieren möchten?</label>
+        <name>RollUpPopupMsgForSF</name>
+    </customLabels>
+    <customLabels>
+        <label>Von Kundenebene hochaggregieren (Jahre)</label>
+        <name>RollupAnnualPlanningButtonForSF</name>
+    </customLabels>
+    <customLabels>
+        <label>Von Kundenebene hochaggregieren (Monate)</label>
+        <name>RollupfromAccountlevelButtonForSF</name>
+    </customLabels>
+    <customLabels>
+        <label>Speichern</label>
+        <name>SaveButtonForSalesForecasting</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte beachten Sie, dass das Herunterbrechen der Geschäftsfeldwerte auf die Kundenebene einige Minuten in Anspruch nehmen kann.</label>
+        <name>MessageForSubmit</name>
+    </customLabels>
+    <customLabels>
+        <label>Vielen Dank für Ihre Anfrage.
+Ihre Registrierung für den Dillinger „myE-Service“ wurde an die zuständige Stelle weitergeleitet. Sie werden nach Überprüfung Ihre Zugangsdaten erhalten.
+
+Sie können dieses Fenster jetzt schließen.</label>
+        <name>MessageSignupSuccessful</name>
+    </customLabels>
+    <customLabels>
+        <label>Auf Kundenebene herunterbrechen</label>
+        <name>SubmitButtonForSalesForecasting</name>
+    </customLabels>
+    <customLabels>
+        <label>Sind Sie sicher, dass Sie die Absatzplanung auf Kundenebene herunterbrechen möchten?</label>
+        <name>SubmitPopupMsgForSF</name>
+    </customLabels>
+     <customLabels>
+        <label>Bitte überarbeiten Sie Ihre Kundenplanung im Rahmen der rollierenden Planung innerhalb der nächsten 5 Tage und speichern Sie die Daten ab.
+Bei Abwesenheit sollte eine Vertretung bestimmt werden.</label>
+        <name>MonthlyReminderBusinessAreaBody</name>
+    </customLabels>
+    <customLabels>
+        <label>Produktmanager</label>
+        <name>MonthlyReminderBusinessAreaSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Durchschnitt nicht geplanter Kunden</label>
+        <name>AverageofnotplannedAccounts</name>
+    </customLabels>
+    <customLabels>
+        <label>Summe nicht geplanter Kunden</label>
+        <name>SumofnotplannedAccounts</name>
+    </customLabels>
+    <customLabels>
+        <label>Super! Ein oder mehrere neue Opportunity Produkte wurden erstellt.</label>
+        <name>Success_Message_OLI</name>
+    </customLabels>
+    <customLabels>
+        <label>Die technische Anforderung wurde erfolgreich kopiert. Der neu angelegte Datensatz kann hier eingesehen werden:</label>
+        <name>Success_Message_for_TR</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte wählen Sie eine Opportunity/Anfrage aus, um die technische Anforderung in ein Opportunity Produkt/Angebot zu übernehmen.</label>
+        <name>OpportunityBlankError</name>
+    </customLabels>
+    <customLabels>
+        <label>Durchschnitt</label>
+        <name>Average</name>
+    </customLabels>
+    <customLabels>
+        <label>Durchschnittlicher NE</label>
+        <name>AverageNetProceeds</name>
+    </customLabels>
+    <customLabels>
+        <label>Geschäftsfeld</label>
+        <name>BusinessArea</name>
+    </customLabels>
+    <customLabels>
+        <label>Geschäftsfeld/ Produktgruppe für Absatzplanung</label>
+        <name>BusinessAreaProductGroupForPlanning</name>
+    </customLabels>
+    <customLabels>
+        <label>Abbrechen</label>
+        <name>CancelForSalesPlanning</name>
+    </customLabels>
+    <customLabels>
+        <label>Exportieren</label>
+        <name>ExportForSalesPlanning</name>
+    </customLabels>
+    <customLabels>
+        <label>Nächste Seite</label>
+        <name>NextPage</name>
+    </customLabels>
+    <customLabels>
+        <label>von</label>
+        <name>OF</name>
+    </customLabels>
+    <customLabels>
+        <label>Seite</label>
+        <name>Page</name>
+    </customLabels>
+    <customLabels>
+        <label>Vorherige Seite</label>
+        <name>PreviousPage</name>
+    </customLabels>
+    <customLabels>
+        <label>Rollierende Planung aktuelles Jahr</label>
+        <name>RollingForeCastCurrentYear</name>
+    </customLabels>
+    <customLabels>
+        <label>Finale Version speichern</label>
+        <name>SaveFinalVersion</name>
+    </customLabels>
+    <customLabels>
+        <label>Gesamt</label>
+        <name>Total</name>
+    </customLabels>
+    <customLabels>
+        <label>Summe NE Ziehgüten</label>
+        <name>TotalDrawingGradesNetProceeds</name>
+    </customLabels>
+    <customLabels>
+        <label>Gesamtabsatz Ziehgüten</label>
+        <name>TotalDrawingGradesSoldAmounts</name>
+    </customLabels>
+    <customLabels>
+        <label>Gesamte Datensätze</label>
+        <name>TotalRecords</name>
+    </customLabels>
+    <customLabels>
+         <label>Gesamtabsatz</label>
+        <name>TotalSoldAmounts</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte passen Sie das Abschlussdatum vor der Neuberechnung an.</label>
+        <name>OppCloseDateError</name>
+    </customLabels>
+     <customLabels>
+        <label>Ziehgüten</label>
+        <name>DrawingGradeLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte geben Sie alle verpflichtenden Felder an, um ein Angebot zu erzeugen.</label>
+        <name>QuoteError</name>
+    </customLabels>
+    <customLabels>
+        <label>Tatsächliche Werte der letzten 12 Monate</label>
+        <name>ActualValuesFromTheLast12Months</name>
+    </customLabels>
+    <customLabels>
+        <label>Delta NE</label>
+        <name>DeltaNetProceeds</name>
+    </customLabels>
+    <customLabels>
+        <label>Delta NE bearbeiten</label>
+        <name>EditDeltaNetProceeds</name>
+    </customLabels>
+    <customLabels>
+        <label>NE (€ / t)</label>
+        <name>NetProceeds</name>
+    </customLabels>
+    <customLabels>
+        <label>Speichern und übernehmen</label>
+        <name>SaveAndSubmit</name>
+    </customLabels>
+    <customLabels>
+        <label>Sind Sie sicher, dass Sie die eingegebenen Nettoerlösveränderungen auf die aktuellen Daten anwenden möchten?</label>
+        <name>SaveSubmitpopUpMsg</name>
+    </customLabels>
+    <customLabels>
+        <label>Absatzmenge (t)</label>
+        <name>SoldAmount</name>
+    </customLabels>
+    <customLabels>
+        <label>Account-Zusammenfassung</label>
+        <name>Account_Summary</name>
+    </customLabels>
+    <customLabels>
+        <label>Informationen für Rechnungsstellung</label>
+        <name>Billing_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte füllen Sie die jeweiligen  Felder &quot;technische Stellungnahme sowie die kaufm. Stellungnahme&quot; aus, bevor Sie den Side Letter in der ausgewählten Sprache erzeugen.</label>
+        <name>CustomErrorForSideLetterDocumentCreation</name>
+    </customLabels>
+    <customLabels>
+        <label>Kundenscoring</label>
+        <name>Customer_Scoring</name>
+    </customLabels>
+    <customLabels>
+        <label>Allgemeine Informationen</label>
+        <name>General_Information</name>
+    </customLabels>
+   <customLabels>
+        <label>Sie sind nicht berechtigt dieses Feld bei diesem Account Typ zu bearbeiten. Bitte kontaktieren Sie die Customer Administration.</label>
+        <name>AccountTypeError</name>
+    </customLabels>
+    <customLabels>
+        <label>Interne Kundendaten</label>
+        <name>Internal_Customer_Data</name>
+    </customLabels>
+    <customLabels>
+        <label>Informationen Absatzplanung</label>
+        <name>Sales_Planning_Information</name>
+    </customLabels>
+    <customLabels>
+        <label>Kontakt;Telefon;Account;E-Mail;Kommentar;Teilnehmer des Besuchs verwalten;Aktuell sind keine Teilnehmer bei diesem Besuch erfasst.;The changes have been saved.;The changes can not be saved;Mobiltelefon;Abteilung</label>
+        <name>EditCurrentAttendees</name>
+    </customLabels>
+    <customLabels>
+        <label>Externe Teilnehmer;Teilnehmer hinzufügen und entfernen;Checklisten;Vorlagen für Checklisten suchen und hinzufügen;Interne Teilnehmer;</label>
+        <name>ManagingVisitReports</name>
+    </customLabels>
+    <customTabs>
+        <label>Absatzplanung</label>
+        <name>SalesPlanning</name>
+    </customTabs>
+    <customLabels>
+        <label>Stadt</label>
+        <name>City</name>
+    </customLabels>
+    <customLabels>
+        <label>Schließen</label>
+        <name>Close</name>
+    </customLabels>
+    <customLabels>
+        <label>Kundennummer</label>
+        <name>CustomerNo</name>
+    </customLabels>
+    <customLabels>
+        <label>Dillinger Sales Department</label>
+        <name>Dillingersalesdepartment</name>
+    </customLabels>
+    <customLabels>
+        <label>E-Mail</label>
+        <name>EMail</name>
+    </customLabels>
+    <customLabels>
+        <label>Vorname</label>
+        <name>FirstName</name>
+    </customLabels>
+    <customLabels>
+        <label>Nachname</label>
+        <name>LastName</name>
+    </customLabels>
+    <customLabels>
+        <label>Kundenname</label>
+        <name>Nameofyourcompany</name>
+    </customLabels>
+    <customLabels>
+        <label>Auftragsnummer</label>
+        <name>OrderNo</name>
+    </customLabels>
+    <customLabels>
+        <label>Vielen Dank für Ihre Anfrage.&lt;/br&gt;&lt;/br&gt;
+
+            Ihre Registrierung für die Dillinger Online-Plattform „myE-Service“ wurde an die zuständige Stelle weitergeleitet. Sie werden nach Überprüfung Ihre Zugangsdaten erhalten.&lt;/br&gt;&lt;/br&gt;
+            
+            
+            Ihre angegebenen Daten:</label>
+        <name>RegistrationEmailBody</name>
+    </customLabels>
+    <customLabels>
+       <label>Mit freundlichen Grüßen&lt;/br&gt;&lt;/br&gt; 
+
+            Ihr myE-Service Team von Dillinger</label>
+        <name>RegistrationEmailRegards</name>
+    </customLabels>
+    <customLabels>
+        <label>myE-Service Benutzer-Registrierungsanfrage</label>
+        <name>RegistrationEmailSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Passwort vergessen?</label>
+        <name>RegistrationFormForgotPassword</name>
+    </customLabels>
+    <customLabels>
+        <label>Registrierungsantrag (nur für Kunden von Dillinger)</label>
+        <name>RegistrationFormHeader1</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte geben Sie hier Ihre persönlichen Daten ein. Die Daten werden an das zuständige Dillinger Sales Department gesendet. Nach der Validierung erhalten Sie Ihren Benutzernamen und Ihr Passwort.</label>
+        <name>RegistrationFormHeader2</name>
+    </customLabels>
+    <customLabels>
+        <label>Benutzerdaten</label>
+        <name>RegistrationFormHeader3</name>
+    </customLabels>
+    <customLabels>
+        <label>Kundendaten</label>
+        <name>RegistrationFormHeader4</name>
+    </customLabels>
+    <customLabels>
+        <label>Login</label>
+        <name>RegistrationFormLogin</name>
+    </customLabels>
+    <customLabels>
+        <label>Straße</label>
+        <name>Street</name>
+    </customLabels>
+    <customLabels>
+        <label>Postleitzahl</label>
+        <name>Zipcode</name>
+    </customLabels>
+    <customLabels>
+        <label>Um die Dillinger Online-Plattform „myE-Service“ nutzen zu können, bestätigen Sie bitte in der Checkbox unten, dass Sie die</label>
+        <name>TermCondition</name>
+    </customLabels>
+    <customLabels>
+        <label>Nutzungsbedingungen</label>
+        <name>TermCondition1</name>
+    </customLabels>
+    <customLabels>
+        <label>gelesen haben und diese akzeptieren.</label>
+        <name>TermCondition2</name>
+    </customLabels>
+    <customLabels>
+        <label>https://stahl-holding-saar--dev.sandbox.my.salesforce.com/sfc/p/1q0000000NOc/a/1q000000DME2/pui_li0bzQeetLdq._ckHGfjR6dXkzdnaVpRrifutwg</label>
+        <name>DocumentLink</name>
+    </customLabels>
+    <customLabels>
+    <label>Pricing Tool wurde in der Anfrage bzw. Anfrageposition deaktiviert.</label>
+        <name>Error_Pricing_Tool_Deactivated</name>
+   </customLabels>
+    <customLabels>
+        <label>Es tut uns leid, Ihnen mitteilen zu müssen, dass Ihr myE-Service Konto aufgrund des Ablaufs Ihres Passworts gesperrt wurde. Die Sicherheit Ihres Kontos liegt uns sehr am Herzen, und wir haben diesen Schritt unternommen, um den Schutz Ihrer Informationen und die Integrität unseres Systems zu gewährleisten.</label>
+        <name>myEServiceBody1</name>
+    </customLabels>
+    <customLabels>
+        <label>Mit freundlichen Grüßen</label>
+        <name>myEServiceBody10</name>
+    </customLabels>
+    <customLabels>
+        <label>Ihr myE-Service Team von Dillinger</label>
+        <name>myEServiceBody11</name>
+    </customLabels>
+    <customLabels>
+        <label>Um Ihr Konto zu entsperren und wieder auf myE-Service zugreifen zu können, befolgen Sie bitte diese Schritte:</label>
+        <name>myEServiceBody2</name>
+    </customLabels>
+    <customLabels>
+        <label>1. Besuchen Sie die myE-Service-Anmeldeseite:</label>
+        <name>myEServiceBody3</name>
+    </customLabels>
+    <customLabels>
+        <label>2. Klicken Sie auf den Link &quot;Passwort vergessen?&quot; unterhalb des Anmeldeformulars</label>
+        <name>myEServiceBody4</name>
+    </customLabels>
+    <customLabels>
+        <label>3. Geben Sie Ihren registrierten Benutzernamen ein</label>
+        <name>myEServiceBody5</name>
+    </customLabels>
+    <customLabels>
+        <label>4. Befolgen Sie die Anweisungen in der E-Mail zur Passwortrücksetzung, die an Ihre registrierte E-Mail-Adresse gesendet wird</label>
+        <name>myEServiceBody6</name>
+    </customLabels>
+    <customLabels>
+        <label>Nach erfolgreichem Zurücksetzen Ihres Passworts wird Ihr Konto entsperrt, und Sie können myE-Service wieder ohne Unterbrechungen nutzen.</label>
+        <name>myEServiceBody7</name>
+    </customLabels>
+    <customLabels>
+        <label>Sollten Sie während dieses Prozesses Schwierigkeiten haben oder Unterstützung benötigen, zögern Sie bitte nicht, uns zu kontaktieren. Wir stehen Ihnen gerne bei Fragen oder Anliegen zur Verfügung.</label>
+        <name>myEServiceBody8</name>
+    </customLabels>
+    <customLabels>
+        <label>Vielen Dank für Ihre Mitarbeit und Ihr Verständnis in dieser Angelegenheit.</label>
+        <name>myEServiceBody9</name>
+    </customLabels>
+    <customLabels>
+        <label>Zurück</label>
+        <name>BackZurack</name>
+    </customLabels>
+    <customLabels>
+        <label>Abbrechen</label>
+        <name>CancelAbbrechenSearch</name>
+    </customLabels>
+    <customLabels>
+        <label>Liefervorschrift Suchbedingungen</label>
+        <name>DeliveryInstructionCriteria</name>
+    </customLabels>
+    <customLabels>
+        <label>Geben Sie bitte die Kriterien der Liefervorschriften zur Suche nach Präkulas ein</label>
+        <name>DeliveryInstructionCriteriaHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label>Wählen Sie bitte ein Präkula aus für das Sie zugehörige LVPositionen angezeigt bekommen wollen order erstellen Sie ein neues Präkula, falls kein passendes vorhanden ist</label>
+        <name>FoundPrakulaHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label>Gefundene Präkulas und zugehörige Liefervorschriften</label>
+        <name>FoundPrakulaandrelatedDeliveryInstructions</name>
+    </customLabels>
+    <customLabels>
+        <label>Neues Präkula</label>
+        <name>NewPrakulaNeuesPrakula</name>
+    </customLabels>
+    <customLabels>
+        <label>Weiter</label>
+        <name>ProceedWeiter</name>
+    </customLabels>
+    <customLabels>
+        <label>LVPositionen</label>
+        <name>RelatedLVPositions</name>
+    </customLabels>
+    <customLabels>
+        <label>Wählen Sie bitte eine passende LVPosition aus, die der Anfragepositionen zugeordnet werden soll. Wählen Sie keine LVPosition aus, so wird nach Abschluss mit Weiter nur das Präkula der Anfrageposition zugeordnet</label>
+        <name>RelatedLVPositionsHelpText</name>
+    </customLabels>
+    <customLabels>
+        <label>Präkula suchen</label>
+        <name>SearchPrakulaPrakulasuchen</name>
+    </customLabels>
+    <customLabels>
+        <label>Kontakt</label>
+        <name>ContactDHLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Innovative und hochqualitative Stahlprodukte, absolute Ausrichtung auf die Bedürfnisse unserer Kunden sowie eine ständige Weiterentwicklung gemeinsam mit unseren Partnern bilden die Säulen für unseren Erfolg - und das seit mehr als 333 Jahren.</label>
+        <name>CustomLoginFooter1</name>
+    </customLabels>
+    <customLabels>
+        <label>© 2024 Dillinger Alle Rechte vorbehalten.</label>
+        <name>CustomLoginFooter2</name>
+    </customLabels>
+    <customLabels>
+        <label>Impressum</label>
+        <name>CustomLoginFooter3</name>
+    </customLabels>
+    <customLabels>
+        <label>Datenschutz</label>
+        <name>CustomLoginFooter4</name>
+    </customLabels>
+    <customLabels>
+        <label>AGB</label>
+        <name>CustomLoginFooter5</name>
+    </customLabels>
+    <customLabels>
+        <label>Unser Newsletter news@dillinger enthält interessante Informationen rund um Dillinger - das Unternehmen, seine Produkte, Beispiele von Stahlanwendungen, Verarbeitungshinweise etc.</label>
+        <name>CustomLoginFooter6</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.dillinger.de/d/de/allgemein/impressum/index.shtml; https://www.dillinger.de/d/de/allgemein/datenschutz/index.shtml; https://www.dillinger.de/d/de/allgemein/agb/index.shtml</label>
+        <name>customWebLink1</name>
+    </customLabels>
+    <customLabels>
+        <label>Newsletter Anmeldung</label>
+        <name>CustomLoginFooter7</name>
+    </customLabels>
+    <customLabels>
+        <label>Nutzungsbedingungen bestätigen</label>
+        <name>AgreeTermConditions</name>
+    </customLabels>
+    <customLabels>
+        <label>Der myE-Service Benutzer für</label>
+        <name>ClosedNotifyBody1</name>
+    </customLabels>
+    <customLabels>
+        <label>wurde angelegt und die Zugangsdaten automatisch versendet.</label>
+        <name>ClosedNotifyBody2</name>
+    </customLabels>
+    <customLabels>
+        <label>myE-Service Benutzer wurde angelegt</label>
+        <name>ClosedNotifySubject</name>
+    </customLabels>
+    <customLabels>
+        <label>E-Mail</label>
+        <name>EMailFlow</name>
+    </customLabels>
+    <customLabels>
+        <label>Vielen Dank für Ihr Interesse an der Registrierung für unser Kundenportal myE-Service.</label>
+        <name>RejectedMailBody1</name>
+    </customLabels>
+    <customLabels>
+        <label>Wir möchten Sie darauf hinweisen, dass ein myE-Service-Konto vor allem für unsere Kunden von Vorteil ist, die bereits Aufträge an unser Unternehmen vergeben haben. Dieses Portal wurde entwickelt, um die Zusammenarbeit nach der Bestellung zu verbessern, indem es wertvolle Funktionen und Unterstützung bietet, die auf unseren bestehenden Kundenkreis zugeschnitten sind.</label>
+        <name>RejectedMailBody2</name>
+    </customLabels>
+    <customLabels>
+        <label>Nach Durchsicht unserer Unterlagen müssen wir Ihnen leider mitteilen, dass Ihr Unternehmen derzeit nicht als Kunde geführt wird und folglich auch keine Aufträge vorliegen, die einen elektronischen Zugang über myE-Service rechtfertigen würden. In Anbetracht dieses Umstandes ist die Gewährung eines speziellen Zugangs zum jetzigen Zeitpunkt nicht mit unserem bestehenden operativen Rahmen vereinbar.</label>
+        <name>RejectedMailBody3</name>
+    </customLabels>
+    <customLabels>
+        <label>Vielen Dank für Ihr Verständnis und das Interesse an unseren Services.</label>
+        <name>RejectedMailBody4</name>
+    </customLabels>
+    <customLabels>
+        <label>MyE-Service Registrierunsganfrage</label>
+        <name>RejectedMailSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte legen Sie den Benutzer für myE-Service mit den entsprechenden Informationen an:</label>
+        <name>UserCreationSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Rolle</label>
+        <name>UserType</name>
+    </customLabels>
+    <customLabels>
+        <label>Sortierung</label>
+        <name>Sorting</name>
+    </customLabels>
+    <customLabels>
+        <label>von A nach Z</label>
+        <name>Sorting1</name>
+    </customLabels>
+    <customLabels>
+        <label>von Z nach A</label>
+        <name>Sorting2</name>
+    </customLabels>
+    <customLabels>
+        <label>Menge aufsteigend total / Jahr (forecast)</label>
+        <name>Sorting3</name>
+    </customLabels>
+    <customLabels>
+        <label>Menge absteigend total / Jahr (forecast)</label>
+        <name>Sorting4</name>
+    </customLabels>
+    <customLabels>
+        <label>Menge aufsteigend Monat (letzter abg. Monat)</label>
+        <name>Sorting5</name>
+    </customLabels>
+    <customLabels>
+        <label>Menge absteigend Monat (letzter abg. Monat)</label>
+        <name>Sorting6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddAttendeeNoResults --></label>
+        <name>AddAttendeeNoResults</name>
+    </customLabels>
+    <customLabels>
+        <label>Teilnehmer zum Besuch hinzufügen;Previous;Next;Cancel;Save;Neuer Teilnehmer;Is Primary Contact;Add New</label>
+        <name>AddAttendees</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddAttendeesMessages --></label>
+        <name>AddAttendeesMessages</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddChecklist --></label>
+        <name>AddChecklist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- AddChecklistErrors --></label>
+        <name>AddChecklistErrors</name>
+    </customLabels>
+    <customLabels>
+        <label>Add checklists for Visit ;Gewünschte Checkliste suchen und hinzufügen:;Checklist Name;Add;Cancel;No checklists are available.;No results found.</label>
+        <name>ManageChecklist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManageChecklistRemoveButtons --></label>
+        <name>ManageChecklistRemoveButtons</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ManageChecklistRemovePopup --></label>
+        <name>ManageChecklistRemovePopup</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RemoveChecklistSuccessToast --></label>
+        <name>RemoveChecklistSuccessToast</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveChecklistQuestionResponseSuccess --></label>
+        <name>SaveChecklistQuestionResponseSuccess</name>
+    </customLabels>
+    <customLabels>
+        <label>Typ;Bezeichnung;Ausgabedatum;Herausgeber;WBH Norm;Abmessung A von;Abmessung A bis;Auswählen</label>
+        <name>SearchPrakulaScreenLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>wir haben eine Anfrage zur Änderung der E-Mail Adresse für den Benutzernamen</label>
+        <name>newEmailAddressChangeBody1</name>
+    </customLabels>
+    <customLabels>
+        <label>erhalten. Bitte überprüfen Sie, ob die folgenden Angaben korrekt sind:</label>
+        <name>newEmailAddressChangeBody2</name>
+    </customLabels>
+    <customLabels>
+        <label>Alte E-Mail Adresse:</label>
+        <name>newEmailAddressChangeBody3</name>
+    </customLabels>
+    <customLabels>
+        <label>Neue E-Mail Adresse:</label>
+        <name>newEmailAddressChangeBody4</name>
+    </customLabels>
+    <customLabels>
+        <label>Um die Änderungen abzuschließen, klicken Sie bitte auf den folgenden Link. Dieser Link ist 72 Stunden gültig.</label>
+        <name>newEmailAddressChangeBody5</name>
+    </customLabels>
+    <customLabels>
+        <label>Nachdem Sie die Änderung Ihrer E-Mail Adresse bestätigt haben, wird auch Ihr Benutzername auf das Format E-Mail Adresse.dillinger aktualisiert, z.B. test@email.com.dillinger. Falls die Änderung Ihrer E-Mail Adresse zu einem bereits existierenden Benutzernamen führt, werden wir uns mit Ihnen in Verbindung setzen.</label>
+        <name>newEmailAddressChangeBody6</name>
+    </customLabels>
+    <customLabels>
+        <label>myE-Service: Änderung der E-Mail Adresse für Benutzername</label>
+        <name>newEmailAddressChangeSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>ACHTUNG: Der Account hat den Compliance Check nicht bestanden.</label>
+        <name>ComplianceCheckForExisitingOpportunities</name>
+    </customLabels>
+    <customLabels>
+        <label>Der Account hat den Compliance Check nicht bestanden, daher kann der Kontakt nicht bearbeitet werden.</label>
+        <name>ContactRichTextLabel</name>
+    </customLabels>
+    <customLabels>
+        <label>Kundennummer</label>
+        <name>CustomerNumber</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte unten stehende Anfrage überprüfen und ggfs. anlegen:</label>
+        <name>QueueAssigmentBody1</name>
+    </customLabels>
+    <customLabels>
+        <label>myE-Service Benutzer-Registrierungsanfrage</label>
+        <name>QueueAssigmentSubject</name>
+    </customLabels>
+    <customLabels>
+        <label>Anfrage</label>
+        <name>Request</name>
+    </customLabels>
+    <customLabels>
+        <label>Link zur Absatzplanung url</label>
+        <name>LinkToSP</name>
+    </customLabels>
+    <customLabels>
+        <label>Datensätze pro Seite</label>
+        <name>Recordsperpage</name>
+    </customLabels>
+    <customLabels>
+        <label>Fertigmaterial; Produkt ; Stahlmarke ; Abmessung A ; Abmessung B; Auswählen</label>
+        <name>FinishedGoodsHeader</name>
+    </customLabels>
+    <customLabels>
+        <label>Geben Sie bitte die Kriterien zur Suche nach einer passenden Materialnummer ein</label>
+        <name>FinishedGoodsScreen1HelpText</name>
+    </customLabels>
+    <customLabels>
+        <label>Fertigmaterial Suchbedingungen</label>
+        <name>FinishedMaterialCriteria</name>
+    </customLabels>
+    <customLabels>
+        <label>Bitte wählen Sie die passende Materialnummer aus</label>
+        <name>FinsihedGoodsScreen2HelpText</name>
+    </customLabels>
+    <customLabels>
+        <label>Gefundene Materialnummern</label>
+        <name>FoundFinishedGoods</name>
+    </customLabels>
+    <customLabels>
+        <label>Materialnummern suchen</label>
+        <name>SearchFinishedGoods</name>
+    </customLabels>
+    <customLabels>
+        <label>Materialnummer auswählen</label>
+        <name>SelectFinishedGoods</name>
+    </customLabels>
+    <customLabels>
+        <label>Stahlmarke</label>
+        <name>SteelGrade</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows/>
+        <fullName>AutoCreateTasksForAccounts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ErrorDetailedMessage</name>
+                </fields>
+                <name>Error_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessageOLIDisplay</name>
+                </fields>
+                <name>Fault_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessage0</name>
+                </fields>
+                <name>InactiveErrorMessage</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>FMNErrorMsg1</name>
+                </fields>
+                <name>InactiveFMNErrorScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ProductErrorMsg1</name>
+                </fields>
+                <name>ProductErrorMsg</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ProductFMN</name>
+                </fields>
+                <name>ProductFMNErrorScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>TrLightErrorMessage1</name>
+                </fields>
+                <name>StageNameNotOpen1</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>SuccessMessage</name>
+                </fields>
+                <name>Success_Error_OLI</name>
+            </screens>
+        </flows>
+        <fullName>ConvertTechReqToOLI</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <fieldText>Zusätzliche Empfänger</fieldText>
+                    <helpText>Um mehrere Empfänger gleichzeitig hinzuzufügen, geben Sie bitte die verschiedenen E-Mail-Adressen nur durch ein Komma getrennt an. Beispiel: Adresse1,Adresse2,Adresse3</helpText>
+                    <name>AdditionalRecipients</name>
+                </fields>
+                <name>EnterEmailAddressScreen</name>
+            </screens>
+            <textTemplates>
+                <name>NotificationBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>DHEmailTemplateformilltour</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>City</name>
+                </fields>
+                <fields>
+                    <name>Cust_no</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value/>
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Email</name>
+                </fields>
+                <fields>
+                    <name>First_Name</name>
+                </fields>
+                <fields>
+                    <name>FooterText</name>
+                </fields>
+                <fields>
+                    <name>Header1</name>
+                </fields>
+                <fields>
+                    <name>Header2</name>
+                </fields>
+                <fields>
+                    <name>HeaderPart1</name>
+                </fields>
+                <fields>
+                    <name>HeaderPart2</name>
+                </fields>
+                <fields>
+                    <name>Last_Name</name>
+                </fields>
+                <fields>
+                    <name>Name_of_company</name>
+                </fields>
+                <fields>
+                    <name>Order_No</name>
+                </fields>
+                <fields>
+                    <name>Registration_Form_Screen_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <name>Registration_Form_Screen_Section2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section2_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section2_Column2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section2_Column3</name>
+                </fields>
+                <fields>
+                    <name>Registration_Form_Screen_Section3</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section3_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section3_Column2</name>
+                </fields>
+                <fields>
+                    <name>Registration_Form_Screen_Section4</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section4_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value/>
+                    </inputParameters>
+                    <name>Registration_Form_Screen_Section4_Column2</name>
+                </fields>
+                <fields>
+                    <name>SalesDepartmentDellinger</name>
+                </fields>
+                <fields>
+                    <name>Street</name>
+                </fields>
+                <fields>
+                    <name>Zipcode</name>
+                </fields>
+                <name>Registration_Form_Screen</name>
+                <nextOrFinishButtonLabel>Registrieren</nextOrFinishButtonLabel>
+            </screens>
+        </flows>
+        <fullName>CommunityPortalRegistration</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+            <flows>
+                <screens>
+                    <fields>
+                        <fieldText>Produkt</fieldText>
+                        <name>Products</name>
+                    </fields>
+                    <fields>
+                        <fieldText>Mengeneinheit</fieldText>
+                        <name>QuantityUnit</name>
+                    </fields>
+                    <fields>
+                        <name>el_0</name>
+                    </fields>
+                    <name>Select_Product</name>
+                </screens>
+            </flows>
+            <fullName>CreateProductFromOpportunity</fullName>
+        </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Agree_Term_Conditions</name>
+                </fields>
+                <fields>
+                    <name>DisplayTerm</name>
+                </fields>
+                <name>Term_Condition_Screen</name>
+                <nextOrFinishButtonLabel>Weiter</nextOrFinishButtonLabel>
+            </screens>
+        </flows>
+        <fullName>PortalTermConditionFlow</fullName>
+    </flowDefinitions>
+</Translations>

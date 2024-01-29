@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset xsi:nil="true"/>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(82, 183, 216)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>Total Overdues</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>Avg_of_Overdues_Time_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(82, 183, 216)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>Total Overdrafts</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>Avg_of_Overdrafts_Ti_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>*</bin>
+                <formatValue>linear-gradient(to bottom, #F71979, #CC203D)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0</bin>
+                <formatValue>linear-gradient(to bottom, #3AE867, #3AE867)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0.5</bin>
+                <formatValue>linear-gradient(to bottom, #FED444, #FED444)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>2</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0.8</bin>
+                <formatValue>linear-gradient(to bottom, #F71979, #F71979)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>3</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>E</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>multiple</type>
+        </conditionalFormatting>
+        <field>Total_Limit_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(225, 96, 50)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>External Limit</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>External_Limit_vs_Ut_1.ALL</field>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Total_Overdraft_Amou_1.Avg_Overdraft</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Total_Overdue_Amount_1.Avg_Overdues</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Top_10_Accounts_by_O_1.A</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Total Overdues</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(82, 183, 216)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>Total Overdues</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>Avg_of_Overdues_Time_1.Total Overdues</field>
+        <isDerived>false</isDerived>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(225, 96, 50)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>Count of Accounts with Open Overdues</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>Avg_of_Overdues_Time_1.Count of Accounts with Open Overdues</field>
+        <isDerived>false</isDerived>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(82, 183, 216)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>Total Overdrafts</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>Avg_of_Overdrafts_Ti_1.Total Overdrafts</field>
+        <isDerived>false</isDerived>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(225, 96, 50)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>Count of Accounts with Open Overdues</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>Avg_of_Overdrafts_Ti_1.Count of Accounts with Open Overdues</field>
+        <isDerived>false</isDerived>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Total_Current_Overdr_1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Total Current Overdraft</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Total_Current_Overdu_1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues_since_5_day_1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues_since_10_da_1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues_since_30_da_1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues_since_more__1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding_since_10_1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding_since_5__1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding_since_mo_1.A</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>Total_Limit_1.C</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Total Limit</label>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>Total_Limit_1.D</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Outstanding Payments</label>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingBins>
+                <bin>*</bin>
+                <formatValue>linear-gradient(to bottom, #F71979, #CC203D)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>0</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0</bin>
+                <formatValue>linear-gradient(to bottom, #3AE867, #3AE867)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>1</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0.5</bin>
+                <formatValue>linear-gradient(to bottom, #FED444, #FED444)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>2</sortIndex>
+            </formattingBins>
+            <formattingBins>
+                <bin>0.8</bin>
+                <formatValue>linear-gradient(to bottom, #F71979, #F71979)</formatValue>
+                <label xsi:nil="true"/>
+                <sortIndex>3</sortIndex>
+            </formattingBins>
+            <property>chartColor</property>
+            <referenceField>E</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>multiple</type>
+        </conditionalFormatting>
+        <field>Total_Limit_1.E</field>
+        <formatCustomFormat>[&quot;##%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>% Utilization of Limit</label>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>rgb(225, 96, 50)</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>External Limit</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>External_Limit_vs_Ut_1.External Limit</field>
+        <isDerived>false</isDerived>
+        <sortIndex>19</sortIndex>
+    </measures>
+    <measures>
+        <conditionalFormatting>
+            <formattingPredicates>
+                <formatValue>#006667</formatValue>
+                <operator xsi:nil="true"/>
+                <sortIndex xsi:nil="true"/>
+                <value xsi:nil="true"/>
+            </formattingPredicates>
+            <property>chartColor</property>
+            <referenceField>Outstanding Payment</referenceField>
+            <sortIndex xsi:nil="true"/>
+            <type>static</type>
+        </conditionalFormatting>
+        <field>External_Limit_vs_Ut_1.Outstanding Payment</field>
+        <isDerived>false</isDerived>
+        <sortIndex>20</sortIndex>
+    </measures>
+    <measures>
+        <field>Table_View_2.Overdues_since_30_Days1</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <sortIndex>21</sortIndex>
+    </measures>
+    <type>Asset</type>
+    <waveVisualization>Risk_Management_Account_View</waveVisualization>
+</WaveXmd>

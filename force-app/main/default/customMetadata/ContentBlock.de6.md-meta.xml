@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>de6</label>
+    <protected>false</protected>
+    <values>
+        <field>ContentText__c</field>
+        <value xsi:type="xsd:string">Randentkohlung gem. DIN EN ISO 3887-03 (max. 0,10mm für Abm. &lt;= 10mm; max. 1% vD für Abm. &gt;10mm)</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">DE</value>
+    </values>
+    <values>
+        <field>PicklistValue__c</field>
+        <value xsi:type="xsd:string">Edge decarburization according to DIN EN ISO 3887-03</value>
+    </values>
+</CustomMetadata>

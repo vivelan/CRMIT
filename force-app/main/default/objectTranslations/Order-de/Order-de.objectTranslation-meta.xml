@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage>Da der Kunde deaktiviert ist, können keine neuen Aufträge erstellt werden.</errorMessage>
+        <name>Account_Deactivated</name>
+    </validationRules>
+</CustomObjectTranslation>

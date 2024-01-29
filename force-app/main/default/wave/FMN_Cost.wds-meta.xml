@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Pricing_Dashboards</application>
+    <description>Created from the Calculate FMN Cost recipe.</description>
+    <masterLabel>FMN Cost</masterLabel>
+    <type>default</type>
+</WaveDataset>

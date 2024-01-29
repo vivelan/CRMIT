@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CAD - CAD</fullName>
+        <default>false</default>
+        <label>CAD - CAD</label>
+    </customValue>
+    <customValue>
+        <fullName>CFR - Costs and freight</fullName>
+        <default>false</default>
+        <label>CFR - Costs and freight</label>
+    </customValue>
+    <customValue>
+        <fullName>CIF - Cost, Insurance &amp; Freight</fullName>
+        <default>false</default>
+        <label>CIF - Cost, Insurance &amp; Freight</label>
+    </customValue>
+    <customValue>
+        <fullName>CIP - Freight free insured</fullName>
+        <default>false</default>
+        <label>CIP - Freight free insured</label>
+    </customValue>
+    <customValue>
+        <fullName>CPT - Freight free</fullName>
+        <default>false</default>
+        <label>CPT - Freight free</label>
+    </customValue>
+    <customValue>
+        <fullName>DAP - Delivered named place</fullName>
+        <default>false</default>
+        <label>DAP - Delivered named place</label>
+    </customValue>
+    <customValue>
+        <fullName>DPU - Delivered terminal</fullName>
+        <default>false</default>
+        <label>DPU - Delivered terminal</label>
+    </customValue>
+    <customValue>
+        <fullName>DDP - Delivered duty paid</fullName>
+        <default>false</default>
+        <label>DDP - Delivered duty paid</label>
+    </customValue>
+    <customValue>
+        <fullName>EXW - Ex works</fullName>
+        <default>false</default>
+        <label>EXW - Ex works</label>
+    </customValue>
+    <customValue>
+        <fullName>FAS - Free longitudinal ship</fullName>
+        <default>false</default>
+        <label>FAS - Free longitudinal ship</label>
+    </customValue>
+    <customValue>
+        <fullName>FCA - Free carrier</fullName>
+        <default>false</default>
+        <label>FCA - Free carrier</label>
+    </customValue>
+    <customValue>
+        <fullName>FOB - Free on board</fullName>
+        <default>false</default>
+        <label>FOB - Free on board</label>
+    </customValue>
+    <masterLabel>Incoterm</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

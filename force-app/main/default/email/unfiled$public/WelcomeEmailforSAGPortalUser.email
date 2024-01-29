@@ -1,0 +1,28 @@
+<p>{!$Label.DearforWelcomeEmail} {!Receiving_User.Salutation__c} {!Receiving_User.FirstName} {!Receiving_User.LastName},</p>
+
+<p>{!$Label.WelcomeEmailBodyPart1}</p>
+
+<p>{!$Label.WelcomeEmailBodyPart2}</p>
+
+<p>{!$Label.WelcomeEmailBodyPart3}&nbsp <a href="{!Community_Url }">{!Community_Url }</a> &nbsp {!$Label.WelcomeEmailBodyPart4}&nbsp <a href="mailto:no-reply@crm.stahl-holding-saar.de">no-reply@crm.stahl-holding-saar.de</a></p>
+
+<p>{!$Label.WelcomeEmailBodyPart5}</p>
+
+<p>{!$Label.WelcomeEmailBodyPart6}</p>
+
+<p>{!$Label.WelcomeEmailBodyforPortalPart7}<br>
+
+<p>{!$Label.WelcomeEmailBodyforPortalPart8}<br>
+   {!$Label.WelcomeEmailBodyforPortalPart8A}<br>
+
+<p>{!$Label.WelcomeEmailBodyforPortalPart8Ba} <a 
+ href="mailto:sales@saarstahl.com">sales@saarstahl.com</a><br>
+{!$Label.WelcomeEmailBodyforPortalPart8B} <a href="https://www.saarstahl.com/">www.saarstahl.com</a></p>
+
+<p>{!$Label.WelcomeEmailBodyforPortalPart9}<br>
+{!$Label.WelcomeEmailBodyforPortalPart10}<br>	
+{!$Label.WelcomeEmailBodyforPortalPart11}<br>
+{!$Label.WelcomeEmailBodyforPortalPart12}</p>
+
+<p>{!$Label.WelcomeEmailBodyforPortalPart13a}<br>
+{!$Label.WelcomeEmailBodyforPortalPart14a}

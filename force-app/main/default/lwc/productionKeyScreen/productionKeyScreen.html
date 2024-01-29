@@ -1,0 +1,76 @@
+<template>
+  <div if:true={isLoading}>
+    <lightning-spinner
+        alternative-text="Loading..." variant="brand" class="slds-is-fixed">
+    </lightning-spinner>
+  </div>
+  
+  <template if:true={isValidProfile}>
+    <lightning-card variant="narrow">
+      <lightning-layout>
+        <lightning-layout-item padding="around-small">
+          <p class="first_title slds-text-title_bold slds-m-left_x-small">{label.ProductionKey}</p><br/>     
+            <template if:true={positions1}>
+              <div class="float-child-left">
+                <div class="slds-form-element slds-col slds-m-left_x-small slds-m-right_x-small">
+                    <template for:each={positions1} for:item="opt"></br>
+                      <div key ={opt.posLabel} if:true={opt.isRequired}>
+                        <abbr class="slds-required slds-form-element__label" for="select-01" title="required">*</abbr>{opt.posLabel}
+                      </div>
+                      <div key ={opt.posLabel} if:false={opt.isRequired}>
+                        <label class="slds-form-element__label" for="select-01">{opt.posLabel}</label>
+                      </div>
+                      <div key={opt.posLabel} class="slds-select_container slds-m-bottom_medium" aria-required="true">
+                        <select name={opt.posLabel} class="slds-select" disabled={isdisabled} data-item={opt.listOfFieldVal} id={opt.posLabel}  onchange={handleSelect}>
+                           <option>{label.None}</option> 
+                           <template if:true={opt.valueToBeDefaulted}>
+                            <option selected>{opt.valueToBeDefaulted}</option>
+                           </template> 
+                            <template for:each={opt.listOfFieldVal} for:item="op">
+                              <option key={op}>{op}</option>
+                            </template>
+                        </select>
+                      </div>
+                    </template>   
+                </div>
+              </div>
+            </template>        
+             <template if:true={positions2}>
+              <div class="float-child-right">
+                <div class="slds-form-element slds-col slds-m-left_x-small slds-m-right_x-small">
+                  <template for:each={positions2} for:item="opt"></br>
+                    <div key ={opt.posLabel} if:true={opt.isRequired}>
+                      <abbr class="slds-required slds-form-element__label" for="select-01" title="required">*</abbr>{opt.posLabel}
+                    </div>
+                    <div key ={opt.posLabel} if:false={opt.isRequired}>
+                      <label class="slds-form-element__label" for="select-01">{opt.posLabel}</label>
+                    </div>
+                    <div key={opt.posLabel} class="slds-select_container slds-m-bottom_medium" aria-required="true">
+                      <select name={opt.posLabel} class="slds-select" disabled={isdisabled} data-item={opt.listOfFieldVal} id={opt.posLabel}  onchange={handleSelect}>
+                          <option>{label.None}</option> 
+                          <template if:true={opt.valueToBeDefaulted}>
+                            <option selected>{opt.valueToBeDefaulted}</option>
+                          </template>
+                          <template for:each={opt.listOfFieldVal} for:item="op">
+                            <option key={op}>{op}</option>
+                          </template>
+                      </select>
+                    </div>
+                </template>
+                </div>
+              </div>
+            </template>      
+      <br/><br/>
+    </lightning-layout-item>
+  </lightning-layout> 
+        <div class="slds-p-top_medium" style="height:50px;" >
+           <lightning-layout class="slds-float_right">
+               <lightning-layout-item padding="around-small">
+                    <button class="slds-button slds-button_brand slds-is-selected-clicked slds-m-right_x-small" disabled={isdisabled} style="height:30px;width:100px;font-size:15px;" title="saveProductionKey" onclick={handleSaveValues}>{label.SaveButton}</button>
+                </lightning-layout-item>
+        </lightning-layout>
+       
+        </div><br/>
+    </lightning-card>
+  </template> 
+</template>

@@ -1,0 +1,352 @@
+{
+  "version" : "58.0",
+  "nodes" : {
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "fixed_cost", "category_2", "price_point_year", "internal_cost", "last_updated", "category_1", "child_material_no", "external_cost", "alternate_basic_plan", "quantity_child_material", "id", "category_3", "material_no", "price_point_month" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "cost_calculated_per_rlevel",
+          "connectionName" : "Heroku",
+          "sourceObjectName" : "cost_calculated_per_rlevel"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "BUCKET0" : {
+      "action" : "bucket",
+      "sources" : [ "FILTER0" ],
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Date_Type",
+          "label" : "Date Type",
+          "type" : "TEXT",
+          "bucketsSetup" : {
+            "isPassthroughEnabled" : true,
+            "sourceField" : {
+              "name" : "price_point_month",
+              "type" : "TEXT"
+            },
+            "buckets" : [ {
+              "value" : "Monthly",
+              "sourceValues" : [ "1", "10", "11", "12", "2", "3", "4", "5", "6", "7", "8", "9" ]
+            }, {
+              "value" : "Quarterly",
+              "sourceValues" : [ "Q1", "Q2", "Q3", "Q4" ]
+            }, {
+              "value" : "Yearly",
+              "sourceValues" : [ "0" ]
+            } ]
+          }
+        } ]
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "JOIN3" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Cost of Production R-Levels",
+          "name" : "Cost_of_Production_R_Levels",
+          "folderName" : "Pricing_Dashboards"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "FILTER0" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "alternate_basic_plan",
+          "operator" : "EQUAL",
+          "operands" : [ "0" ]
+        } ]
+      }
+    },
+    "LOAD_DATASET1" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "category_1_de", "category_1_en_US" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Vertical_Translation",
+          "name" : "Vertical_Translation"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET1_copy0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "category_2_de", "category_2_en_US" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Vertical_Translation",
+          "name" : "Vertical_Translation"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET1_copy0_copy0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "category_3_de", "category_3_en_US" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Vertical_Translation",
+          "name" : "Vertical_Translation"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET1_copy0_copy0_copy0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Date_Type_de", "Date_Type_en_US" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Vertical_Translation",
+          "name" : "Vertical_Translation"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN0" : {
+      "action" : "join",
+      "sources" : [ "BUCKET0", "LOAD_DATASET1" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "category_1" ],
+        "rightKeys" : [ "category_1_de" ]
+      }
+    },
+    "JOIN1" : {
+      "action" : "join",
+      "sources" : [ "JOIN0", "LOAD_DATASET1_copy0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "category_2" ],
+        "rightKeys" : [ "category_2_de" ]
+      }
+    },
+    "JOIN2" : {
+      "action" : "join",
+      "sources" : [ "JOIN1", "LOAD_DATASET1_copy0_copy0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "category_3" ],
+        "rightKeys" : [ "category_3_de" ]
+      }
+    },
+    "JOIN3" : {
+      "action" : "join",
+      "sources" : [ "JOIN2", "LOAD_DATASET1_copy0_copy0_copy0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Date_Type" ],
+        "rightKeys" : [ "Date_Type_en_US" ]
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "label" : "cost_calculated_per_rlevel",
+        "type" : "LOAD_DATASET",
+        "top" : 112,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM0" : {
+        "label" : "Bucket time period types",
+        "description" : "Bucked the price point information for the month in three buckets, depending on it applies to Monhtly values, Quarterly values or Yearly.",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 392,
+        "graph" : {
+          "BUCKET0" : {
+            "label" : "Bucket dates in monthly, quarterly and yearly"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT0" : {
+        "label" : "Overwrite Cost of Production R-Levels dataset",
+        "description" : "Update the cost of production dataset",
+        "type" : "OUTPUT",
+        "top" : 112,
+        "left" : 1092
+      },
+      "FILTER0" : {
+        "label" : "Exclude Alternative Basic Plan rows",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 112,
+        "left" : 252
+      },
+      "LOAD_DATASET1" : {
+        "label" : "R-Level 1 Translation",
+        "description" : "",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 392,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET1_copy0" : {
+        "label" : "R-Level 2 Translation",
+        "description" : "",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 532,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET1_copy0_copy0" : {
+        "label" : "R-Level 3 Translation",
+        "description" : "",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 672,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET1_copy0_copy0_copy0" : {
+        "label" : "Date Type Translation",
+        "description" : "",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 812,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN0" : {
+        "label" : "Join R-Level 1 Translation",
+        "description" : "Join the german and english labels for the category_1 field",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 532
+      },
+      "JOIN1" : {
+        "label" : "Join R-Level 2 Translation",
+        "description" : "Join the german and english labels for the category_2 field",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 672
+      },
+      "JOIN2" : {
+        "label" : "Join R-Level 3 Translation",
+        "description" : "Join the german and english labels for the category_1 field",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 812
+      },
+      "JOIN3" : {
+        "label" : "Join Date Type Translation",
+        "description" : "Join the german and english labels for the Date Type field (i.e. if the row is for monthly, quarterly or yearly forecast values)",
+        "type" : "JOIN",
+        "top" : 112,
+        "left" : 952
+      }
+    },
+    "connectors" : [ {
+      "source" : "JOIN3",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "FILTER0"
+    }, {
+      "source" : "FILTER0",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "JOIN0"
+    }, {
+      "source" : "LOAD_DATASET1",
+      "target" : "JOIN0"
+    }, {
+      "source" : "JOIN0",
+      "target" : "JOIN1"
+    }, {
+      "source" : "LOAD_DATASET1_copy0",
+      "target" : "JOIN1"
+    }, {
+      "source" : "JOIN1",
+      "target" : "JOIN2"
+    }, {
+      "source" : "LOAD_DATASET1_copy0_copy0",
+      "target" : "JOIN2"
+    }, {
+      "source" : "JOIN2",
+      "target" : "JOIN3"
+    }, {
+      "source" : "LOAD_DATASET1_copy0_copy0_copy0",
+      "target" : "JOIN3"
+    } ],
+    "hiddenColumns" : [ ]
+  },
+  "runMode" : "full"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>STW - Entgasen (St.6)</label>
+    <name>Degassing__c</name>
+    <picklistValues>
+        <masterLabel>A</masterLabel>
+        <translation>A - Angießcharge entgasen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E</masterLabel>
+        <translation>E - Entgasen (Vorgabe Kunde oder QW)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

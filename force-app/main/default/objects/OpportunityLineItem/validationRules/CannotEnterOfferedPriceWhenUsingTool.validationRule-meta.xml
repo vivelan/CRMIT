@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CannotEnterOfferedPriceWhenUsingTool</fullName>
+    <active>true</active>
+    <description>Cannot Enter Final Price when use Pricing Tool Checkbox is checked in Detail tab</description>
+    <errorConditionFormula>!ISCHANGED(UsePricingTool__c ) &amp;&amp;
+(UsePricingTool__c &amp;&amp; FinalPrice__c != 0)</errorConditionFormula>
+    <errorMessage>Pricing Tool is active for the opportunity respectively opportunity line item. Please enter the price in the Pricing Tool.</errorMessage>
+</ValidationRule>

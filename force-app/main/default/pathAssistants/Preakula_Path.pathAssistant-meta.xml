@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Praekula__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Preakula Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>TechnicalRemarkSales__c</fieldNames>
+        <picklistValueName>Final Check</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Account__c</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>TechnicalRemarkQualityDepartment__c</fieldNames>
+        <fieldNames>PrintableToDescription__c</fieldNames>
+        <fieldNames>PrintabletoContent__c</fieldNames>
+        <picklistValueName>Quality Check</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

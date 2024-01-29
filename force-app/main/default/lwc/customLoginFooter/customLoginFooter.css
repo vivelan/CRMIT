@@ -1,0 +1,39 @@
+/* customLoginFooter.css */
+.footer {
+    position: relative;
+    text-align: left;
+    background-color: #8597a5;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 2px;
+    text-align: left;
+}
+
+.footer img {
+    width: 95px;
+}
+/*.lwcInputElement {
+    width: 30%;
+    display: block;
+}
+.lwcInputElement > label.slds-form-element__label {
+    font-family: "Salesforce Sans",Arial,sans-serif;
+    color: #333; 
+    font-size: 16px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+.lwcInputInner {
+    display: block;
+    width: 100%;
+    margin-bottom:10px;
+}*/

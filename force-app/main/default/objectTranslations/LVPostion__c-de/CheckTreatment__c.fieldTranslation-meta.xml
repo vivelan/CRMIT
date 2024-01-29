@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>HZV v. Umblock. Prüf./Bearb. (St.11-14)</label>
+    <name>CheckTreatment__c</name>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation>M - Mecana</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>V</masterLabel>
+        <translation>V - visuelle Kontrolle (ohne Putzen)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

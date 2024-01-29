@@ -1,0 +1,15 @@
+{
+  "orgName": "SHS",
+  "edition": "Developer",
+  "features": ["EnableSetPasswordInApi"],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true,
+      "enableNetworksEnabled": true,
+      "enableExperienceBundleMetadata": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    }
+  }
+}

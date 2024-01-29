@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountsComplianceCheckFailed</fullName>
+    <columns>Status__c</columns>
+    <columns>ComplianceCheck__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>CustomerNumber__c</columns>
+    <columns>Segment1__c</columns>
+    <columns>Segment2__c</columns>
+    <columns>Segment3__c</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY_CODE</columns>
+    <columns>Agency__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ComplianceCheck__c</field>
+        <operation>equals</operation>
+        <value>Failed</value>
+    </filters>
+    <label>Accounts - Compliance Check (Failed)</label>
+    <sharedTo>
+        <role>DH</role>
+    </sharedTo>
+</ListView>

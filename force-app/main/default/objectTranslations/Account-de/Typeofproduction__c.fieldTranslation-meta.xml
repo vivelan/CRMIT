@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Fertigungsart</label>
+    <name>Typeofproduction__c</name>
+    <picklistValues>
+        <masterLabel>Armature manufacturer</masterLabel>
+        <translation>Armaturenhersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bearing steel manufacturer</masterLabel>
+        <translation>Wälzlagerhersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bearing steel manufacturer/ sawing company</masterLabel>
+        <translation>Wälzlagerhersteller/ Sägebetrieb</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bright steel manufacturer</masterLabel>
+        <translation>Blankstahlhersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cold rolling mill</masterLabel>
+        <translation>Kaltwalzer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Competitor</masterLabel>
+        <translation>Wettbewerber</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drawing mill</masterLabel>
+        <translation>Zieherei</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drawing shop for reinforcing steel</masterLabel>
+        <translation>Zieherei für Betonstahl</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Fastener manufacturer</masterLabel>
+        <translation>Verbindungselementehersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forge</masterLabel>
+        <translation>Schmiede</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forge/ Bearing steel manufacturer</masterLabel>
+        <translation>Schmiede/ Wälzlagerhersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forge/ Hogger</masterLabel>
+        <translation>Schmiede/ Zerspaner</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Hogger</masterLabel>
+        <translation>Zerspaner</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mechanical engineering company</masterLabel>
+        <translation>Maschinenbaubetrieb</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mining</masterLabel>
+        <translation>Mining/ Bergbau</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OEM</masterLabel>
+        <translation>OEM</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pre-material manufacturer for linear guides</masterLabel>
+        <translation>Vormaterialhersteller für Linearführungen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Press shop</masterLabel>
+        <translation>Presswerk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Processor</masterLabel>
+        <translation>Weiterverarbeitungsbetrieb</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Railroad infrastructure manufacturer</masterLabel>
+        <translation>Hersteller Bahninfrastruktur</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rolling mill</masterLabel>
+        <translation>Walzwerk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rolling mill for wire rod</masterLabel>
+        <translation>Drahtwalzwerk</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spring manufacturer</masterLabel>
+        <translation>Federnhersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spring manufacturer, stabilizer producers</masterLabel>
+        <translation>Federn-, Stabilisatorenhersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spring manufacturers (brake accumulator springs)</masterLabel>
+        <translation>Federnhersteller (Bremsspeicherfedern)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Supplier</masterLabel>
+        <translation>Zulieferer</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tire wire manufacturer</masterLabel>
+        <translation>Reifendrahthersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tool manufacturer</masterLabel>
+        <translation>Werkzeughersteller</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Trader</masterLabel>
+        <translation>Händler</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Welding wire customer</masterLabel>
+        <translation>Schweißdrahtkunde</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wire tempering</masterLabel>
+        <translation>Drahtvergüter</translation>
+    </picklistValues>
+</CustomFieldTranslation>

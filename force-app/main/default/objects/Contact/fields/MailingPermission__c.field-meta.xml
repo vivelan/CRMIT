@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MailingPermission__c</fullName>
+    <externalId>false</externalId>
+    <label>Mailing Permission</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes (on paper),</fullName>
+                <default>false</default>
+                <label>Yes (on paper),</label>
+            </value>
+            <value>
+                <fullName>Yes (Double-Opt-In)</fullName>
+                <default>false</default>
+                <label>Yes (Double-Opt-In)</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Outstanding</fullName>
+                <default>true</default>
+                <label>Outstanding</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

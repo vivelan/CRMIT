@@ -1,0 +1,31 @@
+.c4m-select-production-model-spinner-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  min-height: 183px;
+}
+
+.c4m-select-production-model-table-container {
+  max-height: 183px;
+  overflow-y: auto;
+}
+
+.c4m-select-production-model-head-style {
+  height: 32px;
+  background-color: #fbfbfb;
+}
+
+.c4m-select-production-model-th-table-border-right {
+  border-right: 1px solid gray;
+}
+
+.c4m-select-production-model-th-table-border-left {
+  border-left: 1px solid gray;
+}
+
+.c4m-select-production-model-no-production-models {
+  display: grid;
+  place-items: center;
+  font-size: medium;
+}

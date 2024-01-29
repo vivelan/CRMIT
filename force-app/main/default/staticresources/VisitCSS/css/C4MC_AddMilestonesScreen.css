@@ -1,0 +1,91 @@
+.th-table {
+  border-right: 1px solid;
+  width: 150px;
+  border-color: grey;
+}
+
+.add-new-line-button button,
+.add-new-line-button button:hover,
+.add-new-line-button button:focus {
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #000 !important;
+  border-radius: 15px;
+  padding: 2px 24px;
+  color: #080707;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-weight: 500; 
+}
+
+.th-number-count {
+      width: 55px;
+}
+
+.th-milestone-name {
+  width: 140px;
+}
+
+.th-parent-milestone {
+  width: 150px;
+}
+
+.th-target-completation-date {
+  width: 110px;
+}
+
+.th-description {
+  width: 150px;
+}
+
+.th-status {
+  width: 130px;
+}
+
+.c4mc-table-scroll-auto {
+  height: 323px;
+  overflow-y: auto;
+}
+
+.previous-button button,
+.previous-button button:hover,
+.previous-button button:focus {
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #000 !important;
+  border-radius: 15px;
+  padding: 2px 24px;
+  color: #080707;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.save-button button,
+.save-button button:hover,
+.save-button button:focus {
+  background-color: black;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #000 !important;
+  border-radius: 15px;
+  padding: 2px 24px;
+  color: white;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.cancel-button button,
+.cancel-button button:hover,
+.cancel-button button:focus {
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #000 !important;
+  border-radius: 15px;
+  padding: 2px 24px;
+  color: black;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.c4mc-target-completition_date .slds-form-element__help {
+  white-space: normal;
+}

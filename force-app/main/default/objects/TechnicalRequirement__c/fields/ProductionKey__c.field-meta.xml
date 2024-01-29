@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductionKey__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(TargetProduct__c==&quot;&quot;,&quot; &quot;,TargetProduct__c)&amp;
+if(Origin__c==&quot;&quot;,&quot; &quot;,Origin__c)&amp;
+if(STWCastingFormat__c==&quot;&quot;,&quot;   &quot;,STWCastingFormat__c)&amp;&quot;-&quot;&amp;
+if(Degassing__c==&quot;&quot;,&quot; &quot;,Degassing__c)&amp;
+if(CRule__c==&quot;&quot;,&quot;  &quot;,CRule__c)&amp;
+if(SteelMillTesting__c==&quot;&quot;,&quot; &quot;,SteelMillTesting__c)&amp;&quot;-&quot;&amp;
+if(Sampling__c==&quot;&quot;,&quot; &quot;,Sampling__c)&amp;
+if(CheckTreatment__c==&quot;&quot;,&quot;    &quot;,CheckTreatment__c)&amp;&quot;-&quot;&amp;
+if(PrimRollingHomogenize__c==&quot;&quot;,&quot; &quot;,PrimRollingHomogenize__c)&amp;
+if(PrimRollingInputformat__c==&quot;&quot;,&quot;   &quot;,PrimRollingInputformat__c)&amp;&quot;-&quot;&amp;
+if(HZVSampletest__c==&quot;&quot;,&quot; &quot;,HZVSampletest__c)&amp;
+if(USHTesting__c==&quot;&quot;,&quot;  &quot;,USHTesting__c)&amp;
+if(HZVCheckTreatment__c==&quot;&quot;,&quot;    &quot;,HZVCheckTreatment__c)&amp;
+if(HZVAnnealing__c==&quot;&quot;,&quot; &quot;,HZVAnnealing__c)&amp;&quot;-&quot;&amp;
+if(Homogenize__c==&quot;&quot;,&quot; &quot;,Homogenize__c)&amp;&quot;-&quot;&amp;
+if(ProcessingbeforeHT__c==&quot;&quot;,&quot; &quot;,ProcessingbeforeHT__c)&amp;&quot;-&quot;&amp;
+if(HeatTreatment__c==&quot;&quot;,&quot;  &quot;,HeatTreatment__c)&amp;&quot;-&quot;&amp;
+if(SurfaceTreatment__c==&quot;&quot;,&quot; &quot;,SurfaceTreatment__c)&amp;
+if(MultipleStraightening__c==&quot;&quot;,&quot; &quot;,MultipleStraightening__c)&amp;
+if(Peelingbarwirerod__c==&quot;&quot;,&quot; &quot;,Peelingbarwirerod__c)&amp;
+if(WSAin__c==&quot;&quot;,&quot;  &quot;,WSAin__c)&amp;
+if(EndProcessing__c==&quot;&quot;,&quot; &quot;,EndProcessing__c)&amp;
+if(EndProcessingSides__c==&quot;&quot;,&quot; &quot;,EndProcessingSides__c)&amp;&quot;-&quot;&amp;
+if(Surfacedefectinspec__c==&quot;&quot;,&quot;  &quot;,Surfacedefectinspec__c)&amp;
+if(USInspection__c==&quot;&quot;,&quot;   &quot;,USInspection__c)&amp;&quot;-&quot;&amp;
+if(SpecialInspections__c==&quot;&quot;,&quot; &quot;,SpecialInspections__c)&amp;
+if(TestingFinishedMaterial__c==&quot;&quot;,&quot; &quot;,TestingFinishedMaterial__c)&amp;
+if(Finishing__c==&quot;&quot;,&quot; &quot;,Finishing__c)&amp;
+if(Packaging__c==&quot;&quot;,&quot; &quot;,Packaging__c)</formula>
+    <label>Production Key</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>PackagingSales__c</name>
+    <picklistValues>
+        <masterLabel>02- Packed seaworthy</masterLabel>
+        <translation>02- emballé en état de navigabilité</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>04 - In plastic tubular film (SAG)</masterLabel>
+        <translation>04 - dans un film tubulaire en plastique (SAG)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>06 - Wrapped in oiled paper</masterLabel>
+        <translation>06 - enveloppés dans du papier huilé</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>08 - Wrapped in jute</masterLabel>
+        <translation>08 - emballé en jute</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>10 - Wrapped in oiled paper and jute</masterLabel>
+        <translation>10 - emballé dans du papier huilé et du jute</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>12 - Cont. Lined with foil</masterLabel>
+        <translation>12 - Cont. Lined with foil</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>14 - BU Type 2 VPM standard</masterLabel>
+        <translation>14 - BU Type 2 VPM standard</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>15 - BU-Type 3 VCI+tubular film</masterLabel>
+        <translation>15 - BU-Type 3 VCI+tubular film</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>16 - Jute underlay</masterLabel>
+        <translation>16 - Sous-couche de jute</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>17 - VCI Packing (Only)</masterLabel>
+        <translation>17 - emballage VCI (seulement)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>18 - Boxed</masterLabel>
+        <translation>18 - en boîte</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>20 - Container Shipping</masterLabel>
+        <translation>20 - expédition de conteneurs</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>23 - Type 4 fabric tube padded</masterLabel>
+        <translation>23 - tube en tussu type 4 rembourré</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>25 - BU type 5 VCI+fabric padded</masterLabel>
+        <translation>25 - BU type 5 VCI+tissu rembourré</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30 - Packing externally at the port</masterLabel>
+        <translation>30 - emballage en externe au port</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>32 - Type 6 fabric hose puller</masterLabel>
+        <translation>32 - extracteur de tuyau en tussu type 6</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>34 - BU-TYPE 7 VCI+fabric puller</masterLabel>
+        <translation>34 - BU-TYPE 7 VCI+extracteur de tissu</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>36 - Type 8 air freight/ general cargo</masterLabel>
+        <translation>36 - fret aérien/cargo général de type 8</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>38 - Type 9 key fol.+thread. migrant</masterLabel>
+        <translation>38 - type 9 key fol.+fil. Migrant</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>40 - BU Type 10 VPM 2X Armor VCI</masterLabel>
+        <translation>40 - BU type 10 VPM 2X armure VCI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>42 - BU Type 11 VPM Armour+Net VCI</masterLabel>
+        <translation>42 - BU type 11 VPM armure+net VCI</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>44 - Combination pack. 14 and 30</masterLabel>
+        <translation>44 - pack combiné 14 et 30</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationRuleOnStatusChange</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT($Setup.ByPassLogic__c.ByPassValidation__c),
+
+AND($Profile.Name &lt;&gt; &quot;Systemadministrator&quot;,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;),
+
+OR(
+AND(ISPICKVAL(PRIORVALUE(Status__c), &quot;Visited&quot;),
+VisitDateEnd__c &lt; TODAY(),
+ISPICKVAL(Status__c, &quot;In Planning&quot;),
+ISCHANGED(Status__c) ),
+
+AND(LEN ( NextSteps__c ) = 0,TEXT(Status__c) = &quot;Completed&quot; ),
+AND(LEN( Summary__c ) = 0,TEXT(Status__c) = &quot;Completed&quot; ),
+
+AND(
+ISPICKVAL(Status__c, &quot;Visited&quot;),
+ISPICKVAL(PRIORVALUE(Status__c), &quot;In Planning&quot;),
+ISCHANGED(Status__c),
+NOT(ManualStatusChange__c)
+))
+)</errorConditionFormula>
+    <errorMessage>This status change is not possible. Please refer to the guidance for this status value.</errorMessage>
+</ValidationRule>

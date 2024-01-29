@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationForClosedStage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(
+AND(
+ $User.Id = OwnerId,
+ ISCHANGED( StageName ),
+ PRIORVALUE( IsClosed ) = True,
+ NOT( ISPICKVAL( StageName, &quot;Negotiation&quot;)),RecordType.DeveloperName=&apos;Opportunitywithquotecreations&apos;
+),
+AND(  $User.Id &lt;&gt; OwnerId,
+ ISCHANGED( StageName ),
+ PRIORVALUE( IsClosed ) = True,RecordType.DeveloperName=&apos;Opportunitywithquotecreations&apos;
+ )
+), NOT($Setup.ByPassLogic__c.ByPassValidation__c )
+)</errorConditionFormula>
+<errorMessage>This opportunity is already in &quot;Closed&quot; status. Only the owner can set the opportunity back to &quot;Negotiation&quot;.</errorMessage>
+</ValidationRule>

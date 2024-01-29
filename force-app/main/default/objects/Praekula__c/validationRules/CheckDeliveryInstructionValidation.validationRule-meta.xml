@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckDeliveryInstructionValidation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ CheckPrakulaDI__c = TRUE,	
+ISPICKVAL(PRIORVALUE(Status__c),&quot;New&quot;),
+ISPICKVAL(Status__c,&quot;Quality Check&quot;)       
+
+)</errorConditionFormula>
+    <errorMessage>You can only move a Präkula to Quality Check if at least one delivery instruction is assigned and the assigned delivery instruction is approved.</errorMessage>
+</ValidationRule>

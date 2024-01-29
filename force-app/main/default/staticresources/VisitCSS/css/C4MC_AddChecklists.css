@@ -1,0 +1,8 @@
+.ac-section-style{
+    background-color: white;
+    border-radius: 3px;
+    /* box-shadow: var(--sds-c-card-shadow, var(--lwc-cardShadow,0 2px 2px 0 rgba(0, 0, 0, 0.10))); */
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.10);
+    padding: 1.5rem;
+    margin-bottom: 1%;
+}

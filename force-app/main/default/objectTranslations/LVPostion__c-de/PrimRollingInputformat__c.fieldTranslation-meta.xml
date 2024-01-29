@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Umblocken - Anstichformat (St.16-18)</label>
+    <name>PrimRollingInputformat__c</name>
+    <picklistValues>
+        <masterLabel>146</masterLabel>
+        <translation>146 - Umblocken auf 146mm x 146mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>150</masterLabel>
+        <translation>150 - Umblocken auf 150mm x 150mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>160</masterLabel>
+        <translation>160 - Umblocken auf 160mm x 160mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>180</masterLabel>
+        <translation>180 - Umblocken auf 180mm x 180mm</translation>
+    </picklistValues>
+</CustomFieldTranslation>

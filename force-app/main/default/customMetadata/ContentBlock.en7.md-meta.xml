@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>en7</label>
+    <protected>false</protected>
+    <values>
+        <field>ContentText__c</field>
+        <value xsi:type="xsd:string">Decarburization acc. DIN EN 10263 (8-Point-Measurement; average = max. 0,07mm for dimensions &lt;= 10mm; average = max. 0,7% of diameter for dimensions &gt;10mm).</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">EN</value>
+    </values>
+    <values>
+        <field>PicklistValue__c</field>
+        <value xsi:type="xsd:string">Edge decarburization according to DIN EN 10263</value>
+    </values>
+</CustomMetadata>

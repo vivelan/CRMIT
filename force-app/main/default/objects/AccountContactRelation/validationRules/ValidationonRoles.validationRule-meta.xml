@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationonRoles</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( INCLUDES( Roles ,&quot;Restricted Customer Portal User&quot;) ,
+      INCLUDES(Roles, &quot;Customer Portal User&quot;),
+ NOT( $Setup.ByPassLogic__c.ByPassValidation__c ) 
+)</errorConditionFormula>
+    <errorMessage>Contacts cannot be assigned both a restricted and unrestricted customer portal role at the same time</errorMessage>
+</ValidationRule>

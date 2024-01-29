@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Folder used to hold all the datasets created through the External API from SAP</description>
+    <folder>Integration</folder>
+    <masterLabel>Integration</masterLabel>
+    <shares>
+        <accessLevel>Manage</accessLevel>
+        <sharedTo>jens.lauer@stahl-holding-saar.de</sharedTo>
+        <sharedToType>User</sharedToType>
+    </shares>
+</WaveApplication>

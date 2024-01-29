@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Platform Event to convert Präkula to Kula</description>
+    <eventType>HighVolume</eventType>
+    <label>ConversionPräkulaToKula</label>
+    <pluralLabel>ConversionPräkulaToKula</pluralLabel>
+    <publishBehavior>PublishAfterCommit</publishBehavior>
+</CustomObject>

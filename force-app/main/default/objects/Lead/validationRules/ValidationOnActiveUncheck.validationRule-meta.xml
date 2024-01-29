@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnActiveUncheck</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( Active__c = False, 
+ISPICKVAL(ReasonforNotConverting__c,&quot;&quot;),
+NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>Please specify the &quot;Reason for Not Converting&quot;.</errorMessage>
+</ValidationRule>

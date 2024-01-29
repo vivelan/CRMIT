@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage>Sie haben nicht die erforderliche Berechtigung, um diese Beziehung zu bearbeiten. Bitte wenden Sie sich an den Administrator Ihres Kundenportals, um diesen Kontakt zum Kundenportal hinzuzufügen.</errorMessage>
+        <name>ValidationOnCustomerPortalUserRole</name>
+    </validationRules>
+   <validationRules>
+        <errorMessage>Kontakte können nicht gleichzeitig eine &quot;Restricted&quot; und &quot;Unrestricted Customer Portal User&quot; Rollen zugeordnet werden</errorMessage>
+        <name>ValidationonRoles</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Als SAG-Benutzer können Sie diesen Wert nicht auswählen</errorMessage>
+        <name>ValidationOnSAGuser</name>
+    </validationRules>
+</CustomObjectTranslation>

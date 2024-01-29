@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Category__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agency - Type error</fullName>
+                <default>false</default>
+                <label>Agency - Type error</label>
+            </value>
+            <value>
+                <fullName>Bonus Agreement</fullName>
+                <default>false</default>
+                <label>Bonus Agreement</label>
+            </value>
+            <value>
+                <fullName>Annual Quantity Discount</fullName>
+                <default>false</default>
+                <label>Annual Quantity Discount</label>
+            </value>
+            <value>
+                <fullName>Delivery delay</fullName>
+                <default>false</default>
+                <label>Delivery delay</label>
+            </value>
+            <value>
+                <fullName>Penalty</fullName>
+                <default>false</default>
+                <label>Penalty</label>
+            </value>
+            <value>
+                <fullName>Invoicing</fullName>
+                <default>false</default>
+                <label>Invoicing</label>
+            </value>
+            <value>
+                <fullName>Value Date</fullName>
+                <default>false</default>
+                <label>Value Date</label>
+            </value>
+            <value>
+                <fullName>Plate Identification</fullName>
+                <default>false</default>
+                <label>Plate Identification</label>
+            </value>
+            <value>
+                <fullName>Internal Soundness</fullName>
+                <default>false</default>
+                <label>Internal Soundness</label>
+            </value>
+            <value>
+                <fullName>Dimensional deviation</fullName>
+                <default>false</default>
+                <label>Dimensional deviation</label>
+            </value>
+            <value>
+                <fullName>Mech.-tech./chem. Properties</fullName>
+                <default>false</default>
+                <label>Mech.-tech./chem. Properties</label>
+            </value>
+            <value>
+                <fullName>Surface defect</fullName>
+                <default>false</default>
+                <label>Surface defect</label>
+            </value>
+            <value>
+                <fullName>Other Rolling or Plate Errors</fullName>
+                <default>false</default>
+                <label>Other Rolling or Plate Errors</label>
+            </value>
+            <value>
+                <fullName>Transport</fullName>
+                <default>false</default>
+                <label>Transport</label>
+            </value>
+            <value>
+                <fullName>Customer processing issues</fullName>
+                <default>false</default>
+                <label>Customer processing issues</label>
+            </value>
+            <value>
+                <fullName>Incorrect/Missing Specification</fullName>
+                <default>false</default>
+                <label>Incorrect/Missing Specification</label>
+            </value>
+            <value>
+                <fullName>Certificate Error</fullName>
+                <default>false</default>
+                <label>Certificate Error</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Commercial Complaint</controllingFieldValue>
+            <valueName>Agency - Type error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Complaint</controllingFieldValue>
+            <valueName>Bonus Agreement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Complaint</controllingFieldValue>
+            <valueName>Annual Quantity Discount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Complaint</controllingFieldValue>
+            <valueName>Delivery delay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Complaint</controllingFieldValue>
+            <valueName>Penalty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Complaint</controllingFieldValue>
+            <valueName>Invoicing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial Complaint</controllingFieldValue>
+            <valueName>Value Date</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Plate Identification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Internal Soundness</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Dimensional deviation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Mech.-tech./chem. Properties</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Surface defect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Other Rolling or Plate Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Transport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Customer processing issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Incorrect/Missing Specification</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Complaint</controllingFieldValue>
+            <valueName>Certificate Error</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

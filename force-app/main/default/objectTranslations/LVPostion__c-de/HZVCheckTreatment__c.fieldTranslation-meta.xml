@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>HZV - Prüfen/Bearbeiten (St.22-25)</label>
+    <name>HZVCheckTreatment__c</name>
+    <picklistValues>
+        <masterLabel>A</masterLabel>
+        <translation>A - allseitiger Abzug</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AV</masterLabel>
+        <translation>AV - allseitiger Abzug + visuelle Kontrolle / putzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>E</masterLabel>
+        <translation>E - entkohlungsfrei Schleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EV</masterLabel>
+        <translation>EV - entkohlungsfrei Schleifen + visuelle Kontrolle / putzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F</masterLabel>
+        <translation>F - Fluxen - nur Straße 11</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FA</masterLabel>
+        <translation>FA - Fluxen nur Straße 11 + allseitiger Abzug</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FK</masterLabel>
+        <translation>FK - Fluxen - nur Straße 11 + Kantenschleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FS</masterLabel>
+        <translation>FS - Fluxen - nur Straße 11 + Flächenschliff; in KAG nicht korrekt darstellbar!</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G</masterLabel>
+        <translation>G - Fluxen - nur Straße 11; keine weitere Bearbeitung bei Fehlerklasse &lt;= 2</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K</masterLabel>
+        <translation>K - Kantenschleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>KV</masterLabel>
+        <translation>KV - Kantenschleifen + visuelle Kontrolle / putzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation>M - Mecana</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MA</masterLabel>
+        <translation>MA - Mecana + allseitiger Abzug; Bei Umblocken Anpassung KA: HZV 16</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAV</masterLabel>
+        <translation>MAV - Mecana + allseitiger Abzug + visuelle Kontrolle; Bei Umblocken Anpassung KA: HZV 16 + HZV 04</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ME</masterLabel>
+        <translation>ME - Mecana + entkohlungsfrei Schleifen; Anpassung KA: HZV 16</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MEV</masterLabel>
+        <translation>MEV - Mecana + entkohlungsfrei Schleifen + visuelle Kontrolle; Anpassung KA: HZV 16 + HZV 04</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MK</masterLabel>
+        <translation>MK - Mecana + Kantenschleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MKV</masterLabel>
+        <translation>MKV - Mecana + Kantenschleifen + visuelle Kontrolle; Anpassung KA: HZV 04</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MT</masterLabel>
+        <translation>MT - Mecana + Topographie (nur HZV-NK)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTA</masterLabel>
+        <translation>MTA - Mecana + Topographie (nur HZV-NK) + Allseitiger Abzug; Anpassung KA: HZV 12 + HZV 16</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTK</masterLabel>
+        <translation>MTK - Mecana + Topographie (nur HZV-NK) + Kantenschleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MTVA</masterLabel>
+        <translation>MTVA - Mecana + Topographie + visuelle Kontrolle + allseitiger Abzug</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MV</masterLabel>
+        <translation>MV - Mecana + visuelle Kontrolle</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MVA</masterLabel>
+        <translation>MVA - Mecana + visuelle Kontrolle + allseitiger Abzug</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MVK</masterLabel>
+        <translation>MVK - Mecana + visuelle Kontrolle + Kantenschleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S</masterLabel>
+        <translation>S - Flächenschliff; in KAG nicht korrekt darstellbar!</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T</masterLabel>
+        <translation>T - Topographie (nur HZV-NK)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TA</masterLabel>
+        <translation>TA - Topographie (nur HZV-NK) + allseitiger Abzug</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TAV</masterLabel>
+        <translation>TAV - Topographie (nur HZV-NK) + allseitiger Abzug + visuelle Kontrolle; Anpassung KA: HZV 16 + HZV 04</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TK</masterLabel>
+        <translation>TK - Topographie (nur HZV-NK) + Kantenschleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TV</masterLabel>
+        <translation>TV - Topographie (nur HZV-NK) + visuelle Kontrolle</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TVA</masterLabel>
+        <translation>TVA - Topographie (nur HZV-NK) + visuelle Kontrolle + allseitiger Abzug; Anpassung KA: HZV 16</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TVK</masterLabel>
+        <translation>TVK - Topographie (nur HZV-NK) + visuelle Kontrolle + Kantenschleifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>V</masterLabel>
+        <translation>V - visuelle Kontrolle / putzen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VA</masterLabel>
+        <translation>VA - visuelle Kontrolle + allseitiger Abzug; Anpassung KA: HZV 16</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VE</masterLabel>
+        <translation>VE - visuelle Kontrolle + entkohlungsfrei Schleifen; Anpassung KA: HZV 16</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VK</masterLabel>
+        <translation>VK - visuelle Kontrolle / putzen + Kantenschleifen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

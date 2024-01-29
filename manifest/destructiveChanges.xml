@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+	    <members>ResetPasswordforPortalPart10</members>
+		<members>ResetPasswordforPortalPart11</members>
+		<members>ResetPasswordforPortalPart12</members>
+		<members>ResetPasswordforPortalPart13</members>
+		<members>WelcomeEmailBodyforPortalPart7a</members>
+		<members>WelcomeEmailBodyforPortalPart7b</members>
+		<members>WelcomeEmailBodyforPortalPart7c</members>
+		<members>WelcomeEmailBodyforPortalPart8Aa</members>
+		<members>WelcomeEmailBodyforPortalPart13</members>
+		<members>WelcomeEmailBodyforPortalPart14</members>
+		<members>ResetPasswordforPortalPart9</members>
+	    <name>CustomLabel</name>
+	</types>
+	<types>
+	    <members>Contact.ComplianceCheck__c</members>
+		<members>FinishedGoods__c.Steel_Grade__c</members>		
+	    <members>OpportunityLineItem.SELNumber__c</members>
+		<members>OpportunityLineItem.DimensionA__c</members>
+		<members>OpportunityLineItem.DimensionB__c</members>
+		<members>OpportunityLineItem.Location__c</members>
+		<members>OpportunityLineItem.Incoterms__c</members>
+        <members>Opportunity.FreightCharges__c</members>
+	    <members>Opportunity.PriceValidTill__c</members>
+	    <members>OpportunityLineItem.CommercialOffer__c</members>
+		<members>OpportunityLineItem.TextForSelectionSales__c</members>
+		<members>DeliveryInstructions__c.FlagFull__c</members>
+		<members>DeliveryInstructions__c.Languages__c</members>
+		<members>Case.SuppliedSegment__c</members>
+		<members>LVPostion__c.Al_max__c</members>
+		<members>LVPostion__c.Al_min__c</members>
+		<members>LVPostion__c.B_max__c</members>
+		<members>LVPostion__c.B_min__c</members>
+		<members>LVPostion__c.C_max__c</members>
+		<members>LVPostion__c.C_min__c</members>
+		<members>LVPostion__c.Cr_max__c</members>
+		<members>LVPostion__c.Cr_min__c</members>
+		<members>LVPostion__c.Cu_max__c</members>
+		<members>LVPostion__c.Cu_min__c</members>
+		<members>LVPostion__c.Dimension_A_from__c</members>
+		<members>LVPostion__c.Dimension_A_to__c</members>
+		<members>LVPostion__c.J10_max__c</members>
+		<members>LVPostion__c.J10_min__c</members>
+		<members>LVPostion__c.J11_max__c</members>
+		<members>LVPostion__c.J11_min__c</members>
+		<members>LVPostion__c.J13_max__c</members>
+		<members>LVPostion__c.J13_min__c</members>
+		<members>LVPostion__c.J1_5_max__c</members>
+		<members>LVPostion__c.J15_min__c</members>
+		<members>LVPostion__c.J1_max__c</members>
+		<members>LVPostion__c.J1_min__c</members>
+		<members>LVPostion__c.J20_max__c</members>
+		<members>LVPostion__c.J20_min__c</members>
+		<members>LVPostion__c.J25_max__c</members>
+		<members>LVPostion__c.J25_min__c</members>
+		<members>LVPostion__c.J2_max__c</members>
+		<members>LVPostion__c.J2_min__c</members>
+		<members>LVPostion__c.J30_max__c</members>
+		<members>LVPostion__c.J30_min__c</members>
+		<members>LVPostion__c.J35_max__c</members>
+		<members>LVPostion__c.J35_min__c</members>
+		<members>LVPostion__c.J3_max__c</members>
+		<members>LVPostion__c.J3_min__c</members>
+		<members>LVPostion__c.J40_max__c</members>
+		<members>LVPostion__c.J40_min__c</members>
+		<members>LVPostion__c.J45_max__c</members>
+		<members>LVPostion__c.J45_min__c</members>
+		<members>LVPostion__c.J4_max__c</members>
+		<members>LVPostion__c.J4_min__c</members>
+		<members>LVPostion__c.J50_max__c</members>
+		<members>LVPostion__c.J50_min__c</members>
+		<members>LVPostion__c.J5_max__c</members>
+		<members>LVPostion__c.J5_min__c</members>
+		<members>LVPostion__c.J6_max__c</members>
+		<members>LVPostion__c.J6_min__c</members>
+		<members>LVPostion__c.J7_max__c</members>
+		<members>LVPostion__c.J7_min__c</members>
+		<members>LVPostion__c.J8_max__c</members>
+		<members>LVPostion__c.J8_min__c</members>
+		<members>LVPostion__c.J9_max__c</members>
+		<members>LVPostion__c.J9_min__c</members>
+		<members>LVPostion__c.Mn_max__c</members>
+		<members>LVPostion__c.Mn_min__c</members>
+		<members>LVPostion__c.Mo_max__c</members>
+		<members>LVPostion__c.Mo_min__c</members>
+		<members>LVPostion__c.Nb_max__c</members>
+		<members>LVPostion__c.Nb_min__c</members>
+		<members>LVPostion__c.Ni_max__c</members>
+		<members>LVPostion__c.Ni_min__c</members>
+		<members>LVPostion__c.N_max__c</members>
+		<members>LVPostion__c.N_min__c</members>
+		<members>LVPostion__c.Pb_max__c</members>
+		<members>LVPostion__c.Pb_min__c</members>
+		<members>LVPostion__c.P_max__c</members>
+		<members>LVPostion__c.P_min__c</members>
+		<members>LVPostion__c.Si_max__c</members>
+		<members>LVPostion__c.Si_min__c</members>
+		<members>LVPostion__c.S_max__c</members>
+		<members>LVPostion__c.S_min__c</members>
+		<members>LVPostion__c.Sn_max__c</members>
+		<members>LVPostion__c.Sn_min__c</members>
+		<members>LVPostion__c.Ti_max__c</members>
+		<members>LVPostion__c.Ti_min__c</members>
+		<members>LVPostion__c.State__c</members>
+		<members>LVPostion__c.Price_Relevant_Testing__c</members>
+		<members>LVPostion__c.J15_max__c</members>
+		<members>LVPostion__c.J1_5_min__c</members>
+		<members>LVPostion__c.Prekula__c</members>
+		<members>Visit__c.Active__c</members>
+	    <name>CustomField</name>
+	</types> 
+	<types>
+	    <members>SHS Integration User</members>
+		<name>Profile</name>
+	</types>
+    <types>
+		<members>Account.ValidationOnCustomerAccountType</members>
+		<members>DeliveryInstructions__c.Status_Change_Validation</members>	
+		<name>ValidationRule</name>
+	</types>	
+	<types>
+		<members>LVPostion__c.CheckTreatment__c.T (Inactive Value)</members>
+		<members>LVPostion__c.CheckTreatment__c.F (Inactive Value)</members>
+		<members>LVPostion__c.CheckTreatment__c.A (Inactive Value)</members>
+		<members>LVPostion__c.CheckTreatment__c.MA (Inactive Value)</members>
+		<members>LVPostion__c.EndProcessing__c.Z (Inactive)</members>
+		<members>LVPostion__c.Finishing__c.Z (Inactive)</members>
+		<members>LVPostion__c.HeatTreatment__c.TZ;</members>
+		<members>LVPostion__c.HeatTreatment__c.GG (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.AE (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.IE;</members>
+		<members>LVPostion__c.HeatTreatment__c.AL;</members>
+		<members>LVPostion__c.HeatTreatment__c.IT;</members>
+		<members>LVPostion__c.HeatTreatment__c.GE (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.TR;</members>
+		<members>LVPostion__c.HeatTreatment__c.TS;</members>
+		<members>LVPostion__c.HeatTreatment__c.VA;</members>
+		<members>LVPostion__c.HeatTreatment__c.VH;</members>
+		<members>LVPostion__c.HeatTreatment__c.VR;</members>
+		<members>LVPostion__c.HeatTreatment__c.WA;</members>
+		<members>LVPostion__c.HeatTreatment__c.WB;</members>
+		<members>LVPostion__c.HeatTreatment__c.WE;</members>
+		<members>LVPostion__c.HeatTreatment__c.WG;</members>
+		<members>LVPostion__c.HeatTreatment__c.WH;</members>
+		<members>LVPostion__c.HeatTreatment__c.WI;</members>
+		<members>LVPostion__c.HeatTreatment__c.WR;</members>
+		<members>LVPostion__c.HeatTreatment__c.WZ;</members>
+		<members>LVPostion__c.HeatTreatment__c.TL;</members>
+		<members>LVPostion__c.HeatTreatment__c.TC (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.SH (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.RL (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.PZ;</members>
+		<members>LVPostion__c.HeatTreatment__c.AR (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.OZ (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.OL;</members>
+		<members>LVPostion__c.HeatTreatment__c.OG;</members>
+		<members>LVPostion__c.HeatTreatment__c.OC;</members>
+		<members>LVPostion__c.HeatTreatment__c.OC;</members>
+		<members>LVPostion__c.HeatTreatment__c.OA;</members>
+		<members>LVPostion__c.HeatTreatment__c.NZ;</members>
+		<members>LVPostion__c.HeatTreatment__c.NW;</members>
+		<members>LVPostion__c.HeatTreatment__c.NR;</members>
+		<members>LVPostion__c.HeatTreatment__c.NI;</members>
+		<members>LVPostion__c.HeatTreatment__c.NG (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.NE (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.NA;</members>
+		<members>LVPostion__c.HeatTreatment__c.LR (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.IZ;</members>
+		<members>LVPostion__c.HeatTreatment__c.IV;</members>
+		<members>LVPostion__c.HeatTreatment__c.EA (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.DR (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.IR;</members>
+		<members>LVPostion__c.HeatTreatment__c.TX;</members>
+		<members>LVPostion__c.HeatTreatment__c.IN;</members>
+		<members>LVPostion__c.HeatTreatment__c.PR;</members>
+		<members>LVPostion__c.HeatTreatment__c.LP;</members>
+		<members>LVPostion__c.HeatTreatment__c.IL;</members>
+		<members>LVPostion__c.HeatTreatment__c.NL;</members>
+		<members>LVPostion__c.HeatTreatment__c.EF;</members>
+		<members>LVPostion__c.HeatTreatment__c.IH;</members>
+		<members>LVPostion__c.HeatTreatment__c.IA;</members>
+		<members>LVPostion__c.HeatTreatment__c.ID;</members>
+		<members>LVPostion__c.HeatTreatment__c.NT;</members>
+		<members>LVPostion__c.HeatTreatment__c.HR (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.HL;</members>
+		<members>LVPostion__c.HeatTreatment__c.HG (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.ET;</members>
+		<members>LVPostion__c.HeatTreatment__c.AT (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.AN (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.GZ;</members>
+		<members>LVPostion__c.HeatTreatment__c.GR (Inactive);</members>
+		<members>LVPostion__c.HeatTreatment__c.GP;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MT;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MA;M;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.ME;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.A;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.AM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.AT (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.AV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.E;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.EM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.EV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.F;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.FA;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.FK;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.FS;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.FZ (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.G;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.K;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.KF (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.KM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.KTM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.KV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.KV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MAM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MEM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MEV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MK;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MKM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MKV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MTK;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MTZ (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MVA;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MVK;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.MZ (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.S;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.T;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TA;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TAM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TAV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TK;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TKM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TM (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TVA;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TVK;MAV;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TVZ (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.TZ (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.V;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.VE;VA;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.VK;</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.VZ (Inactive);</members>
+		<members>LVPostion__c.HZVCheckTreatment__c.Z (Inactive);</members>
+		<members>LVPostion__c.Packaging__c.Z (Inactive)</members>
+		<members>LVPostion__c.Peelingbarwirerod__c.Z (Inactive)</members>
+		<members>LVPostion__c.PrimRollingInputformat__c.999 (Inactive)</members>
+		<members>LVPostion__c.PrimRollingInputformat__c.240 (Inactive Value)</members>
+		<members>LVPostion__c.PrimRollingInputformat__c.125 (Inactive Value)</members>
+		<members>LVPostion__c.ProcessingbeforeHT__c.F (Inactive Value)</members>
+		<members>LVPostion__c.ProcessingbeforeHT__c.O (Inactive Value)</members>
+		<members>LVPostion__c.ProcessingbeforeHT__c.P (Inactive Value)</members>
+		<members>LVPostion__c.Sampling__c.1 (Inactive Value)</members>
+		<members>LVPostion__c.Sampling__c.2 (Inactive Value)</members>
+		<members>LVPostion__c.STWCastingFormat__c.999 (Inactive Value)</members>
+		<members>LVPostion__c.STWCastingFormat__c.320 (Inactive Value)</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S0;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S3;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R3 (Inactive);</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DQ;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S9;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S7;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M2;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.P9;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S6;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DD;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S8;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K5;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S5;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S4;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S2;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.S1;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R9;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R8 (Inactive);</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R6 (Inactive);</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R5 (Inactive);</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R4 (Inactive);</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R2;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R1;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.P4(Inactive);</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.P3;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.P2;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.P1;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.P0;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M9;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M7;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M7;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M6;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M4;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M3;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L9;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L8;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L6;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L5;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L4;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L3;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L2;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L0;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DW;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DC;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.D4;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.L7;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K9;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K7;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K6;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K4;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K3;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K2;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K1;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.K0;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.F9;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.F6;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.F5;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.F2;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.F0;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DZ;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DY;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DX;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DV;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DT;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DU;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DS;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DR;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DP;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DO;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DN;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.R0;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DM;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DL;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DK;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DJ;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DH;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DG;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.D5;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DF;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DE;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DB;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.M5;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.DA;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.D3;</members>
+		<members>LVPostion__c.Surfacedefectinspec__c.P4</members>
+		<members>LVPostion__c.SurfaceTreatment__c.E (Inactive)</members>
+		<members>LVPostion__c.SurfaceTreatment__c.V (Inactive)</members>
+		<members>LVPostion__c.USInspection__c.S54;</members>
+		<members>LVPostion__c.USInspection__c.S55;</members>
+		<members>LVPostion__c.USInspection__c.S56;</members>
+		<members>LVPostion__c.USInspection__c.S62;</members>
+		<members>LVPostion__c.USInspection__c.S63;</members>
+		<members>LVPostion__c.USInspection__c.S64;</members>
+		<members>LVPostion__c.USInspection__c.S65;</members>
+		<members>LVPostion__c.USInspection__c.S66;</members>
+		<members>LVPostion__c.USInspection__c.S67;</members>
+		<members>LVPostion__c.USInspection__c.S69;</members>
+		<members>LVPostion__c.USInspection__c.S72;</members>
+		<members>LVPostion__c.USInspection__c.S75;</members>
+		<members>LVPostion__c.USInspection__c.S99;</members>
+		<members>LVPostion__c.USInspection__c.P12;</members>
+		<members>LVPostion__c.USInspection__c.P10;</members>
+		<members>LVPostion__c.USInspection__c.P05;</members>
+		<members>LVPostion__c.USInspection__c.P01;</members>
+		<members>LVPostion__c.USInspection__c.P15;</members>
+		<members>LVPostion__c.USInspection__c.P00;</members>
+		<members>LVPostion__c.USInspection__c.K55;</members>
+		<members>LVPostion__c.USInspection__c.K54;</members>
+		<members>LVPostion__c.USInspection__c.K53;</members>
+		<members>LVPostion__c.USInspection__c.K52;</members>
+		<members>LVPostion__c.USInspection__c.K32;</members>
+		<members>LVPostion__c.USInspection__c.K65 (Inactive);</members>
+		<members>LVPostion__c.USInspection__c.S53;</members>
+		<members>LVPostion__c.USInspection__c.S51;</members>
+		<members>LVPostion__c.USInspection__c.S34;</members>
+		<members>LVPostion__c.USInspection__c.P14;</members>
+		<members>LVPostion__c.USInspection__c.P25;</members>
+		<members>LVPostion__c.USInspection__c.S12;</members>
+		<members>LVPostion__c.USInspection__c.S15;</members>
+		<members>LVPostion__c.USInspection__c.S22;</members>
+		<members>LVPostion__c.USInspection__c.S32;</members>
+		<members>LVPostion__c.USInspection__c.S33;</members>
+		<members>LVPostion__c.USInspection__c.S52;</members>
+		<name>PicklistValues</name>
+	</types>
+	<types>
+		<members>DeliveryInstructions__c.CreateSideLetterClient</members>
+		<name>WebLink</name>
+	</types>
+</Package>

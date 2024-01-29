@@ -1,0 +1,1829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TechnicalRequirement</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>TechnicalRequirementCompactLayout</compactLayoutAssignment>
+    <label>Technical Requirement</label>
+    <picklistValues>
+        <picklist>BusinessArea__c</picklist>
+        <values>
+            <fullName>ZF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZZ</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Certificate__c</picklist>
+        <values>
+            <fullName>2%2E2 Factory Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E1 Acceptance Test Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3%2E2 Acceptance Test Certificate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Certificate</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HeatTreatmentQW__c</picklist>
+        <values>
+            <fullName>%2BA-Soft annealed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BAC-Annealed to obtain spherical carbides</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BAR-As rolled %28without any special rolling and%2For heat treatment conditions%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BFP-Treated for ferrite-pearlite structure and hardness span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BN-Normalized annealed or normalizing shaped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BQT-Quench Hardened-Tempered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BS-Treated for cold shear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BT-Tempered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BTH-Treated for hardness span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BU-Untreated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HeatTreatmentSales__c</picklist>
+        <values>
+            <fullName>%2BA-Soft annealed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BAC-Annealed to obtain spherical carbides</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BAR-As rolled %28without any special rolling and%2For heat treatment conditions%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BFP-Treated for ferrite-pearlite structure and hardness span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BN-Normalized annealed or normalizing shaped</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BQT-Quench Hardened-Tempered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BS-Treated for cold shear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BT-Tempered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BTH-Treated for hardness span</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%2BU-Untreated</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>HighSellingFrequency__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>InputMaterial__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NormSpecificationQuality__c</picklist>
+        <values>
+            <fullName>AFNOR - NF A35-551 - 01%2E07%2E1986</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS - 1442 - 20%2E09%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS - 1444 - 26%2E10%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A 322 - 01%2E05%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A 576-90b - 01%2E01%2E2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A105 - 01%2E12%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A108 - 01%2E09%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A193%2FA193M - 01%2E06%2E2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E01%2E2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E05%2E2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E07%2E2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E12%2E2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A295 - 01%2E10%2E2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A320%2FA320M - 01%2E05%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A322 - 01%2E01%2E2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A 5%2E28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A5%2E17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A5%2E18 - 05%2E02%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A5%2E23 - 23%2E08%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS - 970 - 01%2E12%2E1991</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS - 970 - 31%2E05%2E1983</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS - PD 970 - 18%2E05%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17102 - 01%2E10%2E1983</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17115 - 01%2E02%2E1987</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17115 - 01%2E07%2E2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17212 - 01%2E08%2E1972</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17240 - 01%2E07%2E1976</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17280 - 01%2E07%2E1985</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17350 - 01%2E10%2E1980</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 2077 - 01%2E02%2E1979</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 50 602 - 01%2E09%2E1985</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-1 - 01%2E02%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-2 - 01%2E04%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-2 - 01%2E10%2E2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-3 - 01%2E02%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-3 - 01%2E10%2E2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10060 - 01%2E02%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10083-1 - 01%2E10%2E2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10083-2 - 01%2E10%2E2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10083-3 - 01%2E01%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10084 - 01%2E06%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10085 - 01%2E07%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10087 - 01%2E01%2E1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10089 - 01%2E04%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10113-2 - 01%2E04%2E1993</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10132-4 - 01%2E04%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10221 - 01%2E01%2E1996</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10222-1 - 01%2E07%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-1 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-2 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-3 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-4 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-4 - 01%2E02%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10267 - 01%2E02%2E1998</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10269 - 01%2E02%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10273 - 01%2E02%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10273 - 01%2E10%2E2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10277-5 - 01%2E06%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10278 - 01%2E12%2E1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10308 - 01%2E11%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 756 - 01%2E06%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 14171 - 01%2E01%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 14341 - 01%2E04%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 14341 - 01%2E08%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-1 - 01%2E10%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-2 - 01%2E06%2E2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-3 - 01%2E10%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-4 - 01%2E09%2E2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 3887 - 01%2E10%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 4957 - 01%2E02%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 4957 - 01%2E11%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-1 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-17 - 01%2E02%2E2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-2 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-3 - 01%2E04%2E2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-3 - 01%2E06%2E2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-3 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-4 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 898-1 - 01%2E05%2E2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 898-1 - 01%2E08%2E2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 9443 - 01%2E11%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EU - DGRL 2014%2F68%2FEU - 27%2E06%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EU - DGRL 97%2F23%2FEG - 29%2E05%2E1997</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 3502 - 20%2E03%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 3503 - 01%2E01%2E2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 3506 - 20%2E03%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 4052 - 20%2E11%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 4804 - 20%2E02%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS - 1945%3A2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFA - 35-556 - 01%2E10%2E1984</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFA - 35-561 - 01%2E06%2E1992</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFA EN - 10087 - 01%2E01%2E1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAE - 1006 - 01%2E06%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAE - J403 - 01%2E11%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAE - J404 - 01%2E01%2E2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEP - 1572 - 01%2E08%2E1971</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEP - 1920 - 01%2E12%2E1984</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt A2 - 01%2E09%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W0 - 01%2E10%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W1 - 01%2E05%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W10 - 01%2E10%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W10 - 01%2E11%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W12 - 01%2E07%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W13 - 01%2E11%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W7 - 01%2E05%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verlag Stahleisen - SEL - 01%2E12%2E2003</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NormSpecification__c</picklist>
+        <values>
+            <fullName>AFNOR - NF A35-551 - 01%2E07%2E1986</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS - 1442 - 20%2E09%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AS - 1444 - 26%2E10%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A 322 - 01%2E05%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A 576-90b - 01%2E01%2E2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A105 - 01%2E12%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A108 - 01%2E09%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A193%2FA193M - 01%2E06%2E2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E01%2E2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E05%2E2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E07%2E2020</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A29%2FA29M - 01%2E12%2E2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A295 - 01%2E10%2E2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A320%2FA320M - 01%2E05%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ASTM - A322 - 01%2E01%2E2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A 5%2E28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A5%2E17</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A5%2E18 - 05%2E02%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AWS - A5%2E23 - 23%2E08%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS - 970 - 01%2E12%2E1991</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS - 970 - 31%2E05%2E1983</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS - PD 970 - 18%2E05%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17102 - 01%2E10%2E1983</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17115 - 01%2E02%2E1987</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17115 - 01%2E07%2E2012</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17212 - 01%2E08%2E1972</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17240 - 01%2E07%2E1976</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17280 - 01%2E07%2E1985</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 17350 - 01%2E10%2E1980</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 2077 - 01%2E02%2E1979</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN - 50 602 - 01%2E09%2E1985</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-1 - 01%2E02%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-2 - 01%2E04%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-2 - 01%2E10%2E2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-3 - 01%2E02%2E2005</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10025-3 - 01%2E10%2E2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10060 - 01%2E02%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10083-1 - 01%2E10%2E2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10083-2 - 01%2E10%2E2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10083-3 - 01%2E01%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10084 - 01%2E06%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10085 - 01%2E07%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10087 - 01%2E01%2E1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10089 - 01%2E04%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10113-2 - 01%2E04%2E1993</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10132-4 - 01%2E04%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10221 - 01%2E01%2E1996</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10222-1 - 01%2E07%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-1 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-2 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-3 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-4 - 01%2E02%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10263-4 - 01%2E02%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10267 - 01%2E02%2E1998</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10269 - 01%2E02%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10273 - 01%2E02%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10273 - 01%2E10%2E2016</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10277-5 - 01%2E06%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10278 - 01%2E12%2E1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 10308 - 01%2E11%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN - 756 - 01%2E06%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 14171 - 01%2E01%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 14341 - 01%2E04%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 14341 - 01%2E08%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-1 - 01%2E10%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-2 - 01%2E06%2E2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-3 - 01%2E10%2E2011</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 16120-4 - 01%2E09%2E2017</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 3887 - 01%2E10%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 4957 - 01%2E02%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 4957 - 01%2E11%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-1 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-17 - 01%2E02%2E2015</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-2 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-3 - 01%2E04%2E2019</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-3 - 01%2E06%2E2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-3 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 683-4 - 01%2E09%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 898-1 - 01%2E05%2E2013</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 898-1 - 01%2E08%2E2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DIN EN ISO - 9443 - 01%2E11%2E2018</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EU - DGRL 2014%2F68%2FEU - 27%2E06%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EU - DGRL 97%2F23%2FEG - 29%2E05%2E1997</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 3502 - 20%2E03%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 3503 - 01%2E01%2E2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 3506 - 20%2E03%2E2004</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 4052 - 20%2E11%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JIS G - 4804 - 20%2E02%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MS - 1945%3A2006</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFA - 35-556 - 01%2E10%2E1984</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFA - 35-561 - 01%2E06%2E1992</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NFA EN - 10087 - 01%2E01%2E1999</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAE - 1006 - 01%2E06%2E2014</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAE - J403 - 01%2E11%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAE - J404 - 01%2E01%2E2009</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEP - 1572 - 01%2E08%2E1971</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEP - 1920 - 01%2E12%2E1984</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt A2 - 01%2E09%2E2001</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W0 - 01%2E10%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W1 - 01%2E05%2E2002</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W10 - 01%2E10%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W10 - 01%2E11%2E2007</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W12 - 01%2E07%2E2003</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W13 - 01%2E11%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TÜV - AD 2000 - Merkblatt W7 - 01%2E05%2E2008</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verlag Stahleisen - SEL - 01%2E12%2E2003</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PackagingSales__c</picklist>
+        <values>
+            <fullName>02 - Seaworthy packing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 -Packed%2Fwrapped in plastic tubular film %28SAG%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - Wrapped in oiled paper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 - Wrapped in jute</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10 - Wrapped in oiled paper and jute</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12 - Cont%2E Lined with foil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14 - BU Type 2 VPM standard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15 - BU-Type 3 VCI%2Btubular film</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16 - Jute underlay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17 - VCI Packing %28Only%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18 - Packed in boxes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20 - Container shipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23 - Type 4 fabric tube padded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25 - BU type 5 VCI%2Bfabric padded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30 - Packed externally at the port</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>32 - Type 6 fabric hose puller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>34 - BU-TYPE 7 VCI%2Bfabric puller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36 - Type 8 air freight%2F general cargo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>38 - Type 9 key fol%2E%2Bthread%2E puller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40 - BU Type 10 VPM 2X Armor VCI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>42 - BU Type 11 VPM Armour%2BNet VCI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>44 - Combination pack%2E 14 and 30</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProductGroupBusinessArea__c</picklist>
+        <values>
+            <fullName>High Carbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low Carbon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tyre Cord</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welding Wire %28SZW%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PurposeOfUse__c</picklist>
+        <values>
+            <fullName>1-UNKNOWN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>10-DRAWING MATERIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>11-DRAWING MATERIAL PRESSURE TIGHT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12-DRAWING MATERIAL FOR DRILLING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>13-DRAWING MATERIAL ROUND ON 6-KT%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14-DRAWING MATERIAL ROUND ON 6-KT%2E PRESSURED%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15-DRAWING MATERIAL FOR PISTON RODS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>16-DRAWING MATERIAL FOR WELDING STUDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>17-DRAWING MATERIAL FOR UPSETTING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18-DRAWING STOCK FOR COLD ROLLING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>19-PLATING QUALITY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1A-SOFT DRAWING MATERIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1B-HARD DRAWING WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1C-PIANO WIRE PIANO WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1D-GRIDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1E-STEEL FLEX BOWDEN WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1F-STAPLES STAPLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1G-TEXTILE NEEDLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1H-HOSEWIRE TUBING WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1K-HEAD SUPPORT WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1L-CABLE WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1M-OFFSHORE%2FCABLES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1O-ORDERING WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1R-drawing material for higher strength%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1S-SAW-WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1V-DRAWING MATERIAL AXLES%2FSHAFTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1W-MAGNETIC SOFT IRON RFE%2FAME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>1Z-SKD SCRAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2-TRADE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>20-PEELING PRE-MATERIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>21-PEELING MATERIAL PRESSURE TIGHT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22-SKIVING MATERIAL FOR PISTON RODS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>23-PEELING MATERIAL FOR COLD HEADING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24-DRILLING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25-CUTTING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>26-FOR ZINCING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>27-MATERIAL FOR FORGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28-PEELING MATERIAL FOR COLD EXTRUSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>29-FOR COLD UPSETTING HIGHEST REQUIREMENTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2A-LWR2 TEMPERED 1000 MPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2B-LWR3 %2F4 TEMPERED 1100 MPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-GRINDING MATERIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>30-FOR COLD HEADING SCREWS %2F BOLTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31-COLD HEADING BALL STUDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>32-FOR COLD HEADING THREADED BOLTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>33-FOR COLD HEADING NUTS %2F HOLLOW PARTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>34-RAIL SLEEPER SCREWS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>35-ROLLER BEARINGS NEEDLES %2F ROLLERS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36-BEARINGS BALLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>37-BEARINGS RINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>38-BEARINGS OTHER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>39-COLD HEADING AUTOMOTIVE APPLICATIONS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3A-BEARING STEEL PREMIUM FOR RINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3B-BEARING STEEL PREMIUM FOR BALLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3P-COLD HEADING WITH PREMIUM REQUIREMENTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3R-COLD HEADING REQUIREMENT%2E CLEANLINESS GRADE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3S-ABS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3U-COLD HEADING REQUIREMENT%2E TO CONVERSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-HEADSTOCK MATERIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>40-COLD EXTRUDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>41-FINISHING MATERIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>42-HUELSEN STEEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>43-GAS CYLINDER PRODUCTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>44-HOT FORMING WITH TERMIN%2E COLD FORMING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>45-STEEL WOOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>46-GRINDING COARPER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>47-PIPE WRAP PIPE WRAP WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>48-AL OR ZN CLAD STEEL AL O%2E ZN COATED</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>49-HIGH DUCTILITY HIGH DEGREE OF FORMING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4S-AIRBAG SYSTEMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5-CHUCKING STEEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50-CHAIN STUDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>51-CHAIN BOLTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>52-ANCHOR AND OFFSHORE CHAINS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>53-FLANGES WELDED FL%2E%2FVKT%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>54-CUSHION SPRING WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>55-FORMWORK ANCHORS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>56-STEELCORD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>57-BEADWIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>58-SEILDRAHT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>59-RAILWAY SLEEPERS RAILROAD SLEEPERS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5A-CHAIN STEEL TO HEAT WITH ANSCHL%2E WBH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5B-CHAIN STEEL FOR ROLLING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-FLUTED CYLINDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60-HOT FORGING WITH SUBSEQUENT HEAT FORGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>61-SEMI-HOT FORGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>62-HOT FORGING WITH CONTR%2E COOLING BY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>63-HOT EXTRUSION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>64-FORGING%2FRING ROLLING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>65-FORGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>66-FOR ROLLING OUT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>67-FOR CROSS-ROLLING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>68-FOR HOT HEADING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>69-WELDING WIRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6A-HOT FORGING%2FPRESSURE TIGHT PARTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6B-HOT FORGING CP1H</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>7-SHOOTING STEEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>70-TURBINE BLADES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>71-AEROSPACE FOR MACHINING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>72-AIR %26 SPACE FOR HOT FORGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>73-STATIONARY TURBINE PARTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>74-REACTOR PARTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75-CUTLERY INDUSTRY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>76-SURGICAL INSTRU- MENTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>77-VENTILES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>78-WEAPONS MANUFACTURING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>79-PRE-MATERIAL FOR SPRING PRODUCTION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8-RIFLE RIFLE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>80-PEELING PRE-MATERIAL FOR VEHICLE SPRINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>81-DRAWING STOCK FOR HOT FORMED SPRINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>82-DRAWING STOCK FOR COLD FORMED SPRINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>83-STABILIZERS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>84-MARAFORM FOR COLD FORMED SPRINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>85-CLUTCH SPRINGS KD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>86-RAIL CLAMPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>87-VALVE SPRINGS VD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>88-BLADE SPRINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>89-COLD FORMED SPRING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8B-BRAKE ACCUMULATOR SPRING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8K-TRUNK SPRINGS PRE-MATERIAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8L-SPRINGS LOW STRESS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8N-SPRING NON-AUTOMOTIVE HOT FORMED SPRINGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8S-COLD FORMED SPRINGS FOR SPECIAL APPLICATION</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9-TURNING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90-TOOLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>91-TOOLS FULL MACHINING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>92-TOOLS FOR PARTIAL MACHINING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>93-TOOLS FOR FORGING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>94-TOOLS FOR COLD FORMING</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>95-CARD CLOTHING COMB PROFILE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>96-GRINDING RODS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>97-STEEL MESHES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>98-TIE RODS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>99-RETRACTABLE KNOB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RequiredQuantity__c</picklist>
+        <values>
+            <fullName>Jato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rollingmill__c</picklist>
+        <values>
+            <fullName>11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>15</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>31</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>32</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Straightness__c</picklist>
+        <values>
+            <fullName>1mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2mm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4mm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SurfaceConditionQW__c</picklist>
+        <values>
+            <fullName>As Rolled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blasted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peeled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pickled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pickled %2B coated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protection Against Rust</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>SurfaceCondition__c</picklist>
+        <values>
+            <fullName>As Rolled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blasted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Peeled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pickled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pickled %2B coated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protection Against Rust</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TextForSelectionQuality__c</picklist>
+        <values>
+            <fullName>Acceptance of Spec%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edge decarburization according to DIN EN 10263</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Edge decarburization according to DIN EN ISO 3887-03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maraform</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not in product portfolio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purpose of use</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard sentence%3A %22Further customer requirements%22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surface according to DIN EN ISO 9443</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surface according to EN ISO 9443</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upset testing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>UnitOfMeasurement__c</picklist>
+        <values>
+            <fullName>Inch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

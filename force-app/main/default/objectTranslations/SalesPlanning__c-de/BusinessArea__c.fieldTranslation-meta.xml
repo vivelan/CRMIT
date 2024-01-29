@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Geschäftsfeld/ Produktgruppe</label>
+    <name>BusinessArea__c</name>
+    <picklistValues>
+        <masterLabel>Across business Area</masterLabel>
+        <translation>Spartenübergreifend</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bearing Steel</masterLabel>
+        <translation>Wälzlagerstahl</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cold Heading</masterLabel>
+        <translation>Kaltstauch</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drawing Grades - High Carbon</masterLabel>
+        <translation>Ziehgüten - Harte Güten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drawing Grades - Low Carbon (w.o. B10)</masterLabel>
+        <translation>Ziehgüten - Weiche Güten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drawing Grades - Low Carbon - B10</masterLabel>
+        <translation>Ziehgüten - Weiche Güten - B10</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drawing Grades - Tyre Cord</masterLabel>
+        <translation>Ziehgüten - Reifendraht</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Drawing Grades - Welding Wire</masterLabel>
+        <translation>Ziehgüten - SZW</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Forging Steel</masterLabel>
+        <translation>Massivumformung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Free Cutting Steel (SZO)</masterLabel>
+        <translation>SZO</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spring Steel</masterLabel>
+        <translation>Federstahl</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>As Rolled</masterLabel>
+        <translation>Schwarzgewalzt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Blasted</masterLabel>
+        <translation>Gestrahlt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Coated</masterLabel>
+        <translation>Beschichtet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Peeled</masterLabel>
+        <translation>Walzgeschält</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pickled</masterLabel>
+        <translation>Gebeizt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pickled + coated</masterLabel>
+        <translation>Gebeizt + Beschichtet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Protection Against Rust</masterLabel>
+        <translation>Korrossionsschutz</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PositionFieldValue__c</fullName>
+    <description>Parent Position Field Value</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Position Field Value</label>
+    <referenceTo>PositionFieldValues__mdt</referenceTo>
+    <relationshipLabel>Master Values</relationshipLabel>
+    <relationshipName>MasterValues</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

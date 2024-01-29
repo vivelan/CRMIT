@@ -1,0 +1,4420 @@
+{
+    "dataSourceLinksInfo": {
+        "enableAutomaticLinking": true,
+        "excludeRelationships": [],
+        "links": []
+    },
+    "filters": [],
+    "gridLayouts": [
+        {
+            "name": "Default",
+            "numColumns": 14,
+            "pages": [
+                {
+                    "label": "Final Version",
+                    "name": "907e1935-7cb9-4d22-83ce-4dd71782dd9a",
+                    "navigationHidden": false,
+                    "widgets": [
+                        {
+                            "colspan": 14,
+                            "column": 0,
+                            "name": "container_2",
+                            "row": 0,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_14",
+                            "row": 0,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 2,
+                            "name": "text_10",
+                            "row": 0,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 8,
+                            "name": "text_11",
+                            "row": 0,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ]
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "listselector_4",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 2,
+                            "name": "listselector_5",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 4,
+                            "name": "listselector_3",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 6,
+                            "name": "listselector_6",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 5,
+                            "column": 0,
+                            "name": "text_12",
+                            "row": 2,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 5,
+                            "name": "text_9",
+                            "row": 2,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 8,
+                            "name": "text_6",
+                            "row": 2,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ]
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 11,
+                            "name": "text_15",
+                            "row": 2,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 5,
+                            "name": "pillbox_1",
+                            "row": 3,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 8,
+                            "name": "pillbox_2",
+                            "row": 3,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 14,
+                            "column": 0,
+                            "name": "container_3",
+                            "row": 4,
+                            "rowspan": 14,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 8,
+                            "name": "listselector_7",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 10,
+                            "name": "listselector_8",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 12,
+                            "name": "listselector_9",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 5,
+                            "column": 0,
+                            "name": "pillbox_4",
+                            "row": 3,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 11,
+                            "name": "pillbox_6",
+                            "row": 3,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 4,
+                            "column": 10,
+                            "name": "chart_5",
+                            "row": 5,
+                            "rowspan": 13,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 10,
+                            "column": 0,
+                            "name": "table_3",
+                            "row": 6,
+                            "rowspan": 12,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "number_1",
+                            "row": 5,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 3,
+                            "name": "number_2",
+                            "row": 5,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 6,
+                            "name": "number_3",
+                            "row": 5,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_8",
+                            "row": 4,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 12,
+                            "column": 2,
+                            "name": "text_13",
+                            "row": 4,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Debug",
+                    "name": "e9bc214f-20dc-49e9-96ab-9bf29f710ea3",
+                    "navigationHidden": true,
+                    "widgets": [
+                        {
+                            "colspan": 4,
+                            "column": 0,
+                            "name": "container_1",
+                            "row": 0,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_3",
+                            "row": 0,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_4",
+                            "row": 1,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_2",
+                            "row": 2,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 2,
+                            "name": "text_7",
+                            "row": 2,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 0,
+                            "name": "text_5",
+                            "row": 3,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 2,
+                            "name": "text_1",
+                            "row": 3,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 5,
+                            "column": 4,
+                            "name": "table_6",
+                            "row": 0,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 4,
+                            "column": 0,
+                            "name": "table_2",
+                            "row": 4,
+                            "rowspan": 2,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 4,
+                            "column": 0,
+                            "name": "table_1",
+                            "row": 7,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 4,
+                            "column": 4,
+                            "name": "table_4",
+                            "row": 7,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "text_16",
+                            "row": 6,
+                            "rowspan": 1,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rowHeight": "normal",
+            "selectors": [],
+            "style": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "backgroundColor": "#F2F6FA",
+                "cellSpacingX": 4,
+                "cellSpacingY": 4,
+                "fit": "original",
+                "gutterColor": "#C5D3E0"
+            },
+            "version": 1.0
+        }
+    ],
+    "layouts": [],
+    "steps": {
+        "Get_SW_Quantity_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Get SW Quantity",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{coalesce(cell(Get_HZV_ID_1.result, 0, \"HZV_ID\"), \"Error\").asEquality(\"material_no\")}};\nq = foreach q generate 'quantity_child_material' / 1000 as 'SW_Quantity';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_Flat_Translation_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get Flat Translation",
+            "numbers": [],
+            "query": "q = load \"Flat_Translation\";\nq = filter q by {{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asEquality(\"Language\")}};\nq = foreach q generate Language as Language, q.'Field_Material_Number' as 'Field_Material_Number', q.'Field_Time_Point_1' as 'Field_Time_Point_1', q.'Field_Time_Point_2' as 'Field_Time_Point_2', q.'Field_Date_Type' as 'Field_Date_Type', q.'Field_Year1' as 'Field_Year1', q.'Field_R_Level_1' as 'Field_R_Level_1', q.'Field_R_Level_2' as 'Field_R_Level_2', q.'Field_R_Level_3' as 'Field_R_Level_3', q.'Title_Cost_Type' as 'Title_Cost_Type', q.'Title_Gas_Electricity' as 'Title_Gas_Electricity', q.'Title_Internal_Scrap' as 'Title_Internal_Scrap', q.'Title_Costs_Time_Point_1' as 'Title_Costs_Time_Point_1', q.'Title_Costs_Time_Point_2' as 'Title_Costs_Time_Point_2', q.'Field_Percentage_Difference' as 'Field_Percentage_Difference', q.'Field_Difference' as 'Field_Difference', q.'Field_Contribution_to_Cost_Change' as 'Field_Contribution_to_Cost_Change', q.'ChartDescription_Share_of_final_costs_by_cost_type' as 'ChartDescription_Share_of_final_costs_by_cost_type', q.'ErrorMessage_InvalidFMN' as 'ErrorMessage_InvalidFMN', 'Title_Cost_Time_Point_1_Totals' as 'Title_Cost_Time_Point_1_Totals', 'Title_Cost_Time_Point_2_Totals' as 'Title_Cost_Time_Point_2_Totals', Title_Cost_Breakdown as Title_Cost_Breakdown, Title_Cost_Time_Points_Difference as Title_Cost_Time_Points_Difference, Field_Month1 as Field_Month1;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Check_if_HZV_exists_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Check if HZV exists",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{column(Get_HZV_ID_1.result, [\"HZV_ID\"]).asEquality(\"material_no\")}};\nq = foreach q generate material_no as material_no;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Cost_Breakdown_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Cost Breakdown",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\n\n-- blanks the content of the table if the FMN selected is invalid (e.g. no SW present)\nq = filter q by category_1 in {{cell(Generate_error_messa_1.result, 0, \"errorMessageFlag\").asString()}};\n\n-- filter out null categories\nq = filter q by 'category_1' is not null;\n\n-- get starting energy and gast cost\nstartingEnergyCost =  filter q by \n    {{column(Yearly_Cost_Point_1.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_1.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{cell(Get_all_FMN_numbers_1.selection, 0, \"material_no\").asEquality(\"material_no\")}} && (category_3 == \"Delta Gas zu Grundplan\" || \n    category_3 == \"Delta Strom zu Grundplan\");\n\nstartingEnergyCost = foreach startingEnergyCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3', \n    'external_cost' as 'external_cost', \n    'internal_cost' as 'internal_cost';\n\n-- get final energy and gast cost\nfinalEnergyCost =  filter q by \n    {{column(Yearly_Cost_Point_2.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_2.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{cell(Get_all_FMN_numbers_1.selection, 0, \"material_no\").asEquality(\"material_no\")}} && \n    (category_3 == \"Delta Gas zu Grundplan\" || category_3 == \"Delta Strom zu Grundplan\");\n\nfinalEnergyCost = foreach finalEnergyCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3', \n    'external_cost' as 'external_cost', \n    'internal_cost' as 'internal_cost';\n\n-- get starting cost\nstartingCost = filter q by \n    {{column(Yearly_Cost_Point_1.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_1.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{coalesce(cell(Get_SW_ID_1.result, 0, \"SW_ID\"), \"0\").asEquality(\"material_no\")}} && \n    'category_3' != \"{{cell(Include_Eigenschrott_1.selection, 0, \"Value\").asString()}}\";\n\nstartingCost = foreach startingCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3', \n    'external_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'external_cost', \n    'internal_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'internal_cost';\n\n-- get final cost\nfinalCost = filter q by\n    {{column(Yearly_Cost_Point_2.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_2.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{coalesce(cell(Get_SW_ID_1.result, 0, \"SW_ID\"), \"0\").asEquality(\"material_no\")}} && \n    'category_3' != \"{{cell(Include_Eigenschrott_1.selection, 0, \"Value\").asString()}}\";\n\nfinalCost = foreach finalCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3', \n    'external_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'external_cost', \n    'internal_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'internal_cost';\n\n-- cogroup starting cost and final cost streams\nstartingCost = union startingCost, startingEnergyCost;\nfinalCost = union finalCost, finalEnergyCost;\nresult = cogroup startingCost by {{row(R_Level_selector_2.selection, [], [\"Value\"]).asObject()}}, finalCost by {{row(R_Level_selector_2.selection, [], [\"Value\"]).asObject()}};\n\n-- generate the result into the table\nresult = foreach result generate \n    {{cell(R_Level_selector_2.selection, 0, \"Generate\").asString()}}, \n    sum(startingCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}) as '{{cell(Get_Flat_Translation_1.result, 0, 'Field_Time_Point_1').asString()}}', \n    sum(finalCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}) as '{{cell(Get_Flat_Translation_1.result, 0, 'Field_Time_Point_2').asString()}}', \n    sum(finalCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}) - sum(startingCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}) as '{{cell(Get_Flat_Translation_1.result, 0, \"Field_Difference\").asString()}}', \n    coalesce((sum(finalCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}) - sum(startingCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}})) / sum(startingCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}), 0) as '{{cell(Get_Flat_Translation_1.result, 0, \"Field_Percentage_Difference\").asString()}}',\n    (sum(finalCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}) - sum(startingCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}})) / ({{coalesce(cell(Calculate_Total_Cost_1.result, 1, cell(Internal_or_External_1.selection, 0, \"Value\")), 0).asObject()}} - {{coalesce(cell(Calculate_Total_Cost_1.result, 0, cell(Internal_or_External_1.selection, 0, \"Value\")), 0).asObject()}}) as '{{cell(Get_Flat_Translation_1.result, 0, \"Field_Contribution_to_Cost_Change\").asString()}}';\n\n-- filter out energy and gas and eigenschrott depending on selector value\nresult = filter result by 'R-Level 1' != \"{{cell(Include_Energy_and_G_1.selection, 0, \"Value\").asString()}}\";\n\n-- sort on Contribution to Cost Change\nresult = order result by '{{cell(Get_Flat_Translation_1.result, 0, \"Field_Contribution_to_Cost_Change\").asString()}}' desc; \n\n\n\n\n\n\n",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "collapsible": false,
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "showRowIndexColumn": false,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Get_HZV_Quantity_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Get HZV Quantity",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = foreach q generate 'quantity_child_material'/ 1000 as 'HZV_Quantity';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Get_all_FMN_numbers_1"
+                ]
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_SW_ID_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Get SW ID",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{coalesce(cell(Get_HZV_ID_1.result, 0, \"HZV_ID\"), \"Error\").asEquality(\"material_no\")}};\nq = foreach q generate 'child_material_no' as 'SW_ID';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_all_FMN_numbers_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get all FMNs",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by material_no matches \"1000\";\nq = foreach q generate count(q) as 'A', \n(case\n    when starts_with('material_no', \"1000\") then material_no\nend) as material_no;\n\nq = group q by material_no;\nq = foreach q generate material_no as material_no, count(q) as 'A';\nq = limit q 200000;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Zeitraum_Art_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Zeitraum_Art_1",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = group q by ('Date_Type_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}', 'Date_Type');\nq = foreach q generate 'Date_Type_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'Label', Date_Type as Date_Type;\nq = order q by 'Date_Type' asc;\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Generate_error_messa_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Generate error message",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = foreach q generate \n    {{coalesce(valueAt(column(Check_if_SW_exists_1.result, [\"material_no\"]), 0), 0).asString()}} as 'swExists', \n    {{coalesce(valueAt(column(Check_if_HZV_exists_1.result, [\"material_no\"]), 0), 0).asString()}} as 'hzvExists';\n\nq = foreach q generate\n    (case  \n    when (swExists == 0 || hzvExists == 0 ) then 0 \n    else 1\n    end) as 'swOrHzvExists';\n\nq = foreach q generate 'swOrHzvExists' as 'swOrHzvExists',\n(case 'swOrHzvExists'\nwhen 1 then \"all\"\nelse \"[\\\"Nothing\\\"]\"\nend\n) as 'errorMessageFlag',\n(case swOrHzvExists\nwhen 0 then \"{{cell(Get_Flat_Translation_1.result, 0, 'ErrorMessage_InvalidFMN').asString()}}\"\nelse \"\"\nend\n) as 'errorMessage';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Zeitraum_Art_2": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Zeitraum_Art_2",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = group q by ('Date_Type_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}', 'Date_Type');\nq = foreach q generate 'Date_Type_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'Label', Date_Type as Date_Type;\nq = order q by 'Date_Type' asc;\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Check_if_SW_exists_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Check if SW exists",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{column(Get_SW_ID_1.result, [\"SW_ID\"]).asEquality(\"material_no\")}};\nq = foreach q generate material_no as material_no;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "pivoted": false,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Get_User_Locale_SOQL": {
+            "broadcastFacet": true,
+            "groups": [],
+            "numbers": [],
+            "query": "SELECT Id, LanguageLocaleKey, FirstName, LastName, Username FROM User WHERE Id = '!{User.Id}'",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "soql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Internal_or_External_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "External or Internal Cost Toggle",
+            "numbers": [],
+            "query": "q = load \"Vertical_Translation\";\nq = foreach q generate 'Toggle_Internal_External_Cost_Label_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'Extern oder intern Kosten';\n\nq = foreach q generate \n    'Extern oder intern Kosten' as 'Extern oder intern Kosten',  \n    (case  \n        when 'Extern oder intern Kosten' in [\"Kosten Extern\", \"External Cost\"] then \"external_cost\"\n        else \"internal_cost\" \n    end) as Value;\n    \nq = limit q 2;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_User_Locale_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Get_User_Local_1",
+            "numbers": [],
+            "query": "q = load \"Flat_Translation\";\nq = foreach q generate \"{{cell(Get_User_Locale_SOQL.result, 0, \"LanguageLocaleKey\").asString()}}\" as User_Locale_Check;\nq = foreach q generate User_Locale_Check as User_Locale_Check,\n(case\n    when User_Locale_Check in [\"en_US\", \"de\"] then User_Locale_Check\n    else \"en_US\"\nend) as LanguageLocaleKey;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Include_Eigenschrott_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Include Eigenschrott",
+            "numbers": [],
+            "query": "q = load \"Vertical_Translation\";\nq = foreach q generate 'Toggle_Yes_No_Label_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'Display';\n\nq = foreach q generate \n    'Display' as 'Display',\n    (case\n        when 'Display' in [\"Ja\", \"Yes\"] then \"None\"\n        else \"Eigenschrott\" \n    end) as 'Value';\n\nq = limit q 2;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Total_Cost_Difference": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Starting Cost Point - Total Cost",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = group q by all;\nq = foreach q generate round({{coalesce(row(Calculate_Total_Cost_1.result, [1], column(Internal_or_External_1.selection, [\"Value\"])), 0).asObject()}}, 0) - round({{coalesce(row(Calculate_Total_Cost_1.result, [0], column(Internal_or_External_1.selection, [\"Value\"])), 0).asObject()}}, 0) as 'Gesamtkosten_Differenz';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_HZV_ID_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Get HZV ID",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = foreach q generate 'child_material_no' as 'HZV_ID';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Get_all_FMN_numbers_1"
+                ]
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Monthly_Cost_Point_2": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Monthly_Cost_Point_2",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{column(Zeitraum_Art_2.selection, [\"Date_Type\"]).asEquality(\"Date_Type\")}} && {{column(Yearly_Cost_Point_2.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}};\nq = group q by 'price_point_month';\nq = foreach q generate 'price_point_month' as 'price_point_month', \n(case 'price_point_month'\nwhen \"0\" then 0\nwhen \"1\" then 1\nwhen \"2\" then 2\nwhen \"3\" then 3\nwhen \"4\" then 4\nwhen \"5\" then 5\nwhen \"6\" then 6\nwhen \"7\" then 7\nwhen \"8\" then 8\nwhen \"9\" then 9\nwhen \"10\" then 10\nwhen \"11\" then 11\nwhen \"12\" then 12\nwhen \"Q1\" then 1\nwhen \"Q2\" then 2\nwhen \"Q3\" then 3\nwhen \"Q4\" then 4\nend) as 'Order';\nq = order q by 'Order' asc;\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "start": "{{cell(Get_Current_Month_an_1.result, 0, \"End_Month\").asObject()}}",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "showRowIndexColumn": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Monthly_Cost_Point_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Monthly_Cost_Point_1",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{column(Zeitraum_Art_1.selection, [\"Date_Type\"]).asEquality(\"Date_Type\")}} && {{column(Yearly_Cost_Point_1.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}};\nq = group q by 'price_point_month';\nq = foreach q generate 'price_point_month' as 'price_point_month', \n(case 'price_point_month'\nwhen \"0\" then 0\nwhen \"1\" then 1\nwhen \"2\" then 2\nwhen \"3\" then 3\nwhen \"4\" then 4\nwhen \"5\" then 5\nwhen \"6\" then 6\nwhen \"7\" then 7\nwhen \"8\" then 8\nwhen \"9\" then 9\nwhen \"10\" then 10\nwhen \"11\" then 11\nwhen \"12\" then 12\nwhen \"Q1\" then 1\nwhen \"Q2\" then 2\nwhen \"Q3\" then 3\nwhen \"Q4\" then 4\nend) as 'Order';\nq = order q by 'Order' asc;\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "start": "{{cell(Get_Current_Month_an_1.result, 0, \"Starting_Month\").asObject()}}",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Total_Cost_Final_Cost_Point": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Starting Cost Point - Total Cost",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = group q by all;\nq = foreach q generate round({{coalesce(row(Calculate_Total_Cost_1.result, [1], column(Internal_or_External_1.selection, [\"Value\"])), 0).asObject()}}, 0) as 'Endkostenpunkt_Gesamt';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "R_Level_selector_2": {
+            "broadcastFacet": false,
+            "columns": {
+                "ValueTree": {
+                    "type": "string"
+                },
+                "Generate": {
+                    "type": "string"
+                },
+                "Label": {
+                    "type": "string"
+                },
+                "Value": {
+                    "type": "string"
+                },
+                "GenerateTree": {
+                    "type": "string"
+                }
+            },
+            "label": "R-Level selector",
+            "selectMode": "singlerequired",
+            "start": "{\"Label\":[\"R-Level 3\"]}",
+            "type": "staticflex",
+            "values": [
+                "{\"Label\":\"R-Level 1\",\"Generate\":\"finalCost.category_1 as 'R-Level 1'\",\"Value\":\"'category_1'\",\"ValueTree\":\"'category_1'\",\"GenerateTree\":\"'R-Level 1' as 'R-Level 1'\"}",
+                "{\"Label\":\"R-Level 2\",\"Generate\":\"finalCost.category_1 as 'R-Level 1', finalCost.category_2 as 'R-Level 2'\",\"Value\":\"('category_1', 'category_2')\",\"ValueTree\":\"'category_2'\",\"GenerateTree\":\"'R-Level 2' as 'R-Level 2'\"}",
+                "{\"Label\":\"R-Level 3\",\"Generate\":\"finalCost.category_1 as 'R-Level 1', finalCost.category_2 as 'R-Level 2', finalCost.category_3 as 'R-Level 3'\",\"Value\":\"('category_1', 'category_2', 'category_3')\",\"ValueTree\":\"'category_3'\",\"GenerateTree\":\"'R-Level 3' as 'R-Level 3'\"}"
+            ]
+        },
+        "Get_Current_Month_an_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Get Current Month and Year",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = foreach q generate date_to_string(now(), \"yyyy\") as 'Starting_Year', date_to_string(now(), \"M\") as 'Starting_Month', string_to_number(date_to_string(now(), \"M\")) % 12 + 1 as 'End_Month', string_to_number(date_to_string(now(), \"yyyy\")) as 'End_Year';\nq = foreach q generate date_to_string(now(), \"yyyy\") as 'Starting_Year', 'Starting_Month' as 'Starting_Month', number_to_string('End_Month', \"##\") as 'End_Month',\n(case 'End_Month'\nwhen 12 then number_to_string('End_Year'+1, \"####\")\nelse number_to_string('End_Year', \"####\")\nend) as 'End_Year';\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Cost_Breakdown_Tree__1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Cost Breakdown Tree-Map",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\n\n-- blanks the content of the table if the FMN selected is invalid (e.g. no SW present)\nq = filter q by category_1 in {{cell(Generate_error_messa_1.result, 0, \"errorMessageFlag\").asString()}};\n\n-- filter out null categories\nq = filter q by 'category_1' is not null;\n\n-- get starting energy and gast cost\nstartingEnergyCost =  filter q by \n    {{column(Yearly_Cost_Point_1.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_1.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{cell(Get_all_FMN_numbers_1.selection, 0, \"material_no\").asEquality(\"material_no\")}} && \n    (category_3 == \"Delta Gas zu Grundplan\" || category_3 == \"Delta Strom zu Grundplan\");\n\nstartingEnergyCost = foreach startingEnergyCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3',  \n    'external_cost' as 'external_cost', \n    'internal_cost' as 'internal_cost';\n\n-- get final energy and gast cost\nfinalEnergyCost =  filter q by \n    {{column(Yearly_Cost_Point_2.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_2.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{cell(Get_all_FMN_numbers_1.selection, 0, \"material_no\").asEquality(\"material_no\")}} && \n    (category_3 == \"Delta Gas zu Grundplan\" || category_3 == \"Delta Strom zu Grundplan\");\n\nfinalEnergyCost = foreach finalEnergyCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3',  \n    'external_cost' as 'external_cost', \n    'internal_cost' as 'internal_cost';\n\n-- get starting cost\nstartingCost = filter q by \n    {{column(Yearly_Cost_Point_1.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_1.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{coalesce(cell(Get_SW_ID_1.result, 0, \"SW_ID\"), \"0\").asEquality(\"material_no\")}} && \n    'category_3' != \"{{cell(Include_Eigenschrott_1.selection, 0, \"Value\").asString()}}\";\n\nstartingCost = foreach startingCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3', \n    'external_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'external_cost', \n    'internal_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'internal_cost';\n\n-- get final cost\nfinalCost = filter q by \n    {{column(Yearly_Cost_Point_2.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && \n    {{column(Monthly_Cost_Point_2.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}} && \n    {{coalesce(cell(Get_SW_ID_1.result, 0, \"SW_ID\"), \"0\").asEquality(\"material_no\")}} && \n    'category_3' != \"{{cell(Include_Eigenschrott_1.selection, 0, \"Value\").asString()}}\";\n\nfinalCost = foreach finalCost generate \n    'category_1_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_1', \n    'category_2_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_2', \n    'category_3_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'category_3', \n    'external_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'external_cost', \n    'internal_cost' * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'internal_cost';\n\n-- cogroup starting cost and final cost streams\nstartingCost = union startingCost, startingEnergyCost;\nfinalCost = union finalCost, finalEnergyCost;\nresult = cogroup startingCost by {{row(R_Level_selector_2.selection, [], [\"Value\"]).asObject()}}, finalCost by {{row(R_Level_selector_2.selection, [], [\"Value\"]).asObject()}};\n\n-- generate the result into the table\nresult = foreach result generate {{cell(R_Level_selector_2.selection, 0, \"Generate\").asString()}}, sum(finalCost.{{cell(Internal_or_External_1.selection, 0, \"Value\").asString()}}) as 'Endkosten';\n\n-- filter out energy and gas and eigenschrott depending on selector value\nresult = filter result by 'R-Level 1' != \"{{cell(Include_Energy_and_G_1.selection, 0, \"Value\").asString()}}\";\n\nresult = foreach result generate {{cell(R_Level_selector_2.selection, 0, \"GenerateTree\").asString()}}, sum(Endkosten) as 'Endkosten';\n\n-- sort on Contribution to Cost Change\nresult = order result by 'Endkosten' desc; \n\n\n\n",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": false,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "treemap",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "{{cell(Get_Flat_Translation_1.result, 0, \"ChartDescription_Share_of_final_costs_by_cost_type\").asString()}}",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Yearly_Cost_Point_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Yearly_Cost_Point_1",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{column(Zeitraum_Art_1.selection, [\"Date_Type\"]).asEquality(\"Date_Type\")}};\nq = group q by 'price_point_year';\nq = foreach q generate 'price_point_year' as 'price_point_year', count() as 'count';\nq = order q by 'price_point_year' asc;\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "start": "{{cell(Get_Current_Month_an_1.result, 0, \"Starting_Year\").asString()}}",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Calculate_Total_Cost_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Calculate Total Costs",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\n\n-- blanks the content of the table if the FMN selected is invalid (e.g. no SW present)\nq = filter q by category_1 in {{cell(Generate_error_messa_1.result, 0, \"errorMessageFlag\").asString()}};\n\n-- filter by the starting cost point and final cost point to get only the SW rows for those cost points\nq1 = filter q by (({{column(Yearly_Cost_Point_1.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && {{column(Monthly_Cost_Point_1.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}}) || ({{column(Yearly_Cost_Point_2.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && {{column(Monthly_Cost_Point_2.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}})) && {{coalesce(cell(Get_SW_ID_1.result, 0, \"SW_ID\"), \"0\").asEquality(\"material_no\")}} && category_3 is not null && 'category_3' != \"{{cell(Include_Eigenschrott_1.selection, 0, \"Value\").asString()}}\";\n\nq1 = group q1 by rollup('price_point_year', 'price_point_month');\nq1 = foreach q1 generate 'price_point_year' as 'price_point_year', 'price_point_month' as 'price_point_month', sum(external_cost)  * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'external_cost', sum(internal_cost) * {{column(Get_HZV_Quantity_1.result, [\"HZV_Quantity\"]).asObject()}} * {{coalesce(column(Get_SW_Quantity_1.result, [\"SW_Quantity\"]), 0).asObject()}} as 'internal_cost';\n\n\n-- filter by R-Level 3 Strom or Gas and by the selected material number\nenergyGas = filter q by ('category_3' == \"Delta Strom zu Grundplan\" || 'category_3' == \"Delta Gas zu Grundplan\") && {{cell(Get_all_FMN_numbers_1.selection, 0, \"material_no\").asEquality(\"material_no\")}};\n--filter by starting cost point and final cost point selection\nenergyGas = filter energyGas by ({{column(Yearly_Cost_Point_1.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && {{column(Monthly_Cost_Point_1.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}}) || ({{column(Yearly_Cost_Point_2.selection, [\"price_point_year\"]).asEquality(\"price_point_year\")}} && {{column(Monthly_Cost_Point_2.selection, [\"price_point_month\"]).asEquality(\"price_point_month\")}});\n\n\nenergyGas = group energyGas by rollup('price_point_year', 'price_point_month');\nenergyGas = foreach energyGas generate 'price_point_year' as 'price_point_year', 'price_point_month' as 'price_point_month', sum('external_cost') as 'external_cost', sum('internal_cost') as 'internal_cost';\n\n\ntotalCost = cogroup q1 by ('price_point_year', 'price_point_month'), energyGas by ('price_point_year', 'price_point_month');\n\ntotalCost = foreach totalCost generate q1.'price_point_year' as 'price_point_year', q1.'price_point_month' as 'price_point_month', \n(case \nwhen \"{{cell(Include_Energy_and_G_1.selection, 0, \"Include Energy and Gas\").asString()}}\" in [\"Ja\", \"Yes\"] then sum(energyGas.'external_cost') + sum(q1.'external_cost')\nwhen \"{{cell(Include_Energy_and_G_1.selection, 0, \"Include Energy and Gas\").asString()}}\" in [\"Nein\", \"No\"] then sum(q1.'external_cost')\nend\n) as 'external_cost',\n(case \nwhen \"{{cell(Include_Energy_and_G_1.selection, 0, \"Include Energy and Gas\").asString()}}\" in [\"Ja\", \"Yes\"] then sum(energyGas.'internal_cost') + sum(q1.'internal_cost')\nwhen \"{{cell(Include_Energy_and_G_1.selection, 0, \"Include Energy and Gas\").asString()}}\" in [\"Nein\", \"No\"] then sum(q1.'internal_cost')\nend\n) as 'internal_cost';\n\n\n\n\n",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Yearly_Cost_Point_2": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Yearly_Cost_Point_2",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = filter q by {{column(Zeitraum_Art_2.selection, [\"Date_Type\"]).asEquality(\"Date_Type\")}};\nq = group q by 'price_point_year';\nq = foreach q generate 'price_point_year' as 'price_point_year', count() as 'count';\nq = order q by 'price_point_year' asc;\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "start": "{{cell(Get_Current_Month_an_1.result, 0, \"End_Year\").asString()}}",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Include_Energy_and_G_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Electricity or Gas",
+            "numbers": [],
+            "query": "q = load \"Vertical_Translation\";\nq = foreach q generate 'Toggle_Yes_No_Label_{{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asString()}}' as 'Include Energy and Gas';\n\nq = foreach q generate \n    'Include Energy and Gas' as 'Include Energy and Gas',\n    (case\n        when 'Include Energy and Gas' in [\"Ja\", \"Yes\"] then \"None\"\n        when 'Include Energy and Gas' == \"No\" then \"Surcharges\"\n        when 'Include Energy and Gas' == \"Nein\" then \"Zuschläge\"\n    end) as 'Value';\n\nq = limit q 2;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Total_Cost_Starting_Cost_Point": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Starting Cost Point - Total Cost",
+            "numbers": [],
+            "query": "q = load \"Cost_of_Production_R_Levels\";\nq = group q by all;\nq = foreach q generate round({{coalesce(row(Calculate_Total_Cost_1.result, [0], column(Internal_or_External_1.selection, [\"Value\"])), 0).asObject()}}, 0) as 'Anfangskostenpunkt_Gesamt'; \nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        }
+    },
+    "widgetStyle": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E6ECF2",
+        "borderEdges": [],
+        "borderRadius": 0,
+        "borderWidth": 1
+    },
+    "widgets": {
+        "text_14": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "[Field_Material_Numbe]\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Material_Numbe": {
+                            "field": "Field_Material_Number",
+                            "sourceType": "result",
+                            "step": "Get_Flat_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_13": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "16px",
+                                "color": "#e74340",
+                                "bold": true
+                            },
+                            "insert": "[errorMessage]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "errorMessage": {
+                            "field": "errorMessage",
+                            "sourceType": "result",
+                            "step": "Generate_error_messa_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_16": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px",
+                                "bold": true
+                            },
+                            "insert": "Error message for invalid FMN debug"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ]
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_15": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {},
+                            "insert": "[Title_Internal_Scrap]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Internal_Scrap": {
+                            "field": "Title_Internal_Scrap",
+                            "sourceType": "result",
+                            "step": "Get_Flat_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_10": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "[Field_Time_Point_1]\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Time_Point_1": {
+                            "field": "Field_Time_Point_1",
+                            "sourceType": "result",
+                            "step": "Get_Flat_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_12": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "16px"
+                            },
+                            "insert": "R-Level"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ]
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_11": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "[Field_Time_Point_2]\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Time_Point_2": {
+                            "field": "Field_Time_Point_2",
+                            "sourceType": "result",
+                            "step": "Get_Flat_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "container_1": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_2": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_3": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "text_3": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px",
+                                "bold": true
+                            },
+                            "insert": "DEBUG"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ]
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_2": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px"
+                            },
+                            "insert": "HZV ID = "
+                        },
+                        {
+                            "attributes": {},
+                            "insert": "[HZV_ID]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "HZV_ID": {
+                            "field": "HZV_ID",
+                            "sourceType": "result",
+                            "step": "Get_HZV_ID_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "chart_5": {
+            "parameters": {
+                "autoFitMode": "keepLabels",
+                "bins": {
+                    "breakpoints": {
+                        "high": 100,
+                        "low": 0
+                    },
+                    "bands": {
+                        "high": {
+                            "color": "#008000",
+                            "label": ""
+                        },
+                        "low": {
+                            "color": "#B22222",
+                            "label": ""
+                        },
+                        "medium": {
+                            "color": "#ffa500",
+                            "label": ""
+                        }
+                    }
+                },
+                "legend": {
+                    "descOrder": false,
+                    "showHeader": true,
+                    "show": false,
+                    "customSize": "auto",
+                    "position": "right-top",
+                    "inside": false
+                },
+                "axisMode": "multi",
+                "tooltip": {
+                    "content": {
+                        "legend": {
+                            "showBinLabel": true,
+                            "measures": [],
+                            "showNullValues": true,
+                            "customizeLegend": false,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "dimensions": []
+                        }
+                    }
+                },
+                "visualizationType": "treemap",
+                "exploreLink": true,
+                "title": {
+                    "fontSize": 14,
+                    "subtitleFontSize": 11,
+                    "label": "{{cell(Get_Flat_Translation_1.result, 0, \"ChartDescription_Share_of_final_costs_by_cost_type\").asString()}}",
+                    "align": "center",
+                    "subtitleLabel": ""
+                },
+                "binValues": false,
+                "trellis": {
+                    "flipLabels": false,
+                    "showGridLines": true,
+                    "size": [
+                        100,
+                        100
+                    ],
+                    "enable": false,
+                    "type": "x",
+                    "chartsPerLine": 4
+                },
+                "showActionMenu": true,
+                "measureAxis2": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "valueType": "compactNumber",
+                "measureAxis1": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "theme": "wave",
+                "step": "Cost_Breakdown_Tree__1",
+                "compactDecimalDigits": -1,
+                "dimensionAxis": {
+                    "showTitle": true,
+                    "customSize": "auto",
+                    "showAxis": true,
+                    "title": "",
+                    "icons": {
+                        "useIcons": false,
+                        "iconProps": {
+                            "fit": "cover",
+                            "column": "",
+                            "type": "round"
+                        }
+                    }
+                },
+                "applyConditionalFormatting": true
+            },
+            "type": "chart"
+        },
+        "text_5": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {},
+                            "insert": "SW ID = "
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "[SW_ID]\n"
+                        }
+                    ],
+                    "values": {
+                        "SW_ID": {
+                            "field": "SW_ID",
+                            "sourceType": "result",
+                            "step": "Get_SW_ID_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_4": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px"
+                            },
+                            "insert": "FMN ID = "
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "[material_no]\n"
+                        }
+                    ],
+                    "values": {
+                        "material_no": {
+                            "compact": false,
+                            "field": "material_no",
+                            "sourceType": "selection",
+                            "step": "Get_all_FMN_numbers_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_7": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px"
+                            },
+                            "insert": "HZV QUANTITY = [HZV_Quantity]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "HZV_Quantity": {
+                            "compact": false,
+                            "field": "HZV_Quantity",
+                            "sourceType": "result",
+                            "step": "Get_HZV_Quantity_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_6": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {},
+                            "insert": "[Title_Gas___Electric]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Gas___Electric": {
+                            "field": "Title_Gas_Electricity",
+                            "sourceType": "result",
+                            "step": "Get_Flat_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_9": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "16px"
+                            },
+                            "insert": "[Title_Cost_Type]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Cost_Type": {
+                            "field": "Title_Cost_Type",
+                            "sourceType": "result",
+                            "step": "Get_Flat_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_8": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "18px",
+                                "bold": true
+                            },
+                            "insert": "[Title_Cost_Breakdown]"
+                        },
+                        {
+                            "attributes": {},
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Cost_Breakdown": {
+                            "field": "Title_Cost_Breakdown",
+                            "sourceType": "result",
+                            "step": "Get_Flat_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "listselector_7": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "count",
+                "showActionMenu": true,
+                "step": "Zeitraum_Art_2",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Field_Date_Type\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_6": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "Monthly_Cost_Point_1",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Field_Month1\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_9": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "Monthly_Cost_Point_2",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Field_Month1\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_8": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "Yearly_Cost_Point_2",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Field_Year1\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_3": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "Yearly_Cost_Point_1",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Field_Year1\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "text_1": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px"
+                            },
+                            "insert": "SW QUANTITY = [SW_Quantity]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "SW_Quantity": {
+                            "compact": false,
+                            "field": "SW_Quantity",
+                            "sourceType": "result",
+                            "step": "Get_SW_Quantity_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "listselector_5": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "displayTemplate": "[Label]",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "count",
+                "showActionMenu": true,
+                "step": "Zeitraum_Art_1",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Field_Date_Type\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_4": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "Get_all_FMN_numbers_1",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Field_Material_Number\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "table_1": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "maxColumnWidth": 300,
+                "minColumnWidth": 40,
+                "mode": "variable",
+                "numberOfLines": 1,
+                "pivoted": false,
+                "showActionMenu": true,
+                "step": "Check_if_SW_exists_1",
+                "totals": true,
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "table_2": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "maxColumnWidth": 300,
+                "minColumnWidth": 40,
+                "mode": "variable",
+                "numberOfLines": 1,
+                "showActionMenu": true,
+                "step": "Get_Current_Month_an_1",
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "table_3": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "collapsible": false,
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "mode": "fittocontainer",
+                "numberOfLines": 1,
+                "pivoted": false,
+                "showActionMenu": true,
+                "showRowIndexColumn": false,
+                "step": "Cost_Breakdown_1",
+                "totals": true,
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "number_3": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": true,
+                "measureField": "Gesamtkosten_Differenz",
+                "numberColor": "#091A3E",
+                "numberSize": 20,
+                "showActionMenu": false,
+                "step": "Total_Cost_Difference",
+                "textAlignment": "left",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Title_Cost_Time_Points_Difference\").asString()}}",
+                "titleColor": "#091A3E",
+                "titleSize": 16,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "number_2": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": true,
+                "measureField": "Endkostenpunkt_Gesamt",
+                "numberColor": "#091A3E",
+                "numberSize": 20,
+                "showActionMenu": false,
+                "step": "Total_Cost_Final_Cost_Point",
+                "textAlignment": "left",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Title_Cost_Time_Point_2_Totals\").asString()}}",
+                "titleColor": "#091A3E",
+                "titleSize": 16,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "table_4": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "maxColumnWidth": 300,
+                "minColumnWidth": 40,
+                "mode": "variable",
+                "numberOfLines": 1,
+                "showActionMenu": true,
+                "step": "Generate_error_messa_1",
+                "totals": true,
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "pillbox_2": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": false,
+                "fontSize": 14,
+                "selectedTab": {
+                    "backgroundColor": "rgb(255, 153, 41)",
+                    "borderColor": "#C6D3E1",
+                    "borderEdges": [],
+                    "borderWidth": 1,
+                    "textColor": "#FFFFFF"
+                },
+                "showActionMenu": false,
+                "step": "Include_Energy_and_G_1",
+                "textColor": "rgb(255, 153, 41)"
+            },
+            "type": "pillbox"
+        },
+        "number_1": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": false,
+                "measureField": "Anfangskostenpunkt_Gesamt",
+                "numberColor": "#091A3E",
+                "numberSize": 20,
+                "showActionMenu": false,
+                "step": "Total_Cost_Starting_Cost_Point",
+                "textAlignment": "left",
+                "title": "{{cell(Get_Flat_Translation_1.result, 0, \"Title_Cost_Time_Point_1_Totals\").asString()}}",
+                "titleColor": "#091A3E",
+                "titleSize": 16,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "pillbox_1": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": false,
+                "fontSize": 14,
+                "selectedTab": {
+                    "backgroundColor": "rgb(255, 153, 41)",
+                    "borderColor": "#C6D3E1",
+                    "borderEdges": [],
+                    "borderWidth": 1,
+                    "textColor": "#FFFFFF"
+                },
+                "showActionMenu": false,
+                "step": "Internal_or_External_1",
+                "textColor": "rgb(255, 153, 41)"
+            },
+            "type": "pillbox"
+        },
+        "table_6": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "maxColumnWidth": 300,
+                "minColumnWidth": 40,
+                "mode": "variable",
+                "numberOfLines": 1,
+                "pivoted": false,
+                "showActionMenu": true,
+                "step": "Calculate_Total_Cost_1",
+                "totals": true,
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "pillbox_4": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": false,
+                "fontSize": 14,
+                "selectedTab": {
+                    "backgroundColor": "rgb(255, 153, 41)",
+                    "borderColor": "#FFFFFF",
+                    "borderEdges": [],
+                    "borderWidth": 1,
+                    "textColor": "#FFFFFF"
+                },
+                "showActionMenu": false,
+                "step": "R_Level_selector_2",
+                "textColor": "rgb(255, 153, 41)"
+            },
+            "type": "pillbox"
+        },
+        "pillbox_6": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": false,
+                "fontSize": 14,
+                "selectedTab": {
+                    "backgroundColor": "rgb(255, 153, 41)",
+                    "borderColor": "#C6D3E1",
+                    "borderEdges": [],
+                    "borderWidth": 1,
+                    "textColor": "#FFFFFF"
+                },
+                "showActionMenu": true,
+                "step": "Include_Eigenschrott_1",
+                "textColor": "rgb(255, 153, 41)"
+            },
+            "type": "pillbox"
+        }
+    }
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Technische Anforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Technische Anforderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Technische Anforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Technische Anforderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Technische Anforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Technische Anforderungen</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Technische Anforderung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Technische Anforderungen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Technische Anforderung</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>In Opportunity Produkt umwandeln</label>
+        <name>Convert_to_OLI</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Kopieren</label>
+        <name>CloneTR</name>
+    </quickActions>
+    <recordTypes>
+        <label>Technische Anfragebearbeitung</label>
+        <name>TechnicalRequirement</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Technische Daten</label>
+        <name>TechnicalRequirementLight</name>
+    </recordTypes>
+    <layouts>
+        <layout>Technical Requirement Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Finalisierung</label>
+            <section>Final Check</section>
+        </sections>
+        <sections>
+            <label>Eröffnung Vertrieb</label>
+            <section>Opening by Sales</section>
+        </sections>
+        <sections>
+            <label>Bearbeitung Qualitätswesen</label>
+            <section>Processing by Quality Dep.</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Technical Requirement Light</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Angaben</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Fertigungsschlüssel Kostentreiber</label>
+            <section>Production Key Cost Drivers</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage>Während der Bearbeitung durch das Qualitätswesen sind keine Änderungen möglich.</errorMessage>
+        <name>ValidationWhenOpportunityInQualityCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>EnterProductOrFinishedGoodsLookup</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Dieses Feld kann nicht ausgefüllt werden, da bereits eine Materialnummer ausgewählt wurde</errorMessage>
+        <name>ValidationOnProductBusinessAreaDimension</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte geben Sie einen Wert für die Produktgruppe GF ein, da das gewählte Geschäftsfeld Ziehgüten ist und einer weiteren Unterteilung bedarf.</errorMessage>
+        <name>ValidationForProductGroupBusinessArea</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie haben eine andere Produktform als Walzdraht ausgewählt, bitte füllen Sie die folgenden Felder aus: Länge von, Länge bis</errorMessage>
+        <name>ValidationForLength</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie haben ein Walzdrahtprodukt ausgewählt, bitte füllen Sie die folgenden Felder aus: Ringgewicht Max., Ringgewicht Min., Ringgewicht Ca.</errorMessage>
+        <name>ValidationForRingWeight</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie haben ein Flachprodukt ausgewählt, bitte füllen Sie die folgenden Felder aus: Toleranz B+, Toleranz B-</errorMessage>
+        <name>ValidationForToleranceB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte befüllen Sie diese Pflichtfelder um eine Technische Anfrage anzulegen: Opportunity, Account, Kundenbestellmarke, Menge, Geschäftsfeld, Toleranz A+, Toleranz -, Attest/ Zeugnis</errorMessage>
+        <name>ValidationOnMandatoryFields</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Durch die Auswahl Ihrer Anfragenart können Sie diese Art von Technischer Anforderung nicht erstellen. Bitte wählen Sie eine andere Art der Technischen Anfrage.</errorMessage>
+        <name>ValidationOnRecordType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die ausgewählte Opportunity/Anfrage ist einem anderen Kunden zugeordnet. Bitte wählen Sie eine Opportunity/Anfrage aus, die den technischen Anforderung des angegebenen Kunden entspricht.</errorMessage>
+        <name>CheckAccountOnTRandOpportunitySameOrNot</name>
+    </validationRules>
+</CustomObjectTranslation>

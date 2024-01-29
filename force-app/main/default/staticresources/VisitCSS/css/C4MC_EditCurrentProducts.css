@@ -1,0 +1,86 @@
+.head-style-products{
+    background-color: #FBFBFB;
+}
+
+.checkbox-div{
+   margin-left: 8px;
+   display:flex;
+}
+
+.checkbox-input{
+    margin-right: -10px;
+}
+
+.checkbox-icon{
+    padding: 0;
+}
+
+.th-style{
+    width: 30px; 
+    height: 30px;
+    border-left: 1px solid;
+    border-color: gray;
+}
+
+.th-table-product-name {
+    border-right: 1px solid; 
+    /* width: 21.75%; */
+    width: 150px;
+    border-color: gray;
+}
+
+.th-table-product-code {
+    border-right: 1px solid; 
+    /* width: 25%; */
+    width: 150px;
+    border-color: gray;
+}
+
+.th-table-product-family{
+    border-right: 1px solid; 
+    /* width: 25%; */
+    width: 150px;
+    border-color: gray;
+}
+
+.th-table-product-comment {
+    border-right: 1px solid;
+    /* width: 25%; */
+    width: 150px;
+    border-color: gray;
+}
+
+.left-align{
+    margin-left: 10px;
+}
+
+.left-align-Comment{
+    margin-left: 9px;
+}
+
+.th-style-icon{
+    width: 50px; 
+    border-right: 1px solid;
+    border-color: gray;
+}
+
+.table-scroll{
+    max-height: 225px;
+}
+
+.style-text{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+.spinnerContainer{
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.table-scroll-auto{
+    overflow-x: scroll;
+    position: relative;
+}

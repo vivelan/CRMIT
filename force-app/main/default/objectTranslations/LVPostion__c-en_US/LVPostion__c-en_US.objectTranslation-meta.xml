@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>LV Position</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>LV Position</value>
+    </caseValues>
+    <layouts>
+        <layout>LV Position Layout</layout>
+        <sections>
+            <label></label>
+            <section>Chemical Analysis</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Jominy</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>Production Key</section>
+        </sections>
+        <sections>
+            <label></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,2991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AA</masterLabel>
+        <translation>letter of credit at sight not confirmed</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AB</masterLabel>
+        <translation>L/C not confirmed 30 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AC</masterLabel>
+        <translation>L/C not confirmed 60 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD</masterLabel>
+        <translation>L/C not confirmed 90 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AE</masterLabel>
+        <translation>L/C not confirmed 120 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AF</masterLabel>
+        <translation>L/C not confirmed 150 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AG</masterLabel>
+        <translation>L/C not confirmed 180 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AH</masterLabel>
+        <translation>L/C not confirmed 270 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AI</masterLabel>
+        <translation>L/C not confirmed 360 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AJ</masterLabel>
+        <translation>L/C not confirmed 60 days at sight</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AK</masterLabel>
+        <translation>AK</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AL</masterLabel>
+        <translation>AL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BA</masterLabel>
+        <translation>letter of credit at sight confirmed</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BB</masterLabel>
+        <translation>L/C confirmed 30 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BC</masterLabel>
+        <translation>L/C confirmed 60 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BD</masterLabel>
+        <translation>L/C confirmed 90 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BE</masterLabel>
+        <translation>L/C confirmed 120 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BF</masterLabel>
+        <translation>L/C confirmed 150 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BG</masterLabel>
+        <translation>L/C confirmed 180 days dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BH</masterLabel>
+        <translation>L/C confirmed 270 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BI</masterLabel>
+        <translation>L/C confirmed 360 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DA</masterLabel>
+        <translation>cash against document</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DB</masterLabel>
+        <translation>sight draft</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DC</masterLabel>
+        <translation>draft 30 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DD</masterLabel>
+        <translation>draft 60 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DE</masterLabel>
+        <translation>draft 90 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DF</masterLabel>
+        <translation>draft 120 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DG</masterLabel>
+        <translation>draft 150 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DH</masterLabel>
+        <translation>draft 180 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DI</masterLabel>
+        <translation>draft 270 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DJ</masterLabel>
+        <translation>draft 360 days dato B/L no discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DK</masterLabel>
+        <translation>the 15th of two months after B/L date</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FA</masterLabel>
+        <translation>FA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FB</masterLabel>
+        <translation>FB</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GA</masterLabel>
+        <translation>8 days after rec. of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation>14 days after rec. of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GC</masterLabel>
+        <translation>30 days after rec. of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GD</masterLabel>
+        <translation>60 days after rec. of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GE</masterLabel>
+        <translation>8 days after rec. of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GS</masterLabel>
+        <translation>GS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GT</masterLabel>
+        <translation>GT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HA</masterLabel>
+        <translation>30 days after ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HB</masterLabel>
+        <translation>45 days after ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HC</masterLabel>
+        <translation>60 days after arr. of shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HD</masterLabel>
+        <translation>90 days after arr. of shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HE</masterLabel>
+        <translation>60 days after arrival at harbour</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HF</masterLabel>
+        <translation>30 days after receipt of goods</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HG</masterLabel>
+        <translation>120 days after arr. of goods</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HH</masterLabel>
+        <translation>50 days after ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HI</masterLabel>
+        <translation>60 days after ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HJ</masterLabel>
+        <translation>90 days after ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HK</masterLabel>
+        <translation>Receipt of goods:10days/1,5% disc., net. 30days</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HL</masterLabel>
+        <translation>75 days after ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HS</masterLabel>
+        <translation>HS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HT</masterLabel>
+        <translation>HT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HU</masterLabel>
+        <translation>15 days after receipt of goods</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HV</masterLabel>
+        <translation>60 days after receipt of goods</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HW</masterLabel>
+        <translation>HW</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IA</masterLabel>
+        <translation>15 days after month of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IB</masterLabel>
+        <translation>25 days after month of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IC</masterLabel>
+        <translation>30 days after month of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ID</masterLabel>
+        <translation>45 days after month of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE</masterLabel>
+        <translation>60 days after month of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IF</masterLabel>
+        <translation>30 days after date of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IG</masterLabel>
+        <translation>60 days after date of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IH</masterLabel>
+        <translation>100 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>II</masterLabel>
+        <translation>105 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IJ</masterLabel>
+        <translation>8 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IK</masterLabel>
+        <translation>100%T/T,at 15 days after B/L date</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IL</masterLabel>
+        <translation>45 days after date of usage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IM</masterLabel>
+        <translation>50% date of B/L, 50 % 30 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KA</masterLabel>
+        <translation>8 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KB</masterLabel>
+        <translation>10 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KC</masterLabel>
+        <translation>14 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KD</masterLabel>
+        <translation>30 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KE</masterLabel>
+        <translation>30 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KF</masterLabel>
+        <translation>45 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KG</masterLabel>
+        <translation>60 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KH</masterLabel>
+        <translation>60 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KI</masterLabel>
+        <translation>70 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KJ</masterLabel>
+        <translation>75 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KK</masterLabel>
+        <translation>90 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KL</masterLabel>
+        <translation>90 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KM</masterLabel>
+        <translation>100 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KN</masterLabel>
+        <translation>105 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KO</masterLabel>
+        <translation>120 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KP</masterLabel>
+        <translation>120 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KQ</masterLabel>
+        <translation>180 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KR</masterLabel>
+        <translation>180 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KS</masterLabel>
+        <translation>40 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KT</masterLabel>
+        <translation>15 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KU</masterLabel>
+        <translation>45 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KV</masterLabel>
+        <translation>75 days after date of B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KW</masterLabel>
+        <translation>30 days after date of CMR</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KX</masterLabel>
+        <translation>7 days discount 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KY</masterLabel>
+        <translation>10d.inv.date1,25%dis.60d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KZ</masterLabel>
+        <translation>8 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LA</masterLabel>
+        <translation>8 days discount 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LB</masterLabel>
+        <translation>10 days discount 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LC</masterLabel>
+        <translation>14 days discount 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LD</masterLabel>
+        <translation><!-- LD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LE</masterLabel>
+        <translation><!-- LE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LF</masterLabel>
+        <translation><!-- LF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LG</masterLabel>
+        <translation><!-- LG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LH</masterLabel>
+        <translation><!-- LH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LI</masterLabel>
+        <translation><!-- LI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LJ</masterLabel>
+        <translation><!-- LJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LK</masterLabel>
+        <translation>8 d.inv.date1,5%dis./25d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LL</masterLabel>
+        <translation>10d.inv.date1,5%dis./30d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LM</masterLabel>
+        <translation>14d.inv.date1,5%dis./45d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LN</masterLabel>
+        <translation>15d.inv.date1,5%dis./60d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LO</masterLabel>
+        <translation>30d.inv.date1,5%dis./60d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LP</masterLabel>
+        <translation><!-- LP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LQ</masterLabel>
+        <translation><!-- LQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation><!-- LR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LS</masterLabel>
+        <translation>14 days discount 0,5%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LT</masterLabel>
+        <translation><!-- LT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LU</masterLabel>
+        <translation><!-- LU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LV</masterLabel>
+        <translation>10 days discount 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LW</masterLabel>
+        <translation>10 days discount 1%, 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LX</masterLabel>
+        <translation>10 days discount 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LY</masterLabel>
+        <translation>14d.inv.date1,5%dis./45d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LZ</masterLabel>
+        <translation>8 d.inv.date1,5%dis./25d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA</masterLabel>
+        <translation><!-- MA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MB</masterLabel>
+        <translation>8d.inv.date2% dis./30d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MC</masterLabel>
+        <translation><!-- MC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MD</masterLabel>
+        <translation><!-- MD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME</masterLabel>
+        <translation><!-- ME --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MF</masterLabel>
+        <translation><!-- MF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MG</masterLabel>
+        <translation><!-- MG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MH</masterLabel>
+        <translation><!-- MH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MI</masterLabel>
+        <translation>14 days invoice-date 2 % discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MJ</masterLabel>
+        <translation><!-- MJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MK</masterLabel>
+        <translation><!-- MK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ML</masterLabel>
+        <translation><!-- ML --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM</masterLabel>
+        <translation><!-- MM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MN</masterLabel>
+        <translation><!-- MN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MO</masterLabel>
+        <translation><!-- MO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MP</masterLabel>
+        <translation><!-- MP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MQ</masterLabel>
+        <translation><!-- MQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MR</masterLabel>
+        <translation><!-- MR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MS</masterLabel>
+        <translation><!-- MS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MT</masterLabel>
+        <translation>15 days after date of inv 2,5% disc., 90 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MU</masterLabel>
+        <translation><!-- MU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MV</masterLabel>
+        <translation><!-- MV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MW</masterLabel>
+        <translation>15 days after date of inv 2,5% disc., 75 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX</masterLabel>
+        <translation><!-- MX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MY</masterLabel>
+        <translation>8d.inv.date2% dis./30d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MZ</masterLabel>
+        <translation>15 days after date of inv 2,5% disc.,120 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA</masterLabel>
+        <translation><!-- NA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NB</masterLabel>
+        <translation><!-- NB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NC</masterLabel>
+        <translation><!-- NC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ND</masterLabel>
+        <translation><!-- ND --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NE</masterLabel>
+        <translation><!-- NE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NF</masterLabel>
+        <translation><!-- NF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NG</masterLabel>
+        <translation><!-- NG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NH</masterLabel>
+        <translation><!-- NH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NI</masterLabel>
+        <translation><!-- NI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NJ</masterLabel>
+        <translation><!-- NJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NK</masterLabel>
+        <translation><!-- NK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NL</masterLabel>
+        <translation><!-- NL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NM</masterLabel>
+        <translation><!-- NM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NN</masterLabel>
+        <translation><!-- NN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NO</masterLabel>
+        <translation><!-- NO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NP</masterLabel>
+        <translation><!-- NP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NQ</masterLabel>
+        <translation><!-- NQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NR</masterLabel>
+        <translation><!-- NR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NS</masterLabel>
+        <translation><!-- NS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NT</masterLabel>
+        <translation><!-- NT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NU</masterLabel>
+        <translation><!-- NU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NV</masterLabel>
+        <translation><!-- NV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NW</masterLabel>
+        <translation><!-- NW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NX</masterLabel>
+        <translation><!-- NX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NY</masterLabel>
+        <translation><!-- NY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NZ</masterLabel>
+        <translation><!-- NZ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OA</masterLabel>
+        <translation><!-- OA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OB</masterLabel>
+        <translation><!-- OB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OC</masterLabel>
+        <translation><!-- OC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OD</masterLabel>
+        <translation><!-- OD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OE</masterLabel>
+        <translation><!-- OE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OF</masterLabel>
+        <translation><!-- OF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OG</masterLabel>
+        <translation><!-- OG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OH</masterLabel>
+        <translation><!-- OH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OI</masterLabel>
+        <translation><!-- OI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OJ</masterLabel>
+        <translation><!-- OJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OK</masterLabel>
+        <translation><!-- OK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OL</masterLabel>
+        <translation>15 days after date of inv 3,5% disc.,120 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OM</masterLabel>
+        <translation><!-- OM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ON</masterLabel>
+        <translation>10 days discount 1%, 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OO</masterLabel>
+        <translation>7 days discount 2%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OP</masterLabel>
+        <translation><!-- OP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OQ</masterLabel>
+        <translation>15 days after date of inv 3,5% disc.,120 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OR</masterLabel>
+        <translation><!-- OR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OS</masterLabel>
+        <translation><!-- OS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OT</masterLabel>
+        <translation>150 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OU</masterLabel>
+        <translation>30 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PA</masterLabel>
+        <translation>10 days discount 1%, 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PB</masterLabel>
+        <translation>7 days discount 1%, 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PC</masterLabel>
+        <translation>down-paym. 40% upn rolling,60% upn.shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PD</masterLabel>
+        <translation>85 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PE</masterLabel>
+        <translation>80 days after date of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PF</masterLabel>
+        <translation>7 days discount 1%, 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PG</masterLabel>
+        <translation>30d.inv.date1,5%dis./60d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PH</masterLabel>
+        <translation>40% upn ord. rec.,40% bef. ship., 20% 45d aft. inv</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PI</masterLabel>
+        <translation>50% before shipment, 50% before arrival</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PJ</masterLabel>
+        <translation>50% after PO,30% a.QHT,20% a.delivery, 60 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PK</masterLabel>
+        <translation>50% after PO,40% a.QHT,10% a.delivery, 60 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PL</masterLabel>
+        <translation>40% after PO,60% after delivery, 60 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PM</masterLabel>
+        <translation>60% after PO,20% a.QHT,20% a.delivery, 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RA</masterLabel>
+        <translation>15 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RB</masterLabel>
+        <translation>20 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RC</masterLabel>
+        <translation>25 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RD</masterLabel>
+        <translation>30 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>45 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RF</masterLabel>
+        <translation>50 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RG</masterLabel>
+        <translation>55 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RH</masterLabel>
+        <translation>60 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RI</masterLabel>
+        <translation>70 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RJ</masterLabel>
+        <translation>75 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RK</masterLabel>
+        <translation>90 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RL</masterLabel>
+        <translation>95 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RM</masterLabel>
+        <translation>100 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RN</masterLabel>
+        <translation>105 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RO</masterLabel>
+        <translation>120 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RP</masterLabel>
+        <translation>120 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RQ</masterLabel>
+        <translation>15 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RR</masterLabel>
+        <translation><!-- RR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RS</masterLabel>
+        <translation>90 d. end of month,paym. on 2nd of the foll.month</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SA</masterLabel>
+        <translation><!-- SA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SB</masterLabel>
+        <translation><!-- SB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SC</masterLabel>
+        <translation><!-- SC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SD</masterLabel>
+        <translation><!-- SD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SE</masterLabel>
+        <translation><!-- SE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SF</masterLabel>
+        <translation><!-- SF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SG</masterLabel>
+        <translation><!-- SG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SH</masterLabel>
+        <translation><!-- SH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SI</masterLabel>
+        <translation><!-- SI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SJ</masterLabel>
+        <translation><!-- SJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SK</masterLabel>
+        <translation><!-- SK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SL</masterLabel>
+        <translation><!-- SL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SM</masterLabel>
+        <translation><!-- SM --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SN</masterLabel>
+        <translation><!-- SN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SO</masterLabel>
+        <translation><!-- SO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SP</masterLabel>
+        <translation><!-- SP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SQ</masterLabel>
+        <translation><!-- SQ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SR</masterLabel>
+        <translation><!-- SR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SS</masterLabel>
+        <translation><!-- SS --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ST</masterLabel>
+        <translation><!-- ST --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SU</masterLabel>
+        <translation><!-- SU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SV</masterLabel>
+        <translation><!-- SV --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SW</masterLabel>
+        <translation><!-- SW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SX</masterLabel>
+        <translation><!-- SX --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TA</masterLabel>
+        <translation><!-- TA --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TB</masterLabel>
+        <translation><!-- TB --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TC</masterLabel>
+        <translation><!-- TC --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TD</masterLabel>
+        <translation><!-- TD --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TE</masterLabel>
+        <translation><!-- TE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TF</masterLabel>
+        <translation><!-- TF --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TG</masterLabel>
+        <translation><!-- TG --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TH</masterLabel>
+        <translation><!-- TH --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TI</masterLabel>
+        <translation>60 days after month of delivery;90 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TJ</masterLabel>
+        <translation><!-- TJ --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TK</masterLabel>
+        <translation><!-- TK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TL</masterLabel>
+        <translation><!-- TL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TN</masterLabel>
+        <translation><!-- TN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TP</masterLabel>
+        <translation>60 days after month of delivery;90 days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation><!-- TR --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UA</masterLabel>
+        <translation>down-paym. 25% upn rec. of ord.conf.,75% 30 d. net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UB</masterLabel>
+        <translation>down-paym. 30% upn rec. of ord.conf.,70% 30 d. net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UC</masterLabel>
+        <translation>down-paym. 40% upn rec. of ord.conf.,60% 30 d. net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UD</masterLabel>
+        <translation>down-paym. 50% upn. receipt of ord.confirmation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UE</masterLabel>
+        <translation>down-paym.20%a.conf.,20%a.melting,60% 30days a.inv</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UF</masterLabel>
+        <translation>down-paym. 25% upn melting, 75% 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UG</masterLabel>
+        <translation>down-paym. 30% upn melting, 70% 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UH</masterLabel>
+        <translation>down-paym. 40% upn melting, 60% 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UI</masterLabel>
+        <translation>down-paym. 50% upn melting, 50% 30 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UJ</masterLabel>
+        <translation>down-paym. 20% at confirm.,80% 30d. aft. inv.-date</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UK</masterLabel>
+        <translation>50% prepayment, 50% upon receipt of goods</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UL</masterLabel>
+        <translation>25% in adv.,25% before shipment,50% against docum.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UM</masterLabel>
+        <translation>50% prepayment,50% upon ready for dispatch shank</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>25% in adv.,75% against documents</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UO</masterLabel>
+        <translation>40% in advance, 60% prior to despatch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UP</masterLabel>
+        <translation>50% prepayment,14 days after date of inv. 50%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UQ</masterLabel>
+        <translation>30% prepayment,60% after date bill of lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UR</masterLabel>
+        <translation>down-paym. 30% upn rec. of ord.conf.,70% 30 d. net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>US</masterLabel>
+        <translation>down-paym. 30%upn. ord.confirm.,70%upn shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UT</masterLabel>
+        <translation>down-paym. 70% upn rolling,30% upn.shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UU</masterLabel>
+        <translation>50% prepayment, 50% upon receipt of goods 2% disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UV</masterLabel>
+        <translation>40% in advance, 60% prior to despatch 2% discount</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UW</masterLabel>
+        <translation>50% with down payment, 50% upon ready for dispatch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UX</masterLabel>
+        <translation>down-paym. 30% before rolling,70% before shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UY</masterLabel>
+        <translation>20% prepayment, 80% upon dispatchof goods</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UZ</masterLabel>
+        <translation>30% advance &amp; balance payment CAD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VA</masterLabel>
+        <translation>10% adv.&amp; 90% as at bank guarantee (CAD)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VB</masterLabel>
+        <translation>50% up front,30% before shipp.,20% before final sh</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VC</masterLabel>
+        <translation>50% value secure raw mat.,30%up.QHT,20% 30days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VD</masterLabel>
+        <translation>20% advance, 40% before 1.shipment, 40% b.2.shipm.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VE</masterLabel>
+        <translation>80% Payment i. adv.; balance payment b. shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VF</masterLabel>
+        <translation>14d.a.ord.60%,a.QHT20%, 30d.a. ETA 20%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VG</masterLabel>
+        <translation>50%after PO placem.,30%a.QHT,20%a.delivery,30d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VH</masterLabel>
+        <translation>50%after PO placem.,40%a.QHT,10%a.delivery,30d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VI</masterLabel>
+        <translation>40%after PO placem.,60%a.delivery,30d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VJ</masterLabel>
+        <translation>60%after PO placem.,20%a.QHT,20%a.delivery,14d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VK</masterLabel>
+        <translation><!-- VK --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VL</masterLabel>
+        <translation><!-- VL --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VM</masterLabel>
+        <translation>70% payment in advance, 30% before delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VN</masterLabel>
+        <translation><!-- VN --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VO</masterLabel>
+        <translation><!-- VO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VP</masterLabel>
+        <translation>30% prepaym.,70% LC paym. 90 days after B/L date</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VQ</masterLabel>
+        <translation>25%after PO placem.,35%a.QHT,40%a.delivery,14d.net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VR</masterLabel>
+        <translation>25% b. prod.,50% b.shipm.,25% a.shipm.,60 days net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VS</masterLabel>
+        <translation>40%before melting, 60%after shipment/receipt Doc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VT</masterLabel>
+        <translation>30% prepaym.,70% LC paym. 180 days</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VU</masterLabel>
+        <translation>40%before melting, 60%after shipment/receipt Doc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VV</masterLabel>
+        <translation>90%after melting, 10%after completion</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VW</masterLabel>
+        <translation>60% with down payment, 40% upon ready for dispatch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VX</masterLabel>
+        <translation>50% paym. before shipment,50% after 60 days</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VZ</masterLabel>
+        <translation>33% after secure raw mat.,33%up.roll.,34%aft.test.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XA</masterLabel>
+        <translation>Credit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XB</masterLabel>
+        <translation>as agreed</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XC</masterLabel>
+        <translation>free of costs</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XD</masterLabel>
+        <translation>after approval</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XE</masterLabel>
+        <translation>payment in advance</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XF</masterLabel>
+        <translation>payment in advance 2% disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XG</masterLabel>
+        <translation>payment in advance 3% disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XH</masterLabel>
+        <translation>after receipt of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XI</masterLabel>
+        <translation>payment in advance 1% disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XJ</masterLabel>
+        <translation>payment in advance 1,5 % disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XK</masterLabel>
+        <translation>50% down payment, 50% cash against documents</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XL</masterLabel>
+        <translation>20% d pay, remaining on Ready-to-ship-Notification</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XM</masterLabel>
+        <translation>down-paym. 15% before rolling,85% before shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XN</masterLabel>
+        <translation>payment in advance 0,75% disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XO</masterLabel>
+        <translation>after receipt of invoice</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XP</masterLabel>
+        <translation>50% prepayment, 50% 15days after month of delivery</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XQ</masterLabel>
+        <translation>down-paym. 25% before rolling,75% before shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XR</masterLabel>
+        <translation>30% prepayment, 70% upon ready for dispatch shank</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XS</masterLabel>
+        <translation>immediately</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XT</masterLabel>
+        <translation>payment in advance 1,5 % disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XU</masterLabel>
+        <translation>payment in advance 3% disc.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z501</masterLabel>
+        <translation><!-- Z501 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z502</masterLabel>
+        <translation><!-- Z502 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z503</masterLabel>
+        <translation><!-- Z503 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z504</masterLabel>
+        <translation><!-- Z504 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z505</masterLabel>
+        <translation><!-- Z505 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z506</masterLabel>
+        <translation><!-- Z506 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z507</masterLabel>
+        <translation><!-- Z507 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z508</masterLabel>
+        <translation><!-- Z508 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z509</masterLabel>
+        <translation><!-- Z509 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z510</masterLabel>
+        <translation><!-- Z510 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z511</masterLabel>
+        <translation><!-- Z511 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z512</masterLabel>
+        <translation><!-- Z512 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z513</masterLabel>
+        <translation><!-- Z513 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z514</masterLabel>
+        <translation><!-- Z514 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z515</masterLabel>
+        <translation><!-- Z515 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z516</masterLabel>
+        <translation><!-- Z516 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z517</masterLabel>
+        <translation><!-- Z517 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z518</masterLabel>
+        <translation><!-- Z518 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z519</masterLabel>
+        <translation><!-- Z519 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z520</masterLabel>
+        <translation><!-- Z520 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z521</masterLabel>
+        <translation><!-- Z521 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z522</masterLabel>
+        <translation><!-- Z522 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z523</masterLabel>
+        <translation><!-- Z523 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z524</masterLabel>
+        <translation><!-- Z524 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z525</masterLabel>
+        <translation><!-- Z525 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z526</masterLabel>
+        <translation><!-- Z526 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z527</masterLabel>
+        <translation><!-- Z527 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z528</masterLabel>
+        <translation><!-- Z528 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z529</masterLabel>
+        <translation><!-- Z529 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z530</masterLabel>
+        <translation><!-- Z530 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z531</masterLabel>
+        <translation><!-- Z531 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z532</masterLabel>
+        <translation><!-- Z532 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z533</masterLabel>
+        <translation><!-- Z533 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z534</masterLabel>
+        <translation><!-- Z534 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z535</masterLabel>
+        <translation><!-- Z535 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z536</masterLabel>
+        <translation><!-- Z536 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z537</masterLabel>
+        <translation><!-- Z537 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z538</masterLabel>
+        <translation><!-- Z538 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z539</masterLabel>
+        <translation><!-- Z539 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z540</masterLabel>
+        <translation><!-- Z540 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z541</masterLabel>
+        <translation><!-- Z541 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z542</masterLabel>
+        <translation><!-- Z542 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z543</masterLabel>
+        <translation><!-- Z543 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z544</masterLabel>
+        <translation><!-- Z544 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z550</masterLabel>
+        <translation><!-- Z550 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z552</masterLabel>
+        <translation><!-- Z552 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z556</masterLabel>
+        <translation><!-- Z556 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z557</masterLabel>
+        <translation><!-- Z557 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z560</masterLabel>
+        <translation><!-- Z560 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z561</masterLabel>
+        <translation><!-- Z561 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z564</masterLabel>
+        <translation><!-- Z564 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z565</masterLabel>
+        <translation><!-- Z565 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z566</masterLabel>
+        <translation><!-- Z566 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z567</masterLabel>
+        <translation><!-- Z567 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z568</masterLabel>
+        <translation><!-- Z568 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z570</masterLabel>
+        <translation><!-- Z570 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z571</masterLabel>
+        <translation><!-- Z571 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z572</masterLabel>
+        <translation><!-- Z572 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z573</masterLabel>
+        <translation><!-- Z573 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z574</masterLabel>
+        <translation><!-- Z574 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z575</masterLabel>
+        <translation><!-- Z575 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z576</masterLabel>
+        <translation><!-- Z576 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z577</masterLabel>
+        <translation><!-- Z577 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z578</masterLabel>
+        <translation><!-- Z578 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z579</masterLabel>
+        <translation><!-- Z579 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z580</masterLabel>
+        <translation><!-- Z580 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z581</masterLabel>
+        <translation><!-- Z581 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z582</masterLabel>
+        <translation><!-- Z582 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z583</masterLabel>
+        <translation><!-- Z583 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z584</masterLabel>
+        <translation><!-- Z584 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z585</masterLabel>
+        <translation><!-- Z585 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z586</masterLabel>
+        <translation><!-- Z586 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z587</masterLabel>
+        <translation><!-- Z587 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z588</masterLabel>
+        <translation><!-- Z588 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z589</masterLabel>
+        <translation><!-- Z589 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z590</masterLabel>
+        <translation><!-- Z590 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z591</masterLabel>
+        <translation><!-- Z591 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA01</masterLabel>
+        <translation><!-- ZA01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB00</masterLabel>
+        <translation><!-- ZB00 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB01</masterLabel>
+        <translation><!-- ZB01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB02</masterLabel>
+        <translation><!-- ZB02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB03</masterLabel>
+        <translation><!-- ZB03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB04</masterLabel>
+        <translation><!-- ZB04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB05</masterLabel>
+        <translation><!-- ZB05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB06</masterLabel>
+        <translation><!-- ZB06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB07</masterLabel>
+        <translation><!-- ZB07 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB08</masterLabel>
+        <translation><!-- ZB08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB09</masterLabel>
+        <translation><!-- ZB09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB10</masterLabel>
+        <translation><!-- ZB10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB11</masterLabel>
+        <translation><!-- ZB11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB12</masterLabel>
+        <translation><!-- ZB12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB13</masterLabel>
+        <translation><!-- ZB13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB14</masterLabel>
+        <translation><!-- ZB14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB15</masterLabel>
+        <translation><!-- ZB15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB16</masterLabel>
+        <translation><!-- ZB16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB17</masterLabel>
+        <translation><!-- ZB17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB18</masterLabel>
+        <translation><!-- ZB18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB19</masterLabel>
+        <translation><!-- ZB19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB20</masterLabel>
+        <translation><!-- ZB20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB21</masterLabel>
+        <translation><!-- ZB21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB22</masterLabel>
+        <translation><!-- ZB22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB23</masterLabel>
+        <translation><!-- ZB23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB24</masterLabel>
+        <translation><!-- ZB24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB25</masterLabel>
+        <translation><!-- ZB25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB26</masterLabel>
+        <translation><!-- ZB26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB27</masterLabel>
+        <translation><!-- ZB27 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB28</masterLabel>
+        <translation><!-- ZB28 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB29</masterLabel>
+        <translation><!-- ZB29 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB51</masterLabel>
+        <translation><!-- ZB51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB53</masterLabel>
+        <translation><!-- ZB53 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB74</masterLabel>
+        <translation><!-- ZB74 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB80</masterLabel>
+        <translation><!-- ZB80 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB81</masterLabel>
+        <translation><!-- ZB81 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB82</masterLabel>
+        <translation><!-- ZB82 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB90</masterLabel>
+        <translation><!-- ZB90 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB91</masterLabel>
+        <translation><!-- ZB91 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB92</masterLabel>
+        <translation><!-- ZB92 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB93</masterLabel>
+        <translation><!-- ZB93 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB94</masterLabel>
+        <translation><!-- ZB94 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB95</masterLabel>
+        <translation><!-- ZB95 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHAE</masterLabel>
+        <translation><!-- ZHAE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ01</masterLabel>
+        <translation><!-- ZZ01 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ02</masterLabel>
+        <translation><!-- ZZ02 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ03</masterLabel>
+        <translation><!-- ZZ03 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ04</masterLabel>
+        <translation><!-- ZZ04 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ05</masterLabel>
+        <translation><!-- ZZ05 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ06</masterLabel>
+        <translation><!-- ZZ06 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ08</masterLabel>
+        <translation><!-- ZZ08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ09</masterLabel>
+        <translation><!-- ZZ09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ10</masterLabel>
+        <translation><!-- ZZ10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ11</masterLabel>
+        <translation><!-- ZZ11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ12</masterLabel>
+        <translation><!-- ZZ12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ13</masterLabel>
+        <translation><!-- ZZ13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ14</masterLabel>
+        <translation><!-- ZZ14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ15</masterLabel>
+        <translation><!-- ZZ15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ16</masterLabel>
+        <translation><!-- ZZ16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ17</masterLabel>
+        <translation><!-- ZZ17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ18</masterLabel>
+        <translation><!-- ZZ18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ19</masterLabel>
+        <translation><!-- ZZ19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ21</masterLabel>
+        <translation><!-- ZZ21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ22</masterLabel>
+        <translation><!-- ZZ22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ23</masterLabel>
+        <translation><!-- ZZ23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ24</masterLabel>
+        <translation><!-- ZZ24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ25</masterLabel>
+        <translation><!-- ZZ25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ26</masterLabel>
+        <translation><!-- ZZ26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ27</masterLabel>
+        <translation><!-- ZZ27 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ28</masterLabel>
+        <translation><!-- ZZ28 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ29</masterLabel>
+        <translation><!-- ZZ29 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ30</masterLabel>
+        <translation><!-- ZZ30 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ31</masterLabel>
+        <translation><!-- ZZ31 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ32</masterLabel>
+        <translation><!-- ZZ32 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ33</masterLabel>
+        <translation><!-- ZZ33 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ34</masterLabel>
+        <translation><!-- ZZ34 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ35</masterLabel>
+        <translation><!-- ZZ35 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ36</masterLabel>
+        <translation><!-- ZZ36 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ37</masterLabel>
+        <translation><!-- ZZ37 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ38</masterLabel>
+        <translation><!-- ZZ38 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ39</masterLabel>
+        <translation><!-- ZZ39 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ42</masterLabel>
+        <translation><!-- ZZ42 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ44</masterLabel>
+        <translation><!-- ZZ44 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ45</masterLabel>
+        <translation><!-- ZZ45 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ46</masterLabel>
+        <translation><!-- ZZ46 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ47</masterLabel>
+        <translation><!-- ZZ47 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ48</masterLabel>
+        <translation><!-- ZZ48 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ49</masterLabel>
+        <translation><!-- ZZ49 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ50</masterLabel>
+        <translation><!-- ZZ50 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ51</masterLabel>
+        <translation><!-- ZZ51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ52</masterLabel>
+        <translation><!-- ZZ52 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ53</masterLabel>
+        <translation><!-- ZZ53 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ54</masterLabel>
+        <translation><!-- ZZ54 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ55</masterLabel>
+        <translation><!-- ZZ55 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ56</masterLabel>
+        <translation><!-- ZZ56 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ57</masterLabel>
+        <translation><!-- ZZ57 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ58</masterLabel>
+        <translation><!-- ZZ58 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ59</masterLabel>
+        <translation><!-- ZZ59 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ60</masterLabel>
+        <translation><!-- ZZ60 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ61</masterLabel>
+        <translation><!-- ZZ61 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ62</masterLabel>
+        <translation><!-- ZZ62 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ63</masterLabel>
+        <translation><!-- ZZ63 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ64</masterLabel>
+        <translation><!-- ZZ64 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ65</masterLabel>
+        <translation><!-- ZZ65 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ66</masterLabel>
+        <translation><!-- ZZ66 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ67</masterLabel>
+        <translation><!-- ZZ67 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ68</masterLabel>
+        <translation>180 days invoice date</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ69</masterLabel>
+        <translation><!-- ZZ69 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ70</masterLabel>
+        <translation><!-- ZZ70 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ72</masterLabel>
+        <translation><!-- ZZ72 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ73</masterLabel>
+        <translation><!-- ZZ73 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ74</masterLabel>
+        <translation><!-- ZZ74 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ75</masterLabel>
+        <translation><!-- ZZ75 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ76</masterLabel>
+        <translation><!-- ZZ76 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ77</masterLabel>
+        <translation><!-- ZZ77 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ78</masterLabel>
+        <translation><!-- ZZ78 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ79</masterLabel>
+        <translation><!-- ZZ79 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ80</masterLabel>
+        <translation><!-- ZZ80 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ81</masterLabel>
+        <translation><!-- ZZ81 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ82</masterLabel>
+        <translation><!-- ZZ82 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ84</masterLabel>
+        <translation><!-- ZZ84 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ85</masterLabel>
+        <translation><!-- ZZ85 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ86</masterLabel>
+        <translation><!-- ZZ86 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ88</masterLabel>
+        <translation><!-- ZZ88 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ89</masterLabel>
+        <translation><!-- ZZ89 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ90</masterLabel>
+        <translation><!-- ZZ90 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ91</masterLabel>
+        <translation><!-- ZZ91 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ92</masterLabel>
+        <translation><!-- ZZ92 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ93</masterLabel>
+        <translation><!-- ZZ93 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ95</masterLabel>
+        <translation><!-- ZZ95 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ96</masterLabel>
+        <translation><!-- ZZ96 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ97</masterLabel>
+        <translation><!-- ZZ97 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ98</masterLabel>
+        <translation><!-- ZZ98 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ99</masterLabel>
+        <translation><!-- ZZ99 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA0</masterLabel>
+        <translation><!-- ZZA0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA1</masterLabel>
+        <translation><!-- ZZA1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA2</masterLabel>
+        <translation><!-- ZZA2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA3</masterLabel>
+        <translation><!-- ZZA3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA4</masterLabel>
+        <translation><!-- ZZA4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA5</masterLabel>
+        <translation><!-- ZZA5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA6</masterLabel>
+        <translation><!-- ZZA6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA7</masterLabel>
+        <translation><!-- ZZA7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA8</masterLabel>
+        <translation><!-- ZZA8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA9</masterLabel>
+        <translation><!-- ZZA9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB0</masterLabel>
+        <translation><!-- ZZB0 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB1</masterLabel>
+        <translation><!-- ZZB1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB2</masterLabel>
+        <translation><!-- ZZB2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB3</masterLabel>
+        <translation><!-- ZZB3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB4</masterLabel>
+        <translation><!-- ZZB4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB5</masterLabel>
+        <translation><!-- ZZB5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB6</masterLabel>
+        <translation><!-- ZZB6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB7</masterLabel>
+        <translation><!-- ZZB7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB8</masterLabel>
+        <translation><!-- ZZB8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB9</masterLabel>
+        <translation><!-- ZZB9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC1</masterLabel>
+        <translation><!-- ZZC1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC2</masterLabel>
+        <translation><!-- ZZC2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC3</masterLabel>
+        <translation><!-- ZZC3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC4</masterLabel>
+        <translation><!-- ZZC4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC5</masterLabel>
+        <translation><!-- ZZC5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC6</masterLabel>
+        <translation><!-- ZZC6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC7</masterLabel>
+        <translation><!-- ZZC7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC8</masterLabel>
+        <translation><!-- ZZC8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC9</masterLabel>
+        <translation><!-- ZZC9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD1</masterLabel>
+        <translation><!-- ZZD1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD2</masterLabel>
+        <translation><!-- ZZD2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD3</masterLabel>
+        <translation><!-- ZZD3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD4</masterLabel>
+        <translation><!-- ZZD4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD5</masterLabel>
+        <translation><!-- ZZD5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD6</masterLabel>
+        <translation><!-- ZZD6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD7</masterLabel>
+        <translation><!-- ZZD7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD8</masterLabel>
+        <translation><!-- ZZD8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD9</masterLabel>
+        <translation><!-- ZZD9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE1</masterLabel>
+        <translation><!-- ZZE1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE2</masterLabel>
+        <translation><!-- ZZE2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE3</masterLabel>
+        <translation><!-- ZZE3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE5</masterLabel>
+        <translation><!-- ZZE5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE6</masterLabel>
+        <translation><!-- ZZE6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE7</masterLabel>
+        <translation><!-- ZZE7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE8</masterLabel>
+        <translation><!-- ZZE8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE9</masterLabel>
+        <translation><!-- ZZE9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF1</masterLabel>
+        <translation><!-- ZZF1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF2</masterLabel>
+        <translation><!-- ZZF2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF3</masterLabel>
+        <translation><!-- ZZF3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF4</masterLabel>
+        <translation><!-- ZZF4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF5</masterLabel>
+        <translation><!-- ZZF5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF6</masterLabel>
+        <translation><!-- ZZF6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG1</masterLabel>
+        <translation><!-- ZZG1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG2</masterLabel>
+        <translation><!-- ZZG2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG3</masterLabel>
+        <translation><!-- ZZG3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG4</masterLabel>
+        <translation><!-- ZZG4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG5</masterLabel>
+        <translation><!-- ZZG5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG6</masterLabel>
+        <translation><!-- ZZG6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG7</masterLabel>
+        <translation><!-- ZZG7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG8</masterLabel>
+        <translation><!-- ZZG8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG9</masterLabel>
+        <translation><!-- ZZG9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH1</masterLabel>
+        <translation><!-- ZZH1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH2</masterLabel>
+        <translation><!-- ZZH2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH3</masterLabel>
+        <translation><!-- ZZH3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH5</masterLabel>
+        <translation><!-- ZZH5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH6</masterLabel>
+        <translation><!-- ZZH6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH7</masterLabel>
+        <translation><!-- ZZH7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH8</masterLabel>
+        <translation><!-- ZZH8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH9</masterLabel>
+        <translation><!-- ZZH9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI1</masterLabel>
+        <translation><!-- ZZI1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI2</masterLabel>
+        <translation><!-- ZZI2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI3</masterLabel>
+        <translation><!-- ZZI3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI4</masterLabel>
+        <translation><!-- ZZI4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI5</masterLabel>
+        <translation><!-- ZZI5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI7</masterLabel>
+        <translation><!-- ZZI7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI8</masterLabel>
+        <translation><!-- ZZI8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ1</masterLabel>
+        <translation><!-- ZZJ1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ2</masterLabel>
+        <translation><!-- ZZJ2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ3</masterLabel>
+        <translation><!-- ZZJ3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ4</masterLabel>
+        <translation><!-- ZZJ4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ5</masterLabel>
+        <translation><!-- ZZJ5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ6</masterLabel>
+        <translation><!-- ZZJ6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ7</masterLabel>
+        <translation><!-- ZZJ7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ8</masterLabel>
+        <translation><!-- ZZJ8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ9</masterLabel>
+        <translation><!-- ZZJ9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK2</masterLabel>
+        <translation><!-- ZZK2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK3</masterLabel>
+        <translation><!-- ZZK3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK5</masterLabel>
+        <translation><!-- ZZK5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK6</masterLabel>
+        <translation><!-- ZZK6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK8</masterLabel>
+        <translation><!-- ZZK8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK9</masterLabel>
+        <translation><!-- ZZK9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZL1</masterLabel>
+        <translation><!-- ZZL1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM1</masterLabel>
+        <translation><!-- ZZM1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM2</masterLabel>
+        <translation><!-- ZZM2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM3</masterLabel>
+        <translation><!-- ZZM3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM4</masterLabel>
+        <translation><!-- ZZM4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM6</masterLabel>
+        <translation><!-- ZZM6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM7</masterLabel>
+        <translation><!-- ZZM7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM8</masterLabel>
+        <translation><!-- ZZM8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM9</masterLabel>
+        <translation><!-- ZZM9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN1</masterLabel>
+        <translation><!-- ZZN1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN2</masterLabel>
+        <translation><!-- ZZN2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN3</masterLabel>
+        <translation><!-- ZZN3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN4</masterLabel>
+        <translation><!-- ZZN4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN5</masterLabel>
+        <translation><!-- ZZN5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN6</masterLabel>
+        <translation><!-- ZZN6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN7</masterLabel>
+        <translation><!-- ZZN7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN8</masterLabel>
+        <translation><!-- ZZN8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN9</masterLabel>
+        <translation><!-- ZZN9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO1</masterLabel>
+        <translation><!-- ZZO1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO2</masterLabel>
+        <translation><!-- ZZO2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO3</masterLabel>
+        <translation><!-- ZZO3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO4</masterLabel>
+        <translation><!-- ZZO4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO5</masterLabel>
+        <translation><!-- ZZO5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO6</masterLabel>
+        <translation><!-- ZZO6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO7</masterLabel>
+        <translation><!-- ZZO7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO8</masterLabel>
+        <translation><!-- ZZO8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO9</masterLabel>
+        <translation><!-- ZZO9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP1</masterLabel>
+        <translation><!-- ZZP1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP2</masterLabel>
+        <translation><!-- ZZP2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP3</masterLabel>
+        <translation><!-- ZZP3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP4</masterLabel>
+        <translation><!-- ZZP4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP6</masterLabel>
+        <translation><!-- ZZP6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP7</masterLabel>
+        <translation><!-- ZZP7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP8</masterLabel>
+        <translation><!-- ZZP8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP9</masterLabel>
+        <translation><!-- ZZP9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ2</masterLabel>
+        <translation><!-- ZZQ2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ3</masterLabel>
+        <translation><!-- ZZQ3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ4</masterLabel>
+        <translation><!-- ZZQ4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ5</masterLabel>
+        <translation><!-- ZZQ5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ6</masterLabel>
+        <translation><!-- ZZQ6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ7</masterLabel>
+        <translation><!-- ZZQ7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ8</masterLabel>
+        <translation><!-- ZZQ8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ9</masterLabel>
+        <translation><!-- ZZQ9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR1</masterLabel>
+        <translation><!-- ZZR1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR2</masterLabel>
+        <translation><!-- ZZR2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR3</masterLabel>
+        <translation><!-- ZZR3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR4</masterLabel>
+        <translation><!-- ZZR4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR5</masterLabel>
+        <translation><!-- ZZR5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR6</masterLabel>
+        <translation><!-- ZZR6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR7</masterLabel>
+        <translation><!-- ZZR7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR8</masterLabel>
+        <translation><!-- ZZR8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR9</masterLabel>
+        <translation><!-- ZZR9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS1</masterLabel>
+        <translation><!-- ZZS1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS2</masterLabel>
+        <translation><!-- ZZS2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS3</masterLabel>
+        <translation><!-- ZZS3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS4</masterLabel>
+        <translation><!-- ZZS4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS5</masterLabel>
+        <translation><!-- ZZS5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS6</masterLabel>
+        <translation><!-- ZZS6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS8</masterLabel>
+        <translation><!-- ZZS8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS9</masterLabel>
+        <translation><!-- ZZS9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT1</masterLabel>
+        <translation><!-- ZZT1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT2</masterLabel>
+        <translation><!-- ZZT2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT3</masterLabel>
+        <translation><!-- ZZT3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT4</masterLabel>
+        <translation><!-- ZZT4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT5</masterLabel>
+        <translation><!-- ZZT5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT6</masterLabel>
+        <translation><!-- ZZT6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT7</masterLabel>
+        <translation><!-- ZZT7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT8</masterLabel>
+        <translation><!-- ZZT8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT9</masterLabel>
+        <translation><!-- ZZT9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU1</masterLabel>
+        <translation><!-- ZZU1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU2</masterLabel>
+        <translation><!-- ZZU2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU3</masterLabel>
+        <translation><!-- ZZU3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU4</masterLabel>
+        <translation><!-- ZZU4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU6</masterLabel>
+        <translation><!-- ZZU6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU7</masterLabel>
+        <translation><!-- ZZU7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU8</masterLabel>
+        <translation><!-- ZZU8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU9</masterLabel>
+        <translation><!-- ZZU9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV1</masterLabel>
+        <translation><!-- ZZV1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV2</masterLabel>
+        <translation><!-- ZZV2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV3</masterLabel>
+        <translation><!-- ZZV3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV4</masterLabel>
+        <translation><!-- ZZV4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV5</masterLabel>
+        <translation><!-- ZZV5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV6</masterLabel>
+        <translation><!-- ZZV6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV7</masterLabel>
+        <translation><!-- ZZV7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV8</masterLabel>
+        <translation><!-- ZZV8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV9</masterLabel>
+        <translation><!-- ZZV9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZVW</masterLabel>
+        <translation><!-- ZZVW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW1</masterLabel>
+        <translation><!-- ZZW1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW2</masterLabel>
+        <translation><!-- ZZW2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW3</masterLabel>
+        <translation><!-- ZZW3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW4</masterLabel>
+        <translation><!-- ZZW4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW5</masterLabel>
+        <translation><!-- ZZW5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW6</masterLabel>
+        <translation><!-- ZZW6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW7</masterLabel>
+        <translation><!-- ZZW7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW8</masterLabel>
+        <translation><!-- ZZW8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW9</masterLabel>
+        <translation><!-- ZZW9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX1</masterLabel>
+        <translation><!-- ZZX1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX2</masterLabel>
+        <translation><!-- ZZX2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX3</masterLabel>
+        <translation><!-- ZZX3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX4</masterLabel>
+        <translation><!-- ZZX4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX5</masterLabel>
+        <translation><!-- ZZX5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX6</masterLabel>
+        <translation><!-- ZZX6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX7</masterLabel>
+        <translation><!-- ZZX7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX8</masterLabel>
+        <translation><!-- ZZX8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX9</masterLabel>
+        <translation><!-- ZZX9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZY1</masterLabel>
+        <translation><!-- ZZY1 --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

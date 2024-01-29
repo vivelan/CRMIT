@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reclamation</fullName>
+    <active>true</active>
+    <businessProcess>Reclamation</businessProcess>
+    <label>Reclamation</label>
+    <picklistValues>
+        <picklist>ApprovalStatus__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Declined</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>Commercial Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Complaint</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Mill__c</picklist>
+        <values>
+            <fullName>DF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DH</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason__c</picklist>
+        <values>
+            <fullName>Agency - Type error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual Quantity Discount</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bonus Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Certificate Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer processing issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivery delay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dimensional deviation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incorrect%2FMissing Specification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Soundness</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoicing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mech%2E-tech%2E%2Fchem%2E Properties</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Rolling or Plate Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penalty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plate Identification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Surface defect</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Value Date</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segment__c</picklist>
+        <values>
+            <fullName>101 Construction Equipment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>103 Machinery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>205 Pressure Equipement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>307 Wind</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>310 Linepipe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>415 Job Rolling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>417 Protection Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>513 Steel and Service Center</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>612 Steel Construction</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

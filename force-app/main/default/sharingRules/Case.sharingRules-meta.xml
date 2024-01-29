@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DHCaseSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Created sharing rule to ensure all Cases created by DH Users are shared with all DH Users.</description>
+        <label>DH Case Sharing Rule</label>
+        <sharedTo>
+            <role>DH</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DH</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

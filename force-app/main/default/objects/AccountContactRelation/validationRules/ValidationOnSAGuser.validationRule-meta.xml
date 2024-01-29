@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnSAGuser</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  
+    INCLUDES( Roles , &quot;Restricted Customer Portal User&quot;),
+    OR(
+        $Profile.Name = &apos;SAG Marketing Profile&apos;,
+        $Profile.Name = &apos;SAG Quality Profile&apos;,
+        $Profile.Name = &apos;SAG Sales&apos;
+    )
+)</errorConditionFormula>
+    <errorMessage>You cannot select this value</errorMessage>
+</ValidationRule>

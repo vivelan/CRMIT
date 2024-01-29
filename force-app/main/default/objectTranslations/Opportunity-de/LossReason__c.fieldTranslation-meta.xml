@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Verlustgrund</label>
+    <name>LossReason__c</name>
+    <picklistValues>
+        <masterLabel>Customer does not provide information</masterLabel>
+        <translation>Kunde stellt keine Informationen zur Verfügung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer service</masterLabel>
+        <translation>Kundendienst</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery reliability/ Delivery time</masterLabel>
+        <translation>Liefertreue / Lieferzeit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insufficient financial coverage</masterLabel>
+        <translation>Unzureichende finanzielle Abdeckung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost to Competitor</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Minimum order quantity</masterLabel>
+        <translation>Mindestbestellmenge</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Budget / Lost Funding</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Decision / Non-Responsive</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation>Sonstiges</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product price</masterLabel>
+        <translation>Produktpreis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality from customer&apos;s point of view</masterLabel>
+        <translation>Qualität aus Kundensicht</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Techn. deviations</masterLabel>
+        <translation>Techn. Abweichungen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Techn. feasibility/ Delivery program alloy</masterLabel>
+        <translation>Techn. Machbarkeit / Lieferprogramm-Legierung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Techn. feasibility/ Delivery program dimension</masterLabel>
+        <translation>Techn. Machbarkeit / Lieferprogramm-Dimension</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Techn. feasibility/ Delivery program product format</masterLabel>
+        <translation>Techn. Machbarkeit / Lieferprogramm-Produktformat</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Transportation and Handling costs</masterLabel>
+        <translation>Transport- und Bearbeitungskosten</translation>
+    </picklistValues>
+</CustomFieldTranslation>

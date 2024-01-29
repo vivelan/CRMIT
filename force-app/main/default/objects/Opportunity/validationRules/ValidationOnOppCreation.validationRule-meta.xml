@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnOppCreation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(
+AND(
+ISNEW(),
+RecordType.DeveloperName=&apos;Opportunitywithquotecreations&apos;,
+NOT( ISPICKVAL( StageName, &quot;New&quot;))
+),
+AND(
+ISNEW(),
+RecordType.DeveloperName=&apos;PriceIndicationwithoutquote&apos;,
+NOT( ISPICKVAL( StageName, &quot;Open&quot;))
+)
+),
+NOT( $Setup.ByPassLogic__c.ByPassValidation__c )
+)</errorConditionFormula>
+    <errorMessage>Opportunities can only be created in the &quot;New&quot; or &quot;Open&quot; stage in order to be able to obtain all relevant information along the workflow from the departments.</errorMessage>
+</ValidationRule>

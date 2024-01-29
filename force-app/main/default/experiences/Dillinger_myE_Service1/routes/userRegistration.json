@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "a9df04ae-b383-4ef5-b73b-1232307d3005",
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "configurationTags" : [ ],
+  "devName" : "User_Registration__c",
+  "id" : "0c001144-e448-461e-b9c4-173f9934d94d",
+  "label" : "User Registration",
+  "pageAccess" : "Public",
+  "routeType" : "custom-user-registration",
+  "type" : "route",
+  "urlPrefix" : "user-registration"
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckAccountOnTRandOpportunitySameOrNot</fullName>
+    <active>true</active>
+    <errorConditionFormula>Account__r.Id  &lt;&gt;   Opportunity__r.AccountId</errorConditionFormula>
+    <errorMessage>The selected opportunity is associated with another account. Please select an opportunity that corresponds to the account specified on the technical requirement.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Visit</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Visit Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;This status value can only be set once the &amp;#39;Summary&amp;#39; and the &amp;#39;Next Steps&amp;#39; fields have been filled in. As soon as this status value is set, further editing is no longer possible.&lt;/p&gt;</info>
+        <picklistValueName>Completed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;This status value is initially set when a new visit is recorded in the system. All mandatory fields have to be filled in.&lt;/p&gt;</info>
+        <picklistValueName>In Planning</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;This status value is automatically set as soon as the date in the field &amp;#39;Visit Date End&amp;#39; is expired.&lt;/p&gt;</info>
+        <picklistValueName>Visited</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,42 @@
+{
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "f9ffa2cd-c289-4715-9044-3ea2b34c8e0b",
+  "label" : "Commercial Document Analytics",
+  "regions" : [ {
+    "id" : "1f6ab1ac-b0cc-463c-ad7f-c439ee104751",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "e7f264f7-4801-41c5-87fc-1d9b095c20d2",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "64408dde-33ee-4b7f-922f-beec44aec688",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Commercial Document Analytics"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "4d29a5be-650b-42e1-99e6-384ef42d4145",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "9d41a688-20ad-4849-b76c-53304eb49038",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "668691dd-67ee-4682-a619-ab9aa2f28478",
+    "regionName" : "sidebar",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "custom-commercial-document-analytics"
+}

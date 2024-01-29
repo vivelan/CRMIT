@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateCalculationTimePoint</fullName>
+    <active>true</active>
+    <description>If opportunity closed date&apos;s month matches, the rule does not allow the user to select &apos;Quarterly&apos; in the field</description>
+    <errorConditionFormula>IF(
+    OR(
+        MONTH(CloseDate) = 3,
+        MONTH(CloseDate) = 6,
+        MONTH(CloseDate) = 9,
+        MONTH(CloseDate) = 12
+    ) 
+    &amp;&amp; 
+    OR(
+        MONTH(TODAY()) = 3,
+        MONTH(TODAY()) = 6,
+        MONTH(TODAY()) = 9,
+        MONTH(TODAY()) = 12
+    )
+    &amp;&amp; (ISPICKVAL( CalculationTimePoint__c , &apos;Quarterly&apos;)),
+    true,
+    false
+)</errorConditionFormula>
+    <errorMessage>Since this opportunity was created in the last month of a quarter and the close date is set to a date within the same month, please select &quot;Monthly&quot; as Time reference calculation.</errorMessage>
+</ValidationRule>

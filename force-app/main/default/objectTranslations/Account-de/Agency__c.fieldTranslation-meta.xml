@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help></help>
+    <label>Agentur</label>
+    <name>Agency__c</name>
+    <picklistValues>
+        <masterLabel>Dillinger Direct Sales</masterLabel>
+        <translation>Dillinger Direktverkauf</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger España</masterLabel>
+        <translation>Dillinger España</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger International BeLux</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger International Export</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger International France</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger Italia</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger Middle East</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger Nederland</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger Nordic</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger Saarstahl America</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Dillinger UK</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Karam</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

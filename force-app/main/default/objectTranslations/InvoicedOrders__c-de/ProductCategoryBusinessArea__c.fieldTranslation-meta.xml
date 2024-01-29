@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Produktkategorie GF</label>
+    <name>ProductCategoryBusinessArea__c</name>
+    <picklistValues>
+        <masterLabel>B10</masterLabel>
+        <translation>B10</translation>
+    </picklistValues>
+</CustomFieldTranslation>

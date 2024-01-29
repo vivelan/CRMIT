@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Auswahltexte QW</label>
+    <name>TextForSelectionQuality__c</name>
+    <picklistValues>
+        <masterLabel>Acceptance of Spec.</masterLabel>
+        <translation>Zusage Spez.</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edge decarburization according to DIN EN 10263</masterLabel>
+        <translation>Randentkohlung gem. DIN EN 10263</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Edge decarburization according to DIN EN ISO 3887-03</masterLabel>
+        <translation>Randentkohlung gem. DIN EN ISO 3887-03</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Maraform</masterLabel>
+        <translation>Maraform</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Not in product portfolio</masterLabel>
+        <translation>Außer Programm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Purpose of use</masterLabel>
+        <translation>Verwendungszweck</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard sentence: &quot;Further customer requirements&quot;</masterLabel>
+        <translation>Standardsatz: „Weitere Kundenanforderungen“</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surface according to DIN EN ISO 9443</masterLabel>
+        <translation>OF nach DIN EN ISO 9443</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Surface according to EN ISO 9443</masterLabel>
+        <translation>OF nach EN ISO 9443</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Upset testing</masterLabel>
+        <translation>Staucherprobung</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Zuordnung</label>
+    <name>Assignment__c</name>
+    <picklistValues>
+        <masterLabel>Customer By-products</masterLabel>
+        <translation>Kunde NP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer Dillinger</masterLabel>
+        <translation>Kunde Dillinger</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer MR</masterLabel>
+        <translation>Kunde MR</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer SATRANS</masterLabel>
+        <translation>Kunde SATRANS</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer SSC</masterLabel>
+        <translation>Kunde SSC</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Customer SWN</masterLabel>
+        <translation>Kunde SWN</translation>
+    </picklistValues>
+</CustomFieldTranslation>

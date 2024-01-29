@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>CallFromApex</name>
+        <label>CallFromApex</label>
+        <locationX>336</locationX>
+        <locationY>1850</locationY>
+        <actionName>DeliveryInstrPDFGeneration</actionName>
+        <actionType>apex</actionType>
+        <connector>
+            <targetReference>redirectToDeliveryInstruction</targetReference>
+        </connector>
+        <flowTransactionModel>Automatic</flowTransactionModel>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <outputParameters>
+            <assignToReference>outputMsg</assignToReference>
+            <name>output</name>
+        </outputParameters>
+    </actionCalls>
+    <actionCalls>
+        <name>redirectToDeliveryInstruction</name>
+        <label>redirectToDeliveryInstruction</label>
+        <locationX>336</locationX>
+        <locationY>1958</locationY>
+        <actionName>c:redirectToRecord</actionName>
+        <actionType>component</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recordId</name>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputParameters>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <description>Assign values from the record&apos;s language__c field to this variable</description>
+        <name>LanguageAssignment</name>
+        <label>Assign Language values to variable</label>
+        <locationX>336</locationX>
+        <locationY>242</locationY>
+        <assignmentItems>
+            <assignToReference>DILanguagePicklist</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>FetchDeliveryInstruction.Language__c</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>CheckLanguageEN</targetReference>
+        </connector>
+    </assignments>
+    <decisions>
+        <name>CheckFrench</name>
+        <label>Check French</label>
+        <locationX>336</locationX>
+        <locationY>1250</locationY>
+        <defaultConnector>
+            <targetReference>CallFromApex</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>French Not Present</defaultConnectorLabel>
+        <rules>
+            <name>CheckFR</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>DILanguagePicklist</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>FR</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CheckRemarkPopulationDecisionFR</targetReference>
+            </connector>
+            <label>Check If French Is Present</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>CheckGerman</name>
+        <label>Check German</label>
+        <locationX>336</locationX>
+        <locationY>800</locationY>
+        <defaultConnector>
+            <targetReference>CheckFrench</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>German Not Present</defaultConnectorLabel>
+        <rules>
+            <name>CheckDE</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>DILanguagePicklist</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>DE</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CheckRemarkPopulationDecisionDE</targetReference>
+            </connector>
+            <label>Check If German Is Present</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>CheckLanguageEN</name>
+        <label>Check English</label>
+        <locationX>336</locationX>
+        <locationY>350</locationY>
+        <defaultConnector>
+            <targetReference>CheckGerman</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>English Not Present</defaultConnectorLabel>
+        <rules>
+            <name>CheckEN</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>DILanguagePicklist</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>EN</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CheckRemarkPopulationDecisionEN</targetReference>
+            </connector>
+            <label>Check If English Is Present</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>This checks if the values for German: RemarkSalesDE__c and TechnicalRemarkDE__c are filled or not.</description>
+        <name>CheckRemarkPopulationDecisionDE</name>
+        <label>Check If Remark Is Filled DE</label>
+        <locationX>182</locationX>
+        <locationY>908</locationY>
+        <defaultConnector>
+            <targetReference>CheckFrench</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Values Are Filled</defaultConnectorLabel>
+        <rules>
+            <name>CheckPopulatedDE</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>FetchDeliveryInstruction.RemarkSalesDE__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>FetchDeliveryInstruction.TechnicalRemarkDE__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>ErrorDILang</targetReference>
+            </connector>
+            <label>Values Are NOT Filled</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>This checks if the values for French: RemarkSalesFR__c and TechnicalRemarkFR__c are filled or not.</description>
+        <name>CheckRemarkPopulationDecisionEN</name>
+        <label>Check If Remark Is Filled en</label>
+        <locationX>182</locationX>
+        <locationY>458</locationY>
+        <defaultConnector>
+            <targetReference>CheckGerman</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Values Are Filled</defaultConnectorLabel>
+        <rules>
+            <name>CheckPopulatedEN</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>FetchDeliveryInstruction.RemarkSalesEN__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>FetchDeliveryInstruction.TechnicalRemarkEN__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <isGoTo>true</isGoTo>
+                <targetReference>ErrorDILang</targetReference>
+            </connector>
+            <label>Values Are NOT Filled</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>This checks if the values for French: RemarkSalesFR__c and TechnicalRemarkFR__c are filled or not.</description>
+        <name>CheckRemarkPopulationDecisionFR</name>
+        <label>Check If Remark Is Filled FR</label>
+        <locationX>182</locationX>
+        <locationY>1358</locationY>
+        <defaultConnector>
+            <targetReference>CallFromApex</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Values Are Filled</defaultConnectorLabel>
+        <rules>
+            <name>CheckPopulatedFR</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>FetchDeliveryInstruction.RemarkSalesFR__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>FetchDeliveryInstruction.TechnicalRemarkFR__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>ErrorDILang</targetReference>
+            </connector>
+            <label>Values Are NOT Filled</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Document Generation on the Side Letter from Server Side {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Document Generation on the Side Letter from Server Side</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <description>Fetch delivery instruction record using record id so that the values for:
+1. German: RemarkSalesDE__c and TechnicalRemarkDE__c
+2. English: RemarkSalesEN__c and TechnicalRemarkEN__c
+3. French: RemarkSalesFR__c and TechnicalRemarkFR__
+can be checked.</description>
+        <name>FetchDeliveryInstruction</name>
+        <label>Fetch Delivery Instruction</label>
+        <locationX>336</locationX>
+        <locationY>134</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>LanguageAssignment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>DeliveryInstructions__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <screens>
+        <description>Display message for an error</description>
+        <name>ErrorDILang</name>
+        <label>Custom Error For DI Language</label>
+        <locationX>50</locationX>
+        <locationY>1466</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>CustomLabelError</name>
+            <fieldText>&lt;p&gt;{!$Label.CustomErrorForSideLetterDocumentCreation}&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>210</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>FetchDeliveryInstruction</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <description>A variable holding all values from the language picklist on the DI object</description>
+        <name>DILanguagePicklist</name>
+        <dataType>Multipicklist</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>outputMsg</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

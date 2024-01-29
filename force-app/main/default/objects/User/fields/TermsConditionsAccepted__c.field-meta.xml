@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TermsConditionsAccepted__c</fullName>  
+    <defaultValue>false</defaultValue>
+    <description>Field to track whether Portal user has agreed to the Terms&amp;Conditions of the myE-Service Portal. If not, Portal Login Flow is triggered.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This checkbox indicates, whether a Portal User has accepted the Terms &amp; Conditions of the myE-Service Portal.</inlineHelpText>
+    <label>Accept Terms &amp; Conditions</label> 
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Checkbox</type>
+</CustomField>

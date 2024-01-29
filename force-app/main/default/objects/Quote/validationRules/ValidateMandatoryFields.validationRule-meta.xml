@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateMandatoryFields</fullName>
+    <active>true</active>
+    <errorConditionFormula>(AND( Opportunity.RecordType.DeveloperName = &quot;Opportunitywithquotecreations&quot;,OR(
+ISBLANK(TEXT(Opportunity.OpportunityType__c)),ISBLANK(TEXT(Opportunity.BusinessArea__c)),
+ISBLANK(Opportunity.DateOfReceipt__c),ISBLANK(TEXT(Opportunity.CalculationTimePoint__c)),ISBLANK(TEXT(Opportunity.CurrencyIsoCode)),ISBLANK(TEXT(Opportunity.Type)),ISBLANK(Opportunity.QuoteValidTill__c),ISBLANK(TEXT(Opportunity.Incoterms__c)),ISBLANK(TEXT(Opportunity.DateOf_Payment__c))),NOT( $Setup.ByPassLogic__c.ByPassValidation__c )))  ||  CreateQuoteCheck__c  = true</errorConditionFormula>
+    <errorMessage>Please specify all necessary fields to create a quote.</errorMessage>
+</ValidationRule>

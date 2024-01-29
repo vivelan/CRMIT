@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Semi-finished (rd. edges)</fullName>
+        <default>false</default>
+        <label>Semi-finished (rd. edges)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billets</fullName>
+        <default>false</default>
+        <label>Billets</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bar steel</fullName>
+        <default>false</default>
+        <label>Bar steel</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wire Rod</fullName>
+        <default>false</default>
+        <label>Wire Rod</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wire Rod Peeled</fullName>
+        <default>false</default>
+        <label>Wire Rod Peeled</label>
+    </standardValue>
+</StandardValueSet>

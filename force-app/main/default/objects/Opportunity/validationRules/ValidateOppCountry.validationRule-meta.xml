@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateOppCountry</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(BlockedCountry__c, 
+NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>You cannot create opportunities from a blocked country.</errorMessage>
+</ValidationRule>

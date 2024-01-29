@@ -1,0 +1,2991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AA</masterLabel>
+        <translation>Sichtakkreditiv unbest.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AB</masterLabel>
+        <translation>Akkreditiv unbest., 30 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AC</masterLabel>
+        <translation>Akkreditiv unbest., 60 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AD</masterLabel>
+        <translation>Akkreditiv unbest., 90 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AE</masterLabel>
+        <translation>Akkreditiv unbest., 120 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AF</masterLabel>
+        <translation>Akkreditiv unbest., 150 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AG</masterLabel>
+        <translation>Akkreditiv unbest., 180 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AH</masterLabel>
+        <translation>Akkreditiv unbest., 270 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AI</masterLabel>
+        <translation>Akkreditiv unbest., 360 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AJ</masterLabel>
+        <translation>Akkreditiv unbest., 60 Tage bei Sicht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AK</masterLabel>
+        <translation>Akkreditiv unbest., 90 Tage nach RD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AL</masterLabel>
+        <translation>Akkreditiv unbest., 180 Tage nach RD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BA</masterLabel>
+        <translation>Sichtakkreditiv best.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BB</masterLabel>
+        <translation>Akkreditiv best., 30 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BC</masterLabel>
+        <translation>Akkreditiv best., 60 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BD</masterLabel>
+        <translation>Akkreditiv best., 90 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BE</masterLabel>
+        <translation>Akkreditiv best., 120 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BF</masterLabel>
+        <translation>Akkreditiv best., 150 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BG</masterLabel>
+        <translation>Akkreditiv best., 180 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BH</masterLabel>
+        <translation>Akkreditiv best., 270 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>BI</masterLabel>
+        <translation>Akkreditiv best., 360 Tage dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DA</masterLabel>
+        <translation>Kasse gegen Dokumente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DB</masterLabel>
+        <translation>Sichtwechsel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DC</masterLabel>
+        <translation>30 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DD</masterLabel>
+        <translation>60 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DE</masterLabel>
+        <translation>90 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DF</masterLabel>
+        <translation>120 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DG</masterLabel>
+        <translation>150 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DH</masterLabel>
+        <translation>180 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DI</masterLabel>
+        <translation>270 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DJ</masterLabel>
+        <translation>360 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DK</masterLabel>
+        <translation>45 Tage nach Datum B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FA</masterLabel>
+        <translation>60 Tg. n. Liefermonatende netto, Bankeinzug</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FB</masterLabel>
+        <translation>30 Tg. n. Liefermonatende per Scheck netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GA</masterLabel>
+        <translation>8 Tage nach Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GB</masterLabel>
+        <translation>14 Tage n. Rechnungserhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GC</masterLabel>
+        <translation>30 Tage n. Rechnungserhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GD</masterLabel>
+        <translation>60 Tage n. Rechnungserhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GE</masterLabel>
+        <translation>8 Tage nach Rechnungserhalt abzüglich 0,5% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GS</masterLabel>
+        <translation>10 T. n. RE-Erhalt ./. 3% Sk.,30T.n.LME netto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GT</masterLabel>
+        <translation>14 T.n. RE-Eing. ./. 3%Sk.,60T.n.RE-Eing.netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HA</masterLabel>
+        <translation>30 Tage nach ETA Schiff</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HB</masterLabel>
+        <translation>45 Tage nach ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HC</masterLabel>
+        <translation>60 Tage nach Erhalt der Ware netto (Schiffsank.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HD</masterLabel>
+        <translation>90 Tage nach Schiffsankunft netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HE</masterLabel>
+        <translation>60 Tage nach Schiffsankunft Hafen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HF</masterLabel>
+        <translation>30 Tage nach Wareneingang</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HG</masterLabel>
+        <translation>120 Tage nach Schiffsankunft netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HH</masterLabel>
+        <translation>50 Tage n. vorraussichtl. Ankunftstag</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HI</masterLabel>
+        <translation>60 Tage n. vorraussichtl. Ankunftstag</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HJ</masterLabel>
+        <translation>90 Tage nach ETA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HK</masterLabel>
+        <translation>Nach Wareneing.:Option1:1,5% 10Tg.,30Tg. netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HL</masterLabel>
+        <translation>75 Tage n. vorraussichtl. Ankunftstag</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HS</masterLabel>
+        <translation>Sofort bei Anlieferung abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HT</masterLabel>
+        <translation>45 Tage nach Warenerhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HU</masterLabel>
+        <translation>15 Tage nach Wareneingang</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HV</masterLabel>
+        <translation>60 Tage nach Wareneingang</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>HW</masterLabel>
+        <translation>60 Tage nach Warenerhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IA</masterLabel>
+        <translation>15 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IB</masterLabel>
+        <translation>25 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IC</masterLabel>
+        <translation>30 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ID</masterLabel>
+        <translation>45 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IE</masterLabel>
+        <translation>60 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IF</masterLabel>
+        <translation>30 Tage nach Entnahmedatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IG</masterLabel>
+        <translation>60 Tage nach Entnahmedatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IH</masterLabel>
+        <translation>100 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>II</masterLabel>
+        <translation>105 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IJ</masterLabel>
+        <translation>7 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IK</masterLabel>
+        <translation>15 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IL</masterLabel>
+        <translation>45 Tage nach Entnahmedatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>IM</masterLabel>
+        <translation>50% bei Datum Bill of Lading, 50% 30 Tage n. BL</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KA</masterLabel>
+        <translation>8 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KB</masterLabel>
+        <translation>10 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KC</masterLabel>
+        <translation>14 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KD</masterLabel>
+        <translation>30 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KE</masterLabel>
+        <translation>30 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KF</masterLabel>
+        <translation>45 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KG</masterLabel>
+        <translation>60 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KH</masterLabel>
+        <translation>60 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KI</masterLabel>
+        <translation>70 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KJ</masterLabel>
+        <translation>75 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KK</masterLabel>
+        <translation>90 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KL</masterLabel>
+        <translation>90 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KM</masterLabel>
+        <translation>90 Tage + 10 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KN</masterLabel>
+        <translation>105 Tagenach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KO</masterLabel>
+        <translation>120 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KP</masterLabel>
+        <translation>120 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KQ</masterLabel>
+        <translation>180 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KR</masterLabel>
+        <translation>180 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KS</masterLabel>
+        <translation>30 + 10 Tage n. Rechn.-Datum ./. 2% Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KT</masterLabel>
+        <translation>15 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KU</masterLabel>
+        <translation>45 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KV</masterLabel>
+        <translation>75 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KW</masterLabel>
+        <translation>30 Tage nach CMR-Datum</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KX</masterLabel>
+        <translation>7 Tage nach Rechnungsdatum 1% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KY</masterLabel>
+        <translation>10 Tage n. RD 1,25%Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>KZ</masterLabel>
+        <translation>5 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LA</masterLabel>
+        <translation>8 Tage nach Rechnungsdatum 1% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LB</masterLabel>
+        <translation>10 Tage nach Rechnungsdatum 1% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LC</masterLabel>
+        <translation>14 Tage nach Rechnungsdatum 1% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LD</masterLabel>
+        <translation>14 Tage nach RD 1% Skonto,30 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LE</masterLabel>
+        <translation>30 Tage nach Rechnungsdatum 1% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LF</masterLabel>
+        <translation>10 Tage nach RD 1% Skonto,15 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LG</masterLabel>
+        <translation>14 Tage nach RD 1,5% Skonto,15 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LH</masterLabel>
+        <translation>14 Tage nach RD 1% Skonto,25 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LI</masterLabel>
+        <translation>60 Tage n. LME ./. 0,3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LJ</masterLabel>
+        <translation>10 Tage n. Rechnungsdatum ./. 0,3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LK</masterLabel>
+        <translation>8 Tage nach RD 1,5% Skonto,25 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LL</masterLabel>
+        <translation>10 Tage n. RD 1,5% Skonto, 30 T. n. RDnetto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LM</masterLabel>
+        <translation>14 Tage nach RD 1,5% Skonto,45 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LN</masterLabel>
+        <translation>15 Tage n. RD 1,5% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LO</masterLabel>
+        <translation>30 Tage nach RD1,5% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LP</masterLabel>
+        <translation>14 Tage nach RD 1,5% Skonto,30 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LQ</masterLabel>
+        <translation>15 Tage n. RD 1,5% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LR</masterLabel>
+        <translation>10 T. RD 2% Skt.,20 T. RD 1,5% Skt.,14 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LS</masterLabel>
+        <translation>14 Tage nach Rechnungsdatum 0,5% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LT</masterLabel>
+        <translation>30 Tage n. LME ./. 0,3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LU</masterLabel>
+        <translation>15 Tage n. Rechnungsdatum ./. 0,3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LV</masterLabel>
+        <translation>10 Tage nach Rechnungsdatum 1,5% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LW</masterLabel>
+        <translation>10 Tage nach RD 1% Skonto,30 Tage netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LX</masterLabel>
+        <translation>8 Tage nach Rechnungsdatum 1,5% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LY</masterLabel>
+        <translation>8 Tage nach RD 1,5% Skonto,45 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>LZ</masterLabel>
+        <translation>8 Tage nach RD 1,5% Skonto,25 T.nach RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MA</masterLabel>
+        <translation>8 Tage nach Rechnungsdatum 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MB</masterLabel>
+        <translation>8 Tage nach RD2% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MC</masterLabel>
+        <translation>8 Tage nach RD 2% Skonto,15 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MD</masterLabel>
+        <translation>10 Tage nach Rechnungsdatum 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ME</masterLabel>
+        <translation>10 Tage nach RD 2% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MF</masterLabel>
+        <translation>10 Tage nach RD 2% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MG</masterLabel>
+        <translation>10 Tage nach RD 2% Skonto,90 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MH</masterLabel>
+        <translation>10 Tage nach RD 2% Skonto,15 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MI</masterLabel>
+        <translation>14 Tage nach Rechnungsdatum 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MJ</masterLabel>
+        <translation>14 Tage nach RD2% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MK</masterLabel>
+        <translation>14 Tage nach RD2% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ML</masterLabel>
+        <translation>14 Tage nach RD2% Skonto,90 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MM</masterLabel>
+        <translation>14 Tage nach RD 2% Skonto,15 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MN</masterLabel>
+        <translation>14 Tage nach RD 2% Skonto,25 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MO</masterLabel>
+        <translation>15 Tage nach RD2% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MP</masterLabel>
+        <translation>21 Tage n. RD 2% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MQ</masterLabel>
+        <translation>30 Tage n. Rechnungsdatum 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MR</masterLabel>
+        <translation>30 Tage n. RD2% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MS</masterLabel>
+        <translation>25. T. n. LME 2% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MT</masterLabel>
+        <translation>15 Tage nach RD2,5% Skonto,90 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MU</masterLabel>
+        <translation>14 Tage nach RD 2% Skonto,30 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MV</masterLabel>
+        <translation>18 Tage nach RD2% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MW</masterLabel>
+        <translation>15 Tage nach RD2,5% Skonto,75 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MX</masterLabel>
+        <translation>30. T. n. LME 2% Skonto,60 T. n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MY</masterLabel>
+        <translation>5Tage nach RD2% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MZ</masterLabel>
+        <translation>15 Tage nach RD2,5% Skonto,120T,n RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NA</masterLabel>
+        <translation>7 Tage n. RD 3% Skonto,60 T. n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NB</masterLabel>
+        <translation>8 Tage nach Rechnungsdatum 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NC</masterLabel>
+        <translation>8 Tage nach RD3% Skonto,30 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ND</masterLabel>
+        <translation>8 T. 3% Skto.,14 T. RD 2% Skto.,15 Tage LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NE</masterLabel>
+        <translation>8 T. 3% Skto.,14 T. RD 2% Skto.,60 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NF</masterLabel>
+        <translation>8 Tage nach RD3% Skonto,15 T. nach LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NG</masterLabel>
+        <translation>8 Tage nach RD3% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NH</masterLabel>
+        <translation>10 Tage nach Rechnungsdatum 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NI</masterLabel>
+        <translation>10 Tage nach RD 3% Skonto,30 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NJ</masterLabel>
+        <translation>10 Tage nach RD 3% Skonto,60 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NK</masterLabel>
+        <translation>10 Tage nach RD 3% Skonto,90 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NL</masterLabel>
+        <translation>10 T. 3% Skto.,30 T. RD 2% Skto.,90 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NM</masterLabel>
+        <translation>10 Tage nach RD 3% Skonto,15 T. nach LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NN</masterLabel>
+        <translation>14 Tage nach Rechnunsdatum 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NO</masterLabel>
+        <translation>14 Tage nach RD 3% Skonto,30 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NP</masterLabel>
+        <translation>14 Tage nach RD 3% Skonto,60 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NQ</masterLabel>
+        <translation>14 Tage nach RD 3% Skonto,90 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NR</masterLabel>
+        <translation>14 T. n. RD 3% Skto.,30 T. n. RD 2% Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NS</masterLabel>
+        <translation>14 T. 3% Skto.,30 T. RD 2% Skto.,60 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NT</masterLabel>
+        <translation>14 T. 3% Skto.,30 T. RD 2% Skto.,90 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NU</masterLabel>
+        <translation>14 Tage nach RD 3% Skonto,15 T. nach LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NV</masterLabel>
+        <translation>Zahlbar a. E.d. übernäch.KW ./.3%Skto 30Tg netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NW</masterLabel>
+        <translation>14 Tage nach RD 3% Skonto,60 T. nach LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NX</masterLabel>
+        <translation>15 Tage nach Rechnungsdatum 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NY</masterLabel>
+        <translation>15 Tage nach RD 3% Skonto,30 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>NZ</masterLabel>
+        <translation>20 Tage nach RD 3% Skonto,30 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OA</masterLabel>
+        <translation>20 T. 3% Skto.,30 T. RD 2% Skto.,60 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OB</masterLabel>
+        <translation>20 Tage nach RD 3% Skonto,60 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OC</masterLabel>
+        <translation>30 Tage nach Rechnungsdatum 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OD</masterLabel>
+        <translation>30 Tage nach RD 3% Skonto,45 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OE</masterLabel>
+        <translation>30 Tage nach RD 3% Skonto,60 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OF</masterLabel>
+        <translation>30 Tage nach RD 3% Skonto,105 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OG</masterLabel>
+        <translation>14 Tage nach RD 3% Skonto,70 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OH</masterLabel>
+        <translation>3 Tage nach Rechnungsdatum 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OI</masterLabel>
+        <translation>60Tage nach Rechnungsdatum 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OJ</masterLabel>
+        <translation>30 Tage nach RD 3% Skonto,90 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OK</masterLabel>
+        <translation>10 T. 4% Skto.,20 T. RD 3% Skto.,30 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OL</masterLabel>
+        <translation>15 Tage nach RD3,5% Skonto,120T.n RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OM</masterLabel>
+        <translation>14 Tage nach RD 2,5% Skonto,30 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ON</masterLabel>
+        <translation>7 Tage nach RD 1% Skonto, 14 Tage nach RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OO</masterLabel>
+        <translation>7 Tage nach Rechnungsdatum 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OP</masterLabel>
+        <translation>15 Tage nach RD2% Skonto,150 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OQ</masterLabel>
+        <translation>15 Tage nach RD 2% Skonto,150T.n RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OR</masterLabel>
+        <translation>14 Tage nach RD 3% Skonto,45 T. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OS</masterLabel>
+        <translation>7 Tage nach RD 2% Skonto,15 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OT</masterLabel>
+        <translation>150Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OU</masterLabel>
+        <translation>25 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PA</masterLabel>
+        <translation>14 Tage nach RD 1% Skonto,30 Tage netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PB</masterLabel>
+        <translation>7 Tage nach RD 1% Skonto,30 Tage netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PC</masterLabel>
+        <translation>40% Anz. v. Walzung, 60% vor Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PD</masterLabel>
+        <translation>85 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PE</masterLabel>
+        <translation>80 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PF</masterLabel>
+        <translation>7 Tage nach RD 3% Skonto,30 Tage netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PG</masterLabel>
+        <translation>30 Tage nach RD 1% Skonto,60 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PH</masterLabel>
+        <translation>40% b. Auftragsbest.,40% v. Verschiff., 20% 45T RD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PI</masterLabel>
+        <translation>50% vor Verschiffung, 50% nach Ankunft</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PJ</masterLabel>
+        <translation>50% bei Best.,30% n. WBH,20% Lieferung,60 Tage net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PK</masterLabel>
+        <translation>50% bei Best.,40% n. WBH,10% Lieferung,60 Tage net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PL</masterLabel>
+        <translation>40% bei Best.,60% nach Lieferung,60 Tage net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PM</masterLabel>
+        <translation>60% bei Best.,20% n. WBH,20% Lieferung,30 T netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RA</masterLabel>
+        <translation>15 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RB</masterLabel>
+        <translation>20 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RC</masterLabel>
+        <translation>25 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RD</masterLabel>
+        <translation>30 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RE</masterLabel>
+        <translation>45 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RF</masterLabel>
+        <translation>50 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RG</masterLabel>
+        <translation>55 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RH</masterLabel>
+        <translation>60 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RI</masterLabel>
+        <translation>70 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RJ</masterLabel>
+        <translation>75 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RK</masterLabel>
+        <translation>90 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RL</masterLabel>
+        <translation>95 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RM</masterLabel>
+        <translation>100 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RN</masterLabel>
+        <translation>105 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RO</masterLabel>
+        <translation>120 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RP</masterLabel>
+        <translation>150 Tage n. Liefermonatsende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RQ</masterLabel>
+        <translation>Am 01. d.d. Lieferung folgenden Monats</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RR</masterLabel>
+        <translation>30 jours, fin de mois le 10</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>RS</masterLabel>
+        <translation>90T. n. LME m. Zahl.a.2. d. Folgemonats</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SA</masterLabel>
+        <translation>14 T. n. RD abzgl. 0,4% Skto.,25T.n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SB</masterLabel>
+        <translation>5 Tage n. LME 1% Skonto, 25 T. n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SC</masterLabel>
+        <translation>30Tage ./. 1% Skto., 60 Tage n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SD</masterLabel>
+        <translation>bis zum 4. des Folgemonats 2 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SE</masterLabel>
+        <translation>bis zum 15. des Folgemonats 2 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SF</masterLabel>
+        <translation>bis zum Ende des Folgemonats 2 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SG</masterLabel>
+        <translation>bis zum 15. des Folgemonats 3 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SH</masterLabel>
+        <translation>15T. n. LME 3% Skto.,60T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SI</masterLabel>
+        <translation>bis zum 25. des Folgemonats 3 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SJ</masterLabel>
+        <translation>25T. n. LME 3% Skto.,60T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SK</masterLabel>
+        <translation>25T.n. LME 3% Skonto,90T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SL</masterLabel>
+        <translation>25T. n. LME 3% Skto.,60T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SM</masterLabel>
+        <translation>8T. n. RD 1% Skonto,25T. n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SN</masterLabel>
+        <translation>bis zum 25. des Folgemonats 2 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SO</masterLabel>
+        <translation>Am 5.d. folgenden 2.Mon.1%Skto.,60T.LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SP</masterLabel>
+        <translation>15T. n. LME 3% Skonto,90T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SQ</masterLabel>
+        <translation>5 Tage n. LME 1% Skonto, 15 T. n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SR</masterLabel>
+        <translation>30 Tage n. LME, 1,5% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SS</masterLabel>
+        <translation>Am 25.d. folgenden 2.Monats</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ST</masterLabel>
+        <translation>10Tage n. LME 2% Skonto, 15 T. n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SU</masterLabel>
+        <translation>10Tage n. LME 2% Skonto, 30T . n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SV</masterLabel>
+        <translation>15Tage n. LME 2% Skonto, 30T . n. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SW</masterLabel>
+        <translation>10 Tage nach RD 1,25% Skonto,15 T. LME netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SX</masterLabel>
+        <translation>45T. n. R.-Datum 1% Skto.,75T.n. Entnahmemon.netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TA</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Monats a. 31. ./. 2%Skto.;RG zw. 16. u. 31. d. Mon. a. 15.d.LFM ./. 2%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TB</masterLabel>
+        <translation>RG bis 15. am 25. d. Mon. abzgl. 2% Sk.,60T.RD;RG bis 31. am 10. d. FLM  abzgl. 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TC</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Monats a. 30. ./. 3%Skto.;RG zw. 16. u. 31. d. Mon. a. 15.d.LFM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TD</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Mon.a. 30. ./. 3%Skt.,60T.RD;RG zw. 16. u. 31. d. Mon. a. 15.d.FLM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TE</masterLabel>
+        <translation>RG bis 03. am 10. d. Mon. abzgl. 3% Skonto;RG bis 18. am 25. d. Mon. abzgl. 3% Skonto;RG v. 19.-31. d. Mon. am 10.d. FLM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TF</masterLabel>
+        <translation>RG bis 15. am 25. d. Mon. abzgl. 3% Skonto;RG bis 31. am 10. d. FLM  abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TG</masterLabel>
+        <translation>RG bis 06. am 20. d. Mon. abzgl. 3% Skonto;RG bis 21. am 05. d. FLM abzgl. 3% Skonto;RG bis 31. am 20. d. FLM abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TH</masterLabel>
+        <translation>RG bis zum 5. d. Mon. zahlbar am 10../.3%Skto.;RG bis zum 20. d. Mon. zahlbar am 25../.3%Skto.;RG v. 21.bis31.d. Mon. zahlbar am 10.FLM./.3Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TI</masterLabel>
+        <translation>RG bis 15. d. Mon.,60T. n. Liefermonatsende;RG bis 31. d. Mon.,90T. n. Liefermonatsende</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TJ</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Monats a. 15T n. LME 3%Skto.;RG zw. 16. u. 31. d. Mon. a. 31.n.LME ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TK</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Mon.a. 15.FM 3%Skt.,60T.RD;RG zw. 16. u. 31. d. Mon. a. 31.d.FM 3%Skt.,60RD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TL</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Mon.a. 25.d.Monats netto;RG zw. 16. u. 31. d. Mon. a. 25.d.Folgemon. netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TN</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Mon.a. 10.FM 3%Skt.,60T.RD;RG zw. 16. u. 31. d. Mon. a. 25.d.FM 3%Skt.,60RD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TP</masterLabel>
+        <translation>RG bis 25. d. Mon.,60T. n. LME +15 Tage;RG von 25 bis 31. d. Mon.,90T. n. LME + 15 Tage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>TR</masterLabel>
+        <translation>45 jours fin de mois;45 jours fin de mois</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UA</masterLabel>
+        <translation>25% Anzahlung b. Auftragsbest.,75% 30T n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UB</masterLabel>
+        <translation>30% Anzahlung b. Auftragsbest.,70% 30T n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UC</masterLabel>
+        <translation>40% Anzahlung b. Auftragsbest.,60% 30T n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UD</masterLabel>
+        <translation>50% Anzahlung b. Auftragsbestätigung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UE</masterLabel>
+        <translation>20% Anzahl.b.AB,20%b.Erschmelz.,60% 30Tn.RD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UF</masterLabel>
+        <translation>25% Anzahlung b. Erschmelz..,75% 30T n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UG</masterLabel>
+        <translation>30% Anzahlung b. Erschmelz..,70% 30T n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UH</masterLabel>
+        <translation>40% Anzahlung b. Erschmelz..,60% 30T n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UI</masterLabel>
+        <translation>50% Anzahlung b. Erschmelz..,50% 30T n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UJ</masterLabel>
+        <translation>20% Anzahlg.b.Auftragsbest.,80%n. RD 30Tage netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UK</masterLabel>
+        <translation>50% Vorauszahlung, 50% bei Warenerhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UL</masterLabel>
+        <translation>25% Vorauskasse,25%v.Versch.,50% gegen Dok.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UM</masterLabel>
+        <translation>50% Vorauskasse b.AB,50% b. Versandber.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UN</masterLabel>
+        <translation>25% Vorauskasse, 75% gegen Dokumente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UO</masterLabel>
+        <translation>40% Anzahlung n. Auftragsbest.,60% v. Versand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UP</masterLabel>
+        <translation>50% Vorauszahlung, 50% 14 Tage netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UQ</masterLabel>
+        <translation>30% Anzahlung, Rest 60Tage nach Datum B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UR</masterLabel>
+        <translation>30% Anz. v. Walzung, unbe. Akkreditiv 120 T. B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>US</masterLabel>
+        <translation>30% Anz. b. Auftragsbest, Rest vor Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UT</masterLabel>
+        <translation>70% Anz. v. Walzung, 30% vor Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UU</masterLabel>
+        <translation>50% Vorauskasse,50% vor Lieferg. ./.2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UV</masterLabel>
+        <translation>40% Vorauskasse,60% vor Liefg. ./. 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UW</masterLabel>
+        <translation>50% Anzhlg v. Walzung, 50% bei Versandbereitschaft</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UX</masterLabel>
+        <translation>30% Anz. v. Walzung, 70% vor Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UY</masterLabel>
+        <translation>20% Vorauskasse,Rest bei Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>UZ</masterLabel>
+        <translation>30% im voraus,Rest gegen Dokumente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VA</masterLabel>
+        <translation>10% Anzahlg.,90% Bankgarantie (Dokumente)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VB</masterLabel>
+        <translation>50% v. Walzung,30% v. Verschiffung,20% v. Versand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VC</masterLabel>
+        <translation>50%b. Erschmelz.,30%n. QHT,20% 30T.netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VD</masterLabel>
+        <translation>20% Vorkasse, 40% v.1.Verschiff.,40 % v.2.Ver.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VE</masterLabel>
+        <translation>80 % Vorkasse, Rest vor Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VF</masterLabel>
+        <translation>je 14T.n.Best.60%,Wärmeb.20%,30T. ETA 20%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VG</masterLabel>
+        <translation>50%b. Best.,30% n.QHT,20% n.Ausl.,30 T. net.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VH</masterLabel>
+        <translation>50%b. Best.,40% n.QHT,10% n.Ausl.,30 T. net.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VI</masterLabel>
+        <translation>40%b. Best.,60% n.Ausl.,30 T. net.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VJ</masterLabel>
+        <translation>60%b. Best.,20% n.QHT,20% n.Ausl.,14 T. net.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VK</masterLabel>
+        <translation>70%n.Herst.(Schmied.),30%n.Erbrob.,60 T. net.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VL</masterLabel>
+        <translation>50% Vorkasse,50% 7 Tg.n.Rg.-Datum 2 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VM</masterLabel>
+        <translation>70% Vorauskasse, 30% vor Versand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VN</masterLabel>
+        <translation>90% Vorkasse,10% 30 Tg.n.Rg.-Datum</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VO</masterLabel>
+        <translation>25% Vorauskasse, 75% vor Auslieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VP</masterLabel>
+        <translation>30% i.Voraus,70% LC 90 Tage n. B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VQ</masterLabel>
+        <translation>25%b. Best.,35% n.QHT,40% n.Ausl.,14 T. net.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VR</masterLabel>
+        <translation>25% v.Prod.,50% v.V.,25% n.V.,60 Tage net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VS</masterLabel>
+        <translation>40%v. Erschmelz.,60% innerhalb v. 5TVersand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VT</masterLabel>
+        <translation>30% Vorauskasse, 70 % LC 180 Tage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VU</masterLabel>
+        <translation>30%v. Erschmelz.,70% innerhalb v. 5TVersand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VV</masterLabel>
+        <translation>90%n Erschmelz.,10% n. Fertigstellung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VW</masterLabel>
+        <translation>60% Anzhlg v. Walzung,40% vor Lieferung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VX</masterLabel>
+        <translation>50% v. Verschiffung,50% 60 Tage n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VZ</masterLabel>
+        <translation>33%n. Erschmelz.,33%n.Walzg.34%n.Erprobg</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XA</masterLabel>
+        <translation>XA</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XB</masterLabel>
+        <translation>gem. Vereinbarung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XC</masterLabel>
+        <translation>Kostenlos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XD</masterLabel>
+        <translation>nach Gutbefund</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XE</masterLabel>
+        <translation>Vorauszahlung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XF</masterLabel>
+        <translation>Vorauskasse 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XG</masterLabel>
+        <translation>Vorauskasse 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XH</masterLabel>
+        <translation>bei  Vorlage  der  Rechnung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XI</masterLabel>
+        <translation>Vorauskasse 1% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XJ</masterLabel>
+        <translation>Vorauskasse 1,5 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XK</masterLabel>
+        <translation>50% Anzahlung, 50% gegen Dokumente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XL</masterLabel>
+        <translation>20% Anz., Rest bei Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XM</masterLabel>
+        <translation>15% Anz. v. Walzung, 85% vor Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XN</masterLabel>
+        <translation>Vorauskasse 0,75 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XO</masterLabel>
+        <translation>bei  Vorlage  der  Rechnung (2 TAGE)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XP</masterLabel>
+        <translation>50% Vorauszahlung, 50% 15T.n. LME</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XQ</masterLabel>
+        <translation>25% Anz. v. Walzung, 75% vor Verschiffung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XR</masterLabel>
+        <translation>30% Anz. b. Auftragserteilung, 70% v. Versand</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XS</masterLabel>
+        <translation>sofort zahlbar ohne Abzug</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XT</masterLabel>
+        <translation>Vorauskasse 0,5 % Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XU</masterLabel>
+        <translation>Vorauskasse 5% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z501</masterLabel>
+        <translation>comptant net</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z502</masterLabel>
+        <translation>apr�s r�ception de la facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z503</masterLabel>
+        <translation>comptant esc. 1 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z504</masterLabel>
+        <translation>comptant esc. 2 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z505</masterLabel>
+        <translation>comptant esc. 3 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z506</masterLabel>
+        <translation>50 jours esc. 2 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z507</masterLabel>
+        <translation>comptant net dans les 10 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z508</masterLabel>
+        <translation>comptant net dans les 20 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z509</masterLabel>
+        <translation>avoir</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z510</masterLabel>
+        <translation>30 jours fin du mois facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z511</masterLabel>
+        <translation>50 jours esc. 1 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z512</masterLabel>
+        <translation>30 jours esc. 1 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z513</masterLabel>
+        <translation>30 jours esc. 2 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z514</masterLabel>
+        <translation>30 jours esc. 3 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z515</masterLabel>
+        <translation>30 jours le 5 esc. 2 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z516</masterLabel>
+        <translation>30 jours le 10 esc. 2 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z517</masterLabel>
+        <translation>30 jours le 15 esc. 2 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z518</masterLabel>
+        <translation>30 jours le 10 esc. 3 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z519</masterLabel>
+        <translation>comptant net dans les 50 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z520</masterLabel>
+        <translation>30 jours esc. 1,5 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z521</masterLabel>
+        <translation><!-- Z521 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z522</masterLabel>
+        <translation><!-- Z522 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z523</masterLabel>
+        <translation><!-- Z523 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z524</masterLabel>
+        <translation><!-- Z524 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z525</masterLabel>
+        <translation><!-- Z525 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z526</masterLabel>
+        <translation><!-- Z526 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z527</masterLabel>
+        <translation><!-- Z527 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z528</masterLabel>
+        <translation><!-- Z528 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z529</masterLabel>
+        <translation><!-- Z529 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z530</masterLabel>
+        <translation><!-- Z530 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z531</masterLabel>
+        <translation><!-- Z531 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z532</masterLabel>
+        <translation><!-- Z532 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z533</masterLabel>
+        <translation><!-- Z533 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z534</masterLabel>
+        <translation><!-- Z534 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z535</masterLabel>
+        <translation><!-- Z535 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z536</masterLabel>
+        <translation><!-- Z536 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z537</masterLabel>
+        <translation><!-- Z537 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z538</masterLabel>
+        <translation><!-- Z538 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z539</masterLabel>
+        <translation><!-- Z539 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z540</masterLabel>
+        <translation><!-- Z540 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z541</masterLabel>
+        <translation><!-- Z541 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z542</masterLabel>
+        <translation><!-- Z542 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z543</masterLabel>
+        <translation><!-- Z543 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z544</masterLabel>
+        <translation><!-- Z544 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z550</masterLabel>
+        <translation><!-- Z550 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z552</masterLabel>
+        <translation><!-- Z552 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z556</masterLabel>
+        <translation><!-- Z556 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z557</masterLabel>
+        <translation><!-- Z557 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z560</masterLabel>
+        <translation><!-- Z560 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z561</masterLabel>
+        <translation><!-- Z561 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z564</masterLabel>
+        <translation><!-- Z564 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z565</masterLabel>
+        <translation><!-- Z565 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z566</masterLabel>
+        <translation>90 jours le 15 agios 45 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z567</masterLabel>
+        <translation>90 jours le 15 agios 75 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z568</masterLabel>
+        <translation>comptant net dans les 110 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z570</masterLabel>
+        <translation>comptant net dans les 120 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z571</masterLabel>
+        <translation>120 jours agios sel n conf de cde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z572</masterLabel>
+        <translation>120 jours agios 90 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z573</masterLabel>
+        <translation>comptant net dans les 130 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z574</masterLabel>
+        <translation>avant  livraison marchandise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z575</masterLabel>
+        <translation>à la réception de la marchandise</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z576</masterLabel>
+        <translation>comptant net dans les 150 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z577</masterLabel>
+        <translation>comptant net dans les 180 jours</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z578</masterLabel>
+        <translation>cond. spec. sel n. conf. de cde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z579</masterLabel>
+        <translation>gratuite</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z580</masterLabel>
+        <translation>avant livraison marchandise esc. 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z581</masterLabel>
+        <translation>8 Jours Dat. Fact. Esc. 1%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z582</masterLabel>
+        <translation>30 jours après date de la facture /10 jours esc.2%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z583</masterLabel>
+        <translation>30 jours après date de la facture esc. 2 %</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z584</masterLabel>
+        <translation>30 jours après date de la facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z585</masterLabel>
+        <translation>30 jours date fact. / 20 jour esc. 2% / 15 J 3%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z586</masterLabel>
+        <translation>45 jours après date de la facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z587</masterLabel>
+        <translation>60 jours après date de la facture /10 jours esc.2%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z588</masterLabel>
+        <translation>60 jours après date de la facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z589</masterLabel>
+        <translation>75 jours après date de la facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z590</masterLabel>
+        <translation>90 jours après date de la facture</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Z591</masterLabel>
+        <translation>90 jours après date de la facture /10 jours esc.2%</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZA01</masterLabel>
+        <translation>Restforderung (in Bearbeitung)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB00</masterLabel>
+        <translation>siehe Anhang</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB01</masterLabel>
+        <translation>14 Tage 2% Skonto nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB02</masterLabel>
+        <translation>Ende des Folgemonats nach Waren- und Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB03</masterLabel>
+        <translation>14 Tage 3%, 30 Netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB04</masterLabel>
+        <translation>30 Tage Netto nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB05</masterLabel>
+        <translation>Am 15. des der Lieferung folgenden Monats</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB06</masterLabel>
+        <translation>Innerhalb 7 Tagen netto nach Waren- u. Rechungserh</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB07</masterLabel>
+        <translation>30 Tage 2% nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB08</masterLabel>
+        <translation>90 Tage 2% nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB09</masterLabel>
+        <translation>90 Tage netto nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB10</masterLabel>
+        <translation>14 Tg. 2%, 30 Tage netto n. Waren- u. Rechnungserh</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB11</masterLabel>
+        <translation>am 20. des der Lieferung folgenden Monats</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB12</masterLabel>
+        <translation>90 Tage 3% nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB13</masterLabel>
+        <translation>14 Tage 5% nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB14</masterLabel>
+        <translation>60 Tage netto nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB15</masterLabel>
+        <translation>14 Tg. 3 %, 30 Tg n.LME netto n. Waren- u. Rg-erh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB16</masterLabel>
+        <translation>30 Tage 3% nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB17</masterLabel>
+        <translation>14Tg. 1%, 30Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB18</masterLabel>
+        <translation>10Tg. 2%, 30Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB19</masterLabel>
+        <translation>10Tg. 3%, 30Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB20</masterLabel>
+        <translation><!-- ZB20 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB21</masterLabel>
+        <translation>10Tg. 1,5%, 30Tg. netto nach Waren- u. Rechn.erh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB22</masterLabel>
+        <translation>21Tg. 3%, 30Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB23</masterLabel>
+        <translation>14 Tage 5%, 30 Netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB24</masterLabel>
+        <translation>10 Tage 4%, 30 Netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB25</masterLabel>
+        <translation>10Tg. 2,5%,30T. netto n. Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB26</masterLabel>
+        <translation>60. T. 2% Skonto,90 T. n. RD netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB27</masterLabel>
+        <translation>10Tg. 2%, 20Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB28</masterLabel>
+        <translation>14Tg. 3,5%, 30Tg. netto nach Waren- u.Rechnungserh</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB29</masterLabel>
+        <translation>30Tg. 3%, 40Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB51</masterLabel>
+        <translation>14 Tage Netto nach Waren- u. Rechnungserhalt (SLO)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB53</masterLabel>
+        <translation>30 Tage Netto nach Waren- u. Rechnungserhalt (SLO)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB74</masterLabel>
+        <translation>14 Tage 2 %, 60 Tage netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB80</masterLabel>
+        <translation>Zahlung per Kreditkarte</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB81</masterLabel>
+        <translation>14Tg. 2%, 45Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB82</masterLabel>
+        <translation>14Tg. 3%, 90Tg. netto nach Waren- u. Rechnungserh.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB90</masterLabel>
+        <translation>RE  zw. 01. u. 15. d. Monats a. 30 ./. 2%Skto.;RE  zw. 16. u. 31. d. Mon. a. 15.d.LFM ./. 2%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB91</masterLabel>
+        <translation>RE  zw. 01. u. 15. d. Monats a. Monatsende netto;RE  zw. 16. u. 31. d. Mon. a. 15.d.LFM netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB92</masterLabel>
+        <translation>am 30. d.d. Lief. folgenden Monats ./. 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB93</masterLabel>
+        <translation>21Tg. 2% Skt., 30Tg. netto nach Waren-/ Rg-erhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB94</masterLabel>
+        <translation>20 Tage netto nach Waren- und Rechnungserhalt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZB95</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Monats a. 31. ./. 1,5% Skonto;RG zw. 16. u. 31. d. Mon. a. 15.d.LFM ./. 1,5Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZHAE</masterLabel>
+        <translation>Haendler hat mehrere ZB je Verbraucher!</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ01</masterLabel>
+        <translation>Vorauskasse</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ02</masterLabel>
+        <translation>Akkreditiv bestätigt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ03</masterLabel>
+        <translation>Akkreditiv unbestätigt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ04</masterLabel>
+        <translation>Kasse gegen Dokumente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ05</masterLabel>
+        <translation>bei  Vorlage  der  Rechnung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ06</masterLabel>
+        <translation>gem. Vereinbarung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ08</masterLabel>
+        <translation><!-- ZZ08 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ09</masterLabel>
+        <translation><!-- ZZ09 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ10</masterLabel>
+        <translation><!-- ZZ10 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ11</masterLabel>
+        <translation><!-- ZZ11 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ12</masterLabel>
+        <translation><!-- ZZ12 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ13</masterLabel>
+        <translation><!-- ZZ13 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ14</masterLabel>
+        <translation><!-- ZZ14 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ15</masterLabel>
+        <translation><!-- ZZ15 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ16</masterLabel>
+        <translation><!-- ZZ16 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ17</masterLabel>
+        <translation><!-- ZZ17 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ18</masterLabel>
+        <translation><!-- ZZ18 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ19</masterLabel>
+        <translation><!-- ZZ19 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ21</masterLabel>
+        <translation><!-- ZZ21 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ22</masterLabel>
+        <translation><!-- ZZ22 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ23</masterLabel>
+        <translation><!-- ZZ23 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ24</masterLabel>
+        <translation><!-- ZZ24 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ25</masterLabel>
+        <translation><!-- ZZ25 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ26</masterLabel>
+        <translation><!-- ZZ26 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ27</masterLabel>
+        <translation><!-- ZZ27 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ28</masterLabel>
+        <translation>60 Tage n. Liefermonat m. Wechsel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ29</masterLabel>
+        <translation><!-- ZZ29 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ30</masterLabel>
+        <translation>8 Tage nach Rechnungserhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ31</masterLabel>
+        <translation>14 Tage n. Rechnungserhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ32</masterLabel>
+        <translation>30 Tage n. Rechnungserhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ33</masterLabel>
+        <translation>60 Tage n. Rechnungserhalt netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ34</masterLabel>
+        <translation>Dokument bis 1 Monat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ35</masterLabel>
+        <translation>Dokument bis 2 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ36</masterLabel>
+        <translation>Dokument bis 3 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ37</masterLabel>
+        <translation>Dokument bis 4 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ38</masterLabel>
+        <translation>Dokument bis 5 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ39</masterLabel>
+        <translation>Dokument bis 6 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ42</masterLabel>
+        <translation><!-- ZZ42 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ44</masterLabel>
+        <translation><!-- ZZ44 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ45</masterLabel>
+        <translation><!-- ZZ45 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ46</masterLabel>
+        <translation><!-- ZZ46 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ47</masterLabel>
+        <translation><!-- ZZ47 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ48</masterLabel>
+        <translation><!-- ZZ48 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ49</masterLabel>
+        <translation><!-- ZZ49 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ50</masterLabel>
+        <translation><!-- ZZ50 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ51</masterLabel>
+        <translation><!-- ZZ51 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ52</masterLabel>
+        <translation><!-- ZZ52 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ53</masterLabel>
+        <translation><!-- ZZ53 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ54</masterLabel>
+        <translation><!-- ZZ54 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ55</masterLabel>
+        <translation><!-- ZZ55 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ56</masterLabel>
+        <translation><!-- ZZ56 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ57</masterLabel>
+        <translation><!-- ZZ57 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ58</masterLabel>
+        <translation><!-- ZZ58 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ59</masterLabel>
+        <translation><!-- ZZ59 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ60</masterLabel>
+        <translation><!-- ZZ60 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ61</masterLabel>
+        <translation>90 Tage + 10 Tage nach Rechnungsdatum netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ62</masterLabel>
+        <translation><!-- ZZ62 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ63</masterLabel>
+        <translation><!-- ZZ63 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ64</masterLabel>
+        <translation><!-- ZZ64 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ65</masterLabel>
+        <translation><!-- ZZ65 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ66</masterLabel>
+        <translation><!-- ZZ66 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ67</masterLabel>
+        <translation><!-- ZZ67 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ68</masterLabel>
+        <translation><!-- ZZ68 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ69</masterLabel>
+        <translation><!-- ZZ69 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ70</masterLabel>
+        <translation><!-- ZZ70 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ72</masterLabel>
+        <translation><!-- ZZ72 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ73</masterLabel>
+        <translation><!-- ZZ73 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ74</masterLabel>
+        <translation><!-- ZZ74 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ75</masterLabel>
+        <translation><!-- ZZ75 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ76</masterLabel>
+        <translation><!-- ZZ76 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ77</masterLabel>
+        <translation><!-- ZZ77 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ78</masterLabel>
+        <translation><!-- ZZ78 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ79</masterLabel>
+        <translation><!-- ZZ79 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ80</masterLabel>
+        <translation>Zielakkreditiv bestätigt bis 3 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ81</masterLabel>
+        <translation>Zielakkreditiv bestätigt bis 6 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ82</masterLabel>
+        <translation>Zielakkreditiv bestätigt über 6 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ84</masterLabel>
+        <translation>Zielakkreditiv unbestätigt bis 3 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ85</masterLabel>
+        <translation>Zielakkreditiv unbestätigt bis 6 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ86</masterLabel>
+        <translation>Zielakkreditiv unbestätigt über 6 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ88</masterLabel>
+        <translation>Zielakkreditiv bestätigt bis 1 Monat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ89</masterLabel>
+        <translation>Zielakkreditiv unbestätigt bis 1 Monat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ90</masterLabel>
+        <translation>Zielakkreditiv bestätigt bis 2 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ91</masterLabel>
+        <translation>Zielakkreditiv unbestätigt bis 2 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ92</masterLabel>
+        <translation><!-- ZZ92 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ93</masterLabel>
+        <translation>Zielakkreditiv best. bis 15T.n. Liefermonatsende</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ95</masterLabel>
+        <translation>Zielakkreditiv bestätigt bis 4 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ96</masterLabel>
+        <translation>Zielakkreditiv unbestätigt bis 4 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ97</masterLabel>
+        <translation>Zielakkreditiv bestätigt bis 5 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ98</masterLabel>
+        <translation>Zielakkreditiv unbestätigt bis 5 Monate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZ99</masterLabel>
+        <translation><!-- ZZ99 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA0</masterLabel>
+        <translation>Gutschrift</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA1</masterLabel>
+        <translation>30 Tage nach Erhalt der Ware netto (Schiffsank.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA2</masterLabel>
+        <translation>60 Tage nach Erhalt der Ware netto (Schiffsank.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA3</masterLabel>
+        <translation>45 Tage nach Erhalt der Ware netto (Schiffsank.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA4</masterLabel>
+        <translation>60 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA5</masterLabel>
+        <translation>Letter of Credit 90 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA6</masterLabel>
+        <translation>Letter of Credit 120 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA7</masterLabel>
+        <translation>Sichtakkreditiv</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA8</masterLabel>
+        <translation>Letter of Credit 30 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZA9</masterLabel>
+        <translation>Letter of Credit 60 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB0</masterLabel>
+        <translation>15 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB1</masterLabel>
+        <translation>gemäß Vereinbarung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB2</masterLabel>
+        <translation>30 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB3</masterLabel>
+        <translation><!-- ZZB3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB4</masterLabel>
+        <translation>90 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB5</masterLabel>
+        <translation>45 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB6</masterLabel>
+        <translation>180 Tage Wechsel dato B/L o. Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB7</masterLabel>
+        <translation><!-- ZZB7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB8</masterLabel>
+        <translation>L/C 180 days after date of draft</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZB9</masterLabel>
+        <translation>L/C 30 Tage nach Rechnungsdatum</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC1</masterLabel>
+        <translation>Kostenlos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC2</masterLabel>
+        <translation>Best. Akkreditiv 60 Tage n. Liefermonatende</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC3</masterLabel>
+        <translation>120 Tage n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC4</masterLabel>
+        <translation><!-- ZZC4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC5</masterLabel>
+        <translation>Letter of Credit 45 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC6</masterLabel>
+        <translation>180 Tage Wechsel mit Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC7</masterLabel>
+        <translation>15 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC8</masterLabel>
+        <translation>bei  Vorlage  der  Rechnung 1% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZC9</masterLabel>
+        <translation><!-- ZZC9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD1</masterLabel>
+        <translation>L/C 75 Tage n. Rechnungsdatum</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD2</masterLabel>
+        <translation>30 Tage n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD3</masterLabel>
+        <translation>70 Tage n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD4</masterLabel>
+        <translation><!-- ZZD4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD5</masterLabel>
+        <translation>80 Tage nach Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD6</masterLabel>
+        <translation>Sichtakkreditiv 60 Tage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD7</masterLabel>
+        <translation>90 Tage Wechsel mit Zinsen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD8</masterLabel>
+        <translation>25 Tage nach Entnahmemonat netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZD9</masterLabel>
+        <translation><!-- ZZD9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE1</masterLabel>
+        <translation><!-- ZZE1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE2</masterLabel>
+        <translation><!-- ZZE2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE3</masterLabel>
+        <translation><!-- ZZE3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE5</masterLabel>
+        <translation>Vorauskasse 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE6</masterLabel>
+        <translation>60 Tage nach Entnahmemonatende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE7</masterLabel>
+        <translation><!-- ZZE7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE8</masterLabel>
+        <translation>50 Tage nach Entnahmemonatende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZE9</masterLabel>
+        <translation>Letter of Credit 180 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF1</masterLabel>
+        <translation>Sichtakkreditiv</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF2</masterLabel>
+        <translation>80 Tage nach Erhalt der Ware netto (Schiffsank.)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF3</masterLabel>
+        <translation><!-- ZZF3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF4</masterLabel>
+        <translation>Sichtwechsel</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF5</masterLabel>
+        <translation>75 Tg. nach Entnahme-Monat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZF6</masterLabel>
+        <translation>90 Tage n. Schiffs-Ankunft netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG1</masterLabel>
+        <translation><!-- ZZG1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG2</masterLabel>
+        <translation>90 Tage n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG3</masterLabel>
+        <translation><!-- ZZG3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG4</masterLabel>
+        <translation>30 Tg. n. Liefermonatende per Scheck netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG5</masterLabel>
+        <translation><!-- ZZG5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG6</masterLabel>
+        <translation>180 Tage n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG7</masterLabel>
+        <translation>120 Tage Wechsel dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG8</masterLabel>
+        <translation>120 Tage Wechsel B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZG9</masterLabel>
+        <translation>Letter of Credit 180 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH1</masterLabel>
+        <translation>40 Tage nach Entnahmemonatende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH2</masterLabel>
+        <translation><!-- ZZH2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH3</masterLabel>
+        <translation>35 Tage nach Entnahmemonatende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH5</masterLabel>
+        <translation><!-- ZZH5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH6</masterLabel>
+        <translation><!-- ZZH6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH7</masterLabel>
+        <translation>Letter of Credit 270 Tg. n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH8</masterLabel>
+        <translation><!-- ZZH8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZH9</masterLabel>
+        <translation><!-- ZZH9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI1</masterLabel>
+        <translation><!-- ZZI1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI2</masterLabel>
+        <translation>270 Tage Wechsel dato B/L</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI3</masterLabel>
+        <translation><!-- ZZI3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI4</masterLabel>
+        <translation><!-- ZZI4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI5</masterLabel>
+        <translation>30 Tage nach Entnahmemonatende netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI7</masterLabel>
+        <translation><!-- ZZI7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZI8</masterLabel>
+        <translation>60 Tg. n. Liefermonatende netto, Bankeinzug</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ1</masterLabel>
+        <translation>Nach Wareneing.:Option1:1,5% 10Tg.,30Tg. netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ2</masterLabel>
+        <translation>60 Tage nach Schiffsankunft Hafen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ3</masterLabel>
+        <translation><!-- ZZJ3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ4</masterLabel>
+        <translation>10 Tage n. Datum Bill of Lading</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ5</masterLabel>
+        <translation><!-- ZZJ5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ6</masterLabel>
+        <translation><!-- ZZJ6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ7</masterLabel>
+        <translation>30 Tage nach Entnahmemonat 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ8</masterLabel>
+        <translation>Bestätigt bis 35 Tage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZJ9</masterLabel>
+        <translation>nach Gutbefund</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK2</masterLabel>
+        <translation><!-- ZZK2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK3</masterLabel>
+        <translation><!-- ZZK3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK5</masterLabel>
+        <translation>30 Tage nach Entnahmemonat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK6</masterLabel>
+        <translation>60 Tage nach Entnahmemonat</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK8</masterLabel>
+        <translation><!-- ZZK8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZK9</masterLabel>
+        <translation>Letter of Credit 90 Tg. n. Rechnungsdatum</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZL1</masterLabel>
+        <translation><!-- ZZL1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM1</masterLabel>
+        <translation>Vorauskasse 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM2</masterLabel>
+        <translation>Vorauskasse 4% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM3</masterLabel>
+        <translation>Nach Erhalt der Rechnung abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM4</masterLabel>
+        <translation>Sofort bei Anlieferung abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM6</masterLabel>
+        <translation><!-- ZZM6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM7</masterLabel>
+        <translation>RG zw. 01. u. 05. d. Monats a. 20. ./. 3%Skto.;RG zw. 06. u. 20. d. Monats a. 25. ./. 3%Skto.;RG zw. 21. u. 31. d. Monats a. 20.FLM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM8</masterLabel>
+        <translation>RG bis zum 5. d. Mon. zahlbar am 10../.3%Skto.;RG bis zum 20. d. Mon. zahlbar am 25../.3%Skto.;RG v. 21.bis31.d. Mon. zahlbar am 10.FLM./.3Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZM9</masterLabel>
+        <translation>Zahlbar am Ende d. übern䣨sten KW ./.3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN1</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Monats a. 31. ./. 2%Skto.;RG zw. 16. u. 31. d. Mon. a. 15.d.LFM ./. 2%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN2</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Monats a. 30. ./. 3%Skto.;RG zw. 16. u. 31. d. Mon. a. 15.d.LFM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN3</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Mon.a. 30. ./. 3%Skto.,30T.RD;RG zw. 16. u. 31. d. Mon. a. 15.d.LFM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN4</masterLabel>
+        <translation>RG bis 15. am 25. d. Mon. abzgl. 2% Sk.,60T.RD;RG bis 31. am 10. d. FLM  abzgl. 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN5</masterLabel>
+        <translation>RG bis 15. am 25. d. Mon. abzgl. 3% Sk.,90T.RD;RG bis 31. am 10. d. FLM  abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN6</masterLabel>
+        <translation>RG zw. 01. u. 15. d. Mon.a. 30. ./. 3%Skt.,60T.RD;RG zw. 16. u. 31. d. Mon. a. 15.d.FLM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN7</masterLabel>
+        <translation>RG bis 03. am 10. d. Mon. abzgl. 3% Skonto;RG bis 18. am 25. d. Mon. abzgl. 3% Skonto;RG v. 19.-31. d. Mon. am 10.d. FLM ./. 3%Skto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN8</masterLabel>
+        <translation>RG bis 15. am 10. d. FLM abzgl. 3% Skonto;RG bis 31. am 25. d. FLM abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZN9</masterLabel>
+        <translation><!-- ZZN9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO1</masterLabel>
+        <translation><!-- ZZO1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO2</masterLabel>
+        <translation><!-- ZZO2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO3</masterLabel>
+        <translation>RG bis 15. am 25. d. Mon. abzgl. 2% Skonto;RG bis 31. am 10. d. FLM  abzgl. 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO4</masterLabel>
+        <translation>RG bis 15. am 25. d. Mon. abzgl. 3% Skonto;RG bis 31. am 10. d. FLM  abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO5</masterLabel>
+        <translation>RG bis 06. am 20. d. Mon. abzgl. 3% Skonto;RG bis 21. am 05. d. FLM abzgl. 3% Skonto;RG bis 31. am 20. d. FLM abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO6</masterLabel>
+        <translation><!-- ZZO6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO7</masterLabel>
+        <translation><!-- ZZO7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO8</masterLabel>
+        <translation><!-- ZZO8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZO9</masterLabel>
+        <translation><!-- ZZO9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP1</masterLabel>
+        <translation><!-- ZZP1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP2</masterLabel>
+        <translation><!-- ZZP2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP3</masterLabel>
+        <translation><!-- ZZP3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP4</masterLabel>
+        <translation><!-- ZZP4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP6</masterLabel>
+        <translation><!-- ZZP6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP7</masterLabel>
+        <translation><!-- ZZP7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP8</masterLabel>
+        <translation><!-- ZZP8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZP9</masterLabel>
+        <translation><!-- ZZP9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ2</masterLabel>
+        <translation><!-- ZZQ2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ3</masterLabel>
+        <translation><!-- ZZQ3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ4</masterLabel>
+        <translation><!-- ZZQ4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ5</masterLabel>
+        <translation><!-- ZZQ5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ6</masterLabel>
+        <translation><!-- ZZQ6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ7</masterLabel>
+        <translation>10 Tage n. Rechnungserhalt abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ8</masterLabel>
+        <translation>10 T. n. RE-Erh../.. 2,5% Sk.30T.n.RE-Erh../.2%Sk.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZQ9</masterLabel>
+        <translation>10 T. n. RE-Erhalt ./.. 3% Sk.,30T.n.LME netto.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR1</masterLabel>
+        <translation><!-- ZZR1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR2</masterLabel>
+        <translation><!-- ZZR2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR3</masterLabel>
+        <translation><!-- ZZR3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR4</masterLabel>
+        <translation><!-- ZZR4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR5</masterLabel>
+        <translation><!-- ZZR5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR6</masterLabel>
+        <translation><!-- ZZR6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR7</masterLabel>
+        <translation><!-- ZZR7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR8</masterLabel>
+        <translation><!-- ZZR8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZR9</masterLabel>
+        <translation><!-- ZZR9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS1</masterLabel>
+        <translation><!-- ZZS1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS2</masterLabel>
+        <translation>14 T. n. RE-Erhalt ./. 3% Sk.,30T.n.RE-Dat. netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS3</masterLabel>
+        <translation>14 T. n. RE-Erh. ./. 3% Sk.,30T.n.RE-Dat. ./.2%Sk.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS4</masterLabel>
+        <translation>14 T. n. RE-Erh. ./. 3% Sk.,30T.n.RE-Erh. ./.2%Sk.</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS5</masterLabel>
+        <translation><!-- ZZS5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS6</masterLabel>
+        <translation><!-- ZZS6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS8</masterLabel>
+        <translation><!-- ZZS8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZS9</masterLabel>
+        <translation><!-- ZZS9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT1</masterLabel>
+        <translation>14 Tage n. Rechnungseingang abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT2</masterLabel>
+        <translation>14 T.n. RE-Eing. ./. 3%Sk.,60T.n.RE-Eing.netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT3</masterLabel>
+        <translation><!-- ZZT3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT4</masterLabel>
+        <translation><!-- ZZT4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT5</masterLabel>
+        <translation><!-- ZZT5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT6</masterLabel>
+        <translation><!-- ZZT6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT7</masterLabel>
+        <translation><!-- ZZT7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT8</masterLabel>
+        <translation><!-- ZZT8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZT9</masterLabel>
+        <translation><!-- ZZT9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU1</masterLabel>
+        <translation><!-- ZZU1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU2</masterLabel>
+        <translation><!-- ZZU2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU3</masterLabel>
+        <translation><!-- ZZU3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU4</masterLabel>
+        <translation><!-- ZZU4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU6</masterLabel>
+        <translation><!-- ZZU6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU7</masterLabel>
+        <translation><!-- ZZU7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU8</masterLabel>
+        <translation><!-- ZZU8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZU9</masterLabel>
+        <translation><!-- ZZU9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV1</masterLabel>
+        <translation><!-- ZZV1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV2</masterLabel>
+        <translation><!-- ZZV2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV3</masterLabel>
+        <translation><!-- ZZV3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV4</masterLabel>
+        <translation><!-- ZZV4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV5</masterLabel>
+        <translation><!-- ZZV5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV6</masterLabel>
+        <translation><!-- ZZV6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV7</masterLabel>
+        <translation><!-- ZZV7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV8</masterLabel>
+        <translation><!-- ZZV8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZV9</masterLabel>
+        <translation><!-- ZZV9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZVW</masterLabel>
+        <translation><!-- ZZVW --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW1</masterLabel>
+        <translation><!-- ZZW1 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW2</masterLabel>
+        <translation><!-- ZZW2 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW3</masterLabel>
+        <translation><!-- ZZW3 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW4</masterLabel>
+        <translation><!-- ZZW4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW5</masterLabel>
+        <translation><!-- ZZW5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW6</masterLabel>
+        <translation><!-- ZZW6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW7</masterLabel>
+        <translation><!-- ZZW7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW8</masterLabel>
+        <translation><!-- ZZW8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZW9</masterLabel>
+        <translation><!-- ZZW9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX1</masterLabel>
+        <translation>30 Tage nach Rechnungserhalt abzgl. 2% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX2</masterLabel>
+        <translation>30 Tage nach Rechnungserhalt abzgl. 3% Skonto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX3</masterLabel>
+        <translation>30 T.n.Warenerh../. 2%Sk.,60T.n.Warenerh.netto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX4</masterLabel>
+        <translation><!-- ZZX4 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX5</masterLabel>
+        <translation><!-- ZZX5 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX6</masterLabel>
+        <translation><!-- ZZX6 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX7</masterLabel>
+        <translation><!-- ZZX7 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX8</masterLabel>
+        <translation><!-- ZZX8 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZX9</masterLabel>
+        <translation><!-- ZZX9 --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ZZY1</masterLabel>
+        <translation>150 Tage n. Datum Bill of Lading</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

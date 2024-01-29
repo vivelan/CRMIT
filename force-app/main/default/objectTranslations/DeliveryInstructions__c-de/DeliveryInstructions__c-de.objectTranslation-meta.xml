@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Liefervorschrift</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Liefervorschriften</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Liefervorschrift</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Liefervorschriften</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Liefervorschrift</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Liefervorschriften</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Liefervorschrift</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Liefervorschriften</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Delivery Instructions Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Zuständigkeit und Bearbeitung</label>
+            <section>Responsibilities and Processing</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Liefervorschrift Name</nameFieldLabel>
+    <validationRules>
+        <errorMessage>Bitte geben Sie das Datum der Stellungnahme QW sowie das Datum der Stellungnahme Vertrieb an, bevor der Status auf &quot;Freigegeben&quot; gesetzt wird.</errorMessage>
+        <name>CheckFieldsForStatusChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Statusübergang nicht erlaubt</errorMessage>
+        <name>ValidateStatusChangeScenarios</name> 
+    </validationRules>
+    <validationRules>
+        <errorMessage>In diesem Status können Sie in Ihrer aktuellen Rolle keine Änderungen vornehmen.</errorMessage>
+        <name>ValidateStatusFieldEdit</name> 
+    </validationRules>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Side Letter erzeugen</label>
+        <name>CreateSideLetter</name>
+    </quickActions>
+</CustomObjectTranslation>

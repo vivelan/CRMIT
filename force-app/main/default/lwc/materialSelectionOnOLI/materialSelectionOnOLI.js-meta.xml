@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="SearchScreen" label="SearchScreen" type="Boolean" role="inputOnly"/>
+            <property name="FGName" type="String" label="FGName"/>
+            <property name="FGProduct" type="String" label="FGProduct"/>
+            <property name="FGDimensionA" type="String" label="FGDimensionA"/>
+            <property name="FGDimensionB" type="String" label="FGDimensionB"/>
+            <property name="FGSteelGrade" type="String" label="FGSteelGrade"/> 
+            <property name="OLIID " type="String" label="OLIID"/>
+            <property name="FGId" label="FGId" type="String" role="outputOnly"/>
+            <property name="selectedFG" label="selectedFG" type="String" role="outputOnly"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

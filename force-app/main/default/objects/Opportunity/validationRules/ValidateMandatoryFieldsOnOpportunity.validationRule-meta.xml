@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateMandatoryFieldsOnOpportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Opportunitywithquotecreations&quot;,OR(
+ISBLANK(TEXT(OpportunityType__c)),ISBLANK(TEXT(BusinessArea__c)),
+ISBLANK(DateOfReceipt__c),ISBLANK(TEXT(ChannelOfDistribution__c)),ISBLANK(TEXT(CurrencyIsoCode)),ISBLANK(TEXT(Type))),NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>Please specify all of the following mandatory fields: Opportunity Type, Business Area, Date Of Receipt, Channel Of Distribution, Currency Iso Code and Type.</errorMessage>
+</ValidationRule>

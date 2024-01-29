@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Typ</label>
+    <name>Type__c</name>
+    <picklistValues>
+        <masterLabel>Mass Inquiry</masterLabel>
+        <translation>Jahresanfrage</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specification</masterLabel>
+        <translation>Spezifikation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Standard Inquiry</masterLabel>
+        <translation>Anfrage</translation>
+    </picklistValues>
+</CustomFieldTranslation>

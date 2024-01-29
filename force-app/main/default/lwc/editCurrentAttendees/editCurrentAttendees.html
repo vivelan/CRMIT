@@ -1,0 +1,237 @@
+<template>
+    <template if:false={isLoading}>
+      <div class="table-scroll table-scroll-auto" if:true={displayExternalAttendeeTable}>
+        <table aria-multiselectable="true"
+          class="slds-table slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols table-scroll-auto"
+          role="grid">
+          <thead class="head-style">
+            <tr class="slds-line-height_reset">
+              <th aria-label="None" aria-sort="none" class="slds-text-align_right th-style" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate slds-align_absolute-center">
+                  <span></span>
+                </div>
+              </th>
+              <th aria-label="Contact" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left ">
+                  <span class="slds-truncate left-align" title="Contact">{ContactName}</span>
+                </div>
+              </th>
+              <th aria-label="Account Name" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left ">
+                  <span class="slds-truncate left-align-Comment" title="Account Name">{accountName}</span>
+                </div>
+              </th>
+              <th aria-label="Email" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Email">{emailLabel}</span>
+                </div>
+              </th>
+              <th aria-label="Phone" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Phone">{Phone}</span>
+                </div>
+              </th>
+              <th aria-label="Mobile" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Mobile">{Mobile}</span>
+                </div>
+              </th>
+              <template if:true={DepartmentSAG}>
+              <th aria-label="Mobile" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Mobile">{Department}</span>
+                </div>
+              </th>
+              </template>
+              <template if:true={DepartmentDH}>
+              <th aria-label="Mobile" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Mobile">{Department}</span>
+                </div>
+              </th>
+              </template>
+              <th aria-label="Comment" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align-Comment" title="Comment">{commentLabel}</span>
+                </div>
+              </th>
+              <th aria-label="Delete" aria-sort="none" scope="col" class="th-style-icon">
+                <div
+                  class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate slds-align_absolute-center checkbox-div">
+                  <lightning-input type="checkbox" data-name="mainCheckbox" onchange={allExternalChecked} class="checkbox-input">
+                  </lightning-input>
+                  <lightning-icon size="x-small" icon-name="utility:delete" class="checkbox-icon"></lightning-icon>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <template for:each={visitExistingExternalAttendees} for:item="attendee">
+              <tr aria-selected="false" key={attendee.Id}>
+                <td class="slds-text-align_center" role="gridcell">
+                  <div class="slds-row-number"></div>
+                </td>
+  
+                <td class="slds-text-align_left" role="gridcell">
+                  <div class="slds-truncate">
+                    <lightning-icon size="x-small" icon-name="utility:people"></lightning-icon>
+                    <span title={attendee.AttendeeName__c}> {attendee.AttendeeName__c}</span>
+                  </div> 
+                </td>
+                <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <span title={attendee.AccountId}>{attendee.AccountId}</span>
+                    </div>
+                  </td>
+                  <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <lightning-formatted-email title={attendee.Contact__r.Email}
+                        value={attendee.Contact__r.Email}></lightning-formatted-email>
+                    </div>
+                  </td>
+                  <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <lightning-formatted-email title={attendee.Contact__r.Phone}
+                        value={attendee.Contact__r.Phone}></lightning-formatted-email>
+                    </div>
+                  </td>
+                  <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <lightning-formatted-email title={attendee.Contact__r.MobilePhone}
+                        value={attendee.Contact__r.MobilePhone}></lightning-formatted-email>
+                    </div>
+                  </td>
+                  <template if:true={DepartmentSAG}>
+                    <td class="slds-text-align_left" role="gridcell">
+                      <div class="slds-truncate">
+                        <span  title={attendee.Contact__r.Department}>{attendee.Contact__r.Department}</span>
+                      </div>
+                    </td>
+                  </template>
+                <template if:true={DepartmentDH}>
+                  <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <span  title={attendee.Contact__r.Department__c}>{attendee.Contact__r.Department__c}</span>
+                    </div>
+                  </td>
+                </template>
+                <td role="gridcell">
+                  <div class="slds-truncate">
+                    <lightning-input value={attendee.Comment__c} class="comment-input" variant="label-hidden"
+                      data-id={attendee.Id} onchange={handleExternalChangeInput}></lightning-input>
+                  </div>
+                </td>
+                <td class="slds-text-align_center" role="gridcell">
+                  <lightning-input data-name="checkbox" type="checkbox" onchange={eventChecked} data-id={attendee.Id}>
+                  </lightning-input>
+                </td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+      <template if:false={displayExternalAttendeeTable}>
+        <!--<template if:false={displayIternalAttendeeTable}>-->
+        <div class="style-text">
+          <h2>{noAttendeesMessage}</h2>
+        </div>
+      <!--</template>-->
+    </template>
+      <!--<div class="table-scroll table-scroll-auto" if:true={displayIternalAttendeeTable}>
+        <table aria-multiselectable="true"
+          class="slds-table slds-table_bordered slds-table_fixed-layout slds-table_resizable-cols table-scroll-auto"
+          role="grid">
+          <thead class="head-style">
+            <tr class="slds-line-height_reset">
+              <th aria-label="None" aria-sort="none" class="slds-text-align_right th-style" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate slds-align_absolute-center">
+                  <span></span>
+                </div>
+              </th>
+              <th aria-label="UserName" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left ">
+                  <span class="slds-truncate left-align" title="UserName">Name</span>
+                </div>
+              </th>
+              <th aria-label="Email" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Email">{emailLabel}</span>
+                </div>
+              </th>
+              <th aria-label="Phone" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Phone">{Phone}</span>
+                </div>
+              </th>
+              <th aria-label="Mobile" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align" title="Mobile">{Mobile}</span>
+                </div>
+              </th>
+              <th aria-label="Comment" aria-sort="none" class="th-table" scope="col">
+                <div class="slds-grid slds-grid_vertical-align-left slds-has-flexi-truncate slds-text-align_left">
+                  <span class="slds-truncate left-align-Comment" title="Comment">{commentLabel}</span>
+                </div>
+              </th>
+              <th aria-label="Delete" aria-sort="none" scope="col" class="th-style-icon">
+                <div
+                  class="slds-grid slds-grid_vertical-align-center slds-has-flexi-truncate slds-align_absolute-center checkbox-div">
+                  <lightning-input type="checkbox" data-name="mainCheckbox" onchange={allInternalChecked} class="checkbox-input">
+                  </lightning-input>
+                  <lightning-icon size="x-small" icon-name="utility:delete" class="checkbox-icon"></lightning-icon>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <template for:each={visitExistingIternalAttendees} for:item="attendee">
+              <tr aria-selected="false" key={attendee.Id}>
+                <td class="slds-text-align_center" role="gridcell">
+                  <div class="slds-row-number"></div>
+                </td>
+                <td class="slds-text-align_left" role="gridcell">
+                  <div class="slds-truncate">
+                    <lightning-icon size="x-small" icon-name="utility:people"></lightning-icon>
+                    <span title={attendee.AttendeeName__c}> {attendee.AttendeeName__c}</span>
+                  </div> 
+                </td>
+                  <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <lightning-formatted-email title={attendee.User__r.Email}
+                        value={attendee.User__r.Email}></lightning-formatted-email>
+                    </div>
+                  </td>
+                  <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <lightning-formatted-email title={attendee.User__r.Phone}
+                        value={attendee.User__r.Phone}></lightning-formatted-email>
+                    </div>
+                  </td>
+                  <td class="slds-text-align_left" role="gridcell">
+                    <div class="slds-truncate">
+                      <lightning-formatted-email title={attendee.User__r.MobilePhone}
+                        value={attendee.User__r.MobilePhone}></lightning-formatted-email>
+                    </div>
+                  </td>
+                <td role="gridcell">
+                  <div class="slds-truncate">
+                    <lightning-input value={attendee.Comment__c} class="comment-input" variant="label-hidden"
+                      data-id={attendee.Id} onchange={handleExternalChangeInput}></lightning-input>
+                  </div>
+                </td>
+                <td class="slds-text-align_center" role="gridcell">
+                  <lightning-input data-name="checkbox" type="checkbox" onchange={eventChecked} data-id={attendee.Id}>
+                  </lightning-input>
+                </td>
+              </tr>
+            </template>
+          </tbody>
+        </table>
+      </div>
+      <template if:false={displayIternalAttendeeTable}>
+        <div class="style-text">
+          <h2>{noAttendeesMessage}</h2>
+        </div>
+      </template>-->
+    </template>
+  </template>

@@ -1,0 +1,4261 @@
+{
+    "dataSourceLinksInfo": {
+        "enableAutomaticLinking": true,
+        "excludeRelationships": [],
+        "links": [
+            {
+                "fields": [
+                    {
+                        "dataSourceName": "SF_Finished_Goods",
+                        "dataSourceType": "dataset",
+                        "fieldName": "MaterialNumber__c"
+                    },
+                    {
+                        "dataSourceName": "COPA_dashboard",
+                        "dataSourceType": "dataset",
+                        "fieldName": "Material_Number"
+                    }
+                ],
+                "label": "Finished Goods and COPA",
+                "name": "Link_21054"
+            }
+        ]
+    },
+    "filters": [],
+    "gridLayouts": [
+        {
+            "name": "Default",
+            "numColumns": 15,
+            "pages": [
+                {
+                    "label": "Main",
+                    "name": "faa40954-3ebc-4eea-8af6-1334e91be41e",
+                    "navigationHidden": false,
+                    "widgets": [
+                        {
+                            "colspan": 15,
+                            "column": 0,
+                            "name": "container_1",
+                            "row": 0,
+                            "rowspan": 7,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 2
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "listselector_1",
+                            "row": 1,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 3,
+                            "name": "listselector_3",
+                            "row": 1,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 6,
+                            "name": "dateselector_1",
+                            "row": 1,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 9,
+                            "name": "input_1",
+                            "row": 0,
+                            "rowspan": 7,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 11,
+                            "name": "input_2",
+                            "row": 0,
+                            "rowspan": 7,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 9,
+                            "column": 0,
+                            "name": "container_4",
+                            "row": 7,
+                            "rowspan": 24,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 2
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "text_2",
+                            "row": 7,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "listselector_4",
+                            "row": 11,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 6,
+                            "name": "listselector_7",
+                            "row": 11,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "listselector_8",
+                            "row": 16,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 3,
+                            "name": "listselector_6",
+                            "row": 16,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 6,
+                            "name": "listselector_5",
+                            "row": 16,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "listselector_9",
+                            "row": 21,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 3,
+                            "name": "listselector_10",
+                            "row": 21,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 6,
+                            "name": "listselector_11",
+                            "row": 21,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 12,
+                            "column": 0,
+                            "name": "container_2",
+                            "row": 31,
+                            "rowspan": 48,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 12,
+                            "column": 0,
+                            "name": "chart_1",
+                            "row": 32,
+                            "rowspan": 46,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 12,
+                            "name": "container_8",
+                            "row": 31,
+                            "rowspan": 48,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 12,
+                            "name": "text_3",
+                            "row": 32,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 12,
+                            "name": "listselector_2",
+                            "row": 36,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 12,
+                            "name": "number_1",
+                            "row": 42,
+                            "rowspan": 9,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 12,
+                            "name": "number_3",
+                            "row": 53,
+                            "rowspan": 9,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 12,
+                            "name": "number_2",
+                            "row": 64,
+                            "rowspan": 9,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 15,
+                            "column": 0,
+                            "name": "container_5",
+                            "row": 80,
+                            "rowspan": 6,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 2
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "text_1",
+                            "row": 80,
+                            "rowspan": 6,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 15,
+                            "column": 0,
+                            "name": "container_6",
+                            "row": 86,
+                            "rowspan": 32,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 15,
+                            "column": 0,
+                            "name": "table_4",
+                            "row": 87,
+                            "rowspan": 31,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "listselector_12",
+                            "row": 26,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 9,
+                            "name": "text_4",
+                            "row": 7,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 6,
+                            "column": 9,
+                            "name": "container_7",
+                            "row": 7,
+                            "rowspan": 24,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "rgb(255, 153, 41)",
+                                "borderEdges": [
+                                    "bottom"
+                                ],
+                                "borderRadius": 0,
+                                "borderWidth": 2
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 9,
+                            "name": "text_10",
+                            "row": 14,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 9,
+                            "name": "text_13",
+                            "row": 17,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 9,
+                            "name": "text_14",
+                            "row": 20,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 9,
+                            "name": "text_15",
+                            "row": 23,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 12,
+                            "name": "text_16",
+                            "row": 17,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 12,
+                            "name": "text_17",
+                            "row": 20,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 12,
+                            "name": "text_18",
+                            "row": 23,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 12,
+                            "name": "text_19",
+                            "row": 26,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 9,
+                            "name": "text_20",
+                            "row": 26,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 11,
+                            "name": "text_7",
+                            "row": 14,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 11,
+                            "name": "text_8",
+                            "row": 17,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 11,
+                            "name": "text_9",
+                            "row": 20,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 11,
+                            "name": "text_11",
+                            "row": 23,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 14,
+                            "name": "text_21",
+                            "row": 17,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 14,
+                            "name": "text_22",
+                            "row": 20,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 14,
+                            "name": "text_23",
+                            "row": 23,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 14,
+                            "name": "text_24",
+                            "row": 26,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 11,
+                            "name": "text_25",
+                            "row": 26,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 4,
+                            "column": 9,
+                            "name": "text_12",
+                            "row": 11,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 13,
+                            "name": "input_3",
+                            "row": 0,
+                            "rowspan": 7,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 2,
+                            "column": 12,
+                            "name": "text_28",
+                            "row": 14,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 1,
+                            "column": 14,
+                            "name": "text_29",
+                            "row": 14,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [],
+                                "borderRadius": 0,
+                                "borderWidth": 1
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 3,
+                            "name": "listselector_13",
+                            "row": 11,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "backgroundColor": "#FFFFFF",
+                                "borderColor": "#E6ECF2",
+                                "borderEdges": [
+                                    "all"
+                                ],
+                                "borderRadius": 4,
+                                "borderWidth": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "label": "Debug",
+                    "name": "059b36a1-7c4a-4932-93de-8fbd5f411553",
+                    "navigationHidden": false,
+                    "widgets": [
+                        {
+                            "colspan": 13,
+                            "column": 0,
+                            "name": "container_3",
+                            "row": 0,
+                            "rowspan": 63,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 3,
+                            "column": 0,
+                            "name": "text_5",
+                            "row": 0,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 13,
+                            "column": 0,
+                            "name": "table_1",
+                            "row": 4,
+                            "rowspan": 12,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 10,
+                            "column": 0,
+                            "name": "text_6",
+                            "row": 16,
+                            "rowspan": 4,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 13,
+                            "column": 0,
+                            "name": "table_2",
+                            "row": 20,
+                            "rowspan": 24,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 13,
+                            "column": 0,
+                            "name": "table_3",
+                            "row": 48,
+                            "rowspan": 15,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        },
+                        {
+                            "colspan": 13,
+                            "column": 0,
+                            "name": "text_26",
+                            "row": 45,
+                            "rowspan": 3,
+                            "widgetStyle": {
+                                "borderEdges": []
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rowHeight": "fine",
+            "selectors": [],
+            "style": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "backgroundColor": "#F2F6FA",
+                "cellSpacingX": 8,
+                "cellSpacingY": 0,
+                "fit": "original",
+                "gutterColor": "#C5D3E0"
+            },
+            "version": 1.0
+        }
+    ],
+    "layouts": [],
+    "steps": {
+        "PrimRollingInputForm_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"PrimRollingInputFormat__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "BusinessArea__c_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "BusinessArea__c_1",
+            "numbers": [],
+            "query": "q = load \"SF_Finished_Goods\";\nq = group q by 'BusinessArea__c';\nq = foreach q generate 'BusinessArea__c' as 'BusinessArea__c', count() as 'count';\nq = order q by 'BusinessArea__c' asc;\nq = limit q 2000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Filter_FMNs_with_no__1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Filter FMNs with no quantity",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by Material_Number in {{coalesce(column(Get_Similar_Finished_Goods_IDs.result, [\"Material_Number\"]), column(MaterialNumber__c_1.selection, [\"MaterialNumber__c\"])).asString()}};\nq = filter q by Quantity_t > 0;\nq = group q by Material_Number;\nq = foreach q generate Material_Number as Material_Number, sum('Quantity_t') as Quantity_t, count() as count;\nq = order q by count desc;  \nq = limit q [Max_no__of_FMN_shown];",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "values": {
+                "Max_no__of_FMN_shown": {
+                    "field": "input",
+                    "sourceType": "selection",
+                    "step": "input_1"
+                }
+            },
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "HeatTreatment__c_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"HeatTreatment__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "USInspection__c_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"USInspection__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "Input_B": {
+            "label": "",
+            "start": "[5]",
+            "type": "input",
+            "valueType": "number",
+            "values": [
+                {
+                    "max": 100,
+                    "min": 0
+                }
+            ]
+        },
+        "Input_A": {
+            "label": "",
+            "start": "[5]",
+            "type": "input",
+            "valueType": "number",
+            "values": [
+                {
+                    "max": 100,
+                    "min": 0
+                }
+            ]
+        },
+        "RollingMill__c_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"RollingMill__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "Get_User_Locale_SOQL": {
+            "broadcastFacet": true,
+            "groups": [],
+            "numbers": [],
+            "query": "SELECT Id, LanguageLocaleKey, FirstName, LastName, Username FROM User WHERE Id = '!{User.Id}'",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "soql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Similar_Finished_Goo_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Similar Finished Goods Table",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by External_ID in {{coalesce(column(Exclude_data_points__1.result, [\"External_ID\"]), toArray(\"0\")).asString()}};\n\nq = foreach q generate \n    'Created_Date_Year' + \"-\"  + 'Created_Date_Month' as '{{cell(Get_Translation_1.result, 0, \"Field_Created_Date\").asString()}}', \n    q.'Business_Area' as '{{cell(Get_Translation_1.result, 0, \"Field_Business_Area\").asString()}}', \n    q.'Material_Number' as '{{cell(Get_Translation_1.result, 0, \"Field_Material_Number\").asString()}}', \n    q.'Customer_Name' as '{{cell(Get_Translation_1.result, 0, \"Field_Customer_Name\").asString()}}', \n    q.'Customer_Key' as '{{cell(Get_Translation_1.result, 0, \"Field_Customer_Key\").asString()}}',\n    q.'Country' as '{{cell(Get_Translation_1.result, 0, \"Field_Country\").asString()}}', \n    'Rolling_Mill' as '{{cell(Get_Translation_1.result, 0, \"Field_Rolling_Mill\").asString()}}', \n    'Steel_Grade' as '{{cell(Get_Translation_1.result, 0, \"Field_Internal_Steel_Grade\").asString()}}', \n    'Dimension_A' as '{{cell(Get_Translation_1.result, 0, \"Field_Dimension_A\").asString()}}', \n    'Dimension_B' as '{{cell(Get_Translation_1.result, 0, \"Field_Dimension_B\").asString()}}', \n    q.'Quantity_t' as '{{cell(Get_Translation_1.result, 0, \"Field_Sold_Amount\").asString()}}', \n    q.'Net_Proceeds' as '{{cell(Get_Translation_1.result, 0, \"Field_Net_Proceeds\").asString()}}', \n    q.'Net_Invoice' as '{{cell(Get_Translation_1.result, 0, \"Field_Net_Invoice\").asString()}}', \n    'Net_Proceeds' / 'Quantity_t' as '{{cell(Get_Translation_1.result, 0, \"Field_Net_Proceeds_t\").asString()}}';\n\nq = order q by '{{cell(Get_Translation_1.result, 0, \"Field_Created_Date\").asString()}}' desc;\nq = limit q 10000;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Created_Date_1"
+                ]
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "mode": "fittocontainer",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "showRowIndexColumn": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Get_User_Locale_1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Get_User_Local_1",
+            "numbers": [],
+            "query": "q = load \"Flat_Translation\";\nq = foreach q generate \"{{cell(Get_User_Locale_SOQL.result, 0, \"LanguageLocaleKey\").asString()}}\" as User_Locale_Check;\nq = foreach q generate User_Locale_Check as User_Locale_Check,\n(case\n    when User_Locale_Check in [\"en_US\", \"de\"] then User_Locale_Check\n    else \"en_US\"\nend) as LanguageLocaleKey;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Get_Similar_Finished_Goods_IDs": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get_Similar_Finished_Goods_IDs",
+            "numbers": [],
+            "query": "q = load \"SF_Finished_Goods\";\nq = filter q by MaterialNumber__c not in {{column(MaterialNumber__c_1.selection, [\"MaterialNumber__c\"]).asString()}};\nq = filter q by\n-- filter by Dimension A and B and the range specified by the user \n('DimensionA__c' >= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionA__c\").asObject()}} * (1-([Input_A]/100))) && \n'DimensionA__c' <= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionA__c\").asObject()}} * (1+([Input_A]/100)))) &&\n('DimensionB__c' >= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionB__c\").asObject()}} * (1-([Input_B]/100))) && \n'DimensionB__c' <= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionB__c\").asObject()}} * (1+([Input_B]/100)))) &&\n-- filter by Rolling Mill of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"RollingMill__c\").asEquality(\"RollingMill__c\")}} || {{coalesce(column(RollingMill__c_1.selection, [\"RollingMill__c\"]), \"No value\").asEquality(\"RollingMill__c\")}} ) &&\n-- filter by Internal Grade of selected FMN OR from the Key Price Drivers selector\n( {{cell(Get_info_of_selected_1.result, 0, \"SteelGrade__c\").asEquality(\"SteelGrade__c\")}} || {{coalesce(column(SteelGrade__c_1.selection, [\"SteelGrade__c\"]), \"No value\").asEquality(\"SteelGrade__c\")}} ) &&\n-- filter by Prim. Rolling - Homogenize (St.15) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"PrimRollingHomogenize__c\").asEquality(\"PrimRollingHomogenize__c\")}} || {{coalesce(column(PrimRollingHomogeniz_1.selection, [\"PrimRollingHomogenize__c\"]), \"No value\").asEquality(\"PrimRollingHomogenize__c\")}} ) &&\n-- filter by Prim. Rolling - Input format (St.16-18) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"PrimRollingInputFormat__c\").asEquality(\"PrimRollingInputFormat__c\")}} || {{coalesce(column(PrimRollingInputForm_1.selection, [\"PrimRollingInputFormat__c\"]), \"No value\").asEquality(\"PrimRollingInputFormat__c\")}} ) &&\n-- filter by HZV - Check/Treatment (St.22-25) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"HZVCheckTreatment__c\").asEquality(\"HZVCheckTreatment__c\")}} || {{coalesce(column(HZVCheckTreatment__c_1.selection, [\"HZVCheckTreatment__c\"]), \"No value\").asEquality(\"HZVCheckTreatment__c\")}} ) &&\n-- filter by Heat Treatment (St.29+30) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"HeatTreatment__c\").asEquality(\"HeatTreatment__c\")}} || {{coalesce(column(HeatTreatment__c_1.selection, [\"HeatTreatment__c\"]), \"No Value\").asEquality(\"HeatTreatment__c\")}} ) &&\n-- filter by Straightening / SurfaceTreat. (St.31) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"Straightening__c\").asEquality(\"Straightening__c\")}} || {{coalesce(column(Straightening__c_1.selection, [\"Straightening__c\"]), \"No Value\").asEquality(\"Straightening__c\")}} ) && \n-- filter by Peeling bar/ wire rod (St.33) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"PeelRodWire__c\").asEquality(\"PeelRodWire__c\")}} || {{coalesce(column(PeelRodWire__c_1.selection, [\"PeelRodWire__c\"]), \"No Value\").asEquality(\"PeelRodWire__c\")}} ) &&\n-- filter by Inspec.-Surface defect inspec.(St.38+39) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"SurfaceDefectInspec__c\").asEquality(\"SurfaceDefectInspec__c\")}} || {{coalesce(column(SurfaceDefectInspec__1.selection, [\"SurfaceDefectInspec__c\"]), \"No Value\").asEquality(\"SurfaceDefectInspec__c\")}} ) &&\n-- filter by Inspec.- US Inspection (St.40-42) of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"USInspection__c\").asEquality(\"USInspection__c\")}} || {{coalesce(column(USInspection__c_1.selection, [\"USInspection__c\"]), \"No Value\").asEquality(\"USInspection__c\")}} );\nq = filter q by {{column(BusinessArea__c_1.selection, [\"BusinessArea__c\"]).asEquality(\"BusinessArea__c\")}};\n\nq = foreach q generate 'MaterialNumber__c' as 'Material_Number';\nq = order q by 'Material_Number' desc;\nq = limit q 10000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "values": {
+                "Input_B": {
+                    "field": "input",
+                    "sourceType": "selection",
+                    "step": "Input_B"
+                },
+                "Input_A": {
+                    "field": "input",
+                    "sourceType": "selection",
+                    "step": "Input_A"
+                }
+            },
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Get_Translation_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get Translation",
+            "numbers": [],
+            "query": "q = load \"Flat_Translation\";\nq = filter q by {{cell(Get_User_Locale_1.result, 0, \"LanguageLocaleKey\").asEquality(\"Language\")}};\nq = foreach q generate q.'Field_Created_Date' as 'Field_Created_Date', q.'Field_Dimension_A_Range' as 'Field_Dimension_A_Range', q.'Field_Dimension_B_Range' as 'Field_Dimension_B_Range', q.'Field_Prim_Rolling_Homogenize_St_15' as 'Field_Prim_Rolling_Homogenize_St_15', q.'Field_Prim_Rolling_Input_format_St_16_18' as 'Field_Prim_Rolling_Input_format_St_16_18', q.'Field_HZV_Check_Treatment_St_22_25' as 'Field_HZV_Check_Treatment_St_22_25', q.'Field_Heat_Treatment_St_29_30' as 'Field_Heat_Treatment_St_29_30', q.'Field_Straightening_SurfaceTreat_St_31' as 'Field_Straightening_SurfaceTreat_St_31', q.'Field_Peeling_bar_wire_rod_St_33' as 'Field_Peeling_bar_wire_rod_St_33', q.'Field_Inspec_Surface_defect_inspec_St_38_39' as 'Field_Inspec_Surface_defect_inspec_St_38_39', q.'Field_Inspec_US_Inspection_St_40_42' as 'Field_Inspec_US_Inspection_St_40_42', q.'ChartDescription_KPIs' as 'ChartDescription_KPIs', q.'Title_Minimum_Net_Proceeds_t' as 'Title_Minimum_Net_Proceeds_t', q.'Title_Maximum_Net_Proceeds_t' as 'Title_Maximum_Net_Proceeds_t', q.'Field_Sold_Amount' as 'Field_Sold_Amount', q.'Field_Price_Comparison_of_Similar_FMNs' as 'Field_Price_Comparison_of_Similar_FMNs', q.'Field_Average_Net_Proceeds_t' as 'Field_Average_Net_Proceeds_t', q.'Field_Business_Area' as 'Field_Business_Area', q.'Field_Material_Number' as 'Field_Material_Number', q.'Field_Customer_Name' as 'Field_Customer_Name', q.'Field_Country' as 'Field_Country', q.'Field_Rolling_Mill' as 'Field_Rolling_Mill', q.'Field_Dimension_A' as 'Field_Dimension_A', q.'Field_Dimension_B' as 'Field_Dimension_B', q.'Field_Net_Proceeds' as 'Field_Net_Proceeds', q.'Field_Net_Proceeds_t' as 'Field_Net_Proceeds_t', q.'Field_Net_Invoice' as 'Field_Net_Invoice', q.'Language' as 'Language', Field_Internal_Steel_Grade as Field_Internal_Steel_Grade, Field_Customer_Key as Field_Customer_Key, Title_Max_no_of_FMN_shown as Title_Max_no_of_FMN_shown, Title_Selected_FMN_Price_Drivers as Title_Selected_FMN_Price_Drivers, Title_Key_Price_Drivers as Title_Key_Price_Drivers, Title_Table_View as Title_Table_View, InfoText_Show_Similar_FMN_Price_Drivers as InfoText_Show_Similar_FMN_Price_Drivers;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "SurfaceDefectInspec__1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SurfaceDefectInspec__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "HZVCheckTreatment__c_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"HZVCheckTreatment__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "Get_info_of_selected_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Get info of selected material",
+            "numbers": [],
+            "query": "q = load \"SF_Finished_Goods\";\nq = foreach q generate q.'MaterialNumber__c' as 'MaterialNumber__c', q.'USInspection__c' as 'USInspection__c', q.'PrimRollingInputFormat__c' as 'PrimRollingInputFormat__c', q.'DimensionA__c' as 'DimensionA__c', q.'DimensionB__c' as 'DimensionB__c', q.'HeatTreatment__c' as 'HeatTreatment__c', q.'HZVCheckTreatment__c' as 'HZVCheckTreatment__c', q.'SurfaceDefectInspec__c' as 'SurfaceDefectInspec__c', q.'PeelRodWire__c' as 'PeelRodWire__c', q.'PrimRollingHomogenize__c' as 'PrimRollingHomogenize__c', q.'Straightening__c' as 'Straightening__c', q.'RollingMill__c' as 'RollingMill__c', SteelGrade__c as SteelGrade__c;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "MaterialNumber__c_1"
+                ]
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "fixedColumnWidth": 100,
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "mode": "fixed",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Exclude_data_points__1": {
+            "broadcastFacet": false,
+            "groups": [],
+            "label": "Exclude data points with different KPDs",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by Material_Number in {{coalesce(column(Filter_FMNs_with_no__1.result, [\"Material_Number\"]), toArray(\"0\")).asString()}} || \n{{column(MaterialNumber__c_1.selection, [\"MaterialNumber__c\"]).asEquality(\"Material_Number\")}};\nq = filter q by \n('Dimension_A' >= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionA__c\").asObject()}} * (1-([Input_A]/100))) && \n'Dimension_A' <= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionA__c\").asObject()}} * (1+([Input_A]/100)))) &&\n('Dimension_B' >= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionB__c\").asObject()}} * (1-([Input_B]/100))) && \n'Dimension_B' <= ({{cell(Get_info_of_selected_1.result, 0, \"DimensionB__c\").asObject()}} * (1+([Input_B]/100)))) &&\n-- filter by Rolling Mill of selected FMN OR from the Key Price Drivers selector \n( {{cell(Get_info_of_selected_1.result, 0, \"RollingMill__c\").asEquality(\"Rolling_Mill\")}} || {{coalesce(column(RollingMill__c_1.selection, [\"RollingMill__c\"]), \"No value\").asEquality(\"Rolling_Mill\")}} );\nq = foreach q generate External_ID as External_ID, Rolling_Mill as Rolling_Mill;\nq = limit q 10000;",
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "none",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "values": {
+                "Input_B": {
+                    "field": "input",
+                    "sourceType": "selection",
+                    "step": "Input_B"
+                },
+                "Input_A": {
+                    "field": "input",
+                    "sourceType": "selection",
+                    "step": "Input_A"
+                },
+                "Input_B_2": {
+                    "field": "input",
+                    "sourceType": "selection",
+                    "step": "Input_B"
+                }
+            },
+            "visualizationParameters": {
+                "parameters": {
+                    "borderColor": "#e0e5ee",
+                    "borderWidth": 1,
+                    "cell": {
+                        "backgroundColor": "#ffffff",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "columnProperties": {},
+                    "columns": [],
+                    "customBulkActions": [],
+                    "header": {
+                        "backgroundColor": "#f4f6f9",
+                        "fontColor": "#16325c",
+                        "fontSize": 12,
+                        "textWrap": true
+                    },
+                    "innerMajorBorderColor": "#a8b7c7",
+                    "innerMinorBorderColor": "#e0e5ee",
+                    "interactions": [],
+                    "maxColumnWidth": 300,
+                    "minColumnWidth": 40,
+                    "mode": "variable",
+                    "numberOfLines": 1,
+                    "showActionMenu": true,
+                    "totals": true,
+                    "verticalPadding": 8
+                },
+                "type": "table"
+            }
+        },
+        "Maximum_Price_per_Ton": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Minimum Price per Ton",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by External_ID in {{coalesce(column(Exclude_data_points__1.result, [\"External_ID\"]), toArray(\"0\")).asString()}};\nq = foreach q generate 'Material_Number' as 'Material_Number', 'Customer_Name' as Customer_Name , 'Created_Date_Year' as 'Created_Date_Year', 'Created_Date_Month' as 'Created_Date_Month', coalesce('Net_Proceeds'/'Quantity_t', 0) as 'Price_Per_Ton';\n\nq = filter q by 'Price_Per_Ton' > 0;\nq = order q by 'Price_Per_Ton' desc;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Created_Date_1",
+                    "Price_Comparison_Tim_1",
+                    "MaterialNumber__c_2"
+                ]
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "MaterialNumber__c_2": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "KPI FMN Selector",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by External_ID in {{coalesce(column(Exclude_data_points__1.result, [\"External_ID\"]), toArray(\"0\")).asString()}};\nq = group q by 'Material_Number';\nq = foreach q generate 'Material_Number' as 'Material_Number';\nq = order q by 'Material_Number' asc;\nq = limit q 100;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Price_Comparison_Tim_1"
+                ]
+            },
+            "selectMode": "multi",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "MaterialNumber__c_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "MaterialNumber__c_1",
+            "numbers": [],
+            "query": "q = load \"SF_Finished_Goods\";\nq = group q by 'MaterialNumber__c';\nq = foreach q generate 'MaterialNumber__c' as 'MaterialNumber__c', sum('DimensionA__c') as 'sum_DimensionA__c';\nq = order q by 'MaterialNumber__c' desc;\nq = limit q 100000;",
+            "receiveFacetSource": {
+                "mode": "all",
+                "steps": []
+            },
+            "selectMode": "singlerequired",
+            "start": "[]",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "PrimRollingHomogeniz_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"PrimRollingHomogenize__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "Created_Date_1": {
+            "broadcastFacet": true,
+            "datasets": [
+                {
+                    "name": "COPA_dashboard"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Created_Date\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "single",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": true,
+            "visualizationParameters": {}
+        },
+        "Minimum_Price_per_To_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Minimum Price per Ton",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by External_ID in {{coalesce(column(Exclude_data_points__1.result, [\"External_ID\"]), toArray(\"0\")).asString()}};\nq = foreach q generate 'Material_Number' as 'Material_Number', 'Customer_Name' as Customer_Name , 'Created_Date_Year' as 'Created_Date_Year', 'Created_Date_Month' as 'Created_Date_Month', coalesce('Net_Proceeds'/'Quantity_t', 0) as 'Price_Per_Ton';\n\nq = filter q by 'Price_Per_Ton' > 0;\nq = order q by 'Price_Per_Ton' asc;\nq = limit q 1;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Created_Date_1",
+                    "Price_Comparison_Tim_1",
+                    "MaterialNumber__c_2"
+                ]
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": true,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "Minimum_Price_per_To_2": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Minimum Price per Ton",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by External_ID in {{coalesce(column(Exclude_data_points__1.result, [\"External_ID\"]), toArray(\"0\")).asString()}};\nq = group q by all;\nq = foreach q generate sum(Quantity_t) as 'Quantity Sold (t)';",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Created_Date_1",
+                    "MaterialNumber__c_2",
+                    "Price_Comparison_Tim_1"
+                ]
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "multi",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [],
+                                "showNullValues": true,
+                                "customizeLegend": false,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": []
+                            }
+                        }
+                    },
+                    "visualizationType": "hbar",
+                    "title": {
+                        "fontSize": 14,
+                        "subtitleFontSize": 11,
+                        "label": "",
+                        "align": "center",
+                        "subtitleLabel": ""
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "valueType": "compactNumber",
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "theme": "wave",
+                    "compactDecimalDigits": -1,
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true
+                },
+                "type": "chart"
+            }
+        },
+        "SteelGrade__c_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"SteelGrade__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "PeelRodWire__c_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"PeelRodWire__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "input_1": {
+            "label": "Max no. of FMN shown",
+            "start": "[20]",
+            "type": "input",
+            "valueType": "number",
+            "values": [
+                {
+                    "max": 100,
+                    "min": 1
+                }
+            ]
+        },
+        "Straightening__c_1": {
+            "broadcastFacet": false,
+            "datasets": [
+                {
+                    "name": "SF_Finished_Goods"
+                }
+            ],
+            "isGlobal": false,
+            "query": {
+                "query": "{\"measures\":[[\"count\",\"*\"]],\"groups\":[\"Straightening__c\"]}",
+                "version": -1.0
+            },
+            "receiveFacetSource": {
+                "mode": "none",
+                "steps": []
+            },
+            "selectMode": "multi",
+            "start": "[]",
+            "type": "aggregateflex",
+            "useGlobal": false,
+            "visualizationParameters": {}
+        },
+        "Price_Comparison_Tim_1": {
+            "broadcastFacet": true,
+            "groups": [],
+            "label": "Price Comparison Timeline",
+            "numbers": [],
+            "query": "q = load \"COPA_dashboard\";\nq = filter q by External_ID in {{coalesce(column(Exclude_data_points__1.result, [\"External_ID\"]), toArray(\"0\")).asString()}};\nq = foreach q generate 'Material_Number' as 'Material_Number', 'Created_Date_Year' as 'Created_Date_Year', 'Created_Date_Month' as 'Created_Date_Month', 'Net_Proceeds'/'Quantity_t' as 'Price_Per_Ton';\n\nq = group q by ('Created_Date_Year', 'Created_Date_Month', 'Material_Number');\nq = foreach q generate \n    'Created_Date_Year'+\"~~~\"+'Created_Date_Month' as 'Created_Date_Year~~~Created_Date_Month',\n    'Created_Date_Year'+\"-\"+'Created_Date_Month' as '{{cell(Get_Translation_1.result, 0, \"Field_Created_Date\").asString()}}',\n    'Material_Number' as '{{cell(Get_Translation_1.result, 0, \"Field_Material_Number\").asString()}}', \n    avg('Price_Per_Ton') as '{{cell(Get_Translation_1.result, 0, \"Field_Average_Net_Proceeds_t\").asString()}}';\n\nq = order q by 'Created_Date_Year~~~Created_Date_Month' asc;\nq = limit q 10000;",
+            "receiveFacetSource": {
+                "mode": "include",
+                "steps": [
+                    "Created_Date_1"
+                ]
+            },
+            "selectMode": "single",
+            "strings": [],
+            "type": "saql",
+            "useGlobal": false,
+            "visualizationParameters": {
+                "parameters": {
+                    "showPoints": true,
+                    "legend": {
+                        "descOrder": false,
+                        "showHeader": true,
+                        "show": true,
+                        "customSize": "auto",
+                        "position": "right-top",
+                        "inside": false
+                    },
+                    "axisMode": "sync",
+                    "tooltip": {
+                        "content": {
+                            "legend": {
+                                "showBinLabel": true,
+                                "measures": [
+                                    "Ø-Nettoerlös (€/t)"
+                                ],
+                                "showNullValues": true,
+                                "customizeLegend": true,
+                                "showPercentage": true,
+                                "showDimensions": true,
+                                "showMeasures": true,
+                                "dimensions": [
+                                    "Created_Date_Year~~~Created_Date_Month",
+                                    "Erstellungsdatum",
+                                    "Materialnummer"
+                                ]
+                            }
+                        }
+                    },
+                    "visualizationType": "time",
+                    "missingValue": "connect",
+                    "title": {
+                        "fontSize": 16,
+                        "subtitleFontSize": 12,
+                        "label": "{{cell(Get_Translation_1.result, 0, \"Field_Price_Comparison_of_Similar_FMNs\").asString()}}",
+                        "align": "center",
+                        "subtitleLabel": "Showing similar FMNs to the one selected according to their Key Price Drivers. Where the number of similar FMNs exceeds the limit, the graph will show FMNs with more data points first."
+                    },
+                    "binValues": false,
+                    "trellis": {
+                        "flipLabels": false,
+                        "showGridLines": true,
+                        "size": [
+                            100,
+                            100
+                        ],
+                        "enable": false,
+                        "type": "x",
+                        "chartsPerLine": 4
+                    },
+                    "showZero": false,
+                    "valueType": "number",
+                    "theme": "wave",
+                    "dimensionAxis": {
+                        "showTitle": true,
+                        "customSize": "auto",
+                        "showAxis": true,
+                        "title": "",
+                        "icons": {
+                            "useIcons": false,
+                            "iconProps": {
+                                "fit": "cover",
+                                "column": "",
+                                "type": "round"
+                            }
+                        }
+                    },
+                    "applyConditionalFormatting": true,
+                    "drawArea": {
+                        "measure": "",
+                        "showDrawArea": false,
+                        "bounding1": "",
+                        "bounding2": ""
+                    },
+                    "autoFitMode": "keepLabels",
+                    "bins": {
+                        "breakpoints": {
+                            "high": 100,
+                            "low": 0
+                        },
+                        "bands": {
+                            "high": {
+                                "color": "#008000",
+                                "label": ""
+                            },
+                            "low": {
+                                "color": "#B22222",
+                                "label": ""
+                            },
+                            "medium": {
+                                "color": "#ffa500",
+                                "label": ""
+                            }
+                        }
+                    },
+                    "dashLine": {
+                        "measures": [
+                            "Average Price per Ton"
+                        ],
+                        "showDashLine": false
+                    },
+                    "timeAxis": {
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "{{cell(Get_Translation_1.result, 0, \"Field_Created_Date\").asString()}}"
+                    },
+                    "fillArea": false,
+                    "columnMap": {
+                        "split": [
+                            "{{cell(Get_Translation_1.result, 0, \"Field_Material_Number\").asString()}}"
+                        ],
+                        "timeAxis": [
+                            "Created_Date_Year~~~Created_Date_Month"
+                        ],
+                        "trellis": [],
+                        "plots": [
+                            "{{cell(Get_Translation_1.result, 0, \"Field_Average_Net_Proceeds_t\").asString()}}"
+                        ]
+                    },
+                    "showActionMenu": true,
+                    "measureAxis2": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "measureAxis1": {
+                        "sqrtScale": false,
+                        "showTitle": true,
+                        "showAxis": true,
+                        "title": "",
+                        "customDomain": {
+                            "showDomain": false
+                        }
+                    },
+                    "compactDecimalDigits": -1
+                },
+                "type": "chart"
+            }
+        }
+    },
+    "widgetStyle": {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E6ECF2",
+        "borderEdges": [],
+        "borderRadius": 0,
+        "borderWidth": 1
+    },
+    "widgets": {
+        "text_18": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Peeling_bar_wi]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Peeling_bar_wi": {
+                            "field": "Field_Peeling_bar_wire_rod_St_33",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_17": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Straightening_]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Straightening_": {
+                            "field": "Field_Straightening_SurfaceTreat_St_31",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_19": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Inspec_Surface]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Inspec_Surface": {
+                            "field": "Field_Inspec_Surface_defect_inspec_St_38_39",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_14": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Prim_Rolling_I]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Prim_Rolling_I": {
+                            "field": "Field_Prim_Rolling_Input_format_St_16_18",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_13": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Prim_Rolling_H] "
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Prim_Rolling_H": {
+                            "field": "Field_Prim_Rolling_Homogenize_St_15",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_16": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Heat_Treatment]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Heat_Treatment": {
+                            "field": "Field_Heat_Treatment_St_29_30",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_15": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_HZV_Check_Trea]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_HZV_Check_Trea": {
+                            "field": "Field_HZV_Check_Treatment_St_22_25",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_10": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Rolling_Mill]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Rolling_Mill": {
+                            "field": "Field_Rolling_Mill",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_12": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "14px"
+                            },
+                            "insert": "[Field_Dimension_A]"
+                        },
+                        {
+                            "attributes": {
+                                "size": "14px",
+                                "color": "#091a3e"
+                            },
+                            "insert": " ="
+                        },
+                        {
+                            "attributes": {
+                                "size": "13px",
+                                "color": "#091a3e"
+                            },
+                            "insert": " "
+                        },
+                        {
+                            "attributes": {
+                                "size": "16px",
+                                "color": "#091a3e",
+                                "bold": true
+                            },
+                            "insert": "[Dimension_A]"
+                        },
+                        {
+                            "attributes": {
+                                "size": "16px",
+                                "color": "#091a3e"
+                            },
+                            "insert": " "
+                        },
+                        {
+                            "attributes": {
+                                "size": "13px",
+                                "color": "#091a3e"
+                            },
+                            "insert": "   "
+                        },
+                        {
+                            "attributes": {
+                                "size": "14px",
+                                "color": "#091a3e"
+                            },
+                            "insert": "[Field_Dimension_B] ="
+                        },
+                        {
+                            "attributes": {
+                                "size": "13px",
+                                "color": "#091a3e"
+                            },
+                            "insert": " "
+                        },
+                        {
+                            "attributes": {
+                                "size": "16px",
+                                "bold": true
+                            },
+                            "insert": "[Dimension_B]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Dimension_A": {
+                            "field": "Field_Dimension_A",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        },
+                        "Dimension_B": {
+                            "compact": false,
+                            "field": "DimensionB__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        },
+                        "Field_Dimension_B": {
+                            "field": "Field_Dimension_B",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        },
+                        "Dimension_A": {
+                            "compact": false,
+                            "field": "DimensionA__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_11": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[HZV___Check_Treatmen]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "HZV___Check_Treatmen": {
+                            "compact": false,
+                            "field": "HZVCheckTreatment__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "container_1": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_2": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_3": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_4": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_5": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "container_6": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "text_3": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "24px",
+                                "bold": true
+                            },
+                            "insert": "[ChartDescription_KPI]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "ChartDescription_KPI": {
+                            "field": "ChartDescription_KPIs",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_2": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Title_Key_Price_Driv]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Key_Price_Driv": {
+                            "field": "Title_Key_Price_Drivers",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "container_7": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "text_5": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px"
+                            },
+                            "insert": "Information of selected Finished Good"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ]
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "container_8": {
+            "parameters": {
+                "alignmentX": "left",
+                "alignmentY": "top",
+                "fit": "original"
+            },
+            "type": "container"
+        },
+        "text_4": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Title_Selected_FMN_P]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Selected_FMN_P": {
+                            "field": "Title_Selected_FMN_Price_Drivers",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_7": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Rolling_Mill_1]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Rolling_Mill_1": {
+                            "compact": false,
+                            "field": "RollingMill__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "chart_1": {
+            "parameters": {
+                "showPoints": true,
+                "legend": {
+                    "descOrder": false,
+                    "showHeader": true,
+                    "show": true,
+                    "customSize": "auto",
+                    "position": "right-top",
+                    "inside": false
+                },
+                "axisMode": "sync",
+                "tooltip": {
+                    "content": {
+                        "legend": {
+                            "showBinLabel": true,
+                            "measures": [
+                                "Ø-Nettoerlös (€/t)"
+                            ],
+                            "showNullValues": true,
+                            "customizeLegend": true,
+                            "showPercentage": true,
+                            "showDimensions": true,
+                            "showMeasures": true,
+                            "dimensions": [
+                                "Created_Date_Year~~~Created_Date_Month",
+                                "Erstellungsdatum",
+                                "Materialnummer"
+                            ]
+                        }
+                    }
+                },
+                "visualizationType": "time",
+                "missingValue": "connect",
+                "exploreLink": true,
+                "title": {
+                    "fontSize": 16,
+                    "subtitleFontSize": 12,
+                    "label": "{{cell(Get_Translation_1.result, 0, \"Field_Price_Comparison_of_Similar_FMNs\").asString()}}",
+                    "align": "center",
+                    "subtitleLabel": "{{cell(Get_Translation_1.result, 0, \"InfoText_Show_Similar_FMN_Price_Drivers\").asString()}}"
+                },
+                "binValues": false,
+                "trellis": {
+                    "flipLabels": false,
+                    "showGridLines": true,
+                    "size": [
+                        100,
+                        100
+                    ],
+                    "enable": false,
+                    "type": "x",
+                    "chartsPerLine": 4
+                },
+                "showZero": false,
+                "valueType": "number",
+                "theme": "wave",
+                "dimensionAxis": {
+                    "showTitle": true,
+                    "customSize": "auto",
+                    "showAxis": true,
+                    "title": "",
+                    "icons": {
+                        "useIcons": false,
+                        "iconProps": {
+                            "fit": "cover",
+                            "column": "",
+                            "type": "round"
+                        }
+                    }
+                },
+                "applyConditionalFormatting": true,
+                "drawArea": {
+                    "measure": "",
+                    "showDrawArea": false,
+                    "bounding1": "",
+                    "bounding2": ""
+                },
+                "autoFitMode": "keepLabels",
+                "bins": {
+                    "breakpoints": {
+                        "high": 100,
+                        "low": 0
+                    },
+                    "bands": {
+                        "high": {
+                            "color": "#008000",
+                            "label": ""
+                        },
+                        "low": {
+                            "color": "#B22222",
+                            "label": ""
+                        },
+                        "medium": {
+                            "color": "#ffa500",
+                            "label": ""
+                        }
+                    }
+                },
+                "dashLine": {
+                    "measures": [
+                        "Average Price per Ton"
+                    ],
+                    "showDashLine": false
+                },
+                "timeAxis": {
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "{{cell(Get_Translation_1.result, 0, \"Field_Created_Date\").asString()}}"
+                },
+                "fillArea": false,
+                "columnMap": {
+                    "split": [
+                        "{{cell(Get_Translation_1.result, 0, \"Field_Material_Number\").asString()}}"
+                    ],
+                    "timeAxis": [
+                        "Created_Date_Year~~~Created_Date_Month"
+                    ],
+                    "trellis": [],
+                    "plots": [
+                        "{{cell(Get_Translation_1.result, 0, \"Field_Average_Net_Proceeds_t\").asString()}}"
+                    ]
+                },
+                "showActionMenu": true,
+                "measureAxis2": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "measureAxis1": {
+                    "sqrtScale": false,
+                    "showTitle": true,
+                    "showAxis": true,
+                    "title": "",
+                    "customDomain": {
+                        "showDomain": false
+                    }
+                },
+                "step": "Price_Comparison_Tim_1",
+                "compactDecimalDigits": -1
+            },
+            "type": "chart"
+        },
+        "text_6": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {},
+                            "insert": "IDs of Finished Goods similar to the selected Finished Good"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ]
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_9": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Prim__Rolling___Inpu]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Prim__Rolling___Inpu": {
+                            "compact": false,
+                            "field": "PrimRollingInputFormat__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_8": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Prim__Rolling___Homo]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Prim__Rolling___Homo": {
+                            "compact": false,
+                            "field": "PrimRollingHomogenize__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "dateselector_1": {
+            "parameters": {
+                "absoluteModeEnabled": true,
+                "calendarTypeSwitchingAllowed": true,
+                "defaultFiscalMode": false,
+                "displayMode": "filter",
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": false,
+                "presetsEnabled": true,
+                "relativeModeEnabled": true,
+                "showActionMenu": true,
+                "step": "Created_Date_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Created_Date\").asString()}}"
+            },
+            "type": "dateselector"
+        },
+        "text_1": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "18px",
+                                "bold": true
+                            },
+                            "insert": "[Title_Table_View]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Title_Table_View": {
+                            "field": "Title_Table_View",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "number_3": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": true,
+                "measureField": "Price_Per_Ton",
+                "numberColor": "#091A3E",
+                "numberSize": 24,
+                "showActionMenu": false,
+                "step": "Maximum_Price_per_Ton",
+                "textAlignment": "center",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Title_Maximum_Net_Proceeds_t\").asString()}}",
+                "titleColor": "#091A3E",
+                "titleSize": 16,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "number_2": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": true,
+                "measureField": "Quantity Sold (t)",
+                "numberColor": "#091A3E",
+                "numberSize": 24,
+                "showActionMenu": false,
+                "step": "Minimum_Price_per_To_2",
+                "textAlignment": "center",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Sold_Amount\").asString()}}",
+                "titleColor": "#091A3E",
+                "titleSize": 16,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "number_1": {
+            "parameters": {
+                "compact": false,
+                "exploreLink": true,
+                "measureField": "Price_Per_Ton",
+                "numberColor": "#091A3E",
+                "numberSize": 24,
+                "showActionMenu": false,
+                "step": "Minimum_Price_per_To_1",
+                "textAlignment": "center",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Title_Minimum_Net_Proceeds_t\").asString()}}",
+                "titleColor": "#091A3E",
+                "titleSize": 16,
+                "tooltip": {
+                    "customizeTooltip": false
+                }
+            },
+            "type": "number"
+        },
+        "listselector_12": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "USInspection__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Inspec_US_Inspection_St_40_42\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_11": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "SurfaceDefectInspec__1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Inspec_Surface_defect_inspec_St_38_39\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_10": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "PeelRodWire__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Peeling_bar_wire_rod_St_33\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_13": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "SteelGrade__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Internal_Steel_Grade\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_7": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "PrimRollingHomogeniz_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Prim_Rolling_Homogenize_St_15\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_6": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "HZVCheckTreatment__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_HZV_Check_Treatment_St_22_25\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_9": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "Straightening__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Straightening_SurfaceTreat_St_31\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_8": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "PrimRollingInputForm_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Prim_Rolling_Input_format_St_16_18\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_3": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "BusinessArea__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Business_Area\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "text_29": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Steel_Grade]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Steel_Grade": {
+                            "compact": false,
+                            "field": "SteelGrade__c",
+                            "noResultsLabel": "-",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "listselector_2": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "MaterialNumber__c_2",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Material_Number\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "text_28": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Internal_Steel]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Internal_Steel": {
+                            "field": "Field_Internal_Steel_Grade",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "listselector_5": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "HeatTreatment__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Heat_Treatment_St_29_30\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "listselector_4": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "RollingMill__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Rolling_Mill\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "text_25": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Inspec___US_Inspecti]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Inspec___US_Inspecti": {
+                            "compact": false,
+                            "field": "USInspection__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_24": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Inspec__Surface_defe]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Inspec__Surface_defe": {
+                            "compact": false,
+                            "field": "SurfaceDefectInspec__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_26": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "color": "#091a3e",
+                                "size": "16px"
+                            },
+                            "insert": "Individual rows after excluding Rolling Mill and Dimension A and B from COPA that are not the same as the data in the finished goods object"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ]
+                },
+                "interactions": [],
+                "showActionMenu": true
+            },
+            "type": "text"
+        },
+        "text_21": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Heat_Treatment__St_2]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Heat_Treatment__St_2": {
+                            "compact": false,
+                            "field": "HeatTreatment__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_20": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "size": "12px"
+                            },
+                            "insert": "[Field_Inspec_US_Insp]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "left"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Field_Inspec_US_Insp": {
+                            "field": "Field_Inspec_US_Inspection_St_40_42",
+                            "sourceType": "result",
+                            "step": "Get_Translation_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_23": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Peeling_bar__wire_ro]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Peeling_bar__wire_ro": {
+                            "compact": false,
+                            "field": "PeelRodWire__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "text_22": {
+            "parameters": {
+                "content": {
+                    "richTextContent": [
+                        {
+                            "attributes": {
+                                "bold": true
+                            },
+                            "insert": "[Straightening___Surf]"
+                        },
+                        {
+                            "attributes": {
+                                "align": "right"
+                            },
+                            "insert": "\n"
+                        }
+                    ],
+                    "values": {
+                        "Straightening___Surf": {
+                            "compact": false,
+                            "field": "Straightening__c",
+                            "noResultsLabel": "No Value",
+                            "sourceType": "result",
+                            "step": "Get_info_of_selected_1"
+                        }
+                    }
+                },
+                "interactions": [],
+                "showActionMenu": false
+            },
+            "type": "text"
+        },
+        "table_1": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "fixedColumnWidth": 100,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "mode": "fixed",
+                "numberOfLines": 1,
+                "showActionMenu": true,
+                "showRowIndexColumn": true,
+                "step": "Get_info_of_selected_1",
+                "totals": true,
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "table_2": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "maxColumnWidth": 300,
+                "minColumnWidth": 40,
+                "mode": "variable",
+                "numberOfLines": 1,
+                "showActionMenu": true,
+                "step": "Get_Similar_Finished_Goods_IDs",
+                "totals": true,
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "table_3": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "maxColumnWidth": 300,
+                "minColumnWidth": 40,
+                "mode": "variable",
+                "numberOfLines": 1,
+                "showActionMenu": true,
+                "step": "Exclude_data_points__1",
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "table_4": {
+            "parameters": {
+                "borderColor": "#e0e5ee",
+                "borderWidth": 1,
+                "cell": {
+                    "backgroundColor": "#ffffff",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "columnProperties": {},
+                "columns": [],
+                "customBulkActions": [],
+                "exploreLink": true,
+                "header": {
+                    "backgroundColor": "#f4f6f9",
+                    "fontColor": "#16325c",
+                    "fontSize": 12,
+                    "textWrap": true
+                },
+                "innerMajorBorderColor": "#a8b7c7",
+                "innerMinorBorderColor": "#e0e5ee",
+                "interactions": [],
+                "mode": "fittocontainer",
+                "numberOfLines": 1,
+                "showActionMenu": true,
+                "showRowIndexColumn": true,
+                "step": "Similar_Finished_Goo_1",
+                "totals": true,
+                "verticalPadding": 8
+            },
+            "type": "table"
+        },
+        "input_1": {
+            "parameters": {
+                "currentValueColor": "#181818",
+                "displayFormat": "percent",
+                "handleColor": "#0176D3",
+                "increments": 1,
+                "inputType": "slider",
+                "showCurrentValue": true,
+                "showValuesRange": true,
+                "step": "Input_A",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Dimension_A_Range\").asString()}}",
+                "titleAlignment": "left",
+                "titleColor": "#181818",
+                "titleFontSize": 14,
+                "trackColor": "#E5E5E5",
+                "valuesRangeColor": "#747474"
+            },
+            "type": "input"
+        },
+        "input_2": {
+            "parameters": {
+                "currentValueColor": "#181818",
+                "displayFormat": "percent",
+                "handleColor": "#0176D3",
+                "increments": 1,
+                "inputType": "slider",
+                "showCurrentValue": true,
+                "showValuesRange": true,
+                "step": "Input_B",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Dimension_B_Range\").asString()}}",
+                "titleAlignment": "left",
+                "titleColor": "#181818",
+                "titleFontSize": 14,
+                "trackColor": "#E5E5E5",
+                "valuesRangeColor": "#747474"
+            },
+            "type": "input"
+        },
+        "listselector_1": {
+            "parameters": {
+                "compact": false,
+                "displayMode": "filter",
+                "exploreLink": false,
+                "filterStyle": {
+                    "titleColor": "#54698D",
+                    "valueColor": "#16325C"
+                },
+                "instant": true,
+                "measureField": "none",
+                "showActionMenu": false,
+                "step": "MaterialNumber__c_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Field_Material_Number\").asString()}}"
+            },
+            "type": "listselector"
+        },
+        "input_3": {
+            "parameters": {
+                "activeValueColor": "#181818",
+                "displayFormat": "none",
+                "increments": 1,
+                "inputBackgroundColor": "#FFFFFF",
+                "inputBorderColor": "#E5E5E5",
+                "inputType": "typein",
+                "showCurrentValue": true,
+                "showValuesRange": true,
+                "step": "input_1",
+                "title": "{{cell(Get_Translation_1.result, 0, \"Title_Max_no_of_FMN_shown\").asString()}}",
+                "titleAlignment": "left",
+                "titleColor": "#181818",
+                "titleFontSize": 12,
+                "valuesRangeColor": "#747474"
+            },
+            "type": "input"
+        }
+    }
+}

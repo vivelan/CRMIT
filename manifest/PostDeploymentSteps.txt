@@ -1,0 +1,755 @@
+/*********************************************************************************************************************
+Release : R1- HyperCare
+*********************************************************************************************************************/
+US-4536:
+Activate the latest flow version deployed: AutomatePricebookSelectionUponOpport
+setup --> flow --> select AutomatePricebookSelectionUponOpport and activate latest flow.
+
+US-6144:
+Goto Setup --> Apex Classes --> click --> Schedule Apex --> Job Name SalesplanningbatchScheduled, Select Apex class SalesplanningbatchScheduled, Frequency --> Monthly, on day 7, Start date - current date, End Date - future date( 5 years after), preferred time - 12 A M. [As per US-2562]
+Click Save.
+
+US-6376 / 3252 / 6244 / 3378 / 6377 / 6378 / 6416 / 3434 / 3377 / 3374:
+If the two translation datasets have already been created, and they both exists within the "Translations" folder, the manual step consists in updating the dataset.
+The files have been updated on all user stories, so it is enough to update the two datasets using the excel from any of the stories only once.
+
+CREATE NEW DATASETS
+Activate the Vertical_Translation and Flat_Translation datasets by manually uploading the CSV files attached to the story into a new dataset by doing the following steps:
+1. Navigate to the Analytics studio
+2. Click on the "Create" button on the top-right side of the screen
+3. Select the data set option
+4. Select the CSV file provided in the user story
+5. Select the "Translations" folder as the folder to create the translation datasets in 
+6. Click next two times
+7. Click on "Upload File"
+8. Repeat all these steps for the other CSV file
+
+UPDATE DATASETS (THIS STEPS ARE TO BE FOLLOWED IN CASE THE TWO DATASETS HAVE ALREADY BEEN CREATED)
+1. Navigate to the "Translations" folder
+2. Click on the downward arrow next to the dataset name and select the "Edit" option
+3. Click on the upward arrow on the top-right side of the screen (on the left of the little gear icon)
+4. Select the corresponding CSV file uploaded on the user story and click next
+5. Click next again
+6. Click "Upload file"
+
+US-4658
+All sites -> SAG Customer Portal ->Builder -> Select Home page -> Drag and drop CRM analytics dashboard from components and place in Content Header. Select Dashboard -'Order Status' and height 1000.Check Show sharing icon and open links in new window. Preview and publish.
+
+BUG-6394 / 6390 / US-6449
+Need to change the scale and precision of a few fields that are pulled from Salesforce CORE to Analytics. Steps below:
+1. Navigate to the Analytics studio
+2. Open the data manager (button found in the lower left corner of the screen)
+3. Navigate to the "Connections" in the data manager
+4. Select the Salesforce connection
+5. Click on the "Sales Planning" object pulled in the connection (click on "SalesPlanning__c" hyperlink)
+6. Click on the little pencil icon on the right of each of the following fields
+ 	- Forecast Sold Amount
+	- Actual Sold Amount
+	- Delta Net Proceeds
+	- Forecast Net Proceeds
+	- Actual Net Proceeds
+7. Change the scale value to 3 and precision to 15
+8. Close the menu
+9. Run manually the Sales Planning connection by clicking on the little downward arrow on the right of the status column and click the "Run Data Sync" button
+10. Navigate to the recipe section
+11. Run the Prepare Net Proceeds data" recipe
+12. After the recipe has started, run the "Update sharing inheritance to all datasets" recipe
+
+US-3252
+- Navigate to the recipe sections in CRM Analytics
+- Run the "Clean Cost of Production R-Levels data"
+- Run the "Update sharing inheritance to all datasets"
+
+
+2. Delete the field 'InternalCostOfProduction__c' from Opportunity Product everywhere except Production org. We may require the field for old data reference for existing OLIs in the active system.
+
+QA Developer Access: 
+Add IP Range from 0.0.0.0 to 255.255.255.255 to SAG Marketing, SAG Sales and SAG Quality profiles for QA Org only.
+
+US-6779
+Recreate the scheduled job for SalesPlanningbatchScheduled
+Go to Setup --> check for apex classes --> Click on "Schedule Apex" Button
+--> Keep Job Name SalesPlanningbatchScheduled 
+--> Keep class SalesPlanningbatchScheduled
+--> Frequency - Monthly
+--> on day 7
+
+US-4680
+From Setup -> enter Email Footers -> select Email Footers -> 
+1. In All Footer, Delete SAG External.
+2. In Footer Settings ,deselect checkbox of Add footer to emails sent through external email services -> Save. 
+
+US-5335, US-5313
+"Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+US-4954
+From Setup -> flow --> Activate the highest version available for the below flows:
+1. Deactivate_Account
+2. Deactivate_Account_Scheduled
+
+US-4941
+1) Delete the field "Sex__c" from Contact Object.
+
+US-4957
+From Setup -> Duplicate Rules -> Activate below Duplicate Rule -> 
+1. DH Account Name and Address Duplicate Rule.
+
+US-5312 , US-7664
+1. Add Translate value for  Navigation Menu :
+Setup -> User Interface -> Translation workbench -> Translate ->
+Select German Item as the Language.-> Select Navigation Menu Item as the Setup Component -> click on + sign of Dillinger myE-Service ->
+Add below translation value for  Master Navigation Menu Item Name -> Save
+Master Navigation Menu Item Name ->	 Navigation Menu Item Name Translation
+   CCM	                             CCM
+   Commercial documents	             Kaufmännische Dokumente
+   Complaints	                       Reklamation
+   Documents	                       Dokumente
+   Help	                             Hilfe
+   Order status	                     Auftragsstatus
+   Position status	                 Positionsstatus
+   Production status 	               Produktionsstatus
+   Project status	                   Projektstatus
+   Status report download	           Statusreport Download
+   Status report mail delivery	     Statusreport Mailversand
+   Tutorials	                       Tutorials
+
+2. Publish site :
+"Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+
+US-5498
+PD task in QA: Setup-> Object Manager -> case -> Page layout ->Delete 'Case Reclamation Layout' (as Case Complaint layout is created.)
+
+
+US-7695 
+Delete the Validation Rule "ValidationOnCustomerAccountType" on Account.
+
+Bug US-7671 : 
+Delete the static resources named RedCross and GreenCheck.
+
+
+US-5323
+1. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Workspace" of Dillinger myE-Service -> Click on Administration -> Login & Registration and under 'Registration Page Confirmation' select 'Experience Builder Page' from the dropdown and put 'User registration' (/user-registration) as the value.
+2. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+
+US- 5132,5136
+1. Goto Setup --> Goto object manager --> Goto Prakula object 
+    click Feilds and Reletionship 
+    On top there is a button set history tracking 
+    enable all the fields 
+2. Goto Profile - SAG Sales
+    click edit 
+    under Standard Object Permissions
+    enable Create Read and Edit check boxes for Praekula Delivery Instructions
+    Repeat the steps for SAG Quality Profile
+US-4911/bug - US -7905
+Please delete the validation rule named ValidationOnCustomerAccountType on Account.
+
+US-6626 :
+1. Goto Setup --> search Sharing Settings and click -> edit Organization-Wide Defaults -> update Default Internal Access to Private for LV Position object -> Save.
+
+US-7895 
+1. Upload company logo : 
+  Step 1. Download DILLINGER_Logo_schwarz_250px image from attached file of US-7895 (https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/7895/files).
+  Step 2. From Setup, in the Quick Find box, enter All Sites, and then select All Sites.
+     Next to 'Dillinger myE-Service' site name, click Workspaces.
+     Select Administration, and then select Login & Registration.
+     To upload a logo from a file, take these steps.
+       For Logo Type, from the dropdown, select File.
+       For Logo File, click Choose File, then browse your local drive to upload a file, then select DILLINGER_Logo_schwarz_250px.png (downloaded image from step 1)
+       click on Save button.
+  2. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+ 
+US-5329 / BUG-8797
+
+1) Upload both English and german document in salesforce org under Files -> Upload Files -> Open File -> Click Public Link -> select expiration date
+if required -> create link -> copy and update link in Custom Label -> DocumentLink both for english and german respectively.Attached Updated document 'US-5329_PD_steps_Updated' at US level for detailed steps.
+
+US-7426
+
+
+1.Query - select Id,name,profile.name from user where profile.name ='Salesforce API Only System Integrations'
+Assign Permission sets 'SHS Integration User Permission Set' and 'SHS Integration Standard Permission' to the queried users.
+2. Go to Profile -> Delete 'SHS Integration User' Profile Only in Production org.(Updated based on Sams confirmation to be deleted only in production)
+ 
+US-4943
+
+Delete the compliance check (formula) field on contact.
+
+US-7839
+Note: Before performing below post deployment steps, please ask CRM analytics developer to create a dashboard -'Test Position Status' in the org.
+1. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> On home page, drag 'CRM Analytics Dashboard' from Components (thunder symbol at the left) .
+2. Click on the component, this gives a pop-up -> Select 'Test Position Status' under Dashboard -> Click on Publish.
+
+US-7210:
+1. Take backup of data in the below fields for Production deplyment. This step can be ignored for sandbox deployments.  
+
+US-5333
+Update myEServiceLoginUrl label value:
+Step 1 : From Setup, in the Quick Find box, enter All Sites, and then select All Sites.
+     Next to 'Dillinger myE-Service' site name then Copy Url.
+Step 2: From Setup, in the Quick Find box, enter Custom Labels, and then select Custom Labels
+      open myEServiceLoginUrl label -> click on Edit button -> paste copied url in Value textbox -> save.
+
+US-8459
+1. Delete the field - Texts for Selection Sales , Commercial Offer from Opportunity Product object.
+
+BUG-8344
+1.  Delete the field  with API name 'SuppliedSegment__c' from Case Object.
+2. Update myEServiceLoginUrl custom label value:
+Step 1: From Setup, in the Quick Find box, enter All Sites, and then select All Sites. Copy the URL for 'Dillinger myE-Service' site.
+Step 2: From Setup, in the Quick Find box, enter Custom Labels, and then select Custom Labels. Open 'myEServiceLoginUrl' label -> click on Edit button -> paste copied url from step 1 in Value textbox -> Click save.
+
+US-8352
+1. Publish the Dillinger myE-Service community
+
+BUG-8495 - 1 time activity
+Setup -> Support Settings -> Enable 'Show Closed Statuses in Case Status Field' -> save.
+
+BUG-8263
+1. Goto -> Setup -> Profile -> Customer Community Plus Login User -> Enabled Flow Access -> Add 'Portal Term Condition Flow' -> Save
+2.  Repeat above step with Profile -> Customer Community Plus User
+
+BUG-8591
+Remove SuccessorCustomerNumber__c field from Account Object
+
+BUG-8357
+Remove Payment_Term__c from Account Object
+
+US-8630
+activate the maximum version of the flow "PortalTermConditionFlow"
+
+
+US-8215 - 1 time activity for each org
+Please execute the steps mentioned in the US solution design in QA org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/8215/activity
+
+US-8352 - 1 time activity for each org
+"Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+
+US-7437
+setup - flow
+Activate flow - Check_Required_Fields_on_Quote_Creation
+
+US-4955 - 1 time activity
+Setup -> Data Integration Rules -> Activate 'Geocodes for Account Billing Address' -> Save
+
+US-4955 - 1 time activity
+Setup -> Data Integration Rules -> Activate 'Geocodes for Account Billing Address' -> Save
+
+US-5630 
+Setup -> Custom Metadata - > Visit Report Settings - > Create the record called Visit Report Settings - > Save
+
+1) Setup -> Data Integration Rules -> Activate 'Geocodes for Account Billing Address' -> Save
+2) Settings -> Custom settings -> Org Wide Settings -> Click manage records and -> create new record 'SAGDHAddress' -> populate
+DH Address->	Werkstraße 1, 66763 Dillingen and SAG Address ->	Bismarckstraße 57-59, 66333 Völklingen
+3)1. Goto Setup --> search Sharing Settings and click -> edit Organization-Wide Defaults -> update Default Internal Access to Public Read Only for Visit object -> Save.
+
+US-6622 - 1 time activity for each org
+1. Create a Dashboard 'Documents dashboard' in DH Omnichannel Flode in alalytics studio.
+2. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> On Commercial Document page, drag 'CRM Analytics Dashboard' from Components (thunder symbol at the left) in the content section .
+3. Click on the component, this gives a pop-up -> Select 'Documents dashboard' under Dashboard -> Click on Publish.
+
+US-5149 , US-US-8265
+1. 
+Go to Setup --> Public Group --> Create new Group -->
+Set Label as 'DocgenDocumentTemplateLibraryGroup'
+Set Group Name as 'DocgenDocumentTemplateLibraryGroup'
+Check Grant Access Using Hierarchies to true 
+Select below values from Available Members and Move them to Selected members column
+1. All Customer Portal Users
+2. All Internal Users
+-->Save
+ 
+Go to App Launcher --> Select Files --> Select Libraries -->
+Click on New Library -
+ 
+Name Docgen Document Template Library -->
+-->Click Save
+-->open Library
+-->Click on Manage Members
+ 
+-->Search public group --> DocgenDocumentTemplateLibraryGroup  
+--> Access - Viewer
+-->Click Add
+
+2.Please download Post Deployment Step.docx from FILES of US-5149 story, open file and execute the steps mentioned in the Post Deployment Step.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/5149/files
+
+US-8631, BUG-10783 - 1 time activity for each org
+1. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> On Commercial Document Analytics page drag 'CRM Analytics Dashboard' from Components (thunder symbol at the left) in the content section .
+2. Click on the component, this gives a pop-up -> Select 'Documents dashboard' under Dashboard 
+3. Enter 800 in the Height text box
+4. Check "Open Links in New windows"
+5. Click on Publish.
+
+Bug-8937 - 1 Time activity
+
+1) Setup -> Object Manager -> LV Position -> Fields & Relationships:
+Delete 77 Fields as highlighted in yellow color in 'PD step' file added on BUG-8937 https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/8937/
+
+US-6607
+- Analytics Studio -> Data Manager -> Connections
+- Add the "Language" and "Penultimate Login" fields to the "Users" connection
+- Navigate to the "Recipes" section
+- Add a schedule to the "Create Users Dataset" dataset
+- Click on "Event Based"
+- Save the schedule
+
+BUG-9252
+- Setup -> Translate 
+ -> Select German from language dropdown 
+ -> Select "Path Setup Rich Text" from setup Component 
+ 1. Add this german translation Text <p>Bitte geben Sie die folgenden Felder an:</p> <ul> <li>Typ</li> <li>Herausgeber</li> <li>Bezeichnung</li> <li>Sprachen</li> <li>Zusatz Beziechnung</li> <li>Revision</li> <li>Ausgabedatum</li> </ul>
+    against the Master Path Step Rich Text starts with <p> Please fill the following fields</p><ul><li>Type</li>
+
+ 2. Add this german translation Text <p>Bitte geben Sie die folgenden Felder an:</p> <ul> <li>kaufm. Stellungnahme</li> <li>Datum Stellungnahme Vertrieb</li> <li>interne Anmerkungen Vertrieb</li> </ul>
+    against the Master Path Step Rich Text starts with <p> Please fill the following fields</p><ul><li>Remark Sales</li>
+
+ 3. Add this german translation Text <p>Bitte geben Sie die folgenden Felder an:</p> <ul> <li>KZ Druck</li> <li>KZ voll</li> <li>technische Stellungnahme</li> <li>Datum Stellungnahme QW</li> <li>interne Anmerkungen QW</li> </ul>   
+   against the Master Path Step Rich Text starts with <p> Please fill the following fields</p><ul><li>Flag Print</li>
+   
+ 4. Click save button  
+ 
+US-4983------ 1 time Activity
+Setup -> translate -> German -> Path step Rich Text
+ Against available English Translation -This status value can only be set once the 'Summary' and the 'Next Steps' fields have been filled in. As soon as this status value is set, further editing is no longer possible.
+ Update German translation - Dieser Statuswert kann nur dann gesetzt werden, wenn die Felder 'Zusammenfassung' und 'Nächste Schritte' ausgefüllt sind. Sobald dieser Statuswert gesetzt ist, ist eine weitere Bearbeitung nicht mehr möglich.
+ Against available English Translation - This status value is automatically set as soon as the date in the field 'Visit Date End' is expired.
+ Update German translation - Dieser Statuswert wird automatisch gesetzt, sobald das Datum im Feld 'Ende des Besuchs' überschritten ist.
+ Against available English Translation - This status value is initially set when a new visit is recorded in the system. All mandatory fields have to be filled in.
+ Update German translation - Dieser Statuswert wird initial gesetzt, wenn ein neuer Besuch im System erfasst wird. Hierbei sind alle Pflichtfelder auszufüllen.
+ Save
+
+US-8965
+1.Please download Post Deployment Step.docx from FILES of US-8965 story, open file and execute the steps mentioned in the Post Deployment Step.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/8965/files
+
+US-8292
+1. Delete Steel_Grade__c field from the FinishedGoods__c object.
+2.Click setup-> Developerconsole
+- Click Debug menu -> Open Execute Anonymous window
+- Paste the below script and execute one time
+ List<SteelGrade__c> gradesList = [SELECT id,name from SteelGrade__c order by createddate desc];
+        Map<String,Id> gradeMap = new Map<String,Id>();
+        for(SteelGrade__c grade:gradesList){
+            if(!gradeMap.containsKey(grade.name)){
+                gradeMap.put(grade.name,grade.id);
+            }else{
+                gradeMap.put(grade.name,null);
+            }
+        }
+        List<FinishedGoods__c> finishedGoods = new List<FinishedGoods__c>();
+        for(FinishedGoods__c good:[Select id,name,SteelGradeLookup__c,SteelGrade__c from FinishedGoods__c where SteelGrade__c!=null and Product__r.IsActive=true]){
+            if(gradeMap.containsKey(good.SteelGrade__c) && String.isNotBlank(gradeMap.get(good.SteelGrade__c)) ){
+                good.SteelGradeLookup__c = gradeMap.get(good.SteelGrade__c);
+                finishedGoods.add(good);
+            }
+        }
+        if(finishedGoods.size()>0){
+            update finishedGoods; 
+        }
+
+US-8916 
+- Setup -> object manager->Delivery Instructions
+   Delete FlagFull__c field 
+
+US-9313, US-8707
+   Setup -> object manager->Delivery Instructions -> Validation Rules 
+   Delete this validation rule -> Status_Change_Validation 
+   
+   US-5098
+1.Please download Post Deployment Step.docx from FILES of US-5098 story, open file and execute the steps mentioned in the Post Deployment Step.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/boards/774/details/5098/files
+US-4983 - 1 time activity
+
+Setup -> Flows -> VisitScheduledFlow -> Activate the flow
+US-5342
+Note: 1 and 2 are for orgs beyond QA
+1. Download the file 'download_button' from US.
+2. Go to 'Files' -> 'Libraries' -> 'Asset Library' -> 'Upload Asset File' and upload the downloaded file from 1. Open the uploaded file and save the URL.
+3.From setup, search 'All sites' -> Click on Builder for SAG Customer Portal -> Settings (gear icon on the left) -> Security& Privacy -> Click on 'Add trusted site' -> put 'Download Image' under Name and the saved url (from 2) under URL -> mark it active and save -> Click on 'Publish'.
+US-8508
+Goto Setup --> search Sharing Settings and click -> edit Organization-Wide Defaults -> update Default Internal Access to Private for Visit object -> Save.   
+
+US-8018
+1. - Setup -> object manager->Delivery Instructions -> Buttons, Links, and Actions ->
+   delete Create Side Letter Client (Type - Detail Page Button)and Create Side Letter (Type - Detail Page Button) button.
+2. Please download Post Deployment Step 8018.docx from FILES of US-8018 story, open file and execute the steps mentioned in the Post Deployment Step.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/8018/files
+
+
+US-7211 - 1 time
+ Settings -> Flow -> ValidationCheckAppointeddatevsRMUD -> Activate Flow
+
+ US-3864
+1.Setup -> User Interface -> Translation workbench -> Translate ->
+Select German Item as the Language.-> Select Navigation Menu Item as the Setup Component -> click on + SAG Customer Portal ->
+Add below translation value for  Master Navigation Menu Item Name -> Save
+Support -> Hilfe
+
+2."Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of SAG customer portal -> Click on Publish.
+US-10038
+1."Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+2. Please download Post Deployment Step 10038.docx from FILES of US-10038 story, open file and execute the steps mentioned in the Post Deployment Step 10038.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/10038/files
+
+Post Deployment Step 10038.docx
+
+US-6623
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> click on 'Recipes' 
+2. Find 'Create Users Dataset' and click on the dropdown against it -> click on 'Schedule'
+3. Select 'event based' -> select 'The Salesforce local connection syncs.' and hit Save
+4. Run the recipe using 'Run now' from the dropdown against the recipe
+
+US-7211 - 1 time
+ Settings -> Flow -> ValidationCheckAppointeddatevsRMUD -> Activate Flow
+
+BUG-10037
+1. Setup->Permission set->CRM Analytics Customer Portal Access
+2. Edit -> Enable "Download CRM Analytics Data" ,"View CRM Analytics on Experience Cloud site pages"
+3. Click Save
+4. Make sure portal user have these two permission sets are assigned "DH Customer Portal Access" and "CRM Analytics Customer Portal Access"
+5. Make sure portal user have this "CRM Analytics For Community Members" Permission set license assignment
+
+BUG-10471 (**Please check everytime when DH site gets published***)
+Whenever DH Site is Published please do the below PD task:
+1. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Workspace" of Dillinger myE-Service -> Click on Administration -> Login & Registration and under 'Registration Page Confirmation' select 'Experience Builder Page' from the dropdown and put 'User registration' (/user-registration) as the value.
+2. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+
+US-9976 - 1 time
+"Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+
+US-8599
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> click on 'Recipes'.
+2. Find 'Update sharing inheritance to all datasets' and click on the dropdown against it -> click on 'Run now'.
+US-8677
+1. Run the Salesforce local connection once in Analytics
+2. Run the Calculate FMN Cost recipe once
+3. Set the schedule of the Calculate FMN Cost recipe as running every day (except Saturday and Sunday) at 6:00 am
+
+
+ US-9406
+ 1. Please download Post Deployment Step 9406.docx from FILES of US-9406 story, open file and execute the steps mentioned in the Post Deployment Step 9406.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/9406/files
+
+
+US-9937------ 1 time Activity
+1. Setup -> translate -> German -> Path step Rich Text(There will be 2 same values in below 3 scenarios , 1 on visit and 1 on visit__c)
+ Against available English Translation -This status value can only be set once the 'Summary' and the 'Next Steps' fields have been filled in. As soon as this status value is set, further editing is no longer possible.
+ Update German translation - Dieser Statuswert kann nur dann gesetzt werden, wenn die Felder 'Zusammenfassung' und 'Nächste Schritte' ausgefüllt sind. Sobald dieser Statuswert gesetzt ist, ist eine weitere Bearbeitung nicht mehr möglich.
+ Against available English Translation - This status value is automatically set as soon as the date in the field 'Visit Date End' is expired.
+ Update German translation - Dieser Statuswert wird automatisch gesetzt, sobald das Datum im Feld 'Ende des Besuchs' überschritten ist.
+ Against available English Translation - This status value is initially set when a new visit is recorded in the system. All mandatory fields have to be filled in.
+ Update German translation - Dieser Statuswert wird initial gesetzt, wenn ein neuer Besuch im System erfasst wird. Hierbei sind alle Pflichtfelder auszufüllen.
+ Save
+
+ 2. Setup -> Flows -> Activate below autolaunched flows
+ AddressUpdateOnVisitBasedOnVisitType
+ Visit Internal Attendee Authorization Reactivate Users
+ Visit Internal Attendee Authorization deletion
+ Visit Internal Attendee Authorization
+ UpdateVisitStatusField
+ VisitScheduledFlow
+
+ 3. Object Manager -> Visit__c -> Status__c
+ Deactivate 'Cancelled' picklist value.
+ 4. Object Manager -> ChecklistQuestionResponse__c
+Field -> Visit__c (Need to update its lookup from Visit to Visit__c)
+create new field Visit__c with same api as before and refer now to new Visit__c.
+
+US-9622
+1. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> On home page Content header section, drag 'CRM Analytics Dashboard' from Components (thunder symbol at the left) .
+2. Click on the component, this gives a pop-up -> Select 'Status Overview - Homepage' under Dashboard -> Click on Publish.
+
+US-8030
+Please download Post Deployment Step 8030.docx from FILES of US-8030 story, open file and execute the steps mentioned in the Post Deployment Step 8030.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/8030/files
+
+US-9063 - 1 time Activity
+Settings -> Permission Set -> SystemAdmin Permission Set -> Query All Files -> Enable -> Save.
+View All data -> Enable -> Save.
+
+US-5326
+Click setup-> Developerconsole
+- Click Debug menu -> Open Execute Anonymous window
+- Paste the below script and execute one time
+Datetime sysTime = System.now().addMinutes(1);
+String cronExpression = '' + sysTime.second() + ' ' + sysTime.minute() + ' ' + sysTime.hour() + ' ' + sysTime.day() + ' ' + sysTime.month() + ' ? ' + sysTime.year();
+System.schedule('ScheduleUsernameUpdate', cronExpression, new ScheduleUsernameUpdate()); 
+
+US-7721V2
+
+Step 1 only perform in Production. 
+1. Create record on Custom setting. 
+  1.Settings -> Custom settings -> Org Wide Settings -> Click manage records and -> create new record for 'Email Address for mill tour' -> 
+  Name : Email Address for mill tour, EmailAddress : gilles.huff@dillinger.biz; ws-sicherheitsleitstelle-tor1@dillinger.biz; anne.dewes@dillinger.biz; gertrud.streichert@shsservices.org; wolfram.hoelbling@dillinger.biz; danny.vanderhout@stahl-holding-saar.de; vt-reise@dillinger.biz
+  -> click on Save
+
+Step 2 only Perform in QA org.
+In QA org , Email Address for mill tour Record is already there so Please update Email Address.
+2. Create record on Custom setting.
+ 1.Settings -> Custom settings -> Org Wide Settings -> Click manage records and -> Edit 'Email Address for mill tour' -> 
+remove exusting values and add below value in EmailAddress : 
+shasgoswami@deloitte.com;eoosterhuis@deloitte.de;ahiltl@deloitte.de;ipaalyam@deloitte.com
+ -> click on Save
+
+Step 3: Perform in other org except Production and QA.
+1. Create record on Custom setting. 
+  1.Settings -> Custom settings -> Org Wide Settings -> Click manage records and -> create new record for 'Email Address for mill tour' -> 
+  Name : Email Address for mill tour, EmailAddress : shasgoswami@deloitte.com;eoosterhuis@deloitte.de;ahiltl@deloitte.de;nbutle@deloitte.com
+  -> click on Save
+
+BUG-10788
+1. Navigate to the Analytics Studio
+2. Navigate to the data manager
+3. Navigate to the recipes
+4. Run the "Calculate FMN Cost"
+
+US-8931
+1. Download downloadbuttonpng.png file from https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/8931/files
+2. Go to App Launcher -> search Files -> click on Libraries -> Click on Asset File -> click on Upload Asset File button -> select downloadbuttonpng.png file from system -> Click on Open button -> Click on Done ->
+Select checkbox of 'Let guest users see this asset file on public' and 'login pages and Make asset file available to Salesforce org users' -> Save.
+
+Bug - 10927 - 1 time activity 
+Setup -> Flows -> VisitScheduledFlow -> Activate and save.
+
+US-5326 
+1. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Workspace" of Dillinger myE-Service -> Click on Administration -> Click on Emails and  Go to Email Templates Section,
+under 'New Email Address Change Verification' -> click on seach icon -> Search 'myE-Service: change of email address' in search box ->
+select 'myE-Service: change of email address' -> click on Save.
+
+US-9658
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> click on 'Recipes' 
+2. Find 'Prepare orders and stock data' and click on the dropdown against it -> click on 'Run Now'.
+3. Do this for below recipes one after the other.
+Prepare FER data
+Prepare COPA data
+Prepare Risk Snapshot data
+Update sharing inheritance to all datasets
+
+US-8030
+1. Please download Post Deployment Step 8030.docx from FILES of US-8030 story, open file and execute the steps mentioned in the Post Deployment Step 8030.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/8030/files
+2. Setup -> Custom Metadata Types- > Click on Manage record link of Dynamic Content -> Edit QuoteInfoBoxDE -> Select all value of Content -> do ctr + X (cut the values)-> ctr + v (paste same value in content textbox)-> Save.
+   Setup -> Custom Metadata Types- > Click on Manage record link of Dynamic Content -> Edit QuoteInfoBoxEN -> Select all value of Content -> do ctr + X (cut the values)-> ctr + v (paste same value in content textbox)-> Save.
+   Setup -> Custom Metadata Types- > Click on Manage record link of Dynamic Content -> Edit QuoteInfoBoxFR -> Select all value of Content -> do ctr + X (cut the values)-> ctr + v (paste same value in content textbox)-> Save.
+  
+Bug-11168
+1. Please download Post Deployment Step 11168.docx from FILES of US-11168 story, open file and execute the steps mentioned in the Post Deployment Step 11168.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/11168/files
+
+US-7935 
+***Repeat the following steps for all the instance except PROD.***
+Step 1. Go to app launcher, search for Groups
+Step 2. New---> Name:  'Sales - Wind Power, Construction'
+  Description: 'This group includes all employees of the Sales Department Wind Power & Construction.'
+  Access Type: Private
+  Click next and add Ádám Kristóf in manage member and assign the role as Manager.
+  
+Step 3. Reapeat step 1 to 2 Name: 'Sales - Energy' 
+	Description: 'This group includes all employees of the Sales Department Energy Transmission & Processing.'
+	Access Type: Private
+	Click next and add Ádám Kristóf in manage member and assign the role as Manager.
+	
+Step 4. Reapeat step 1 to 2 Name: 'Sales - Machinery, Protection'
+	Description: 'This group includes all employees of the Sales Department Machinery & Construction Equipment, Protection Steel.' 
+	Access Type: Private
+	Click next and add Ádám Kristóf in manage member and assign the role as Manager.
+ 
+Step 5. Reapeat step 1 to 2 Name: 'Sales - SSC' 
+	Description: 'This group includes all employees of the Sales Department Steel Service Center & Plate Processing.'
+	Access Type: Private
+	Click next and add Ádám Kristóf in manage member and assign the role as Manager.
+ 
+Step 6. Reapeat step 1 to 2 Name: 'Marketing - Wind Power, Construction' 
+	Description: 'This group includes all employees of the Marketing Department Wind Power & Construction.'
+	Access Type: Private
+	Click next and add Erwin Oosterhuis in manage member and assign the role as Manager.
+ 
+Step 7. Reapeat step 1 to 2 Name: 'Marketing - Energy, Protection' 
+	Description: 'This group includes all employees of the Marketing Department Energy Transmission & Processing, Protection Steel.'
+	Access Type: Private
+	Click next and add Erwin Oosterhuis in manage member and assign the role as Manager.
+ 
+Step 8. Reapeat step 1 to 2 Name: 'Marketing - Machinery, SSC' 
+	Description: 'This group includes all employees of the Marketing Department Machinery & Construction Equipment, Steel Service Center & Plate Processing.'
+	Access Type: Private
+	Click next and add Erwin Oosterhuis in manage member and assign the role as Manager.
+	
+Step 9. Reapeat step 1 to 2 Name: 'Marketing - Brand, IT' 
+	Description: 'This group includes all employees of the Marketing Department Brand Management, IT-Tools & External Relations.'
+	Access Type: Private
+	Click next and add Erwin Oosterhuis in manage member and assign the role as Manager.
+	
+Step 10. Reapeat step 1 to 2 Name: 'Dillinger - All Salesforce Users' 
+	Description: 'This group is for all Salesforce users from Dillinger. Within this group, relevant 
+	information for all users will be shared.'
+	Access Type: Public
+	 
+***NOTE: REPEAT THE ABOVE STEPS ONLY IN PRODUCTION WITH THE BELOW MENTIONED GROUP MEMBER CHANGES:***
+Replace Ádám Kristóf with Marc Heitz as the Group Manager
+Replace Erwin Oosterhuis with Stefanie Digeon as the Group Manager
+
+US-11254
+add translation for Additional Recipient and help Text if not present.
+1. Setup -> User Interface -> Translation workbench -> Translate ->
+Select below filter citeria
+Language	-> German
+Setup Component	-> Flow
+Flow Type	-> Screen Flow
+Flow	-> DH Email Template for mill tour
+Flow Component -> Screen Component
+Flow Version	-> Select latest version(higher number) from dropdown
+Screen -> EnterEmailAddressScreen
+Screen Component	-> AdditionalRecipients
+Aspect -> Field Label
+Add  Zusätzliche Empfänger  in Field Label Translation textbox -> Save
+then change Aspect	-> Help Text
+Add  Um mehrere Empfänger gleichzeitig hinzuzufügen, geben Sie bitte die verschiedenen E-Mail-Adressen nur durch ein Komma getrennt an. Beispiel: Adresse1,Adresse2,Adresse3
+in Field Label Translation textbox -> Save
+
+BUG-10974
+1. Navigate to the Analytics Studio
+2. Click on data manager
+3. Navigate to the connections
+4. On the local salesforce connection update the "ContentVersion" object and add the "Document_Download_Icon_URL__c" field
+5. Run the local salesforce connection
+6. Navigate to the list of recipes
+7. Run the "Update sharing inheritance to all datasets"
+
+
+US-8030
+!. Got to the Task Object > Field & Relationships > Set Field History > Enable check box for Urgent field.
+US-11130
+"Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Click on Publish.
+
+US-7974 - 1 Time Activity
+1. Setup -> Flows ->Update LVPosition ProductionKey Summary -> Activate the flow.
+
+US-8267
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> click on 'Recipes'.
+2. Find 'Update sharing inheritance to all datasets' and click on the dropdown against it -> click on 'Run now'.
+3. Go to "All Sites" in setup and click on "Builder" of Dillinger myE-Service -> On Project Status page (Report List), drag 'CRM Analytics Dashboard' from Components (thunder symbol at the left) .
+4. Click on the component, this gives a pop-up -> Select 'Status Overview - Project Report' under Dashboard -> Change the hieght to 850, Check 'Show Sharing Icon' -> Click on Publish.
+US-8483
+1. Go to setup and search for Publisher Layout
+2. Click Edit on SAG Global layout
+3. Add 'New Opportunity' at the first postion under 'Salesforce Mobile and Lightning Experience Actions' section and Save it.
+
+US-11525
+
+Setup > ObjectManager > Visit__c > fields and Relationships > Delete Active__c field
+
+US-7930
+Setup > ObjectManager > Task > fields and Relationships > Field History . enable Urgent > save
+
+Bug-11479 V1 & BUG-11543
+1. Please download Post Deployment Step 11479.docx from FILES of 11479 story, open file and execute the steps mentioned in the Post Deployment Step 11479.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/11479/files
+
+US-9881
+Update correct domain per org in label:
+From Setup, in the Quick Find box, enter Custom Labels, and then select Custom Labels
+open LinkToSPUrl label -> click on Edit button -> update correct domain url as per login org (https://stahl-holding-saar--qa.sandbox.lightning.force.com) only in Value of textbox, please make sure that /lightning/n/SalesPlanning remain as it is only update domain value.-> save.
+US-8267
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> click on 'Recipes'.
+2. Find 'Update sharing inheritance to all datasets' and click on the dropdown against it -> click on 'Run now'.
+3. Go to "All Sites" in setup and click on "Builder" of Dillinger myE-Service -> On Order Status page (Report List), drag 'CRM Analytics Dashboard' from Components (thunder symbol at the left) in content section .
+4. Click on the component, this gives a pop-up -> Select 'Status Overview - Order Report' under Dashboard -> Change the hieght to 850, Check 'Show Sharing Icon' -> Click on Publish.
+
+US-9225
+***Repeat the following steps for all instances except PROD.***
+
+Step 1. Go to app launcher, search for Groups
+
+Step 2. New---> 
+   Name: 'Vertriebsbereich 1-330'
+   Description: 'Diese Gruppe umfasst alle Mitarbeiter des Vertriebsbereich 1-330, SAP-Partnerrolle ZK und ZM - Geschäftsfeld "Ziehgüten & Federstahl".'
+   Access Type: Private
+   Click next and add Ádám Kristóf and Erwin Oosterhuis as the manage members and assign the role as Managers.
+
+Step 3. Repeat steps 1 to 2 for:
+   Name: 'Vertriebsbereich 2-320'
+   Description: 'Diese Gruppe umfasst alle Mitarbeiter des Vertriebsbereich 2-320, SAP-Partnerrolle ZK und ZM - Geschäftsfeld "Massivumformung & Wälzlagerstahl".'
+   Access Type: Private
+   Click next and add Ádám Kristóf and Erwin Oosterhuis as the manage members and assign the role as Managers.
+
+Step 4. Repeat steps 1 to 2 for:
+   Name: 'Vertriebsbereich 3-360'
+   Description: 'Diese Gruppe umfasst alle Mitarbeiter des Vertriebsbereich 3-360, SAP-Partnerrolle ZK und ZM - Geschäftsfeld "Massivumformung & Wälzlagerstahl".'
+   Access Type: Private
+   Click next and add Ádám Kristóf and Erwin Oosterhuis as the manage members and assign the role as Managers.
+
+Step 5. Repeat steps 1 to 2 for:
+   Name: 'QW Neunkirchen'
+   Description: 'Diese Gruppe umfasst alle Mitarbeiter des Qualitätswesens Neunkirchen, SAP-Partnerrolle ZQ und ZS - Geschäftsfeld "Kaltstauch, Federstahl und SZO"'
+   Access Type: Private
+   Click next and add Erwin Oosterhuis and Ádám Kristóf as the manage members and assign the role as Managers.
+
+Step 6. Repeat steps 1 to 2 for:
+   Name: 'QW Burbach'
+   Description: 'Diese Gruppe umfasst alle Mitarbeiter des Qualitätswesens Burbach, SAP-Partnerrolle ZQ und ZS - Geschäftsfeld "Ziehgüten (SZW; Reifendraht; Weiche Güten (ohne B10); Weiche Güten - B10)"'
+   Access Type: Private
+   Click next and add Erwin Oosterhuis and Ádám Kristóf as the manage members and assign the role as Managers.
+
+Step 7. Repeat steps 1 to 2 for:
+   Name: 'QW Nauweiler'
+   Description: 'Diese Gruppe umfasst alle Mitarbeiter des Qualitätswesens Nauweiler, SAP-Partnerrolle ZQ und ZS - Geschäftsfeld "Massivumformung und Wälzlagerstahl"'
+   Access Type: Private
+   Click next and add Erwin Oosterhuis and Ádám Kristóf as the manage members and assign the role as Managers.
+
+Step 8. Repeat steps 1 to 2 for:
+   Name: 'Saarstahl - All Salesforce Users'
+   Description: 'Diese Gruppe ist für alle Salesforce-Nutzer von Saarstahl. Innerhalb dieser Gruppe werden Informationen geteilt, die für alle Nutzer relevant sind'
+   Access Type: Public
+   Click next and add SHS Admin, System Admin, Ádám Kristóf, and Erwin Oosterhuis as the manage members and assign the role as Managers.
+
+Step 9. Repeat steps 1 to 2 for:
+   Name: 'Marketing - Sales Operations'
+   Description: 'Diese Gruppe ist für Peter Schiestel, Rebecca Etten, Benjamin Willmes und Sophie Bauer von Saarstahl. Innerhalb dieser Gruppe werden Informationen geteilt, die für alle Nutzer relevant sind.'
+   Access Type: Public
+   Click next and add Ádám Kristóf as the manage member and assign the role as Manager.
+
+Step 10. Repeat steps 1 to 2 for:
+   Name: 'Marketing - Sales Planning'
+   Description: 'Diese Gruppe ist für Peter Schiestel, Kevin Kerber, Oliver Donate und Maximilian Maurer von Saarstahl. Innerhalb dieser Gruppe werden Informationen geteilt, die für alle Nutzer relevant sind.'
+   Access Type: Public
+   Click next and add Ádám Kristóf as the manage member and assign the role as Manager.
+
+***NOTE: REPEAT THE ABOVE STEPS ONLY IN PRODUCTION WITH THE BELOW MENTIONED GROUP MEMBER CHANGES:***
+
+Managers: For group Vertriebsbereich 1-330, replace Ádám Kristóf with Hans-Walther Broos and replace Erwin Oosterhuis with Daniel Arweiler.
+Managers: For group Vertriebsbereich 2-320, replace Ádám Kristóf with Hans-Walther Broos and replace Erwin Oosterhuis with Daniel Arweiler.
+Managers: For group Vertriebsbereich 3-360, replace Ádám Kristóf with Hans-Walther Broos and replace Erwin Oosterhuis with Daniel Arweiler.
+Managers: For group QW Neunkirchen, replace Ádám Kristóf with Hans-Walther Broos and replace Erwin Oosterhuis with Dominik Ries.  
+Managers: For group QW Burbach, replace Ádám Kristóf with Hans-Walther Broos and replace Erwin Oosterhuis with Mischa Hoffmann.
+Managers: For group QW Nauweiler, replace Ádám Kristóf with Hans-Walther Broos and replace Erwin Oosterhuis with Frank Maurer.
+Managers: For group Saarstahl - All Salesforce Users, replace Ádám Kristóf with Hans-Walther Broos and Erwin Oosterhuis with Daniel Arweiler.
+Managers: For group Marketing - Sales Operations, replace Ádám Kristóf with Rebecca Etten.
+Managers: For group Marketing - Sales Planning, replace Ádám Kristóf with Kevin Kerber.
+Bug - 11898
+1. Please download Post Deployment Step 11898.docx from FILES of 11898 story, open file and execute the steps mentioned in the Post Deployment Step 11898.docx in org. 
+URL: https://shs.openproject.com/projects/crm-slash-portal-salesforce/work_packages/11898/files
+
+BUG-11196
+Setup > Profile > Analytics Cloud Integration User > Field Level Security Section Account > Tick View checkbox next to the "Customer Number" field
+US-11966
+1. Go to "Digital Experiences" in Setup -> Go to "All Sites" and click on "Builder" of Dillinger myE-Service -> Go to Project Status page under Production Status menu, drag 'CRM Analytics Dashboard' from Components (thunder symbol at the left) in content section.
+2. Click on the component, this gives a pop-up -> Select 'Status Overview - Project Report", put height = 800, check 'show sharing icon' -> Click on Publish.
+
+US-11445
+
+Go to Setup > Matching Rules
+Open DH Exact Matching Account Name AND Address of Account and set the Matching rule to active.
+Open DH Exact Matching Contact Name AND Email Address and set the Matching rule to active.
+Open DH Exact Matching Contact Name OR Email Address and set the Matching rule to active.
+Open DH Fuzzy Matching Account Name AND Matching Address of Account and set the Matching rule to active.
+
+Go to Setup > Duplicate Rules 
+Open DH Exact Match Account Name AND Address - Alert & Customer Admin and set the Duplicate Rule to active.
+Open DH Exact Match Account Name AND Address - Block & Non-Customer Admin and set the Duplicate Rule to active.
+Open DH Exact Match Contact Name AND Email Address - Block and set the Duplicate Rule to active.
+Open DH Exact Match Contact Name OR Email Address - Alert and set the Duplicate Rule to active.
+Open DH Fuzzy Match Account Name AND Match Address - Alert and set the Duplicate Rule to active.
+Open Duplicate Rule For Contact and set the Duplicate Rule to active.
+Open Standard Contact Duplicate Rule and set the Duplicate Rule to active.
+Open Standard Rule for Contacts with Duplicate Leads and set the Duplicate Rule to active.

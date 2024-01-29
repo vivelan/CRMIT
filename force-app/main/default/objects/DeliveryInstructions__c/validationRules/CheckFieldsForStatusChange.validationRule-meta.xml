@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckFieldsForStatusChange</fullName> 
+    <active>true</active>
+    <description>Checks if &apos;Date of Technical Remark&apos; and &apos;Date of remark sales&apos; are filled when the status is changed to &apos;Approved&apos;.</description>
+    <errorConditionFormula>AND(
+		ISCHANGED(Status__c),
+		ISPICKVAL(Status__c, &quot;Approved&quot;),
+		NOT($Profile.Name = &quot;System Administrator&quot;),
+		NOT($Profile.Name = &quot;Systemadministrator&quot;),
+		NOT($Profile.Name = &quot;SHS Admin&quot;),		
+			OR(
+				ISBLANK( DateOfRemarkSales__c ),
+				ISBLANK( DateOfTechnicalRemark__c)
+			)
+			
+	)</errorConditionFormula>
+    <errorMessage>Please provide the Date of Technical Remark and the Date of Remark Sales before changing the status to &quot;Approved&quot;.</errorMessage>
+</ValidationRule>

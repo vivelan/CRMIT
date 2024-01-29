@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Approval and Settlement</masterLabel>
+        <translation>Genehmigung und Regulierung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>Erledigt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Escalated</masterLabel>
+        <translation><!-- Escalated --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluation</masterLabel>
+        <translation>Überprüfung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Negotiation</masterLabel>
+        <translation>Warten auf Kunde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New</masterLabel>
+        <translation>Neu</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On Hold</masterLabel>
+        <translation><!-- On Hold --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Processing</masterLabel>
+        <translation>In Bearbeitung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Rejected</masterLabel>
+        <translation>Abgelehnt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Creation</masterLabel>
+        <translation>Benutzererstellung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>User Specification</masterLabel>
+        <translation>Benutzerspezifizierung</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

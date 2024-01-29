@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReasonforNotConverting__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Not Converting</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Price Level</fullName>
+                <default>false</default>
+                <label>Price Level</label>
+            </value>
+            <value>
+                <fullName>Technically not possible</fullName>
+                <default>false</default>
+                <label>Technically not possible</label>
+            </value>
+            <value>
+                <fullName>Strategic Reasons</fullName>
+                <default>false</default>
+                <label>Strategic Reasons</label>
+            </value>
+            <value>
+                <fullName>Blocked Country</fullName>
+                <default>false</default>
+                <label>Blocked Country</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

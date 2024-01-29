@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExtendUsersasAttendees__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>This field should be set as TRUE if you want to add internal users as attendees for visit reports.</description>
+    <externalId>false</externalId>
+    <fieldManageability>SubscriberControlled</fieldManageability>
+    <label>Extend Users as Attendees</label>
+    <type>Checkbox</type>
+</CustomField>

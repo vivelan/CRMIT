@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CAD - CAD</masterLabel>
+        <translation>CAD - CAD</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CFR - Costs and freight</masterLabel>
+        <translation>CFR - Kosten und Fracht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIF - Cost, Insurance &amp; Freight</masterLabel>
+        <translation>CIF - Kosten, Versicherung &amp; Fracht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CIP - Freight free insured</masterLabel>
+        <translation>CIP - Frachtfrei versichert</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CPT - Freight free</masterLabel>
+        <translation>CPT - Frachtfrei</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DAP - Delivered named place</masterLabel>
+        <translation>DAP - Geliefert benannter Ort</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DDP - Delivered duty paid</masterLabel>
+        <translation>DDP - Geliefert verzollt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>DPU - Delivered terminal</masterLabel>
+        <translation>DPU - Geliefert Terminal</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>EXW - Ex works</masterLabel>
+        <translation>EXW - Ab Werk</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FAS - Free longitudinal ship</masterLabel>
+        <translation>FAS - Frei Längsseite Schiff</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FCA - Free carrier</masterLabel>
+        <translation>FCA - Frei Frachtführer</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>FOB - Free on board</masterLabel>
+        <translation>FOB - Frei an Bord</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>Risk_Snapshot</dataset>
+    <dates>
+        <alias>Date</alias>
+        <dateFieldDay>Date_Day</dateFieldDay>
+        <dateFieldFullYear>Date</dateFieldFullYear>
+        <dateFieldMonth>Date_Month</dateFieldMonth>
+        <dateFieldQuarter>Date_Quarter</dateFieldQuarter>
+        <dateFieldWeek>Date_Week</dateFieldWeek>
+        <dateFieldYear>Date_Year</dateFieldYear>
+        <firstDayOfWeek>0</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Date</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <measures>
+        <field>Deductible</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Deductible</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Total Overdues</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Total Overdues</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Summe Überfälligkeiten</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Summe Überfälligkeiten</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Total Overdrafts</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Total Overdrafts</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Summe Überziehungen</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Summe Überziehungen</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>External Limit</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>External Limit</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Externes Limit</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Externes Limit</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Internal Limit</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Internal Limit</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Internes Limit</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Internes Limit</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Selbstbeteiligung</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Selbstbeteiligung</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Payment Term</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Payment Term</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Zahlungsziel</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Zahlungsziel</label>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>Average Payment Delay Last 12 Months (Days)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Average Payment Delay Last 12 Months (Days)</label>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>Ø-Zahlungsverzug letzte 12 Monate (in Tagen)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Ø-Zahlungsverzug letzte 12 Monate (in Tagen)</label>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>Außenstände Heute</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Außenstände Heute</label>
+        <sortIndex>13</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding Payment Today</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Outstanding Payment Today</label>
+        <sortIndex>14</sortIndex>
+    </measures>
+    <measures>
+        <field>Orders Volume next 4 Weeks</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Orders Volume next 4 Weeks</label>
+        <sortIndex>15</sortIndex>
+    </measures>
+    <measures>
+        <field>Auftragsbestand 4 Wochen</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Auftragsbestand 4 Wochen</label>
+        <sortIndex>16</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues 0-5 days</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Overdues 0-5 days</label>
+        <sortIndex>17</sortIndex>
+    </measures>
+    <measures>
+        <field>Überfällig 0-5 Tage</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Überfällig 0-5 Tage</label>
+        <sortIndex>18</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues 6-10 days</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Overdues 6-10 days</label>
+        <sortIndex>19</sortIndex>
+    </measures>
+    <measures>
+        <field>Überfällig 6-10 Tage</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Überfällig 6-10 Tage</label>
+        <sortIndex>20</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues 11-30 days</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Overdues 11-30 days</label>
+        <sortIndex>21</sortIndex>
+    </measures>
+    <measures>
+        <field>Überfällig 11-30 Tage</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Überfällig 11-30 Tage</label>
+        <sortIndex>22</sortIndex>
+    </measures>
+    <measures>
+        <field>Overdues &gt; 30 days</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Overdues &gt; 30 days</label>
+        <sortIndex>23</sortIndex>
+    </measures>
+    <measures>
+        <field>Überfällig &gt; 30 Tage</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Überfällig &gt; 30 Tage</label>
+        <sortIndex>24</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding 0-30 days</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Outstanding 0-30 days</label>
+        <sortIndex>25</sortIndex>
+    </measures>
+    <measures>
+        <field>Fällig 0-30 Tage</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Fällig 0-30 Tage</label>
+        <sortIndex>26</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding 31-60 days</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Outstanding 31-60 days</label>
+        <sortIndex>27</sortIndex>
+    </measures>
+    <measures>
+        <field>Fällig 31-60 Tage</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Fällig 31-60 Tage</label>
+        <sortIndex>28</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding &gt; 60 days</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Outstanding &gt; 60 days</label>
+        <sortIndex>29</sortIndex>
+    </measures>
+    <measures>
+        <field>Fällig &gt; 60 Tage</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Fällig &gt; 60 Tage</label>
+        <sortIndex>30</sortIndex>
+    </measures>
+    <measures>
+        <field>% Utilization of Limit</field>
+        <formatCustomFormat>[&quot;###%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>% Utilization of Limit</label>
+        <sortIndex>31</sortIndex>
+    </measures>
+    <measures>
+        <field>% Ausschöpfung Limit</field>
+        <formatCustomFormat>[&quot;###%&quot;,100]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>% Ausschöpfung Limit</label>
+        <sortIndex>32</sortIndex>
+    </measures>
+    <measures>
+        <field>Total Limit</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Total Limit</label>
+        <sortIndex>33</sortIndex>
+    </measures>
+    <measures>
+        <field>Gesamtlimit</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Gesamtlimit</label>
+        <sortIndex>34</sortIndex>
+    </measures>
+    <measures>
+        <field>Outstanding Payment</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Outstanding Payment</label>
+        <sortIndex>35</sortIndex>
+    </measures>
+    <measures>
+        <field>Außstehende Zahlungen</field>
+        <formatCustomFormat>[&quot;€#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Außstehende Zahlungen</label>
+        <sortIndex>36</sortIndex>
+    </measures>
+</WaveXmd>

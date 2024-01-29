@@ -1,0 +1,216 @@
+:root {
+  --blue: #0176d3;
+  --red: red;
+  --grey: grey;
+  --greyIcon: #808080;
+}
+/* The distance between 2 sections */
+.c4mc-ap-timeline-component {
+  margin-bottom: 16px;
+}
+
+/* Accordion Container */
+.c4mc-ap-timeline-accordion .slds-accordion__section {
+  padding: 0;
+}
+
+/* Accordion Summary */
+.c4mc-ap-timeline-accordion .slds-accordion__summary {
+  background: var(--slds-g-color-neutral-base-95, var(--lwc-colorBackground, rgb(243, 243)));
+
+  border: var(--lwc-borderWidthThin, 1px) solid transparent;
+  border-radius: var(--lwc-borderRadiusMedium, 0.25rem);
+
+  padding: 0px;
+  margin: 0;
+}
+
+.c4mc-ap-timeline-accordion .slds-accordion__summary-heading {
+  font-size: var(--lwc-varFontSize5, 1rem);
+  line-height: var(--lwc-lineHeightButton, 1.875rem);
+}
+
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action {
+  padding: 0 var(--lwc-spacingXSmall, 0.5rem);
+  height: 32px;
+  margin: 0;
+
+  border-color: var(--slds-c-button-color-border, var(--sds-c-button-color-border, transparent));
+  border-style: solid;
+  border-width: var(--slds-c-button-sizing-border, var(--sds-c-button-sizing-border, var(--lwc-borderWidthThin, 1px)));
+  border-radius: var(--slds-c-button-radius-border, var(--sds-c-button-radius-border, var(--lwc-buttonBorderRadius, 0.25rem)));
+}
+
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:focus {
+  box-shadow: var(--slds-c-button-shadow-focus, var(--sds-c-button-shadow-focus, var(--lwc-shadowButtonFocus, 0 0 3px #0176d3)));
+  text-decoration: none;
+}
+
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:active {
+  border-color: var(--slds-c-button-color-border-active);
+}
+
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:hover,
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:active,
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:focus {
+  color: inherit;
+}
+
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:focus .slds-accordion__summary-action-icon,
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:hover .slds-accordion__summary-action-icon,
+.c4mc-ap-timeline-accordion .slds-accordion__summary-action:active .slds-accordion__summary-action-icon {
+  fill: var(--slds-c-icon-color-foreground, var(--sds-c-icon-color-foreground, var(--slds-g-color-neutral-base-100, var(--lwc-colorTextIconInverse, rgb(255, 255, 255)))));
+}
+
+.c4mc-ap-timeline-container {
+  overflow-x: auto;
+}
+
+.c4mc-ap-timeline-spinner-container {
+  position: relative;
+  display: block;
+  height: 90px;
+}
+
+/* Timeline */
+.c4mc-ap-timeline {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 12px 16px;
+}
+
+.c4mc-ap-legend-container {
+  padding: 32px 12px 40px;
+}
+
+.c4mc-ap-timeline-legend-label {
+  margin-right: 20px;
+  font-size: 11px;
+  width: 80px;
+}
+
+.c4mc-ap-timeline-legend-icon {
+  margin-right: 5px;
+}
+
+.c4mc-ap-timeline-legend {
+  width: 40px;
+  height: 2px;
+  margin-right: 5px;
+}
+
+/* Timeline Item */
+.c4mc-ap-timeline-item {
+  flex-shrink: 0;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+
+  cursor: pointer;
+}
+
+.c4mc-ap-timeline-main-icon {
+  border-radius: 6px;
+  --sds-c-icon-color-background: var(--greyIcon);
+}
+
+.c4mc-ap-timeline-main-icon[data-state="Completed"] {
+  --sds-c-icon-color-background: var(--blue);
+}
+
+.c4mc-ap-timeline-main-icon[data-state="Overdue"] {
+  --sds-c-icon-color-background: var(--red);
+}
+
+.c4mc-ap-timeline-main-icon[data-state="On Track"] {
+  --sds-c-icon-color-background: var(--grey);
+}
+
+.c4mc-ap-timeline-status {
+  position: relative;
+}
+
+.c4mc-ap-timeline-subsidiary-icon[data-state="Completed"] {
+  --sds-c-icon-color-foreground-default: var(--blue);
+}
+
+.c4mc-ap-timeline-subsidiary-icon[data-state="Overdue"] {
+  --sds-c-icon-color-foreground-default: var(--red);
+}
+
+.c4mc-ap-timeline-subsidiary-icon[data-state="On Track"] {
+  --sds-c-icon-color-foreground-default: var(--grey);
+}
+
+.c4mc-ap-timeline-text-container {
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.c4mc-ap-timeline-title {
+  width: 100%;
+  min-width: 0;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Timeline Item Dash */
+.c4mc-ap-timeline-dash {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 88px;
+  height: 2px;
+
+  background-color: grey;
+}
+
+.c4mc-ap-timeline-legend-icon-blue-dash,
+.c4mc-ap-timeline-dash[data-state="Completed"] {
+  background-color: var(--blue);
+}
+
+.c4mc-ap-timeline-legend-icon-overdue-dash,
+.c4mc-ap-timeline-dash[data-state="Overdue"] {
+  background-color: var(--red);
+}
+
+.c4mc-ap-timeline-legend-icon-grey-dash,
+.c4mc-ap-timeline-dash[data-state="On Track"] {
+  background-color: var(--grey);
+}
+
+.c4mc-ap-timeline-dash-left {
+  left: -4px;
+  transform: translateX(-100%);
+}
+
+.c4mc-ap-timeline-dash-right {
+  right: -4px;
+  transform: translateX(100%);
+}
+
+.c4mc-ap-timeline-item:first-child .c4mc-ap-timeline-dash-left {
+  display: none;
+}
+
+.c4mc-ap-timeline-item:last-child .c4mc-ap-timeline-dash-right {
+  display: none;
+}
+
+.c4mc-ap-timeline-style-no-elements {
+  padding: 32px 12px 16px;
+  font-size: 14px;
+  width: 100%;
+  text-align: center;
+}

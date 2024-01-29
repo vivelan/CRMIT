@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset>COPA</dataset>
+    <dates>
+        <alias>Created Date</alias>
+        <dateFieldDay>Created_Date_Day</dateFieldDay>
+        <dateFieldFullYear>Created_Date</dateFieldFullYear>
+        <dateFieldMonth>Created_Date_Month</dateFieldMonth>
+        <dateFieldQuarter>Created_Date_Quarter</dateFieldQuarter>
+        <dateFieldWeek>Created_Date_Week</dateFieldWeek>
+        <dateFieldYear>Created_Date_Year</dateFieldYear>
+        <firstDayOfWeek>0</firstDayOfWeek>
+        <fiscalMonthOffset>0</fiscalMonthOffset>
+        <label>Geschäftsdatum</label>
+        <sortIndex>0</sortIndex>
+        <type xsi:nil="true"/>
+    </dates>
+    <dimensions>
+        <field>Business_Area</field>
+        <isDerived>false</isDerived>
+        <label>Sparte</label>
+        <sortIndex>0</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Name</field>
+        <isDerived>false</isDerived>
+        <label>Verbraucher</label>
+        <sortIndex>1</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Key</field>
+        <isDerived>false</isDerived>
+        <label>Verbraucher Schlüssel</label>
+        <sortIndex>2</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Country</field>
+        <isDerived>false</isDerived>
+        <label>Land</label>
+        <sortIndex>3</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product_Sub_Group</field>
+        <isDerived>false</isDerived>
+        <label>Produktgruppe GF</label>
+        <sortIndex>4</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product_Category</field>
+        <isDerived>false</isDerived>
+        <label>Produktkategorie GF</label>
+        <sortIndex>5</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product</field>
+        <isDerived>false</isDerived>
+        <label>Produkt</label>
+        <sortIndex>6</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Product_Key</field>
+        <isDerived>false</isDerived>
+        <label>Produkt Schlüssel</label>
+        <sortIndex>7</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Steel_Grade_Key</field>
+        <isDerived>false</isDerived>
+        <label>Marke Werk Schlüssel</label>
+        <sortIndex>8</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Steel_Grade</field>
+        <isDerived>false</isDerived>
+        <label>Marke Werk</label>
+        <sortIndex>9</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Steel_Grade</field>
+        <isDerived>false</isDerived>
+        <label>Kundenbestellmarke</label>
+        <sortIndex>10</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Steel_Grade_Key</field>
+        <isDerived>false</isDerived>
+        <label>Kundenbestellmarke Schlüssel</label>
+        <sortIndex>11</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Customer_Material_Number</field>
+        <isDerived>false</isDerived>
+        <label>Kundenmaterialnummer</label>
+        <sortIndex>12</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Rolling_Mill</field>
+        <isDerived>false</isDerived>
+        <label>Walzstraße Verkauf</label>
+        <sortIndex>13</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Dimension_A1</field>
+        <isDerived>false</isDerived>
+        <label>Abm. A (mm)</label>
+        <sortIndex>14</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Dimension_B1</field>
+        <isDerived>false</isDerived>
+        <label>Abm. B (mm)</label>
+        <sortIndex>15</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Material_Number</field>
+        <isDerived>false</isDerived>
+        <label>Material</label>
+        <sortIndex>16</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Quality_Grade</field>
+        <isDerived>false</isDerived>
+        <label>Güteklasse</label>
+        <sortIndex>17</sortIndex>
+    </dimensions>
+    <dimensions>
+        <field>Sales_Channel</field>
+        <isDerived>false</isDerived>
+        <label>Vertriebsweg</label>
+        <sortIndex>18</sortIndex>
+    </dimensions>
+    <measures>
+        <field>Quantity_t</field>
+        <isDerived>false</isDerived>
+        <label>Absatzmenge</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Net_Invoice</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Nettofakturenwert</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Net_Proceeds</field>
+        <formatCustomFormat>[&quot;€#,###.00&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>.</formatDecimalSeparator>
+        <formatThousandsSeparator>,</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Nettoerlös</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Dimension_A</field>
+        <isDerived>false</isDerived>
+        <label>Abm. A (mm)</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Dimension_B</field>
+        <isDerived>false</isDerived>
+        <label>Abm. B (mm)</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+</WaveXmd>

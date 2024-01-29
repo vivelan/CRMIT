@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>de3</label>
+    <protected>false</protected>
+    <values>
+        <field>ContentText__c</field>
+        <value xsi:type="xsd:string">Max. Oberflächenfehlertiefe gem. EN DIN ISO 9443 Klasse B, max. zulässige Teilemenge z 4%</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">DE</value>
+    </values>
+    <values>
+        <field>PicklistValue__c</field>
+        <value xsi:type="xsd:string">Surface according to DIN EN ISO 9443</value>
+    </values>
+</CustomMetadata>

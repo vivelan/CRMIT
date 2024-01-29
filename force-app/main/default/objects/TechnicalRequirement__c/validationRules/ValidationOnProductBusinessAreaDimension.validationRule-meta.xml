@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnProductBusinessAreaDimension</fullName>
+    <active>true</active>
+    <description>Checks if the product lookup, Business Area, Dimension A , Dimension B is maintained empty if the finished goods have these values populated.</description>
+    <errorConditionFormula>AND(NOT( ISBLANK(  FinishedGoods__c ) ), OR(AND(ISCHANGED( DimensionA__c ),NOT(ISBLANK(DimensionA__c ))) , AND(ISCHANGED( DimensionB__c ),NOT(ISBLANK(DimensionB__c ))) ,
+ AND(ISCHANGED(  Product__c ),NOT(ISBLANK(Product__c))) , AND(ISCHANGED( BusinessArea__c ),
+ NOT(ISBLANK(TEXT((BusinessArea__c )))))), NOT($Setup.ByPassLogic__c.ByPassValidation__c))</errorConditionFormula>
+    <errorMessage>This field cannot be populated because a material number has already been selected.</errorMessage>
+</ValidationRule>

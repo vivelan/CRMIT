@@ -1,0 +1,5 @@
+<messaging:emailTemplate subject="Monatliche Absatzplanung" recipientType="User" relatedToType="User" language="{!recipient.LanguageLocaleKey}">
+<messaging:plainTextEmailBody >
+Bitte prüfen Sie die monatliche Absatzplanung
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

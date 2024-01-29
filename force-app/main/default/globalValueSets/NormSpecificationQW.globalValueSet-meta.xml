@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AFNOR - NF A35-551 - 01.07.1986</fullName>
+        <default>false</default>
+        <label>AFNOR - NF A35-551 - 01.07.1986</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - 1442 - 20.09.2007</fullName>
+        <default>false</default>
+        <label>AS - 1442 - 20.09.2007</label>
+    </customValue>
+    <customValue>
+        <fullName>AS - 1444 - 26.10.2007</fullName>
+        <default>false</default>
+        <label>AS - 1444 - 26.10.2007</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A105 - 01.12.2011</fullName>
+        <default>false</default>
+        <label>ASTM - A105 - 01.12.2011</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A108 - 01.09.2007</fullName>
+        <default>false</default>
+        <label>ASTM - A108 - 01.09.2007</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A193/A193M - 01.06.2015</fullName>
+        <default>false</default>
+        <label>ASTM - A193/A193M - 01.06.2015</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A295 - 01.10.2009</fullName>
+        <default>false</default>
+        <label>ASTM - A295 - 01.10.2009</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A29/A29M - 01.05.2012</fullName>
+        <default>false</default>
+        <label>ASTM - A29/A29M - 01.05.2012</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A29/A29M - 01.12.2016</fullName>
+        <default>false</default>
+        <label>ASTM - A29/A29M - 01.12.2016</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A29/A29M - 01.01.2020</fullName>
+        <default>false</default>
+        <label>ASTM - A29/A29M - 01.01.2020</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A29/A29M - 01.07.2020</fullName>
+        <default>false</default>
+        <label>ASTM - A29/A29M - 01.07.2020</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A320/A320M - 01.05.2014</fullName>
+        <default>false</default>
+        <label>ASTM - A320/A320M - 01.05.2014</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A 322 - 01.05.2007</fullName>
+        <default>false</default>
+        <label>ASTM - A 322 - 01.05.2007</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A322 - 01.01.2013</fullName>
+        <default>false</default>
+        <label>ASTM - A322 - 01.01.2013</label>
+    </customValue>
+    <customValue>
+        <fullName>ASTM - A 576-90b - 01.01.2012</fullName>
+        <default>false</default>
+        <label>ASTM - A 576-90b - 01.01.2012</label>
+    </customValue>
+    <customValue>
+        <fullName>AWS - A5.17</fullName>
+        <default>false</default>
+        <label>AWS - A5.17</label>
+    </customValue>
+    <customValue>
+        <fullName>AWS - A5.18 - 05.02.2001</fullName>
+        <default>false</default>
+        <label>AWS - A5.18 - 05.02.2001</label>
+    </customValue>
+    <customValue>
+        <fullName>AWS - A5.23 - 23.08.2011</fullName>
+        <default>false</default>
+        <label>AWS - A5.23 - 23.08.2011</label>
+    </customValue>
+    <customValue>
+        <fullName>AWS - A 5.28</fullName>
+        <default>false</default>
+        <label>AWS - A 5.28</label>
+    </customValue>
+    <customValue>
+        <fullName>BS - 970 - 01.12.1991</fullName>
+        <default>false</default>
+        <label>BS - 970 - 01.12.1991</label>
+    </customValue>
+    <customValue>
+        <fullName>BS - 970 - 31.05.1983</fullName>
+        <default>false</default>
+        <label>BS - 970 - 31.05.1983</label>
+    </customValue>
+    <customValue>
+        <fullName>BS - PD 970 - 18.05.2005</fullName>
+        <default>false</default>
+        <label>BS - PD 970 - 18.05.2005</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 17102 - 01.10.1983</fullName>
+        <default>false</default>
+        <label>DIN - 17102 - 01.10.1983</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 17115 - 01.07.2012</fullName>
+        <default>false</default>
+        <label>DIN - 17115 - 01.07.2012</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 17115 - 01.02.1987</fullName>
+        <default>false</default>
+        <label>DIN - 17115 - 01.02.1987</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 17212 - 01.08.1972</fullName>
+        <default>false</default>
+        <label>DIN - 17212 - 01.08.1972</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 17240 - 01.07.1976</fullName>
+        <default>false</default>
+        <label>DIN - 17240 - 01.07.1976</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 17280 - 01.07.1985</fullName>
+        <default>false</default>
+        <label>DIN - 17280 - 01.07.1985</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 17350 - 01.10.1980</fullName>
+        <default>false</default>
+        <label>DIN - 17350 - 01.10.1980</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 2077 - 01.02.1979</fullName>
+        <default>false</default>
+        <label>DIN - 2077 - 01.02.1979</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN - 50 602 - 01.09.1985</fullName>
+        <default>false</default>
+        <label>DIN - 50 602 - 01.09.1985</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10025-1 - 01.02.2005</fullName>
+        <default>false</default>
+        <label>DIN EN - 10025-1 - 01.02.2005</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10025-2 - 01.04.2005</fullName>
+        <default>false</default>
+        <label>DIN EN - 10025-2 - 01.04.2005</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10025-2 - 01.10.2019</fullName>
+        <default>false</default>
+        <label>DIN EN - 10025-2 - 01.10.2019</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10025-3 - 01.02.2005</fullName>
+        <default>false</default>
+        <label>DIN EN - 10025-3 - 01.02.2005</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10025-3 - 01.10.2019</fullName>
+        <default>false</default>
+        <label>DIN EN - 10025-3 - 01.10.2019</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10060 - 01.02.2004</fullName>
+        <default>false</default>
+        <label>DIN EN - 10060 - 01.02.2004</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10083-1 - 01.10.2006</fullName>
+        <default>false</default>
+        <label>DIN EN - 10083-1 - 01.10.2006</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10083-2 - 01.10.2006</fullName>
+        <default>false</default>
+        <label>DIN EN - 10083-2 - 01.10.2006</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10083-3 - 01.01.2007</fullName>
+        <default>false</default>
+        <label>DIN EN - 10083-3 - 01.01.2007</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10084 - 01.06.2008</fullName>
+        <default>false</default>
+        <label>DIN EN - 10084 - 01.06.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10085 - 01.07.2001</fullName>
+        <default>false</default>
+        <label>DIN EN - 10085 - 01.07.2001</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10087 - 01.01.1999</fullName>
+        <default>false</default>
+        <label>DIN EN - 10087 - 01.01.1999</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10089 - 01.04.2003</fullName>
+        <default>false</default>
+        <label>DIN EN - 10089 - 01.04.2003</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10113-2 - 01.04.1993</fullName>
+        <default>false</default>
+        <label>DIN EN - 10113-2 - 01.04.1993</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10132-4 - 01.04.2003</fullName>
+        <default>false</default>
+        <label>DIN EN - 10132-4 - 01.04.2003</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10221 - 01.01.1996</fullName>
+        <default>false</default>
+        <label>DIN EN - 10221 - 01.01.1996</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10222-1 - 01.07.2002</fullName>
+        <default>false</default>
+        <label>DIN EN - 10222-1 - 01.07.2002</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10263-1 - 01.02.2002</fullName>
+        <default>false</default>
+        <label>DIN EN - 10263-1 - 01.02.2002</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10263-2 - 01.02.2002</fullName>
+        <default>false</default>
+        <label>DIN EN - 10263-2 - 01.02.2002</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10263-3 - 01.02.2002</fullName>
+        <default>false</default>
+        <label>DIN EN - 10263-3 - 01.02.2002</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10263-4 - 01.02.2002</fullName>
+        <default>false</default>
+        <label>DIN EN - 10263-4 - 01.02.2002</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10263-4 - 01.02.2018</fullName>
+        <default>false</default>
+        <label>DIN EN - 10263-4 - 01.02.2018</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10267 - 01.02.1998</fullName>
+        <default>false</default>
+        <label>DIN EN - 10267 - 01.02.1998</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10269 - 01.02.2014</fullName>
+        <default>false</default>
+        <label>DIN EN - 10269 - 01.02.2014</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10273 - 01.02.2008</fullName>
+        <default>false</default>
+        <label>DIN EN - 10273 - 01.02.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10273 - 01.10.2016</fullName>
+        <default>false</default>
+        <label>DIN EN - 10273 - 01.10.2016</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10277-5 - 01.06.2008</fullName>
+        <default>false</default>
+        <label>DIN EN - 10277-5 - 01.06.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10278 - 01.12.1999</fullName>
+        <default>false</default>
+        <label>DIN EN - 10278 - 01.12.1999</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 10308 - 01.11.2001</fullName>
+        <default>false</default>
+        <label>DIN EN - 10308 - 01.11.2001</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN - 756 - 01.06.2004</fullName>
+        <default>false</default>
+        <label>DIN EN - 756 - 01.06.2004</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 14171 - 01.01.2011</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 14171 - 01.01.2011</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 14341 - 01.04.2011</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 14341 - 01.04.2011</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 14341 - 01.08.2008</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 14341 - 01.08.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 16120-1 - 01.10.2011</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 16120-1 - 01.10.2011</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 16120-2 - 01.06.2017</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 16120-2 - 01.06.2017</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 16120-3 - 01.10.2011</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 16120-3 - 01.10.2011</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 16120-4 - 01.09.2017</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 16120-4 - 01.09.2017</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 3887 - 01.10.2003</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 3887 - 01.10.2003</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 4957 - 01.02.2001</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 4957 - 01.02.2001</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 4957 - 01.11.2018</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 4957 - 01.11.2018</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 683-1 - 01.09.2018</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 683-1 - 01.09.2018</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 683-17 - 01.02.2015</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 683-17 - 01.02.2015</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 683-2 - 01.09.2018</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 683-2 - 01.09.2018</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 683-3 - 01.09.2018</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 683-3 - 01.09.2018</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 683-3 - 01.04.2019</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 683-3 - 01.04.2019</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 683-3 - 01.06.2022</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 683-3 - 01.06.2022</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 683-4 - 01.09.2018</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 683-4 - 01.09.2018</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 898-1 - 01.05.2013</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 898-1 - 01.05.2013</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 898-1 - 01.08.2009</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 898-1 - 01.08.2009</label>
+    </customValue>
+    <customValue>
+        <fullName>DIN EN ISO - 9443 - 01.11.2018</fullName>
+        <default>false</default>
+        <label>DIN EN ISO - 9443 - 01.11.2018</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - DGRL 2014/68/EU - 27.06.2014</fullName>
+        <default>false</default>
+        <label>EU - DGRL 2014/68/EU - 27.06.2014</label>
+    </customValue>
+    <customValue>
+        <fullName>EU - DGRL 97/23/EG - 29.05.1997</fullName>
+        <default>false</default>
+        <label>EU - DGRL 97/23/EG - 29.05.1997</label>
+    </customValue>
+    <customValue>
+        <fullName>JIS G - 3502 - 20.03.2004</fullName>
+        <default>false</default>
+        <label>JIS G - 3502 - 20.03.2004</label>
+    </customValue>
+    <customValue>
+        <fullName>JIS G - 3503 - 01.01.2006</fullName>
+        <default>false</default>
+        <label>JIS G - 3503 - 01.01.2006</label>
+    </customValue>
+    <customValue>
+        <fullName>JIS G - 3506 - 20.03.2004</fullName>
+        <default>false</default>
+        <label>JIS G - 3506 - 20.03.2004</label>
+    </customValue>
+    <customValue>
+        <fullName>JIS G - 4052 - 20.11.2008</fullName>
+        <default>false</default>
+        <label>JIS G - 4052 - 20.11.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>JIS G - 4804 - 20.02.2008</fullName>
+        <default>false</default>
+        <label>JIS G - 4804 - 20.02.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>MS - 1945:2006</fullName>
+        <default>false</default>
+        <label>MS - 1945:2006</label>
+    </customValue>
+    <customValue>
+        <fullName>NFA - 35-556 - 01.10.1984</fullName>
+        <default>false</default>
+        <label>NFA - 35-556 - 01.10.1984</label>
+    </customValue>
+    <customValue>
+        <fullName>NFA - 35-561 - 01.06.1992</fullName>
+        <default>false</default>
+        <label>NFA - 35-561 - 01.06.1992</label>
+    </customValue>
+    <customValue>
+        <fullName>NFA EN - 10087 - 01.01.1999</fullName>
+        <default>false</default>
+        <label>NFA EN - 10087 - 01.01.1999</label>
+    </customValue>
+    <customValue>
+        <fullName>SAE - 1006 - 01.06.2014</fullName>
+        <default>false</default>
+        <label>SAE - 1006 - 01.06.2014</label>
+    </customValue>
+    <customValue>
+        <fullName>SAE - J403 - 01.11.2001</fullName>
+        <default>false</default>
+        <label>SAE - J403 - 01.11.2001</label>
+    </customValue>
+    <customValue>
+        <fullName>SAE - J404 - 01.01.2009</fullName>
+        <default>false</default>
+        <label>SAE - J404 - 01.01.2009</label>
+    </customValue>
+    <customValue>
+        <fullName>SEP - 1572 - 01.08.1971</fullName>
+        <default>false</default>
+        <label>SEP - 1572 - 01.08.1971</label>
+    </customValue>
+    <customValue>
+        <fullName>SEP - 1920 - 01.12.1984</fullName>
+        <default>false</default>
+        <label>SEP - 1920 - 01.12.1984</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt A2 - 01.09.2001</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt A2 - 01.09.2001</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt W0 - 01.10.2003</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt W0 - 01.10.2003</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt W1 - 01.05.2002</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt W1 - 01.05.2002</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt W10 - 01.10.2003</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt W10 - 01.10.2003</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt W10 - 01.11.2007</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt W10 - 01.11.2007</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt W12 - 01.07.2003</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt W12 - 01.07.2003</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt W13 - 01.11.2008</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt W13 - 01.11.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>TÜV - AD 2000 - Merkblatt W7 - 01.05.2008</fullName>
+        <default>false</default>
+        <label>TÜV - AD 2000 - Merkblatt W7 - 01.05.2008</label>
+    </customValue>
+    <customValue>
+        <fullName>Verlag Stahleisen - SEL - 01.12.2003</fullName>
+        <default>false</default>
+        <label>Verlag Stahleisen - SEL - 01.12.2003</label>
+    </customValue>
+    <masterLabel>Norm Specification QW</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

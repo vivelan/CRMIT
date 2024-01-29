@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateStatusFieldEdit</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(
+	AND(
+		ISNEW(),
+		NOT(ISPICKVAL(Status__c, &quot;New&quot;)),
+        NOT(ISPICKVAL(Status__c, &quot;Quality Check&quot;)),		
+		NOT($Profile.Name = &quot;System Administrator&quot;),
+		NOT($Profile.Name = &quot;Systemadministrator&quot;),
+		NOT($Profile.Name = &quot;SHS Admin&quot;)
+		
+	),
+	 AND(   
+        NOT(ISNEW()),
+		$Profile.Name = &quot;SAG Sales&quot;,
+		NOT(ISCHANGED(Status__c)),
+		NOT(ISPICKVAL(Status__c, &quot;New&quot;)),
+		NOT(ISPICKVAL(Status__c, &quot;Final Check&quot;))
+			
+	),
+	 AND(   
+        NOT(ISNEW()),
+		$Profile.Name = &quot;SAG Quality Profile&quot;,
+		NOT(ISCHANGED(Status__c)),	
+		NOT(ISPICKVAL(Status__c, &quot;Quality Check&quot;))
+			
+	)
+	
+)</errorConditionFormula>
+    <errorMessage>In this status, your user profile doesn&apos;t allow changes on the record.</errorMessage>
+</ValidationRule> 

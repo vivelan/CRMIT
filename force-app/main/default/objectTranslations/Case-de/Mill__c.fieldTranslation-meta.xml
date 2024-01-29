@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Werk</label>
+    <name>Mill__c</name>
+    <picklistValues>
+        <masterLabel>DF</masterLabel>
+        <translation>DF</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DH</masterLabel>
+        <translation>DH</translation>
+    </picklistValues>
+</CustomFieldTranslation>

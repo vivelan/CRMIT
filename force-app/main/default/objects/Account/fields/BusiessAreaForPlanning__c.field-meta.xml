@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusiessAreaForPlanning__c</fullName>
+    <externalId>false</externalId>
+    <label>Business area/Product group for planning</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ZK</fullName>
+                <default>false</default>
+                <label>Cold Heading</label>
+            </value>
+            <value>
+                <fullName>ZF</fullName>
+                <default>false</default>
+                <label>Spring Steel</label>
+            </value>
+            <value>
+                <fullName>ZS</fullName>
+                <default>false</default>
+                <label>Free Cutting Steel (SZO)</label>
+            </value>
+            <value>
+                <fullName>ZW</fullName>
+                <default>false</default>
+                <label>Bearing Steel</label>
+            </value>
+            <value>
+                <fullName>ZM</fullName>
+                <default>false</default>
+                <label>Forging Steel</label>
+            </value>
+            <value>
+                <fullName>ZZ - Welding Wire (SZW)</fullName>
+                <default>false</default>
+                <label>Drawing Grades - Welding Wire</label>
+            </value>
+            <value>
+                <fullName>ZZ - Tyre Cord</fullName>
+                <default>false</default>
+                <label>Drawing Grades - Tyre Cord</label>
+            </value>
+            <value>
+                <fullName>ZZ - Low Carbon</fullName>
+                <default>false</default>
+                <label>Drawing Grades - Low Carbon (w.o. B10)</label>
+            </value>
+            <value>
+                <fullName>ZZ - Low Carbon - B10</fullName>
+                <default>false</default>
+                <label>Drawing Grades - Low Carbon - B10</label>
+            </value>
+            <value>
+                <fullName>ZZ - High Carbon</fullName>
+                <default>false</default>
+                <label>Drawing Grades - High Carbon</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

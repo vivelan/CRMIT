@@ -1,0 +1,279 @@
+/*********************************************************************************************************************
+Release : R20221011
+Environment : QA
+*********************************************************************************************************************/
+1. Enable History Tracking for Account Object 
+Steps -From Setup->  Object Manager -> Account-> Select Fields & Relationships -> click Set History Tracking.
+
+2.Enable Translation For Org
+Goto Setup -> Translation Workbench -> Enable Translation.
+
+3. Set Email Deliverability
+Goto Set Up -> Email Deliverability -> All Emails.
+
+
+4.US-0583
+ 1.Update the List of Blocked Countries Custom Setting with blocked countries and CountryCode:
+   Use DataLoader or DataLoader.io to update, Blocked_CountrieswithCountryCode.csv file attached in open project US-583.
+
+ 2.Enable Picklists for Address Fields
+ GotoSetup -> enter State and Country/Territory Picklists and click-> Scan for state and country/territory data stored using standard address fields.
+ ->Convert identified data in standard address fields -> After you convert your data, or if you don’t have any data, enable the state and country/territory picklists for standard address fields.
+
+/*********************************************************************************************************************
+Pre Deployment Steps for US- 469
+***********************************************************************************************************************/
+
+Pre Deployment Steps for US- 469
+
+Step 1) Creating private key and X509 certificate
+First step using OAuth JWT Bearer Token flow is creating the Certificate. To create the certificate, you need open SSL. Download it you are using window.
+
+Step 1.1) Set OPENSSL_CONF path
+set OPENSSL_CONF=C:\openssl\share\openssl.cnf 
+Step 1.2) Generate an RSA private key
+Execute below command and in output it will return your Server.pass.Key file. Server.Key is our private key.
+
+openssl genrsa -des3 -passout pass:x -out server.pass.key 2048
+Step 1.3) Create a key file from the server.pass.key file
+Execute below command and in output it will return your Server.Key file. Server.Key is our RSA private key.
+
+openssl rsa -passin pass:x -in server.pass.key -out server.key
+Step 1.4) Request and generate the certificate
+Below command will request for certificate.
+
+openssl req -new -key server.key -out server.csr
+Once you will execute above command it will ask you some question and information
+
+Country Name : Provide any value for example : DE
+State or province Name [Some-State]: 
+Locality Name( eg. city)[] : 
+Organization Name (eg. company) : SHS stahl
+Organization Unit Name : 
+Comman Name [] :
+Email Address [] : 
+Step 1.5) Generate the SSL certificate
+openssl x509 -req -sha256 -days 365 -in server.csr -signkey server.key -out server.crt
+Create the public Key :
+openssl x509 -pubkey -noout -in cert.pem  > pubkey.pem
+(This will be stored in Environment Variable in Heroku for verification of token). 
+Step2: Generate a Java Keystore (JKS) which is importable in Salesforce
+Salesforce only supports the Java Keystore (JKS) format for importing private key pairs in a Salesforce org.
+Convert .CRT to Salesforce Keystore JKS file
+We already have sever.crt file by using our step1. Let see how we can convert the same
+1.	Go to same folder where you created server.key file(By using step 1). Clone the server.key file and save as server.pem.
+2.	Now execute this command : openssl pkcs12 -export -in server.crt -inkey server.pem -out testkeystore.p12
+3.	Now execute keytool command to create jks file. keytool -importkeystore -srckeystore testkeystore.p12 \ -srcstoretype pkcs12 \ -destkeystore servercert.jks \ -deststoretype JKS
+1.	It will ask you to create password. remember it we will use it soon.
+4.	Now Salesforce don’t support default alias 1. So change the alias name with this command keytool -keystore /servercert.jks -changealias -alias 1 -destalias salesforcetest
+Import the Java Keystore (JKS) in
+1.	Go to setup-> Search for Certificate and Key management
+2.	Then Click on Import From Keystore.
+3.	Then upload the servercert.jks file and provide the password which you to create the “servercert.jks” file. 
+Use the certificate in named credential
+1.	Go to setup-> Named Credentials
+2.	Edit Credential: COPCalculationLegacy certificate. 
+3.	Configure as below:
+ 
+
+	
+Label	COPCalculationLegacy
+Name	COPCalculationLegacy
+URL	https://crm-dev-rel1.herokuapp.com/salesforce/cop/
+Hide Section - AuthenticationAuthentication
+Certificate	shs
+Identity Type	Named Principal
+Authentication Protocol	JWT
+Issuer	salesforce
+Named Principal Subject	Salesforce Integration User
+Audiences	https://crm-dev-rel1.herokuapp.com
+Token Valid for	
+5 Minutes
+JWT Signing Certificate	shs
+Hide Section - Callout OptionsCallout Options
+Generate Authorization Header	: True
+Allow Merge Fields in HTTP Header	: True
+Allow Merge Fields in HTTP Body	: True
+
+
+Reference: https://www.apexhours.com/salesforce-oauth-2-0-jwt-bearer-flow/
+
+****************************************************************************************
+US-0176
+1. Enable account teams.
+From Setup -> enter Account Teams in the Quick Find box -> select Account Teams -> Click Enable Account Teams.
+-> Select the Account Teams Enabled checkbox and click Save.
+-> Select the Account Layout checkbox to add the Account Team related list to the page layout.
+-> Select the Add to users' customized related lists checkbox and click Save.
+
+2. Adding Team Roles value:
+From Setup -> enter Account Teams in the Quick Find box -> select Account Teams ->Click Team Roles and click New
+ -> In the text area, enter below mentioned picklist values, each on a separate line and save it.
+       Account manager (Product manager) - ZK
+       Sales Representative - ZM
+       QW account manager - ZQ
+       Quality Representative - ZS
+       Contact person AV (work preparation) - ZN
+  -> Deactivate the other picklist value if available rather than Point 2.
+  
+  **************************************************************************************************
+  
+  AdditionalComponents --
+1. To enable and apply multiple currencies:
+a. From Setup, in the Quick Find, search for Company Information, then select Company Information.
+b. Click Edit.
+c. Check Activate Multiple Currencies.
+d. Click Save.
+**************************************************************************************************
+Pre-Deployment steps for US-0830:
+
+1) Delete Field 'OpportunityNumber__c' from Opportunity of type Text after removing its reference from 
+1. Opportunity layout
+2.Account record page - flexi page3.
+3.EmailForProductManagerForFinalCheck - Email
+4.EmailForQualityRepForQualityCheck - Email
+
+
+US-740
+1.	Go to setup-> Named Credentials
+2.	Configure as below:
+ 
+Label:	RawMaterial
+Name:	RawMaterial
+URL	https://shs-crm-qa.herokuapp.com/salesforce/raw_material/ //Instance is changed for QA.
+Hide Section - Authentication
+Certificate- shs
+Identity Type- Named Principal
+Authentication Protocol- JWT
+Issuer- salesforce
+Named Principal Subject- Salesforce Integration User
+Audiences https://shs-crm-qa.herokuapp.com //This would be the base address for QA.
+Token Valid for -	5 Minutes
+JWT Signing Certificate- shs
+Hide Section - Callout OptionsCallout Options
+Generate Authorization Header	: True
+Allow Merge Fields in HTTP Header	: True
+Allow Merge Fields in HTTP Body	: True
+-----------------------------------------------------
+Pre-Deployment steps for US-0874:
+
+1) Delete Field 'ProductionKey__c' from TechnicalRequirement__c of type Text after removing its reference from 
+1. Technical Requirement Layout
+2. Technical_Requirement_Record_Page2 Flexipage
+-----------------------------------------------------------
+
+US-958[US-0958_2]
+1. Query all Prtner role records where Account is null [SELECT Id, AccountNumber__c from PartnerRole__c where AccountNumber__c = null].
+2. Delete all the resulted records.
+
+US - DeploymentFix_12Jan2023
+Delete Incoterms__c from OpportunityLineItem object 
+
+**************************************************************
+Pre- Deployment for 958 and 1127:
+Case OWD should be set to private as we are updating Account OWD as part of user story 958
+Deactivating Account Matching rule 
+Change PartnerRole__C.AccountNumber__C field to MD
+Deactivate The duplicate rule and matching rule related to US-1127
+************************************************************************
+Pre-Deployment steps for US-902:
+
+1) Delete Field 'MaterialNumber__c' from InvoicedOrders__c of type Lookup by removing its references if any
+
+*****************************************************************8
+PD task for 1154.
+Use the following script in Developer Console and Delete the records in the sequence of Position__mdt,PositionFieldValues__mdt,Translations__mdt and MasterValues__mdt.
+
+The metadata API name needs to be updated in the Script for all the 4 metadatas.
+
+Script:
+-------
+MetadataService.MetadataPort service = new MetadataService.MetadataPort(); // Set the session id
+service.SessionHeader = new MetadataService.SessionHeader_element();
+service.SessionHeader.sessionId = UserInfo.getSessionId(); //Add all your metadata records developer name to list
+List<String> recordsToDelete = new List<String>();
+For(Translations__mdt m :[SELECT Developername from Translations__mdt Limit 200])
+{
+    String s = 'Translations__mdt.'+m.Developername;
+    recordsToDelete.add(s);
+} //Perform the bulk deletion at a time max of 200 records
+MetadataService.DeleteResult [] results = new MetadataService.DeleteResult []{};
+results = service.deleteMetadata('CustomMetadata', recordsToDelete);
+
+********************************************************************************************************************
+PD task for US-1100
+1. Login to Org -> Goto Setup -> Process Automation Settings -> Add Sampatti Jindal name in Default Workflow User -> Save 
+
+*************************************************************************************************************************
+PD task for US-1024
+1.Login to Org -> Goto Setup -> Sharing Settings -> Edit Organization-Wide Defaults -> check Manual User Record Sharing checkbox ->Save
+2.Login to Org -> Goto Setup -> enter State and Country/Territory Picklists and click -> click Configure States, Countries, and Territories 
+-> click New Country/Territory button -> Add 'Hongkong' in Country/Territory Name , Add 'HK' in Country/Territory Code -> check Active and Visible checkbox -> Save
+**********************************************************************************
+US-1665:
+Create 2 Pricebook records in the system with the below details:
+GO to -> Pricebook and create below 2 records:
+First Record: Pricebook Name: SAG, Active: True, Description: Pricebook for SAG
+Second Record: Pricebook Name: DH, Active: True, Description: Pricebook for DH
+************************************************************************************
+
+US-2421 Bug - 1 time activity
+Go to -> Object Manager -> AccountTeamMember ->Team Role (field)
+Inactivate below 5 value with mentioned api:
+Account manager (Product manager) - ZK
+Sales Representative - ZM
+QW account manager - ZQ
+Quality Representative - ZS
+Contact person AV (work preparation) - ZN 
+
+US-2400_BUG related to US-411
+1) Delete 3 reports and Duration dashboard added in destructive file.
+*************************************************************************************
+US-2699 - R1 - Enhancements: Lead Management - 1 time activity
+Goto -> Setup -> Data Management > State and Country/Territory Picklists -> Click on Configure States, Countries, and Territories
+-> Default Country/Territory -> Select Germany -> Save.
+
+
+***********************************************************************************************
+US-2417
+1. create Site
+"Digital Experiences" in Setup -> Go to "All Sites" and click on "New" ->
+Choose the "Customer Account Portal" experience -> click Get Started 
+-> Add Name as SAG Customer Portal -> Add url as sagcustomerportal -> click on Create button.
+
+2.Enable the Experience Cloud Site in Your Org
+From Setup -> in the Quick Find box -> enter Experiences ->and then select Settings.
+Select Enable Digital Experiences.
+Enter a domain name for your communities, and click Check Availability to make sure that it’s not already in use.
+Save your changes.
+
+3.Enable the ExperienceBundle Metadata Type
+From Setup -> enter Digital Experiences in the Quick Find box, and then select Settings ->
+Select Enable ExperienceBundle Metadata API. -> Save your changes.
+
+************************************************************************************
+US-700_R1_from_Dev 
+************************************************************************************
+Topic: Change of countries name in set up
+Go To 
+--> SETUP
+--> State and Country/Territory Picklists 
+--> Click Edit against below countries:
+Chinese Taipei:  Needs to be renamed to Taiwan. - Save
+Republic of Korea: Needs to be renamed to South Korea - Save
+Islamic Republic of Iran: Needs to be renamed to Iran - Save
+Russian Federation: Needs to be renamed to Russia - Save
+United Kingdom: Needs to be renamed to Great britain - Save
+
+*************************************************************************************
+Deploymentfix_4_4_V3
+
+Remove access for all the apps accept - VERTRIEB_MKT_SALES_MKT (visible and default), standard__Insights(visible) for all the existing profiles except for sys admin
+*************************************************************************************
+US-3011
+Setup -> Object Manager -> AccountContactRelation Object -> Roles -> Add value 'Customer Portal User'
+************************************************************************************
+US-4445 - Enable Dynamic form in Account Flexi Page
+************************************************************************************
+Go to -> set up -> Lightning App Builder --> Edit Account_Record_Page --> Select Page> record detail section and Upgrade to Dynamic Form by clicking Upgrade Now button. 
+

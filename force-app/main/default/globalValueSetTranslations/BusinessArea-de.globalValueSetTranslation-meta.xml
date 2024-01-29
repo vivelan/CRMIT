@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Across Business Areas</masterLabel>
+        <translation>spartenübergreifend</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Bearing Steel</masterLabel>
+        <translation>Wälzlagerstahl</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cold Heading</masterLabel>
+        <translation>Kaltstauch</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Drawing Grades</masterLabel>
+        <translation>Ziehgüten</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Forging Steel</masterLabel>
+        <translation>Massivumformung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Free Cutting Steel (SZO)</masterLabel>
+        <translation>SZO</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Spring Steel</masterLabel>
+        <translation>Federstahl</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnRecordType</fullName>
+    <active>true</active>
+    <description>TR Light Record Type can only be created if related Opportunity is aPrice Indication without quote.
+TR Record Type can only be created if related Opportunity is with quote creation.</description>
+    <errorConditionFormula>AND(NOT(ISBLANK( Opportunity__c)),
+OR(AND(
+Opportunity__r.RecordType.DeveloperName = &quot;Opportunitywithquotecreations&quot;,
+RecordType.DeveloperName = &quot;TechnicalRequirementLight&quot;), AND(Opportunity__r.RecordType.DeveloperName = &quot;PriceIndicationwithoutquote&quot;,
+RecordType.DeveloperName = &quot;TechnicalRequirement&quot;)))</errorConditionFormula>
+    <errorMessage>You cannot create this Technical requirement record type with the Opportunity type selected. Please select a different type.</errorMessage>
+</ValidationRule>

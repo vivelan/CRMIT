@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Interner Besuch: Im Feld &apos;Besuchsort&apos; wird beim Speichern initial die Adresse des Hauptsitzes (DH oder SAG) vorgeblendet, welche jedoch nachträglich geändert werden kann.  Externer Besuch: Im Feld &apos;Besuchsort&apos; wird beim Speichern initial die Adresse des Accounts vorgeblendet (sofern ein Account beim Besuch hinterlegt ist), welche jedoch nachträglich geändert werden kann.</help>
+    <label>Besuchsort</label>
+    <name>VisitLocation__c</name>
+</CustomFieldTranslation>

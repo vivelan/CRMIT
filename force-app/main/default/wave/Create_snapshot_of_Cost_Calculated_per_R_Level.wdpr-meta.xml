@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveRecipe xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <dataflow>Create_snapshot_of_Cost_Calculated_per_R_Level</dataflow>
+    <format>R3</format>
+    <masterLabel>Create snapshot of Cost Calculated per R-Level</masterLabel>
+</WaveRecipe>

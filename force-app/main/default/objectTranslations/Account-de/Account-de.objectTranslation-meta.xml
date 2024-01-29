@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label>Informationen für Rechnungsstellung</label>
+            <section>Billing Information</section>
+        </sections>
+        <sections>	
+            <label>Kundenscoring</label>	
+            <section>Customer Scoring</section>	
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Interne Kundendaten</label>
+            <section>Internal Customer Data</section>
+        </sections>
+        <sections>
+            <label>Risikoinformationen</label>
+            <section>Risk Information</section>
+        </sections>
+         <sections>
+            <label>Informationen Absatzplanung</label>
+            <section>Sales Planning Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage>Da das &quot;Gültig bis&quot; Datum in der Vergangenheit liegt, kann der Account nicht aktiviert werden.</errorMessage>
+        <name>Account_Activation_Future_valid_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte geben Sie eine Telefonnummer im Format &quot;+49123456789&quot; ein.</errorMessage>
+        <name>PhoneNumberBeginWithPlus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Der Vertriebsweg kann für SAP Accounts nicht editiert werden. Sollten Änderungen notwendig sein, hinterlegen Sie diese bitte direkt in SAP.</errorMessage>
+        <name>ValidationOnChannelOfDistribution</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie sind nicht berechtigt einen Account mit dem Account Typ &apos;Kunde&apos; im System zu erfassen. Bitte kontaktieren Sie die Customer Administration.</errorMessage>
+        <name>ConvertPotentialCusInfluencerToCustomer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie sind nicht berechtigt dieses Feld bei diesem Account Typ zu bearbeiten. Bitte kontaktieren Sie die Customer Administration.</errorMessage>
+        <name>ValidationOnCustomerAccountType</name>
+
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die Änderung des Account Typs ist bei einem Kunden nicht möglich.</errorMessage>
+        <name>AccountTypeChangeFromCustomer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Die Adresse des Accounts ist nicht vollständig.</errorMessage>
+        <name>AddressRequiredonAccount</name>
+    </validationRules>
+</CustomObjectTranslation>

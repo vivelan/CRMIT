@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Zielprodukt (St. 1)</label>
+    <name>TargetProduct__c</name>
+    <picklistValues>
+        <masterLabel>D</masterLabel>
+        <translation>D - Draht</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R</masterLabel>
+        <translation>R - Rohstrang</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S</masterLabel>
+        <translation>S - Stab (auch Kundenhalbzeug und Kurzstücke)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U</masterLabel>
+        <translation>U - Draht an Stab schälen</translation>
+    </picklistValues>
+</CustomFieldTranslation>

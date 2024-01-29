@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Block</actionOnInsert>
+    <actionOnUpdate>Allow</actionOnUpdate>
+    <alertText>Use one of these records?</alertText>
+    <description>Creation of duplicate accounts based on - Account Name and  Account Address</description>
+    <duplicateRuleFilter>
+        <booleanFilter>1 AND ( 4 AND ( 5 OR ( 2 AND 3) ) ) AND 6 AND 7 AND 8</booleanFilter>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>Salesforce API Only System Integrations</value>
+            <sortOrder>1</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Customer</value>
+            <sortOrder>2</sortOrder>
+            <table>Account</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>DH Customer Administration</value>
+            <sortOrder>3</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>DeveloperName</field>
+            <operation>equals</operation>
+            <value>DH</value>
+            <sortOrder>4</sortOrder>
+            <table>UserRole</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Type</field>
+            <operation>equals</operation>
+            <value>Potential Customer, Influencer</value>
+            <sortOrder>5</sortOrder>
+            <table>Account</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>SHS Admin</value>
+            <sortOrder>6</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>System Administrator</value>
+            <sortOrder>7</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>Systemadministrator</value>
+            <sortOrder>8</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Account</matchRuleSObjectType>
+        <matchingRule>DHExactMatchingAccountNameANDAddressofAccount</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <isActive>false</isActive>
+    <masterLabel>DH Exact Match Account Name AND Address - Block &amp; Non-Customer Admin</masterLabel>
+    <operationsOnUpdate>Alert</operationsOnUpdate>
+    <operationsOnUpdate>Report</operationsOnUpdate>
+    <securityOption>EnforceSharingRules</securityOption>
+    <sortOrder>3</sortOrder>
+</DuplicateRule>

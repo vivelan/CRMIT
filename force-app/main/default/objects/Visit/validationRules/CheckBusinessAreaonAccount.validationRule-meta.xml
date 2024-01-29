@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CheckBusinessAreaonAccount</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(CONTAINS(Account.AccountBA__c ,VisitBA__c))</errorConditionFormula>
+    <errorMessage>Please select a business area which is assigned to the related account.</errorMessage>
+</ValidationRule>

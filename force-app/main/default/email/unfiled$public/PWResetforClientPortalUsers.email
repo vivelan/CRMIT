@@ -1,0 +1,18 @@
+<p>{!$Label.myEServiceBody1} </p>
+
+<p>{!$Label.myEServiceBody2} </p>
+
+<p>&nbsp;{!$Label.myEServiceBody3}  {!$Label.myEServiceLoginUrl} </p>
+<p>&nbsp; {!$Label.myEServiceBody4} </p>
+<p>&nbsp; {!$Label.myEServiceBody5} </p>
+<p>&nbsp; {!$Label.myEServiceBody6} </p>
+
+<p>{!$Label.myEServiceBody7} </p>
+
+<p>{!$Label.myEServiceBody8} </p>
+
+<p>{!$Label.myEServiceBody9} </p>
+
+<p>{!$Label.myEServiceBody10} </p>
+
+<p>{!$Label.myEServiceBody11} </p>

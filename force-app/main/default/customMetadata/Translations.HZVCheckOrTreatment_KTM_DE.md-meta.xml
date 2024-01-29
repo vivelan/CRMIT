@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>HZVCheckOrTreatment_KTM_DE</label>
+    <protected>false</protected>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">DE</value>
+    </values>
+    <values>
+        <field>PositionFieldValue__c</field>
+        <value xsi:type="xsd:string">HZVCheckOrTreatment_KTM</value>
+    </values>
+    <values>
+        <field>Position__c</field>
+        <value xsi:type="xsd:string">HZVCheckOrTreatment</value>
+    </values>
+    <values>
+        <field>TranslatedValue__c</field>
+        <value xsi:type="xsd:string">KTM - Kantenschleifen + Topographie + Mecana; Anpassung KA: HZV 12 + HZV 10</value>
+    </values>
+    <values>
+        <field>TranslationNumber__c</field>
+        <value xsi:type="xsd:double">13.0</value>
+    </values>
+</CustomMetadata>

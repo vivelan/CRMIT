@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>Sell smarter and faster with the world&apos;s #1 CRM solution.</description>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Sales</label>
+    <navType>Standard</navType>
+	<profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Finished_Goods_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FinishedGoods__c</pageOrSobjectType>
+		<type>Flexipage</type>
+        <profile>Admin</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Finished_Goods_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FinishedGoods__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Finished_Goods_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FinishedGoods__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+</profileActionOverrides>
+<profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Finished_Goods_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>FinishedGoods__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+</profileActionOverrides> 
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Opportunitywithquotecreations</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Opportunitywithquotecreations</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Opportunitywithquotecreations</recordType>
+        <type>Flexipage</type>
+    <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Opportunitywithquotecreations</recordType>
+	<type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>    
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.Opportunitywithquotecreations</recordType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+   </profileActionOverrides>
+     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Steel_Grade_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SteelGrade__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+     </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Steel_Grade_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SteelGrade__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Salesforce API Only System Integrations</profile>
+    </profileActionOverrides>
+     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Steel_Grade_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SteelGrade__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Steel_Grade_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SteelGrade__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>	
+     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Salesforce API Only System Integrations</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Product_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Product2</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Raw_Material_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>RawMaterial__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Raw_Material_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>RawMaterial__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Raw_Material_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>RawMaterial__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Raw_Material_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>RawMaterial__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+	<profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Quote_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Quote</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>OpportunityRecordPage2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PriceIndicationwithoutquote</recordType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>OpportunityRecordPage2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PriceIndicationwithoutquote</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>OpportunityRecordPage2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PriceIndicationwithoutquote</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>OpportunityRecordPage2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PriceIndicationwithoutquote</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>OpportunityRecordPage2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Opportunity</pageOrSobjectType>
+        <recordType>Opportunity.PriceIndicationwithoutquote</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirement</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirement</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirement</recordType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirement</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirement</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Price_Level_Surcharge_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>PriceLevelSurcharge__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Price_Level_Surcharge_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>PriceLevelSurcharge__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Price_Level_Surcharge_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>PriceLevelSurcharge__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Price_Level_Surcharge_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>PriceLevelSurcharge__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Price_Level_Surcharge_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>PriceLevelSurcharge__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Semi_Finished_Goods_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SemiFinishedGoods__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+	 <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Semi_Finished_Goods_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SemiFinishedGoods__c</pageOrSobjectType>
+         <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Product_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>OpportunityLineItem</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Product_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>OpportunityLineItem</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Product_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>OpportunityLineItem</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Product_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>OpportunityLineItem</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Opportunity_Product_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>OpportunityLineItem</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Account_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Account</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Raw_Material_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>RawMaterial__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Semi_Finished_Goods_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SemiFinishedGoods__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Semi_Finished_Goods_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SemiFinishedGoods__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+   <profileActionOverrides>
+        <actionName>View</actionName>
+		<content>Semi_Finished_Goods_Record_Page1</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>SemiFinishedGoods__c</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+		</profileActionOverrides>
+		 <profileActionOverrides>
+        <actionName>View</actionName>
+		<content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Lead</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+	<profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page_Light</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirementLight</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Quality Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page_Light</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirementLight</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Sales</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page_Light</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirementLight</recordType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page_Light</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirementLight</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+     <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Technical_Requirement_Record_Page_Light</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>TechnicalRequirement__c</pageOrSobjectType>
+        <recordType>TechnicalRequirement__c.TechnicalRequirementLight</recordType>
+        <type>Flexipage</type>
+        <profile>SAG Marketing Profile</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Contact_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Contact</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>SHS Admin</profile>
+		</profileActionOverrides>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-Contact</tabs>
+    <tabs>standard-Lead</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>RawMaterial__c</tabs>
+    <tabs>standard-Task</tabs>
+    <tabs>standard-Event</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-ContentNote</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>standard-CollaborationGroup</tabs>
+    <tabs>standard-Forecasting3</tabs>
+    <tabs>standard-File</tabs>
+    <tabs>standard-ListEmail</tabs>
+    <tabs>standard-Quote</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>Exception__c</tabs>
+    <tabs>TechnicalRequirement__c</tabs>
+    <tabs>PriceLevelSurcharge__c</tabs>
+    <tabs>FinishedGoods__c</tabs>
+    <tabs>SemiFinishedGoods__c</tabs>
+    <tabs>SteelGrade__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Sales_UtilityBar</utilityBar>
+</CustomApplication>

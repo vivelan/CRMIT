@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>STW - Gießformat (St.3-5)</label>
+    <name>STWCastingFormat__c</name>
+    <picklistValues>
+        <masterLabel>125</masterLabel>
+        <translation>125 - 125mm x 125mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>150</masterLabel>
+        <translation>150 - 150mm x 150mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>154</masterLabel>
+        <translation>154 - 154mm x 154mm (Zukauf/Lohnwalzung)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>155</masterLabel>
+        <translation>155 - 155mm x 155mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>160</masterLabel>
+        <translation>160 - 160mm x 160mm (Zukauf/Lohnwalzung)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>180</masterLabel>
+        <translation>180 - 180mm x 180mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>240</masterLabel>
+        <translation>240 - 240mm x 240mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>255</masterLabel>
+        <translation>255 - 255mm x 330mm</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>280</masterLabel>
+        <translation>280 - 280mm x 320mm (Zukauf/Lohnwalzung)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>340</masterLabel>
+        <translation>340 - 265mm x 340mm</translation>
+    </picklistValues>
+</CustomFieldTranslation>

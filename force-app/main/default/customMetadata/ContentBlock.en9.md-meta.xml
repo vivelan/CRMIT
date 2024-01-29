@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>en9</label>
+    <protected>false</protected>
+    <values>
+        <field>ContentText__c</field>
+        <value xsi:type="xsd:string">For bolts of the class 8.8 (Component length &gt; 50mm) and 10.9 (generally) from Maraform-wire the finished units must be warm up with a temperature of 250 - 300°C /1 hour on air to reach the lasting elongation &lt; 12,5µm in the test load attempt and the yield strenght (10.9) acc. DIN EN ISO 898.</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">EN</value>
+    </values>
+    <values>
+        <field>PicklistValue__c</field>
+        <value xsi:type="xsd:string">Maraform</value>
+    </values>
+</CustomMetadata>

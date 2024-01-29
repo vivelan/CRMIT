@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+  <valueTranslation>
+        <masterLabel>New</masterLabel>
+        <translation>Neu</translation>
+  </valueTranslation>
+	<valueTranslation>
+        <masterLabel>In Progress</masterLabel>
+        <translation>In Bearbeitung</translation>
+    </valueTranslation>
+	<valueTranslation>
+        <masterLabel>Final Check</masterLabel>
+        <translation>Finale Überprüfung</translation>
+    </valueTranslation>
+	<valueTranslation>
+        <masterLabel>Converted</masterLabel>
+        <translation>Konvertiert</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

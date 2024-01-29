@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnStageChange</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Opportunitywithquotecreations&quot;,ISPICKVAL( StageName , &quot;Negotiation&quot;),ISCHANGED( StageName ),OR(ISBLANK(TEXT(OpportunityType__c)), ISBLANK(TEXT(BusinessArea__c)),ISNULL(DateOfReceipt__c),ISBLANK(TEXT(CalculationTimePoint__c)),ISBLANK(TEXT(CurrencyIsoCode)),ISBLANK(TEXT(Type)),ISBLANK(QuoteValidTill__c),ISBLANK(TEXT(Incoterms__c)),ISBLANK(TEXT(DateOf_Payment__c)),ISBLANK(ProductManager__c),ISBLANK(SalesRepresentative__c),ISBLANK(TEXT(SalesDepartment__c)),ISBLANK(QualityManager__c),ISBLANK(QualityRep__c),ISBLANK(QualityDepartment__c),ISBLANK(TEXT(Language__c)),ISBLANK(CloseDate),ISBLANK(TEXT(ChannelOfDistribution__c))
+), NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>Please specify all of the following mandatory fields in order to create a Quote: Type, Opportunity Type, Business Area, Language, Date Of Receipt, Close Date, all input fields of the sections Responsibilities and Processing as well as Price Information.</errorMessage>
+</ValidationRule>

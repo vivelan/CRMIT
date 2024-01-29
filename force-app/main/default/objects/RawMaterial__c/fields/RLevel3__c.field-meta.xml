@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RLevel3__c</fullName>
+    <externalId>false</externalId>
+    <label>R-Level-3</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>RLevel2__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Eigenschrott</fullName>
+                <default>false</default>
+                <label>Eigenschrott</label>
+            </value>
+            <value>
+                <fullName>Kaufschrott</fullName>
+                <default>false</default>
+                <label>Kaufschrott</label>
+            </value>
+            <value>
+                <fullName>Aluminium</fullName>
+                <default>false</default>
+                <label>Aluminium</label>
+            </value>
+            <value>
+                <fullName>Bleigranalien</fullName>
+                <default>false</default>
+                <label>Bleigranalien</label>
+            </value>
+            <value>
+                <fullName>Chrom</fullName>
+                <default>false</default>
+                <label>Chrom</label>
+            </value>
+            <value>
+                <fullName>Mangan</fullName>
+                <default>false</default>
+                <label>Mangan</label>
+            </value>
+            <value>
+                <fullName>Silizium</fullName>
+                <default>false</default>
+                <label>Silizium</label>
+            </value>
+            <value>
+                <fullName>Molybdän</fullName>
+                <default>false</default>
+                <label>Molybdän</label>
+            </value>
+            <value>
+                <fullName>Nickel</fullName>
+                <default>false</default>
+                <label>Nickel</label>
+            </value>
+            <value>
+                <fullName>Tellur</fullName>
+                <default>false</default>
+                <label>Tellur</label>
+            </value>
+            <value>
+                <fullName>Selen</fullName>
+                <default>false</default>
+                <label>Selen</label>
+            </value>
+            <value>
+                <fullName>Titan</fullName>
+                <default>false</default>
+                <label>Titan</label>
+            </value>
+            <value>
+                <fullName>Bismut</fullName>
+                <default>false</default>
+                <label>Bismut</label>
+            </value>
+            <value>
+                <fullName>Vanadium</fullName>
+                <default>false</default>
+                <label>Vanadium</label>
+            </value>
+            <value>
+                <fullName>Roheisen</fullName>
+                <default>false</default>
+                <label>Roheisen</label>
+            </value>
+            <value>
+                <fullName>Entschwefelungsmittel</fullName>
+                <default>false</default>
+                <label>Entschwefelungsmittel</label>
+            </value>
+            <value>
+                <fullName>Kalk</fullName>
+                <default>false</default>
+                <label>Kalk</label>
+            </value>
+            <value>
+                <fullName>Kohlungsmittel und Koks</fullName>
+                <default>false</default>
+                <label>Kohlungsmittel und Koks</label>
+            </value>
+            <value>
+                <fullName>Sonstige Zuschläge</fullName>
+                <default>false</default>
+                <label>Sonstige Zuschläge</label>
+            </value>
+            <value>
+                <fullName>Sonstige Legierungen</fullName>
+                <default>false</default>
+                <label>Sonstige Legierungen</label>
+            </value>
+            <value>
+                <fullName>Delta Gas zu Grundplan</fullName>
+                <default>false</default>
+                <label>Delta Gas zu Grundplan</label>
+            </value>
+            <value>
+                <fullName>Delta Strom zu Grundplan</fullName>
+                <default>false</default>
+                <label>Delta Strom zu Grundplan</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Schrott</controllingFieldValue>
+            <valueName>Eigenschrott</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Schrott</controllingFieldValue>
+            <valueName>Kaufschrott</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Aluminium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Bleigranalien</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Chrom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Mangan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Silizium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Molybdän</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Nickel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Tellur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Selen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Titan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Bismut</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Vanadium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Legierungen</controllingFieldValue>
+            <valueName>Sonstige Legierungen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Roheisen</controllingFieldValue>
+            <valueName>Roheisen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nichtmetall. Zuschläge</controllingFieldValue>
+            <valueName>Entschwefelungsmittel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nichtmetall. Zuschläge</controllingFieldValue>
+            <valueName>Kalk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nichtmetall. Zuschläge</controllingFieldValue>
+            <valueName>Kohlungsmittel und Koks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Nichtmetall. Zuschläge</controllingFieldValue>
+            <valueName>Sonstige Zuschläge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energie / Medien</controllingFieldValue>
+            <valueName>Delta Gas zu Grundplan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Energie / Medien</controllingFieldValue>
+            <valueName>Delta Strom zu Grundplan</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

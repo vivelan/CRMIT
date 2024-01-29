@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TextForSelectionQuality__c</fullName>
+    <externalId>false</externalId>
+    <label>Texts for Selection Quality Dep.</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not in product portfolio</fullName>
+                <default>false</default>
+                <label>Not in product portfolio</label>
+            </value>
+            <value>
+                <fullName>Acceptance of Spec.</fullName>
+                <default>false</default>
+                <label>Acceptance of Spec.</label>
+            </value>
+            <value>
+                <fullName>Surface according to DIN EN ISO 9443</fullName>
+                <default>false</default>
+                <label>Surface according to DIN EN ISO 9443</label>
+            </value>
+            <value>
+                <fullName>Surface according to EN ISO 9443</fullName>
+                <default>false</default>
+                <label>Surface according to EN ISO 9443</label>
+            </value>
+            <value>
+                <fullName>Upset testing</fullName>
+                <default>false</default>
+                <label>Upset testing</label>
+            </value>
+            <value>
+                <fullName>Edge decarburization according to DIN EN ISO 3887-03</fullName>
+                <default>false</default>
+                <label>Edge decarburization according to DIN EN ISO 3887-03</label>
+            </value>
+            <value>
+                <fullName>Edge decarburization according to DIN EN 10263</fullName>
+                <default>false</default>
+                <label>Edge decarburization according to DIN EN 10263</label>
+            </value>
+            <value>
+                <fullName>Purpose of use</fullName>
+                <default>false</default>
+                <label>Purpose of use</label>
+            </value>
+            <value>
+                <fullName>Maraform</fullName>
+                <default>false</default>
+                <label>Maraform</label>
+            </value>
+            <value>
+                <fullName>Standard sentence: &quot;Further customer requirements&quot;</fullName>
+                <default>false</default>
+                <label>Standard sentence: &quot;Further customer requirements&quot;</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

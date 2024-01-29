@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnInlineLeadConversion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(IsConverted),
+ISPICKVAL( Status ,&apos;Converted&apos;),
+NOT($Setup.ByPassLogic__c.ByPassValidation__c ) )</errorConditionFormula>
+    <errorMessage>Please use the lead path on top of this record to set the lead status to &quot;Converted&quot; and transfer the record to an account, contact and opportunity.</errorMessage>
+</ValidationRule>

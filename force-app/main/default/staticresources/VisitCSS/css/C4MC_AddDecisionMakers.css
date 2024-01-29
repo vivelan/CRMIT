@@ -1,0 +1,38 @@
+.c4mc-dec-makers-search-result-label{
+    text-align: right;
+}
+
+.c4mc-dec-makers-tableContainer {
+    margin-top: 1.35%;
+}
+
+.c4mc-dec-makers-tableContainer .slds-row-number{
+    font-size: 12px;
+}
+
+.checkbox-style-input{
+    text-align: center;
+}
+
+.table-scroll-auto{
+    overflow-x: scroll;
+    position: relative;
+}
+
+.border-right {
+    border-right: 1px;
+    border-right-style: solid;
+    border-right-color: grey; 
+}
+
+.border-left {
+    border-left: 1px;
+    border-left-style: solid;
+    border-left-color: grey; 
+}
+
+.c4mc-style-text-dec-makers{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}

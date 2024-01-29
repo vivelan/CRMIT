@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>fr9</label>
+    <protected>false</protected>
+    <values>
+        <field>ContentText__c</field>
+        <value xsi:type="xsd:string">Pour les vis de classe 8.8 (éléments de longueur &gt; 50 mm) et 10.9 (en général) exécutés à partir de fils Maraform, il est nécessaire de réaliser un traitement de réchauffage à 250-300°C pendant 1h suivi d&apos; un refroidissement à l’air sur les pièces finies pour atteindre lors de l’ essai de mise sous effort les valeurs d’allongement permanent &lt; 12,5µm et de limite d’élasticité (10.9) correspondant à la norme DIN EN ISO 898.</value>
+    </values>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">FR</value>
+    </values>
+    <values>
+        <field>PicklistValue__c</field>
+        <value xsi:type="xsd:string">Maraform</value>
+    </values>
+</CustomMetadata>

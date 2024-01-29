@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>+T-Tempered</fullName>
+        <default>false</default>
+        <label>+T-Tempered</label>
+    </customValue>
+    <customValue>
+        <fullName>+FP-Treated for ferrite-pearlite structure and hardness span</fullName>
+        <default>false</default>
+        <label>+FP-Treated for ferrite-pearlite structure and hardness span</label>
+    </customValue>
+    <customValue>
+        <fullName>+TH-Treated for hardness span</fullName>
+        <default>false</default>
+        <label>+TH-Treated for hardness span</label>
+    </customValue>
+    <customValue>
+        <fullName>+S-Treated for cold shear</fullName>
+        <default>false</default>
+        <label>+S-Treated for cold shear</label>
+    </customValue>
+    <customValue>
+        <fullName>+AC-Annealed to obtain spherical carbides</fullName>
+        <default>false</default>
+        <label>+AC-Annealed to obtain spherical carbides</label>
+    </customValue>
+    <customValue>
+        <fullName>+N-Normalized annealed or normalizing shaped</fullName>
+        <default>false</default>
+        <label>+N-Normalized annealed or normalizing shaped</label>
+    </customValue>
+    <customValue>
+        <fullName>+U-Untreated</fullName>
+        <default>false</default>
+        <label>+U-Untreated</label>
+    </customValue>
+    <customValue>
+        <fullName>+QT-Quench Hardened-Tempered</fullName>
+        <default>false</default>
+        <label>+QT-Quench Hardened-Tempered</label>
+    </customValue>
+    <customValue>
+        <fullName>+A-Soft annealed</fullName>
+        <default>false</default>
+        <label>+A-Soft annealed</label>
+    </customValue>
+    <customValue>
+        <fullName>+AR-As rolled (without any special rolling and/or heat treatment conditions)</fullName>
+        <default>false</default>
+        <label>+AR-As rolled (without any special rolling and/or heat treatment conditions)</label>
+    </customValue>
+    <masterLabel>Heat Treatment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

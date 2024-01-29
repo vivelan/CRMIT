@@ -1,0 +1,48 @@
+.head-style{
+    background-color: #FBFBFB;
+}
+
+.mainAccordion-assets {
+    margin-top: 10px;
+}
+
+.accordionSection {
+    border: none;
+    padding-top: 10px;
+}
+
+.th-style{
+    width: 50px; 
+    height: 30px;
+    border-left: 1px solid;
+    border-color: gray;
+}
+
+.th-table{
+    border-right: 1px solid; 
+    width: 150px;
+    border-color: gray;
+}
+
+.left-align{
+    margin-left: 10px;
+}
+
+.table-scroll{
+    max-height: 180px;
+ }
+
+ .style-text{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+.hover-name{
+    cursor: pointer;
+    color: #1977D3;
+}
+.hover-name:hover{
+    text-decoration: underline;
+    color: #345D96;
+}

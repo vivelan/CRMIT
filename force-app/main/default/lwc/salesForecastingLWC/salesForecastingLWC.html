@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+        <lightning-tabset variant="scoped" active-tab-value={activetabContent}>
+            <lightning-tab label = {label.BusinessAreaproductgroupSalesPlanningLabel} onactive={tabChangeHandler}>
+                <c-business-planning ontablabelchange={handleTabLabelChange}>
+                </c-business-planning>
+            </lightning-tab>
+            <lightning-tab label= {label.AccountSalesPlanningTab} onactive={tabChangeHandler}>
+                <c-account-planning ontablabelchange={handleTabLabelChange1}>
+                </c-account-planning>
+            </lightning-tab>
+        </lightning-tabset>
+    </lightning-card>
+</template>

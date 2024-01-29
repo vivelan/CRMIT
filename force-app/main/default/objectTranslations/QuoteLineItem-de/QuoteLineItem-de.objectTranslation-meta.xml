@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation>
+    <layouts>
+        <layout>Quote Line Item Layout</layout>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

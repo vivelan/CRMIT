@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Pricing_Dashboards_Sales_Marketing</application>
+    <description>Created from the Prepare Net Proceeds Data recipe.</description>
+    <masterLabel>Net Proceeds Analysis</masterLabel>
+    <type>default</type>
+</WaveDataset>

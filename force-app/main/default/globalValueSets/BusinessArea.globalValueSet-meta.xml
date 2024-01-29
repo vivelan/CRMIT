@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ZK</fullName>
+        <default>false</default>
+        <label>Cold Heading</label>
+    </customValue>
+    <customValue>
+        <fullName>ZF</fullName>
+        <default>false</default>
+        <label>Spring Steel</label>
+    </customValue>
+    <customValue>
+        <fullName>ZS</fullName>
+        <default>false</default>
+        <label>Free Cutting Steel (SZO)</label>
+    </customValue>
+    <customValue>
+        <fullName>ZZ</fullName>
+        <default>false</default>
+        <label>Drawing Grades</label>
+    </customValue>
+    <customValue>
+        <fullName>ZW</fullName>
+        <default>false</default>
+        <label>Bearing Steel</label>
+    </customValue>
+    <customValue>
+        <fullName>ZM</fullName>
+        <default>false</default>
+        <label>Forging Steel</label>
+    </customValue>
+    <customValue>
+        <fullName>00</fullName>
+        <default>false</default>
+        <label>Across Business Areas</label>
+    </customValue>
+    <masterLabel>Business Area</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

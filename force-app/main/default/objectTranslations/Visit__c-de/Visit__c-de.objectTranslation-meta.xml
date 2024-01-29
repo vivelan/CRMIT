@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Besuchsmanagement</value> 
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Besuchsmanagement</value> 
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Besuchsmanagement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Besuchsmanagement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Besuchsmanagement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Besuchsmanagement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Besuchsmanagement</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Besuchsmanagement</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Visit Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Weitere Informationen</label>
+            <section>Further Information</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Systeminformationen</label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label>Besuchsbericht</label>
+            <section>Visit Report</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>Besuchs-Nr.</nameFieldLabel>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Werksbesichtigung ankündigen</label>
+        <name>AnnounceMillTour</name>
+    </quickActions>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>Besuch absagen</label>
+        <name>CancelVisit</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage>Bitte wählen Sie ein Geschäftfeld aus, welches dem zugehörigen Account zugeordnet ist.</errorMessage>
+        <name>CheckBusinessAreaonAccount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Das Feld &apos;Werksbesichtigung&apos; kann nur für interne Besuche ausgewählt werden, wenn eine Besichtigung des Werks am Standort Dillingen geplant ist.</errorMessage>
+        <name>ValidationOnMillTour</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Dieser Besuch hat bereits stattgefunden oder wurde abgesagt, weshalb eine weitere Bearbeitung nicht mehr möglich ist.</errorMessage>
+        <name>ValidationRuleOnEdit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Dieser Statusübergang ist nicht möglich. Bitte beachten Sie die Hinweise zu diesem Statuswert.</errorMessage>
+        <name>ValidationRuleOnStatusChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Der Account hat den Compliance Check nicht bestanden, daher ist die Funktion nicht verfügbar.</errorMessage>
+        <name>AccountComplianceCheck</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Der Account ist deaktiviert, daher ist die Funktion nicht verfügbar.</errorMessage>
+        <name>AccountActiveCheck</name>
+    </validationRules>
+</CustomObjectTranslation>

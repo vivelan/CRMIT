@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Prüfen - Sonderprüfung (St.43)</label>
+    <name>SpecialInspections__c</name>
+    <picklistValues>
+        <masterLabel>B</masterLabel>
+        <translation>B - V&amp;D</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D</masterLabel>
+        <translation>D - Dimensionsprüfung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>G</masterLabel>
+        <translation>G - Geradheits- und Dimensionsprüfung</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>V</masterLabel>
+        <translation>V - Verwechselungsprüfung bei S9/M9/L9/K9/DZ/F9</translation>
+    </picklistValues>
+</CustomFieldTranslation>

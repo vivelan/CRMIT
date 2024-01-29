@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>true</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>true</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>true</plural>
+        <value>Präkula</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Präkula Layout</layout>
+        <sections>
+            <label></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Zuständigkeit und Bearbeitung</label>
+            <section>Responsibilities and Processing</section>
+        </sections>
+    </layouts>
+<validationRules>
+        <errorMessage>Sie können eine Präkula nur dann in QW verschieben, wenn mindestens eine Liefervorschrift zugeordnet ist und die zugeordnete Liefervorschrift genehmigt ist.</errorMessage>
+        <name>CheckDeliveryInstructionValidation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie können den Status nur von QW zurück auf Neu oder auf Finale Prüfung ändern.</errorMessage>
+        <name>ValidationOnstatusbasedforQualityProfile</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Sie können den Status nur von Neu zu QW, von Finale Prüfung zu Freigegeben oder von Finale Prüfung zurück zu QWvändern.</errorMessage>
+        <name>Validationonstatusbasedonsalesprofile</name>
+    </validationRules>
+    <nameFieldLabel></nameFieldLabel>
+</CustomObjectTranslation>

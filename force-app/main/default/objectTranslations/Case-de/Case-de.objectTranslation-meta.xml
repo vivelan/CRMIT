@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Case Complaint Layout</layout>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Bearbeitung und Genehmigungen</label>
+            <section>Processing and Approvals</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>User Registration Layout</layout>
+        <sections>
+            <label>Kundenportal Registrierungsanfrageformular - Details</label>
+            <section>Customer Portal Registration Application - Details</section>
+        </sections>
+        <sections>
+            <label>Details zur Benutzererstellung</label>
+            <section>Details for User Creation</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label></label>
+        <name>Reclamation</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>Bitte geben Sie den Benutzertyp, Kunde und Kontakt an, damit die myE-Service Registrierungsanfrage an die IT-Abteilung zur Erstellung des Benutzers weitergeleitet werden kann.</errorMessage>
+        <name>restrictsettingthestatusUserCreation</name>
+    </validationRules>
+</CustomObjectTranslation>

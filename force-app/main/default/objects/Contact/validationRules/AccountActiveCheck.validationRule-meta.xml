@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountActiveCheck</fullName>
+    <active>true</active>
+    <description>Contacts cannot be related to an account which is set to Deactive</description>
+    <errorConditionFormula>Account.Inactive__c = True &amp;&amp; ( $Profile.Name = &apos;DH Customer Administration&apos; || $Profile.Name = &apos;DH Marketing Profile&apos; || $Profile.Name = &apos;DH Sales Profile&apos;) &amp;&amp; ISNEW() = True</errorConditionFormula>
+    <errorMessage>The account is deactivated, therefore this function is not available</errorMessage>
+</ValidationRule>

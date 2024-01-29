@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>HZV - US-Prüfung (St.20-21)</label>
+    <name>USHTesting__c</name>
+    <picklistValues>
+        <masterLabel>52</masterLabel>
+        <translation>52 - Anlagenprüfung: Kernfehler auf 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>62</masterLabel>
+        <translation>62 - Anlagenprüfung: max. prüfbares Volumen auf 3,0 AVG</translation>
+    </picklistValues>
+</CustomFieldTranslation>

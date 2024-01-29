@@ -1,0 +1,77 @@
+.c4m-select-product-component-table-container {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.c4m-select-product-component-table-container thead th {
+  position: sticky;
+  top: 0px;
+  z-index: 9999;/* this will bring header forward*/
+}
+
+.c4m-head-style {
+  background-color: #fbfbfb;
+  height: 32px;
+}
+
+.c4m-th-first-style {
+  width: 50px;
+  height: 30px;
+  border-left: 1px solid;
+  border-color: gray;
+}
+
+.c4m-th-style {
+  width: 50px;
+  height: 30px;
+}
+
+.c4m-th-table-period-name {
+  border-right: 1px solid;
+  border-color: gray;
+}
+
+.c4m-th-table-product-component-name {
+  border-right: 1px solid;
+  border-color: gray;
+}
+
+.c4m-align-title {
+  margin-left: 10px;
+}
+
+.c4m-period-name {
+  margin-left: 10px;
+}
+
+.c4m-product-component-scroll {
+  max-height: 5.5rem;
+  overflow-x: scroll;
+  position: relative;
+  overflow: auto;
+}
+
+.c4m-select-product-component-no-product-component {
+  display: grid;
+  place-items: center;
+  font-size: medium;
+}
+
+.checkbox-div{
+  margin-left: 13px;
+  display:flex;
+}
+
+.checkbox-input{
+  margin-right: -10px;
+}
+
+.checkbox-icon{
+  padding: 0;
+}
+
+.style-text {
+  text-align: center;
+  padding: 5px;
+  font-size: medium;
+}

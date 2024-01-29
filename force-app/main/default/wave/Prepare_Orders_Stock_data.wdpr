@@ -1,0 +1,476 @@
+{
+  "version" : "59.0",
+  "nodes" : {
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Rolling_Mill", "Customer_Request_Date", "PO_Confirmation_Item", "Customer_Steel_Grade", "Product_Name", "Customer_Material", "Material_Number", "Confirmed_Date", "Week_of_Rolling", "Mode_of_Transport", "Account_Name", "Account_Number", "PO_Confirmation", "PO", "Shipped_Quantity", "Order_Quantity" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Order",
+          "name" : "Order"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET1" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Production_Blockage", "Quality_Blockage", "PO_Confirmation_Item", "Warehouse_Name", "Customer_Number", "Heat", "Type", "Delivery_Condition", "PO_Confirmation", "Tonnage", "Package_count", "HU_count" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Stock",
+          "name" : "Stock"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FORMULA0" : {
+      "action" : "formula",
+      "sources" : [ "LOAD_DATASET0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Join_Key",
+          "label" : "Join Key",
+          "formulaExpression" : "concat(PO_Confirmation, '-', PO_Confirmation_Item)",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA0_copy0" : {
+      "action" : "formula",
+      "sources" : [ "LOAD_DATASET1" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Join_Key",
+          "label" : "Join Key",
+          "formulaExpression" : "concat(PO_Confirmation, '-', PO_Confirmation_Item)",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "DROP_FIELDS1" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Orders & Stock Sales",
+          "name" : "Order_Stock_Sales",
+          "folderName" : "Sales_Reporting1"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "OUTPUT1" : {
+      "action" : "save",
+      "sources" : [ "APPEND0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Orders & Stock Omnichannel",
+          "name" : "Order_Stock_Omnichannel",
+          "folderName" : "Omnichannel"
+        }
+      }
+    },
+    "JOIN0" : {
+      "action" : "join",
+      "sources" : [ "FORMULA0", "FORMULA0_copy0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "INNER",
+        "leftKeys" : [ "Join_Key" ],
+        "rightQualifier" : "Stock",
+        "rightKeys" : [ "Join_Key" ]
+      }
+    },
+    "APPEND0" : {
+      "action" : "appendV2",
+      "sources" : [ "EDIT_ATTRIBUTES1_copy0", "LOAD_DATASET0" ],
+      "parameters" : {
+        "fieldMappings" : [ {
+          "top" : "Rolling_Mill",
+          "bottom" : "Rolling_Mill"
+        }, {
+          "top" : "Customer_Request_Date",
+          "bottom" : "Customer_Request_Date"
+        }, {
+          "top" : "PO_Confirmation_Item",
+          "bottom" : "PO_Confirmation_Item"
+        }, {
+          "top" : "Customer_Steel_Grade",
+          "bottom" : "Customer_Steel_Grade"
+        }, {
+          "top" : "Product_Name",
+          "bottom" : "Product_Name"
+        }, {
+          "top" : "Customer_Material",
+          "bottom" : "Customer_Material"
+        }, {
+          "top" : "Material_Number",
+          "bottom" : "Material_Number"
+        }, {
+          "top" : "Confirmed_Date",
+          "bottom" : "Confirmed_Date"
+        }, {
+          "top" : "Week_of_Rolling",
+          "bottom" : "Week_of_Rolling"
+        }, {
+          "top" : "Mode_of_Transport",
+          "bottom" : "Mode_of_Transport"
+        }, {
+          "top" : "Account_Name",
+          "bottom" : "Account_Name"
+        }, {
+          "top" : "Account_Number",
+          "bottom" : "Account_Number"
+        }, {
+          "top" : "PO_Confirmation",
+          "bottom" : "PO_Confirmation"
+        }, {
+          "top" : "PO",
+          "bottom" : "PO"
+        }, {
+          "top" : "Shipped_Quantity",
+          "bottom" : "Shipped_Quantity"
+        }, {
+          "top" : "Order_Quantity",
+          "bottom" : "Order_Quantity"
+        } ]
+      }
+    },
+    "FORMULA1_copy0" : {
+      "action" : "formula",
+      "sources" : [ "JOIN0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Shipped_Quantity1",
+          "label" : "Shipped Quantity",
+          "formulaExpression" : "0",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA2_copy0" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA1_copy0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Order_Quantity1",
+          "label" : "Order Quantity",
+          "formulaExpression" : "0",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "DROP_FIELDS0_copy0" : {
+      "action" : "schema",
+      "sources" : [ "FORMULA2_copy0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Shipped_Quantity", "Order_Quantity" ]
+        }
+      }
+    },
+    "EDIT_ATTRIBUTES0_copy0" : {
+      "action" : "schema",
+      "sources" : [ "DROP_FIELDS0_copy0" ],
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Shipped_Quantity1",
+          "newProperties" : {
+            "label" : "Shipped Quantity",
+            "name" : "Shipped_Quantity"
+          }
+        } ]
+      }
+    },
+    "EDIT_ATTRIBUTES1_copy0" : {
+      "action" : "schema",
+      "sources" : [ "EDIT_ATTRIBUTES0_copy0" ],
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Order_Quantity1",
+          "newProperties" : {
+            "label" : "Order Quantity",
+            "name" : "Order_Quantity"
+          }
+        } ]
+      }
+    },
+    "JOIN1" : {
+      "action" : "join",
+      "sources" : [ "APPEND0", "LOAD_DATASET3" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Account_Number" ],
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    },
+    "LOAD_DATASET3" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "AccountGroupName__c", "SAPAccountNumber__c" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Account",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Account"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "DROP_FIELDS1" : {
+      "action" : "schema",
+      "sources" : [ "JOIN1" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "SAPAccountNumber__c" ]
+        }
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "label" : "Order",
+        "type" : "LOAD_DATASET",
+        "top" : 112,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "LOAD_DATASET1" : {
+        "label" : "Stock",
+        "type" : "LOAD_DATASET",
+        "top" : 252,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM0" : {
+        "label" : "Order - Create join key",
+        "description" : "Create join key between Order and Stock data by concatenating the PO_Confirmation and the PO_Confirmation_Item fields",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 252,
+        "graph" : {
+          "FORMULA0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "TRANSFORM0_copy0" : {
+        "label" : "Stock - Create join key",
+        "description" : "Create join key between Order and Stock data by concatenating the PO_Confirmation and the PO_Confirmation_Item fields",
+        "type" : "TRANSFORM",
+        "top" : 252.10000000000002,
+        "left" : 252,
+        "graph" : {
+          "FORMULA0_copy0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT0" : {
+        "label" : "Create orders & stock dataset for sales reporting",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 391.9,
+        "left" : 952.2
+      },
+      "OUTPUT1" : {
+        "label" : "Create orders & stock dataset for Omnichannel",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 252.10000000000002,
+        "left" : 952.1
+      },
+      "JOIN0" : {
+        "label" : "Join Order and Stock data",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 252,
+        "left" : 392
+      },
+      "APPEND0" : {
+        "label" : "Union with Order data",
+        "description" : "",
+        "type" : "APPEND",
+        "top" : 252.3,
+        "left" : 671.8
+      },
+      "TRANSFORM1_copy0" : {
+        "label" : "Set Shipped Quantity to 0 for non-union records",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 254.2,
+        "left" : 532,
+        "graph" : {
+          "FORMULA1_copy0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "FORMULA2_copy0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "DROP_FIELDS0_copy0" : {
+            "label" : "Drop Columns"
+          },
+          "EDIT_ATTRIBUTES0_copy0" : {
+            "label" : "Edit Attributes"
+          },
+          "EDIT_ATTRIBUTES1_copy0" : {
+            "label" : "Edit Attributes"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA1_copy0",
+          "target" : "FORMULA2_copy0"
+        }, {
+          "source" : "FORMULA2_copy0",
+          "target" : "DROP_FIELDS0_copy0"
+        }, {
+          "source" : "DROP_FIELDS0_copy0",
+          "target" : "EDIT_ATTRIBUTES0_copy0"
+        }, {
+          "source" : "EDIT_ATTRIBUTES0_copy0",
+          "target" : "EDIT_ATTRIBUTES1_copy0"
+        } ]
+      },
+      "JOIN1" : {
+        "label" : "Join order data and the account group",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 392,
+        "left" : 672
+      },
+      "LOAD_DATASET3" : {
+        "label" : "Account",
+        "type" : "LOAD_DATASET",
+        "top" : 392.3,
+        "left" : 531.8,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM2" : {
+        "label" : "Drop unused columns",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 392,
+        "left" : 812,
+        "graph" : {
+          "DROP_FIELDS1" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      }
+    },
+    "connectors" : [ {
+      "source" : "TRANSFORM1_copy0",
+      "target" : "APPEND0"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "JOIN0"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "LOAD_DATASET1",
+      "target" : "TRANSFORM0_copy0"
+    }, {
+      "source" : "TRANSFORM0_copy0",
+      "target" : "JOIN0"
+    }, {
+      "source" : "LOAD_DATASET0",
+      "target" : "APPEND0"
+    }, {
+      "source" : "JOIN0",
+      "target" : "TRANSFORM1_copy0"
+    }, {
+      "source" : "APPEND0",
+      "target" : "JOIN1"
+    }, {
+      "source" : "LOAD_DATASET3",
+      "target" : "JOIN1"
+    }, {
+      "source" : "JOIN1",
+      "target" : "TRANSFORM2"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "APPEND0",
+      "target" : "OUTPUT1"
+    } ],
+    "hiddenColumns" : [ ]
+  },
+  "runMode" : "full"
+}

@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "e5b8a1fa-da65-403a-bdd4-1513ddf55a8b",
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "configurationTags" : [ ],
+  "devName" : "Production_Status__c",
+  "id" : "6b58c333-c4e6-435c-b38d-f788c94406dc",
+  "label" : "Production Status",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-production-status",
+  "type" : "route",
+  "urlPrefix" : "production-status"
+}

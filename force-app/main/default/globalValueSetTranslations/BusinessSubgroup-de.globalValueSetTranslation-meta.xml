@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>High Carbon</masterLabel>
+        <translation>Harte Güten</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Low Carbon</masterLabel>
+        <translation>Weiche Güten</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tyre Cord</masterLabel>
+        <translation>Reifendraht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Welding Wire</masterLabel>
+        <translation>SZW</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

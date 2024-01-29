@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>InspecSurfacedefectinspec_P2_DE</label>
+    <protected>false</protected>
+    <values>
+        <field>Language__c</field>
+        <value xsi:type="xsd:string">DE</value>
+    </values>
+    <values>
+        <field>PositionFieldValue__c</field>
+        <value xsi:type="xsd:string">InspecSurfacedefectinspec_P2</value>
+    </values>
+    <values>
+        <field>Position__c</field>
+        <value xsi:type="xsd:string">InspecSurfacedefectinspec</value>
+    </values>
+    <values>
+        <field>TranslatedValue__c</field>
+        <value xsi:type="xsd:string">P2 - Stab/Profile nicht rund_Pr.-Rev. FLUXEN Gütekl. B; Str. 14/15 Erprobung 100%; Str. 31 Erprobung jeder 7. Knüppel</value>
+    </values>
+    <values>
+        <field>TranslationNumber__c</field>
+        <value xsi:type="xsd:double">24.0</value>
+    </values>
+</CustomMetadata>

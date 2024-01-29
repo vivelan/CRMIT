@@ -1,0 +1,169 @@
+/*********************************************************************************************************************
+Release : R1- HyperCare
+*********************************************************************************************************************/
+US-6779
+1. Goto Setup --> Scheduled Jobs --> delete job SalesPlanningbatchScheduled.(class can not be editted till there is a scheduled job for it.)
+
+US-4951 - 1 time activity
+1. Goto Setup -->Object Manager --> Account --> Fields&Relationship -->Type --> Deactive all picklist values except 'Customer' during 1st time deployment.
+Ensure 'Customer','Potential Customer' and 'Influencer' Picklist values should be active.
+
+
+US-5313
+1. create Site
+"Digital Experiences" in Setup -> Go to "All Sites" and click on "New" ->
+Choose the "Customer Account Portal" experience -> click Get Started 
+-> Add Name as Dillinger myE-Service -> Add url as dillingermyeservice -> click on Create button.
+->Go to Administration -> Login & Registration -> search Logout Page URL  and add http://www.dillinger.de -> Save.
+->Settings -> click on Activate button.
+
+US-5121
+1. Setup -> Translation Language Settings Add 'French' and save.
+2. Delete Dimension B (Formula field) from Opportunity Product - Object.(as new dimesion B of type number is created)
+
+US-7210
+PD step for Production: 
+Use dataLoader or dataloader.io(https://dataloader.io/) to import OpportunityLineItem data for backup.
+use below query to export data : 
+SELECT Id,Name, TextForSelectionSales__c, CommercialOffer__c from OpportunityLineItem where TextForSelectionSales__c != null
+
+US-6625
+Delete the field - 'Languages__c' from Delicery Instruction Object
+
+US-7426
+Query - select Id,name,profile.name from user where profile.name ='SHS Integration User'
+Assign 'Salesforce Integration' in User License and update profile to 'Salesforce API Only System Integrations' by removing SHS Integration User profile.
+
+BUG-8503 ---- 1 time Activity only in QA
+1. Go to Setup --> Object Manager
+2. Search for Präkula Object
+3. Go to Details and click Edit
+4. Scroll down to "Enter Record Name Label and Format" Section and change the Data type to Text and Save it.
+6. Repeat the step 3 and 4 for LV Position object.
+7. Repeat the step 3 and 4 for Delivery Instructions object. 
+8. Repeat the step 3 and 4 for Praekula Delivery Instructions object.
+
+US-4955 - 1 time activity
+
+Enable Custom Address Fields from Setup -> User Interface
+
+US-5149
+Go to Setup --> Public Group --> Create new Group -->
+Set Label as ‘DocgenDocumentTemplateLibraryGroup’
+Set Group Name as ‘DocgenDocumentTemplateLibraryGroup’
+Check Grant Access Using Hierarchies to true 
+Select below values from Available Members and Move them to Selected members column
+1. All Customer Portal Users
+2. All Internal Users
+-->Save
+ 
+Go to App Launcher --> Select Files --> Select Libraries -->
+Click on New Library -
+Name Docgen Document Template Library -->
+-->Click Save
+-->open Library
+-->Click on Manage Members
+-->Search public group --> DocgenDocumentTemplateLibraryGroup
+-->Click Add
+
+US-6622
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> Click on Connections.
+2. Click on SFDC_LOCAL -> click on the SFDC_LOCAL dropdown -> edit.
+3. Search and select ContentVersion -> Check below columns -> Click Save.
+Columns to check - ContentVersion ID, ContentDocument ID, Title, File Type, Version Data URL, Attachment type, Document Type, Purchaser, Regulator, Consumer, Project, Project ID, Publication Date, Purchaser Reference, Receiver Reference, Document Number, Inspection Company, Recency Date, Invoice Receiver, Revision, Order Number, Mill Order Number, Purchaser Number, Regulator Number, Consumer Number, Invoice Receiver Number, Position.
+
+US-4955
+1. Go to Setup -> Go to User Interface -> Check Use custom address fields -> Save
+
+US-8466------ 1 time Activity
+1.Run the query :
+     select id,Name,InterviewLabel from FlowInterview where InterviewLabel like '%SearchPrakulaOnOLI%'
+2.Delete the records from above query.
+3. Setup -> Flow -> SearchPrakulaOnOLI -> Dropdown -> View Details and versions -> Inactivate the active flow. Create new version of this flow in QA by removing Publisher(field references in flow - refer to File -'Pre-Deployment Step Reference' added on US-8466 )once reference is removed, activate the flow and Delete all the old versions.
+
+
+US-8965 ---- 1 time Activity
+1. delete Create Side Letter from Delivery Instructions object.
+2. Enable Server-Side Document Generation Setting for the OmniStudio Package
+   From Setup, click Feature Setting, click Document Generation, and then click Document Generation Setting.
+   Click New.
+   The Document generation setting page opens.
+    Specify these parameters:
+    Label: DocumentGenerationSetting
+    Document Template Library Name: DocGenDocumentTemplateLibrary
+    Preview Type: PDF
+    Select the ServerSide Docgen Enabled checkbox.
+    Click Create.
+US-8892 ---- 1 time Activity
+1. Setup -> Flow -> Check Required Fields on Quote Creation -> Dropdown -> View Details and versions -> Inactivate the active flow. Create new version of this flow in QA by removing Position field from the "Required Field on OLI" Decision element as it is present at two places-->First where it is assigning a value and secondly where there is a null check for positon field--->Update the condition logic as: 1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8 OR 9 OR 10 OR 11 OR 14 OR 15 OR 16 OR 17  OR  (12 AND 13)--->once reference is removed, activate the flow and Delete all the old versions.
+
+
+US-6623
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> Click on Connections.
+2. Click on SFDC_LOCAL -> Check if we have a connection for User and has all the columns mention below checked -> If not, then click on the SFDC_LOCAL dropdown -> edit.
+3. Search and select User -> Check below columns -> Click Save.
+Columns to check - Username, LastName, FirstName, Name, CompanyName, Division, Department, Title, Street, City, State, PostalCode, Country, Email, Phone, MobilePhone, Alias, IsActive, TimeZoneSidKey, UserRoleId, ReceivesInfoEmails, UserType, Language, ForecastEnabled, Contact ID, Account IDFullPhotoUrl, SmallPhotoUrl, Account SAP Ids, Penultimate Login
+4. Download 'Flat_Translation' file from the US
+5. In Analytics studio, search 'Flat Translation Dataset' and click on the dropdown against it -> click on edit -> click on 'Replace data' -> upload the file from above -> click next -> click next -> click 'upload file'
+
+US-8599
+1. Go to Analytics Studio app -> Click on 'Data Manager' from the left pannel -> Click on Connections.
+2. Click on SFDC_LOCAL -> Check if we already have a connection for User and has all the columns mention below checked -> If not, then click on the SFDC_LOCAL dropdown -> edit -> search and select User -> Check below columns -> Click Save.
+Columns to check - Username, LastName, FirstName, Name, CompanyName, Division, Department, Title, Street, City, State, PostalCode, Country, Email, Phone, MobilePhone, Alias, IsActive, TimeZoneSidKey, UserRoleId, ReceivesInfoEmails, UserType, Language, ForecastEnabled, Contact ID, Account IDFullPhotoUrl, SmallPhotoUrl, Account SAP Ids, Penultimate Login
+4. Download 'Flat_Translation' and 'Vertical_Translation' file from the US
+5. In Analytics studio, search 'Flat Translation Dataset' and click on the dropdown against it -> click on edit -> click on 'Replace data' -> upload the file 'Flat_Translation' from above -> click next -> click next -> click 'upload file'
+6. Do the same as step 5 for 'Vertical Translation' dataset.
+
+US-8677
+1. Add the "Product Group Business Area" and "SteelGradeLookup__c" fields to the finished goods Salesforce connection
+2. Add the "SteelGrade__c" object to the local SF connection with the following fields and set its connection mode to Full Sync:
+     - Id
+     - Name
+     - SELNumber__c
+
+3. Add the "Product2" object to the local SF connection with the following fields and set its connection mode to Full Sync:
+     - Id
+     - Name
+US-9937: -> 1 Time Activity
+Object Manager -> ChecklistQuestionResponse__c
+Field -> Visit__c (Need to update its lookup from Visit to Visit__c)
+remove old visit references from Checklist Question Response Layout, apex class -VisitReportUtility, VisitReportUtilityTest
+delete this field and once deployment is done create new field Visit__c with same api as before and refer now to new Visit__c.
+US-8254
+1. Download 'Flat_Translation' file from the US
+2. In Analytics studio, search 'Flat Translation Dataset' and click on the dropdown against it -> click on edit -> click on 'Replace data' -> upload the file from above -> click next -> click next -> click 'upload file'
+
+US-9658
+1. Download 'Flat_Translation' file from the US
+2. In Analytics studio, search 'Flat Translation Dataset' and click on the dropdown against it -> click on edit -> click on 'Replace data' -> upload the file 'Flat_Translation' from above -> click next -> click next -> click 'upload file'
+3. Click on 'Analytics Studio' -> 'Data Manager' from the left pannel -> Click on Connections.
+4. Click on 'Account' and check 'SAP Account Number' and 'Account Group Name' and click on Save.
+5. Click on 'Run Data Sync' from the dropdown against Account.  
+
+BUG-10867
+1.Go to Setup-->Custom Settings
+2.Click Manage on 'By_Pass_Logic' 
+3.Click New and Add Salesforce API Only System Integrations Profile and check the By Pass Validation Checkbox
+4.Save it.
+
+US-7974
+1. Setup -> Flow -> Update LVPosition ProductionKey Summary -> Deactivate and delete the versions.
+
+US-8267
+1.  Download 'Flat_Translation' and 'Vertical_Translation' file from the US
+2. In Analytics studio, search 'Flat Translation Dataset' and click on the dropdown against it -> click on edit -> click on 'Replace data' -> upload the file 'Flat_Translation' from above -> click next -> click next -> click 'upload file'
+3. Do the same as step 2 for 'Vertical Translation' dataset.
+
+US-8289
+1.  Download 'Flat_Translation' and 'Vertical_Translation' file from the US
+2. In Analytics studio, search 'Flat Translation Dataset' and click on the dropdown against it -> click on edit -> click on 'Replace data' -> upload the file 'Flat_Translation' from above -> click next -> click next -> click 'upload file'
+3. Do the same as step 2 for 'Vertical Translation' dataset.
+
+BUG-11457  ---- 1 TIME ACTIVITY TO BE PERFORMED ONLY IN QA ORG.
+1. Go to Object Manager and search for 'FinishedGoods__c' object.
+2. In feild and Relationships search for Steel Grade (API : SteelGrade__c) 
+3. Click on 'Set Field-Level Security' button.
+4. Uncheck the Visible option Checkbox for all the profiles EXCEPT these Profiles : SAG Marketing Profile, SAG Quality Profile, SAG Sales, SHS Admin, System Administrator.
+5. Save it.
+
+NOTE: Make sure for these profile SAG Marketing Profile, SAG Quality Profile, SAG Sales, SHS Admin, System Administrator the Visible checkbox remains checked.

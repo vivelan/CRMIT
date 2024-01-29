@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Light Opportunity process Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>BusinessArea__c</fieldNames>
+        <fieldNames>ProductGroupBusinessArea__c</fieldNames>
+        <fieldNames>ProductManager__c</fieldNames>
+        <fieldNames>SalesRepresentative__c</fieldNames>
+        <fieldNames>QualityRep__c</fieldNames>
+        <picklistValueName>Open</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>PriceIndicationwithoutquote</recordTypeName>
+</PathAssistant>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Preisbindung</label>
+    <name>Pricefixing__c</name>
+    <picklistValues>
+        <masterLabel>Monthly</masterLabel>
+        <translation>Monatlich</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarterly</masterLabel>
+        <translation>Quartalsweise</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semiannual</masterLabel>
+        <translation>Halbjährlich</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spot</masterLabel>
+        <translation>Spot</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yearly</masterLabel>
+        <translation>Jährlich</translation>
+    </picklistValues>
+</CustomFieldTranslation>

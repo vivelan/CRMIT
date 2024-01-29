@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AddressRequiredonAccount</fullName>
+    <active>true</active>
+    <description>Street, City and Country are required fields on Account.</description>
+    <errorConditionFormula>AND(OR(ISBLANK(BillingStreet),ISBLANK(BillingCity),ISBLANK(BillingCountry)),
+AND(
+$Profile.Name != &quot;SHS Admin&quot;,
+$Profile.Name != &quot;System Administrator&quot;,
+$Profile.Name != &quot;Systemadministrator&quot;,
+ Not($Permission.SHSIntegration)
+),
+NOT($Setup.ByPassLogic__c.ByPassValidation__c)
+)</errorConditionFormula>
+    <errorMessage>The address of the account is not complete.</errorMessage>
+</ValidationRule>

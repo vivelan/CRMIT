@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PhoneNumberBeginWithPlus</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(
+AND(
+NOT( ISBLANK( Phone ) ),
+NOT(REGEX(Phone , &quot;^\\+[1-9][0-9]{7,14}$&quot;))
+),
+AND(
+NOT( ISBLANK( MobilePhone) ),
+NOT(REGEX(MobilePhone , &quot;^\\+[1-9][0-9]{7,14}$&quot;))
+)
+), 
+NOT($Setup.ByPassLogic__c.ByPassValidation__c))</errorConditionFormula>
+    <errorMessage>Please insert a (mobile) phone number in the format &quot;+49123456789&quot;.</errorMessage>
+</ValidationRule>

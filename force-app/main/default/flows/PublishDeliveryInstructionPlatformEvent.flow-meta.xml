@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <decisions>
+        <name>CheckByPassCondition</name>
+        <label>Check By Pass Condition</label>
+        <locationX>782</locationX>
+        <locationY>363</locationY>
+        <defaultConnector>
+            <targetReference>CheckDIandattachment</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Execute Flow</defaultConnectorLabel>
+        <rules>
+            <name>Don_t_Execute_Flow</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>GetByPassConfiguration.ByPassedUsers__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$User.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetByPassConfiguration.ByPassedProfiles__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$User.ProfileId</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetByPassConfiguration.ByPassFlow__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Don&apos;t Execute Flow</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>CheckDIandattachment</name>
+        <label>Check DI and attachment</label>
+        <locationX>962</locationX>
+        <locationY>366</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Conditionmet</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record</leftValueReference>
+                <operator>NotEqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record__Prior</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>CreatePlatformEvent</targetReference>
+            </connector>
+            <label>Condition met</label>
+        </rules>
+    </decisions>
+    <description>Id of the DI record created/updated to be synced to SAP and If True then attachment should be synced to SAP</description>
+    <environments>Default</environments>
+    <interviewLabel>Publish Delivery Instruction Platform Event {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Publish Delivery Instruction Platform Event</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>FREE_FORM_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordCreates>
+        <name>CreatePlatformEvent</name>
+        <label>Create Platform Event</label>
+        <locationX>973</locationX>
+        <locationY>541</locationY>
+        <inputAssignments>
+            <field>DeliveryInstructionId__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <object>DeliveryInstructionUpdates__e</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordCreates>
+    <recordLookups>
+        <name>GetByPassConfiguration</name>
+        <label>Get ByPass Configuration</label>
+        <locationX>618</locationX>
+        <locationY>361</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>CheckByPassCondition</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>PublishDIPlatformEvent</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>ByPassFlowConfiguration__mdt</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>490</locationX>
+        <locationY>48</locationY>
+        <connector>
+            <targetReference>GetByPassConfiguration</targetReference>
+        </connector>
+        <object>DeliveryInstructions__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

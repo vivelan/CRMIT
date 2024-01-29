@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage>Für diese Benutzertypen können Sie nur einen Benutzernamen angeben, der der E-Mail-Adresse +.dillinger entspricht und optional zusätzliche Zeichen zwischen dem Ende der E-Mail-Adresse und dem Anfang von .dillinger enthält.</errorMessage>
+        <name>checkDHUserName</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,143 @@
+.standardBtn button{
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-right: 0.2rem;
+    padding: 3px 25px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.standardBtn button:hover{
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-right: 0.2rem;
+    padding: 3px 25px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.standardBtn button:focus{
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    margin-right: 0.2rem;
+    padding: 3px 25px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.cancelBtn button {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 24px;
+    color:#080707;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.cancelBtn button:hover {
+    background-color: #f1f1f1;
+    color:#080707;
+}
+
+.centeredBtn {
+    width: 98%; 
+    position: absolute; 
+    text-align: center;
+}
+
+.table-header-margin{
+    margin-left:8px;
+}
+
+.mainBoxHeight {
+    max-height: 255px;
+}
+
+.mainBoxHeight .assets-present {
+    padding-bottom: 15%;
+}
+
+.th-table {
+    border-right: 1px solid;
+    border-color: gray;
+}
+
+.th-style {
+    border-left: 1px solid;
+    border-color: gray;
+}
+
+.style-text{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+.th-number-count{
+    width: 55px;
+}
+
+.th-asset-name{
+    width: 200px;
+}
+
+.th-serial-number {
+    width: 135px;
+}
+
+.th-product-name {
+    width: 215px;
+}
+
+.th-purchased-competitor{
+    width: 135px;
+}
+
+.th-competitor{
+    width: 210px;
+}
+
+.th-status {
+    width: 170px;
+}
+
+.carouselSpinner-asset{
+    position: absolute;
+    left:0;
+    right:0;
+    opacity: 1;
+  }
+
+.table-scroll-auto{
+    overflow-x: scroll;
+    position: relative;
+}
+
+.standardBtnMobile button {
+    background-color: #000000;
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 2px 16px;
+    font-weight: 500;
+    margin-left: 5px;
+}
+
+.cancelBtnMobile button {
+    background-color: #f1f1f1;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.11);
+    border: 1px solid #000 !important;
+    border-radius: 15px;
+    padding: 2px 16px;
+    color:#080707;
+    font-weight: 500;
+    margin-left: 5px;
+}

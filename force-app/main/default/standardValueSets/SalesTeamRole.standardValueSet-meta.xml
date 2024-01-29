@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>ZK</fullName>
+        <default>false</default>
+        <label>Account manager (Product manager) - ZK</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZM</fullName>
+        <default>false</default>
+        <label>Sales Representative - ZM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZQ</fullName>
+        <default>false</default>
+        <label>QW account manager - ZQ</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZS</fullName>
+        <default>false</default>
+        <label>Quality Representative - ZS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZN</fullName>
+        <default>false</default>
+        <label>Contact person AV (work preparation) - ZN</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ZA</fullName>
+        <default>false</default>
+        <label>Contact External Office - ZA</label>
+    </standardValue>
+</StandardValueSet>

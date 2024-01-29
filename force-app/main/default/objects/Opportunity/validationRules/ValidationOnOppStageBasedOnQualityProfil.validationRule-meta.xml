@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnOppStageBasedOnQualityProfil</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+  ISCHANGED(StageName),
+  OR(
+    ISPICKVAL(PRIORVALUE(StageName), &quot;Quality Check&quot;),
+    ISBLANK(PRIORVALUE(StageName))
+  ),
+  NOT(ISNEW()),
+  $Profile.Name = &quot;SAG Quality Profile&quot;,RecordType.DeveloperName=&apos;Opportunitywithquotecreations&apos;,
+  NOT(OR(
+    ISPICKVAL(StageName, &quot;New&quot;),
+    ISPICKVAL(StageName, &quot;Final Check&quot;)
+  )),NOT($Setup.ByPassLogic__c.ByPassValidation__c )
+)</errorConditionFormula>
+   <errorMessage>The stage can only be changed to New or Final Check when coming from Quality Check.</errorMessage>
+</ValidationRule>

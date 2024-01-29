@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationRuleOnEdit</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT($Setup.ByPassLogic__c.ByPassValidation__c),
+
+AND($Profile.Name &lt;&gt; &quot;Systemadministrator&quot;,
+$Profile.Name &lt;&gt; &quot;System Administrator&quot;),
+
+OR(ISPICKVAL(PRIORVALUE(Status__c), &quot;Cancelled&quot;),ISPICKVAL(PRIORVALUE(Status__c), &quot;Completed&quot;)),
+
+NOT(ISNEW()) 
+
+)</errorConditionFormula>
+    <errorMessage>This visit is already completed or was canceled and can therefore not be edited anymore.</errorMessage>
+</ValidationRule>

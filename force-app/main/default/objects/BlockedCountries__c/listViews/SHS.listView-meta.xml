@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SHS</fullName>
+    <columns>NAME</columns>
+    <columns>CountryCode__c</columns>
+    <columns>SETUP_TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <label>SHS</label>
+    <language>en_US</language>
+</ListView>

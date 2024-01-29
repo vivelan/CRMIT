@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Full Opportunity process Path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>ProductManager__c</fieldNames>
+        <fieldNames>SalesRepresentative__c</fieldNames>
+        <fieldNames>QualityRep__c</fieldNames>
+        <picklistValueName>Final Check</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Probability</fieldNames>
+        <picklistValueName>Negotiation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ProductManager__c</fieldNames>
+        <fieldNames>SalesRepresentative__c</fieldNames>
+        <fieldNames>DateOfReceipt__c</fieldNames>
+        <fieldNames>Type</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>QualityRep__c</fieldNames>
+        <fieldNames>DateOfReceipt__c</fieldNames>
+        <fieldNames>Type</fieldNames>
+        <picklistValueName>Quality Check</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Opportunitywithquotecreations</recordTypeName>
+</PathAssistant>

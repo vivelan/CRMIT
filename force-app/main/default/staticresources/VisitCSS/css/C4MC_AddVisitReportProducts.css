@@ -1,0 +1,41 @@
+.search-result-label{
+    text-align: right;
+}
+
+.tableContainer-products {
+    margin-top: 1.35%;
+}
+
+.slds-row-number{
+    font-size: 12px;
+}
+
+.style-text-products{
+    text-align: center;
+    padding: 5px;
+    font-size: medium;
+}
+
+.th-table-product-name-add {
+    border-right: 1px solid; 
+    border-left: 1px solid; 
+    width: 50%;
+    border-color: gray;
+}
+
+.th-table-product-comment-add{
+    border-right: 1px solid; 
+    width: 50%;
+    border-color: gray;
+}
+
+.td-nameProduct-style{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table-scroll-auto{
+    overflow-x: scroll;
+    position: relative;
+}

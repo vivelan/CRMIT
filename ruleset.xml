@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset xmlns="http://pmd.sourceforge.net/ruleset/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Default ruleset used by the CodeClimate Engine for Salesforce.com Apex" xsi:schemaLocation="http://pmd.sourceforge.net/ruleset/2.0.0 https://pmd.sourceforge.io/ruleset_2_0_0.xsd">
+   <description> Default ruleset for code scanning.</description>
+   
+   <rule ref="category/apex/bestpractices.xml/ApexAssertionsShouldIncludeMessage" />
+   <rule ref="category/apex/bestpractices.xml/ApexUnitTestClassShouldHaveAsserts" />
+   <rule ref="category/apex/design.xml/AvoidDeeplyNestedIfStmts" >
+      <properties>
+        <property name="problemDepth" value="7" />
+      </properties>
+   </rule>
+   <rule ref="category/apex/bestpractices.xml/ApexUnitTestShouldNotUseSeeAllDataTrue" />
+   <rule ref="category/apex/bestpractices.xml/AvoidLogicInTrigger" />
+   <rule ref="category/apex/bestpractices.xml/DebugsShouldUseLoggingLevel" />
+   <rule ref="category/apex/bestpractices.xml/UnusedLocalVariable" />
+   <rule ref="category/apex/design.xml/UnusedMethod" />
+   <rule ref="category/apex/errorprone.xml/AvoidHardcodingId" />
+   <rule ref="category/apex/errorprone.xml/EmptyCatchBlock" />
+   <rule ref="category/apex/performance.xml/OperationWithLimitsInLoop" />
+   <rule ref="category/apex/performance.xml/AvoidDmlStatementsInLoops" />
+   <rule ref="category/apex/performance.xml/AvoidSoqlInLoops" />
+   <rule ref="category/apex/security.xml/ApexDangerousMethods" />
+   <rule ref="category/apex/security.xml/ApexInsecureEndpoint" />
+   <rule ref="category/apex/security.xml/ApexOpenRedirect" />
+   <rule ref="category/apex/security.xml/ApexSOQLInjection" />
+   <rule ref="category/apex/security.xml/ApexSuggestUsingNamedCred" />
+   <rule ref="category/apex/security.xml/ApexXSSFromEscapeFalse" />
+   <rule ref="category/apex/security.xml/ApexXSSFromURLParam" />
+   <rule ref="category/apex/security.xml/ApexSharingViolations" />   
+</ruleset>

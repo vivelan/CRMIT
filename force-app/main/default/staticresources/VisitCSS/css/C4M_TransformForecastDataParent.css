@@ -1,0 +1,51 @@
+/* All the buttons are aligned to the right (end). */
+.c4m-frcst-buttons-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Each button has the followings proprieties: */
+.c4m-frcst-button button {
+  font-weight: 500;
+  border-radius: 16px;
+  padding: 2px 24px;
+}
+
+/* Next button (the buttons which have the background colour set to black are considered primary) */
+.c4m-frcst-button-primary button {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+/* Previous and Cancel (the buttons which have the background colour set to white are considered secondary) */
+.c4m-frcst-button-secondary button {
+  background-color: #f1f1f1;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.11);
+  border: 1px solid #000 !important;
+  color: #080707;
+}
+
+.c4m-frcst-button-primary button:focus,
+.c4m-frcst-button-secondary > button:focus {
+  box-shadow: none;
+}
+
+.c4m-frcst-button-primary > button:hover,
+.c4m-frcst-button-primary > button:focus,
+.c4m-frcst-button-primary > button:active {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.c4m-frcst-button-secondary > button:hover,
+.c4m-frcst-button-secondary > button:focus,
+.c4m-frcst-button-secondary > button:active {
+  background-color: #f1f1f1;
+  color: #080707;
+}
+
+.c4m-frcst-button-secondary > button:disabled {
+  border: 1px solid #ffffff !important;
+}

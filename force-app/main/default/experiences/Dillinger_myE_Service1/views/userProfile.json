@@ -1,0 +1,50 @@
+{
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7a28baf3-776a-4bed-95c3-51ad4c77e7e5",
+  "label" : "User Profile",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "id" : "{!recordId}",
+        "profileTabLabel" : "Contact Details",
+        "richTextValue" : "<p><img class=\"sfdcCbImage\" alt=\"Banner image at the top of the page\" src=\"/sfsites/c/img/community/cpt/cpt-profile-banner.png\"></p>",
+        "settingsTabLabel" : "Settings & Preferences",
+        "showBannerImage" : true,
+        "showSettingsTab" : true
+      },
+      "componentName" : "forceCommunity:userProfileWithBanner",
+      "id" : "7bc33ddf-f945-40e7-9e47-36289d0ca108",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "de" : "a76dd004-1584-410a-aaa3-fc99e474f004"
+      },
+      "renditions" : [ {
+        "id" : "a76dd004-1584-410a-aaa3-fc99e474f004",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "profileTabLabel" : "Kontaktdaten",
+            "settingsTabLabel" : "Einstellungen & Präferenzen"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "9273aa66-9afb-43b8-9441-f660f8b3d3f1",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "id" : "26dc00b2-f113-4b7e-ba82-f87776f8a2d5",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "38c32c2e-8976-4523-98b5-bca34f635ee8",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-005"
+}

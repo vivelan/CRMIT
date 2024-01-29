@@ -1,0 +1,121 @@
+{
+  "appPageId" : "4bffd369-a514-4a0e-869a-6f6299257c52",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "7efca797-5ec8-45bc-9ea2-41156f281239",
+  "label" : "Action Plan Template Detail",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "runtime_industries_actionplan:highlightsPanel",
+      "id" : "ef32c79b-8037-4eb9-bb5d-9355b7ffd58a",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "c71d8da6-26d6-41ad-a6e4-7e3ebba2b5cf",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "tabsetConfig" : {
+          "UUID" : "b3776a9e-4e22-4cc3-9136-8775aebe94c5",
+          "activeTab" : "tab1",
+          "tabs" : [ {
+            "UUID" : "5cd19e9d-3ce9-43cf-bddc-04a5a1ee9769",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : { },
+              "fqn" : "runtime_industries_actionplan:taskManager"
+            }, {
+              "attributes" : { },
+              "fqn" : "runtime_industries_actionplan:checklistItemManager"
+            } ],
+            "tabKey" : "tab1",
+            "tabName" : "Items"
+          }, {
+            "UUID" : "7ce684c7-ef99-41f6-b495-db0d5480f0ee",
+            "allowGuestUser" : false,
+            "locked" : false,
+            "seedComponents" : [ {
+              "attributes" : { },
+              "fqn" : "forceCommunity:recordDetail"
+            } ],
+            "tabKey" : "tab2",
+            "tabName" : "Details"
+          } ],
+          "useOverflowMenu" : false
+        }
+      },
+      "componentName" : "forceCommunity:tabset",
+      "id" : "b3776a9e-4e22-4cc3-9136-8775aebe94c5",
+      "regions" : [ {
+        "components" : [ {
+          "componentAttributes" : {
+            "fieldSelection" : [ ]
+          },
+          "componentName" : "runtime_industries_actionplan:taskManager",
+          "id" : "5f7629b8-fac0-44c4-bd26-44e321104efd",
+          "renditionMap" : { },
+          "type" : "component"
+        }, {
+          "componentAttributes" : { },
+          "componentName" : "runtime_industries_actionplan:checklistItemManager",
+          "id" : "e5bdcafa-98ff-4235-bad4-adb13a3aa531",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "5cd19e9d-3ce9-43cf-bddc-04a5a1ee9769",
+        "regionLabel" : "Items",
+        "regionName" : "tab1",
+        "renditionMap" : { },
+        "type" : "region"
+      }, {
+        "components" : [ {
+          "componentAttributes" : {
+            "recordId" : "{!recordId}"
+          },
+          "componentName" : "forceCommunity:recordDetail",
+          "id" : "091c8706-6645-4d23-a952-d4a298cbe341",
+          "renditionMap" : { },
+          "type" : "component"
+        } ],
+        "id" : "7ce684c7-ef99-41f6-b495-db0d5480f0ee",
+        "regionLabel" : "Details",
+        "regionName" : "tab2",
+        "renditionMap" : { },
+        "type" : "region"
+      } ],
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "901d99d2-8ca5-449e-9592-16d64fb062aa",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "6eb3c339-42a8-4964-9bc0-ef001fccef4c",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "{!Record._Object}: {!Record._Title}"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "82f5c3ef-d9f8-41b5-b2b2-30a611db3492",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "614debb9-0dcf-4d9d-904c-0edd18d288b3",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "detail-0PR"
+}

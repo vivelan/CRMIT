@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ComplianceCheckOnLeadConversion</fullName>
+    <active>true</active>
+    <description>Validates if compliance check is passed on lead conversion</description>
+    <errorConditionFormula>AND(IsConverted,  NOT( ISPICKVAL( ComplianceCheck__c , &apos;Passed&apos;) ) )</errorConditionFormula>
+    <errorMessage>This Lead has not yet passed the compliance check and can therefore not be converted. Please check the Lead for compliance and save the result in the field &apos;Compliance Check&apos;.</errorMessage>
+</ValidationRule>

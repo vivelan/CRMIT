@@ -1,0 +1,6 @@
+<messaging:emailTemplate subject="{!$Label.MonthlyReminderBusinessAreaSubject}" recipientType="User" relatedToType="User" language="{!recipient.LanguageLocaleKey}">
+<messaging:plainTextEmailBody >
+{!$Label.MonthlyReminderBusinessAreaBody}
+{!$Label.LinkToSP} {!$Label.LinkToSPUrl}
+</messaging:plainTextEmailBody>
+</messaging:emailTemplate>

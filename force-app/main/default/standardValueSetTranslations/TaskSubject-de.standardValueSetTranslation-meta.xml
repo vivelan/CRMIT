@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Call</masterLabel>
+        <translation><!-- Call --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Comment on Overdrafts</masterLabel>
+        <translation>Kommentar zu Überziehungen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Comment on Overdue Invoices</masterLabel>
+        <translation>Kommentar zu Überfälligen Rechnungen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Contact</masterLabel>
+        <translation>Kontaktaufnahme</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Event</masterLabel>
+        <translation>Event</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Initial Contact</masterLabel>
+        <translation>Erstkontakt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Send Letter</masterLabel>
+        <translation><!-- Send Letter --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Send Quote</masterLabel>
+        <translation><!-- Send Quote --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Support</masterLabel>
+        <translation>Technische Beratung</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Visit</masterLabel>
+        <translation>Besuch</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

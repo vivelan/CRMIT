@@ -1,0 +1,11 @@
+<messaging:emailTemplate relatedToType="Opportunity" subject=" {!relatedTo.Name} : {!$Label.EmailSubjectForProductManagerForFinalCheck}" recipientType="User" >
+<messaging:htmlEmailBody >
+<html>
+<body>
+{!$Label.EmailBodyForProductManagerForFinalCheck}<br/><br/>
+{!$Label.OpportunityNumber} : <a href="{!LEFT($Api.Enterprise_Server_URL_450, FIND('/services',$Api.Enterprise_Server_URL_450))}/lightning/r/Opportunity/{!relatedTo.Id}/view">{!relatedTo.OpportunityNumber__c}</a><br/><br/>
+{!$Label.Account} : <a href="{!LEFT($Api.Enterprise_Server_URL_450, FIND('/services',$Api.Enterprise_Server_URL_450))}/lightning/r/Account/{!relatedTo.AccountId}/view">{!relatedTo.Account.Name}</a><br/>
+</body>
+</html>
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

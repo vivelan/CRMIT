@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Checklist__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <description>This field determines the checklist with which the section is linked with.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field determines the checklist with which the section is linked with.</inlineHelpText>
+    <label>Checklist</label>
+    <referenceTo>Checklist__c</referenceTo>
+    <relationshipLabel>Checklist Sections</relationshipLabel>
+    <relationshipName>Checklist_Sections</relationshipName>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Standard Inquiry</fullName>
+        <default>false</default>
+        <label>Standard Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Mass Inquiry</fullName>
+        <default>false</default>
+        <label>Mass Inquiry</label>
+    </customValue>
+    <customValue>
+        <fullName>Renewal</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Renewal - Existing Portfolio</label>
+    </customValue>
+    <masterLabel>Opportunity Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

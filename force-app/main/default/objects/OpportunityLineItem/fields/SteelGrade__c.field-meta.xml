@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SteelGrade__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(SemiFinishedGoods__c), FinishedGoods__r.SteelGradeLookup__c, SemiFinishedGoods__r.SteelGrade__c)</formula>
+    <label>Steel Grade</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

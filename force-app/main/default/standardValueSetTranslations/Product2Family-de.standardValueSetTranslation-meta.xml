@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Bar steel</masterLabel>
+        <translation>Stabstahl</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Billets</masterLabel>
+        <translation>Rohstrang</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Semi-finished (rd. edges)</masterLabel>
+        <translation>KHZ</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wire Rod</masterLabel>
+        <translation>Walzdraht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wire Rod Peeled</masterLabel>
+        <translation>Walzdraht geschält</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

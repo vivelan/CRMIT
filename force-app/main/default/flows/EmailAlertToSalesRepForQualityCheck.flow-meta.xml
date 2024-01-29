@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>EmailForQualityRepForQualityCheck</name>
+        <label>Email For Quality Rep For Quality Check</label>
+        <locationX>242</locationX>
+        <locationY>695</locationY>
+        <actionName>Opportunity.EmailForQualityRepForQualityCheck</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>TaskForQualityRep</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <actionCalls>
+        <description>Creates a task for Quality Rep for Quality Check</description>
+        <name>TaskForQualityRep</name>
+        <label>Task For Quality Rep</label>
+        <locationX>242</locationX>
+        <locationY>815</locationY>
+        <actionName>NewTask</actionName>
+        <actionType>quickAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>OwnerId</name>
+            <value>
+                <elementReference>$Record.QualityRep__r.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>WhatId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>Subject</name>
+            <value>
+                <stringValue>New Request to fulfill</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>55.0</apiVersion>
+    <decisions>
+        <name>CheckByPassCondition</name>
+        <label>Check By Pass Condition</label>
+        <locationX>176</locationX>
+        <locationY>455</locationY>
+        <defaultConnector>
+            <targetReference>CheckIfStageisQualityCheck</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Execute Flow</defaultConnectorLabel>
+        <rules>
+            <name>Don_t_Execute_Flow</name>
+            <conditionLogic>or</conditionLogic>
+            <conditions>
+                <leftValueReference>GetByPassConfiguration.ByPassedUsers__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$User.Id</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetByPassConfiguration.ByPassedProfiles__c</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <elementReference>$User.ProfileId</elementReference>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>GetByPassConfiguration.ByPassFlow__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <label>Don&apos;t Execute Flow</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <description>Checks if the Opportunity Stage Name is Quality Check</description>
+        <name>CheckIfStageisQualityCheck</name>
+        <label>Check If Stage is Quality Check</label>
+        <locationX>374</locationX>
+        <locationY>575</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>QualityCheck</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.StageName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quality Check</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.QualityRep__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>EmailForQualityRepForQualityCheck</targetReference>
+            </connector>
+            <label>Quality Check</label>
+        </rules>
+    </decisions>
+    <description>Creates a Task and Email alert for the sales rep on stage change to Quality Check on opportunity - [Created - 05/09/2022]</description>
+    <environments>Default</environments>
+    <interviewLabel>EmailAlertToSalesRepForQualityCheck {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Email Alert To Sales Rep For Quality Check</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Gets the By Pass configuration from Custom Metadata</description>
+        <name>GetByPassConfiguration</name>
+        <label>Get ByPass Configuration</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>CheckByPassCondition</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>EmailAlertToSalesRepForQualityCheck</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>ByPassFlowConfiguration__mdt</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>GetByPassConfiguration</targetReference>
+        </connector>
+        <filterFormula>AND(NOT({!$Setup.ByPassLogic__c.ByPassFlow__c}),ISCHANGED({!$Record.StageName}))</filterFormula>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnstatusbasedforQualityProfile</fullName>
+    <active>true</active>
+    <description>the status can only be changed to New or Final Check when coming from Quality Check.</description>
+    <errorConditionFormula>AND(
+ISCHANGED(Status__c),
+NOT(ISNEW()),
+$Profile.Name = &quot;SAG Quality Profile&quot;,
+OR(
+	AND(
+		ISPICKVAL(PRIORVALUE(Status__c),&quot;New&quot;),
+		OR(
+			ISPICKVAL(Status__c,&quot;Quality Check&quot;),
+			ISPICKVAL(Status__c,&quot;Final Check&quot;),
+			ISPICKVAL(Status__c,&quot;Approved&quot;)
+		)
+	),
+	AND(
+	ISPICKVAL(PRIORVALUE(Status__c),&quot;Quality Check&quot;),		
+	ISPICKVAL(Status__c,&quot;Approved&quot;)
+	
+	),
+	AND(
+	ISPICKVAL(PRIORVALUE(Status__c),&quot;Final Check&quot;),
+		OR(
+			ISPICKVAL(Status__c,&quot;New&quot;),
+			ISPICKVAL(Status__c,&quot;Quality Check&quot;),
+			ISPICKVAL(Status__c,&quot;Approved&quot;)
+		)	
+	),
+	AND(
+	ISPICKVAL(PRIORVALUE(Status__c),&quot;Approved&quot;),
+		OR(
+			ISPICKVAL(Status__c,&quot;New&quot;),
+			ISPICKVAL(Status__c,&quot;Quality Check&quot;),
+			ISPICKVAL(Status__c,&quot;Final Check&quot;)
+		)	
+	)
+)
+)</errorConditionFormula>
+    <errorMessage>You can only change the status from Quality Check back to New or to Final Check.</errorMessage>
+</ValidationRule>

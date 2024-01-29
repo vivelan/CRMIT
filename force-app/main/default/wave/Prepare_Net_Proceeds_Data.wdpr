@@ -1,0 +1,1358 @@
+{
+  "version" : "58.0",
+  "nodes" : {
+    "LOAD_DATASET1" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "External_ID", "Product_Category", "Customer_Key", "Customer_Name", "Material_Number", "Business_Area", "Created_Date", "Quantity_t", "Net_Proceeds" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "COPA",
+          "name" : "COPA_dashboard"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FILTER0" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET1" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "DATETIME",
+          "field" : "Created_Date",
+          "operator" : "IN_RANGE",
+          "operands" : [ {
+            "argument" : -1,
+            "type" : "N_MONTHS"
+          }, {
+            "argument" : -1,
+            "type" : "N_MONTHS"
+          } ]
+        } ]
+      }
+    },
+    "EXTRACT1" : {
+      "action" : "extractGrains",
+      "sources" : [ "FILTER0" ],
+      "parameters" : {
+        "grainExtractions" : [ {
+          "source" : "Created_Date",
+          "targets" : [ {
+            "name" : "Created_Date_MONTH",
+            "label" : "Created Date Month",
+            "grainType" : "MONTH"
+          }, {
+            "name" : "Created_Date_YEAR",
+            "label" : "Created Date Year",
+            "grainType" : "YEAR"
+          } ]
+        } ]
+      }
+    },
+    "AGGREGATE3" : {
+      "action" : "aggregate",
+      "sources" : [ "EXTRACT1" ],
+      "schema" : {
+        "fields" : [ {
+          "name" : "SUM_Quantity_t",
+          "newProperties" : {
+            "typeProperties" : {
+              "type" : "NUMBER",
+              "scale" : 2,
+              "precision" : 18
+            }
+          }
+        }, {
+          "name" : "SUM_Net_Proceeds",
+          "newProperties" : {
+            "typeProperties" : {
+              "type" : "NUMBER",
+              "scale" : 2,
+              "precision" : 18
+            }
+          }
+        } ]
+      },
+      "parameters" : {
+        "aggregations" : [ {
+          "action" : "SUM",
+          "source" : "Quantity_t",
+          "name" : "SUM_Quantity_t",
+          "label" : "Sum of Quantity (t)"
+        }, {
+          "action" : "SUM",
+          "source" : "Net_Proceeds",
+          "name" : "SUM_Net_Proceeds",
+          "label" : "Sum of Net Proceeds"
+        } ],
+        "groupings" : [ "Material_Number", "Customer_Name", "Business_Area", "Created_Date_MONTH", "Created_Date_YEAR", "Customer_Key" ],
+        "pivots" : [ ],
+        "nodeType" : "STANDARD"
+      }
+    },
+    "FORMULA0" : {
+      "action" : "formula",
+      "sources" : [ "AGGREGATE3" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Weighted_NE_per_Ton",
+          "label" : "Weighted NE per Ton",
+          "formulaExpression" : "SUM_Net_Proceeds / SUM_Quantity_t",
+          "precision" : 10,
+          "scale" : 2,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "EXTRACT2" : {
+      "action" : "extractGrains",
+      "sources" : [ "FILTER0" ],
+      "parameters" : {
+        "grainExtractions" : [ ]
+      }
+    },
+    "AGGREGATE5" : {
+      "action" : "aggregate",
+      "sources" : [ "EXTRACT2" ],
+      "parameters" : {
+        "aggregations" : [ {
+          "action" : "SUM",
+          "source" : "Quantity_t",
+          "name" : "SUM_Quantity_t",
+          "label" : "Sum of Quantity (t)"
+        } ],
+        "groupings" : [ "Customer_Name", "Customer_Key" ],
+        "pivots" : [ ],
+        "nodeType" : "STANDARD"
+      }
+    },
+    "JOIN0" : {
+      "action" : "join",
+      "sources" : [ "FORMULA0", "AGGREGATE5" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Customer_Key" ],
+        "rightQualifier" : "Aggregate4",
+        "rightKeys" : [ "Customer_Key" ]
+      }
+    },
+    "FORMULA1" : {
+      "action" : "formula",
+      "sources" : [ "JOIN0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Percentage_Quantity",
+          "label" : "Percentage Quantity",
+          "formulaExpression" : "SUM_Quantity_t / \"Aggregate4.SUM_Quantity_t\"",
+          "precision" : 10,
+          "scale" : 5,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA9" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA1" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "COPA_Last_Updated_Date",
+          "label" : "COPA Last Updated Date",
+          "formulaExpression" : "concat('01/', Created_Date_MONTH, '/', Created_Date_YEAR)",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "TO_DATE2" : {
+      "action" : "typeCast",
+      "sources" : [ "FORMULA9" ],
+      "schema" : {
+        "fields" : [ {
+          "name" : "Last_Updated_Date_to_date",
+          "newProperties" : {
+            "name" : "COPA_Last_Updated_Date"
+          }
+        } ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "COPA_Last_Updated_Date" ]
+        }
+      },
+      "parameters" : {
+        "fields" : [ {
+          "name" : "COPA_Last_Updated_Date",
+          "newProperties" : {
+            "label" : "Last Updated Date",
+            "name" : "Last_Updated_Date_to_date",
+            "typeProperties" : {
+              "type" : "DATETIME",
+              "format" : "dd/MM/yyyy"
+            }
+          }
+        } ]
+      }
+    },
+    "JOIN1" : {
+      "action" : "join",
+      "sources" : [ "JOIN7", "TO_DATE2" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "INNER",
+        "leftKeys" : [ "SAPAccountNumber__c" ],
+        "rightKeys" : [ "Customer_Key" ]
+      }
+    },
+    "DROP_FIELDS0" : {
+      "action" : "schema",
+      "sources" : [ "JOIN1" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Created_Date_MONTH", "Aggregate4.Customer_Key", "SUM_Net_Proceeds", "Aggregate4.SUM_Quantity_t", "Frequency__c", "ForecastLevel__c", "Aggregate4.Customer_Name", "Customer_Name" ]
+        }
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "DROP_FIELDS3" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "Net Proceeds Analysis",
+          "name" : "Net_Proceeds_Analysis",
+          "folderName" : "Pricing_Dashboards_Sales_Marketing"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "LOAD_DATASET3" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "id", "material_no", "alternate_basic_plan", "category_1", "category_2", "category_3", "price_point_year", "price_point_month", "internal_cost", "external_cost", "fixed_cost", "quantity_child_material", "child_material_no", "last_updated" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "cost_calculated_per_rlevel",
+          "connectionName" : "Heroku",
+          "sourceObjectName" : "cost_calculated_per_rlevel"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FORMULA2" : {
+      "action" : "formula",
+      "sources" : [ "FILTER9" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Total_External_Cost",
+          "label" : "Total External Cost",
+          "formulaExpression" : "SUM_external_cost + \r\n(\"HZV.SUM_external_cost\" + \r\n(\"SW.SUM_external_cost\" * (\"HZV.AVG_quantity_child_material\" / 1000))) *\r\n(AVG_quantity_child_material / 1000)",
+          "precision" : 10,
+          "scale" : 2,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA3" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA2" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Total_Internal_Cost",
+          "label" : "Total Internal Cost",
+          "formulaExpression" : "SUM_internal_cost + \r\n(\"HZV.SUM_internal_cost\" + \r\n(\"SW.SUM_internal_cost\" * (\"HZV.AVG_quantity_child_material\" / 1000))) *\r\n(AVG_quantity_child_material / 1000)",
+          "precision" : 10,
+          "scale" : 2,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "DROP_FIELDS1" : {
+      "action" : "schema",
+      "sources" : [ "FORMULA3" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "SELECT",
+          "ignoreMissingFields" : true,
+          "fields" : [ "material_no", "price_point_year", "price_point_month", "Total_External_Cost", "Total_Internal_Cost" ]
+        }
+      }
+    },
+    "FILTER4" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET3" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "price_point_month",
+          "operator" : "NOT",
+          "operands" : [ "0", "Q1", "Q2", "Q3", "Q4" ]
+        }, {
+          "type" : "TEXT",
+          "field" : "alternate_basic_plan",
+          "operator" : "EQUAL",
+          "operands" : [ "0" ]
+        } ]
+      }
+    },
+    "FORMULA4" : {
+      "action" : "formula",
+      "sources" : [ "DROP_FIELDS1" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "Forecast_Date",
+          "label" : "Forecast Date",
+          "formulaExpression" : "concat(price_point_year, '-', price_point_month, '-01')",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "TO_DATE0" : {
+      "action" : "typeCast",
+      "sources" : [ "FORMULA4" ],
+      "schema" : {
+        "fields" : [ {
+          "name" : "Forecast_Date_to_date",
+          "newProperties" : {
+            "name" : "Forecast_Date"
+          }
+        } ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "Forecast_Date" ]
+        }
+      },
+      "parameters" : {
+        "fields" : [ {
+          "name" : "Forecast_Date",
+          "newProperties" : {
+            "label" : "Forecast Date",
+            "name" : "Forecast_Date_to_date",
+            "typeProperties" : {
+              "type" : "DATETIME",
+              "format" : "yyyy-M-d"
+            }
+          }
+        } ]
+      }
+    },
+    "DROP_FIELDS2" : {
+      "action" : "schema",
+      "sources" : [ "TO_DATE0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "price_point_year", "price_point_month" ]
+        }
+      }
+    },
+    "JOIN4" : {
+      "action" : "join",
+      "sources" : [ "DROP_FIELDS0", "DROP_FIELDS2" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Material_Number", "ForecastTimePoint__c" ],
+        "rightKeys" : [ "material_no", "Forecast_Date" ]
+      }
+    },
+    "LOAD_DATASET0_copy0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Account__c", "BusinessArea__c", "ForecastTimePoint__c", "ForecastSoldAmount__c", "ForecastNetProceeds__c", "ForecastLevel__c", "Frequency__c", "ActualNetProceeds__c" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "SalesPlanning__c",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "SalesPlanning__c"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "LOAD_DATASET1_copy0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "Name", "SAPAccountNumber__c", "Id" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Account",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Account"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "JOIN0_copy0" : {
+      "action" : "join",
+      "sources" : [ "DROP_FIELDS5", "LOAD_DATASET1_copy0" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Account__c" ],
+        "rightKeys" : [ "Id" ]
+      }
+    },
+    "FILTER0_copy0" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET0_copy0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "ForecastLevel__c",
+          "operator" : "EQUAL",
+          "operands" : [ "Account" ]
+        }, {
+          "type" : "TEXT",
+          "field" : "Frequency__c",
+          "operator" : "NOT",
+          "operands" : [ "Yearly" ]
+        } ]
+      }
+    },
+    "EXTRACT4" : {
+      "action" : "extractGrains",
+      "sources" : [ "FILTER4" ],
+      "parameters" : {
+        "grainExtractions" : [ ]
+      }
+    },
+    "AGGREGATE9" : {
+      "action" : "aggregate",
+      "sources" : [ "EXTRACT4" ],
+      "parameters" : {
+        "aggregations" : [ {
+          "action" : "SUM",
+          "source" : "external_cost",
+          "name" : "SUM_external_cost",
+          "label" : "Sum of external_cost"
+        }, {
+          "action" : "SUM",
+          "source" : "internal_cost",
+          "name" : "SUM_internal_cost",
+          "label" : "Sum of internal_cost"
+        }, {
+          "action" : "AVG",
+          "source" : "quantity_child_material",
+          "name" : "AVG_quantity_child_material",
+          "label" : "Average quantity_child_material"
+        } ],
+        "groupings" : [ "material_no", "child_material_no", "price_point_year", "price_point_month" ],
+        "pivots" : [ ],
+        "nodeType" : "STANDARD"
+      }
+    },
+    "FILTER1_copy0" : {
+      "action" : "filter",
+      "sources" : [ "AGGREGATE9" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "material_no",
+          "operator" : "STARTS_WITH",
+          "operands" : [ "1000" ]
+        } ]
+      }
+    },
+    "JOIN5" : {
+      "action" : "join",
+      "sources" : [ "FILTER7", "AGGREGATE9" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "child_material_no", "price_point_year", "price_point_month" ],
+        "rightQualifier" : "HZV",
+        "rightKeys" : [ "material_no", "price_point_year", "price_point_month" ]
+      }
+    },
+    "JOIN6" : {
+      "action" : "join",
+      "sources" : [ "JOIN5", "AGGREGATE9" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "HZV.child_material_no", "HZV.price_point_year", "price_point_month" ],
+        "rightQualifier" : "SW",
+        "rightKeys" : [ "material_no", "price_point_year", "price_point_month" ]
+      }
+    },
+    "FORMULA5" : {
+      "action" : "formula",
+      "sources" : [ "JOIN4" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Forecast_Quantity",
+          "label" : "Forecast Quantity",
+          "formulaExpression" : "SUM_ForecastSoldAmount__c * Percentage_Quantity",
+          "precision" : 10,
+          "scale" : 2,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA6" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA5" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Forecast_NE",
+          "label" : "Forecast NE (€/t)",
+          "formulaExpression" : "Weighted_NE_per_Ton + (AVG_ForecastNetProceeds__c - \"LastMonth.AVG_ActualNetProceeds__c\")",
+          "precision" : 10,
+          "scale" : 2,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA7" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA6" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Forecast_PE",
+          "label" : "Forecast PE (€/t)",
+          "formulaExpression" : "case Total_Internal_Cost\r\n\twhen 0\r\n\tthen null\r\n\telse Forecast_NE - Total_Internal_Cost\r\nend",
+          "precision" : 10,
+          "scale" : 2,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "DROP_FIELDS3" : {
+      "action" : "schema",
+      "sources" : [ "FORMULA7" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "SUM_Quantity_t", "Weighted_NE_per_Ton", "Percentage_Quantity", "material_no", "Forecast_Date", "DeltaNetProceeds__c", "ForecastSoldAmount__c", "Created_Date_YEAR", "Account__c", "AVG_ActualNetProceeds__c", "AVG_ForecastNetProceeds__c", "LastMonth.AVG_ActualNetProceeds__c", "SUM_ForecastSoldAmount__c", "LastMonth.AVG_ForecastNetProceeds__c", "Total_External_Cost", "Total_Internal_Cost", "Id" ]
+        }
+      }
+    },
+    "FILTER5" : {
+      "action" : "filter",
+      "sources" : [ "JOIN0_copy0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "DATETIME",
+          "field" : "ForecastTimePoint__c",
+          "operator" : "IN_RANGE",
+          "operands" : [ {
+            "argument" : -1,
+            "type" : "N_MONTHS"
+          }, {
+            "argument" : -1,
+            "type" : "N_MONTHS"
+          } ]
+        } ]
+      }
+    },
+    "DROP_FIELDS4" : {
+      "action" : "schema",
+      "sources" : [ "FILTER5" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "BusinessArea__c", "ForecastSoldAmount__c", "ForecastNetProceeds__c", "ForecastLevel__c", "Frequency__c", "Name", "SAPAccountNumber__c", "Id", "SUM_ForecastNetProceeds__c", "SUM_ForecastSoldAmount__c", "AVG_ForecastNetProceeds__c", "ForecastTimePoint__c" ]
+        }
+      }
+    },
+    "JOIN7" : {
+      "action" : "join",
+      "sources" : [ "FILTER8", "DROP_FIELDS4" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "LastMonth.Account__c", "LastMonth.ForecastTimePoint__c" ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Account__c" ],
+        "rightQualifier" : "LastMonth",
+        "rightKeys" : [ "Account__c" ]
+      }
+    },
+    "EXTRACT5" : {
+      "action" : "extractGrains",
+      "sources" : [ "FILTER0_copy0" ],
+      "parameters" : {
+        "grainExtractions" : [ {
+          "source" : "ForecastTimePoint__c",
+          "targets" : [ {
+            "name" : "ForecastTimePoint__c_MONTH",
+            "label" : "Forecast Time point Month",
+            "grainType" : "MONTH"
+          }, {
+            "name" : "ForecastTimePoint__c_YEAR",
+            "label" : "Forecast Time point Year",
+            "grainType" : "YEAR"
+          } ]
+        } ]
+      }
+    },
+    "AGGREGATE11" : {
+      "action" : "aggregate",
+      "sources" : [ "EXTRACT5" ],
+      "schema" : {
+        "fields" : [ {
+          "name" : "AVG_ActualNetProceeds__c",
+          "newProperties" : {
+            "typeProperties" : {
+              "type" : "NUMBER",
+              "scale" : 2,
+              "precision" : 18
+            }
+          }
+        }, {
+          "name" : "AVG_ForecastNetProceeds__c",
+          "newProperties" : {
+            "typeProperties" : {
+              "type" : "NUMBER",
+              "scale" : 2,
+              "precision" : 18
+            }
+          }
+        }, {
+          "name" : "SUM_ForecastSoldAmount__c",
+          "newProperties" : {
+            "typeProperties" : {
+              "type" : "NUMBER",
+              "scale" : 5,
+              "precision" : 18
+            }
+          }
+        } ]
+      },
+      "parameters" : {
+        "aggregations" : [ {
+          "action" : "AVG",
+          "source" : "ActualNetProceeds__c",
+          "name" : "AVG_ActualNetProceeds__c",
+          "label" : "Average Actual Net proceeds"
+        }, {
+          "action" : "AVG",
+          "source" : "ForecastNetProceeds__c",
+          "name" : "AVG_ForecastNetProceeds__c",
+          "label" : "Average Forecast Net proceeds"
+        }, {
+          "action" : "SUM",
+          "source" : "ForecastSoldAmount__c",
+          "name" : "SUM_ForecastSoldAmount__c",
+          "label" : "Sum of Forecast sold amount"
+        } ],
+        "groupings" : [ "Account__c", "ForecastTimePoint__c_MONTH", "ForecastTimePoint__c_YEAR" ],
+        "pivots" : [ ],
+        "nodeType" : "STANDARD"
+      }
+    },
+    "FORMULA8" : {
+      "action" : "formula",
+      "sources" : [ "AGGREGATE11" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "TEXT",
+          "name" : "ForecastTimePoint__c",
+          "label" : "Forecast Time Point",
+          "formulaExpression" : "concat('01', '/', ForecastTimePoint__c_MONTH, '/', ForecastTimePoint__c_YEAR)",
+          "precision" : 255,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "TO_DATE1" : {
+      "action" : "typeCast",
+      "sources" : [ "FORMULA8" ],
+      "schema" : {
+        "fields" : [ {
+          "name" : "ForecastTimePoint__c_to_date",
+          "newProperties" : {
+            "name" : "ForecastTimePoint__c"
+          }
+        } ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "ForecastTimePoint__c" ]
+        }
+      },
+      "parameters" : {
+        "fields" : [ {
+          "name" : "ForecastTimePoint__c",
+          "newProperties" : {
+            "label" : "Forecast Time Point",
+            "name" : "ForecastTimePoint__c_to_date",
+            "typeProperties" : {
+              "type" : "DATETIME",
+              "format" : "dd/MM/yyyy"
+            }
+          }
+        } ]
+      }
+    },
+    "DROP_FIELDS5" : {
+      "action" : "schema",
+      "sources" : [ "TO_DATE1" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "ForecastTimePoint__c_DAY", "ForecastTimePoint__c_MONTH", "ForecastTimePoint__c_YEAR" ]
+        }
+      }
+    },
+    "FILTER7" : {
+      "action" : "sqlFilter",
+      "sources" : [ "FILTER1_copy0" ],
+      "parameters" : {
+        "sqlFilterExpression" : "(child_material_no IS NOT NULL) AND (substr(child_material_no, 0, 4) != string(1000))"
+      }
+    },
+    "FILTER8" : {
+      "action" : "filter",
+      "sources" : [ "JOIN0_copy0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "DATETIME",
+          "field" : "ForecastTimePoint__c",
+          "operator" : "IN_RANGE",
+          "operands" : [ {
+            "argument" : 0,
+            "type" : "N_MONTHS"
+          }, {
+            "argument" : 11,
+            "type" : "N_MONTHS"
+          } ]
+        } ]
+      }
+    },
+    "FILTER9" : {
+      "action" : "filter",
+      "sources" : [ "JOIN6" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "TEXT",
+          "field" : "HZV.material_no",
+          "operator" : "IS_NOT_NULL",
+          "operands" : [ ]
+        }, {
+          "type" : "TEXT",
+          "field" : "SW.material_no",
+          "operator" : "IS_NOT_NULL",
+          "operands" : [ ]
+        } ]
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET1" : {
+        "label" : "COPA",
+        "type" : "LOAD_DATASET",
+        "top" : 392.7,
+        "left" : 112.5,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "FILTER0" : {
+        "label" : "Filter COPA data for current month",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 392.7,
+        "left" : 252.5
+      },
+      "AGGREGATE2" : {
+        "label" : "Aggregate Quantitiy and NE to Material Number lvl",
+        "description" : "Aggregate the quantity sold and NE at the Material Level",
+        "type" : "AGGREGATE",
+        "top" : 392.7,
+        "left" : 392.5,
+        "graph" : {
+          "EXTRACT1" : null,
+          "AGGREGATE3" : null
+        },
+        "connectors" : [ {
+          "source" : "EXTRACT1",
+          "target" : "AGGREGATE3"
+        } ]
+      },
+      "TRANSFORM0" : {
+        "label" : "Calculate Weighted NE per Ton",
+        "type" : "TRANSFORM",
+        "top" : 392.7,
+        "left" : 532.5,
+        "graph" : {
+          "FORMULA0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "AGGREGATE4" : {
+        "label" : "Aggregate Quantity of each Account",
+        "description" : "Aggregate the quantity sold at the Account level",
+        "type" : "AGGREGATE",
+        "top" : 532.7,
+        "left" : 392.5,
+        "graph" : {
+          "EXTRACT2" : null,
+          "AGGREGATE5" : null
+        },
+        "connectors" : [ {
+          "source" : "EXTRACT2",
+          "target" : "AGGREGATE5"
+        } ]
+      },
+      "JOIN0" : {
+        "label" : "Join Weighted NE data and Total Account qt sold",
+        "description" : "Join each row of material level aggregated data with the total quantity sold of each Account to which the material has been sold.",
+        "type" : "JOIN",
+        "top" : 392.7,
+        "left" : 672.5
+      },
+      "TRANSFORM1" : {
+        "label" : "Calculate percentage quantity for each Material",
+        "description" : "The percentage quantity is the division of each material quantity to the total quantity for that account.",
+        "type" : "TRANSFORM",
+        "top" : 392.7,
+        "left" : 812.5,
+        "graph" : {
+          "FORMULA1" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "FORMULA9" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "TO_DATE2" : {
+            "label" : "To Date"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA1",
+          "target" : "FORMULA9"
+        }, {
+          "source" : "FORMULA9",
+          "target" : "TO_DATE2"
+        } ]
+      },
+      "JOIN1" : {
+        "label" : "Inner join with Sales Planning data",
+        "description" : "Join the COPA data with the Sales Planning data using the SAP Account Number as key.",
+        "type" : "JOIN",
+        "top" : 392.7,
+        "left" : 952.5
+      },
+      "TRANSFORM2" : {
+        "label" : "Drop columns not used",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 392.7,
+        "left" : 1092.5,
+        "graph" : {
+          "DROP_FIELDS0" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT0" : {
+        "label" : "Create Net Proceeds dataset",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 392.2,
+        "left" : 1512.8
+      },
+      "LOAD_DATASET3" : {
+        "label" : "cost_calculated_per_rlevel",
+        "description" : "Pull the cost calculated per R-Level data from Heroku",
+        "type" : "LOAD_DATASET",
+        "top" : 672.7,
+        "left" : 112.5,
+        "parameters" : {
+          "sampleSize" : 10000
+        }
+      },
+      "TRANSFORM3" : {
+        "label" : "Create total external and internal costs",
+        "description" : "Calculate for both internal and external cost the total cost for a single FMN, aggregating the FMN, HZV and SW costs into one row.",
+        "type" : "TRANSFORM",
+        "top" : 951.6,
+        "left" : 1091.8,
+        "graph" : {
+          "FORMULA2" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Calculate total external cost"
+          },
+          "FORMULA3" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Calculate total internal cost"
+          },
+          "DROP_FIELDS1" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA2",
+          "target" : "FORMULA3"
+        }, {
+          "source" : "FORMULA3",
+          "target" : "DROP_FIELDS1"
+        } ]
+      },
+      "FILTER4" : {
+        "label" : "Remove Quarter data",
+        "description" : "Remove quarterly data, as only monthly data is needed. Also remove all records that have the alternate basic plan data.",
+        "type" : "FILTER",
+        "top" : 672.1,
+        "left" : 252
+      },
+      "TRANSFORM4" : {
+        "label" : "Transform strings into date",
+        "description" : "Convert the price point forecast field into a date field that can be used by CRM Analytics.",
+        "type" : "TRANSFORM",
+        "top" : 951.5,
+        "left" : 1232.2,
+        "graph" : {
+          "FORMULA4" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "TO_DATE0" : {
+            "label" : "To Date"
+          },
+          "DROP_FIELDS2" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA4",
+          "target" : "TO_DATE0"
+        }, {
+          "source" : "TO_DATE0",
+          "target" : "DROP_FIELDS2"
+        } ]
+      },
+      "JOIN4" : {
+        "label" : "Join forecast cost of production",
+        "description" : "Join the COPA and Sales Planning data to the R-Level cost of production data using the material number as key.",
+        "type" : "JOIN",
+        "top" : 392.7,
+        "left" : 1232.5
+      },
+      "LOAD_DATASET0_copy0" : {
+        "label" : "SalesPlanning__c",
+        "type" : "LOAD_DATASET",
+        "top" : 112.69999999999999,
+        "left" : 112.6,
+        "parameters" : {
+          "sampleSize" : 10000
+        }
+      },
+      "LOAD_DATASET1_copy0" : {
+        "label" : "Account",
+        "type" : "LOAD_DATASET",
+        "top" : 252.7,
+        "left" : 112.6,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "JOIN0_copy0" : {
+        "label" : "Add SAP ID",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 252.2,
+        "left" : 532
+      },
+      "FILTER0_copy0" : {
+        "label" : "Only include account Sales Planning record",
+        "description" : "Exclude business area sales planning information",
+        "type" : "FILTER",
+        "top" : 112.1,
+        "left" : 251.89999999999998
+      },
+      "AGGREGATE8" : {
+        "label" : "Aggregate R-Levels to phase of production (FMN / HZV / SW)",
+        "description" : "Aggregate the R-Levels to one row per phase of production and price point year and month",
+        "type" : "AGGREGATE",
+        "top" : 672,
+        "left" : 391.9,
+        "graph" : {
+          "EXTRACT4" : null,
+          "AGGREGATE9" : null
+        },
+        "connectors" : [ {
+          "source" : "EXTRACT4",
+          "target" : "AGGREGATE9"
+        } ]
+      },
+      "FILTER1_copy0" : {
+        "label" : "FMN",
+        "description" : "Include only the FMN phase of production",
+        "type" : "FILTER",
+        "top" : 672.1,
+        "left" : 532
+      },
+      "JOIN5" : {
+        "label" : "HZV",
+        "description" : "Put on one single row a FMN and its corresponding HZV",
+        "type" : "JOIN",
+        "top" : 812,
+        "left" : 672.1
+      },
+      "JOIN6" : {
+        "label" : "SW",
+        "description" : "Put on one single row a FMN, HZV and its corresponding SW",
+        "type" : "JOIN",
+        "top" : 951.7,
+        "left" : 811.9
+      },
+      "TRANSFORM5" : {
+        "label" : "Create KPIs",
+        "description" : "Node used to create the Quantity Sold, NE and PE forecasted for the next 12 months for each Material Number.",
+        "type" : "TRANSFORM",
+        "top" : 393.4,
+        "left" : 1372,
+        "graph" : {
+          "FORMULA5" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create Forecast Quantity"
+          },
+          "FORMULA6" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create Forecast NE"
+          },
+          "FORMULA7" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "DROP_FIELDS3" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA5",
+          "target" : "FORMULA6"
+        }, {
+          "source" : "FORMULA6",
+          "target" : "FORMULA7"
+        }, {
+          "source" : "FORMULA7",
+          "target" : "DROP_FIELDS3"
+        } ]
+      },
+      "FILTER5" : {
+        "label" : "Get Actual Net Proceeds from last month",
+        "description" : "Extract from the Sales Planning dataset the Actual Net Proceeds just for last month. This will be used in the NE calculation.",
+        "type" : "FILTER",
+        "top" : 113.30000000000001,
+        "left" : 672
+      },
+      "TRANSFORM6" : {
+        "label" : "Remove redundant columns",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 112,
+        "left" : 812,
+        "graph" : {
+          "DROP_FIELDS4" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "JOIN7" : {
+        "label" : "Add actual net proceeds",
+        "description" : "Join the actual net proceeds for last month to the Sales Planning (aggregated to the account level) dataset",
+        "type" : "JOIN",
+        "top" : 252.10000000000002,
+        "left" : 952
+      },
+      "AGGREGATE10" : {
+        "label" : "Aggregate all business areas for each account",
+        "description" : "",
+        "type" : "AGGREGATE",
+        "top" : 112.1,
+        "left" : 392,
+        "graph" : {
+          "EXTRACT5" : null,
+          "AGGREGATE11" : null
+        },
+        "connectors" : [ {
+          "source" : "EXTRACT5",
+          "target" : "AGGREGATE11"
+        } ]
+      },
+      "TRANSFORM7" : {
+        "label" : "Get forecast time point in a date field",
+        "description" : "Transform the forecast time point into a date field that can be used by CRM Analytics",
+        "type" : "TRANSFORM",
+        "top" : 112.1,
+        "left" : 532,
+        "graph" : {
+          "FORMULA8" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Formula"
+          },
+          "TO_DATE1" : {
+            "label" : "To Date"
+          },
+          "DROP_FIELDS5" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA8",
+          "target" : "TO_DATE1"
+        }, {
+          "source" : "TO_DATE1",
+          "target" : "DROP_FIELDS5"
+        } ]
+      },
+      "FILTER7" : {
+        "label" : "Exclude incorrect recipes (1/2)",
+        "description" : "This step excludes recipes that have the child_material_no equal to null and that have the child material being a FMN",
+        "type" : "FILTER",
+        "top" : 672.2,
+        "left" : 672
+      },
+      "FILTER8" : {
+        "label" : "Only include 12 months worth of forecasts",
+        "description" : "Sales Planning is for 12 months in the future only, so remove data older than 12 months.",
+        "type" : "FILTER",
+        "top" : 252,
+        "left" : 812
+      },
+      "FILTER9" : {
+        "label" : "Exclude incorrect recipes (2/2)",
+        "description" : "This step excludes all recipes that do not have the HZV or SW",
+        "type" : "FILTER",
+        "top" : 953.3,
+        "left" : 952
+      }
+    },
+    "connectors" : [ {
+      "source" : "FILTER7",
+      "target" : "JOIN5"
+    }, {
+      "source" : "TRANSFORM7",
+      "target" : "JOIN0_copy0"
+    }, {
+      "source" : "JOIN7",
+      "target" : "JOIN1"
+    }, {
+      "source" : "LOAD_DATASET1",
+      "target" : "FILTER0"
+    }, {
+      "source" : "FILTER0",
+      "target" : "AGGREGATE2"
+    }, {
+      "source" : "AGGREGATE2",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "FILTER0",
+      "target" : "AGGREGATE4"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "JOIN0"
+    }, {
+      "source" : "AGGREGATE4",
+      "target" : "JOIN0"
+    }, {
+      "source" : "JOIN0",
+      "target" : "TRANSFORM1"
+    }, {
+      "source" : "TRANSFORM1",
+      "target" : "JOIN1"
+    }, {
+      "source" : "JOIN1",
+      "target" : "TRANSFORM2"
+    }, {
+      "source" : "TRANSFORM2",
+      "target" : "JOIN4"
+    }, {
+      "source" : "TRANSFORM4",
+      "target" : "JOIN4"
+    }, {
+      "source" : "LOAD_DATASET1_copy0",
+      "target" : "JOIN0_copy0"
+    }, {
+      "source" : "TRANSFORM3",
+      "target" : "TRANSFORM4"
+    }, {
+      "source" : "LOAD_DATASET3",
+      "target" : "FILTER4"
+    }, {
+      "source" : "FILTER4",
+      "target" : "AGGREGATE8"
+    }, {
+      "source" : "AGGREGATE8",
+      "target" : "FILTER1_copy0"
+    }, {
+      "source" : "AGGREGATE8",
+      "target" : "JOIN5"
+    }, {
+      "source" : "JOIN5",
+      "target" : "JOIN6"
+    }, {
+      "source" : "AGGREGATE8",
+      "target" : "JOIN6"
+    }, {
+      "source" : "LOAD_DATASET0_copy0",
+      "target" : "FILTER0_copy0"
+    }, {
+      "source" : "JOIN4",
+      "target" : "TRANSFORM5"
+    }, {
+      "source" : "TRANSFORM5",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "JOIN0_copy0",
+      "target" : "FILTER5"
+    }, {
+      "source" : "FILTER5",
+      "target" : "TRANSFORM6"
+    }, {
+      "source" : "FILTER8",
+      "target" : "JOIN7"
+    }, {
+      "source" : "TRANSFORM6",
+      "target" : "JOIN7"
+    }, {
+      "source" : "FILTER0_copy0",
+      "target" : "AGGREGATE10"
+    }, {
+      "source" : "AGGREGATE10",
+      "target" : "TRANSFORM7"
+    }, {
+      "source" : "FILTER1_copy0",
+      "target" : "FILTER7"
+    }, {
+      "source" : "JOIN0_copy0",
+      "target" : "FILTER8"
+    }, {
+      "source" : "JOIN6",
+      "target" : "FILTER9"
+    }, {
+      "source" : "FILTER9",
+      "target" : "TRANSFORM3"
+    } ],
+    "hiddenColumns" : [ ]
+  },
+  "runMode" : "full"
+}

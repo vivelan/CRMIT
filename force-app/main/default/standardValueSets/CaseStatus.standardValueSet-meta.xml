@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Evaluation</fullName>
+        <default>false</default>
+        <label>Evaluation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Processing</fullName>
+        <default>false</default>
+        <label>Processing</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Negotiation</fullName>
+        <default>false</default>
+        <label>Negotiation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approval and Settlement</fullName>
+        <default>false</default>
+        <label>Approval and Settlement</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>User Specification</fullName>
+        <default>false</default>
+        <label>User Specification</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>User Creation</fullName>
+        <default>false</default>
+        <label>User Creation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+        <closed>false</closed>
+    </standardValue>
+</StandardValueSet>

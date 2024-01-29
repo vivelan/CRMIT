@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- AKTrend460SectionHeadline --></label>
+        <name>AKTrend460SectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- FolderReceiptsBurbachSectionHeading --></label>
+        <name>FolderReceiptsBurbachSectionHeading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- GeneralCommitmentsQASectionHeading --></label>
+        <name>GeneralCommitmentsQASectionHeading</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InternalSELnoSectionHeadline --></label>
+        <name>InternalSELnoSectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MeltAnalysisSectionHeadline --></label>
+        <name>MeltAnalysisSectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- NormsSectionHeadline --></label>
+        <name>NormsSectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- QWUsefullLinksComponentHeader --></label>
+        <name>QWUsefullLinksComponentHeader</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- RequirementSpecificationQASectionHeadline --></label>
+        <name>RequirementSpecificationQASectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StahlschluesselSectionHeadline --></label>
+        <name>SteelKeySectionHeadline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- StrengthsSectionHeading --></label>
+        <name>StrengthsSectionHeading</name>
+    </customLabels>
+     <customLabels>
+        <label><!-- LastRefreshedDate --></label>
+        <name>LastRefreshedDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Last Saved Final Price --></label>
+        <name>LastSavedFinalPriceDate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ReRunProductFinder --></label>
+        <name>ReRunProductFinder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body Part1 --></label>
+        <name>WelcomeEmailBodyPart1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body Part2 --></label>
+        <name>WelcomeEmailBodyPart2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body Part3 --></label>
+        <name>WelcomeEmailBodyPart3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body Part4 --></label>
+        <name>WelcomeEmailBodyPart4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body Part5 --></label>
+        <name>WelcomeEmailBodyPart5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body for Portal Part10 --></label>
+        <name>WelcomeEmailBodyforPortalPart10</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body for Portal Part11 --></label>
+        <name>WelcomeEmailBodyforPortalPart11</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body for Portal Part12 --></label>
+        <name>WelcomeEmailBodyforPortalPart12</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body for Portal Part13 --></label>
+        <name>WelcomeEmailBodyforPortalPart13</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email Body for Portal Part14 --></label>
+        <name>WelcomeEmailBodyforPortalPart14</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part1 --></label>
+        <name>ResetPasswordforPortalPart1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part1A --></label>
+        <name>ResetPasswordforPortalPart1A</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part2 --></label>
+        <name>ResetPasswordforPortalPart2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part3 --></label>
+        <name>ResetPasswordforPortalPart3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part4 --></label>
+        <name>ResetPasswordforPortalPart4</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part5 --></label>
+        <name>ResetPasswordforPortalPart5</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part6 --></label>
+        <name>ResetPasswordforPortalPart6</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part7 --></label>
+        <name>ResetPasswordforPortalPart7</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Reset Password for Portal Part8 --></label>
+        <name>ResetPasswordforPortalPart8</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Welcome Email for Portal Part0 --></label>
+        <name>DearforWelcomeEmail</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TermCondition --></label>
+        <name>TermCondition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TermCondition1 --></label>
+        <name>TermCondition1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- TermCondition2 --></label>
+        <name>TermCondition2</name>
+    </customLabels>
+   <customLabels>
+        <label><!-- Document Link to hold public link in downloadble version --></label>
+        <name>DocumentLink</name>
+    </customLabels>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Agree_Term_Conditions</name>
+                </fields>
+                <fields>
+                    <name>DisplayTerm</name>
+                </fields>
+                <name>Term_Condition_Screen</name>
+            </screens>
+        </flows>
+        <fullName>PortalTermConditionFlow</fullName>
+    </flowDefinitions>
+</Translations>

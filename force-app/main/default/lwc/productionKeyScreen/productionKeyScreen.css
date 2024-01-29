@@ -1,0 +1,8 @@
+.float-child-left {
+    width: 50%;
+    float: left;
+}  
+.float-child-right {
+    width: 50%;
+    float: right;
+}

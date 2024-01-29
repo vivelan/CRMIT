@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MandatoryFieldsDuringOliCreation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISNEW()),
+OR(
+ISBLANK(TEXT(UnitOfMeasurement__c)),
+ISBLANK(TEXT(PurposeOfUse__c)),
+ISBLANK(DimensionAFrom__c),
+ISBLANK(Position__c),
+AND(UsePricingTool__c, ISBLANK(TEXT(DimensioncalculationA__c))),
+ISBLANK(TEXT(QuantityUnit__c))
+)
+)</errorConditionFormula>
+    <errorMessage>Please specify all of the following mandatory fields: Unit Of Measurement, Purpose Of Use, Short Piece, Dimension A From, Position, Quantity Unit. Also include the field Dimensioncalculation A to be filled if the Use Pricing Tool checkbox is checked.</errorMessage>
+</ValidationRule>

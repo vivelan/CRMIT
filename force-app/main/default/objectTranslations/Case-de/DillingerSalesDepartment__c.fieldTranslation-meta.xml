@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Dillinger Sales Department</label>
+    <name>DillingerSalesDepartment__c</name>
+    <picklistValues>
+        <masterLabel>Energy Transmission and Processing</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Machinery and Construction Equipment</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Steel Service Center, Plate Processing</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wind Power and Construction</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

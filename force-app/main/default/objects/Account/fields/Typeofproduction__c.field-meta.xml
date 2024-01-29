@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Typeofproduction__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of production</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Drawing mill</fullName>
+                <default>false</default>
+                <label>Drawing mill</label>
+            </value>
+            <value>
+                <fullName>Forge</fullName>
+                <default>false</default>
+                <label>Forge</label>
+            </value>
+            <value>
+                <fullName>Spring manufacturer</fullName>
+                <default>false</default>
+                <label>Spring manufacturer</label>
+            </value>
+            <value>
+                <fullName>Spring manufacturer, stabilizer producers</fullName>
+                <default>false</default>
+                <label>Spring manufacturer, stabilizer producers</label>
+            </value>
+            <value>
+                <fullName>Wire tempering</fullName>
+                <default>false</default>
+                <label>Wire tempering</label>
+            </value>
+            <value>
+                <fullName>Spring manufacturers (brake accumulator springs)</fullName>
+                <default>false</default>
+                <label>Spring manufacturers (brake accumulator springs)</label>
+            </value>
+            <value>
+                <fullName>Railroad infrastructure manufacturer</fullName>
+                <default>false</default>
+                <label>Railroad infrastructure manufacturer</label>
+            </value>
+            <value>
+                <fullName>Mining</fullName>
+                <default>false</default>
+                <label>Mining</label>
+            </value>
+            <value>
+                <fullName>Bearing steel manufacturer</fullName>
+                <default>false</default>
+                <label>Bearing steel manufacturer</label>
+            </value>
+            <value>
+                <fullName>Forge/ Bearing steel manufacturer</fullName>
+                <default>false</default>
+                <label>Forge/ Bearing steel manufacturer</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Forge/ Hogger</fullName>
+                <default>false</default>
+                <label>Forge/ Hogger</label>
+            </value>
+            <value>
+                <fullName>Tool manufacturer</fullName>
+                <default>false</default>
+                <label>Tool manufacturer</label>
+            </value>
+            <value>
+                <fullName>Armature manufacturer</fullName>
+                <default>false</default>
+                <label>Armature manufacturer</label>
+            </value>
+            <value>
+                <fullName>Bearing steel manufacturer/ sawing company</fullName>
+                <default>false</default>
+                <label>Bearing steel manufacturer/ sawing company</label>
+            </value>
+            <value>
+                <fullName>Mechanical engineering company</fullName>
+                <default>false</default>
+                <label>Mechanical engineering company</label>
+            </value>
+            <value>
+                <fullName>Trader</fullName>
+                <default>false</default>
+                <label>Trader</label>
+            </value>
+            <value>
+                <fullName>Hogger</fullName>
+                <default>false</default>
+                <label>Hogger</label>
+            </value>
+            <value>
+                <fullName>Supplier</fullName>
+                <default>false</default>
+                <label>Supplier</label>
+            </value>
+            <value>
+                <fullName>Bright steel manufacturer</fullName>
+                <default>false</default>
+                <label>Bright steel manufacturer</label>
+            </value>
+            <value>
+                <fullName>Processor</fullName>
+                <default>false</default>
+                <label>Processor</label>
+            </value>
+            <value>
+                <fullName>Rolling mill</fullName>
+                <default>false</default>
+                <label>Rolling mill</label>
+            </value>
+            <value>
+                <fullName>Rolling mill for wire rod</fullName>
+                <default>false</default>
+                <label>Rolling mill for wire rod</label>
+            </value>
+            <value>
+                <fullName>Press shop</fullName>
+                <default>false</default>
+                <label>Press shop</label>
+            </value>
+            <value>
+                <fullName>Pre-material manufacturer for linear guides</fullName>
+                <default>false</default>
+                <label>Pre-material manufacturer for linear guides</label>
+            </value>
+            <value>
+                <fullName>Competitor</fullName>
+                <default>false</default>
+                <label>Competitor</label>
+            </value>
+            <value>
+                <fullName>Tire wire manufacturer</fullName>
+                <default>false</default>
+                <label>Tire wire manufacturer</label>
+            </value>
+            <value>
+                <fullName>Drawing shop for reinforcing steel</fullName>
+                <default>false</default>
+                <label>Drawing shop for reinforcing steel</label>
+            </value>
+            <value>
+                <fullName>Welding wire customer</fullName>
+                <default>false</default>
+                <label>Welding wire customer</label>
+            </value>
+            <value>
+                <fullName>Cold rolling mill</fullName>
+                <default>false</default>
+                <label>Cold rolling mill</label>
+            </value>
+            <value>
+                <fullName>Fastener manufacturer</fullName>
+                <default>false</default>
+                <label>Fastener manufacturer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

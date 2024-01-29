@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnChannelOfDistribution</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(NOT($Setup.ByPassLogic__c.ByPassValidation__c),
+NOT(ISBLANK( SAPAccountNumber__c )),
+ISCHANGED( ChannelOfDistribution__c ),OR( $Profile.Name  =  &quot;SAG Sales&quot;, $Profile.Name  =  &quot;SAG Marketing Profile&quot;))</errorConditionFormula>
+    <errorDisplayField>ChannelOfDistribution__c</errorDisplayField>
+    <errorMessage>The Channel of Distribution cannot be edited for SAP Accounts. In case adjustments are needed, please insert them directly in SAP.</errorMessage>
+</ValidationRule>

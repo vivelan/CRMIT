@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidationOnQualityCheckStage</fullName>
+    <active>true</active>
+    <description>Validates if none of the fields are editable on the opportunity except the stage field during the Quality Check Stage.</description>
+    <errorConditionFormula>AND(AND(NOT(ISNEW()), ISPICKVAL( StageName , &apos;Quality Check&apos;),NOT(ISCHANGED( StageName )),RecordType.DeveloperName=&apos;Opportunitywithquotecreations&apos;),NOT($Setup.ByPassLogic__c.ByPassValidation__c))</errorConditionFormula>
+    <errorMessage>No changes are possible during processing by the Quality department.</errorMessage>
+</ValidationRule>

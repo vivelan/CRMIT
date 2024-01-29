@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "f9ffa2cd-c289-4715-9044-3ea2b34c8e0b",
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "configurationTags" : [ ],
+  "devName" : "Commerical_Document_Analytics__c",
+  "id" : "bd031251-384e-4c40-931e-d9815adcd5b0",
+  "label" : "Commercial Document Analytics",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-commercial-document-analytics",
+  "type" : "route",
+  "urlPrefix" : "commercial-document-analytics"
+}

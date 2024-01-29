@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <available>true</available>
+    <description>Reminder to the owner of the business area record, Kevin Kerber to update the sales planning record.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Monthly Sales Forecast</name>
+    <style>none</style>
+    <subject>Monatliche Absatzplanung</subject>
+    <type>visualforce</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

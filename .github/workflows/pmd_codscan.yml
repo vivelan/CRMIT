@@ -1,0 +1,76 @@
+# Unique name for this workflow
+name: PMD Code Scan
+
+# Definition when the workflow should run
+on:
+    # The workflow will run whenever an event happens on a pull request
+    pull_request:
+      # The events are that a PR is opened, or when a commit is pushed
+      # to a branch that has an existing pull request
+      types: [opened, synchronize]
+      # The branches filter allows to specify that this workflow should only
+      # run if the branch name is as listed below. This way we prevent this workflow
+      # from running when PRs are opened on other branches
+      branches: [ environment/*/dev , environment/qa ]
+      # We only care about changes to the force-app directory, which is the
+      # root directory of the sfdx project. This prevents the job from running
+      # when changing non-salesforce files (like this yml file).
+      paths:
+        - 'force-app/**'
+            
+
+# Jobs to be executed when the above conditions are met
+jobs:
+    # This is the name of the job. You can give it whatever name you want
+    Run-PMD-Code-Scan:
+        # As mentioned in the blog post, this job runs inside a VM. Here we
+        # can specify which OS this VM should run on. 
+        # In this case, we are going to run our commands on the latest version
+        # of ubuntu
+        runs-on: ubuntu-latest
+        permissions:
+                    contents: read
+                    pull-requests: write
+                    # required for all workflows
+                    security-events: write
+                    # only required for workflows in private repositories
+                    actions: read
+                    
+        if: ${{ github.actor != 'dependabot[bot]' }}
+        steps:
+      
+            # Now we install nodejs in the VM, and specify version 14
+            - uses: actions/setup-node@v3
+              with:
+                node-version: '14'
+
+            # The idea is that the VM can access your remote repository
+            # because your repository is an sfdx project.
+            # This is a default action that allows us to enter the root 
+            # directory of the repository
+
+            # Make sure to specify fetch-depth:0. This allows us to
+            # access previous commits that have been pushed to the repository.
+
+            # We'll need this later when we try to figure out which metadata has 
+            # changed between commits, so that we can only deploy that metadata
+            # to the destination org
+
+            - name: 'Checkout source code'
+              uses: actions/checkout@v3
+              with:
+                fetch-depth: 0
+            
+            # Run PMD Scan
+            - name: 'Run PMD Scan'
+              uses: pmd/pmd-github-action@v1
+              id: pmd
+              with: 
+                    sourcePath: 'force-app'
+                    rulesets: 'ruleset.xml'    
+                    analyzeModifiedFilesOnly: true
+                    createGitHubAnnotations: true 
+                    
+            - name: Fail build if there are violations
+              if: steps.pmd.outputs.violations != 0
+              run: exit 1              

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Order_Stock_Sales</dataset>
+    <measures>
+        <field>Stock Tonnage</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Stock Tonnage</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Order Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Order Quantity</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Shipped Quantity</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Shipped Quantity</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Package Count</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Package Count</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>HU Count</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>HU Count</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Lagermenge</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Lagermenge</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Bestellmenge</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Bestellmenge</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Versandmenge</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Versandmenge</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Anzahl Pakete</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Anzahl Pakete</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Anzahl HUs</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Anzahl HUs</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+</WaveXmd>

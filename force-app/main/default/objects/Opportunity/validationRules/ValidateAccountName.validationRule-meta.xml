@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateAccountName</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK( AccountId ),
+NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>Opportunities can only be saved if an affiliated account is entered in the field &quot;Account Name&quot;.</errorMessage>
+</ValidationRule>

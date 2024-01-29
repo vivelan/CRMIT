@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Customer</masterLabel>
+        <translation>Kunde</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Influencer</masterLabel>
+        <translation>Beeinflusser</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Potential Customer</masterLabel>
+        <translation>Potenzieller Kunde</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

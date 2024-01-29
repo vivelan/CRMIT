@@ -1,0 +1,13 @@
+{
+  "activeViewId" : "18082e02-f26f-470d-a8ff-1db68d9db133", 
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "configurationTags" : [ ],
+  "devName" : "Project_Status__c",
+  "id" : "277ed2a4-dadd-4eab-996c-d87e220be258",
+  "label" : "Project Status",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-project-status",
+  "type" : "route",
+  "urlPrefix" : "production-status/project-status" 
+}
+ 

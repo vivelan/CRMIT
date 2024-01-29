@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DH</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>DH</label>
+        <sharedTo>
+            <role>DH</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DH</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SAG</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SAG</label>
+        <sharedTo>
+            <role>SAG</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SAG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

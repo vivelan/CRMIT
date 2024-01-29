@@ -1,0 +1,19 @@
+name: Pull Request Automations - Dev
+
+on:
+  pull_request:
+    branches:
+      - 'environment/*/dev'
+
+jobs:
+  pr-automations-general:
+    name: Automations for Pull Requests applicable to Dev Branches
+    runs-on: ubuntu-latest
+    steps:
+    - name: Verifies that the PR title matches the pattern
+      uses: seferov/pr-lint-action@master
+      with:
+        title-regex: '^(feature\/US-\d*|fix\/BUG-\d*)( - )(.{5,})'
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        auto-close-message: >
+          Closing this pull request since the title does not match %pattern% pattern (e.g. 'feature/US-1234 - Example Description' or 'fix/BUG-1234 - Example Description'). Please fix the title and re-open the pull request.

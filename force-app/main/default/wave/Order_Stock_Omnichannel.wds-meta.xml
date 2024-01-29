@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveDataset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <application>Omnichannel</application>
+    <description>Created from the Prepare Orders &amp; Stock data recipe.</description>
+    <masterLabel>Orders &amp; Stock Omnichannel</masterLabel>
+    <type>default</type>
+</WaveDataset>

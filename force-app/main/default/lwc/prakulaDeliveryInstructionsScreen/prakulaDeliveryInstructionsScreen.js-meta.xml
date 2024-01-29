@@ -1,0 +1,30 @@
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>57.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__FlowScreen</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="label" type="String" label="Button Label" role="inputOnly"/>
+            <property name="DeliveryInstructionsID" type="String" label="DeliveryInstructionsID"/>
+            <property name="deliveryInsType" type="String" label="deliveryInsType"/>
+            <property name="deliveryInsPublisher" type="String" label="deliveryInsPublisher"/> 
+            <property name="deliveryInsRevision" type="String" label="deliveryInsRevision"/>
+            <property name="deliveryInsTitle" type="String" label="deliveryInsTitle"/>
+            <property name="deliveryInsDateOfIssue" type="String" label="deliveryInsDateOfIssue"/>
+            <property name="OLIID " type="String" label="OLIID"/>
+            <property name="buttonId" type="String" label="Button ID" role="inputOnly"/>
+            <property name="selectedButtonId" type="String" label="Selected Button ID" role="outputOnly"/>
+            <property name="name" label="Name" type="String" role="outputOnly"/>
+            <property name="lvscreen" label="lvscreen" type="Boolean" role="inputOnly"/>
+            <property name="prakulaId" label="prakulaId" type="String" role="outputOnly"/>
+            <property name="prakulaOnOLI" label="prakulaOnOLI" type="String" role="inputOnly"/>
+            <property name="lvpositionId" label="lvpositionId" type="String" role="outputOnly"/>
+            <property name="dIscreen" label="dIscreen" type="Boolean" role="inputOnly"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

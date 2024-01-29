@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>FMN_Cost</dataset>
+    <measures>
+        <field>Full Cost VORIST [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Full Cost VORIST [€/t]</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Vollkosten VORIST [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Vollkosten VORIST [€/t]</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Marginal Cost VORIST [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Marginal Cost VORIST [€/t]</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Teilkosten VORIST [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Teilkosten VORIST [€/t]</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Full Cost WBK [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Full Cost WBK [€/t]</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Vollkosten WBK [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Vollkosten WBK [€/t]</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Marginal Cost WBK [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Marginal Cost WBK [€/t]</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Teilkosten WBK [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Teilkosten WBK [€/t]</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Fixed Cost [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Fixed Cost [€/t]</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Fix Kosten [€/t]</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Fix Kosten [€/t]</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+</WaveXmd>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>STW - Erprobung (St.9)</label>
+    <name>SteelMillTesting__c</name>
+    <picklistValues>
+        <masterLabel>X</masterLabel>
+        <translation>X - Stahlwerkserprobung (X nur bei Schmiedeprobe)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

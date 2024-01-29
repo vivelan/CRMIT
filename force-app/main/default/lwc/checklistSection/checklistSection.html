@@ -1,0 +1,118 @@
+<template>
+    <div class="ac-section-style">
+        <div key={checklistitem.checklistId}>
+          <div class="cs-checklist-name-style">
+            {checklistitem.checklistName}
+        </div>
+        <template for:each={checklistitem.checklistSectionWrapperList} for:item="sectionItem">
+          <div key={sectionItem.checklistSectionId}>
+            <div class="cs-checklist-section-name-style">
+              {sectionItem.checklistSectionName}
+            </div>
+            <template for:each={sectionItem.checklistQuestionResponseWrapperList} for:item="questionResponseItem">
+              <div key={questionResponseItem.checklistQuestionResponseId}>
+                <div class="cs-question">
+                  {questionResponseItem.questionText}
+                </div>
+                <div class="cs-answer">
+                  <template if:true={questionResponseItem.typeIsText}>
+                    <template for:each={questionResponseItem.actualAnswerWrapperList} for:item="answerItem">
+                      <div key={answerItem} class="slds-form-element">
+                        <div class="slds-form-element__control">
+                          <template if:true={answerItem.isAnswerChecked}>
+                            <input type="text" value={answerItem.answerText} required="" class="slds-input" data-name={questionResponseItem.checklistQuestionResponseId} data-type="text"/>
+                          </template>
+                          <template if:true={answerItem.isAnswerNotChecked}>
+                            <input type="text" placeholder={enterInputTextLabel} required="" class="slds-input" data-name={questionResponseItem.checklistQuestionResponseId} data-type="text"/>
+                          </template>
+                        </div>
+                      </div>
+                    </template>
+                  </template>
+                  <template if:true={questionResponseItem.typeIsNumber}>
+                    <template for:each={questionResponseItem.actualAnswerWrapperList} for:item="answerItem">
+                      <div key={answerItem} class="slds-form-element">
+                        <div class="slds-form-element__control">
+                          <template if:true={answerItem.isAnswerChecked}>
+                            <input type="number" value={answerItem.answerText} required="" class="slds-input" data-name={questionResponseItem.checklistQuestionResponseId} data-type="number"/>
+                          </template>
+                          <template if:true={answerItem.isAnswerNotChecked}>
+                            <input type="number" placeholder={enterInputNumberLabel} required="" class="slds-input" data-name={questionResponseItem.checklistQuestionResponseId} data-type="number"/>
+                          </template>
+                        </div>
+                      </div>
+                    </template>
+                  </template>
+                  <template if:true={questionResponseItem.typeIsDropdown}>
+                    <div class="slds-form-element">
+                      <div class="slds-form-element__control">
+                        <div class="slds-select_container cs-dropdown-style">
+                          <select class="slds-select" data-name={questionResponseItem.checklistQuestionResponseId} data-type="dropdown">
+                            <option value="">{selectOptionLabel}</option>
+                            <template for:each={questionResponseItem.actualAnswerWrapperList} for:item="answerItem">
+                              <template if:true={answerItem.isAnswerChecked}>
+                                <option selected="selected" id={answerItem.answerText} key={answerItem.answerText} class="cs-text-style">{answerItem.answerText}</option>
+                              </template>
+                              <template if:true={answerItem.isAnswerNotChecked}>
+                                <option id={answerItem.answerText} key={answerItem.answerText} class="cs-text-style">{answerItem.answerText}</option>
+                              </template>
+                            </template>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                  <template if:true={questionResponseItem.typeIsCheckbox}>
+                    <lightning-checkbox-group 
+                      options={questionResponseItem.checkboxAndRadioQuestionResponseWrapperList} 
+                      value={questionResponseItem.checkboxSelectedValueList}
+                      data-name={questionResponseItem.checklistQuestionResponseId} 
+                      data-type="checkbox">
+                    </lightning-checkbox-group>
+                  </template>
+
+                  <template if:true={questionResponseItem.typeIsRadioButton}>
+                    <lightning-radio-group
+                    options={questionResponseItem.checkboxAndRadioQuestionResponseWrapperList} 
+                    value={questionResponseItem.radioSelectedValue}
+                    data-name={questionResponseItem.checklistQuestionResponseId} 
+                    data-type="radio">
+                    </lightning-radio-group>
+                  </template>
+
+                </div>
+              </div>
+            </template>
+          </div>
+          <div key={sectionItem.checklistSectionId} class="cs-line-style"></div>
+        </template>
+
+        </div>
+        <button key={checklistitem.checklistId} data-id={checklistitem.checklistId} class="cs-save-btn" onclick={handleSaveButton}>{saveButtonLabel}</button>
+        <button key={checklistitem.checklistId} data-id={checklistitem.checklistId} class="cs-remove-btn" onclick={handleRemoveButton}>{removeButtonLabel}</button>
+
+        <template if:true={showRemoveMessage}>
+          <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+              <header class="slds-modal__header">
+                <h2 id="modal-heading-02" class="slds-text-heading_medium slds-hyphenate">
+                  {removeChecklistPopupTileLabel}
+                </h2>
+              </header>
+              <div class="slds-modal__content slds-p-around_medium">
+                <h2 class='cs-bodyModal'>{removeChecklistPopupMessageLabel}</h2><br />
+              </div>
+              <footer class="slds-modal__footer">
+                <button class="slds-m-horizontal_x-small cs-no-button cs-modal-btn-group" onclick={handleNoButton}>{removeChecklistNoButtonLabel}</button>
+                <button class="slds-m-horizontal_x-small cs-yes-button cs-modal-btn-group" onclick={handleYesButton}>
+                  <div class="cs-yesButtonText">
+                    {removeChecklistYesButtonLabel}
+                  </div>
+                </button>
+              </footer>
+            </div>
+          </section>
+          <div class="slds-backdrop slds-backdrop_open"></div>
+        </template>
+    </div>
+</template>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>FooterColumn3DE</label>
+    <protected>false</protected>
+    <values>
+        <field>Content__c</field>
+        <value xsi:type="xsd:string">Aufsichtsratsvorsitzender:;Reinhard Störmer;;Sitz:Völklingen;;Registergericht:;Amtsgericht Saarbrücken;HRB 74820;UST-IdNr. DE 811121414;</value>
+    </values>
+</CustomMetadata>

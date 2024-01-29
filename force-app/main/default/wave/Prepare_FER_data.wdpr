@@ -1,0 +1,433 @@
+{
+  "version" : "59.0",
+  "nodes" : {
+    "LOAD_DATASET0" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "External_ID", "Product_Category", "Rolling_Mill", "Customer_Key", "Customer_Name", "Heat_Treatment", "Heat_Treatment_Key", "Surface_Treatment_Flag", "Product", "Product_Key", "Wire_Rod_Key", "KOMPOLO", "Heat_Treatment_Flag", "Surface_Inspection_Key", "Business_Area_Key", "Surface_Inspection_Flag", "Sales_Unit", "Customer_Steel_Grade_Key", "Steel_Grade_Key", "Customer_Steel_Grade", "Product_Name", "Product_Sub_Group", "Customer_Material_Number", "Surface_Inspection", "Surface_Treatment_Key", "Wire_Rod_Flag", "Wire_Rod", "Dimension_B", "Surface_Treatment", "Dimension_A", "Quality_Grade", "Country", "Business_Area", "Steel_Grade", "Created_Date", "Material_Number_SAG", "Net_Invoice", "Dimension_A1", "Sales_Deductions", "Quantity_t", "Net_Proceeds", "Dimension_B1", "Freights_for_Sales", "USK_Full_Cost", "PE", "USK_Marginal_Cost", "Contribution_Margin" ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "FILTER0_copy0" : {
+      "action" : "filter",
+      "sources" : [ "LOAD_DATASET0" ],
+      "parameters" : {
+        "filterExpressions" : [ {
+          "type" : "DATETIME",
+          "field" : "Created_Date",
+          "operator" : "IN_RANGE",
+          "operands" : [ {
+            "argument" : -3,
+            "type" : "N_YEARS"
+          }, {
+            "argument" : 0,
+            "type" : "N_YEARS"
+          } ]
+        } ]
+      }
+    },
+    "OUTPUT0" : {
+      "action" : "save",
+      "sources" : [ "FILTER0_copy0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER",
+          "folderName" : "Integration"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "OUTPUT1" : {
+      "action" : "save",
+      "sources" : [ "FORMULA6" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER_dashboard",
+          "folderName" : "Sales_Reporting_Sales_Marketing"
+        }
+      }
+    },
+    "DROP_FIELDS0" : {
+      "action" : "schema",
+      "sources" : [ "FORMULA6" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "PE", "USK_Marginal_Cost", "Contribution_Margin", "USK_Full_Cost", "Sales_Deductions", "PE_Per_Ton", "USK_Full_Cost_Per_Ton", "USK_Marginal_Cost_Per_Ton", "Contribution_Margin_Per_Ton" ]
+        }
+      }
+    },
+    "OUTPUT2" : {
+      "action" : "save",
+      "sources" : [ "DROP_FIELDS0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "dataset" : {
+          "type" : "analyticsDataset",
+          "label" : "FER",
+          "name" : "FER_restricted_dashboard",
+          "folderName" : "Sales_Reporting1"
+        },
+        "measuresToCurrencies" : [ ]
+      }
+    },
+    "FORMULA0" : {
+      "action" : "formula",
+      "sources" : [ "DROP_FIELDS2" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Freights_For_Sales_Per_Ton",
+          "label" : "Freights for Sales (€/t)",
+          "formulaExpression" : "Freights_for_Sales / Quantity_t",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA1" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA0" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "PE_Per_Ton",
+          "label" : "PE (€/t)",
+          "formulaExpression" : "PE / Quantity_t",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA2" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA1" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "USK_Full_Cost_Per_Ton",
+          "label" : "USK Full Cost (€/t)",
+          "formulaExpression" : "USK_Full_Cost / Quantity_t",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA3" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA2" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "USK_Marginal_Cost_Per_Ton",
+          "label" : "USK Marginal Cost (€/t)",
+          "formulaExpression" : "USK_Marginal_Cost / Quantity_t",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA4" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA3" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Contribution_Margin_Per_Ton",
+          "label" : "Contribution Margin (€/t)",
+          "formulaExpression" : "Contribution_Margin / Quantity_t",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA5" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA4" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Net_Proceeds_Per_Ton",
+          "label" : "Net Proceeds (€/t)",
+          "formulaExpression" : "Net_Proceeds / Quantity_t",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "FORMULA6" : {
+      "action" : "formula",
+      "sources" : [ "FORMULA5" ],
+      "parameters" : {
+        "expressionType" : "SQL",
+        "fields" : [ {
+          "type" : "NUMBER",
+          "name" : "Net_Invoice_Per_Ton",
+          "label" : "Net Invoice (€/t)",
+          "formulaExpression" : "Net_Invoice / Quantity_t",
+          "precision" : 10,
+          "scale" : 0,
+          "defaultValue" : ""
+        } ]
+      }
+    },
+    "LOAD_DATASET2" : {
+      "action" : "load",
+      "sources" : [ ],
+      "parameters" : {
+        "fields" : [ "AccountGroupName__c", "SAPAccountNumber__c" ],
+        "dataset" : {
+          "type" : "connectedDataset",
+          "label" : "Account",
+          "connectionName" : "SFDC_LOCAL",
+          "sourceObjectName" : "Account"
+        },
+        "sampleDetails" : {
+          "type" : "TopN",
+          "sortBy" : [ ]
+        }
+      }
+    },
+    "DROP_FIELDS2" : {
+      "action" : "schema",
+      "sources" : [ "JOIN0" ],
+      "parameters" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ "SAPAccountNumber__c" ]
+        }
+      }
+    },
+    "JOIN0" : {
+      "action" : "join",
+      "sources" : [ "FILTER0_copy0", "LOAD_DATASET2" ],
+      "schema" : {
+        "fields" : [ ],
+        "slice" : {
+          "mode" : "DROP",
+          "ignoreMissingFields" : true,
+          "fields" : [ ]
+        }
+      },
+      "parameters" : {
+        "joinType" : "LOOKUP",
+        "leftKeys" : [ "Customer_Key" ],
+        "rightKeys" : [ "SAPAccountNumber__c" ]
+      }
+    }
+  },
+  "ui" : {
+    "nodes" : {
+      "LOAD_DATASET0" : {
+        "label" : "FER",
+        "type" : "LOAD_DATASET",
+        "top" : 112,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "FILTER0_copy0" : {
+        "label" : "Filter out data older than 3 years",
+        "description" : "",
+        "type" : "FILTER",
+        "top" : 252,
+        "left" : 252.10000000000002
+      },
+      "OUTPUT0" : {
+        "label" : "Overwrite Integration dataset",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 112,
+        "left" : 252.2
+      },
+      "OUTPUT1" : {
+        "label" : "Overwrite Sales Reporting (Sales & Marketing) dataset",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 112.19999999999999,
+        "left" : 672
+      },
+      "TRANSFORM0" : {
+        "label" : "Remove restricted KPIs",
+        "description" : "Remove KPIs that should not be displayed on the Sales Reporting (Restricted) dashboard",
+        "type" : "TRANSFORM",
+        "top" : 392,
+        "left" : 672.1,
+        "graph" : {
+          "DROP_FIELDS0" : {
+            "label" : "Remove restricted KPIs"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "OUTPUT2" : {
+        "label" : "Overwrite Sales Reporting (restricted) dataset",
+        "description" : "",
+        "type" : "OUTPUT",
+        "top" : 392.2,
+        "left" : 812
+      },
+      "TRANSFORM1" : {
+        "label" : "Create per ton KPIs",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 252,
+        "left" : 672.2,
+        "graph" : {
+          "FORMULA0" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create freights for sales per ton"
+          },
+          "FORMULA1" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create PE per ton"
+          },
+          "FORMULA2" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create USK Full Cost per ton"
+          },
+          "FORMULA3" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create USK Marginal cost per ton"
+          },
+          "FORMULA4" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create contribution marging per ton"
+          },
+          "FORMULA5" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create net proceeds per ton"
+          },
+          "FORMULA6" : {
+            "parameters" : {
+              "type" : "BASE_FORMULA_UI"
+            },
+            "label" : "Create Net Invoice per ton"
+          }
+        },
+        "connectors" : [ {
+          "source" : "FORMULA0",
+          "target" : "FORMULA1"
+        }, {
+          "source" : "FORMULA1",
+          "target" : "FORMULA2"
+        }, {
+          "source" : "FORMULA2",
+          "target" : "FORMULA3"
+        }, {
+          "source" : "FORMULA3",
+          "target" : "FORMULA4"
+        }, {
+          "source" : "FORMULA4",
+          "target" : "FORMULA5"
+        }, {
+          "source" : "FORMULA5",
+          "target" : "FORMULA6"
+        } ]
+      },
+      "LOAD_DATASET2" : {
+        "label" : "Account",
+        "type" : "LOAD_DATASET",
+        "top" : 393,
+        "left" : 112,
+        "parameters" : {
+          "sampleSize" : 2000
+        }
+      },
+      "TRANSFORM3" : {
+        "label" : "Drop unused columns",
+        "description" : "",
+        "type" : "TRANSFORM",
+        "top" : 252,
+        "left" : 532,
+        "graph" : {
+          "DROP_FIELDS2" : {
+            "label" : "Drop Columns"
+          }
+        },
+        "connectors" : [ ]
+      },
+      "JOIN0" : {
+        "label" : "Add Account Group information",
+        "description" : "",
+        "type" : "JOIN",
+        "top" : 252,
+        "left" : 392
+      }
+    },
+    "connectors" : [ {
+      "source" : "LOAD_DATASET0",
+      "target" : "FILTER0_copy0"
+    }, {
+      "source" : "TRANSFORM1",
+      "target" : "TRANSFORM0"
+    }, {
+      "source" : "FILTER0_copy0",
+      "target" : "JOIN0"
+    }, {
+      "source" : "LOAD_DATASET2",
+      "target" : "JOIN0"
+    }, {
+      "source" : "FILTER0_copy0",
+      "target" : "OUTPUT0"
+    }, {
+      "source" : "JOIN0",
+      "target" : "TRANSFORM3"
+    }, {
+      "source" : "TRANSFORM3",
+      "target" : "TRANSFORM1"
+    }, {
+      "source" : "TRANSFORM0",
+      "target" : "OUTPUT2"
+    }, {
+      "source" : "TRANSFORM1",
+      "target" : "OUTPUT1"
+    } ],
+    "hiddenColumns" : [ ]
+  },
+  "runMode" : "full"
+}

@@ -1,0 +1,54 @@
+.th {
+  text-align: left;
+  font-size: small;
+  border: 1px solid grey;
+  width: 50%; 
+}
+.td{
+  border: 1px solid grey;
+  width: 50%; 
+}
+.custom-combobox-label{
+  font-weight: bold;
+}
+.rightText{
+  text-align: right;
+  width: 50px;
+}
+
+.rightTextYear{
+  text-align: right;
+  width: 55px;
+}
+.rightInputText{
+  text-align: right;
+  width: 80px;
+}
+
+.rightDeltaInputText{
+  text-align: right;
+  width: 80px;
+}
+
+.leftText{
+  text-align: left;
+  width: 100px;
+}
+.container {
+  /*display: flex;
+  overflow-x: auto;*/
+  white-space: nowrap;
+  width: 100%;
+}
+.label-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.button.slds-button{
+  width: 78px;
+}
+.customCombobox {
+  width: 300px;
+}

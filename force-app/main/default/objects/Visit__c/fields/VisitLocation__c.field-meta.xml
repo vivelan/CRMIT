@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisitLocation__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Internal visit:
+The field &apos;Visit Location&apos; is initially prefilled with the address of the head office (DH or SAG) after saving the record. This address can be modified afterwards.
+External visit:
+The field &apos;Visit Location&apos; is initially prefilled with the address of the account (if an account is linked to the visit) after saving the record. This address can be modified afterwards.</inlineHelpText>
+    <label>Visit Location</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Address</type>
+</CustomField>

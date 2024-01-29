@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>+A-Soft annealed</masterLabel>
+        <translation>+A-Weichgeglüht</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+AC-Annealed to obtain spherical carbides</masterLabel>
+        <translation>+AC-Geglüht zur Erzielung kugeliger Carbide</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+AR-As rolled (without any special rolling and/or heat treatment conditions)</masterLabel>
+        <translation>+AR-Wie gewalzt (ohne jegliche besonderen Walz- und/oder Wärmebehandlungsbedingungen)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+FP-Treated for ferrite-pearlite structure and hardness span</masterLabel>
+        <translation>+FP-Behandelt auf Ferrit-Perlit-Gefüge und Härtespanne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+N-Normalized annealed or normalizing shaped</masterLabel>
+        <translation>+N-Normalgeglüht oder normalisierend umgeformt</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+QT-Quench Hardened-Tempered</masterLabel>
+        <translation>+QT-Vergütet</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+S-Treated for cold shear</masterLabel>
+        <translation>+S-Behandelt auf Kaltscherbarkeit</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+T-Tempered</masterLabel>
+        <translation>+T-	Angelassen</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+TH-Treated for hardness span</masterLabel>
+        <translation>+TH-Behandelt auf Härtespanne</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>+U-Untreated</masterLabel>
+        <translation>+U-Unbehandelt</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

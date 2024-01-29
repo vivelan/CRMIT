@@ -1,0 +1,118 @@
+<template>
+  <template if:true={dIscreen}>
+    <div>
+        <div class="wrap1" style="font-size: 13px;">
+            <b>{label.DeliveryInstructionCriteria}</b>
+        </div>
+        <div class="wrap2">
+            <lightning-button-icon icon-name="utility:info" alternative-text="Help" title= {label.DeliveryInstructionCriteriaHelpText} size="small"></lightning-button-icon>
+        </div>
+    </div>
+  </template> 
+
+<template if:false={dIscreen}>
+<template if:false={lvscreen}>
+<div>
+    <div class="wrap1" style="font-size: 13px;">
+        <b>{label.FoundPrakulaandrelatedDeliveryInstructions}</b>
+    </div>
+    <div class="wrap2">
+        <lightning-button-icon icon-name="utility:info" alternative-text="Help" title= {label.FoundPrakulaHelpText} size="small"></lightning-button-icon>
+    </div>
+</div>
+    <div class="table-container">
+    <table class="slds-table slds-table_cell-buffer slds-table_bordered" id="tblData">
+        <thead>
+          <tr class="slds-line-height_reset">
+              <th class="slds-cell-wrap" scope="col">{Select}</th>
+              <th class="slds-cell-wrap" scope="col">Präkula Name</th>
+              <th class="slds-cell-wrap" scope="col">{DIType}</th>
+              <th class="slds-cell-wrap" scope="col">{DITitle}</th>
+              <th class="slds-cell-wrap" scope="col">{DIDateOfIssue}</th>
+              <th class="slds-cell-wrap" scope="col">{DIPublisher}</th>
+            </tr>
+        </thead>
+          <tbody>
+            <template if:true={prakulalist}>
+            <template for:each={prakulalist} for:item = "pr" for:index="index">       
+            <tr key={pr.Praekula} class="slds-hint-parent">
+                <td rowspan={pr.rowspan}><input type="radio" name="SelectID" value={pr.Praekula} onchange={handlePrakulaSelection}></td>
+                <td data-label="prakula" rowspan={pr.rowspan} style="text-align: left;">{pr.PraekulaName}</td>
+            </tr>
+                <template for:each={pr.deliveryInstructions} for:item="DI">
+                   <tr key={DI.DeliveryInstructions__c}>
+                     <td  style="text-align: left;">{DI.DeliveryInstructions__r.Type__c}</td>
+                     <td style="text-align: left;">{DI.DeliveryInstructions__r.Title__c}</td>
+                     <td style="text-align: left;">{DI.DeliveryInstructions__r.DateOfIssue__c}</td>
+                     <td style="text-align: left;">{DI.DeliveryInstructions__r.Publisher__c}</td>
+                    </tr>
+                </template> 
+            </template>
+        </template>
+            </tbody>
+    </table>
+</div>
+<lightning-layout horizontal-align="end">
+        <lightning-layout-item padding="around-small">
+            <lightning-button  label={label.BackZurack} variant="brand" onclick={handleBack}> </lightning-button>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small">
+           <lightning-button  label={label.CancelAbbrechenSearch} variant="brand" onclick={handleCancel}> </lightning-button>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small">
+          <lightning-button style="width: 10vw" variant="brand" label={label.NewPrakulaNeuesPrakula} onclick={handleNewPrakula}></lightning-button>
+        </lightning-layout-item>
+        <lightning-layout-item padding="around-small">
+           <lightning-button  label={label.ProceedWeiter} variant="brand" onclick={handlePrakulaProceed} disabled={disabledBtn}> </lightning-button>
+        </lightning-layout-item>
+</lightning-layout>  
+</template>
+</template>
+    <template if:true={lvscreen}>
+        <div>
+            <div class="wrap1"  style="font-size: 13px;">
+                <b>{label.RelatedLVPositions}</b>
+            </div>
+            <div class="wrap2">
+                <lightning-button-icon icon-name="utility:info" alternative-text="Help" title= {label.RelatedLVPositionsHelpText} size="small"></lightning-button-icon>
+            </div>
+        </div>
+        <div class="table-container">
+        <table class="slds-table slds-table_cell-buffer slds-table_bordered" id="tbllv">
+            <thead>
+              <tr class="slds-line-height_reset">
+                  <th class="slds-cell-wrap" scope="col">{Select}</th>
+                  <th class="slds-cell-wrap" scope="col">LV Position Name</th>    
+                  <th class="slds-cell-wrap" scope="col">{HeatTreament}</th>    
+                  <th class="slds-cell-wrap" scope="col">{DimensionFrom}</th>    
+                  <th class="slds-cell-wrap" scope="col">{DimensionTo}</th>                
+                </tr>
+            </thead>
+              <tbody>
+                <template if:true={lvpositionlst}>
+                <template for:each={lvpositionlst} for:item = "lv" for:index="index">
+                <tr key={lv.id} class="slds-hint-parent">
+                    <td><input type="radio" name="SelectLVID" value={lv.Id} onchange={handleLVSelection}></td>
+                        <td data-label="name" style="text-align: left;">{lv.Name}</td>
+                        <td data-label="name" style="text-align: left;">{lv.HeatTreatmentSales__c}</td>
+                        <td data-label="name" style="text-align: left;">{lv.DimensionAFrom__c}</td>
+                        <td data-label="name" style="text-align: left;">{lv.DimensionATo__c}</td> 
+                        </tr>
+                </template> 
+            </template>
+          </tbody>
+        </table>
+    </div>
+    <lightning-layout horizontal-align="end">
+            <lightning-layout-item padding="around-small">
+              <lightning-button  label={label.BackZurack}  variant="brand" onclick={handleBackButton}> </lightning-button>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+               <lightning-button  label={label.CancelAbbrechenSearch}  variant="brand" onclick={handleCancel}> </lightning-button>
+            </lightning-layout-item>
+            <lightning-layout-item padding="around-small">
+               <lightning-button  label={label.ProceedWeiter} variant="brand" onclick={handleLVScreenProceed}> </lightning-button>
+            </lightning-layout-item>
+    </lightning-layout>
+</template>
+</template>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label></label>
+        <name>OLIFieldSet</name>
+    </fieldSets>
+    <layouts>
+        <layout>Opportunity Product Layout</layout>
+        <sections>
+            <label>Chemische Analyse</label>
+            <section>Chemical Analysis</section>
+        </sections>
+        <sections>
+            <label>Kosteninformationen Pricing Tool</label>
+            <section>Cost Information Pricing Tool</section>
+        </sections>
+        <sections>
+            <label>Allgemeine Informationen</label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label>Preisinformationen</label>
+            <section>Price Information</section>
+        </sections>
+        <sections>
+            <label>Vertriebsinformationen</label>
+            <section>Sales Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage>Pricing Tool ist für die Anfrage bzw. Anfrageposition aktiv. Bitte geben Sie den Preis im Pricing Tool ein.</errorMessage>
+        <name>CannotEnterOfferedPriceWhenUsingTool</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Bitte füllen Sie alle nachfolgenden Felder aus: Abmessungseinheit, Verwendungszweck, KZ Kurzstück, Abmessung A von, Mengeneinheit. Bitte fügen Sie auch Kalkulationsabmessung A hinzu, wenn die Checkbox &quot;Pricing Tool verwenden&quot; angehakt ist.</errorMessage>
+        <name>MandatoryFieldsDuringOliCreation</name>
+    </validationRules>
+    <webLinks>
+        <label></label>
+        <name>SearchPrakulaandLVPosition</name>
+    </webLinks>
+</CustomObjectTranslation>

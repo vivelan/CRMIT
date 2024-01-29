@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>LV</fullName>
+                <default>false</default>
+                <label>LV</label>
+            </value>
+            <value>
+                <fullName>Norm</fullName>
+                <default>false</default>
+                <label>Norm</label>
+            </value>
+            <value>
+                <fullName>QSV</fullName>
+                <default>false</default>
+                <label>QSV</label>
+            </value>
+            <value>
+                <fullName>WDB</fullName>
+                <default>false</default>
+                <label>WDB</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

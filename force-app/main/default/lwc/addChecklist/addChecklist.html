@@ -1,0 +1,12 @@
+<template>
+    <template if:true={checklistsExist}>
+        <template for:each={checklistList} for:item="checklistItem">
+            <c-checklist-section key={checklistItem} visitreportid={visitReportId} checklistitem={checklistItem} onrefreshparentcomponent={handleTheComponenentRefresh}></c-checklist-section> 
+        </template>
+    </template>
+    <template if:true={showSpinner}>
+        <div class="carouselSpinner">
+            <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+        </div>
+    </template>
+</template>

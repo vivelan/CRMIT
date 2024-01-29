@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>FertMatbe. - Richten / OFBehand. (St.31)</label>
+    <name>SurfaceTreatment__c</name>
+    <picklistValues>
+        <masterLabel>B</masterLabel>
+        <translation>B - Draht - Beizen + Beseifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C</masterLabel>
+        <translation>C - Draht - Beizen + Phosphatieren + Korrosionsschutz (Protect)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D</masterLabel>
+        <translation>D - Draht - Beizen + Phosphatieren + SAG-Composite (Doppel-Dip)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>F</masterLabel>
+        <translation>F - Stab - Friemeln (Schrägrollenrichtmaschine)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I</masterLabel>
+        <translation>I - Draht - Beizen + Schmiermittelträger</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K</masterLabel>
+        <translation>K - Draht - Beizen + Kälken</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>L</masterLabel>
+        <translation>L - Draht - Beizen + Kälken + Seifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>M</masterLabel>
+        <translation>M - Draht - Beizen + Phosphatieren + Kälken</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>O</masterLabel>
+        <translation>O - Stab - Rollenrichten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P</masterLabel>
+        <translation>P - Draht - Beizen + Phosphatieren</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>R</masterLabel>
+        <translation>R - Stab - Richten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S</masterLabel>
+        <translation>S - Draht - Beizen + Phosphatieren + Beseifen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>T</masterLabel>
+        <translation>T - Stab - Presserichten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U</masterLabel>
+        <translation>U - Draht - Beizen</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>X</masterLabel>
+        <translation>X - Draht - Beizen + Polymerbeschichten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Y</masterLabel>
+        <translation>Y - Draht - Beizen + Phosphatieren + Polymerbeschichten</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Z</masterLabel>
+        <translation>Z - Draht - Beizen + Phosphatieren + SAG-Composite</translation>
+    </picklistValues>
+</CustomFieldTranslation>

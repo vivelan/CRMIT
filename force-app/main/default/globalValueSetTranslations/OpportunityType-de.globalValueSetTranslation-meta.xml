@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Mass Inquiry</masterLabel>
+        <translation>Jahresanfrage</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Renewal - Existing Portfolio</masterLabel>
+        <translation>Erneuerung - Existierendes Portfolio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Standard Inquiry</masterLabel>
+        <translation>Standardanfrage</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

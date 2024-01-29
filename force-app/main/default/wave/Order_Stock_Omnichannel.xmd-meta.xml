@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>Order_Stock_Omnichannel</dataset>
+    <measures>
+        <field>Bestellmenge</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Bestellmenge</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Versandmenge</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Versandmenge</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Lagermenge</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Lagermenge</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+</WaveXmd>

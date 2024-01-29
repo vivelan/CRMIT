@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <decisions>
+        <name>CheckAppointeddatewithRMUD</name>
+        <label>CheckAppointeddatewithRMUD</label>
+        <locationX>182</locationX>
+        <locationY>395</locationY>
+        <defaultConnector>
+            <targetReference>UpdateBooleantoFalse</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>GreaterthanRMUD</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.AppointedDayCalculation__c</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <elementReference>RMUD365</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>UpdateBoolean</targetReference>
+            </connector>
+            <label>GreaterthanRMUD</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>RMUD365</name>
+        <dataType>Date</dataType>
+        <expression>IF(
+    AND(
+        MONTH({!GetRMUD.Rawmateriallastupdatedon__c}) = MONTH({!$Record.AppointedDayCalculation__c}),
+       YEAR({!GetRMUD.Rawmateriallastupdatedon__c}) + 1  =    YEAR({!$Record.AppointedDayCalculation__c}) 
+    ),
+ADDMONTHS({!GetRMUD.Rawmateriallastupdatedon__c},13),  
+{!GetRMUD.Rawmateriallastupdatedon__c} + 
+CASE(
+  MOD(YEAR({!GetRMUD.Rawmateriallastupdatedon__c}), 4),
+  0,
+    CASE(
+      MOD(YEAR({!GetRMUD.Rawmateriallastupdatedon__c}), 100),
+      0,
+        CASE(
+          MOD(YEAR({!GetRMUD.Rawmateriallastupdatedon__c}), 400),
+          0,
+            366,
+            365
+        ),
+      366
+    ),
+  365
+)
+)</expression>
+    </formulas>
+    <interviewLabel>ValidationCheckAppointeddatevsRMUD {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ValidationCheckAppointeddatevsRMUD</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>GetRMUD</name>
+        <label>GetRMUD</label>
+        <locationX>182</locationX>
+        <locationY>287</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>CheckAppointeddatewithRMUD</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Rawmateriallastupdatedon__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>OrgWideSettings__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>UpdateBoolean</name>
+        <label>UpdateBoolean</label>
+        <locationX>50</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>RMUDcheck__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>UpdateBooleantoFalse</name>
+        <label>UpdateBooleantoFalse</label>
+        <locationX>314</locationX>
+        <locationY>503</locationY>
+        <inputAssignments>
+            <field>RMUDcheck__c</field>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>56</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>GetRMUD</targetReference>
+        </connector>
+        <object>Opportunity</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordBeforeSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

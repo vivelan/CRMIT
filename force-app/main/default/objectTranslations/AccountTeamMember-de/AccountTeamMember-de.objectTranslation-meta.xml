@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage>Account Team Member können für SAP-Accounts nicht geändert werden. Falls Änderungen erforderlich sind, geben Sie diese bitte direkt in SAP ein. Die Anpassung wird dann mit dem nächsten Schnittstellen-Batchlauf zurück nach Salesforce übertragen.</errorMessage>
+        <name>RestrictaccessforSAPAccountTeamMembers</name>
+    </validationRules>
+</CustomObjectTranslation>

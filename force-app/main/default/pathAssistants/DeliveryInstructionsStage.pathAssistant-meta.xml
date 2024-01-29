@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>DeliveryInstructions__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>Delivery Instructions Stage</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Please fill in the following fields:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Remark Sales&lt;/li&gt;&lt;li&gt;Date of remark sales&lt;/li&gt;&lt;li&gt;Internal Remark Sales&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Final Check</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Please fill in the following fields:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Type&lt;/li&gt;&lt;li&gt;Publisher&lt;/li&gt;&lt;li&gt;Title&lt;/li&gt;&lt;li&gt;Languages&lt;/li&gt;&lt;li&gt;Additional Title&lt;/li&gt;&lt;li&gt;Revision&lt;/li&gt;&lt;li&gt;Date of issue&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Please fill in the following fields:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Flag print&lt;/li&gt;&lt;li&gt;Flag full&lt;/li&gt;&lt;li&gt;Technical Remark&lt;/li&gt;&lt;li&gt;Date of technical remark&lt;/li&gt;&lt;li&gt;Internal Technical Remark&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Quality Check</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

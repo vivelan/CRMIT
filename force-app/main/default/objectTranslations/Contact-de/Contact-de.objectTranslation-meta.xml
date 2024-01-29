@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Contact Layout</layout>
+        <sections>
+            <label>Kontaktinformationen</label>
+            <section>Contact Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>DH_Contact Layout</layout>
+        <sections>
+            <label>Details zur Kommunikation</label>
+            <section>Communication Details</section>
+        </sections>
+    </layouts>
+     <validationRules>
+        <errorMessage>Bitte geben Sie eine (Mobil-)Telefonnummer im Format &quot;+49123456789&quot; ein</errorMessage>
+        <name>PhoneNumberBeginWithPlus</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Der Account hat den Compliance Check nicht bestanden, daher ist die Funktion nicht verfügbar.</errorMessage>
+        <name>AccountComplianceCheck</name>
+    </validationRules>
+ <validationRules>
+        <errorMessage>Der Account ist deaktiviert, daher ist die Funktion nicht verfügbar.</errorMessage>
+        <name>AccountActiveCheck</name>
+    </validationRules>
+</CustomObjectTranslation>

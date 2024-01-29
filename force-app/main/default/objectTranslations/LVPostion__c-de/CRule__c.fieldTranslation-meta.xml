@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>STW - C-Regel (St.7+8)</label>
+    <name>CRule__c</name>
+    <picklistValues>
+        <masterLabel>C1</masterLabel>
+        <translation>C1 - S2 125²: F=3,50m;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C2</masterLabel>
+        <translation>C2 - Sondernummer A-Block je Sequenz;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C3</masterLabel>
+        <translation>C3 - Sondernummer A-und E-Block je Sequenz;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C4</masterLabel>
+        <translation>C4 - Sondernummer A-Block je Sequenz; S2 125²: K=3,50m;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C5</masterLabel>
+        <translation>C5 - [S0] 150²: F=10,00m;[S0] 180²: F=6,00m;[S2] 125²: F=14,00m;[S3] &gt;=240²: F=4,00m;[S4] 150²: F=10,00m;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C6</masterLabel>
+        <translation>C6 - Sondernummer A-Block je Sequenz;[S2] 125²: F=3,50m;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C7</masterLabel>
+        <translation>C7 - Sondernummer A-und E-Block je Charge;[S2] 125²: F=3,50m;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>C8</masterLabel>
+        <translation>C8 - Sondernummer A-und E-Block je Charge;sonst wie ohne Vorschrift</translation>
+    </picklistValues>
+</CustomFieldTranslation>

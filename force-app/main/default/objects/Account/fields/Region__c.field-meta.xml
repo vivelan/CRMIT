@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISPICKVAL($User.LanguageLocaleKey, &apos;de&apos;),
+CASE(BillingCountryCode, &apos;ZA&apos;, &apos;Afrika&apos; , 
+&apos;IN&apos;, &apos;Asien&apos;, &apos;CN&apos;, &apos;Asien&apos;, &apos;TW&apos;, &apos;Asien&apos;, &apos;TH&apos;, &apos;Asien&apos;, &apos;VN&apos;, &apos;Asien&apos;, &apos;JP&apos;, &apos;Asien&apos;, &apos;KR&apos;, &apos;Asien&apos;, &apos;HK&apos;, &apos;Asien&apos;, &apos;SG&apos;, &apos;Asien&apos;, &apos;ID&apos;, &apos;Asien&apos;, &apos;MY&apos;, &apos;Asien&apos;,
+&apos;DE&apos;, &apos;EU27&apos;, &apos;ES&apos;, &apos;EU27&apos;, &apos;NL&apos;, &apos;EU27&apos;, &apos;FR&apos;, &apos;EU27&apos;, &apos;IT&apos;, &apos;EU27&apos;, &apos;SE&apos;, &apos;EU27&apos;, &apos;CZ&apos;, &apos;EU27&apos;, &apos;SK&apos;, &apos;EU27&apos;, &apos;RO&apos;, &apos;EU27&apos;, &apos;BE&apos;, &apos;EU27&apos;, &apos;AT&apos;, &apos;EU27&apos;,&apos;PL&apos;, &apos;EU27&apos;, &apos;HU&apos;, &apos;EU27&apos;, &apos;NO&apos;, &apos;EU27&apos;, &apos;SI&apos;, &apos;EU27&apos;, &apos;HR&apos;, &apos;EU27&apos;, &apos;PT&apos;, &apos;EU27&apos;, &apos;LV&apos;, &apos;EU27&apos;, &apos;LI&apos;, &apos;EU27&apos;, &apos;IE&apos;, &apos;EU27&apos;, &apos;FI&apos;, &apos;EU27&apos;, &apos;LT&apos;, &apos;EU27&apos;,&apos;CY&apos;, &apos;EU27&apos;, &apos;LU&apos;, &apos;EU27&apos;, &apos;BG&apos;, &apos;EU27&apos;,
+&apos;GB&apos;, &apos;Europe ex. EU&apos;, &apos;CH&apos;, &apos;Europe ex. EU&apos;, &apos;UA&apos;, &apos;Europe ex. EU&apos;,
+&apos;BR&apos;, &apos;Lateinamerika&apos;, &apos;AR&apos;, &apos;Lateinamerika&apos;, &apos;CL&apos;, &apos;Lateinamerika&apos;,
+&apos;MX&apos;, &apos;NAFTA&apos;, &apos;US&apos;, &apos;NAFTA&apos;, &apos;CA&apos;, &apos;NAFTA&apos;,
+&apos;TR&apos;, &apos;RoW&apos;, &apos;EG&apos;, &apos;RoW&apos;, &apos;IR&apos;, &apos;RoW&apos;,&apos;RU&apos;, &apos;RoW&apos;, &apos;AU&apos;, &apos;RoW&apos;, &apos;PK&apos;, &apos;RoW&apos;,&apos;AE&apos;, &apos;RoW&apos;, &apos;SA&apos;, &apos;RoW&apos;, 
+&apos;&apos;),
+CASE(BillingCountryCode, &apos;ZA&apos;, &apos;Africa&apos; , 
+&apos;IN&apos;, &apos;Asia&apos;, &apos;CN&apos;, &apos;Asia&apos;, &apos;TW&apos;, &apos;Asia&apos;, &apos;TH&apos;, &apos;Asia&apos;, &apos;VN&apos;, &apos;Asia&apos;, &apos;JP&apos;, &apos;Asia&apos;, &apos;KR&apos;, &apos;Asia&apos;, &apos;HK&apos;, &apos;Asia&apos;, &apos;SG&apos;, &apos;Asia&apos;, &apos;ID&apos;, &apos;Asia&apos;, &apos;MY&apos;, &apos;Asia&apos;,
+&apos;DE&apos;, &apos;EU27&apos;, &apos;ES&apos;, &apos;EU27&apos;, &apos;NL&apos;, &apos;EU27&apos;, &apos;FR&apos;, &apos;EU27&apos;, &apos;IT&apos;, &apos;EU27&apos;, &apos;SE&apos;, &apos;EU27&apos;, &apos;CZ&apos;, &apos;EU27&apos;, &apos;SK&apos;, &apos;EU27&apos;, &apos;RO&apos;, &apos;EU27&apos;, &apos;BE&apos;, &apos;EU27&apos;, &apos;AT&apos;, &apos;EU27&apos;,&apos;PL&apos;, &apos;EU27&apos;, &apos;HU&apos;, &apos;EU27&apos;, &apos;NO&apos;, &apos;EU27&apos;, &apos;SI&apos;, &apos;EU27&apos;, &apos;HR&apos;, &apos;EU27&apos;, &apos;PT&apos;, &apos;EU27&apos;, &apos;LV&apos;, &apos;EU27&apos;, &apos;LI&apos;, &apos;EU27&apos;, &apos;IE&apos;, &apos;EU27&apos;, &apos;FI&apos;, &apos;EU27&apos;, &apos;LT&apos;, &apos;EU27&apos;,&apos;CY&apos;, &apos;EU27&apos;, &apos;LU&apos;, &apos;EU27&apos;, &apos;BG&apos;, &apos;EU27&apos;,
+&apos;GB&apos;, &apos;Europe ex. EU&apos;, &apos;CH&apos;, &apos;Europe ex. EU&apos;, &apos;UA&apos;, &apos;Europe ex. EU&apos;,
+&apos;BR&apos;, &apos;Latin America&apos;, &apos;AR&apos;, &apos;Latin America&apos;, &apos;CL&apos;, &apos;Latin America&apos;,
+&apos;MX&apos;, &apos;NAFTA&apos;, &apos;US&apos;, &apos;NAFTA&apos;, &apos;CA&apos;, &apos;NAFTA&apos;,
+&apos;TR&apos;, &apos;RoW&apos;, &apos;EG&apos;, &apos;RoW&apos;, &apos;IR&apos;, &apos;RoW&apos;,&apos;RU&apos;, &apos;RoW&apos;, &apos;AU&apos;, &apos;RoW&apos;, &apos;PK&apos;, &apos;RoW&apos;,&apos;AE&apos;, &apos;RoW&apos;, &apos;SA&apos;, &apos;RoW&apos;, 
+&apos;&apos;))</formula>
+    <label>Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

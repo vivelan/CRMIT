@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DuplicateRule xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <actionOnInsert>Allow</actionOnInsert>
+    <actionOnUpdate>Allow</actionOnUpdate>
+    <alertText>Use one of these records?</alertText>
+    <description xsi:nil="true"/>
+    <duplicateRuleFilter>
+        <booleanFilter>(1 AND 2) AND 3 AND 4 AND 5 AND 6 AND 7 AND 8 AND 9 AND 10</booleanFilter>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>equals</operation>
+            <value>DH Customer Administration</value>
+            <sortOrder>1</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Type</field>
+            <operation>notEqual</operation>
+            <value>Customer</value>
+            <sortOrder>2</sortOrder>
+            <table>Account</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>SAG Sales</value>
+            <sortOrder>3</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>SAG Quality Profile</value>
+            <sortOrder>4</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>SAG Marketing Profile</value>
+            <sortOrder>5</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>DH Sales Profile</value>
+            <sortOrder>6</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>DH Marketing Profile</value>
+            <sortOrder>7</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>SHS Admin</value>
+            <sortOrder>8</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>System Administrator</value>
+            <sortOrder>9</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+        <duplicateRuleFilterItems>
+            <field>Profile</field>
+            <operation>notEqual</operation>
+            <value>Systemadministrator</value>
+            <sortOrder>10</sortOrder>
+            <table>User</table>
+        </duplicateRuleFilterItems>
+    </duplicateRuleFilter>
+    <duplicateRuleMatchRules>
+        <matchRuleSObjectType>Account</matchRuleSObjectType>
+        <matchingRule>DHExactMatchingAccountNameANDAddressofAccount</matchingRule>
+        <objectMapping xsi:nil="true"/>
+    </duplicateRuleMatchRules>
+    <isActive>false</isActive>
+    <masterLabel>DH Exact Match Account Name AND Address - Alert &amp; Customer Admin</masterLabel>
+    <operationsOnInsert>Alert</operationsOnInsert>
+    <securityOption>EnforceSharingRules</securityOption>
+    <sortOrder>4</sortOrder>
+</DuplicateRule>

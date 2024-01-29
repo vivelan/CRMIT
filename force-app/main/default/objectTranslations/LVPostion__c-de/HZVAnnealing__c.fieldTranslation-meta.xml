@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>HZV - Anlassen (St.26)</label>
+    <name>HZVAnnealing__c</name>
+    <picklistValues>
+        <masterLabel>G</masterLabel>
+        <translation>G - Anlassen ( vorher Stelle 6-3: entspannen)</translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Prüfen - US-Prüfung (St.40-42)</label>
+    <name>USInspection__c</name>
+    <picklistValues>
+        <masterLabel>K32</masterLabel>
+        <translation>K32 - Halbzeug: 2 um 90 Grad versetzte Prüfbahnen über die Gesamtlänge mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K52</masterLabel>
+        <translation>K52 - Halbzeug: Anlagenprüfung, Kernfehler mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K53</masterLabel>
+        <translation>K53 - Halbzeug: Anlagenprüfung, Kernfehler mit 2,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K54</masterLabel>
+        <translation>K54 - Halbzeug: Anlagenprüfung, Kernfehler mit 2,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>K55</masterLabel>
+        <translation>K55 - Halbzeug: Anlagenprüfung, Kernfehler mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P00</masterLabel>
+        <translation>P00 - Probenprüfung: Stichprobe nach Vorgabe mit Bruchprobe</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P01</masterLabel>
+        <translation>P01 - Probenprüfung: Stichprobe nach Vorgabe mit 5,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P05</masterLabel>
+        <translation>P05 - Probenprüfung: Stichprobe nach Vorgabe mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P10</masterLabel>
+        <translation>P10 - Probenprüfung: 1 Probe jeder Walzader (A oder E)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P12</masterLabel>
+        <translation>P12 - Probenprüfung: 1 Probe jeder Walzader (A oder E) mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P14</masterLabel>
+        <translation>P14 - Probenprüfung: 1 Probe jeder Walzader (A oder E) mit 2,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P15</masterLabel>
+        <translation>P15 - Probenprüfung: 1 Probe jeder Walzader (A oder E) mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>P25</masterLabel>
+        <translation>P25 - Probenprüfung: 2Proben jeder Walzader (A und E) mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S12</masterLabel>
+        <translation>S12 - Stabstahlprüfung: Stabendenprüfung auf einer Seite mind. 2 um 90 Grad versetzte Bahnen, Mindestlänge 300 mm mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S15</masterLabel>
+        <translation>S15 - Stabstahlprüfung: Stabendenprüfung auf einer Seite mind. 2 um 90 Grad versetzte Bahnen, Mindestlänge 300 mm mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S22</masterLabel>
+        <translation>S22 - Stabstahlprüfung: Stabendenprüfung auf beiden Seiten mind. 2 um 90 Grad versetzte Bahnen, Mindestlänge 300 mm mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S32</masterLabel>
+        <translation>S32 - Stabstahlprüfung: 2 um 90 Grad versetzte Prüfbahnen über die Gesamtlänge mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S33</masterLabel>
+        <translation>S33 - Stabstahlprüfung: 2 um 90 Grad versetzte Prüfbahnen über die Gesamtlänge mit 2,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S34</masterLabel>
+        <translation>S34 - Stabstahlprüfung: 2 um 90 Grad versetzte Prüfbahnen über die Gesamtlänge mit 2,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S51</masterLabel>
+        <translation>S51 - Stabstahlprüfung: Anlagenprüfung, Kernfehler mit 5,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S52</masterLabel>
+        <translation>S52 - Stabstahlprüfung: Anlagenprüfung, Kernfehler mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S53</masterLabel>
+        <translation>S53 - Stabstahlprüfung: Anlagenprüfung, Kernfehler mit 2,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S54</masterLabel>
+        <translation>S54 - Stabstahlprüfung: Anlagenprüfung, Kernfehler mit 2,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S55</masterLabel>
+        <translation>S55 - Stabstahlprüfung: Anlagenprüfung, Kernfehler mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S56</masterLabel>
+        <translation>S56 - Stabstahlprüfung: Anlagenprüfung, Kernfehler mit 1,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S62</masterLabel>
+        <translation>S62 - Stabstahlprüfung: Anlagenprüfung, max. prüfbares Volumen mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S63</masterLabel>
+        <translation>S63 - Stabstahlprüfung: Anlagenprüfung, max. prüfbares Volumen mit 2,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S64</masterLabel>
+        <translation>S64 - Stabstahlprüfung: Anlagenprüfung, max. prüfbares Volumen mit 2,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S65</masterLabel>
+        <translation>S65 - Stabstahlprüfung: Anlagenprüfung, max. prüfbares Volumen mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S66</masterLabel>
+        <translation>S66 - Stabstahlprüfung: Anlagenprüfung, max. prüfbares Volumen mit 1,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S67</masterLabel>
+        <translation>S67 - Stabstahlprüfung: Anlagenprüfung, max. prüfbares Volumen mit 0,7 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S69</masterLabel>
+        <translation>S69 - Stabstahlprüfung: Anlagenprüfung, max. prüfbares Volumen mit Sondervorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S72</masterLabel>
+        <translation>S72 - Stabstahlprüfung: 2 um 90 Grad versetzte Prüfbahnen über die Gesamtlänge oder Anlagenprüfung mit 3,0 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S75</masterLabel>
+        <translation>S75 - Stabstahlprüfung: 2 um 90 Grad versetzte Prüfbahnen über die Gesamtlänge oder Anlagenprüfung mit 1,5 AVG</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>S99</masterLabel>
+        <translation>S99 - Stabstahlprüfung: Prüfung gemäß Sondervorschrift</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>V</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

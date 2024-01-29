@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Status Voll</label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Fully Processed</masterLabel>
+        <translation>vollbearbeitet</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Partly Processed</masterLabel>
+        <translation>teilbearbeitet</translation>
+    </picklistValues>
+</CustomFieldTranslation>

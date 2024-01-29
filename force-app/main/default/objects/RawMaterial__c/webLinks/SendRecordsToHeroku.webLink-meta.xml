@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SendRecordsToHeroku</fullName>
+    <availability>online</availability>
+    <description>Sends Raw Material data to Heroku.</description>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Send Records To Heroku</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>/flow/SendRawMaterialToHeroku?retURL=a0B?fcf=00B1q00000223iKEAQ</url>
+</WebLink>

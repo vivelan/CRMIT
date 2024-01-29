@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>As Rolled</fullName>
+        <default>false</default>
+        <label>As Rolled</label>
+    </customValue>
+    <customValue>
+        <fullName>Peeled</fullName>
+        <default>false</default>
+        <label>Peeled</label>
+    </customValue>
+    <customValue>
+        <fullName>Pickled</fullName>
+        <default>false</default>
+        <label>Pickled</label>
+    </customValue>
+    <customValue>
+        <fullName>Pickled + coated</fullName>
+        <default>false</default>
+        <label>Pickled + coated</label>
+    </customValue>
+    <customValue>
+        <fullName>Coated</fullName>
+        <default>false</default>
+        <label>Coated</label>
+    </customValue>
+    <customValue>
+        <fullName>Protection Against Rust</fullName>
+        <default>false</default>
+        <label>Protection Against Rust</label>
+    </customValue>
+    <customValue>
+        <fullName>Blasted</fullName>
+        <default>false</default>
+        <label>Blasted</label>
+    </customValue>
+    <masterLabel>Surface Condition</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

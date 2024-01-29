@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Kundenrolle</label>
+    <name>CustomerRole__c</name>
+    <picklistValues>
+        <masterLabel>Agent</masterLabel>
+        <translation>Vermittler</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Client</masterLabel>
+        <translation>Auftraggeber</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Consumer</masterLabel>
+        <translation>Verbraucher</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoice Recipient</masterLabel>
+        <translation>Rechnungsempfänger</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logistics Service Provider</masterLabel>
+        <translation>Transitär</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Receiver</masterLabel>
+        <translation>Warenempfänger</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Regulator</masterLabel>
+        <translation>Regulierer</translation>
+    </picklistValues>
+</CustomFieldTranslation>

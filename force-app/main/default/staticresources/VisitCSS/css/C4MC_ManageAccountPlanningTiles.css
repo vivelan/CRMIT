@@ -1,0 +1,27 @@
+.c4mc-tile-content {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding-left: 0.5rem;
+  background-color: #fbfbfb;
+  border-radius: 4px;
+  border: 1px solid #dddbda;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  justify-content: center;
+}
+
+.c4mc-title {
+  font-weight: bold;
+}
+
+.c4mc-description {
+  font-size: 11px;
+}
+
+.c4mc-tile {
+  padding-right: 0.3rem;
+  padding-left: 0.3rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}

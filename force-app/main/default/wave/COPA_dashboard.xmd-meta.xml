@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WaveXmd xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataset>COPA_dashboard</dataset>
+    <measures>
+        <field>Quantity_t</field>
+        <isDerived>false</isDerived>
+        <label>Absatzmenge</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Proceeds</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Proceeds</label>
+        <sortIndex>0</sortIndex>
+    </measures>
+    <measures>
+        <field>Net_Proceeds</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>false</isDerived>
+        <label>Nettoerlös</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Quantity (t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Quantity (t)</label>
+        <sortIndex>1</sortIndex>
+    </measures>
+    <measures>
+        <field>Average Net Proceeds (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Average Net Proceeds (€/t)</label>
+        <sortIndex>2</sortIndex>
+    </measures>
+    <measures>
+        <field>Ø-Nettoerlös (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Ø-Nettoerlös (€/t)</label>
+        <sortIndex>3</sortIndex>
+    </measures>
+    <measures>
+        <field>Versand (t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Versand (t)</label>
+        <sortIndex>4</sortIndex>
+    </measures>
+    <measures>
+        <field>Sold Amount (t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Sold Amount (t)</label>
+        <sortIndex>5</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettoerlös (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettoerlös (€)</label>
+        <sortIndex>6</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Proceeds (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Proceeds (€)</label>
+        <sortIndex>7</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettoerlös (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettoerlös (€/t)</label>
+        <sortIndex>8</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Proceeds (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Proceeds (€/t)</label>
+        <sortIndex>9</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettofakturenwert (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettofakturenwert (€)</label>
+        <sortIndex>10</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Invoice (€)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Invoice (€)</label>
+        <sortIndex>11</sortIndex>
+    </measures>
+    <measures>
+        <field>Nettofakturenwert (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Nettofakturenwert (€/t)</label>
+        <sortIndex>12</sortIndex>
+    </measures>
+    <measures>
+        <field>Net Invoice (€/t)</field>
+        <formatCustomFormat>[&quot;#,###&quot;,1]</formatCustomFormat>
+        <formatDecimalSeparator>,</formatDecimalSeparator>
+        <formatThousandsSeparator>.</formatThousandsSeparator>
+        <isDerived>true</isDerived>
+        <label>Net Invoice (€/t)</label>
+        <sortIndex>13</sortIndex>
+    </measures>
+</WaveXmd>

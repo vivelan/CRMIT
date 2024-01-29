@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateLeadCountry</fullName>
+    <active>true</active>
+    <description>Validation on country when lead is created/updated with a blocked country.</description>
+    <errorConditionFormula>AND(BlockedCountry__c, NOT( $Setup.ByPassLogic__c.ByPassValidation__c ))</errorConditionFormula>
+    <errorMessage>You cannot create leads from a blocked country.</errorMessage>
+</ValidationRule>

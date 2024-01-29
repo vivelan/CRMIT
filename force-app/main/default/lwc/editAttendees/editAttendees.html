@@ -1,0 +1,61 @@
+<template>
+    <template if:true={isOpen}>
+      <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_medium">
+        <div class="slds-modal__container">
+          <template if:true={isLoading}>
+            <div class="carouselSpinner-attendees">
+              <lightning-spinner variant="brand" alternative-text="Loading"></lightning-spinner>
+            </div>
+          </template>
+          <header class="slds-modal__header">
+            <lightning-button-icon class="slds-modal__close" variant="bare-inverse" size="large" title="Close"
+              icon-name="utility:close" onclick={handleCloseModal}></lightning-button-icon>
+            <h2 class="slds-modal__title slds-hyphenate">{title}</h2>
+          </header>
+          <div class="slds-modal__content slds-p-around_medium">
+              <template if:false={addBtnClicked}>
+                <c-edit-current-attendees record-id={recordId} value-from-child={externalTile} value-from-child-component={internalTile} ondisplaybtn={displaySaveBtn}
+                  onloading={loadingHandler}></c-edit-current-attendees>
+              </template>
+              <template if:true={addBtnClicked}>
+                <c-add-attendees visit-report-account-id={visitReportAccount} record-id={recordId}
+                  onnextchanged={nextChanged} onclosemodal={handleCloseModal}></c-add-attendees>
+              </template>
+          </div>
+  
+        <footer class="slds-modal__footer">
+          <slot name="footer" class="footer-class">
+  
+  
+            <template if:true={isSmallFormFactor}>
+              <div>
+                <lightning-button class="standardBtnMobile" if:false={addBtnClicked} label={saveBtn} onclick={editRecord}></lightning-button>
+                <lightning-button class="standardBtnMobile" if:false={addBtnClicked} onclick={addNewAttendee} label={addNew}></lightning-button>
+                <lightning-button class="cancelBtnMobile" if:true={isSelectViewVisible} label={previousBtn} onclick={backToEdit}></lightning-button>
+                <lightning-button class="cancelBtnMobile" if:true={isEditViewLoaded} label={previousBtn} onclick={previousHanlder}></lightning-button>
+                <lightning-button class="standardBtnMobile" if:true={isEditViewLoaded} label={saveBtn} onclick={saveRecord}></lightning-button>
+                <lightning-button class="standardBtnMobile" if:true={isSelectViewVisible} disabled={rowSelected} label={nextBtn} onclick={nextPage}></lightning-button>
+                <lightning-button class="cancelBtnMobile" onclick={handleCloseModal} label={cancelBtn}></lightning-button>
+              </div>
+            </template>
+  
+            <template if:false={isSmallFormFactor}>
+              <div class="centeredBtn" if:true={displayTable}>
+                <lightning-button class="standardBtn" if:false={addBtnClicked} label={saveBtn} onclick={editRecord}>
+                </lightning-button>
+              </div>
+              <lightning-button class="standardBtn" if:false={addBtnClicked} onclick={addNewAttendee} label={addNew}></lightning-button>
+              <lightning-button class="cancelBtn" if:true={isSelectViewVisible} label={previousBtn} onclick={backToEdit}></lightning-button>
+              <lightning-button class="cancelBtn" if:true={isEditViewLoaded} label={previousBtn} onclick={previousHanlder}></lightning-button>
+              <lightning-button class="standardBtn" if:true={isEditViewLoaded} label={saveBtn} onclick={saveRecord}></lightning-button>
+              <lightning-button class="standardBtn" if:true={isSelectViewVisible} disabled={rowSelected} label={nextBtn} onclick={nextPage}></lightning-button>
+              <lightning-button class="cancelBtn" onclick={handleCloseModal} label={cancelBtn}></lightning-button>
+            </template>
+          </slot>
+        </footer>
+        </div>
+      </section>
+      <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+  
+  </template>

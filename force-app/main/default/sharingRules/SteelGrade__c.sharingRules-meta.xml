@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DHSteelGradeSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>DH Steel Grade Sharing Rule</label>
+        <sharedTo>
+            <role>DH</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DH</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SAGSteelGradeSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SAG Steel Grade Sharing Rule</label>
+        <sharedTo>
+            <role>SAG</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SAG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SHSSteelGradeSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SHS Steel Grade Sharing Rule</label>
+        <sharedTo>
+            <role>SHS</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SHS</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DillingerSalesDepartment__c</fullName>
+    <externalId>false</externalId>
+    <label>Dillinger sales department</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Machinery and Construction Equipment</fullName>
+                <default>false</default>
+                <label>Machinery and Construction Equipment</label>
+            </value>
+            <value>
+                <fullName>Energy Transmission and Processing</fullName>
+                <default>false</default>
+                <label>Energy Transmission and Processing</label>
+            </value>
+            <value>
+                <fullName>Wind Power and Construction</fullName>
+                <default>false</default>
+                <label>Wind Power and Construction</label>
+            </value>
+            <value>
+                <fullName>Steel Service Center, Plate Processing</fullName>
+                <default>false</default>
+                <label>Steel Service Center, Plate Processing</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

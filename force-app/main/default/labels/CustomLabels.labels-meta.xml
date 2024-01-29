@@ -1,0 +1,2001 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+   	<labels>
+        <fullName>CalculatePrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Calculate Price</shortDescription>
+        <value>Calculate Price</value>
+    </labels>
+    <labels>
+        <fullName>CommunicationDetails</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Communication Details</shortDescription>
+        <value>Communication Details</value>
+    </labels>
+    <labels>
+        <fullName>ContactInformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Information</shortDescription>
+        <value>Contact Information</value>
+    </labels>
+    <labels>
+        <fullName>ProcessingandApprovals</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Processing and Approvals</shortDescription>
+        <value>Processing and Approvals</value>
+    </labels>
+    <labels>
+        <fullName>SystemInformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Information</shortDescription>
+        <value>System Information</value>
+    </labels>
+    <labels>
+        <fullName>AccountContactRelationError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountContactRelationError</shortDescription>
+        <value>&apos;You dont have the required permission to edit this relationship. Please reach out to your customer portal administrator to add this contact to the portal.&apos;</value>
+    </labels>
+    <labels>
+        <fullName>ErrorForProductionKeyScreenOnSave</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error On Save Button For required Fields</shortDescription>
+        <value>Please fill the required fields to proceed on save.</value>
+    </labels>
+    <labels>
+        <fullName>None</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>None</shortDescription>
+        <value>None</value>
+    </labels>
+    <labels>
+        <fullName>CostOfProduction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Cost of Production</shortDescription>
+        <value>Cost of Production(CoP)</value>
+    </labels>
+    <labels>
+        <fullName>Euro</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Euro</shortDescription>
+        <value>€</value>
+    </labels>
+    <labels>
+        <fullName>FinalMarginPrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Margin</shortDescription>
+        <value>Final Margin</value>
+    </labels>
+    <labels>
+        <fullName>FinalPrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Final Price</shortDescription>
+        <value>Offered Price (Net revenue)</value>
+    </labels>
+    <labels>
+        <fullName>MarginLevel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Margin Level</shortDescription>
+        <value>Margin Level</value>
+    </labels>
+    <labels>
+        <fullName>OrientationPrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Orientation Price</shortDescription>
+        <value>Orientation Price</value>
+    </labels>
+    <labels>
+        <fullName>PriceLevel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Price Level 1 - Risk Factors</shortDescription>
+        <value>Price Level 1 - Risk Factors</value>
+    </labels>
+	<labels>
+        <fullName>PriceLevel2CustomerProduct</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Price Level 2 - Customer &amp; Product</shortDescription>
+        <value>Price Level 2 - Customer &amp; Product</value>
+    </labels>
+    <labels>
+        <fullName>PriceLevel3Region</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Price Level 3 - Country</shortDescription>
+        <value>Price Level 3 - Country</value>
+    </labels>
+    <labels>
+        <fullName>PriceLevel4Leveling</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Price Level 4 - Leveling</shortDescription>
+        <value>Price Level 4 - Leveling</value>
+    </labels>
+    <labels>
+        <fullName>PriceLevel5CompetitiveEnvironment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Price Level 5 - Competitive Environment</shortDescription>
+        <value>Price Level 5 - Competitive Environment</value>
+    </labels>
+    <labels>
+        <fullName>PricePointNotAllowed</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PricePointNotAllowed</shortDescription>
+        <value>Please switch to monthly calculation or choose the next quarter as appointed date</value>
+    </labels>
+    <labels>
+        <fullName>ProductName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product Name</shortDescription>
+        <value>Product Name</value>
+    </labels>
+    <labels>
+        <fullName>SaveFinalPrice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Offered Price (Net revenue)</shortDescription>
+        <value>Save Offered Price (Net revenue)</value>
+    </labels>
+    <labels>
+        <fullName>SAGMarketingProfile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SAG Marketing Profile</shortDescription>
+        <value>SAG Marketing Profile</value>
+    </labels>
+    <labels>
+        <fullName>Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>EmailBodyForQualityRepForQualityCheck</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Body For Quality Rep For Quality Check</shortDescription>
+        <value>The technical requirement needs your attention!</value>
+    </labels>
+    <labels>
+        <fullName>EmailSubjectForQualityRepForQualityCheck</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Subject For Quality Rep For Quality Check</shortDescription>
+        <value>New Request to fulfill</value>
+    </labels>
+    <labels>
+        <fullName>EmailBodyForProductManagerForFinalCheck</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Body For Product Manager For Final Check</shortDescription>
+        <value>The technical requirement has been finalized. Please resume working on the Opportunity.</value>
+    </labels>
+    <labels>
+        <fullName>EmailSubjectForProductManagerForFinalCheck</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Subject For Product Manager For Final Check</shortDescription>
+        <value>Technical requirements Complete</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Number</shortDescription>
+        <value>Opportunity Number</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMessageOLI</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorMessageOLI</shortDescription>
+        <value>Unfortunately we ran into an issue. Please reach out to your admin for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>ChannelOfDistributionError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ChannelOfDistributionError</shortDescription>
+        <value>Channel Of Distribution is not present in related account.</value>
+        </labels>
+    <labels>
+        <fullName>AccounReadOnlyErrorMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccounReadOnlyErrorMsg</shortDescription>
+        <value>Customer master data can currently only be changed in SAP, with the exception of the customer-specific margin and visit recommendation.</value>
+    </labels>
+     <labels>
+        <fullName>CTOLI_ValidationProductFMN</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CTOLI Validation Product FMN</shortDescription>
+        <value>Please fill in either the Finished Good lookup or the Product lookup field.</value>
+  </labels>
+    <labels>
+        <fullName>ReRunProductFinder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ReRunProductFinder</shortDescription>
+        <value>Re-Run Product Finder</value>
+     </labels>
+    <labels>
+        <fullName>SystemAdministratorProfile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>System Administrator Profile</shortDescription>
+        <value>System Administrator</value>
+    </labels>
+    <labels>
+        <fullName>Quote_Server_Side_Template</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quote Server Side Template</shortDescription>
+        <value>Quote PDF DE Server Side</value>
+    </labels>
+    <labels>
+        <fullName>QWUsefullLinksComponentHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QWUsefullLinksComponentHeader</shortDescription>
+        <value>Useful Links for QW</value>
+    </labels>
+    <labels>
+        <fullName>AKTrend460SectionHeadline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AKTrend460SectionHeadline</shortDescription>
+        <value>AK Trend 460</value>
+    </labels>
+    <labels>
+        <fullName>FolderReceiptsBurbachSectionHeading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FolderReceiptsBurbachSectionHeading</shortDescription>
+        <value>Folder Receipts Burbach</value>
+    </labels>
+    <labels>
+        <fullName>HeatTreatment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>HeatTreatment</shortDescription>
+        <value>Heat Treatment (St.29+30)</value>
+    </labels>
+    <labels>
+        <fullName>GeneralCommitmentsQASectionHeading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneralCommitmentsQASectionHeading</shortDescription>
+        <value>General Commitments QA</value>
+    </labels>
+    <labels>
+        <fullName>InternalSELnoSectionHeadline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InternalSELnoSectionHeadline</shortDescription>
+        <value>Internal SEL no.</value>
+    </labels>
+    <labels>
+        <fullName>MeltAnalysisSectionHeadline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MeltAnalysisSectionHeadline</shortDescription>
+        <value>Melt Analysis</value>
+    </labels>
+    <labels>
+        <fullName>NormsSectionHeadline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NormsSectionHeadline</shortDescription>
+        <value>Norms</value>
+    </labels>
+    <labels>
+        <fullName>RequirementSpecificationQASectionHeadline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RequirementSpecificationQASectionHeadline</shortDescription>
+        <value>Requirement Specification QA</value>
+    </labels>
+    <labels>
+        <fullName>SteelKeySectionHeadline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StahlschluesselSectionHeadline</shortDescription>
+        <value>Stahlschluessel - key to steel</value>
+    </labels>
+    <labels>
+        <fullName>StrengthsSectionHeading</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>StrengthsSectionHeading</shortDescription>
+        <value>Strengths</value>
+    </labels>
+	 <labels>
+        <fullName>ErrorMessageOLI</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorMessageOLI</shortDescription>
+        <value>Unfortunately we ran into an issue. Please reach out to your admin for assistance.</value>
+    </labels>
+    <labels>
+        <fullName>InactiveTRErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Inactive TR Error Message</shortDescription>
+        <value>this Technical requirement cannot be converted</value>
+    </labels>
+    <labels>
+        <fullName>ProductionKey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Production Key</shortDescription>
+        <value>Production Key</value>
+    </labels>
+     <labels>
+        <fullName>ProductionKeyScreenFail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Production Key Screen Fail</shortDescription>
+        <value>Getting Error</value>
+    </labels>
+    <labels>
+        <fullName>ProductionKeyScreenSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Production Key Screen Success</shortDescription>
+        <value>The production key was saved successfully.</value>
+    </labels>
+    <labels>
+        <fullName>SaveButton</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Button</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>LastSavedFinalPriceDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last saved Offered price (Net revenue)</shortDescription>
+        <value>Last saved Offered price (Net revenue)</value>
+    </labels>
+    <labels>
+        <fullName>LastRefreshedDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LastRefreshedDate</shortDescription>
+        <value>Last Refresh Date</value>
+    </labels>
+    <labels>
+        <fullName>SuccessMessageForRawMaterial</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SuccessMessageForRawMaterial</shortDescription>
+        <value>The Raw Material Data has been successfully sent to Heroku.</value>
+    </labels>
+    <labels>
+        <fullName>AccountSalesPlanningTab</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountSalesPlanningTab</shortDescription>
+        <value>Account Planning List View</value>
+    </labels>
+    <labels>
+        <fullName>AccountTypeError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountTypeError</shortDescription>
+        <value>You are not authorized to edit this field for this Account Type. Please contact the Customer Administration.</value>
+    </labels>
+    <labels>
+        <fullName>ErrorMessageForRawMaterial</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ErrorMessageForRawMaterial</shortDescription>
+        <value>An error occurred while processing the Raw Material records in Heroku, and the error messages were added to the corresponding Salesforce records. The original Heroku records were not changed.
+         To send the records again, please go back to the Raw Material List View and review the records.</value>
+    </labels>
+    <labels>
+        <fullName>CheckFinalCheckStage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CheckFinalCheckStage</shortDescription>
+        <value>The Opportunity stage is not set to &apos;Final Check&apos;. Please update the Opportunity stage in order to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>CheckTechReqInactive</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CheckTechReqInactive</shortDescription>
+        <value>The technical requirement(s) related to this Opportunity are inactive and cannot be converted.</value>
+    </labels>
+    <labels>
+        <fullName>EmailSubjectForCloseDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Subject For Close date of the opportunity</shortDescription>
+        <value>Close date of the opportunity is reached</value>
+    </labels>
+    <labels>
+        <fullName>EmailTemplateBodyForCloseDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Email Template Body For Close date of the opportunity</shortDescription>
+        <value>has reached its close date. Please contact the customer to find out what the status of the opportunity is and then set the opportunity to closed won or closed lost.</value>
+    </labels>
+    <labels>
+        <fullName>YourOpportunityForEmailTemplate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Your Opportunity For EmailTemplate</shortDescription>
+        <value>Your opportunity</value>
+    </labels>
+    <labels>
+        <fullName>ValidationErrorOnTRForQualitycheck</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ValidationErrorOnTRForQualitycheck</shortDescription>
+        <value>No changes are possible during processing by the Quality department</value>
+    </labels>
+    <labels>
+        <fullName>CheckOpenStage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CheckOpenStage</shortDescription>
+        <value>The Opportunity stage is not set to &apos;Open. Please update the Opportunity stage in order to proceed.</value>
+    </labels>
+    <labels>
+        <fullName>TaskSubjectForAccountManager</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Subject for Account Manager</shortDescription>
+        <value>Comment on Overdrafts / Kommentar zu Überziehungen</value>
+    </labels>
+    <labels>
+        <fullName>TaskSubjectforSalesRep</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Task Subject for Sales Rep</shortDescription>
+        <value>Comment on Overdue Invoices / Kommentar zu Überfälligen Rechnungen</value>
+    </labels>
+    <labels>
+        <fullName>OppyForRiskAccountsWarningMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Oppy For Risk Accounts Warning Msg</shortDescription>
+        <value>Attention, credit limit on this account has been exceeded.</value>
+     </labels>
+    <labels>
+        <fullName>InactiveFMNValidation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InactiveFMNValidation</shortDescription>
+        <value>The selected finished good is inactive. Please select an active finished good in order to be able to convert the technical requirement.</value>
+    </labels>
+    <labels>
+        <fullName>InactiveProductValidation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InactiveProductValidation</shortDescription>
+        <value>The selected product is inactive. Please select an active product in order to be able to convert the technical requirement.</value>
+    </labels>
+    <labels>
+        <fullName>InactiveOppFMNVaildation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InactiveOppFMNVaildation</shortDescription>
+        <value>At least one of the related technical requirements is stored with an inactive finished good and can, therefore, not be converted. Please select an active finished good.</value>
+    </labels>
+    <labels>
+        <fullName>InactiveOppProductVaildation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>InactiveOppProductVaildation</shortDescription>
+        <value>At least one of the related technical requirements is stored with an inactive product and can, therefore, not be converted. Please select an active product.</value>
+      </labels>
+      <labels>
+        <fullName>Risk</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Risk</shortDescription>
+        <value>Risk</value>
+    </labels>
+    <labels>
+        <fullName>RiskInformation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Risk Information</shortDescription>
+        <value>Risk Information</value>
+    </labels>
+    <labels>
+        <fullName>ErrormessageforsavingProductionKey</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error message for saving Production Key</shortDescription>
+        <value>The selected product was set to inactive. Please set the opportunity stage back to &apos;New&apos; and reach out to the responsible Sales Representative to have an active product assigned.</value>
+    </labels>
+    <labels>
+        <fullName>DearforWelcomeEmail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email for Portal Part0</shortDescription>
+        <value>Dear</value>
+    </labels>
+<labels>
+        <fullName>WelcomeEmailBodyPart1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body Part1</shortDescription>
+        <value>We are pleased to welcome you to our new customer portal! This platform was developed to offer you an efficient and individual way to view and manage your order data easily and transparently at any time.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyPart2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body Part2</shortDescription>
+        <value>As a registered member of our customer portal, you will have 24/7 access to your order data, including information such as order history, delivery status, and payment details. You can also easily track your orders in real-time, from the moment they leave our warehouse to their final destination.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyPart3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body Part3</shortDescription>
+        <value>To access your account, please use the following link:</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyPart4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body Part4</shortDescription>
+        <value>Once you log in, you can navigate through the portal and see all of your order data at a glance. If you have any questions or feedback about our customer portal, please do not hesitate to contact us at</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyPart5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body Part5</shortDescription>
+        <value>Thank you for choosing us as your partner. We look forward to providing you with an exceptional customer experience through our portal.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyPart6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body Part6</shortDescription>
+        <value>Mit freundlichen Grüßen</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part7</shortDescription>
+        <value>Saarstahl AG</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart8Ba</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WelcomeEmailBodyforPortalPart8Ba</shortDescription>
+        <value>E-Mail:</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart8</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part8</shortDescription>
+        <value>Bismarckstraße 57-59</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart8A</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part8A</shortDescription>
+        <value>66333 Völklingen</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart8B</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part8B</shortDescription>
+        <value>Internet:</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart9</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part9</shortDescription>
+        <value>Saarstahl Aktiengesellschaft, Bismarckstraße 57-59, 66333 Völklingen, Postadresse: 66330 Völklingen</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part10</shortDescription>
+        <value>Vorstand: Stefan Rauber (Vors.), Joerg Disteldorf, Daniël Nicolaas van der Hout, Markus Lauer, Dr. Klaus Richter, Jonathan Weber</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part11</shortDescription>
+        <value>Sitz: Völklingen</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart12</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Welcome Email Body for Portal Part12</shortDescription>
+        <value>Registergericht: Amtsgericht Saarbrücken, HRB 74820, Aufsichtsratsvorsitzender: Reinhard Störmer</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart13a</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WelcomeEmailBodyforPortalPart13a</shortDescription>
+        <value>Bitte beachten Sie: Diese E-Mail kann vertrauliche und/oder rechtlich geschützte Informationen enthalten.</value>
+    </labels>
+    <labels>
+        <fullName>WelcomeEmailBodyforPortalPart14a</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>WelcomeEmailBodyforPortalPart14a</shortDescription>
+        <value>Der Inhalt ist ausschließlich für die bezeichneten Adressaten bestimmt. Wenn Sie nicht der richtige Adressat oder dessen Vertreter sind, setzen Sie sich bitte mit dem Absender der E-Mail in Verbindung. Jede Form der Veröffentlichung, Vervielfältigung oder Weitergabe des Inhalts fehlgeleiteter E-Mails ist unzulässig.</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part1</shortDescription>
+        <value>You have requested to reset your password for the customer portal of</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart1A</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part1A</shortDescription>
+        <value>To reset your password, please click on the link below and follow the instructions.</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part2</shortDescription>
+        <value>Reset Password Link:</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part3</shortDescription>
+        <value>If you did not request to reset your password, please disregard this email. However, if you continue to receive such emails, please contact our customer support team at</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part4</shortDescription>
+        <value>to investigate the issue.</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part5</shortDescription>
+        <value>Please note that for security reasons, the password reset link will expire in 24 hours. If you do not reset your password within that timeframe, you will need to request another password reset.</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part6</shortDescription>
+        <value>We recommend that you choose a strong password that is unique to your customer portal account and that you do not share your password with anyone else.</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part7</shortDescription>
+        <value>If you have any questions or require further assistance, please do not hesitate to contact our customer support team at</value>
+    </labels>
+    <labels>
+        <fullName>ResetPasswordforPortalPart8</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Reset Password for Portal Part8</shortDescription>
+        <value>Thank you for your cooperation.</value>
+    </labels>
+    <labels>
+        <fullName>Success_Message_for_TR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success Message for TR</shortDescription>
+        <value>The technical requirement was successfully cloned. You can view the new record here:</value>
+    </labels>
+    <labels>
+        <fullName>Success_Message_OLI</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Success Message OLI</shortDescription>
+        <value>New opportunity product(s) have been created.</value>
+    </labels>
+    <labels>
+        <fullName>OpportunityBlankError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity Blank Error</shortDescription>
+        <value>Please select an opportunity in order to convert the technical requirement to an opprortunity product.</value>
+         </labels>
+          <labels>
+        <fullName>BusinessAreaproductgroupSalesPlanningLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Business Area/ product group Sales Planning</shortDescription>
+        <value>Business Area/ product group Sales Planning</value>
+    </labels>
+    <labels>
+        <fullName>EditButtonForSalesForecasting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Edit Button For Sales Forecasting</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>LastRolledupAnnualPlanningLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LastRolledupAnnualPlanningLabel</shortDescription>
+        <value>Last rolled up from Account level (Years) on</value>
+    </labels>
+    <labels>
+        <fullName>LastRolledupfromAccountlevelLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last RolledupfromAccountlevelLabel</shortDescription>
+        <value>Last rolled up from Account level (Months) on</value>
+    </labels>
+    <labels>
+        <fullName>LastSavedOnLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last Saved On Label</shortDescription>
+        <value>Last saved on</value>
+    </labels>
+    <labels>
+        <fullName>LastSubmittedOnLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last Submitted On Label</shortDescription>
+        <value>Last rollout to Account level on</value>
+    </labels>
+    <labels>
+        <fullName>RollAccountPlanPopupMsgForSF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RollAccountPlanPopupMsgForSF</shortDescription>
+        <value>Are you sure you want to roll up the account level planning data to the business areas?</value>
+    </labels>
+    <labels>
+        <fullName>RollUpPopupMsgForSF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roll Up Popup Msg For SF</shortDescription>
+        <value>Are you sure you want to roll up the account level planning data to the business areas?</value>
+    </labels>
+    <labels>
+        <fullName>RollupAnnualPlanningButtonForSF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rollup Annual Planning Button For SF</shortDescription>
+        <value>Roll up from Account level (Years)</value>
+    </labels>
+    <labels>
+        <fullName>RollupfromAccountlevelButtonForSF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Roll up from Account level Button For SF</shortDescription>
+        <value>Roll up from Account level (Months)</value>
+    </labels>
+    <labels>
+        <fullName>SaveButtonForSalesForecasting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SaveButtonForSalesForecasting</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>SubmitButtonForSalesForecasting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SubmitButtonForSalesForecasting</shortDescription>
+        <value>Rollout to Account level</value>
+    </labels>
+    <labels>
+        <fullName>MessageForSubmit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MessageForSubmit</shortDescription>
+        <value>Please notice that the rollout from business area to the account level can take some minutes.</value>
+    </labels>
+    <labels>
+        <fullName>MessageSignupSuccessful</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MessageSignupSuccessful</shortDescription>
+        <value>Thank you for your inquiry. 
+
+Your registration for the Dillinger &quot;myE-Service&quot; has been forwarded to the responsible department. You will receive your login data after verification.
+
+You can close this window now.</value>
+    </labels>
+    <labels>
+        <fullName>SubmitPopupMsgForSF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Submit Popup Msg For SF</shortDescription>
+        <value>Are you sure you want to submit the sales planning with roll out to customer level?</value>
+     </labels>
+        <labels>
+        <fullName>MonthlyReminderBusinessAreaBody</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MonthlyReminderBusinessAreaBody</shortDescription>
+        <value>Please revise your customer planning as part of rolling planning within the next 5 days and save the data.
+In case of absence, a substitute should be designated.</value>
+    </labels>
+    <labels>
+        <fullName>MonthlyReminderBusinessAreaSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MonthlyReminderBusinessAreaSubject</shortDescription>
+        <value>Product Manager</value>
+    </labels>
+    <labels>
+        <fullName>AverageofnotplannedAccounts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Average of not planned Accounts</shortDescription>
+        <value>Average of not planned Accounts</value>
+    </labels>
+    <labels>
+        <fullName>SumofnotplannedAccounts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sum of not planned Accounts</shortDescription>
+        <value>Sum of not planned Accounts</value>
+    </labels>
+    <labels>
+        <fullName>Average</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Average</shortDescription>
+        <value>Average</value>
+    </labels>
+    <labels>
+        <fullName>AverageNetProceeds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Average Net Proceeds</shortDescription>
+        <value>Average Net Proceeds</value>
+    </labels>
+    <labels>
+        <fullName>BusinessArea</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Business Area</shortDescription>
+        <value>Business Area</value>
+    </labels>
+    <labels>
+        <fullName>BusinessAreaProductGroupForPlanning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Business area/ Product group for planning</shortDescription>
+        <value>Business area/ Product group for planning</value>
+    </labels>
+    <labels>
+        <fullName>CancelForSalesPlanning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CancelForSalesPlanning</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>ExportForSalesPlanning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ExportForSalesPlanning</shortDescription>
+        <value>Export</value>
+    </labels>
+    <labels>
+        <fullName>NextPage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Next Page</shortDescription>
+        <value>Next Page</value>
+    </labels>
+    <labels>
+        <fullName>OF</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OF</shortDescription>
+        <value>Of</value>
+    </labels>
+    <labels>
+        <fullName>Page</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Page</shortDescription>
+        <value>Page</value>
+    </labels>
+    <labels>
+        <fullName>PreviousPage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Previous Page</shortDescription>
+        <value>Previous Page</value>
+    </labels>
+    <labels>
+        <fullName>RollingForeCastCurrentYear</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Rolling forecast current year</shortDescription>
+        <value>Rolling forecast current year</value>
+    </labels>
+    <labels>
+        <fullName>SaveFinalVersion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save Final Version</shortDescription>
+        <value>Save final version</value>
+    </labels>
+    <labels>
+        <fullName>Total</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>TotalDrawingGradesNetProceeds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Drawing Grades Net Proceeds</shortDescription>
+        <value>Total Drawing Grades Net Proceeds</value>
+    </labels>
+    <labels>
+        <fullName>TotalDrawingGradesSoldAmounts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Drawing Grades Sold Amounts</shortDescription>
+        <value>Total Drawing Grades Sold Amounts</value>
+    </labels>
+    <labels>
+        <fullName>TotalRecords</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Records</shortDescription>
+        <value>Total Records</value>
+    </labels>
+    <labels>
+        <fullName>TotalSoldAmounts</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total Sold Amounts</shortDescription>
+        <value>Total Sold Amounts</value>
+    </labels>
+      <labels>
+        <fullName>OppCloseDateError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>OppCloseDateError</shortDescription>
+        <value>Please adjust the close date before recalculating.</value>
+    </labels>
+    <labels>
+        <fullName>DrawingGradeLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DrawingGradeLabel</shortDescription>
+        <value>Drawing</value>
+    </labels>
+    <labels>
+        <fullName>ActualValuesFromTheLast12Months</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Actual Values From The Last 12 Months</shortDescription>
+        <value>Actual Values From The Last 12 Months</value>
+    </labels>
+    <labels>
+        <fullName>DeltaNetProceeds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delta Net Proceeds</shortDescription>
+        <value>Delta Net Proceeds</value>
+    </labels>
+    <labels>
+        <fullName>EditDeltaNetProceeds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EditDeltaNetProceeds</shortDescription>
+        <value>Edit Delta Net Proceeds</value>
+    </labels>
+    <labels>
+        <fullName>NetProceeds</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NetProceeds</shortDescription>
+        <value>Net Proceeds (€ / t)</value>
+    </labels>
+    <labels>
+        <fullName>SaveAndSubmit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Save And Submit</shortDescription>
+        <value>Save and Submit</value>
+    </labels>
+    <labels>
+        <fullName>SaveSubmitpopUpMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SaveSubmitpopUpMsg</shortDescription>
+        <value>Are you sure you want to submit the Delta Net Proceeds to the existing Forecast Net Proceeds?</value>
+    </labels>
+    <labels>
+        <fullName>SoldAmount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SoldAmount</shortDescription>
+        <value>Sold Amounts (t)</value>
+    </labels>
+    <labels>
+        <fullName>Account_Summary</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Account Summary</shortDescription>
+        <value>Account Summary</value>
+    </labels>
+    <labels>
+        <fullName>Billing_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Billing Information</shortDescription>
+        <value>Billing Information</value>
+    </labels>
+    <labels>
+        <fullName>CustomErrorForSideLetterDocumentCreation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Custom Error For Side Letter Document Creation</shortDescription>
+        <value>Please complete the respective Technical Remark and the Remark Sales before creating the side letter in the selected language.</value>
+    </labels>
+    <labels>
+        <fullName>Customer_Scoring</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Scoring</shortDescription>
+        <value>Customer Scoring</value>
+    </labels>
+    <labels>
+        <fullName>General_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>General Information</shortDescription>
+        <value>General Information</value>
+    </labels>
+    <labels>
+        <fullName>Internal_Customer_Data</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Internal Customer Data</shortDescription>
+        <value>Internal Customer Data</value>
+    </labels>
+    <labels>
+        <fullName>Sales_Planning_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sales Planning Information</shortDescription>
+        <value>Sales Planning Information</value>
+    </labels>
+    <labels>
+        <fullName>PercentageChangeLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PercentageChangeLabel</shortDescription>
+        <value>Percentage Change</value>
+    </labels>
+    <labels>
+        <fullName>City</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>City</shortDescription>
+        <value>City</value>
+    </labels>
+    <labels>
+        <fullName>Close</fullName> 
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>CustomerNo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer No.</shortDescription>
+        <value>Customer No.</value>
+    </labels>
+    <labels>
+        <fullName>Dillingersalesdepartment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Dillinger sales department</shortDescription>
+        <value>Dillinger sales department</value>
+    </labels>
+    <labels>
+        <fullName>EMail</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>E-Mail</shortDescription>
+        <value>E-Mail</value>
+    </labels>
+    <labels>
+        <fullName>FirstName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>First Name</shortDescription>
+        <value>First Name</value>
+    </labels>
+    <labels>
+        <fullName>LastName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Last Name</shortDescription>
+        <value>Last Name</value>
+    </labels>
+    <labels>
+        <fullName>Nameofyourcompany</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Name of your company</shortDescription>
+        <value>Name of your company</value>
+    </labels>
+    <labels>
+        <fullName>OrderNo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Order No.</shortDescription>
+        <value>Order No. (if available)</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationEmailBody</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Email Body</shortDescription>
+        <value>Thank you for your inquiry.&lt;/br&gt;&lt;/br&gt;
+
+Your registration for the Dillinger myE-Service area has been forwarded to the responsible department. You will receive your login data after verification.&lt;/br&gt;&lt;/br&gt; 
+
+Your entered data:</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationEmailRegards</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Email Regards</shortDescription>
+        <value>With kind regards&lt;/br&gt;&lt;/br&gt; 
+
+Your Dillinger myE-Service team</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationEmailSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Email Subject</shortDescription>
+        <value>myE-Service user registration request</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationFormForgotPassword</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Form Forgot Password</shortDescription>
+        <value>Password forgotten?</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationFormHeader1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Form Header 1</shortDescription>
+        <value>Registration application (for Dillinger Group customers only)</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationFormHeader2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Form Header 2</shortDescription>
+        <value>Please enter your personal data here. The data are sent to a contact at Dillinger Group. After validation you will get your username and password.</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationFormHeader3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Form Header 3</shortDescription>
+        <value>User data</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationFormHeader4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Form Header 4</shortDescription>
+        <value>Customer data</value>
+    </labels>
+    <labels>
+        <fullName>RegistrationFormLogin</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Registration Form Login</shortDescription>
+        <value>Login</value>
+    </labels>
+    <labels>
+        <fullName>Street</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Street</shortDescription>
+        <value>Street</value>
+    </labels>
+    <labels>
+        <fullName>Zipcode</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Zipcode</shortDescription>
+        <value>Zipcode</value>y
+    </labels>
+    <labels>
+        <fullName>QuoteError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QuoteError</shortDescription>
+        <value>Please specify all necessary fields to create a quote.</value>
+    </labels>
+    <labels>
+        <fullName>AppointedDayError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Appointed Day Error</shortDescription>
+        <value>Please set the appointed day for calculation to a date in the future before recalculating.</value>
+    </labels>
+    <labels>
+        <fullName>AppointedDayMissingError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Appointed Day Missing Error</shortDescription>
+        <value>Please enter the missing field Appointed Day Calculation.</value>
+    </labels>
+    <labels>
+        <fullName>Further_Information</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Further Information</shortDescription>
+        <value>Further Information</value>
+    </labels>
+    <labels>
+        <fullName>TermCondition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TermCondition</shortDescription>
+        <value>In order to use the Dillinger on-line platform &quot;myE-Service&quot;, please confirm that you have read and agree to the</value>
+    </labels>
+    <labels>
+        <fullName>TermCondition1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TermCondition1</shortDescription>
+        <value>Terms and Conditions</value>
+    </labels>
+    <labels>
+        <fullName>TermCondition2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>TermCondition2</shortDescription>
+        <value>, by checking the checkbox below.</value>
+    </labels>
+    <labels>
+        <fullName>DocumentLink</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Document Link to hold public link in downloadble version</shortDescription>
+        <value>https://stahl-holding-saar--dev.sandbox.my.salesforce.com/sfc/p/1q0000000NOc/a/1q000000DME7/b9HvYEr9TcaM8IjQVogDCrL6qjFGfsMZIOKkxj9r8O4</value>
+    </labels>
+    <labels>
+        <fullName>AgreeTermConditions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AgreeTermConditions</shortDescription>
+        <value>Agree Term &amp; Conditions</value>
+    </labels>
+    <labels>
+        <fullName>Error_Pricing_Tool_Deactivated</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Error Pricing Tool Deactivated</shortDescription>
+        <value>Pricing Tool was deactivated in the opportunity respectively opportunity line item.</value>
+     </labels>
+     <labels>
+        <fullName>myEServiceBody1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody1</shortDescription>
+        <value>We regret to inform you that your myE-Service account has been blocked due to the expiration of your password. Account security is of utmost importance to us, and we took this step to ensure the protection of your information and the integrity of our system.</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody10</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody10</shortDescription>
+        <value>With kind regards</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody11</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody11</shortDescription>
+        <value>Your Dillinger myE-Service team</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody2</shortDescription>
+        <value>To unblock your account and regain access to myE-Service, please follow these steps:</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody3</shortDescription>
+        <value>1. Visit the myE-Service login page:</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody4</shortDescription>
+        <value>2. Click on the &quot;Password forgotten?&quot; link below the login form</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody5</shortDescription>
+        <value>3. Enter your registered username</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody6</shortDescription>
+        <value>4. Follow the instructions in the password reset email that will be sent to your registered email address</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody7</shortDescription>
+        <value>Upon successfully resetting your password, your account will be unblocked, and you will be able to access myE-Service without any interruptions.</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody8</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody8</shortDescription>
+        <value>If you encounter any difficulties during this process or require assistance, please don&apos;t hesitate to contact us. We are here to help you with any questions or concerns you may have.</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceBody9</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceBody9</shortDescription>
+        <value>Thank you for your cooperation and understanding in this matter.</value>
+    </labels>
+    <labels>
+        <fullName>myEServiceLoginUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>myEServiceLoginUrl</shortDescription>
+        <value>https://stahl-holding-saar--qa.sandbox.my.site.com/dillingermyeservice</value>
+    </labels>
+<labels>
+        <fullName>BackZurack</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>BackZurück</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>CancelAbbrechenSearch</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CancelAbbrechenSearch</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>DeliveryInstructionCriteria</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliveryInstructionCriteria</shortDescription>
+        <value>Delivery Instruction Criteria</value>
+    </labels>
+    <labels>
+        <fullName>DeliveryInstructionCriteriaHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DeliveryInstructionCriteriaHelpText</shortDescription>
+        <value>Enter the Delivery Instruction criteria you want to search related Präkula records for</value>
+    </labels>
+    <labels>
+        <fullName>FoundPrakulaHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FoundPräkulaHelpText</shortDescription>
+        <value>Select the Präkula you want to search related LV Positions for, or create a new Präkula if no relevant record was found</value>
+    </labels>
+    <labels>
+        <fullName>FoundPrakulaandrelatedDeliveryInstructions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FoundPrakulaandrelatedDeliveryInstructions</shortDescription>
+        <value>Found Präkula and related Delivery Instructions</value>
+    </labels>
+    <labels>
+        <fullName>NewPrakulaNeuesPrakula</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>NewPräkulaNeuesPräkula</shortDescription>
+        <value>New Präkula</value>
+    </labels>
+    <labels>
+        <fullName>ProceedWeiter</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ProceedWeiter</shortDescription>
+        <value>Proceed</value>
+    </labels>
+    <labels>
+        <fullName>RelatedLVPositions</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedLVPositions</shortDescription>
+        <value>Related LV Positions</value>
+    </labels>
+    <labels>
+        <fullName>RelatedLVPositionsHelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RelatedLVPositionsHelpText</shortDescription>
+        <value>Select one of the found LV Positions to be related to this OLI, or not select an LV Position and assign the previous selected Präkula to this OLI. In both cases, click on &apos;Proceed&apos;</value>
+    </labels>
+    <labels>
+        <fullName>SearchPrakulaPrakulasuchen</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchPräkulaPräkulasuchen</shortDescription>
+        <value>Search Präkula</value>
+    </labels>
+    <labels>
+        <fullName>ContactDHLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContactDHLabel</shortDescription>
+        <value>Contact</value>
+    </labels>
+    <labels>
+        <fullName>CustomLoginFooter1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLoginFooter1</shortDescription>
+        <value>Innovative top-quality steel products, total orientation 
+around our customers&apos; needs and unceasing 
+technological development in close cooperation with our partners form the basis of our success - as they 
+have for more than 333 years.</value>
+    </labels>
+    <labels>
+        <fullName>CustomLoginFooter2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLoginFooter2</shortDescription>
+        <value>© 2024 Dillinger All rights reserved.</value>
+    </labels>
+    <labels>
+        <fullName>CustomLoginFooter3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLoginFooter3</shortDescription>
+        <value>Imprint</value>
+    </labels>
+    <labels>
+        <fullName>CustomLoginFooter4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLoginFooter4</shortDescription>
+        <value>Data privacy statement</value>
+    </labels>
+    <labels>
+        <fullName>CustomLoginFooter5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLoginFooter5</shortDescription>
+        <value>T&amp;C</value>
+    </labels>
+    <labels>
+        <fullName>CustomLoginFooter6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLoginFooter6</shortDescription>
+        <value>Our newsletter news@dillinger informs you about interesting news and developments at Dillinger – the company, it&apos;s products, examples of steel applications, processing instructions, etc.</value>
+    </labels>
+    <labels>
+        <fullName>CustomLoginFooter7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CustomLoginFooter7</shortDescription>
+        <value>Newsletter subscription</value>
+    </labels>
+    <labels>
+        <fullName>AddAttendeeNoResults</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddAttendeeNoResults</shortDescription>
+        <value>There are no results found.</value>
+    </labels>
+    <labels>
+        <fullName>AddAttendees</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddAttendees</shortDescription>
+        <value>Add Attendees for Visit ;Previous;Next;Cancel;Save;New Attendee;Is Primary Contact;Add New</value>
+    </labels>
+    <labels>
+        <fullName>AddAttendeesMessages</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddAttendeesMessages</shortDescription>
+        <value>Forbidden selection; could not be added as it is already present as an attendee for this visit.;Search contacts from entire org when user hits the &apos;enter&apos; key;Showing search results (max 100 items shown);Showing contacts from visit account (max 100 items shown);Attendees have been successfully added to the visit.;One or more attendees could not be added to the visit</value>
+    </labels>
+    <labels>
+        <fullName>AddChecklist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddChecklist</shortDescription>
+        <value>Selection Empty;No checklists were selected. Please select at least one available checklist before clicking on Add button.;Success;The selected checklists were added to the visit report.;Enter the input text; Enter the input number; Select...;Save;+Add Checklists</value>
+    </labels>
+    <labels>
+        <fullName>AddChecklistErrors</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddChecklistErrors</shortDescription>
+        <value>There are no added checklists for this visit report.</value>
+    </labels>
+    <labels>
+        <fullName>EditCurrentAttendees</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EditCurrentAttendees</shortDescription>
+        <value>Contact;Phone;Account;E-Mail;Comment;Manage Attendees for Visit;There are no attendees linked with this visit at this moment.;The changes have been saved.;The changes can not be saved;Mobile;Department</value>
+    </labels>
+    <labels>
+        <fullName>ManageChecklist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManageChecklist</shortDescription>
+        <value>Add checklists for Visit ;Search for a Checklist you want to add:;Checklist Name;Add;Cancel;No checklists are available.;No results found.</value>
+    </labels>
+    <labels>
+        <fullName>ManageChecklistRemoveButtons</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManageChecklistRemoveButtons</shortDescription>
+        <value>Remove;Yes;No</value>
+    </labels>
+    <labels>
+        <fullName>ManageChecklistRemovePopup</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManageChecklistRemovePopup</shortDescription>
+        <value>Remove Checklist;You are about to remove {0} checklist from {1} visit. This action will be irreversible and all related answers will be lost. Are you sure you want to proceed?</value>
+    </labels>
+    <labels>
+        <fullName>ManagingVisitReports</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ManagingVisitReports</shortDescription>
+        <value>External Attendees;Add and remove attendees;Checklists;Search and add checklist templates;Internal Attendees;</value>
+    </labels>
+    <labels>
+        <fullName>RemoveChecklistSuccessToast</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RemoveChecklistSuccessToast</shortDescription>
+        <value>Success;The checklist was removed from the visit.</value>
+    </labels>
+    <labels>
+        <fullName>SaveChecklistQuestionResponseSuccess</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SaveChecklistQuestionResponseSuccess</shortDescription>
+        <value>Success;The answers were saved for the visit.</value>
+    </labels>
+    <labels>
+        <fullName>Address1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address1</shortDescription>
+        <value>AG der Dillinger Hüttenwerke</value>
+    </labels>
+    <labels>
+        <fullName>Address2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address2</shortDescription>
+        <value>Werkstraße 1</value>
+    </labels>
+    <labels>
+        <fullName>Address3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address3</shortDescription>
+        <value>66763 Dillingen/Saar</value>
+    </labels>
+    <labels>
+        <fullName>Address4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address4</shortDescription>
+        <value>Tel.: +49 6831 47 0</value>
+    </labels>
+    <labels>
+        <fullName>Address5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address5</shortDescription>
+        <value>Fax: +49 6831 47 2212</value>
+    </labels>
+    <labels>
+        <fullName>Address6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address6</shortDescription>
+        <value>E-Mail:</value>
+    </labels>
+    <labels>
+        <fullName>Address7</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Address7</shortDescription>
+        <value>info@dillinger.biz</value>
+    </labels>
+    <labels>
+        <fullName>customWebLink1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>customWebLink1</shortDescription>
+        <value>https://www.dillinger.de/d/en/general/editorial/index.shtml; https://www.dillinger.de/d/en/general/data-privacy-statement/index.shtml;
+https://www.dillinger.de/d/en/general/t-c/index.shtml</value>
+    </labels>
+    <labels>
+        <fullName>ClosedNotifyBody1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ClosedNotifyBody1</shortDescription>
+        <value>The myE-Service user for</value>
+    </labels>
+    <labels>
+        <fullName>ClosedNotifyBody2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ClosedNotifyBody2</shortDescription>
+        <value>has been created and the log in credentials have been sent automatically.</value>
+    </labels>
+    <labels>
+        <fullName>ClosedNotifySubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ClosedNotifySubject</shortDescription>
+        <value>myE-Service user was created</value>
+    </labels>
+    <labels>
+        <fullName>EMailFlow</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>EMailFlow</shortDescription>
+        <value>E-mail</value>
+    </labels>
+    <labels>
+        <fullName>RejectedMailBody1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RejectedMailBody1</shortDescription>
+        <value>Thank you for your interest in registering for our myE-Service customer portal.</value>
+    </labels>
+    <labels>
+        <fullName>RejectedMailBody2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RejectedMailBody2</shortDescription>
+        <value>We would like to inform you that a myE-Service account is most beneficial for our customers who have already placed orders with our company. This portal is designed to enhance the post-order experience by providing valuable features and support tailored to our existing clientele.</value>
+    </labels>
+    <labels>
+        <fullName>RejectedMailBody3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RejectedMailBody3</shortDescription>
+        <value>Upon reviewing our records, we regret to inform you that we currently do not have your company listed as a client, and consequently, there are no associated orders that would warrant granting electronic access through myE-Service. Given this circumstance, providing a special access at this moment does not align with our existing operational framework.</value>
+    </labels>
+    <labels>
+        <fullName>RejectedMailBody4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RejectedMailBody4</shortDescription>
+        <value>Thank you for your understanding and your interest in our services.</value>
+    </labels>
+    <labels>
+        <fullName>RejectedMailSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>RejectedMailSubject</shortDescription>
+        <value>MyE-Service registration application</value>
+    </labels>
+    <labels>
+        <fullName>UserCreationSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserCreationSubject</shortDescription>
+        <value>Please create the user for myE-Service with the appropriate information:</value>
+    </labels>
+    <labels>
+        <fullName>UserType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>UserType</shortDescription>
+        <value>User Type</value>
+    </labels>
+    <labels>
+        <fullName>Sorting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sorting</shortDescription>
+        <value>Sorting</value>
+    </labels>
+    <labels>
+        <fullName>Sorting1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sorting1</shortDescription>
+        <value>from A to Z</value>
+    </labels>
+    <labels>
+        <fullName>Sorting2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sorting2</shortDescription>
+        <value>from Z to A</value>
+    </labels>
+    <labels>
+        <fullName>Sorting3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sorting3</shortDescription>
+        <value>quantity ascending total / year</value>
+    </labels>
+    <labels>
+        <fullName>Sorting4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sorting4</shortDescription>
+        <value>quantity descending total / year</value>
+    </labels>
+    <labels>
+        <fullName>Sorting5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sorting5</shortDescription>
+        <value>quantity ascending month</value>
+    </labels>
+    <labels>
+        <fullName>Sorting6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Sorting6</shortDescription>
+        <value>quantity descending month</value>
+    </labels>
+    <labels>
+        <fullName>SearchPrakulaScreenLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SearchPrakulaScreenLabel</shortDescription>
+        <value>Type;Title;Date Of Issue;Publisher;Heat treatment;Dimension A From;Dimension A To;Select</value>
+    </labels>
+    <labels>
+        <fullName>newEmailAddressChangeBody1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>newEmailAddressChangeBody1</shortDescription>
+        <value>We received a request to change the email address for the username</value>
+    </labels>
+    <labels>
+        <fullName>newEmailAddressChangeBody2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>newEmailAddressChangeBody2</shortDescription>
+        <value>Please make sure the following changes are correct:</value>
+    </labels>
+    <labels>
+        <fullName>newEmailAddressChangeBody3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>newEmailAddressChangeBody3</shortDescription>
+        <value>Previous email address:</value>
+    </labels>
+    <labels>
+        <fullName>newEmailAddressChangeBody4</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>newEmailAddressChangeBody4</shortDescription>
+        <value>New email address:</value>
+    </labels>
+    <labels>
+        <fullName>newEmailAddressChangeBody5</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>newEmailAddressChangeBody5</shortDescription>
+        <value>To finish changing your email address, go to the following link. This link expires in 72 hours.</value>
+    </labels>
+    <labels>
+        <fullName>newEmailAddressChangeBody6</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>newEmailAddressChangeBody6</shortDescription>
+        <value>After you confirmed the change of your email address, your user name will be updated as well to the format email address.dillinger, e.g. test@email.com.dillinger. If the change in your email address results in a user name which already exists, we will reach out to you.</value>
+    </labels>
+    <labels>
+        <fullName>newEmailAddressChangeSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>newEmailAddressChangeSubject</shortDescription>
+        <value>myE-Service: change of email address for username</value>
+    </labels>
+    <labels>
+        <fullName>ComplianceCheckForExisitingOpportunities</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ComplianceCheckForExisitingOpportunities</shortDescription>
+        <value>ATTENTION: The compliance check for the account has failed.</value>
+    </labels>
+    <labels>
+        <fullName>ContactRichTextLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContactRichTextLabel</shortDescription>
+        <value>The compliance check for the related account has failed, therefore the contact can&apos;t be edited.</value>
+    </labels>
+    <labels>
+        <fullName>CustomerNumber</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Customer Number</shortDescription>
+        <value>Customer Number</value>
+    </labels>
+    <labels>
+        <fullName>QueueAssigmentBody1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QueueAssigmentBody1</shortDescription>
+        <value>Please check the request below and then create it:</value>
+    </labels>
+    <labels>
+        <fullName>QueueAssigmentSubject</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QueueAssigmentSubject</shortDescription>
+        <value>myE-Service user registration request</value>
+    </labels>
+    <labels>
+        <fullName>Request</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Request</shortDescription>
+        <value>Request</value>
+    </labels>
+    <labels>
+        <fullName>LinkToSP</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LinkToSP</shortDescription>
+        <value>Link to Sales Planning table url</value>
+    </labels>
+    <labels>
+        <fullName>LinkToSPUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LinkToSPUrl</shortDescription>
+        <value>https://stahl-holding-saar--qa.sandbox.lightning.force.com/lightning/n/SalesPlanning</value>
+    </labels>
+    <labels>
+        <fullName>Recordsperpage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Recordsperpage</shortDescription>
+        <value>Records per page</value>
+    </labels>
+    <labels>
+        <fullName>FinishedGoodsHeader</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FinishedGoodsHeader</shortDescription>
+        <value>Finished Goods Name; Product; Steel Grade; Dimension A ; Dimension B; Select</value>
+    </labels>
+    <labels>
+        <fullName>FinishedGoodsScreen1HelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FinishedGoodsScreen1HelpText</shortDescription>
+        <value>Please enter the finished goods criteria you want to search for</value>
+    </labels>
+    <labels>
+        <fullName>FinishedMaterialCriteria</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Finished Material Criteria</shortDescription>
+        <value>Finished Material Criteria</value>
+    </labels>
+    <labels>
+        <fullName>FinsihedGoodsScreen2HelpText</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>FinsihedGoodsScreen2HelpText</shortDescription>
+        <value>Please select the appropriate Finished Goods</value>
+    </labels>
+    <labels>
+        <fullName>FoundFinishedGoods</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Found Finished Goods</shortDescription>
+        <value>Found Finished Goods</value>
+    </labels>
+    <labels>
+        <fullName>SearchFinishedGoods</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Search Finished Goods</shortDescription>
+        <value>Search Finished Goods</value>
+    </labels>
+    <labels>
+        <fullName>SelectFinishedGoods</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Select Finished Goods</shortDescription>
+        <value>Select Finished Goods</value>
+    </labels>
+    <labels>
+        <fullName>SteelGrade</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SteelGrade</shortDescription>
+        <value>Steel Grade</value>
+    </labels>
+</CustomLabels>

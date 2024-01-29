@@ -1,0 +1,75 @@
+<template>
+<template if:true={isOpen}>
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open slds-modal_x-small">
+            <div class="slds-modal__container">
+                <template if:true={showSpinner}>
+                    <div class="carouselSpinner">
+                        <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                    </div>
+                </template>
+                    <header class="slds-modal__header">
+                        <lightning-button-icon class="slds-modal__close" variant="bare-inverse" size="large" title="Close"
+                        icon-name="utility:close" onclick={closeModalManageChecklists}></lightning-button-icon>
+                        <h2 class="slds-modal__title slds-hyphenate">{title}</h2>
+                    </header>
+                    <div class="slds-modal__content slds-p-around_medium table-scroll" if:false={displayMessage}>    
+                        <div class="search-bar">
+                            <div>
+                                <lightning-input type="search" label={SearchText} onkeyup={handleKeyChange} onchange={handleKeyChange}></lightning-input>
+                            </div>
+                        </div>
+                        </br>
+                        <template if:true={hasRows}>
+                            <div>
+                                <table class="slds-table slds-table--bordered">
+                                    <thead>
+                                        <tr class="slds-line-height_reset">
+                                            <th class="slds-border_left slds-border_right slds-text-align_center ac-tableHeader ac-checkbox" scope="col">
+                                                <lightning-input data-name="mainCheckbox" type="checkbox" onchange={allChecked} class="checkbox-input-style"> </lightning-input>
+                                            </th>
+                                            <th class="slds-border_right ac-tableHeader" scope="col">
+                                                <div class="slds-truncate" title={ChecklistName}>{ChecklistName}</div>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody  if:true={displayTable}>
+                                        <template for:each={listOfChecklist} for:item="checklist">
+                                            <tr class="slds-hint-parent" key={checklist.Id}>
+                                                <td class="slds-text-align_center">
+                                                    <lightning-input data-id={checklist.Id} data-name="checkbox" type="checkbox" checked={checklist.Checked} onchange={eventChecked} class="checkbox-input-style"> </lightning-input>
+                                                </td>
+                                                <td>
+                                                    <template if:true={isSmallFormFactor}>
+                                                        <div class="ellipsis-text-small" title="">{checklist.Name}</div>
+                                                    </template>
+                                                    <template if:true={isMediumFormFactor}>
+                                                        <div class="ellipsis-text-medium" title="">{checklist.Name}</div>
+                                                    </template>
+                                                    <template if:true={isLargeFormFactor}>
+                                                        <div title="">{checklist.Name}</div>
+                                                    </template>
+                                                </td>
+                                            </tr>
+                                        </template>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </template>
+                        <template if:false={hasRows}>
+                            <div class="noRows-message">{noRowsMessage}</div>
+                        </template>
+                    </div>
+                    <div class="slds-modal__content slds-p-around_medium" if:true={displayMessage}>
+                        <h2 class="style-text">{ChecklistMessage}</h2>
+                    </div>
+                <footer class="slds-modal__footer">
+                    <slot name="footer" class="footer-class">
+                        <lightning-button class="ac-addBtn" onclick={addChecklist} label={AddButton} if:true={displayTable}></lightning-button>
+                        <lightning-button class="ac-cancelBtn" onclick={closeModalManageChecklists} label={CancelButton}></lightning-button>                
+                    </slot>
+                </footer>
+            </div>
+        </section>
+     <div class="slds-backdrop slds-backdrop_open"></div>
+    </template>
+</template>

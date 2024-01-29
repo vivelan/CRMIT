@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>DHFinishedGoodsSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>DH Finished Goods Sharing Rule</label>
+        <sharedTo>
+            <role>DH</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>DH</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SAGFinishedGoodsSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SAG Finished Goods Sharing Rule</label>
+        <sharedTo>
+            <role>SAG</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SAG</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SHSFinishedGoodsSharingRule</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>SHS Finished Goods Sharing Rule</label>
+        <sharedTo>
+            <role>SHS</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>SHS</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

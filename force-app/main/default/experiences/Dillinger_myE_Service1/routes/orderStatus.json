@@ -1,0 +1,12 @@
+{
+  "activeViewId" : "66c996d9-8370-4706-98f3-c0370319a0ba",
+  "appPageId" : "a3e0f14f-7867-4f35-94b0-99ee54fe5116",
+  "configurationTags" : [ ],
+  "devName" : "Order_Status__c",
+  "id" : "34545492-a3df-4bb9-8e47-f207befacd3d",
+  "label" : "Order Status",
+  "pageAccess" : "UseParent",
+  "routeType" : "custom-order-status",
+  "type" : "route",
+  "urlPrefix" : "production-status/order-status"
+}
