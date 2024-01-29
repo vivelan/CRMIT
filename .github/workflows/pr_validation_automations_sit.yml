@@ -58,6 +58,8 @@ jobs:
               run: |
                   node --version
                   npm install @salesforce/cli --global
+                  echo "$HOME/.npm/bin" >> $GITHUB_PATH
+                  sfdx --version  # Verify Salesforce CLI installation
             # Then we install the SFDX-Git-Delta plugin - https://github.com/scolladon/sfdx-git-delta
             # This is an awesome plugin that allows us to extract a package.xml with the metadata
             # that has changed between commits. I highly recommend going over the github readme 
