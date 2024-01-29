@@ -56,6 +56,7 @@ jobs:
             # Now Install Salesforce CLI
             - name: 'Install Salesforce CLI'
               run: |
+                  node --version
                   npm install @salesforce/cli --global
             # Then we install the SFDX-Git-Delta plugin - https://github.com/scolladon/sfdx-git-delta
             # This is an awesome plugin that allows us to extract a package.xml with the metadata
