@@ -95,10 +95,10 @@ jobs:
             - name: 'Populate auth file with SFDX_URL secret of sit org'
               shell: bash
               run: |
-                  echo ${{ secrets.SFDX_DEV_URL}} > ./SFDX_DEV_URL.txt
+                  echo ${{ secrets.SFDX_SIT_URL}} > ./SFDX_SIT_URL.txt
             # Authenticate to org using the URL stored in the text file
             - name: 'Authenticate to SIT Org'
-              run: sf org login sfdx-url -f ./SFDX_DEV_URL.txt -s -a dev
+              run: sf org login sfdx-url -f ./SFDX_SIT_URL.txt -s -a dev
 
             # We use SFDX Git Delta to create a directory with only the metadata that has changed.
             # this allows us to deploy only those changes, as opposed to deploying the entire branch. 
@@ -122,13 +122,7 @@ jobs:
             # Check for changes and deploy in descriptive changes directory
             - name: 'Deploy destructive changes (if any)'
               run: |
-                descriptive_files=$(git diff --name-only --diff-filter=d HEAD~1..HEAD | grep "^descriptive-changes/" | wc -l)
-                if [ $descriptive_files -gt 0 ]; then
-                  echo "Changes detected in descriptive changes directory."
                   sfdx project deploy start --metadata-dir "changed-sources/destructiveChanges" --dry-run -w 1000 --json
-                else
-                  echo "No changes detected in descriptive changes directory."
-                fi
 
             #- name: 'Check-only deploy delta changes - run specified tests'
             #  if: ${{ env.APEX_TESTS != 'all' }}
