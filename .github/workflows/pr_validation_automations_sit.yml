@@ -11,7 +11,7 @@ on:
       # The branches filter allows to specify that this workflow should only
       # run if the branch name is as below. This way we prevent this workflow
       # from running when PRs are opened on other branches
-      branches: [ main ]
+      branches: [ environment/sit ]
       # We only care about changes to the force-app directory, which is the
       # root directory of the sfdx project. This prevents the job from running
       # when changing non-salesforce files (like this yml file).
@@ -98,7 +98,7 @@ jobs:
                   echo ${{ secrets.SFDX_SIT_URL}} > ./SFDX_SIT_URL.txt
             # Authenticate to org using the URL stored in the text file
             - name: 'Authenticate to SIT Org'
-              run: sf org login sfdx-url -f ./SFDX_SIT_URL.txt -s -a dev
+              run: sf org login sfdx-url -f ./SFDX_SIT_URL.txt -s -a sit
 
             # We use SFDX Git Delta to create a directory with only the metadata that has changed.
             # this allows us to deploy only those changes, as opposed to deploying the entire branch. 
@@ -106,7 +106,7 @@ jobs:
             - name: 'Create delta packages for new, modified or deleted metadata'
               run: | 
                   mkdir changed-sources
-                  sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
+                  sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/ 
 
              # Check for changes and deploy in force-app directory
             - name: 'Check-only deploy delta changes - run all tests'
@@ -114,7 +114,7 @@ jobs:
                 changed_files=$(git diff --name-only --diff-filter=d HEAD~1..HEAD | grep "^force-app/" | wc -l)
                 if [ $changed_files -gt 0 ]; then
                   echo "Changes detected in force-app directory."
-                  sfdx project deploy start --source-dir "changed-sources/force-app" --dry-run -a 59.0  -w 1000 --json
+                  sfdx project deploy start --source-dir "changed-sources/force-app" --test-level RunLocalTests --dry-run -a 59.0  -w 1000 --json
                 else
                   echo "No changes detected in force-app directory."
                 fi
@@ -122,23 +122,7 @@ jobs:
             # Check for changes and deploy in descriptive changes directory
             - name: 'Deploy destructive changes (if any)'
               run: |
-                  sfdx project deploy start --metadata-dir "changed-sources/destructiveChanges" --dry-run -w 1000 --json
-
-            #- name: 'Check-only deploy delta changes - run specified tests'
-            #  if: ${{ env.APEX_TESTS != 'all' }}
-            #  run: |
-            #      echo ${{env.APEX_TESTS}}
-            #      sfdx force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunSpecifiedTests --runtests ${{env.APEX_TESTS}} --json
-            # If the env variable equals all, we run all tests
-            # - name: 'Check-only deploy delta changes - run all tests'
-            #   if: steps.create_delta.outputs.delta != 'No changes detected.' && env.FORCE_APP_CHANGES == 'true'
-            #   run: |
-            #     sfdx project deploy start --source-dir "changed-sources/force-app" --test-level RunLocalTests --dry-run -a 59.0  -w 1000 --json
-
-            # - name: 'Deploy destructive changes (if any)'
-            #   if: steps.check_descriptive_changes.outputs.descriptive_changes == 'true'
-            #   run: |
-            #     sfdx project deploy start --metadata-dir "changed-sources/destructiveChanges" --test-level RunLocalTests --dry-run -w 1000 --json      
+                  sfdx project deploy start --metadata-dir "changed-sources/destructiveChanges" --test-level RunLocalTests --dry-run -w 1000 --json     
 
           # Housekeeping           
             - name: "Clean-up local files"
