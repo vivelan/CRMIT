@@ -106,8 +106,19 @@ jobs:
             - name: 'Create delta packages for new, modified or deleted metadata'
               run: | 
                   mkdir changed-sources
-                  sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/ 
-            
+                  sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/
+                   
+            - name: 'Check for changes in force-app directory'
+              id: check_force_app_changes
+              run: |
+                changed_files=$(git log --name-only --pretty=format: --since="1 day ago" | grep "^force-app/" | wc -l)
+                if [ $changed_files -gt 0 ]; then
+                  echo "Changes detected in force-app directory."
+                  echo "::set-output name=force_app_changes::true"
+                else
+                  echo "No changes detected in force-app directory."
+                  echo "::set-output name=force_app_changes::false"
+                fi
             #- name: 'Check-only deploy delta changes - run specified tests'
             #  if: ${{ env.APEX_TESTS != 'all' }}
             #  run: |
