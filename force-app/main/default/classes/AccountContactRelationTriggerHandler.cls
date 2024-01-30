@@ -32,4 +32,4 @@ public with sharing class AccountContactRelationTriggerHandler extends TriggerHa
           }
       }
       
-  }
+  } 
