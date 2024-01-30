@@ -141,7 +141,7 @@ jobs:
             #      sfdx force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunSpecifiedTests --runtests ${{env.APEX_TESTS}} --json
             # If the env variable equals all, we run all tests
             - name: 'Check-only deploy delta changes - run all tests'
-              if: steps.create_delta.outputs.delta != 'No changes detected.' && steps.check_force_app_changes.outputs.force_app_changes == 'true'
+              if: steps.create_delta.outputs.delta != 'No changes detected.' && env.FORCE_APP_CHANGES == 'true'
               run: |
                 sfdx project deploy start --source-dir "changed-sources/force-app" --test-level RunLocalTests --dry-run -a 59.0  -w 1000 --json
 
