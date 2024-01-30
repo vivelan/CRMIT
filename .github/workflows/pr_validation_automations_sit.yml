@@ -108,6 +108,30 @@ jobs:
                   mkdir changed-sources
                   sfdx sgd:source:delta --to "HEAD" --from "HEAD^" --output changed-sources/ --generate-delta --source force-app/ 
 
+            - name: 'Check for changes in force-app directory'
+              id: check_force_app_changes
+              run: |
+                git diff --quiet HEAD^ -- force-app/
+                if [ $? -eq 0 ]; then
+                  echo "No changes detected in force-app directory."
+                  echo "::set-output name=force_app_changes::false"
+                else
+                  echo "Changes detected in force-app directory."
+                  echo "::set-output name=force_app_changes::true"
+                fi
+
+            - name: 'Check for changes in destructiveChanges directory'
+              id: check_destructive_changes
+              run: |
+                git diff --quiet HEAD^ -- destructiveChanges/
+                if [ $? -eq 0 ]; then
+                  echo "No changes detected in destructiveChanges directory."
+                  echo "::set-output name=destructive_changes::false"
+                else
+                  echo "Changes detected in destructiveChanges directory."
+                  echo "::set-output name=destructive_changes::true"
+                fi
+
             #- name: 'Check-only deploy delta changes - run specified tests'
             #  if: ${{ env.APEX_TESTS != 'all' }}
             #  run: |
@@ -116,11 +140,13 @@ jobs:
             # If the env variable equals all, we run all tests
             - name: 'Check-only deploy delta changes - run all tests'
             #  if: ${{ env.APEX_TESTS == 'all' }}
+              if: steps.create_delta.outputs.delta != 'No changes detected.' && steps.check_force_app_changes.outputs.force_app_changes == 'true'
               run: |
                   sfdx project deploy start --source-dir "changed-sources/force-app" --test-level RunLocalTests --dry-run -a 59.0  -w 1000 --json
 
             
             - name: 'Deploy destructive changes (if any)'
+              if: steps.check_destructive_changes.outputs.destructive_changes == 'true'
               run: |
                  sfdx project deploy start --metadata-dir "changed-sources/destructiveChanges" --test-level RunLocalTests --dry-run -w 1000 --json      
 
