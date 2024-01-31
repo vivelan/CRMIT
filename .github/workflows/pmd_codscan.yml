@@ -40,7 +40,7 @@ jobs:
         steps:
       
             # Now we install nodejs in the VM, and specify version 14
-            - uses: actions/setup-node@v4.0.1
+            - uses: actions/setup-node@v4
               with:
                 node-version: '20'
 
