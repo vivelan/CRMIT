@@ -40,7 +40,7 @@ jobs:
         steps:
       
             # Now we install nodejs in the VM, and specify version 14
-            - uses: actions/setup-node@v4
+            - uses: actions/setup-node@v4.0.1
               with:
                 node-version: '20'
 
@@ -63,7 +63,7 @@ jobs:
             
             # Run PMD Scan
             - name: 'Run PMD Scan'
-              uses: pmd/pmd-github-action@v2
+              uses: pmd/pmd-github-action@v1
               id: pmd
               with: 
                     sourcePath: 'force-app'
