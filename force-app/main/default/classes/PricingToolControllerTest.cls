@@ -149,7 +149,7 @@ public class PricingToolControllerTest {
         orgWideSetting.Rawmateriallastupdatedon__c = System.today().addMonths(5);   
         opplst[0].AppointedDayCalculation__c = System.today().addMonths(1);
         update opplst;
-        if(!oliToUpdate.isEmpty())
+        if(!oliToUpdate.isEmpty()) 
        		update oliToUpdate;
          
        	Test.startTest();
