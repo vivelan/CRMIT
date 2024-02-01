@@ -11,13 +11,17 @@ jobs:
       contents: read
       pull-requests: write
     steps:
+    # Now we install nodejs in the VM, and specify version 14
+    - uses: actions/setup-node@v4
+      with:
+        node-version: '20'
     - name: Label PR type
       uses: TimonVS/pr-labeler-action@v4
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       continue-on-error: true
     - name: Label PR size
-      uses: "pascalgn/size-label-action@v0.4.2"
+      uses: "pascalgn/size-label-action@v0.5.0"
       env:
         GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         IGNORED: ".gitignore\n.coveragerc\ncore/migrations/**"

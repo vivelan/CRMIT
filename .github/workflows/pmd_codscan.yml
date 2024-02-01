@@ -40,9 +40,9 @@ jobs:
         steps:
       
             # Now we install nodejs in the VM, and specify version 14
-            - uses: actions/setup-node@v3
+            - uses: actions/setup-node@v4
               with:
-                node-version: '14'
+                node-version: '18'
 
             # The idea is that the VM can access your remote repository
             # because your repository is an sfdx project.
@@ -57,13 +57,13 @@ jobs:
             # to the destination org
 
             - name: 'Checkout source code'
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                 fetch-depth: 0
             
             # Run PMD Scan
             - name: 'Run PMD Scan'
-              uses: pmd/pmd-github-action@v1
+              uses: pmd/pmd-github-action@main
               id: pmd
               with: 
                     sourcePath: 'force-app'

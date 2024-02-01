@@ -31,9 +31,9 @@ jobs:
         if: ${{ github.actor != 'dependabot[bot]' }}
         steps:
             # Now we install nodejs in the VM, and specify version 14
-            - uses: actions/setup-node@v3
+            - uses: actions/setup-node@v4
               with:
-                node-version: '14'
+                node-version: '20'
 
             # The idea is that the VM can access your remote repository
             # because your repository is an sfdx project.
@@ -48,7 +48,7 @@ jobs:
             # to the destination org
 
             - name: 'Checkout source code'
-              uses: actions/checkout@v3
+              uses: actions/checkout@v4
               with:
                 fetch-depth: 0
             
@@ -56,11 +56,11 @@ jobs:
             # Now Install Salesforce CLI
             - name: 'Install Salesforce CLI'
               run: |
-                  wget https://developer.salesforce.com/media/salesforce-cli/sfdx/channels/stable/sfdx-linux-x64.tar.xz
-                  mkdir ~/sfdx
-                  tar xJf sfdx-linux-x64.tar.xz -C ~/sfdx --strip-components 1
-                  echo "$HOME/sfdx/bin" >> $GITHUB_PATH
-                  ~/sfdx/bin/sfdx version
+                  wget https://developer.salesforce.com/media/salesforce-cli/sf/channels/stable/sf-linux-x64.tar.xz
+                  mkdir -p ~/cli/sf
+                  tar xJf sf-linux-x64.tar.xz -C ~/cli/sf --strip-components 1
+                  echo "$HOME/cli/sf/bin" >> $GITHUB_PATH
+                  ~/cli/sf/bin/sfdx version
             # Then we install the SFDX-Git-Delta plugin - https://github.com/scolladon/sfdx-git-delta
             # This is an awesome plugin that allows us to extract a package.xml with the metadata
             # that has changed between commits. I highly recommend going over the github readme 
@@ -98,7 +98,7 @@ jobs:
                   echo ${{ secrets.SFDX_UAT_URL}} > ./SFDX_UAT_URL.txt
             # Authenticate to org using the URL stored in the text file
             - name: 'Authenticate to UAT Org'
-              run: sfdx auth:sfdxurl:store -f ./SFDX_UAT_URL.txt -s -a uat
+              run: sf org login sfdx-url -f ./SFDX_UAT_URL.txt -s -a uat
 
             # We use SFDX Git Delta to create a directory with only the metadata that has changed.
             # this allows us to deploy only those changes, as opposed to deploying the entire branch. 
@@ -116,20 +116,21 @@ jobs:
             # If the env variable does not equal 'all', we know that there is a list of
             # tests that can be run
 
-            #- name: 'Check-only deploy delta changes - run specified tests'
-            #  if: ${{ env.APEX_TESTS != 'all' }}
-            #  run: |
-            #      echo ${{env.APEX_TESTS}}
-            #      sfdx force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunSpecifiedTests --runtests ${{env.APEX_TESTS}} --json
-            # If the env variable equals all, we run all tests
+            # Check for changes and deploy in force-app directory
             - name: 'Check-only deploy delta changes - run all tests'
-            #  if: ${{ env.APEX_TESTS == 'all' }}
               run: |
-                  sfdx force:source:deploy -p "changed-sources/force-app" --checkonly --testlevel RunLocalTests  --json
-            
+                changed_files=$(git diff --name-only --diff-filter=d HEAD~1..HEAD | grep "^force-app/" | wc -l)
+                if [ $changed_files -gt 0 ]; then
+                  echo "Changes detected in force-app directory."
+                  sfdx project deploy start --source-dir "changed-sources/force-app" --test-level RunLocalTests --dry-run -a 59.0  -w 1000 --json
+                else
+                  echo "No changes detected in force-app directory."
+                fi
+
+            # Check for changes and deploy in descriptive changes directory
             - name: 'Deploy destructive changes (if any)'
               run: |
-                 sfdx force:mdapi:deploy -d "changed-sources/destructiveChanges" --checkonly --ignorewarnings
+                  sfdx project deploy start --metadata-dir "changed-sources/destructiveChanges" --test-level RunLocalTests --dry-run -w 1000 --json
 
           # Housekeeping           
             - name: "Clean-up local files"

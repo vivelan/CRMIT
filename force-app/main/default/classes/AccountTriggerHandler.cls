@@ -6,7 +6,7 @@
 *****************************************************************************
 * Modification log
 * Name		Date	           		Description
-* Developer Name	Date of Modification	Modification Description  
+* Developer Name	Date of Modification	Modification Description   
 ****************************************************************************/
 public with sharing class AccountTriggerHandler extends TriggerHandler{
 
