@@ -5,5 +5,5 @@
 * Description: Test class for Quote Trigger  
 *****************************************************************************/
 public class Dummy {
-     
+      
 }
