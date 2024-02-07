@@ -18,3 +18,4 @@ OR(
 )</errorConditionFormula>
     <errorMessage>It is not possible to change the account type for a customer.</errorMessage>
 </ValidationRule>
+ 

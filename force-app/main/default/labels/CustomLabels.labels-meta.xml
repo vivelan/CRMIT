@@ -13,7 +13,7 @@
         <protected>false</protected>
         <shortDescription>Communication Details</shortDescription>
         <value>Communication Details</value>
-    </labels>
+    </labels> 
     <labels>
         <fullName>ContactInformation</fullName>
         <language>en_US</language>
