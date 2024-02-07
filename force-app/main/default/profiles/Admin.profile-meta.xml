@@ -15,7 +15,7 @@
         <application>standard__LightningSalesConsole</application>
         <default>false</default>
         <visible>true</visible>
-    </applicationVisibilities>
+    </applicationVisibilities> 
     <applicationVisibilities>
         <application>standard__Sales</application>
         <default>false</default>

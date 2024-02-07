@@ -12,7 +12,7 @@ public class AccountContactRelationHandlerTest {
         PermissionSetAssignment psa = new PermissionSetAssignment();
         psa.AssigneeId = user[0].Id;
         psa.PermissionSetId = ps.Id;
-        insert psa;
+        insert psa; 
         System.runAs(user[0]) {
             List<AccountContactRelation> accContList = new List<AccountContactRelation>();
             List<Account> act = TestDataFactory.createAccounts(1);

@@ -13,7 +13,7 @@
                 <elementReference>CheckAddressfromOrgWide.DHAddress__c</elementReference>
             </value>
         </assignmentItems>
-    </assignments>
+    </assignments> 
     <assignments>
         <description>Assigning SAG Address</description>
         <name>Assign_SAG_Address</name>
