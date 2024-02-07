@@ -5,7 +5,7 @@ name: Deploy qa branch changes to qa org
 # Definition when the workflow should run
 on:
     push:
-      branches: [ environment/qa ]
+      branches: [ environment/*/dev , environment/qa ]
       paths:
         - 'force-app/**'
             
