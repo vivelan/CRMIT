@@ -1998,4 +1998,11 @@ https://www.dillinger.de/d/en/general/t-c/index.shtml</value>
         <shortDescription>SteelGrade</shortDescription>
         <value>Steel Grade</value>
     </labels>
+     <labels>
+        <fullName>SteelGrade1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SteelGrade1</shortDescription>
+        <value>Steel Grade1</value>
+    </labels>
 </CustomLabels>
