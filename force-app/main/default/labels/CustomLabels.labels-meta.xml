@@ -1992,7 +1992,7 @@ https://www.dillinger.de/d/en/general/t-c/index.shtml</value>
         <value>Select Finished Goods</value>
     </labels>
     <labels>
-        <fullName>SteelGrade</fullName>
+        <fullName>SteelGrade</fullName> 
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>SteelGrade</shortDescription>
